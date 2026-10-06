@@ -1,0 +1,1043 @@
+{
+ "slug": "sle",
+ "name": "紅斑性狼瘡",
+ "intro": "這頁整理紅斑性狼瘡的生活照護：防曬、戒菸、運動、疲倦與心情、飲食與定期檢查、懷孕計畫。生活照護可以搭配藥物，但不能取代需要的藥物治療。",
+ "cards": [
+  {
+   "id": "sle-sun",
+   "title": "做好防曬",
+   "summary": "紫外線可能誘發狼瘡發作，外出要做好防曬。",
+   "illustration": "A person outdoors on a sunny day wearing a hat, sunglasses, a long-sleeved top and long trousers, applying sunscreen to the face; no text, no brands.",
+   "points": [
+    {
+     "text": "紫外線可能誘發皮膚和全身的狼瘡發作；做好防曬，有助預防發作。",
+     "strength_label": "EULAR 2024・建議強度 C",
+     "evidence": [
+      {
+       "c": "C21",
+       "s": "S04",
+       "quote": "In people with SLE, photoprotection should be advised for the prevention of flares (LoE: 4).",
+       "strength": "LoE 4; SoR C; LoA 9.2 (1.0)",
+       "confidence": "High"
+      },
+      {
+       "c": "C20",
+       "s": "S04",
+       "quote": "Ultraviolet (UV) radiation is a well-acknowledged triggering factor of cutaneous and systemic lupus flares.",
+       "strength": "—",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-1.1"
+    },
+    {
+     "text": "選擇高係數、廣效（同時防 UVA 和 UVB）的防曬乳：SPF 30 以上，UVA 防護等級也要高。",
+     "strength_label": "BSR 2026・強烈建議（1B）",
+     "evidence": [
+      {
+       "c": "C25",
+       "s": "S02",
+       "quote": "People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B)…",
+       "strength": "Sunscreen part: 1B (strong; moderate evidence). SoA 96.9%.",
+       "confidence": "High"
+      },
+      {
+       "c": "C28",
+       "s": "S01",
+       "quote": "Due to the lack of high-quality evidence, we adopted the recommendation by the BAD (i.e. high SPF as defined by at least 30 and with a UV-A logo or UV-A with 4-star or 5-star protection).",
+       "strength": "Adopted from BAD; not separately graded",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-1.2"
+    },
+    {
+     "text": "至少每 2 小時補擦一次防曬乳，不論 SPF 多高。",
+     "strength_label": "BSR 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C29",
+       "s": "S01",
+       "quote": "The sunscreen should be reapplied at least every two hours, regardless of its SPF [].",
+       "strength": "Adopted from BAD; not separately graded",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-1.3"
+    },
+    {
+     "text": "減少曬太陽：外出時戴帽子、太陽眼鏡，穿長袖上衣和長褲。",
+     "strength_label": "BSR 2026・強烈建議（1D）",
+     "evidence": [
+      {
+       "c": "C26",
+       "s": "S02",
+       "quote": "...and to consider safe sun exposure strategies such as reduced sun exposure and the use of protective clothing (1D)...",
+       "strength": "1D (strong; very-low-quality evidence); SoA 96.9%",
+       "confidence": "High"
+      },
+      {
+       "c": "C27",
+       "s": "S01",
+       "quote": "...consider safe sun exposure strategies such as reduced sun exposure and the use of protective clothing (e.g. physical barriers such as hats, sunglasses, long-sleeved shirts, trousers, leggings and dresses).",
+       "strength": "Rationale (not separately graded)",
+       "confidence": "High"
+      },
+      {
+       "c": "C22",
+       "s": "S04",
+       "quote": "…use physical barriers such as hats, sunglasses and long-sleeved shirts and pants…",
+       "strength": "Expert opinion plus LoE 4 evidence",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-1.4"
+    },
+    {
+     "text": "盡量避免陽光直射，紫外線指數偏高的日子更要注意。",
+     "strength_label": "EULAR 2024・指引說明",
+     "evidence": [
+      {
+       "c": "C22",
+       "s": "S04",
+       "quote": "…people with SLE should avoid direct sun exposure, especially during days with high UV index…",
+       "strength": "Expert opinion plus LoE 4 evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "C24",
+       "s": "S03",
+       "quote": "...although patients with lupus should particularly avoid sun exposure due to the characteristic photosensitivity of the disease.",
+       "strength": "—",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-1.5"
+    }
+   ],
+   "tip": {
+    "text": "出門前查中央氣象署紫外線指數：3 以上就要做好防曬（中午找陰涼處、穿長袖、擦防曬乳、戴帽子）；8 以上（過量級、危險級）時，中午時段盡量不要待在戶外。",
+    "strength_label": "WHO 2002・指引說明",
+    "evidence": [
+     {
+      "c": "common:C83",
+      "s": "common:S11",
+      "quote": "\"EXTRA PROTECTION\" (UVI 8+): \"Avoid being outside during midday hours\" \"Make sure you seek shade\" \"Shirt, sunscreen and hat are a must\"",
+      "strength": "—",
+      "confidence": "High"
+     },
+     {
+      "c": "common:C83",
+      "s": "common:S12",
+      "quote": "[8 and above] \"Avoid being outside during midday hours! Make sure you seek shade! Shirt, sunscreen and hat are a must!\"",
+      "strength": "—",
+      "confidence": "High"
+     },
+     {
+      "c": "common:C90",
+      "s": "common:S13",
+      "quote": "\"8-10 過量級\" \"11+ 危險級\"…\"紫外線指數分級係依據WHO相關規範\"",
+      "strength": "—",
+      "confidence": "High (official page)"
+     },
+     {
+      "c": "common:C83",
+      "s": "common:S11",
+      "quote": "\"PROTECTION REQUIRED\" (UVI 3-7): \"Seek shade during midday hours\" \"Slip on a shirt, slop on sunscreen and slap on a hat\"",
+      "strength": "—",
+      "confidence": "High"
+     }
+    ],
+    "sid": "SL-1.T"
+   }
+  },
+  {
+   "id": "sle-smoking",
+   "title": "戒菸",
+   "summary": "抽菸可能降低部分藥物療效；戒菸可找醫療團隊幫忙。",
+   "illustration": "A person snapping a plain cigarette in half while a friendly clinician sits beside them offering support; no text, no brands.",
+   "points": [
+    {
+     "text": "有抽菸的話，建議戒菸；可以請醫療團隊協助，找戒菸方法和在地資源。",
+     "strength_label": "BSR 2026・強烈建議（1C）",
+     "evidence": [
+      {
+       "c": "C53",
+       "s": "S02",
+       "quote": "In people with SLE, smoking habits should be assessed, and people guided to cessation strategies (1C, 98.2%).",
+       "strength": "1C; SoA 98.2%",
+       "confidence": "High"
+      },
+      {
+       "c": "C53",
+       "s": "S01",
+       "quote": "The latter could be done by liaising with GPs and healthcare professionals in the community or signposting people to local stop-smoking support, if available…",
+       "strength": "Rationale text for Rec 27 (Rec 27: 1C; SoA 98.2%)",
+       "confidence": "High"
+      },
+      {
+       "c": "C51",
+       "s": "S04",
+       "quote": "In people with SLE (LoE: 3) and SSc (LoE: 4), smoking habits should be assessed, and cessation strategies should be implemented.",
+       "strength": "LoE 3 (SLE); SoR printed \"B/C\"; LoA 9.4 (1.1)",
+       "confidence": "High"
+      },
+      {
+       "c": "C52",
+       "s": "S04",
+       "quote": "…it was consensual among the task force members that smoking cessation should be encouraged and facilitated in smokers with SLE and SSc…",
+       "strength": "Expert consensus",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-2.1"
+    },
+    {
+     "text": "抽菸可能干擾抗瘧疾藥物（如 hydroxychloroquine）和部分生物製劑的療效。",
+     "strength_label": "EULAR 2023・指引說明",
+     "evidence": [
+      {
+       "c": "C50",
+       "s": "S03",
+       "quote": "The importance of smoking cessation should be emphasised, as smoking may also interfere with the efficacy of antimalarials and biologics (belimumab) among its other detrimental sequelae.",
+       "strength": "—",
+       "confidence": "High"
+      },
+      {
+       "c": "C54",
+       "s": "S18",
+       "quote": "Tobacco smoking significantly reduced the therapeutic effectiveness of hydroxychloroquine in cutaneous lesions (pooled OR 0.53; 95%CI: 0.305-0.927)",
+       "strength": "Tier 2 SR/MA",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-2.2"
+    },
+    {
+     "text": "研究發現，抽菸者的皮膚型狼瘡用抗瘧疾藥物治療時，皮膚改善的機會明顯比不抽菸者低。",
+     "strength_label": "統合分析 2015・研究顯示",
+     "evidence": [
+      {
+       "c": "C55",
+       "s": "S19",
+       "quote": "Smoking is associated with a 2-fold decrease in the proportion of patients with CLE achieving cutaneous improvement with antimalarials.",
+       "strength": "Tier 2 MA of observational studies",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C55",
+       "s": "S19",
+       "quote": "The pooled odds ratio for the response to antimalarials in smoker patients with CLE (n = 797) was 0.53 (95% confidence interval 0.29-0.98) compared with nonsmokers (n = 601).",
+       "strength": "Tier 2 MA of observational studies",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C54",
+       "s": "S18",
+       "quote": "Tobacco smoking significantly reduced the therapeutic effectiveness of hydroxychloroquine in cutaneous lesions (pooled OR 0.53; 95%CI: 0.305-0.927)…",
+       "strength": "Tier 2 SR/MA",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-2.3"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "sle-exercise",
+   "title": "規律運動",
+   "summary": "依病情保持活動；先評估，再循序漸進增加。",
+   "illustration": "A person walking briskly outdoors on a cool day in a warm jacket and gloves, with a small inset of the same person talking with a doctor; no text, no brands.",
+   "points": [
+    {
+     "text": "依照目前的病情保持身體活動；需要時，請醫療團隊給您個人化的建議。",
+     "strength_label": "BSR 2026・強烈建議（1B）",
+     "evidence": [
+      {
+       "c": "C72",
+       "s": "S02",
+       "quote": "Physical activity should be encouraged as appropriate to disease status in adults (1B) and children (1C) with SLE. This will include tailored advice for some patients (SoA 97.0%).",
+       "strength": "1B (adults); 1C (children); SoA 97.0%",
+       "confidence": "High"
+      },
+      {
+       "c": "C70",
+       "s": "S04",
+       "quote": "Physical exercise should be considered for people with SLE (LoE: 1–3)…",
+       "strength": "LoE 1–3 (SLE); SoR C; LoA 9.6 (0.7)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-3.1"
+    },
+    {
+     "text": "開始運動計畫前，先請醫師評估；再依自己的能力，循序漸進增加次數和強度。",
+     "strength_label": "國際共識 2024・建議強度 A",
+     "evidence": [
+      {
+       "c": "C78",
+       "s": "S09",
+       "quote": "A medical evaluation should be performed before starting exercise in SLE in order to identify potential contraindications and allow for personalised adaptations…(1b/A)",
+       "strength": "1b/A; LoA 9.32 (2.15)",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C79",
+       "s": "S09",
+       "quote": "Implementation of exercise should be gradual by adapting the frequency and intensity to the individual's capacities and comorbidities (1b/A)",
+       "strength": "1b/A; LoA 9.82 (0.50)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-3.2"
+    },
+    {
+     "text": "病情不活躍或輕微、醫師也沒有特別限制時，可逐步做到每週 150–300 分鐘中等強度運動，加上每週至少 2 天肌力訓練。",
+     "strength_label": "國際共識 2024・建議強度 D",
+     "evidence": [
+      {
+       "c": "C74",
+       "s": "S09",
+       "quote": "Unless otherwise indicated, all persons with SLE with inactive disease or mild disease activity should gradually reach WHO recommendations and/or 150–300 min per week of moderate intensity associated with strengthening activities at least 2 days per week (5/D).",
+       "strength": "5/D (expert opinion); LoA 9.68 (0.57)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-3.3"
+    },
+    {
+     "text": "狼瘡發作時，先請醫師重新評估能不能運動；關節發炎時，運動要避開發炎的關節。",
+     "strength_label": "國際共識 2024・建議強度 D",
+     "evidence": [
+      {
+       "c": "C83",
+       "s": "S09",
+       "quote": "In case of lupus flare, potential contraindication to physical activity and exercise should be reassessed (5/D)",
+       "strength": "5/D; LoA 9.91 (0.43)",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C83",
+       "s": "S09",
+       "quote": "During articular flares, we recommend avoiding involving the inflamed joints during physical activity and exercise (5/D)",
+       "strength": "5/D; LoA 9.68 (0.89)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-3.4"
+    },
+    {
+     "text": "有雷諾氏現象的人，戶外活動時要穿足保暖衣物、戴手套，並避免直接碰觸冰冷表面。",
+     "strength_label": "國際共識 2024・建議強度 A（保暖衣物部分）",
+     "evidence": [
+      {
+       "c": "C35",
+       "s": "S09",
+       "quote": "In case of outdoor activity, adapted measures such as photoprotection are necessary, and use of adequate clothing against cold is recommended if Raynaud's phenomenon is present (1b/A)",
+       "strength": "1b/A; LoA 9.95 (0.21)",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C61",
+       "s": "S09",
+       "quote": "Additionally, for persons living with SLE with Raynaud's phenomenon, the task force suggests protection against low temperatures by using gloves or heating devices. It is also advised to avoid direct contact with cold surfaces…",
+       "strength": "Discussion of statement 2 (statement 2: 1b/A; LoA 9.95 (0.21))",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C60",
+       "s": "S04",
+       "quote": "In people with SLE (LoE: 5) and SSc (LoE: 4), avoidance of cold exposure should be considered for the prevention of Raynaud's phenomenon.",
+       "strength": "LoE 5 (SLE); SoR printed \"C/D\"; LoA 9.4 (0.9)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-3.5"
+    }
+   ],
+   "tip": {
+    "text": "中等強度大約是：用 0–10 分評估自己有多費力時，約 5–6 分。",
+    "strength_label": "國際共識 2024・指引說明",
+    "evidence": [
+     {
+      "c": "C76",
+      "s": "S09",
+      "quote": "...or perceived exertion levels of 5 or 6 on a 0–10 scale.",
+      "strength": "—",
+      "confidence": "Medium"
+     }
+    ],
+    "sid": "SL-3.T"
+   }
+  },
+  {
+   "id": "sle-fatigue-mood",
+   "title": "疲倦與心情",
+   "summary": "疲倦很常見，記得告訴醫師；心情困擾也有專業協助。",
+   "illustration": "A tired person resting on a sofa, and the same person talking calmly with a counsellor; soft colours; no text.",
+   "points": [
+    {
+     "text": "疲倦在狼瘡很常見；回診時可以告訴醫師疲倦有多嚴重、對生活的影響，以及您如何因應。",
+     "strength_label": "BSR 2026・強烈建議（1D）",
+     "evidence": [
+      {
+       "c": "C95",
+       "s": "S02",
+       "quote": "Health professionals should incorporate assessment of fatigue severity, impact and coping strategies alongside disease activity assessment during clinical consultations (1D, 95.4%).",
+       "strength": "1D; SoA 95.4%",
+       "confidence": "High"
+      },
+      {
+       "c": "C96",
+       "s": "S01",
+       "quote": "Fatigue is prevalent in about two-thirds of people with SLE…",
+       "strength": "—",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-4.1"
+    },
+    {
+     "text": "有氧運動（如走路、騎腳踏車、跳舞）可提升心肺耐力，也可能有助減輕疲倦和憂鬱情緒。",
+     "strength_label": "EULAR 2024・建議強度 B",
+     "evidence": [
+      {
+       "c": "C71",
+       "s": "S04",
+       "quote": "In people with SLE, aerobic exercise should be considered for increasing aerobic capacity (LoE: 1), and for reducing fatigue (LoE: 1–3) and depressive symptoms (LoE: 3).",
+       "strength": "SoR B; LoA 9.2 (1.4)",
+       "confidence": "High"
+      },
+      {
+       "c": "C100",
+       "s": "S01",
+       "quote": "…our SLR showed low certainty evidence that exercise (in particular graded exercise therapy) may be effective for reducing fatigue in people with SLE [,].",
+       "strength": "Low certainty",
+       "confidence": "High"
+      },
+      {
+       "c": "C73",
+       "s": "S01",
+       "quote": "…(i) aerobic which refers to the type of repetitive, structured physical activity, and requires the body's metabolic system to use oxygen to produce energy (e.g. walking, jogging, cycling and dancing)…",
+       "strength": "Descriptive",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-4.2"
+    },
+    {
+     "text": "認知行為治療、團體治療、心理衛教或心理諮商等心理社會介入，可能有助改善生活品質、焦慮和憂鬱情緒。",
+     "strength_label": "EULAR 2024・建議強度 B",
+     "evidence": [
+      {
+       "c": "C105",
+       "s": "S04",
+       "quote": "In people with SLE, psychosocial interventions should be considered for improving health-related quality of life (LoE: 1–2), anxiety (LoE: 1) and depressive symptoms (LoE: 1).",
+       "strength": "SoR B; LoA 9.2 (1.2)",
+       "confidence": "High"
+      },
+      {
+       "c": "C106",
+       "s": "S04",
+       "quote": "...psychological interventions in the form of cognitive behavioural therapy (CBT), group therapy and psychoeducational programmes were shown to be an efficacious management strategy for improving HRQoL in adults with SLE…Counselling, CBT and supported psychotherapy improved anxiety…",
+       "strength": "LoE 1–2",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-4.3"
+    },
+    {
+     "text": "心情低落或焦慮時，可以請醫療團隊提供心理支持，或轉介心理健康服務。",
+     "strength_label": "BSR 2026・強烈建議（1C；轉介部分 1D）",
+     "evidence": [
+      {
+       "c": "C107",
+       "s": "S02",
+       "quote": "Psychological support should be available to people with SLE, whenever possible as part of the multidisciplinary team (MDT) (1C, 96.7%).",
+       "strength": "1C; SoA 96.7%",
+       "confidence": "High"
+      },
+      {
+       "c": "C109",
+       "s": "S02",
+       "quote": "All healthcare professionals assessing people with SLE should know how to signpost towards and/or refer to mental health services where there is an identified need for support (1D, 97.8%).",
+       "strength": "1D; SoA 97.8%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-4.4"
+    }
+   ],
+   "tip": {
+    "text": "建立自己的支持網絡，可以幫助減輕孤單感。",
+    "strength_label": "法國照護規範 2024・指引說明",
+    "evidence": [
+     {
+      "c": "C14",
+      "s": "S25",
+      "quote": "Support networks can help relieve a patient's isolation.",
+      "strength": "Not stated in abstract (row strength: Observational)",
+      "confidence": "Medium"
+     }
+    ],
+    "sid": "SL-4.T"
+   }
+  },
+  {
+   "id": "sle-diet-checkup",
+   "title": "飲食與定期檢查",
+   "summary": "均衡飲食，並每年檢查心血管風險和骨骼健康。",
+   "illustration": "A plate with vegetables, fruit, beans and whole grains beside a blood-pressure monitor and a plain wall calendar; no text, no brands.",
+   "points": [
+    {
+     "text": "吃得均衡健康，原則和一般人一樣；有狼瘡腎炎的人，可能需要更個別的飲食建議。",
+     "strength_label": "BSR 2026・強烈建議（1D）",
+     "evidence": [
+      {
+       "c": "C114",
+       "s": "S02",
+       "quote": "A healthy, balanced diet, as recommended for people without SLE, should be recommended for people with SLE. More specific advice may be required for those with LN (1D, 96.8%).",
+       "strength": "1D; SoA 96.8%",
+       "confidence": "High"
+      },
+      {
+       "c": "C01",
+       "s": "S03",
+       "quote": "Non-pharmacological interventions, including sun protection, smoking cessation, healthy, balanced diet, regular exercise and measures to promote bone health are important to improve long-term outcomes.",
+       "strength": "LoA mean (SD) 9.90 (0.37). Overarching principles carry no LoE/SoR.",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-5.1"
+    },
+    {
+     "text": "成人每天至少吃 400 公克蔬菜水果，主食多選全穀類和豆類；少油、少糖，鹽每天少於 5 公克。",
+     "strength_label": "BSR 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C115",
+       "s": "S01",
+       "quote": "…the consensus from the BSR GWG is to recommend a healthy balanced diet as defined by WHO. This includes consuming at least 400 g of vegetables and fruit per day in adults and children above 10 years…obtaining the largest amount of energy from carbohydrates, mainly through legumes (e.g. lentils and beans) and wholegrain cereals; reducing total fats to <30% of total energy intake…reducing free sugars to <10% (ideally 5%) of total energy intake; and limiting sodium intake to <2 g per day (equivalent to 5 g of salt) [].",
+       "strength": "Consensus (general-population WHO targets)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-5.2"
+    },
+    {
+     "text": "做好防曬的同時，是否需要補充維生素 D、要不要抽血檢查，請和醫師討論。",
+     "strength_label": "EULAR 2024・指引說明",
+     "evidence": [
+      {
+       "c": "C22",
+       "s": "S04",
+       "quote": "…and use of broad-spectrum sunscreen; assessment of the need for vitamin D supplements should be done when indicated.",
+       "strength": "Expert opinion plus LoE 4 evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "C120",
+       "s": "S02",
+       "quote": "Clinicians should recommend that people with SLE take a daily vitamin D supplement throughout the year, particularly in autumn and winter (1B). Where deemed appropriate, vitamin D levels should be tested and additional supplementation recommended if below the normal range (1C) (SoA 96.6%).",
+       "strength": "1B (daily supplement); 1C (testing); SoA 96.6%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-5.3"
+    },
+    {
+     "text": "狼瘡患者的心血管疾病風險較高；至少每年評估血壓、血脂、血糖、體重和抽菸等風險。",
+     "strength_label": "BSR 2026・強烈建議（1B）",
+     "evidence": [
+      {
+       "c": "C110",
+       "s": "S02",
+       "quote": "People with SLE are at increased risk of cardiovascular comorbidities, therefore assessment and management of modifiable risk factors (e.g. hypertension, dyslipidaemia, diabetes, high BMI and smoking) should take place at baseline and at least annually…(1B, 96.6%).",
+       "strength": "1B; SoA 96.6%",
+       "confidence": "High"
+      },
+      {
+       "c": "C111",
+       "s": "S01",
+       "quote": "People with SLE are two to three times more likely to develop cardiovascular diseases…compared with the general population…",
+       "strength": "—",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-5.4"
+    },
+    {
+     "text": "狼瘡本身和類固醇等治療可能增加骨質疏鬆風險；每年請醫師評估骨骼健康，包括飲食、運動、生活習慣和用藥。",
+     "strength_label": "BSR 2026・建議（2C）",
+     "evidence": [
+      {
+       "c": "C123",
+       "s": "S02",
+       "quote": "Annual assessment and management of bone health should be performed including diet, exercise, lifestyle factors and medications. Vitamin D status and bone density should be assessed where indicated (2C, 97.6%).",
+       "strength": "2C; SoA 97.6%",
+       "confidence": "High"
+      },
+      {
+       "c": "C124",
+       "s": "S01",
+       "quote": "People with SLE are at risk of osteoporosis…This increased risk could be due to the disease process (i.e. chronic inflammation) and the side effects of therapies, particularly GC.",
+       "strength": "—",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-5.5"
+    }
+   ],
+   "tip": {
+    "text": "每次回診量血壓、驗尿和量體重，都是例行的追蹤項目。",
+    "strength_label": "BSR 2026・建議（2C）",
+    "evidence": [
+     {
+      "c": "C113",
+      "s": "S02",
+      "quote": "Urinalysis and blood pressure should be performed at every visit (2C, 97.2%).",
+      "strength": "2C; SoA 97.2%",
+      "confidence": "High"
+     },
+     {
+      "c": "C113",
+      "s": "S02",
+      "quote": "Body weight should be checked at each visit…(2C, 97.0%).",
+      "strength": "2C; SoA 97.0%",
+      "confidence": "High"
+     }
+    ],
+    "sid": "SL-5.T"
+   }
+  },
+  {
+   "id": "sle-pregnancy",
+   "title": "懷孕計畫",
+   "summary": "盡早和醫師討論，選在病情穩定時懷孕。",
+   "illustration": "A woman and her partner talking with a doctor at a desk, with a plain calendar on the wall suggesting planning ahead; no text, no brands.",
+   "points": [
+    {
+     "text": "確診後盡早和醫師討論生育計畫；多數女性能有成功的懷孕，也有方法降低風險。",
+     "strength_label": "EULAR 2017・基本原則",
+     "evidence": [
+      {
+       "c": "C140",
+       "s": "S06",
+       "quote": "Family planning should be discussed as early as possible after diagnosis. Most women can have successful pregnancies and measures can be taken to reduce the risks of adverse maternal or fetal outcomes.",
+       "strength": "Table 1 item 1 (preconception counselling and risk stratification), LoA 10 (0.2); LoE/GoR not accessible",
+       "confidence": "High"
+      },
+      {
+       "c": "C141",
+       "s": "S06",
+       "quote": "Health professionals should support the patient and her family in their decisions regarding family planning by discussing individual pregnancy risks.",
+       "strength": "—",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-6.1"
+    },
+    {
+     "text": "懷孕前 6–12 個月內或受孕時，若狼瘡活躍或發作，懷孕和產後期間發作的風險較高。",
+     "strength_label": "EULAR 2017・指引說明",
+     "evidence": [
+      {
+       "c": "C143",
+       "s": "S06",
+       "quote": "SLE activity/flares… (in the last 6–12 months or at conception)",
+       "strength": "Risk-factor table (Table 2, preconception checklist)",
+       "confidence": "High"
+      },
+      {
+       "c": "C143",
+       "s": "S06",
+       "quote": "Increased risk for (i) maternal disease activity (RR 2.1 for subsequent flare during pregnancy and puerperium)",
+       "strength": "Risk-factor table (Table 2, preconception checklist)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-6.2"
+    },
+    {
+     "text": "和醫師一起規劃，選在病情穩定不活躍、用藥也適合懷孕的時候受孕。",
+     "strength_label": "ACR 2020・基本原則",
+     "evidence": [
+      {
+       "c": "C144",
+       "s": "S08",
+       "quote": "…pre-pregnancy counseling to encourage conception during periods of disease quiescence and while receiving pregnancy-compatible medications…",
+       "strength": "Guiding principles (abstract)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-6.3"
+    },
+    {
+     "text": "暫時不打算懷孕時，和醫師討論避孕方式，尤其在病情活躍或使用可能影響胎兒的藥物期間。",
+     "strength_label": "EULAR 2017・指引說明",
+     "evidence": [
+      {
+       "c": "C145",
+       "s": "S06",
+       "quote": "Women with SLE and/or APS should be counselled about contraception, especially for the prevention of unwanted pregnancies during high disease activity periods and intake of teratogenic drugs.",
+       "strength": "Table 1 item 2, LoA 9.9 (0.4); LoE/GoR not accessible",
+       "confidence": "High"
+      },
+      {
+       "c": "C144",
+       "s": "S08",
+       "quote": "…use of safe and effective contraception to prevent unplanned pregnancy…",
+       "strength": "Guiding principles (abstract)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "SL-6.4"
+    },
+    {
+     "text": "計畫懷孕前要做孕前諮詢，並重新檢查與新生兒狼瘡有關的抗體。",
+     "strength_label": "BSR 2026・強烈建議（1A）",
+     "evidence": [
+      {
+       "c": "C150",
+       "s": "S02",
+       "quote": "Anti-Ro/SSA and anti-La/SSB antibodies are associated with neonatal lupus (including congenital heart block) and should be re-assessed prior to pregnancy, and pre-pregnancy counselling provided (1A, 98.5%).",
+       "strength": "1A; SoA 98.5%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "SL-6.5"
+    }
+   ],
+   "tip": {
+    "text": "和一般人一樣，年齡增加、抽菸和喝酒，都可能對生育力有不良影響。",
+    "strength_label": "EULAR 2017・指引說明",
+    "evidence": [
+     {
+      "c": "C146",
+      "s": "S06",
+      "quote": "Similar to the general population, women with SLE and/or APS should be counselled on fertility issues, especially on the negative impact of increasing age (general tendency to postpone childbearing) and certain lifestyle exposures (tobacco use, alcohol consumption).",
+      "strength": "Table 1 item 3, LoA 9.8 (0.4)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "SL-6.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "生活習慣調整好，就可以不用吃藥。",
+   "fact": "生活照護可以和藥物一起搭配；需要藥物治療時，生活照護不能取代藥物。",
+   "strength_label": "EULAR 2024・基本原則",
+   "evidence": [
+    {
+     "c": "C04",
+     "s": "S04",
+     "quote": "Non-pharmacological management of SLE and SSc should not substitute for pharmaceutical treatment when the latter is required.",
+     "strength": "OP D LoA 9.6 (0.8)",
+     "confidence": "High"
+    },
+    {
+     "c": "C04",
+     "s": "S04",
+     "quote": "Non-pharmacological management of SLE and SSc may be provided alone or as an adjunct to pharmaceutical treatment.",
+     "strength": "OP C LoA 9.4 (1.1)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "SL-M1"
+  },
+  {
+   "belief": "運動會讓狼瘡變嚴重，最好少動。",
+   "fact": "運動不是狼瘡的禁忌；研究顯示運動可能不會明顯影響疾病活性。發作時則先請醫師評估。",
+   "strength_label": "國際共識 2024・專家共識",
+   "evidence": [
+    {
+     "c": "M09",
+     "s": "S09",
+     "quote": "It is imperative to communicate to healthcare professionals and caregivers including close entourage that engaging in physical activity is not contraindicated in SLE.",
+     "strength": "Consensus discussion text (no grade)",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C84",
+     "s": "S10",
+     "quote": "Compared with education or relaxation therapy, exercise…probably results in little to no difference in disease activity (moderate‐certainty evidence)…",
+     "strength": "GRADE as quoted; 13 RCTs, 540 participants",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C85",
+     "s": "S11",
+     "quote": "…with no significant change in disease activity (g=0.18, 95% CI -0.16 to 0.51, p=0.30).",
+     "strength": "Tier 2",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C83",
+     "s": "S09",
+     "quote": "In case of lupus flare, potential contraindication to physical activity and exercise should be reassessed (5/D)",
+     "strength": "5/D; LoA 9.91 (0.43)",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "SL-M2"
+  },
+  {
+   "belief": "曬太陽後沒有馬上起疹子，就代表我不怕曬。",
+   "fact": "曬太陽後，皮膚病灶可能隔幾週才出現，所以不容易察覺自己對光敏感；仍建議做好防曬。",
+   "strength_label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C32",
+     "s": "S01",
+     "quote": "Detecting photosensitivity may be limited by a potential lag period of several weeks between sun exposure and skin lesions [].",
+     "strength": "—",
+     "confidence": "High"
+    },
+    {
+     "c": "C25",
+     "s": "S02",
+     "quote": "People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B)…",
+     "strength": "Sunscreen part: 1B (strong; moderate evidence). SoA 96.9%.",
+     "confidence": "High"
+    }
+   ],
+   "sid": "SL-M3"
+  },
+  {
+   "belief": "有特別的「狼瘡飲食」或魚油補充品，可以控制病情。",
+   "fact": "特定飲食計畫或魚油補充品能否改善疾病活性，目前證據的確定性都偏低；建議均衡飲食。",
+   "strength_label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "c": "M06",
+     "s": "S01",
+     "quote": "There was very low certainty that these dietary intervention programmes had a positive impact on measures of disease activity, fatigue or sleep in SLE.",
+     "strength": "Very low certainty (as quoted)",
+     "confidence": "High"
+    },
+    {
+     "c": "M05",
+     "s": "S01",
+     "quote": "…there was low certainty that either of these supplements would improve disease activity owing to the different outcome measures used, inconsistent effects…",
+     "strength": "Low certainty (as quoted)",
+     "confidence": "High"
+    },
+    {
+     "c": "M05",
+     "s": "S01",
+     "quote": "For LN, in two RCTs [,], there was also low certainty and inconsistency in findings that fish oil supplementation would improve renal parameters…",
+     "strength": "Low certainty (as quoted)",
+     "confidence": "High"
+    },
+    {
+     "c": "C114",
+     "s": "S02",
+     "quote": "A healthy, balanced diet, as recommended for people without SLE, should be recommended for people with SLE.",
+     "strength": "1D; SoA 96.8%",
+     "confidence": "High"
+    }
+   ],
+   "sid": "SL-M4"
+  }
+ ],
+ "seek_care": [
+  {
+   "text": "覺得狼瘡發作，或可能出現藥物副作用時，請及早聯絡您的醫療團隊。",
+   "strength_label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C160",
+     "s": "S01",
+     "quote": "People with SLE with disease flares or possible drug-related side effects should be able to receive timely advice (ideally within 1–2 working days) of contacting their hospital service (1C) [98.4% (86–100)].",
+     "strength": "1C; SoA 98.4%",
+     "confidence": "High"
+    }
+   ],
+   "sid": "SL-S1"
+  },
+  {
+   "text": "疲倦出現或變得更嚴重時，要告訴醫師，可能需要評估狼瘡的活性。",
+   "strength_label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C97",
+     "s": "S01",
+     "quote": "The 2023 EULAR recommendations for management of fatigue in people with RMDs recommended that the presence or worsening of fatigue should trigger evaluation of inflammatory disease activity status…",
+     "strength": "— (BSR rationale reporting the 2023 EULAR fatigue recommendations)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "SL-S2"
+  },
+  {
+   "text": "皮膚病灶留下疤痕或久治不好時，請及早回診；這時建議和皮膚科醫師一起處理。",
+   "strength_label": "BSR 2026・強烈建議（1D）",
+   "evidence": [
+    {
+     "c": "C161",
+     "s": "S02",
+     "quote": "Scarring and/or refractory cutaneous involvement in SLE should be managed in a timely manner in conjunction with dermatologists (1D, 98.3%).",
+     "strength": "1D; SoA 98.3%",
+     "confidence": "High"
+    }
+   ],
+   "sid": "SL-S3"
+  },
+  {
+   "text": "如果症狀很嚴重或突然惡化，請不要等回診，立即就醫或掛急診。",
+   "strength_label": "編輯加註・安全提醒",
+   "evidence": [
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety line added after independent fact-check (SL-S1)",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "SL-S4"
+  }
+ ],
+ "sources": [
+  {
+   "s": "S01",
+   "short": "BSR 2026 紅斑性狼瘡指引（全文）",
+   "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+   "pmid": "42336388",
+   "doi": "10.1093/rheumatology/keag223",
+   "url": ""
+  },
+  {
+   "s": "S02",
+   "short": "BSR 2026 紅斑性狼瘡指引（摘要版）",
+   "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. Executive Summary: The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with SLE. Rheumatology (Oxford) 2026;65(6).",
+   "pmid": "42336387",
+   "doi": "10.1093/rheumatology/keag224",
+   "url": ""
+  },
+  {
+   "s": "S03",
+   "short": "EULAR 2023 紅斑性狼瘡治療建議更新",
+   "citation": "Fanouriakis A, Kostopoulou M, Andersen J, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis 2024;83(1):15–29.",
+   "pmid": "37827694",
+   "doi": "10.1136/ard-2023-224762",
+   "url": ""
+  },
+  {
+   "s": "S04",
+   "short": "EULAR 2024 紅斑性狼瘡與全身性硬化症非藥物治療建議",
+   "citation": "Parodis I, Girard-Guyonvarc'h C, Arnaud L, et al. EULAR recommendations for the non-pharmacological management of systemic lupus erythematosus and systemic sclerosis. Ann Rheum Dis 2024;83(6):720–729.",
+   "pmid": "37433575",
+   "doi": "10.1136/ard-2023-224416",
+   "url": ""
+  },
+  {
+   "s": "S06",
+   "short": "EULAR 2017 紅斑性狼瘡／抗磷脂症候群女性健康與生育建議",
+   "citation": "Andreoli L, Bertsias GK, Agmon-Levin N, et al. EULAR recommendations for women's health and the management of family planning, assisted reproduction, pregnancy and menopause in patients with SLE and/or APS. Ann Rheum Dis 2017;76(3):476–485.",
+   "pmid": "27457513",
+   "doi": "10.1136/annrheumdis-2016-209770",
+   "url": ""
+  },
+  {
+   "s": "S08",
+   "short": "ACR 2020 風濕病生殖健康指引",
+   "citation": "Sammaritano LR, Bermas BL, Chakravarty EE, et al. 2020 American College of Rheumatology Guideline for the Management of Reproductive Health in Rheumatic and Musculoskeletal Diseases. Arthritis Rheumatol 2020;72(4):529–556.",
+   "pmid": "32090480",
+   "doi": "10.1002/art.41191",
+   "url": ""
+  },
+  {
+   "s": "S09",
+   "short": "2024 紅斑性狼瘡身體活動與運動國際共識",
+   "citation": "Blaess J, Geneton S, Goepfert T, et al. Recommendations for physical activity and exercise in persons living with SLE: consensus by an international task force. RMD Open 2024;10(2):e004171.",
+   "pmid": "38580348",
+   "doi": "10.1136/rmdopen-2024-004171",
+   "url": ""
+  },
+  {
+   "s": "S10",
+   "short": "Cochrane 2023 紅斑性狼瘡運動系統性回顧",
+   "citation": "Frade S, O'Neill S, Greene D, et al. Exercise as adjunctive therapy for systemic lupus erythematosus. Cochrane Database Syst Rev 2023;4(4):CD014816.",
+   "pmid": "37073886",
+   "doi": "10.1002/14651858.CD014816.pub2",
+   "url": ""
+  },
+  {
+   "s": "S11",
+   "short": "2026 紅斑性狼瘡運動介入統合分析",
+   "citation": "He Z, Jia S, Chen M, et al. Effects of exercise interventions on core health outcomes in patients with SLE: systematic review and meta-analysis. Lupus Sci Med 2026;13(1); e002027.",
+   "pmid": "42373138",
+   "doi": "10.1136/lupus-2026-002027",
+   "url": ""
+  },
+  {
+   "s": "S18",
+   "short": "2019 吸菸與紅斑性狼瘡統合分析",
+   "citation": "Parisis D, Bernier C, Chasset F, Arnaud L. Impact of tobacco smoking upon disease risk, activity and therapeutic response in SLE: a systematic review and meta-analysis. Autoimmun Rev 2019;18(11):102393.",
+   "pmid": "31520802",
+   "doi": "10.1016/j.autrev.2019.102393",
+   "url": ""
+  },
+  {
+   "s": "S19",
+   "short": "2015 吸菸與抗瘧疾藥物療效統合分析（皮膚型狼瘡）",
+   "citation": "Chasset F, Francès C, Barete S, Amoura Z, Arnaud L. Influence of smoking on the efficacy of antimalarials in cutaneous lupus: a meta-analysis of the literature. J Am Acad Dermatol 2015;72(4):634–9.",
+   "pmid": "25648824",
+   "doi": "10.1016/j.jaad.2014.12.025",
+   "url": ""
+  },
+  {
+   "s": "S25",
+   "short": "法國 2024 紅斑性狼瘡診療規範",
+   "citation": "Amoura Z, Bader-Meunier B, Antignac M, et al. French protocol for the diagnosis and management of systemic lupus erythematosus. Rev Med Interne 2024;45(9):559–599.",
+   "pmid": "39191627",
+   "doi": "10.1016/j.revmed.2024.07.006",
+   "url": ""
+  },
+  {
+   "s": "common:S11",
+   "short": "WHO 2002 全球紫外線指數實用指南",
+   "citation": "WHO, WMO, UNEP, ICNIRP. Global Solar UV Index: A Practical Guide. Geneva: World Health Organization; 2002. ISBN 92-4-159007-6.",
+   "pmid": "",
+   "doi": "",
+   "url": ""
+  },
+  {
+   "s": "common:S12",
+   "short": "WHO 紫外線指數問答（2022）",
+   "citation": "World Health Organization. Radiation: The ultraviolet (UV) index – Questions and answers. who.int; page dated 20 June 2022.",
+   "pmid": "",
+   "doi": "",
+   "url": ""
+  },
+  {
+   "s": "common:S13",
+   "short": "交通部中央氣象署 紫外線觀測頁面",
+   "citation": "Central Weather Administration (交通部中央氣象署), Taiwan. 紫外線觀測 (UV observation) page. Accessed 2026-10-06.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.cwa.gov.tw/V8/C/W/OBS_UVI.html"
+  }
+ ],
+ "reviewer_notes": [
+  "VITAMIN D CONFLICT: BSR 2026 Rec 30 recommends a daily vitamin D supplement for everyone with SLE all year (1B) and testing where appropriate (1C); the EULAR 2024 non-pharmacological text says only that the need for supplements should be assessed 'when indicated'. The page gives the common ground (是否需要補充維生素 D、要不要抽血檢查，請和醫師討論) under the EULAR label and leaves out BSR's universal advice, its 'autumn and winter' emphasis (UK latitude) and the NHS 400 IU figure. Please decide whether to adopt the BSR universal-supplement approach for Taiwan.",
+  "SPOT-CHECK EULAR 2024 (Parodis) TABLE 1 AGAINST THE PDF: the SoR letters shown on the page (photoprotection C, exercise C, aerobic exercise B, psychosocial interventions B) came from WebFetch readings of the PDF. common.md's separate reading of the same recommendations gave different LoA values (photoprotection 9.6 vs 9.2; smoking 9.7 vs 9.4) and found no SoR. The smoking ('B/C') and cold ('C/D') SoRs were printed jointly for SLE/SSc, so the smoking point carries the BSR 1C label and the Raynaud's point the 2024 international consensus (1b/A) label instead of a EULAR letter.",
+  "HERBAL SUPPLEMENT MYTH LEFT OUT: the only source on 'immune-boosting' herbs (alfalfa, echinacea, spirulina, chlorella and others) is a 2025 scoping review (S24; mostly in vitro, animal and case-report evidence), rated Low. No Tier-1 guideline was found, and green tea extract is conflicting (S23 vs S24). Add a physician-authored statement if you want this myth on the page.",
+  "EXERCISE AND FATIGUE CONFLICT: EULAR 2024 recommends aerobic exercise to reduce fatigue (SoR B) and a 2026 meta-analysis rates the benefit moderate certainty, while Cochrane 2023 and a 2026 umbrella review rate it low certainty or slight. The page says only '也可能有助減輕疲倦'. Psychological interventions are claimed only for quality of life, anxiety and depression, not for fatigue or disease activity (the SLE subgroup in the EULAR fatigue SLR and the 2024 lifestyle SR found no such effect), and the card 4 summary avoids implying a fatigue benefit.",
+  "UV INDEX TIP (common.md): the WHO scheme is for the general population (fair-skinned people who burn easily) and no SLE-specific UV index threshold was found. To avoid the WHO 2002 vs WHO 2022 Q&A difference at the low end ('<2' vs '0–2'; 'below 3' vs 'below 2'), the tip mentions only UVI 8+ (wording identical in both WHO documents) with the CWA names 過量級/危險級, and does not imply that lower levels need no protection. EULAR's 'days with high UV index' has no number, so card 1 says '紫外線指數偏高的日子'. common.md did not record URLs for the two WHO documents; please add them. The CWA URL was checked and loads.",
+  "UVA LABELLING: BSR adopts the BAD definition of high SPF (at least 30 plus a UVA logo or 4–5-star UVA). These are UK/EU labels and no Taiwan/Asian labelling source was found, so the page says 'UVA 防護足夠' without naming a label system; add local label guidance if you wish. 'SPF 30' and 'reapply at least every 2 hours' are BSR rationale text adopted from BAD (not separately graded), hence '指引說明' on the reapplication point.",
+  "150–300 MIN/WEEK: 2024 international consensus statement 9 is expert opinion (5/D), limited to inactive or mildly active disease and 'unless otherwise indicated'; BSR notes that the WHO evidence behind these targets comes from other chronic diseases. The consensus is a Delphi task force, not a society guideline; its Oxford grades are shown as '國際共識 2024・建議強度 A/D'. Its statement 10 (medical evaluation before starting exercise, 1b/A) is stricter than the general WHO view that clearance is usually unnecessary for light-to-moderate activity (common.md M3); the page follows the SLE-specific consensus.",
+  "PREGNANCY CARD: EULAR 2017 Table 1 statements and their LoE/GoR were not accessible, so points use body-text or abstract sentences labelled '建議' because they say 'should'; the 6–12-month window comes from Table 2 (risk-factor checklist, labelled '指引說明'). ACR 2020 was read as abstract only; its 'guiding principles' are labelled '基本原則'. Drug-specific advice (hydroxychloroquine in pregnancy, contraceptive method by aPL status, pregnancy supplements) was left out on purpose. The Taiwan College of Rheumatology 2026 SLE consensus (which includes pregnancy statements) could not be read; please check this card against it.",
+  "NOT USED: the ACR 2025 SLE guideline (only the pre-publication summary was read) and all German S2k CLE guideline items (Low, own translations, validity extension ended 24.3.2025). So the page gives no sunscreen amount (2 mg/cm²), application timing, window-glass/UVA, tanning-bed or clock-time (11–15 h) advice. The German 'no photoprotection from October to March' statement is Germany-specific and must not be transferred to Taiwan.",
+  "LEFT TO THE SHARED PAGE: vaccination (BSR Rec 32, 1C, eligible vaccinations emphasised at least yearly; EULAR 2023 Rec 13), alcohol and weight. Consider a cross-link from card 5. Sleep advice was left out (no SLE-specific evidence, evidence file M08).",
+  "SEEK CARE: BSR Rec 100 is a UK service standard (advice ideally within 1–2 working days); the page turns it into a patient action without the time frame. No accessible source lists specific urgent symptoms for patients, so none are listed. The fatigue item is BSR's report of the 2023 EULAR fatigue recommendations, whose evidence came mostly from RA/SpA studies.",
+  "SMOKING META-ANALYSES (abstract only, Medium): Chasset 2015 (cutaneous lupus, observational studies) states a '2-fold decrease in the proportion of patients ... achieving cutaneous improvement with antimalarials' (pooled OR 0.53), shown as '改善比例約只有不抽菸者的一半'. '抗瘧疾藥物' and '生物製劑' are the class terms used by EULAR 2023 (which names belimumab); you may want to add the local everyday name for hydroxychloroquine, which is not in the evidence.",
+  "RAYNAUD'S: the EULAR evidence level for SLE is LoE 5 (expert opinion), so cold avoidance was merged into the exercise card rather than given its own card; the practical measures (warm clothing, gloves, avoid cold surfaces) come from the 2024 consensus. The evidence file has no definition of Raynaud's phenomenon; consider adding a one-line description.",
+  "DIET MYTH: BSR's sentence on disease activity refers to 'either of these supplements' (filed under fish oil/omega-3 in the evidence file); the lupus nephritis sentence names fish oil explicitly. Please confirm in the BSR rationale for Rec 29. KDIGO's 'avoid a high sodium diet' for lupus nephritis (cited by BSR) was not added; card 5 says only that people with lupus nephritis may need more specific advice.",
+  "SUN WORDING: EULAR says 'avoid (direct) sun exposure'; BSR says 'reduced sun exposure' as a safe-sun strategy (a difference of emphasis). The page uses '減少曬太陽' (BSR, 1D) and '盡量避免陽光直射' (EULAR text)."
+ ]
+}

@@ -1,0 +1,829 @@
+{
+ "slug": "urticaria",
+ "name": "慢性蕁麻疹",
+ "intro": "慢性蕁麻疹分成自發型，和由冷、熱、皮膚受壓等引起的誘發型。這頁整理日常照護重點。",
+ "cards": [
+  {
+   "id": "urticaria-triggers",
+   "title": "找出加重因子",
+   "summary": "自發型：留意止痛藥、壓力和感染等加重因子",
+   "illustration": "A calm adult sitting at a table looking thoughtfully at an unlabeled pill box, with two soft thought bubbles: a small storm cloud (stress) and a tissue box (being ill). Flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "消炎止痛藥（NSAIDs）可能讓部分病人的蕁麻疹變嚴重。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C27",
+       "s": "S1",
+       "quote": "Non‐IgE‐mediated reactions to drugs can also augment the activity of preexisting CSU. NSAIDs are the most common drugs to do so in up to one‐fourth of patients…",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C31",
+       "s": "S8",
+       "quote": "…up to 30% of patients with CSU, may experience a marked, acute, and short-lived exacerbation of their disease, including angioedema, within minutes to hours after taking chemically unrelated NSAIDs…",
+       "strength": "Narrative text (WAO Statement)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-1.1"
+    },
+    {
+     "text": "看診時告訴醫師您吃過的止痛藥（包括偶爾吃的）；曾因消炎止痛藥變嚴重，就避免這類藥。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C28",
+       "s": "S1",
+       "quote": "Physicians should therefore ask patients about the intake of NSAIDs, including on‐demand use, and advise patients with a history to NSAID‐induced urticaria to avoid these drugs…",
+       "strength": "Narrative text (\"should\"; \"not recommended\")",
+       "confidence": "High"
+      },
+      {
+       "c": "C16",
+       "s": "S1",
+       "quote": "In CSU, the avoidance of individually relevant and unspecific triggers, for example stress or the intake of NSAIDs, can help to reduce disease exacerbations.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C34",
+       "s": "S6",
+       "quote": "Certain drugs can cause or aggravate chronic urticaria and/or angioedema, and hence, a detailed drug history is mandatory.",
+       "strength": "Not graded (as retrieved)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-1.2"
+    },
+    {
+     "text": "若醫師為預防血栓開了低劑量阿斯匹靈，不一定要停用；請勿自行停藥，先和醫師討論。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C29",
+       "s": "S1",
+       "quote": "…if low‐dose acetylsalicylic acid is needed as an antithrombotic treatment, it is not always necessary to abstain from using this drug. A four‐week transition to another antithrombotic agent can help to assess causality, and if symptoms persist, reintroduction can be considered.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "EDITORIAL (not from a source): neutral safety phrase 「請先和醫師討論」; S1 describes a physician-led four-week switch, not self-management",
+       "confidence": ""
+      }
+     ],
+     "sid": "UR-1.3"
+    },
+    {
+     "text": "留意壓力：壓力可能讓病情變差，多達三分之一病人有此感受，減壓可能有幫助。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C17",
+       "s": "S1",
+       "quote": "It is evident that stress can exacerbate CSU, with up to one‐third of CSU patients perceiving stress as an aggravating factor of their disease … make them aware that stress‐reducing interventions can be helpful.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C16",
+       "s": "S1",
+       "quote": "In CSU, the avoidance of individually relevant and unspecific triggers, for example stress or the intake of NSAIDs, can help to reduce disease exacerbations.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-1.4"
+    },
+    {
+     "text": "留意感染：感染（例如病毒感染）可能讓部分病人的膨疹或腫脹變多。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C19",
+       "s": "S1",
+       "quote": "Some patients suffering from CSU experience trigger‐induced augmentation of wheals, angioedema, or both. Among others, these triggers include stress and infections.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C21",
+       "s": "S6",
+       "quote": "Common triggers/aggravating factors/associations for exacerbations of chronic urticaria are intercurrent viral infections",
+       "strength": "Not graded (as retrieved)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-1.5"
+    }
+   ],
+   "tip": {
+    "text": "也可留意：熱、緊身衣物或喝酒，可能讓部分病人症狀變嚴重。",
+    "strength_label": "AAAAI/ACAAI 2014、BSACI 2015・指引說明",
+    "evidence": [
+     {
+      "c": "C24",
+      "s": "S2",
+      "quote": "Nonsteroidal anti-inflammatory drugs, heat, and tight clothing might exacerbate CU in some patients, and avoidance of these factors might be beneficial.",
+      "strength": "Strength not found in accessible text (the numbered Summary Statements are online-only)",
+      "confidence": "High"
+     },
+     {
+      "c": "C23",
+      "s": "S6",
+      "quote": "Alcohol can aggravate CU by its effect of vasodilation",
+      "strength": "Not graded (as retrieved)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "UR-1.T"
+   }
+  },
+  {
+   "id": "urticaria-inducible",
+   "title": "誘發型的生活調整",
+   "summary": "減少接觸誘發因子，同時照常運動和出門",
+   "illustration": "Three small vignettes in a flat, friendly style: a person jogging in a park, a person walking outdoors on a windy day, and a person carrying a heavy shopping bag by a wide handle. No text, no brands.",
+   "points": [
+    {
+     "text": "減少接觸自己的誘發因子（如冷、熱、皮膚受壓、陽光），可以減少發作。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C47",
+       "s": "S1",
+       "quote": "In CIndU, the avoidance of specific and definite triggers, such as cold in cold urticaria, can reduce disease activity. … Avoidance or reduction of the specific triggers of CIndUs can help to reduce the occurrence of wheals and angioedema.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C40",
+       "s": "S1",
+       "quote": "CIndU is further subclassified as symptomatic dermographism, cold urticaria, delayed pressure urticaria, solar urticaria, heat urticaria, and vibratory angioedema…",
+       "strength": "Classification ↑↑, strong consensus",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-2.1"
+    },
+    {
+     "text": "不必完全不運動或不出門，要兼顧工作與社交；只靠避開通常不足以控制病情。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C48",
+       "s": "S1",
+       "quote": "It is crucial, however, to balance trigger avoidance with maintaining quality of life and participation in work and social activities, in patients with CIndU. For example, advising patients with cholinergic urticaria to completely avoid physical exercise or recommending that patients with solar urticaria avoid going outdoors should not be the aim of a patient‐centered management strategy.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C47",
+       "s": "S1",
+       "quote": "However, this approach is usually not sufficient to control the disease and can impose a substantial burden on patients.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-2.2"
+    },
+    {
+     "text": "寒冷性蕁麻疹：游泳等水上活動讓全身受冷，可能引起全身性反應，下水前先問醫師。",
+     "strength_label": "AAAAI/ACAAI 2014・指引說明",
+     "evidence": [
+      {
+       "c": "C51",
+       "s": "S2",
+       "quote": "…with cold urticaria might have systemic reactions associated with systemic cold exposure (eg, aquatic activities).",
+       "strength": "Strength not found",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "EDITORIAL (not from a source): 「先問醫師」 is a neutral safety phrase; the evidence file marks \"discuss with your doctor\" as editorial",
+       "confidence": ""
+      }
+     ],
+     "sid": "UR-2.3"
+    },
+    {
+     "text": "寒冷性蕁麻疹：冷風天出門，記得寒風會讓體感更冷。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C50",
+       "s": "S1",
+       "quote": "Similar considerations hold for cold urticaria where the impact of the wind chill factor in cold winds needs to be remembered.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-2.4"
+    },
+    {
+     "text": "延遲性壓力性蕁麻疹：提重袋時把提把加寬、分散壓力，可能有助預防。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C49",
+       "s": "S1",
+       "quote": "For example, patients with delayed pressure urticaria should be informed that pressure is defined as force per area and that simple measures, such as broadening of the handle of heavy bags, may be helpful in the prevention of symptoms.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-2.5"
+    }
+   ],
+   "tip": {
+    "text": "日光性蕁麻疹：和醫師找出引發的光線波長，可能有助挑選防曬乳或有UV-A濾光的燈泡。",
+    "strength_label": "GALEN 2026・指引說明",
+    "evidence": [
+     {
+      "c": "C52",
+      "s": "S1",
+      "quote": "For solar urticaria, the exact identification of the range of eliciting wave lengths may be important for the appropriate selection of sunscreens or light bulbs with a UV‐A filter.",
+      "strength": "Narrative text",
+      "confidence": "High"
+     }
+    ],
+    "sid": "UR-2.T"
+   }
+  },
+  {
+   "id": "urticaria-diet",
+   "title": "飲食",
+   "summary": "自發型：食物過敏很少是原因，飲食試驗只做短期",
+   "illustration": "A patient and a doctor talking across a desk, with a plate of ordinary home-cooked food between them; no single food highlighted or crossed out. Flat style; no text, no brands.",
+   "points": [
+    {
+     "text": "慢性蕁麻疹主要和自體免疫有關；自發型很少是食物過敏造成。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C11",
+       "s": "S1",
+       "quote": "…CU is predominantly an autoimmune condition…",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C12",
+       "s": "S1",
+       "quote": "Food allergy is rarely a trigger of CSU…",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C13",
+       "s": "S1",
+       "quote": "IgE‐mediated food allergy is extremely rarely the underlying cause of CSU…",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-3.1"
+    },
+    {
+     "text": "食物過敏檢測陽性，不一定代表蕁麻疹是那種食物引起的，但可能表示另有需要處理的食物過敏，請和醫師討論。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C11",
+       "s": "S1",
+       "quote": "…cases with positive results for IgE‐mediated food allergy do not necessarily indicate a causal relationship with urticaria, but may instead indicate a relevant comorbidity.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-3.2"
+    },
+    {
+     "text": "吃某些食物後若發作變多（不一定是過敏），看診時告訴醫師。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C56",
+       "s": "S1",
+       "quote": "…nonallergic reactions to food can trigger CSU exacerbation, and physicians should ask patients about such patterns.",
+       "strength": "Narrative text (\"may be considered\"; \"should\")",
+       "confidence": "High"
+      },
+      {
+       "c": "C15",
+       "s": "S1",
+       "quote": "Identifying conditions and factors that aggravate CSU activity, such as certain medications, food, stress, and infections, can help both physicians and patients to understand and potentially change the course of CSU.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-3.3"
+    },
+    {
+     "text": "飲食試驗只限醫師評估過的部分病人，通常只做2到3週，不應延誤有效治療。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C56",
+       "s": "S1",
+       "quote": "…diagnostic diets such as pseudoallergen‐ and histamine‐low diets may be considered in selected patients as individualized diagnostic tools. Diagnostic diets should be maintained only for a limited time to avoid side effects and safety risks; 2–3 weeks are usually recommended. Importantly, diagnostic diets should not delay effective treatment.",
+       "strength": "Narrative text (\"may be considered\"; \"should\")",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-3.4"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "urticaria-antihistamines",
+   "title": "規則用藥",
+   "summary": "自發型每天吃抗組織胺，不要等發作才吃",
+   "illustration": "A weekly pill organizer with one compartment opened for today, next to a simple wall calendar with a tick on each day. Flat style; no text, no numbers, no brands.",
+   "points": [
+    {
+     "text": "自發型：依醫師指示每天吃不會嗜睡的抗組織胺預防發作，不要等發作才吃。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C73",
+       "s": "S1",
+       "quote": "Nonsedating 2nd generation H‐antihistamines, for example, should be used daily, to prevent the occurrence of wheals and angioedema, rather than on demand.",
+       "strength": "Narrative text (\"should\")",
+       "confidence": "High"
+      },
+      {
+       "c": "C76",
+       "s": "S11",
+       "quote": "Continuous daily therapy with DL … is a better regimen than PRN treatment to maintain or improve QoL in subjects with CIU.",
+       "strength": "RCT (46 continuous vs 60 as-needed after randomization)",
+       "confidence": "Medium"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "EDITORIAL (not from a source): 「依醫師指示」 neutral safety phrase",
+       "confidence": ""
+      }
+     ],
+     "sid": "UR-4.1"
+    },
+    {
+     "text": "誘發型：病情活躍或控制不好時，通常建議每天吃；有些人可在接觸誘發因子前才吃。怎麼吃，依誘發因子能否預期，和醫師一起決定。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C55",
+       "s": "S1",
+       "quote": "Although continuous use of active treatment is also recommended, especially in very active and uncontrolled CIndU, some patients can benefit from short term prophylactic antihistamine treatment before a relevant trigger exposure. However, in patients with CIndU, an individualized decision should be made, based on the presence and predictability of triggers, as to whether 2nd generation H‐antihistamines are taken regularly or as needed.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-4.2"
+    },
+    {
+     "text": "依醫師指示持續治療，直到不再需要；病情可能自然緩解，指引建議每 3 到 6 個月重新評估是否繼續用藥。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C73",
+       "s": "S1",
+       "quote": "…pharmacological treatment should be continuous, until no longer needed.",
+       "strength": "Narrative text (\"should\")",
+       "confidence": "High"
+      },
+      {
+       "c": "C05",
+       "s": "S1",
+       "quote": "Since the severity of urticaria may fluctuate, and spontaneous remission may occur at any time, it is also recommended to re‐evaluate the necessity for continued or alternative drug treatment every three to 6 months.",
+       "strength": "Narrative text (\"recommended\")",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-4.3"
+    },
+    {
+     "text": "治療目標是完全控制症狀，並兼顧安全和生活品質。",
+     "strength_label": "GALEN 2026・強烈建議",
+     "evidence": [
+      {
+       "c": "C74",
+       "s": "S1",
+       "quote": "…aiming at complete symptom control in urticaria, considering as much as possible the safety and the quality of life of each individual patient.",
+       "strength": "↑↑; strong consensus; expert consensus; >95% agreement",
+       "confidence": "High"
+      },
+      {
+       "c": "C68",
+       "s": "S1",
+       "quote": "The goal of treatment is to treat the disease until it is gone, as efficiently and as safely as possible, aiming at a continuous complete control (consistently UAS = 0/UCT = 16) and a normalization of quality of life…",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-4.4"
+    },
+    {
+     "text": "需要止痛藥時，先和醫師討論；有些止痛藥被認為對自發型病人較安全。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C27",
+       "s": "S1",
+       "quote": "…NSAIDs are the most common drugs to do so in up to one‐fourth of patients, except for paracetamol (acetaminophen) and/or COX‐2 inhibitors which are considered to be safer options in patients with CSU.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C33",
+       "s": "S8",
+       "quote": "given the risk of cross-reactivity, a DC is still recommended to verify tolerability of an alternative agent prior to prescription for patients with NECD or NIUAA",
+       "strength": "\"recommended\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-4.5"
+    }
+   ],
+   "tip": {
+    "text": "這類不會嗜睡的抗組織胺，已有連續使用數年的安全資料。",
+    "strength_label": "GALEN 2026・指引說明",
+    "evidence": [
+     {
+      "c": "C73",
+      "s": "S1",
+      "quote": "…safety data are available for several years of continuous use…",
+      "strength": "Narrative text (\"should\")",
+      "confidence": "High"
+     }
+    ],
+    "sid": "UR-4.T"
+   }
+  },
+  {
+   "id": "urticaria-diary",
+   "title": "記錄病情",
+   "summary": "每天打分數、拍照，讓醫師掌握病情變化",
+   "illustration": "A smartphone photographing a patch of raised red welts on a forearm, beside a blank paper grid with empty tick boxes (not a real questionnaire). Flat style; no text, no numbers, no brands.",
+   "points": [
+    {
+     "text": "自發型：每天替膨疹和癢各打0到3分，連續7天加總為蕁麻疹活性分數（UAS7），最高42分。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C66",
+       "s": "S1",
+       "quote": "For the UAS7 the sum of the score (0–3 for wheals +0–3 for pruritis) for each day is summarized over 1 week (7 days) for a maximum of 42.",
+       "strength": "Validated tool",
+       "confidence": "High"
+      },
+      {
+       "c": "C65",
+       "s": "S1",
+       "quote": "The UAS7, calculated as the sum of daily scores over 7 consecutive days, should be routinely used to monitor disease activity and treatment response in patients with CSU.",
+       "strength": "Narrative text (\"should\")",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-5.1"
+    },
+    {
+     "text": "用紙本或手機應用程式連續記錄1個月，有助看出病情起伏。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C64",
+       "s": "S1",
+       "quote": "For daily practice, recording the UAS, either on a sheet of paper or in a digital application … for a period of 1 month, offers valuable insight into disease fluctuations.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-5.2"
+    },
+    {
+     "text": "每天記錄也能幫您找出加重因子，例如吃了消炎止痛藥後變嚴重。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C35",
+       "s": "S1",
+       "quote": "…daily tracking of the UAS can help to discover aggravating factors, such as NSAID use.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-5.3"
+    },
+    {
+     "text": "蕁麻疹控制測試（UCT）有4題、回想過去4週，12分以上（滿分16）表示控制良好。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C68",
+       "s": "S1",
+       "quote": "It is a simple four‐item tool … Its recall period is 4 weeks. … The UCT cutoff value for well‐controlled disease is 12 out of 16 possible points.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-5.4"
+    },
+    {
+     "text": "拍下膨疹或腫脹的照片給醫師看，因為看診時它們不一定還在。",
+     "strength_label": "GALEN 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C71",
+       "s": "S1",
+       "quote": "Since wheals and angioedema are transient and may not be present at the time of physical examination, it is important to review prior documentation, including patient‐provided photographs of wheals and/or angioedema…",
+       "strength": "Narrative text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "UR-5.5"
+    }
+   ],
+   "tip": {
+    "text": "自發型會腫脹（血管性水腫）的人，也要記錄血管性水腫活動分數（AAS）。",
+    "strength_label": "GALEN 2026・指引說明",
+    "evidence": [
+     {
+      "c": "C67",
+      "s": "S1",
+      "quote": "For CSU patients who develop angioedema, with or without wheals, the Angioedema Activity Score (AAS) should be used to assess disease activity … CSU patients who experience wheals and angioedema should use the UAS7 and the AAS in combination.",
+      "strength": "Narrative text",
+      "confidence": "High"
+     }
+    ],
+    "sid": "UR-5.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "慢性蕁麻疹多半是食物過敏引起。",
+   "fact": "食物過敏很少是慢性自發型蕁麻疹的原因；慢性蕁麻疹主要和自體免疫有關。",
+   "strength_label": "GALEN 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C12",
+     "s": "S1",
+     "quote": "Food allergy is rarely a trigger of CSU…",
+     "strength": "Narrative text",
+     "confidence": "High"
+    },
+    {
+     "c": "C13",
+     "s": "S1",
+     "quote": "IgE‐mediated food allergy is extremely rarely the underlying cause of CSU…",
+     "strength": "Narrative text",
+     "confidence": "High"
+    },
+    {
+     "c": "C11",
+     "s": "S1",
+     "quote": "…CU is predominantly an autoimmune condition…",
+     "strength": "Narrative text",
+     "confidence": "High"
+    }
+   ],
+   "sid": "UR-M1"
+  },
+  {
+   "belief": "抗組織胺只要發作時吃就好。",
+   "fact": "國際指引指出，自發型蕁麻疹應每天規則吃不會嗜睡的抗組織胺來預防，而非發作才吃。",
+   "strength_label": "GALEN 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C73",
+     "s": "S1",
+     "quote": "Nonsedating 2nd generation H‐antihistamines, for example, should be used daily, to prevent the occurrence of wheals and angioedema, rather than on demand.",
+     "strength": "Narrative text (\"should\")",
+     "confidence": "High"
+    },
+    {
+     "c": "C76",
+     "s": "S11",
+     "quote": "Continuous daily therapy with DL … is a better regimen than PRN treatment to maintain or improve QoL in subjects with CIU.",
+     "strength": "RCT (46 continuous vs 60 as-needed after randomization)",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "UR-M2"
+  },
+  {
+   "belief": "得了蕁麻疹就要長期忌口。",
+   "fact": "食物過敏很少是原因，不需要自行長期忌口（確定食物過敏者除外，很少見）；若醫師建議做飲食試驗，通常只做2到3週。",
+   "strength_label": "GALEN 2026、AAAAI/ACAAI 2014・指引說明",
+   "evidence": [
+    {
+     "c": "C56",
+     "s": "S1",
+     "quote": "Diagnostic diets should be maintained only for a limited time to avoid side effects and safety risks; 2–3 weeks are usually recommended.",
+     "strength": "Narrative text (\"may be considered\"; \"should\")",
+     "confidence": "High"
+    },
+    {
+     "c": "C13",
+     "s": "S1",
+     "quote": "If identified, the specific food allergens need to be omitted as much as possible…",
+     "strength": "Narrative text",
+     "confidence": "High"
+    },
+    {
+     "c": "C58",
+     "s": "S2",
+     "quote": "Avoidance of pseudoallergens in the diet is not recommended.",
+     "strength": "Strength not found in accessible text",
+     "confidence": "High"
+    }
+   ],
+   "sid": "UR-M3"
+  },
+  {
+   "belief": "多做檢查，就能找出蕁麻疹的原因。",
+   "fact": "指引不建議做大量又昂貴的全面篩檢；多數病人目前無法去除根本原因，治療目標是完全控制症狀。",
+   "strength_label": "GALEN 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C14",
+     "s": "S1",
+     "quote": "Intensive and costly general screening programs for causes of urticaria are not advised. … Although desirable, the elimination of underlying causes is currently not possible in most patients with urticaria.",
+     "strength": "Narrative text (\"not advised\")",
+     "confidence": "High"
+    },
+    {
+     "c": "C68",
+     "s": "S1",
+     "quote": "The goal of treatment is to treat the disease until it is gone, as efficiently and as safely as possible, aiming at a continuous complete control (consistently UAS = 0/UCT = 16)…",
+     "strength": "Narrative text",
+     "confidence": "High"
+    }
+   ],
+   "sid": "UR-M4"
+  }
+ ],
+ "seek_care": [
+  {
+   "text": "膨疹或腫脹，同時出現呼吸困難、呼吸有咻咻聲或喘鳴、舌頭或喉嚨腫脹、頭暈、昏倒或嘔吐，可能是嚴重過敏反應，請立刻撥打 119。",
+   "strength_label": "WAO 2020・指引說明",
+   "evidence": [
+    {
+     "c": "C83",
+     "s": "S7",
+     "quote": "Early suspicion of anaphylaxis, either by patients or health-professionals, based on the development of symptoms suggestive of allergy usually affecting several organ systems more or less simultaneously, should prompt immediate management. Anaphylaxis is a medical emergency that requires rapid identification and treatment. … assess airways, breathing, circulation, mental status, and skin, and simultaneously call emergency services…",
+     "strength": "Guidance (no grade in text)",
+     "confidence": "High"
+    },
+    {
+     "c": "C84",
+     "s": "S7",
+     "quote": "…how to recognize anaphylaxis symptoms (eg, tingling in the extremities, sense of heat, sense of dizziness/fainting, swollen lips-tongue-uvula, shortness of breath, wheeze, stridor, collapse)…",
+     "strength": "\"recommended\"",
+     "confidence": "High"
+    },
+    {
+     "c": "C82",
+     "s": "S2",
+     "quote": "Urticaria/angioedema associated with signs and symptoms in organs other than the skin, such as the pulmonary tract (wheezing and cough), gastrointestinal system (vomiting and diarrhea), nervous system (dizziness and loss of consciousness), or cardiac system (changes in blood pressure or heart rate), can occur in patients with anaphylaxis.",
+     "strength": "Strength not found",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "EDITORIAL (not from a source): 119 is Taiwan's emergency number, an editorial localisation; no source gives it",
+     "confidence": ""
+    }
+   ],
+   "sid": "UR-S1"
+  },
+  {
+   "text": "運動時冒疹子，可能是膽鹼性蕁麻疹，也可能是運動誘發的嚴重過敏反應，請就醫讓醫師區分。",
+   "strength_label": "AAAAI/ACAAI 2014・指引說明",
+   "evidence": [
+    {
+     "c": "C46",
+     "s": "S2",
+     "quote": "Urticaria provoked by exercise can occur in patients with 2 conditions: cholinergic urticaria or exercise-induced anaphylaxis (EIAn). … It is important to distinguish EIAn from cholinergic urticaria.",
+     "strength": "Strength not found",
+     "confidence": "High"
+    }
+   ],
+   "sid": "UR-S2"
+  },
+  {
+   "text": "只有反覆腫脹、沒有膨疹時，請就醫評估其他原因（例如某些降血壓藥）；用藥調整請和醫師討論。",
+   "strength_label": "GALEN 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C36",
+     "s": "S1",
+     "quote": "…in patients who suffer exclusively from recurrent angioedema (but not from wheals), differential diagnosis should include bradykinin‐mediated angioedema, including those induced by angiotensin‐converting enzyme (ACE)‐inhibitor or gliptins, or hereditary angioedema (HAE)…",
+     "strength": "Narrative text",
+     "confidence": "High"
+    },
+    {
+     "c": "C37",
+     "s": "S2",
+     "quote": "Patients with recurrent angioedema in the absence of coexisting urticaria should be evaluated for hereditary angioedema, acquired C1 inhibitor deficiency, or angiotensin-converting enzyme inhibitor–associated angioedema before a diagnosis of idiopathic angioedema is made.",
+     "strength": "Strength not found",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "EDITORIAL (not from a source): 「用藥調整請和醫師討論」 neutral safety phrase (the brief's example)",
+     "confidence": ""
+    }
+   ],
+   "sid": "UR-S3"
+  },
+  {
+   "text": "睡不好、心情低落或焦慮時，請告訴醫師；這些在自發型蕁麻疹很常見。",
+   "strength_label": "GALEN 2026・指引說明",
+   "evidence": [
+    {
+     "c": "C09",
+     "s": "S1",
+     "quote": "Mental disorders, such as depression and anxiety, sexual dysfunction and sleep disturbance are also common consequences of CSU … evaluate sleep, mental health, sexual dysfunction, work, social performance",
+     "strength": "Narrative text",
+     "confidence": "High"
+    }
+   ],
+   "sid": "UR-S4"
+  }
+ ],
+ "sources": [
+  {
+   "s": "S1",
+   "short": "GALEN 2026 國際蕁麻疹指引",
+   "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+   "pmid": "41649409",
+   "doi": "10.1111/all.70210"
+  },
+  {
+   "s": "S2",
+   "short": "AAAAI/ACAAI 2014 美國蕁麻疹診療參數",
+   "citation": "Bernstein JA, et al. The diagnosis and management of acute and chronic urticaria: 2014 update. J Allergy Clin Immunol 2014;133(5):1270-7.",
+   "pmid": "24766875",
+   "doi": "10.1016/j.jaci.2014.02.036"
+  },
+  {
+   "s": "S6",
+   "short": "BSACI 2015 英國慢性蕁麻疹指引",
+   "citation": "Powell RJ, et al. BSACI guideline for the management of chronic urticaria and angioedema. Clin Exp Allergy 2015;45(3):547-65.",
+   "pmid": "25711134",
+   "doi": "10.1111/cea.12494"
+  },
+  {
+   "s": "S7",
+   "short": "WAO 2020 全身性過敏反應指引",
+   "citation": "Cardona V, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J 2020;13(10):100472.",
+   "pmid": "33204386",
+   "doi": "10.1016/j.waojou.2020.100472"
+  },
+  {
+   "s": "S8",
+   "short": "WAO 2025 消炎止痛藥過敏聲明",
+   "citation": "Romano A, et al. Updating the classification and routine diagnosis of NSAID hypersensitivity reactions: A WAO Statement. World Allergy Organ J 2025;18(8):101086.",
+   "pmid": "40837856",
+   "doi": "10.1016/j.waojou.2025.101086"
+  },
+  {
+   "s": "S11",
+   "short": "Grob 2009 隨機對照試驗（每天吃 vs 需要時吃）",
+   "citation": "Grob JJ, et al. How to prescribe antihistamines for chronic idiopathic urticaria: desloratadine daily vs PRN and quality of life. Allergy 2009;64(4):605-12.",
+   "pmid": "19133920",
+   "doi": "10.1111/j.1398-9995.2008.01913.x"
+  }
+ ],
+ "reviewer_notes": [
+  "NSAID proportion conflict: S1 (2026) says NSAIDs worsen CSU 'in up to one-fourth of patients'; WAO 2025 (S8) says 'up to 30%'. The page gives no number and says 「部分病人」, which both sources support.",
+  "Heat, tight clothing and alcohol are NOT listed as aggravators in S1 (2026). They appear only as a hedged tip on card 1, citing AAAAI/ACAAI 2014 (S2: 'might exacerbate CU in some patients') and BSACI 2015 (S6: 'Alcohol can aggravate CU'). Delete the tip if you want S1-only content.",
+  "Diet conflict: S1 allows time-limited (2–3 weeks) diagnostic pseudoallergen-/histamine-low diets in selected patients. AAAAI/ACAAI 2014 says 'Avoidance of pseudoallergens in the diet is not recommended'. A 2024 systematic review (S10, abstract only, not cited) supports a low-histamine diet. The page states only the common ground: food allergy is rarely the cause; a positive test does not prove cause; no long-term restriction; at most a short trial in doctor-selected patients that must not delay treatment. No specific diet or food is named.",
+  "Emergency item: 119 is an EDITORIAL localisation; no source gives Taiwan's number, so please confirm. The warning signs come from WAO 2020 (S7) and AAAAI/ACAAI 2014 (S2). S7's symptom list sits inside its action-plan recommendation for at-risk patients with auto-injectors. Only the symptom descriptors are used, with no epinephrine advice. Lip or tongue swelling is deliberately not listed as a stand-alone 119 trigger, because lip angioedema is common in CSU. The wording requires breathing, circulation or GI symptoms. Please confirm this choice.",
+  "Daily vs as-needed antihistamines: S1 says CSU patients should take them daily rather than on demand. BSACI 2015 (S6, C77) allows as-needed use for infrequent symptoms. The page follows S1 (newer, main source) and adds 「依醫師指示」 (EDITORIAL). For CIndU, S1 leaves it as an individual decision (card 4, point 2).",
+  "Cold urticaria and swimming (systemic reaction) rests on AAAAI/ACAAI 2014 alone. S1 is silent, and the CIndU consensus (S18) was not readable. 「先問醫師」 is EDITORIAL. The quote's first word differed between WebFetch passes ('Subjects'/'Patients'), so the excerpt starts after it.",
+  "Medication names: low-dose aspirin (S1, C29) is not named because the brief bars drug names, so card 1 says 「醫師為預防血栓開的低劑量這類藥」. Consider 「低劑量阿斯匹靈」 if you allow it. Paracetamol/acetaminophen and COX-2 inhibitors (S1's 'safer options') are also not named. 「或藥師」 on card 4 is EDITORIAL, added at the lead editor's request. Note that WAO 2025 (S8) recommends a supervised drug challenge before prescribing an alternative to patients with NSAID-exacerbated disease, so you may prefer 「先問醫師」 only.",
+  "Strength labels: every S1 lifestyle statement is narrative text (指引說明). The only graded S1 item used is 'aim at complete symptom control' (↑↑, strong consensus, expert consensus), labelled 強烈建議. The PMC extraction dropped that box's verb ('Weaiming…'); the evidence file confirmed the direction from the ↑↑ symbol and §5.4. The excerpt starts after the glued word, and the unglued C68 goal sentence is cited alongside.",
+  "Copyright: UAS © GALEN; UCT and AAS © MOXIE GmbH (per S1). The page only describes scoring. Do not reproduce the questionnaires or put them in illustrations without permission. The CRUSE app named in S1 is not named on the page.",
+  "Verify against PDFs: S2 (2014) and S6 (2015) were read through a summarising WebFetch tool (quotes capped at about 125 characters, cross-checked across passes). Please check C23, C24, C37, C46, C51 and C82 against the original PDFs. C46's second sentence ('It is important to distinguish EIAn from cholinergic urticaria.') was confirmed in one pass only.",
+  "Population: most S1 statements on triggers, diet, daily antihistamines and UAS7 are CSU-specific, so those texts say 「自發型」. Card 2 is CIndU-specific. Dermographism is not given advice: S1 only describes it, so the page has no 'avoid scratching / loose clothing' instruction (per the evidence file).",
+  "Not used: the 2026 AAAAI/ACAAI draft (S3) is not cited anywhere. TDA 2021 (S4) full text was inaccessible, so the Taiwanese consensus' lifestyle content is unchecked (S1 has a TDA-nominated co-author). Also not used: C03 (CIndU timing, dropped word) and the 'histamine intolerance' quote (M4, odd grammar).",
+  "Omitted but available if you want them: the CSU–suicide/mortality association (C10, sensitive; pair with support resources); the ACE-inhibitor contraindication (BSACI only, stricter than S1); topical steroids (guidelines vs 2024 SR conflict); the Taiwanese antihistamine–dementia signal (S1 says it does not change advice; could become a myth); menthol cooling lotion (BSACI only); BSACI reassurance that CU rarely involves the airway; COVID-19 vaccine data; pregnancy, breastfeeding and child antihistamine notes."
+ ]
+}

@@ -1,0 +1,707 @@
+{
+ "slug": "gout",
+ "name": "痛風",
+ "intro": "這頁整理國內外指引中，痛風患者在飲料、飲食、體重與運動、發作照護和定期檢查上可以做的事。生活習慣能輔助治療，但不能取代治療。",
+ "cards": [
+  {
+   "id": "gout-drinks",
+   "title": "飲料與酒",
+   "summary": "限制喝酒，避免含糖飲料，也要留意果汁。",
+   "illustration": "A simple flat illustration of a hand gently pushing aside a beer glass, a wine glass, a small spirits glass and a sweetened soft-drink cup, with a glass of orange juice standing slightly apart; no text, no logos or brands.",
+   "points": [
+    {
+     "text": "限制喝酒，不論病情輕重；啤酒、葡萄酒、烈酒都算。",
+     "strength_label": "ACR 2020・建議",
+     "evidence": [
+      {
+       "c": "C13",
+       "s": "S1",
+       "quote": "Limiting alcohol intake is conditionally recommended for patients with gout, regardless of disease activity.",
+       "strength": "Conditional. Certainty of evidence: Low (S2 Table 7, via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C13",
+       "s": "S2",
+       "quote": "For patients with gout, regardless of disease activity, we conditionally recommend limiting alcohol intake.",
+       "strength": "Conditional. Certainty of evidence: Low (S2 Table 7, via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C21",
+       "s": "S12",
+       "quote": "…limit intake of all types of alcohol (beer, wine and liquor)",
+       "strength": "Grade not found in accessible text",
+       "confidence": "High"
+      },
+      {
+       "c": "C22",
+       "s": "S32",
+       "quote": "…Consuming wine, beer, or liquor was each associated with an increased risk of gout attack.",
+       "strength": "Observational case-crossover; n=724",
+       "confidence": "Low"
+      }
+     ],
+     "sid": "GT-1.1"
+    },
+    {
+     "text": "即使是中等量的飲酒，也和痛風發作風險增加有關。",
+     "strength_label": "EULAR 2021・建議強度 B",
+     "evidence": [
+      {
+       "c": "C19",
+       "s": "S6",
+       "quote": "People with gout and health professionals should be aware that moderate alcohol consumption is associated with increased risk of gout flare",
+       "strength": "LoE 2a; Grade B; agreement 9.6(0.7)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-1.2"
+    },
+    {
+     "text": "避免含糖飲料，像是加了果糖的汽水。",
+     "strength_label": "EULAR 2016・基本原則",
+     "evidence": [
+      {
+       "c": "C44",
+       "s": "S3",
+       "quote": "…avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks…",
+       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "confidence": "High"
+      },
+      {
+       "c": "C45",
+       "s": "S4",
+       "quote": "sugar sweetened soft drinks containing fructose should be avoided",
+       "strength": "Recommendation IX: LoE I (vitamin C, skimmed milk), III (others); SOR 92% (range 80-100)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-1.3"
+    },
+    {
+     "text": "限制高果糖玉米糖漿的攝取（台灣食品標示常寫作「高果糖糖漿」）。",
+     "strength_label": "ACR 2020・建議",
+     "evidence": [
+      {
+       "c": "C42",
+       "s": "S1",
+       "quote": "Limiting high-fructose corn syrup intake is conditionally recommended for patients with gout, regardless of disease activity. … However, there were no data focused on patients with existing gout.",
+       "strength": "Conditional; certainty Very low (S2 Table 7 via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C42",
+       "s": "S2",
+       "quote": "For patients with gout, regardless of disease activity, we conditionally recommend limiting high- fructose corn syrup.",
+       "strength": "Conditional; certainty Very low (S2 Table 7 via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C30",
+       "s": "S12",
+       "quote": "…limit intake of high-fructose corn syrup",
+       "strength": "Grade not found in accessible text",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial localisation: Taiwanese label term 「高果糖糖漿」; please confirm",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "GT-1.4"
+    },
+    {
+     "text": "果汁也要留意：指引把柳橙汁、蘋果汁列為可以改變的危險因子。",
+     "strength_label": "EULAR 2016・指引說明",
+     "evidence": [
+      {
+       "c": "C44",
+       "s": "S3",
+       "quote": "Importantly, other modifiable risk factors have been identified since 2006, specifically sugar-sweetened drinks, foods rich in fructose and orange or apple juice.",
+       "strength": "As C16 (LoA not found in accessible text. Mainly expert opinion (C07)); location: discussion of principle B",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-1.5"
+    }
+   ],
+   "tip": {
+    "text": "研究發現，24小時內喝了1份多到2份酒，發作風險就比沒喝酒時高約4成，而且喝越多風險越高。",
+    "strength_label": "ACR 2020・指引說明",
+    "evidence": [
+     {
+      "c": "C14",
+      "s": "S1",
+      "quote": "In a case-crossover study, consuming >1–2 alcoholic beverage servings in the prior 24 hours was associated with a 40% higher risk of gout flare than periods without alcohol consumption, with a dose-response relationship…",
+      "strength": "Supporting evidence (narrative)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "GT-1.T"
+   }
+  },
+  {
+   "id": "gout-food",
+   "title": "吃的選擇",
+   "summary": "限制高普林食物和大餐，以均衡飲食為主。",
+   "illustration": "A simple flat illustration of a balanced plate with plenty of vegetables and high-fibre foods, a bowl of soybeans, a glass of skimmed milk and a small cup of low-fat yogurt, and only a small portion of meat and seafood; no text, no brands.",
+   "points": [
+    {
+     "text": "限制高普林食物，不論病情輕重。",
+     "strength_label": "ACR 2020・建議",
+     "evidence": [
+      {
+       "c": "C24",
+       "s": "S1",
+       "quote": "Limiting purine intake is conditionally recommended for patients with gout, regardless of disease activity.",
+       "strength": "Conditional; certainty Low (S2 Table 7 via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C24",
+       "s": "S2",
+       "quote": "For patients with gout, regardless of disease activity, we conditionally recommend limiting purine intake.",
+       "strength": "Conditional; certainty Low (S2 Table 7 via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C28",
+       "s": "S4",
+       "quote": "excessive intake of alcoholic drinks and high purine foods should be avoided",
+       "strength": "Recommendation IX: LoE I (vitamin C, skimmed milk), III (others); SOR 92% (range 80-100)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-2.1"
+    },
+    {
+     "text": "避免豐盛的大餐，肉類和海鮮也不要吃過量。",
+     "strength_label": "EULAR 2016・基本原則",
+     "evidence": [
+      {
+       "c": "C16",
+       "s": "S3",
+       "quote": "…avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks, heavy meals and excessive intake of meat and seafood.",
+       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "confidence": "High"
+      },
+      {
+       "c": "C12",
+       "s": "S6",
+       "quote": "However, the 2016 EULAR guidelines on the management of gout recommend people with gout to avoid sugar-sweetened drinks, heavy meals and excessive intake of meat and seafood as well as encouraging low-fat dairy products—this TF supports these recommendations.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-2.2"
+    },
+    {
+     "text": "選擇均衡飲食：少油、少添加糖，多吃蔬菜和高纖食物。",
+     "strength_label": "BSR 2017・建議",
+     "evidence": [
+      {
+       "c": "C33",
+       "s": "S4",
+       "quote": "Diet and exercise should be discussed with all patients with gout, and a well-balanced diet low in fat and added sugars, and high in vegetables and fibre should be encouraged…",
+       "strength": "Recommendation IX: LoE I (vitamin C, skimmed milk), III (others); SOR 92% (range 80-100)",
+       "confidence": "High"
+      },
+      {
+       "c": "C08",
+       "s": "S5",
+       "quote": "…Advise them to follow a healthy, balanced diet.",
+       "strength": "No formal grade in accessible text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-2.3"
+    },
+    {
+     "text": "把脫脂牛奶或低脂優格、黃豆和植物性蛋白質納入飲食。",
+     "strength_label": "BSR 2017・建議",
+     "evidence": [
+      {
+       "c": "C50",
+       "s": "S4",
+       "quote": "inclusion of skimmed milk and/or low fat yoghurt, soy beans and vegetable sources of protein and cherries, in the diet should be encouraged",
+       "strength": "LoE I for skimmed milk; SOR 92%",
+       "confidence": "High"
+      },
+      {
+       "c": "C49",
+       "s": "S3",
+       "quote": "Low-fat dairy products should be encouraged.",
+       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-2.4"
+    },
+    {
+     "text": "飲食調整可能只讓血中尿酸小幅改變，但有些飲食因素可能誘發發作。",
+     "strength_label": "ACR 2020・指引說明",
+     "evidence": [
+      {
+       "c": "C05",
+       "s": "S1",
+       "quote": "Dietary modifications likely yield only small changes in SU concentration, but dietary factors may serve as triggers for flares…",
+       "strength": "Narrative (not a graded statement)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-2.5"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "gout-weight",
+   "title": "體重與運動",
+   "summary": "體重過重的人逐步減重，並養成規律運動。",
+   "illustration": "A simple flat illustration of a person exercising outdoors (for example, walking), with a bathroom scale and a gently descending path of steps in the background suggesting gradual change; no text, no numbers.",
+   "points": [
+    {
+     "text": "體重過重或肥胖，可能讓痛風發作和症狀加重。",
+     "strength_label": "NICE 2022・建議",
+     "evidence": [
+      {
+       "c": "C72",
+       "s": "S5",
+       "quote": "Advise people with gout that excess body weight or obesity, or excessive alcohol consumption, may exacerbate gout flares and symptoms.",
+       "strength": "No formal grade",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-3.1"
+    },
+    {
+     "text": "體重過重或肥胖的人，建議參加減重計畫，不限特定方案。",
+     "strength_label": "ACR 2020・建議",
+     "evidence": [
+      {
+       "c": "C67",
+       "s": "S1",
+       "quote": "Using a weight loss program (no specific program endorsed) is conditionally recommended for those patients with gout who are overweight/obese, regardless of disease activity.",
+       "strength": "Conditional; certainty Very low (S2 Table 7). S1 text: \"the certainty of the evidence was rated as very low for both SU and flares.\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-3.2"
+    },
+    {
+     "text": "體重過重的人，透過調整飲食逐步減重，減重後維持體重。",
+     "strength_label": "BSR 2017・建議",
+     "evidence": [
+      {
+       "c": "C71",
+       "s": "S4",
+       "quote": "In overweight patients, dietary modification to achieve a gradual reduction in body weight and subsequent maintenance should be encouraged.",
+       "strength": "LoE III; SOR 92%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-3.3"
+    },
+    {
+     "text": "養成規律運動的習慣。",
+     "strength_label": "EULAR 2016・基本原則",
+     "evidence": [
+      {
+       "c": "C77",
+       "s": "S3",
+       "quote": "Regular exercise should be advised.",
+       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-3.4"
+    }
+   ],
+   "tip": {
+    "text": "觀察研究發現，BMI 下降超過 5% 的人，比體重大致不變的人更不容易再次發作。",
+    "strength_label": "ACR 2020・指引說明",
+    "evidence": [
+     {
+      "c": "C68",
+      "s": "S1",
+      "quote": "An increase in BMI of >5% was associated with 60% higher odds of recurrent flare, and a decrease in BMI of >5% was associated with 40% lower odds of recurrent flare compared with those without weight change (–3.5% ≤ BMI ≤ 3.5%)…",
+      "strength": "Narrative (very low certainty)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "GT-3.T"
+   }
+  },
+  {
+   "id": "gout-flare",
+   "title": "發作時的居家照護",
+   "summary": "冰敷、休息抬高、及早治療，原本的降尿酸藥照常吃。",
+   "illustration": "A simple flat illustration of a person resting on a sofa with one foot raised on a cushion, an ice pack on the sore foot joint, a frame keeping the blanket off the foot, and a pill box on the side table; no text, no brands.",
+   "points": [
+    {
+     "text": "冰敷疼痛的關節，搭配醫師開的藥一起使用，可能有助減輕疼痛。",
+     "strength_label": "ACR 2020・建議",
+     "evidence": [
+      {
+       "c": "C87",
+       "s": "S1",
+       "quote": "Using topical ice as an adjuvant treatment over no adjuvant treatment is conditionally recommended for patients experiencing a gout flare.",
+       "strength": "Conditional; certainty Low (S2 via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C87",
+       "s": "S2",
+       "quote": "For patients experiencing a gout flare, we conditionally recommend using topical ice as an adjuvant treatment over no adjuvant treatment.",
+       "strength": "Conditional; certainty Low (S2 via WebFetch)",
+       "confidence": "High"
+      },
+      {
+       "c": "C89",
+       "s": "S5",
+       "quote": "Advise people with gout that applying ice packs to the affected joint (cold therapy) in addition to taking prescribed medicine may help alleviate pain.",
+       "strength": "No formal grade",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-4.1"
+    },
+    {
+     "text": "讓發作的關節休息、抬高，露在外面保持涼爽；可用支被架撐起棉被。",
+     "strength_label": "BSR 2017・建議",
+     "evidence": [
+      {
+       "c": "C88",
+       "s": "S4",
+       "quote": "Affected joints should be rested, elevated and exposed in a cool environment. Bed-cages and ice-packs can be effective adjuncts to management.",
+       "strength": "LoE Ib (ice-packs), IV (other); SOR 89% (range 54-100)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-4.2"
+    },
+    {
+     "text": "出現發作的早期徵兆時，就依照醫師事先的說明盡早治療。",
+     "strength_label": "EULAR 2016・建議強度 A/D",
+     "evidence": [
+      {
+       "c": "C93",
+       "s": "S3",
+       "quote": "Acute flares of gout should be treated as early as possible. Fully informed patients should be educated to self-medicate at the first warning symptoms.",
+       "strength": "LoE/SoR/LoA not found in accessible text",
+       "confidence": "High"
+      },
+      {
+       "c": "C94",
+       "s": "S4",
+       "quote": "Educate patients to understand that attacks should be treated as soon as an attack occurs…",
+       "strength": "LoE IV; SOR 90% (range 81-100)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-4.3"
+    },
+    {
+     "text": "發作期間，原本在吃的降尿酸藥要繼續吃，不要因為發作而停藥。",
+     "strength_label": "BSR 2017・建議",
+     "evidence": [
+      {
+       "c": "C94",
+       "s": "S4",
+       "quote": "…ensure that patients are aware of the importance of continuing any established urate-lowering therapy during an attack.",
+       "strength": "LoE IV; SOR 90% (range 81-100)",
+       "confidence": "High"
+      },
+      {
+       "c": "C95",
+       "s": "S12",
+       "quote": "Do not stop ULT during attack",
+       "strength": "Algorithm; no grade",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-4.4"
+    }
+   ],
+   "tip": {
+    "text": "如果您能認出發作的早期徵兆，可以和醫師討論在家備好發作時用的藥。",
+    "strength_label": "ACR 2020・指引說明",
+    "evidence": [
+     {
+      "c": "C96",
+      "s": "S1",
+      "quote": "…the Patient Panel emphasized its preference for early intervention given the challenges of engaging a provider in timely manner, including an at-home “medication-in-pocket” strategy for patients who are able to identify the early signs of flare onset. … the Voting Panel advocated a “medication-in-pocket” strategy for gout flare management, which the Patient Panel reinforced as a preferred approach.",
+      "strength": "Not a separately graded recommendation (\"advocated\")",
+      "confidence": "High"
+     }
+    ],
+    "sid": "GT-4.T"
+   }
+  },
+  {
+   "id": "gout-checkup",
+   "title": "共病與定期檢查",
+   "summary": "痛風和心血管、腎臟等疾病有關，記得定期檢查。",
+   "illustration": "A simple flat illustration of a patient and a doctor reviewing a checklist made only of icons (heart, kidney, blood-pressure cuff, blood drop, bathroom scale, no-smoking symbol), with a glass of water on the desk; no text.",
+   "points": [
+    {
+     "text": "痛風或高尿酸血症，和心血管疾病、慢性腎臟病、尿路結石、糖尿病等多種疾病有關。",
+     "strength_label": "台灣共識 2018・專家共識",
+     "evidence": [
+      {
+       "c": "C105",
+       "s": "S8",
+       "quote": "Moreover, gout or hyperuricemia is clearly associated with a variety of comorbidities, including cardiovascular diseases, chronic kidney disease, urolithiasis, metabolic syndrome, diabetes mellitus, thyroid dysfunction, and psoriasis.",
+       "strength": "Consensus (abstract only)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "GT-5.1"
+    },
+    {
+     "text": "每年至少一次，和醫師檢視並處理血壓、血糖、血脂、體重、腎臟和吸菸問題。",
+     "strength_label": "BSR 2017・建議",
+     "evidence": [
+      {
+       "c": "C100",
+       "s": "S4",
+       "quote": "Cardiovascular risk factors and co-morbid conditions such as cigarette smoking, hypertension, diabetes mellitus, dyslipidaemia, obesity and renal disease should be screened for in all patients with gout, reviewed at least annually and managed appropriately.",
+       "strength": "LoE III; SOR 90% (range 77-100)",
+       "confidence": "High"
+      },
+      {
+       "c": "C99",
+       "s": "S3",
+       "quote": "Every person with gout should be systematically screened for associated comorbidities and cardiovascular risk factors, including renal impairment, coronary heart disease, heart failure, stroke, peripheral arterial disease, obesity, hyperlipidaemia, hypertension, diabetes and smoking, which should be addressed as an integral part of the management of gout.",
+       "strength": "Overarching principle C; LoA not found in accessible text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "GT-5.2"
+    },
+    {
+     "text": "曾有尿路結石的痛風患者，每天喝超過2公升的水，避免脫水；喝水量請和醫師確認。",
+     "strength_label": "BSR 2017・建議",
+     "evidence": [
+      {
+       "c": "C83",
+       "s": "S4",
+       "quote": "Patients with gout and a history of urolithiasis should be encouraged to drink >2litres of water daily and avoid dehydration.",
+       "strength": "LoE IV; SOR 57% (range 17-100)",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial neutral safety phrase (「喝水量請和醫師確認」); not from a source",
+       "confidence": ""
+      }
+     ],
+     "sid": "GT-5.3"
+    }
+   ],
+   "tip": {
+    "text": "痛風患者常合併心血管疾病，因此調整生活習慣也是預防心血管疾病的一環。",
+    "strength_label": "EULAR 2016・指引說明",
+    "evidence": [
+     {
+      "c": "C101",
+      "s": "S3",
+      "quote": "However, given the high prevalence of cardiovascular comorbidities in patients with gout, lifestyle modifications should also be implemented as part of cardiovascular prevention.",
+      "strength": "Expert opinion",
+      "confidence": "High"
+     }
+    ],
+    "sid": "GT-5.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "痛風是吃出來的，是自己的錯。",
+   "fact": "痛風受遺傳影響很大，ACR 指引刻意避免責怪患者；體重、某些藥物和腎臟病、高血壓等也有影響。",
+   "strength_label": "ACR 2020・指引說明",
+   "evidence": [
+    {
+     "c": "C06",
+     "s": "S1",
+     "quote": "The Voting Panel aimed to provide guidance without implying any “patient-blaming” for the manifestations of gout given its strong genetic determinants.",
+     "strength": "Narrative",
+     "confidence": "High"
+    },
+    {
+     "c": "C03",
+     "s": "S5",
+     "quote": "any risk factors for gout they have, including genetics, excess body weight or obesity, medicines they are taking, and comorbidities such as chronic kidney disease (CKD) or hypertension",
+     "strength": "No formal grade in accessible text",
+     "confidence": "High"
+    }
+   ],
+   "sid": "GT-M1"
+  },
+  {
+   "belief": "只要少吃海鮮就好。",
+   "fact": "不只海鮮，酒、含糖飲料、大餐、肉類和體重也有關係。生活習慣能輔助治療，但不能取代治療。",
+   "strength_label": "EULAR 2016/2021・基本原則",
+   "evidence": [
+    {
+     "c": "C16",
+     "s": "S3",
+     "quote": "Every person with gout should receive advice regarding lifestyle: weight loss if appropriate and avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks, heavy meals and excessive intake of meat and seafood.",
+     "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+     "confidence": "High"
+    },
+    {
+     "c": "C09",
+     "s": "S6",
+     "quote": "Lifestyle improvements complement medical treatment and do not replace it",
+     "strength": "Overarching principle (no LoE/grade stated)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "GT-M2"
+  },
+  {
+   "belief": "補充維生素C可以治療痛風。",
+   "fact": "ACR 指引不建議為痛風額外補充維生素C；小型試驗中，痛風患者服用後尿酸變化沒有臨床意義。",
+   "strength_label": "ACR 2020・不建議",
+   "evidence": [
+    {
+     "c": "C63",
+     "s": "S2",
+     "quote": "For patients with gout, regardless of disease activity, we conditionally recommend against adding vitamin C supplementation.",
+     "strength": "Conditional against; certainty Low (S2 Table 7)",
+     "confidence": "High"
+    },
+    {
+     "c": "C63",
+     "s": "S1",
+     "quote": "The Voting Panel reached consensus that data on vitamin C were insufficient to support continued recommendation for its use in patients with gout. Two small RCTs (n = 29 and n = 40) showed clinically insignificant changes in SU concentrations for patients with gout taking vitamin C…",
+     "strength": "Conditional against; certainty Low (S2 Table 7)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "GT-M3"
+  },
+  {
+   "belief": "吃櫻桃就能治好痛風。",
+   "fact": "觀察性研究發現，吃櫻桃和較少發作有關；但 ACR 指引認為證據確定性低，沒有提出建議。",
+   "strength_label": "ACR 2020・指引說明",
+   "evidence": [
+    {
+     "c": "C53",
+     "s": "S1",
+     "quote": "The Voting Panel reviewed the data for cherries/cherry extract and dairy protein. The certainty of evidence drawn mainly from observational studies was low or very low, precluding specific recommendations on these topics.",
+     "strength": "No recommendation",
+     "confidence": "High"
+    },
+    {
+     "c": "C55",
+     "s": "S3",
+     "quote": "In contrast, according to epidemiological studies, consumption of coffee, and cherries is negatively associated with gout, and eating cherries may reduce the frequency of acute gout flares.",
+     "strength": "Narrative; no recommendation",
+     "confidence": "High"
+    }
+   ],
+   "sid": "GT-M4"
+  }
+ ],
+ "seek_care": [],
+ "sources": [
+  {
+   "s": "S1",
+   "short": "ACR 2020 痛風治療指引",
+   "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+   "pmid": "32391934",
+   "doi": "10.1002/acr.24180",
+   "url": null
+  },
+  {
+   "s": "S2",
+   "short": "ACR 2020 痛風治療指引（同步刊登版）",
+   "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Rheumatol 2020;72(6):879-895.",
+   "pmid": "32390306",
+   "doi": "10.1002/art.41247",
+   "url": null
+  },
+  {
+   "s": "S3",
+   "short": "EULAR 2016 痛風治療建議",
+   "citation": "Richette P, et al. 2016 updated EULAR evidence-based recommendations for the management of gout. Ann Rheum Dis 2017;76(1):29-42.",
+   "pmid": "27457514",
+   "doi": "10.1136/annrheumdis-2016-209707",
+   "url": null
+  },
+  {
+   "s": "S4",
+   "short": "BSR 2017 英國風濕病學會痛風指引",
+   "citation": "Hui M et al. The British Society for Rheumatology Guideline for the Management of Gout. Rheumatology (Oxford) 2017;56(7):e1-e20. Executive summary: Rheumatology (Oxford) 2017;56(7):1056-1059 (PMID 28549195). Erratum: Rheumatology (Oxford) 2017;56(7):1246 (PMID 28605531).",
+   "pmid": "28549177",
+   "doi": "10.1093/rheumatology/kex156",
+   "url": null
+  },
+  {
+   "s": "S5",
+   "short": "NICE 2022 英國痛風指引（NG219）",
+   "citation": "National Institute for Health and Care Excellence (NICE). Gout: diagnosis and management. NICE guideline NG219. Published 9 June 2022.",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.nice.org.uk/guidance/ng219"
+  },
+  {
+   "s": "S6",
+   "short": "EULAR 2021 風濕病生活型態建議",
+   "citation": "Gwinnutt JM et al. 2021 EULAR recommendations regarding lifestyle behaviours and work participation to prevent progression of rheumatic and musculoskeletal diseases. Ann Rheum Dis 2023;82(1):48-56 (published online 8 Mar 2022).",
+   "pmid": "35260387",
+   "doi": "10.1136/annrheumdis-2021-222020",
+   "url": null
+  },
+  {
+   "s": "S8",
+   "short": "台灣痛風與高尿酸血症多專科共識（2018）",
+   "citation": "Yu KH et al. Management of gout and hyperuricemia: Multidisciplinary consensus in Taiwan. Int J Rheum Dis 2018;21(4):772-787.",
+   "pmid": "29363262",
+   "doi": "10.1111/1756-185X.13266",
+   "url": null
+  },
+  {
+   "s": "S12",
+   "short": "馬來西亞 2021 痛風臨床指引（第二版）",
+   "citation": "Malaysian Health Technology Assessment Section (MaHTAS), Ministry of Health Malaysia. Management of Gout (Second Edition). Clinical Practice Guidelines, 2021.",
+   "pmid": null,
+   "doi": null,
+   "url": null
+  },
+  {
+   "s": "S32",
+   "short": "Neogi 2014 酒類與痛風復發研究",
+   "citation": "Neogi T et al. Alcohol quantity and type on risk of recurrent gout attacks: an internet-based case-crossover study. Am J Med 2014;127(4):311-8.",
+   "pmid": "24440541",
+   "doi": "10.1016/j.amjmed.2013.12.019",
+   "url": null
+  }
+ ],
+ "reviewer_notes": [
+  "CHECK AGAINST ORIGINAL PDFs BEFORE PUBLICATION: most points rest on quotes the evidence file obtained through a summarising fetch tool (EULAR 2016 S3, BSR 2017 S4, NICE NG219 S5, EULAR 2021 S6, Malaysian CPG S12, and the ACR co-published tables in S2). Please check each quoted sentence character by character, especially BSR Recs I, II, IX, X and XI; NICE 1.3.5, 1.4.1 and 1.4.2; EULAR 2016 principles B and C and Rec 1; Malaysian Rec 5 and the algorithm line 'Do not stop ULT during attack'.",
+  "TAIWAN / ASIA GAP: only the abstract of the Taiwan multidisciplinary consensus (Yu 2018, S8) was read, and the underlying 'Taiwan Guideline for the Management of Gout and Hyperuricemia' was not found. APLAR 2021 (S7) was abstract-only, so its 5 non-pharmacological statements are unknown and were not used. The soy / plant-protein point (card 2) rests on BSR 2017 Rec IX alone; the evidence file notes a broad belief in Asia that soy raises gout risk (S18). Please confirm the Taiwan consensus position on soy and legumes before publishing that point. Duan 2022 (S18, tofu) was not used in patient text because its human trials were mostly in people with normal uric acid; the Malaysian sentence on soy concerns incident gout only.",
+  "SINGLE-SOURCE ITEMS IN CARD 4: continuing established urate-lowering therapy during a flare is stated only by BSR 2017 Rec I (LoE IV; SOR 90%) and the Malaysian algorithm; ACR 2020, NICE NG219 and EULAR 2016 contain no such statement (checked in the evidence file). Rest and elevation are stated only by BSR 2017 Rec II. The bed-cage is rendered as 「支被架」; please confirm this term suits your patients.",
+  "KIDNEY-STONE FLUID POINT (card 5): BSR 2017 Rec X applies only to people with gout AND a history of urolithiasis, with LoE IV and SOR 57% (range 17-100), i.e. low agreement. No guideline read gives a fluid volume for all people with gout, so no general 'drink X litres' advice was written. Malaysia's general 'stay well-hydrated' sentence (Medium; location in the document not identified) and ACR's hydration counselling for uricosuric users were not used. The phrase 「喝水量請和醫師確認」 is an EDITORIAL safety phrase; delete it if you prefer.",
+  "CONFLICT – specific diet vs none proven: NICE 1.4.1 says there is not enough evidence that any specific diet prevents flares or lowers serum urate, and advises a healthy, balanced diet. ACR, EULAR 2016 and BSR give food-specific advice. The page keeps each food point attributed to its own guideline, cites NICE only for 'balanced diet', and includes ACR's narrative that diet changes urate only a little. You may wish to state NICE's position explicitly.",
+  "CONFLICT – dairy and cherries: ACR 2020 made no recommendation on cherries/cherry extract or dairy protein (low or very low certainty), whereas EULAR 2016, BSR 2017 and China 2024 encourage low-fat dairy and cherries. Low-fat dairy was kept (no guideline read advises against it; ACR's abstention refers to 'dairy protein'). Cherries appear only as a myth item reporting the observational evidence and ACR's certainty judgement; 'cherries' in BSR Rec IX was deliberately left out of the card text, and China 2024's stronger tart-cherry claim was not used.",
+  "CONFLICT – wine: Choi 2004 (incident gout in men without gout; Low) found no association with wine. For people who already have gout, the Malaysian CPG says limit all types (beer, wine and liquor) and Neogi 2014 (Low; used only as a second citation) found wine, beer and liquor each associated with recurrent attacks. ACR's 'limit alcohol intake' does not exempt any type. EULAR 2016's 'especially beer and spirits' emphasis was not repeated, to avoid implying wine is safe.",
+  "STRENGTH LABELS: BSR 2017 reports LoE plus SOR as a percentage, not GRADE 1/2 with A-D, so BSR items are labelled 「建議」 because the quotes use 'should'. EULAR 2016 Rec 1 (treat early) has no strength in accessible text; labelled 「建議」 because it says 'should'. EULAR 2016 principles B and C are labelled 「基本原則」 (principle B was mainly expert opinion). NICE has no grades (「建議」). The Taiwan consensus association statement is labelled 「專家共識」. ACR certainty levels (Low / Very low) were read from the co-published tables via a summarising tool; please confirm against ACR Tables 6-8. The seafood myth carries two overarching principles (EULAR 2016 principle B and EULAR 2021 principle 1) and is labelled 「EULAR 2016/2021・基本原則」.",
+  "VITAMIN C: the ACR direction ('against') was confirmed from the co-published version (S2) and S1's own explanatory paragraph, because the PMC text of S1 drops 'against' ('recommendedfor'). BSR Rec XIX says vitamin C has a 'weak uricosuric effect' while BSR's discussion calls the effect clinically insufficient; BSR was not cited for this myth. Cochrane 2021 (S15) was not quoted because its key sentence is missing a word.",
+  "seek_care is empty on purpose: no source in the evidence file states 'seek care if …' triggers for gout. Add clinic-specific instructions only if they can be sourced.",
+  "WEIGHT: ACR rated the certainty for weight loss as very low for both serum urate and flares. The card 3 tip (BMI fall >5% with 40% lower odds of recurrent flare) is ACR narrative text describing observational data; only the favourable half of that sentence is shown. Bariatric-surgery transient flare risk (ACR narrative) and fasting / rapid weight loss (no guideline statement; mixed Tier-3 data) were left out. BSR's 'gradual' weight loss carries no rate or amount, so none is given.",
+  "OMITTED ON PURPOSE: Malaysia's exception for omega-3-rich fish (no other guideline read makes it); diet soft drinks (ACR's NHANES statement conflicts with Choi 2008); coffee (observational only; no guideline recommends it); low-dose aspirin and urine alkalinisation (prescriber decisions); mainland-China guideline items (S9/S10; applicability to Taiwan not established); organ meats and mushrooms (no source names them); ice technique or duration and exercise amount or type (not in the gout evidence; generic exercise amounts belong on the shared page).",
+  "SOURCE DETAILS: the Malaysian CPG (S12) is not PubMed-indexed and the evidence file records only the host (mymahtas2.moh.gov.my) and a truncated PDF path, so its url is null; please add the exact link. The NICE NG219 PMID is unverified (36063471 appeared in a search but its metadata could not be retrieved), so only the NICE guidance URL is given. EULAR 2016 (S3) is cited as the evidence file records it (online 25 Jul 2016; print year not recorded, and PubMed metadata gives only the online date). The EULAR 2021 (S6) print year 2023 comes from the shared evidence file (common.md).",
+  "The Taiwan consensus point (card 5) comes from its abstract only (Medium confidence). EULAR 2021 (S6) covers several rheumatic diseases; the alcohol item used here (Alcohol recommendation 4) is gout-specific, and its overarching principle 1 is used once, in the seafood myth.",
+  "DRINKS CARD DETAILS: ACR's high-fructose corn syrup recommendation has very low certainty, and ACR states there were no data in patients with existing gout (quoted in the evidence). EULAR 2021 does not define 'moderate' drinking (noted in the shared evidence file, common.md); the card 1 tip shows the amount ACR cites (>1-2 servings in the prior 24 hours). The fruit-juice point is EULAR 2016 discussion text (risk factors), not a graded recommendation, so it says 「留意」 rather than 「避免」.",
+  "TRANSLATION CHOICES to confirm: 「不論病情輕重」 renders ACR's 'regardless of disease activity'; 「尿路結石」 renders 'urolithiasis' (BSR Rec X and the Taiwan consensus); 「黃豆」 renders BSR's 'soy beans' (tofu and soy milk are not named because no guideline read names them); 「中等量」 renders EULAR's 'moderate'."
+ ]
+}

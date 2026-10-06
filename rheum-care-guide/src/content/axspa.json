@@ -1,0 +1,614 @@
+{
+ "slug": "axspa",
+ "name": "僵直性脊椎炎",
+ "intro": "這頁依據國際與台灣指引，整理僵直性脊椎炎的生活照護重點：規律運動、戒菸、保護脊椎、留意眼睛警訊，以及何時該就醫。",
+ "cards": [
+  {
+   "id": "axspa-exercise",
+   "title": "規律運動",
+   "summary": "運動是治療的基石，可請物理治療師協助開始。",
+   "illustration": "An adult doing a gentle standing back-extension stretch while a physiotherapist guides the movement in a bright, simple room; flat illustration, no text, no brands.",
+   "points": [
+    {
+     "text": "盡早養成規律運動的習慣。運動是治療的基石，在用藥之外也對病情有幫助。",
+     "strength_label": "ASAS-EULAR 2022・建議強度 B",
+     "evidence": [
+      {
+       "c": "C01",
+       "s": "S1",
+       "quote": "Patients should be educated about axSpA and encouraged to exercise on a regular basis…",
+       "strength": "LoE/GoR \"2b /B (education, exercise)\", \"5/D (stop smoking)\", \"1a /A (physiotherapy)\"; LoA 9.8 (0.5), 100% ≥8",
+       "confidence": "High"
+      },
+      {
+       "c": "C09",
+       "s": "S1",
+       "quote": "Exercise is a cornerstone in the management of axSpA, with demonstrated benefits on disease outcomes independent of pharmacological treatment.",
+       "strength": "Rec 4 exercise component 2b/B",
+       "confidence": "High"
+      },
+      {
+       "c": "C20",
+       "s": "S10",
+       "quote": "Patients with axSpA should be encouraged to stop smoking and start an individualized regular exercise program as soon as possible.…",
+       "strength": "LoE IIa; GoR B; LoA 92.9%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-1.1"
+    },
+    {
+     "text": "請物理治療師設計個人化運動計畫，包括伸展、肌力、姿勢、深呼吸、脊椎伸展、頸胸腰椎活動度與有氧運動。",
+     "strength_label": "NICE 2017・建議",
+     "evidence": [
+      {
+       "c": "C21",
+       "s": "S5",
+       "quote": "Refer people with axial spondyloarthritis to a specialist physiotherapist to start an individualised, structured exercise programme, which should include: stretching, strengthening and postural exercises; deep breathing; spinal extension; range of motion exercises for the lumbar, thoracic and cervical sections of the spine; aerobic exercise.",
+       "strength": "No grade; wording \"Refer\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-1.2"
+    },
+    {
+     "text": "先由物理治療師教會動作，之後也建議在家自己做背部運動。",
+     "strength_label": "ACR 2015・建議",
+     "evidence": [
+      {
+       "c": "C44",
+       "s": "S4",
+       "quote": "In adults with active or stable AS, we conditionally recommend advising unsupervised back exercises (PICO 20; moderate-quality evidence; vote 91% agreement). / The recommendation is conditional in that unsupervised back exercises should not substitute for initial instruction in back exercises by a physical therapist.",
+       "strength": "Conditional; moderate-quality; 91%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-1.3"
+    },
+    {
+     "text": "有人指導時較能持之以恆；如果很難自己持續運動，可和醫師討論物理治療。",
+     "strength_label": "ASAS-EULAR 2022・建議強度 A",
+     "evidence": [
+      {
+       "c": "C42",
+       "s": "S1",
+       "quote": "On an individual basis, physiotherapy should be considered, especially if a patient does not exercise on their own.",
+       "strength": "1a/A",
+       "confidence": "High"
+      },
+      {
+       "c": "C41",
+       "s": "S1",
+       "quote": "While exercise in general should always be part of the disease management, evidence from qualitative studies shows that adherence is higher if supervised.",
+       "strength": "Physiotherapy 1a/A",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-1.4"
+    },
+    {
+     "text": "接受姿勢衛教、做姿勢運動，避免長時間彎腰駝背。",
+     "strength_label": "TRA 2020・指引說明",
+     "evidence": [
+      {
+       "c": "C62",
+       "s": "S10",
+       "quote": "Postural education and exercise are important to help patients avoid positions that lead to prolonged stooping.",
+       "strength": "Ungraded narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-1.5"
+    }
+   ],
+   "tip": {
+    "text": "發作或急性發炎時，避免高強度的激烈運動；可依發作計畫做伸展等自我照護。",
+    "strength_label": "TRA 2020・指引說明",
+    "evidence": [
+     {
+      "c": "C61",
+      "s": "S10",
+      "quote": "It is also important to avoid any intense strenuous exercise when there is a flare‐up or acute inflammation.",
+      "strength": "Ungraded narrative",
+      "confidence": "High"
+     },
+     {
+      "c": "C60",
+      "s": "S5",
+      "quote": "When discussing any flare management plan, provide information on: … self-care (for example, exercises, stretching and joint protection)…",
+      "strength": "Wording \"Advise\" / \"Consider\" / \"provide\"",
+      "confidence": "High"
+     }
+    ],
+    "sid": "AS-1.T"
+   }
+  },
+  {
+   "id": "axspa-smoking",
+   "title": "戒菸",
+   "summary": "抽菸與病情進展有關，確診後就開始戒菸。",
+   "illustration": "A person calmly declining an offered cigarette with a raised open hand; flat illustration, no text, no brands.",
+   "points": [
+    {
+     "text": "如果有抽菸，請戒菸。抽菸對症狀、身體功能、疾病活動度、病情進展和其他疾病都有不良影響。",
+     "strength_label": "EULAR 2021・建議強度 B",
+     "evidence": [
+      {
+       "c": "C67",
+       "s": "S9",
+       "quote": "People with RMDs should be encouraged to stop smoking and be informed that smoking is detrimental to symptoms, function, disease activity, disease progression and occurrence of comorbidities in all RMDs",
+       "strength": "2a / B / 9.9 (0.2) (100)",
+       "confidence": "High"
+      },
+      {
+       "c": "C64",
+       "s": "S1",
+       "quote": "…encouraged to exercise on a regular basis and stop smoking…",
+       "strength": "5/D (stop smoking)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-2.1"
+    },
+    {
+     "text": "研究發現，抽菸是脊椎發炎和病情進展的危險因子，X光上的脊椎變化也進展較快。",
+     "strength_label": "ASAS-EULAR 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C65",
+       "s": "S1",
+       "quote": "Smoking has been shown as a risk factor for spinal inflammation and disease progression in axSpA.",
+       "strength": "- (Discussion of Recommendation 4)",
+       "confidence": "High"
+      },
+      {
+       "c": "C73",
+       "s": "S6",
+       "quote": "observational studies have shown that certain groups (e.g. males, smokers … ) have greater risk and rate of radiographic progression.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-2.2"
+    },
+    {
+     "text": "確診後就開始戒菸，戒菸計畫可以提供協助。",
+     "strength_label": "TRA 2020・指引說明",
+     "evidence": [
+      {
+       "c": "C72",
+       "s": "S10",
+       "quote": "Therefore, all axSpA patients should be actively encouraged to stop smoking upon diagnosis, and smoking cessation programs may facilitate this.",
+       "strength": "Rec 4 LoE IIa; GoR B (accompanying statement, ungraded)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-2.3"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "axspa-spine",
+   "title": "保護脊椎",
+   "summary": "避免脊椎扳動與碰撞，跌倒受傷後找醫療人員檢查。",
+   "illustration": "A side-view outline of an upright spine inside a soft protective shield, beside a crossed-out icon of hands forcefully twisting a person's neck and back; flat illustration, no text.",
+   "points": [
+    {
+     "text": "避免任何脊椎扳動手法、強力按摩（推拿）、頸椎牽引和容易碰撞的接觸性運動，因為脊椎常較脆弱，輕微外力就可能骨折。",
+     "strength_label": "TRA 2020・指引說明",
+     "evidence": [
+      {
+       "c": "C86",
+       "s": "S10",
+       "quote": "AS patients often have fragile and osteoporotic spines that can develop spinal fractures or dislocations from only mild trauma, and therefore contact sports, cervical traction, and spinal manipulation should be avoided.",
+       "strength": "Ungraded narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C85",
+       "s": "S10",
+       "quote": "However, any type of spinal manipulation should be avoided in axSpA patients due to the risk of osteoporosis and spinal fracture, and rheumatologists should expressly warn patients of the risk involved, especially with the strong massage and joint manipulation techniques common in [final word lost in extraction]",
+       "strength": "Ungraded narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-3.1"
+    },
+    {
+     "text": "脊椎已融合（黏在一起）或有嚴重脊椎骨質疏鬆的人，更不要接受整脊等脊椎扳動手法。",
+     "strength_label": "ACR 2015・強烈不建議",
+     "evidence": [
+      {
+       "c": "C84",
+       "s": "S4",
+       "quote": "In adults with active or stable AS and spinal fusion or advanced spinal osteoporosis, we strongly recommend against treatment with spinal manipulation (PICO 21; very low-quality evidence; vote 100% agreement). / Several case reports of spine fractures, spinal cord injury, and paraplegia following chiropractic spinal manipulation…",
+       "strength": "Strong AGAINST; very low quality; 100%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-3.2"
+    },
+    {
+     "text": "跌倒或受傷後，請找醫療人員檢查，尤其是疼痛加劇時，並告知醫師您有僵直性脊椎炎。脊椎已融合的人，輕微外傷也較容易骨折；懷疑骨折時，可能需要磁振造影或電腦斷層檢查。",
+     "strength_label": "NICE 2017・建議",
+     "evidence": [
+      {
+       "c": "C92",
+       "s": "S5",
+       "quote": "Advise people with axial spondyloarthritis that they may be prone to fractures, and should consult a healthcare professional following falls or physical trauma, particularly in the event of increased musculoskeletal pain.",
+       "strength": "Wording \"Advise\"",
+       "confidence": "High"
+      },
+      {
+       "c": "C94",
+       "s": "S1",
+       "quote": "…particularly in patients with ankylosis of the spine, as a fracture is then more likely to occur even with a minor trauma…",
+       "strength": "5/D (Discussion of Recommendation 15)",
+       "confidence": "High"
+      },
+      {
+       "c": "C94",
+       "s": "S1",
+       "quote": "When suspected, appropriate imaging such as MRI and/or CT scanning should be performed, and an experienced spinal surgeon may need to be consulted",
+       "strength": "5/D (Discussion of Recommendation 15)",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial phrase 「並告知醫師您有僵直性脊椎炎」",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "AS-3.3"
+    },
+    {
+     "text": "有骨質疏鬆、脊椎大範圍融合或平衡不穩的人，可請醫療團隊評估跌倒風險並提供建議。",
+     "strength_label": "ACR 2015・建議",
+     "evidence": [
+      {
+       "c": "C91",
+       "s": "S4",
+       "quote": "In adults with AS, we conditionally recommend fall evaluation and counseling (PICO 51; very low-quality evidence; vote 100% agreement). / Because falls can lead to spinal fractures and devastating neurologic consequences in some patients, the panel recommended fall evaluation and counseling for patients with osteoporosis, extensive spinal fusion, postural instability, or concomitant neurologic or musculoskeletal diseases that affect balance.",
+       "strength": "Conditional; very low quality; 100%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-3.4"
+    }
+   ],
+   "tip": {
+    "text": "台灣常以機車、腳踏車代步，宜及早和醫師討論骨質疏鬆與脊椎骨折的風險。",
+    "strength_label": "TRA 2020・指引說明",
+    "evidence": [
+     {
+      "c": "C98",
+      "s": "S10",
+      "quote": "Considering that bicycles and motorcycles are often used for transportation in Taiwan, the risk of osteoporosis and spinal fracture needs to be addressed as early as possible in axSpA patients, to prevent complications or even permanent disability arising as the result of an accident or fall while riding a bicycle or motorcycle.",
+      "strength": "Ungraded narrative",
+      "confidence": "High"
+     }
+    ],
+    "sid": "AS-3.T"
+   }
+  },
+  {
+   "id": "axspa-eye",
+   "title": "眼睛警訊",
+   "summary": "眼睛痛、紅、怕光或視力模糊，請當天看眼科。",
+   "illustration": "A simple drawing of one eye with a small alert symbol beside it and a clock icon; calm flat illustration, no text.",
+   "points": [
+    {
+     "text": "眼睛痛、眼睛紅、怕光或視力模糊，可能是急性前葡萄膜炎（虹彩炎），請當天就看眼科。",
+     "strength_label": "NICE 2017・建議",
+     "evidence": [
+      {
+       "c": "C102",
+       "s": "S5",
+       "quote": "Refer people for an immediate (same‑day) ophthalmological assessment if they have symptoms of acute anterior uveitis (for example, eye pain, eye redness, sensitivity to light or blurred vision).",
+       "strength": "Wording \"Refer\"; \"immediate (same-day)\"",
+       "confidence": "High"
+      },
+      {
+       "c": "C108",
+       "s": "S10",
+       "quote": "…should be managed as an emergency to avoid complications… / …axSpA patients with anterior uveitis should be referred to an ophthalmologist as soon as possible…",
+       "strength": "Statement accompanying Rec 5 (Rec 5: LoE IV; GoR D; LoA 92.9%)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-4.1"
+    },
+    {
+     "text": "急性前葡萄膜炎是骨骼肌肉以外最常見的表現，多達四分之一的病人可能發生。",
+     "strength_label": "BSR 2025・指引說明",
+     "evidence": [
+      {
+       "c": "C104",
+       "s": "S6",
+       "quote": "Acute anterior uveitis is the most common EMM that can occur in up to a quarter of people with axSpA…",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-4.2"
+    },
+    {
+     "text": "疾病發作期間也可能出現葡萄膜炎，要留意眼睛症狀。",
+     "strength_label": "NICE 2017・建議",
+     "evidence": [
+      {
+       "c": "C103",
+       "s": "S5",
+       "quote": "Be aware that uveitis can occur during flare episodes.…",
+       "strength": "Wording \"Be aware\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-4.3"
+    },
+    {
+     "text": "急性虹彩炎應由眼科醫師治療，以減輕發作的嚴重度、縮短時間或減少併發症。",
+     "strength_label": "ACR 2015・強烈建議",
+     "evidence": [
+      {
+       "c": "C107",
+       "s": "S4",
+       "quote": "In adults with AS and acute iritis, we strongly recommend treatment by an ophthalmologist to decrease the severity, duration, or complications of episodes (PICO 27; very low-quality evidence; vote 100% agreement).",
+       "strength": "S4 Strong, very low",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-4.4"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "axspa-support",
+   "title": "認識疾病與支持",
+   "summary": "了解疾病、預備發作計畫，並善用病友資源。",
+   "illustration": "A small group of adults sitting in a circle and talking with a nurse who holds a blank leaflet; warm flat illustration, no text.",
+   "points": [
+    {
+     "text": "多了解這個病，是自我照護的起點，也能和醫療團隊一起做治療決定。",
+     "strength_label": "ASAS-EULAR 2022・建議強度 B",
+     "evidence": [
+      {
+       "c": "C01",
+       "s": "S1",
+       "quote": "Patients should be educated about axSpA…",
+       "strength": "LoE/GoR \"2b /B (education, exercise)\", \"5/D (stop smoking)\", \"1a /A (physiotherapy)\"; LoA 9.8 (0.5), 100% ≥8",
+       "confidence": "High"
+      },
+      {
+       "c": "C02",
+       "s": "S1",
+       "quote": "All patients should receive education about the disease, as the starting point of self-management, to empower and involve them as active partners in their care.",
+       "strength": "Part of Rec 4 (education 2b/B)",
+       "confidence": "High"
+      },
+      {
+       "c": "C08",
+       "s": "S10",
+       "quote": "To achieve shared decision‐making, patients need to be provided with adequate education about their disease…",
+       "strength": "OP4 LoA 100%; statement ungraded",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-5.1"
+    },
+    {
+     "text": "可以和醫療團隊一起擬定發作計畫：發作時聯絡誰、怎麼自我照護（如運動、伸展），以及如何處理疼痛和疲倦。",
+     "strength_label": "NICE 2017・建議",
+     "evidence": [
+      {
+       "c": "C60",
+       "s": "S5",
+       "quote": "Consider developing a flare management plan that is tailored to the person's individual needs, preferences and circumstances. / When discussing any flare management plan, provide information on: access to care during flares (including details of a named person to contact [for example, a specialist rheumatology nurse]); self-care (for example, exercises, stretching and joint protection); pain and fatigue management; potential changes to medicines; managing the impact on daily life and ability to work.",
+       "strength": "Wording \"Advise\" / \"Consider\" / \"provide\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-5.2"
+    },
+    {
+     "text": "可以向醫療團隊詢問病友團體、網路論壇和公益團體等資源。",
+     "strength_label": "NICE 2017・建議",
+     "evidence": [
+      {
+       "c": "C06",
+       "s": "S5",
+       "quote": "Provide explanations and information about spondyloarthritis, for example: … self-help options; … local support groups, online forums and national charities, and how to get in touch with them.",
+       "strength": "No grade printed; wording \"Provide\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "AS-5.3"
+    }
+   ],
+   "tip": null
+  }
+ ],
+ "myths": [
+  {
+   "belief": "運動有風險，多休息才能保護脊椎。",
+   "fact": "運動是安全的，什麼時候開始都不嫌晚；請選擇適合自己的運動，避免容易碰撞的接觸性運動，發作時也避免激烈運動。",
+   "strength_label": "EULAR 2021・建議強度 A",
+   "evidence": [
+    {
+     "c": "C11",
+     "s": "S9",
+     "quote": "People with RMDs should be advised that exercise is safe and that it is never too late to start exercising",
+     "strength": "1a / A / 9.9 (0.3) (100)",
+     "confidence": "High"
+    },
+    {
+     "c": "C86",
+     "s": "S10",
+     "quote": "AS patients often have fragile and osteoporotic spines that can develop spinal fractures or dislocations from only mild trauma, and therefore contact sports, cervical traction, and spinal manipulation should be avoided.",
+     "strength": "Ungraded narrative",
+     "confidence": "High"
+    },
+    {
+     "c": "C61",
+     "s": "S10",
+     "quote": "It is also important to avoid any intense strenuous exercise when there is a flare‐up or acute inflammation.",
+     "strength": "Ungraded narrative",
+     "confidence": "High"
+    }
+   ],
+   "sid": "AS-M1"
+  },
+  {
+   "belief": "按摩、熱療這類被動治療就夠了，不必運動。",
+   "fact": "按摩、熱療、超音波等被動治療可以輔助，但不能取代主動運動；按摩宜溫和，避免強力推拿或扳動脊椎。",
+   "strength_label": "ACR 2015・建議",
+   "evidence": [
+    {
+     "c": "C52",
+     "s": "S4",
+     "quote": "We conditionally recommend active physical therapy interventions (supervised exercise) over passive physical therapy interventions (massage, ultrasound, heat) (PICO 17; very low-quality evidence; vote 82% agreement). / Passive interventions could supplement, but not substitute for, active physical therapy interventions.",
+     "strength": "Conditional; very low quality; 82%",
+     "confidence": "High"
+    },
+    {
+     "c": "C85",
+     "s": "S10",
+     "quote": "However, any type of spinal manipulation should be avoided in axSpA patients due to the risk of osteoporosis and spinal fracture, and rheumatologists should expressly warn patients of the risk involved, especially with the strong massage and joint manipulation techniques common in [final word lost in extraction]",
+     "strength": "Ungraded narrative",
+     "confidence": "High"
+    }
+   ],
+   "sid": "AS-M2"
+  },
+  {
+   "belief": "某一種運動最有效，只要做那一種就好。",
+   "fact": "目前研究還無法斷定哪一種運動最好，可請物理治療師依個人情況設計運動計畫。",
+   "strength_label": "ASAS-EULAR 2022・指引說明",
+   "evidence": [
+    {
+     "c": "C30",
+     "s": "S1",
+     "quote": "Of note, the heterogeneity and methodological limitations across studies on exercise and physiotherapy hamper a definitive conclusion regarding which exercises are best to perform.",
+     "strength": "- (Discussion of Recommendation 4)",
+     "confidence": "High"
+    },
+    {
+     "c": "C21",
+     "s": "S5",
+     "quote": "Refer people with axial spondyloarthritis to a specialist physiotherapist to start an individualised, structured exercise programme…",
+     "strength": "No grade; wording \"Refer\"",
+     "confidence": "High"
+    }
+   ],
+   "sid": "AS-M3"
+  }
+ ],
+ "seek_care": [
+  {
+   "text": "眼睛痛、眼睛紅、怕光或視力模糊：請當天就看眼科。",
+   "strength_label": "NICE 2017・建議",
+   "evidence": [
+    {
+     "c": "C102",
+     "s": "S5",
+     "quote": "Refer people for an immediate (same‑day) ophthalmological assessment if they have symptoms of acute anterior uveitis (for example, eye pain, eye redness, sensitivity to light or blurred vision).",
+     "strength": "Wording \"Refer\"; \"immediate (same-day)\"",
+     "confidence": "High"
+    },
+    {
+     "c": "C108",
+     "s": "S10",
+     "quote": "…should be managed as an emergency to avoid complications… / …axSpA patients with anterior uveitis should be referred to an ophthalmologist as soon as possible…",
+     "strength": "Statement accompanying Rec 5 (Rec 5: LoE IV; GoR D; LoA 92.9%)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "AS-S1"
+  },
+  {
+   "text": "跌倒或受傷後，請找醫療人員檢查，尤其是疼痛加劇時；若出現手腳麻木或無力，請立即就醫（急診）。",
+   "strength_label": "NICE 2017・建議",
+   "evidence": [
+    {
+     "c": "C92",
+     "s": "S5",
+     "quote": "Advise people with axial spondyloarthritis that they may be prone to fractures, and should consult a healthcare professional following falls or physical trauma, particularly in the event of increased musculoskeletal pain.",
+     "strength": "Wording \"Advise\"",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety phrase 「若出現手腳麻木或無力，請立即就醫（急診）」; NICE gives no time frame",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "AS-S2"
+  }
+ ],
+ "sources": [
+  {
+   "s": "S1",
+   "short": "ASAS-EULAR 2022 中軸型脊椎關節炎治療建議",
+   "citation": "Ramiro S et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34.",
+   "pmid": "36270658",
+   "doi": "10.1136/ard-2022-223296"
+  },
+  {
+   "s": "S4",
+   "short": "ACR/SAA/SPARTAN 2015 僵直性脊椎炎治療建議",
+   "citation": "Ward MM et al. ACR/SAA/SPARTAN 2015 Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Care Res 2016;68(2):151-166; co-published Arthritis Rheumatol 2016;68(2):282-298.",
+   "pmid": "26401907; 26401991",
+   "doi": "10.1002/acr.22708; 10.1002/art.39298"
+  },
+  {
+   "s": "S5",
+   "short": "NICE NG65 脊椎關節炎診斷與治療指引",
+   "citation": "NICE guideline NG65. Spondyloarthritis in over 16s: diagnosis and management. Published 28 February 2017; last updated 2 June 2017.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.nice.org.uk/guidance/ng65"
+  },
+  {
+   "s": "S6",
+   "short": "BSR 2025 中軸型脊椎關節炎生物製劑與標靶藥物指引",
+   "citation": "Zhao SS et al. The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs. Rheumatology (Oxford) 2025;64(6):3242-3254.",
+   "pmid": "40199504",
+   "doi": "10.1093/rheumatology/keaf089"
+  },
+  {
+   "s": "S9",
+   "short": "EULAR 2021 生活型態與工作參與建議",
+   "citation": "Gwinnutt JM et al. 2021 EULAR recommendations regarding lifestyle behaviours and work participation to prevent progression of rheumatic and musculoskeletal diseases. Ann Rheum Dis 2023;82(1):48-56.",
+   "pmid": "35260387",
+   "doi": "10.1136/annrheumdis-2021-222020"
+  },
+  {
+   "s": "S10",
+   "short": "台灣 TRA 2020 中軸型脊椎關節炎共識",
+   "citation": "Wei JC et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+   "pmid": "31777200",
+   "doi": "10.1111/1756-185X.13752"
+  }
+ ],
+ "reviewer_notes": [
+  "TOP 1 - 2026 ACR/SAA/SPARTAN pre-publication summary (S2) is NOT cited anywhere, per your instruction. When the full 2026 papers are published, re-check this page: S2 prints spinal manipulation as \"strongly recommend against\" with no fused/osteoporotic-spine restriction; traction conditional against; fall evaluation upgraded to strong; aquatic over land (reverses 2015); physical therapy in inactive disease conditional (2015: strong for stable AS); new conditional recommendation FOR acupuncture and massage therapy; uveitis-symptom education strong; routine eye exams in adults without symptoms conditionally against. The ACR points here use the 2015 recommendations, which the 2019 update keeps in force (\"The 2015 recommendations that were not re-examined are to be considered extant.\"); labelled \"ACR 2015\".",
+  "TOP 2 - Conflicts resolved by writing only the common ground: (a) Supervised vs home exercise: ASAS-EULAR 2022 says supervised exercise is more efficacious than home exercise, but the Gravaldi 2022 meta-analysis (S17) found no significant difference. The page states only that supervision improves adherence (S1, qualitative studies) and that home back exercises should follow initial instruction by a physiotherapist (ACR 2015). It does not say supervised is better. (b) Aquatic vs land exercise (ACR 2015 prefers land, mainly for access; NICE: hydrotherapy as an adjunct; S2 reverses): left out entirely, including swimming. (c) Spinal manipulation scope: two separate points. TRA 2020 narrative (ungraded) says avoid any spinal manipulation, cervical traction and contact sports. ACR 2015 strongly recommends against manipulation only in people with spinal fusion or advanced spinal osteoporosis. The text 「更不要」 links the two. Contact sports and cervical traction rest only on TRA narrative.",
+  "TOP 3 - Card title changed from 「每天運動」 to 「規律運動」. ASAS-EULAR 2022 and EULAR 2021 say \"regular\" exercise; \"every day\" appears only in TRA 2020 narrative (flexibility \"may be performed every day\"; \"daily deep breathing exercises\"). Exercise amounts were left out per instruction: axSpA-specific frequencies exist only in ungraded TRA narrative (evidence file C38), and the generic 150-minute guidance belongs on the shared page. Add them only if you accept ungraded TRA narrative.",
+  "Terminology: \"spinal manipulation\" is rendered 「脊椎扳動手法」, with 「整脊」 as the example (the ACR 2015 rationale cites chiropractic manipulation). Please choose your preferred local term (整脊／推拿／喬骨頭). 「推拿」 was not used because massage is a separate passive intervention. The TRA sentence about \"strong massage and joint manipulation techniques common in…\" is truncated in the extraction and was not used. Acupuncture and massage therapy are omitted: only S2 supports them, and the TRA and ASAS-EULAR cautions conflict.",
+  "Intentional duplication: seek_care repeats the same-day eye message (card 4, point 1) and the after-fall message (card 3, point 3). Drop one copy if the layout already highlights them. The eye topic is a full card because NICE 1.7.3 (uveitis during flares), ACR 2015 PICO 27 (treatment by an ophthalmologist) and BSR 2025 (frequency) add education beyond the red flag.",
+  "Please check against the original PDFs: the ASAS-EULAR 2022 LoE/GoR values (2b/B education and exercise; 5/D stop smoking; 1a/A physiotherapy; 5/D Rec 15) and the EULAR 2021 Table 1 values were read via publisher and repository pages (WebFetch, 2-3 passes), not PMC. NICE NG65 prints no grades, so it is labelled 「建議」. TRA accompanying statements are ungraded and labelled 「指引說明」 (Rec 4 itself is LoE IIa / GoR B; card 1 point 1 cites it for 「盡早」). The ACR 2015 strong recommendation for physical therapy in stable AS was not used because the pending 2026 update may downgrade it; the physiotherapy point uses ASAS-EULAR (1a/A).",
+  "Medication-adjacent items omitted: ACR 2015 conditional recommendation for topical glucocorticoid eye drops kept at home for recurrent iritis (restricted to patients with recurrent episodes who know the symptoms, within a care plan that includes a prompt eye examination); add only if you want it. Smoking and response to TNF inhibitors omitted (TRA and Zurita Prada 2020 conflict).",
+  "Other omissions (no source, weak source, or generic): sleep posture, mattress and pillow advice (no Tier 1/2 source); effect of exercise on sleep (very uncertain); diet, weight and alcohol (generic, shared page); work and heavy labour (EULAR 2021 narrative association only, plus S2); self-management courses (ACR 2015 conditional, \"Only programs that have been demonstrated to be effective should be used\"); Taiwan NHI exercise-education certificate (current status not verified); warm-up and cool-down times (TRA narrative; sentence boundaries glued in extraction).",
+  "Smoking card: the harm wording follows EULAR 2021 Smoking 1 (\"be informed that smoking is detrimental to...\"). The underlying studies are observational (S20: \"causality cannot be inferred from these studies\"). ASAS-EULAR notes that no formal study has tested the effect of quitting on axSpA outcomes. The page does not claim that quitting improves axSpA.",
+  "Uveitis: NICE \"immediate (same-day)\" is used. BSR 2025 says \"within 24 hours\". The frequency point relies on BSR narrative (\"up to a quarter\"). The Stolwijk meta-analysis (25.8%, uveitis in AS, Medium confidence) was not cited because its title is abbreviated in the evidence file.",
+  "Fall-evaluation point (card 3, point 4) follows the ACR 2015 rationale population: osteoporosis, extensive spinal fusion, postural instability, or diseases that affect balance. 「平衡不穩」 covers the last two. The Taiwan scooter and bicycle tip is TRA narrative. No time frame (same day or emergency) is given after a fall, because NICE 1.8.6 gives none.",
+  "Support groups: NICE is the only source. No Taiwanese patient organisation appears in the evidence. Add local resources only on your own authority.",
+  "Naming: the sources list calls TRA 「台灣風濕病醫學會（TRA）」; please confirm the official Chinese name (the evidence file searched 中華民國風濕病醫學會). The page name is 「僵直性脊椎炎」. ACR 2015 statements are worded for \"adults with AS\", whereas ASAS-EULAR, NICE and TRA cover axSpA, including non-radiographic axSpA. Consider the subtitle 中軸型脊椎關節炎."
+ ]
+}

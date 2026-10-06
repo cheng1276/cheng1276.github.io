@@ -1,0 +1,866 @@
+{
+ "slug": "ra",
+ "name": "類風濕性關節炎",
+ "intro": "這頁依據國際指引，整理類風濕性關節炎在運動、關節保護、飲食與體重、菸酒，以及疲倦與工作上的生活照護建議。",
+ "cards": [
+  {
+   "id": "ra-exercise",
+   "title": "規律運動",
+   "summary": "持續規律運動，依自己的能力選擇合適的方式。",
+   "illustration": "Simple flat illustration in soft colours: one adult doing water exercise in a pool, one adult practising tai chi outdoors, and one adult doing a light resistance-band exercise while a physiotherapist watches. No text, no logos.",
+   "points": [
+    {
+     "text": "持續規律運動，有助減輕疼痛、改善身體功能和生活品質。",
+     "strength_label": "ACR 2022・強烈建議",
+     "evidence": [
+      {
+       "c": "RA-C01",
+       "s": "S1",
+       "quote": "Consistent engagement in exercise is strongly recommended over no exercise.",
+       "strength": "Strong, for; \"This recommendation is based on moderate certainty evidence suggesting improved physical function and pain.\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C08",
+       "s": "S2",
+       "quote": "People with RMDs should exercise because of the benefits on pain, function and quality of life",
+       "strength": "LoE 1a; SoR A; LoA 9.7 (0.7)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-1.1"
+    },
+    {
+     "text": "選擇有氧運動、水中運動、肌力訓練，或瑜伽、太極拳、氣功等身心運動。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C03",
+       "s": "S1",
+       "quote": "Consistent engagement in aerobic exercise is conditionally recommended over no exercise.",
+       "strength": "Conditional, for; \"very low to low certainty evidence suggesting improved physical function but moderate certainty evidence of no difference in pain\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C04",
+       "s": "S1",
+       "quote": "Consistent engagement in aquatic exercise is conditionally recommended over no exercise.",
+       "strength": "Conditional, for; \"low certainty evidence of improvement in physical function but no difference in pain\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C05",
+       "s": "S1",
+       "quote": "Consistent engagement in resistance exercise is conditionally recommended over no exercise.",
+       "strength": "Conditional, for; \"very low to low certainty evidence of improvement in physical function (inferred from performance measures) and pain\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C07",
+       "s": "S1",
+       "quote": "Consistent engagement in mind-body exercise (yoga, Tai Chi, qigong) is conditionally recommended over no exercise.",
+       "strength": "Conditional, for; \"very low to low certainty evidence of improvement in physical function but no difference in pain\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-1.2"
+    },
+    {
+     "text": "請物理治療師或合格的運動專業人員安排、指導肌力訓練，以避免傷害。",
+     "strength_label": "ACR 2022・指引說明",
+     "evidence": [
+      {
+       "c": "RA-C06",
+       "s": "S1",
+       "quote": "The Voting Panel and patient panel emphasized the importance of appropriate prescription and supervision of resistance exercise by physical therapists or other qualified exercise professionals to prevent harm.",
+       "strength": "n/a (panel emphasis)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-1.3"
+    },
+    {
+     "text": "運動是安全的，什麼時候開始都不嫌晚；研究中的不適大多短暫、輕微，例如肌肉痠痛、疲倦。",
+     "strength_label": "EULAR 2021・建議強度 A",
+     "evidence": [
+      {
+       "c": "RA-C12",
+       "s": "S2",
+       "quote": "People with RMDs should be advised that exercise is safe and that it is never too late to start exercising",
+       "strength": "LoE 1a; SoR A; LoA 9.9 (0.3)",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C24",
+       "s": "S3",
+       "quote": "Overall, reported adverse events with exercise and/or PA interventions in IA or OA were transient and mild [27,47,49], including eg, muscle pain and tiredness.",
+       "strength": "Supporting text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-1.4"
+    },
+    {
+     "text": "發作時可能無法做激烈運動，但散步或關節活動度運動，或許仍做得到。",
+     "strength_label": "EULAR 2025・指引說明",
+     "evidence": [
+      {
+       "c": "RA-C27",
+       "s": "S3",
+       "quote": "For example, whereas a flare might prevent someone from performing high-intensity activities, activities of lower intensity such as going for a walk or range of motion exercises might still be possible.",
+       "strength": "Supporting text (example)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-1.5"
+    }
+   ],
+   "tip": {
+    "text": "目標：每週至少 150 分鐘中等強度以上的有氧運動，加上每週 2 次肌力訓練；可依自己的能力調整。",
+    "strength_label": "EULAR 2021・指引說明",
+    "evidence": [
+     {
+      "c": "RA-C11",
+      "s": "S2",
+      "quote": "People with RMDs should aim for at least moderate intensity aerobic exercise (64%–76% of maximal heart rate) for at least 150 min per week, and strengthening exercise (50%–69% of an individual's one-repetition maximal effort) twice a week.",
+      "strength": "Supports Exercise 4 (1a/A)",
+      "confidence": "High"
+     },
+     {
+      "c": "RA-C10",
+      "s": "S2",
+      "quote": "People with RMDs should perform both aerobic and strengthening exercises aiming for at least moderate intensity",
+      "strength": "LoE 1a; SoR A; LoA 9.5 (0.8)",
+      "confidence": "High"
+     },
+     {
+      "c": "RA-C09",
+      "s": "S2",
+      "quote": "People with RMDs should avoid physical inactivity; they should engage in regular exercise according to their abilities",
+      "strength": "LoE 5; SoR D; LoA 9.9 (0.5)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "RA-1.T"
+   }
+  },
+  {
+   "id": "ra-hands",
+   "title": "手部運動與關節保護",
+   "summary": "手部運動、關節保護與輔具，可請治療師指導。",
+   "illustration": "Simple flat illustration in soft colours: an occupational therapist guiding an adult through gentle finger and wrist exercises at a table; a wrist splint, a walking cane and a long-handled reacher rest nearby. No text, no logos.",
+   "points": [
+    {
+     "text": "手部受影響時，可做手部治療運動，最好由有經驗的手部治療師（多為受過進階訓練的職能或物理治療師）評估。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C35",
+       "s": "S1",
+       "quote": "For patients with hand involvement, performing hand therapy exercises is conditionally recommended over no hand therapy exercises.",
+       "strength": "Conditional, for; \"low certainty evidence of pain reduction and improvement in physical function\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C35",
+       "s": "S1",
+       "quote": "Evaluation of the unique needs of the person with RA with hand involvement is best performed by an experienced hand therapist (e.g., a certified hand therapist (CHT) who is typically an occupational or physical therapist with additional training)",
+       "strength": "Conditional, for; \"low certainty evidence of pain reduction and improvement in physical function\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-2.1"
+    },
+    {
+     "text": "向職能或物理治療師學習關節保護技巧，例如改變做事方式以避免疼痛、休息、改用其他肌群。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C39",
+       "s": "S1",
+       "quote": "Use of joint protection techniques is conditionally recommended over no joint protection techniques.",
+       "strength": "Conditional, for; \"low certainty evidence of improvement in pain and function\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C39",
+       "s": "S1",
+       "quote": "The Voting Panel also stressed the importance of proper patient education in joint protection techniques by occupational or physical therapists.",
+       "strength": "Conditional, for; \"low certainty evidence of improvement in pain and function\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C39",
+       "s": "S1",
+       "quote": "Self-management approach that aims to maintain function by providing people with ways to alter work methods and movement patterns of affected joints to reduce pain, inflammation, and joint stress. Examples include changing the way of performing activities to avoid pain, resting, using alternative muscle groups.",
+       "strength": "Conditional, for; \"low certainty evidence of improvement in pain and function\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-2.2"
+    },
+    {
+     "text": "手、腕、膝或足踝受影響時，可使用副木、護具或矯具，並請職能或物理治療師協助挑選和調整。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C43",
+       "s": "S1",
+       "quote": "For patients with hand and/or wrist involvement and/or deformity, use of splinting, orthoses, and/or compression is conditionally recommended over no splinting, orthoses, and/or compression.",
+       "strength": "Conditional, for; very low certainty (see RA-C46)",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C44",
+       "s": "S1",
+       "quote": "For patients with foot and/or ankle involvement, use of bracing, orthoses, and/or taping is conditionally recommended over no bracing, orthoses, and/or compression.",
+       "strength": "Conditional, for",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C45",
+       "s": "S1",
+       "quote": "For patients with knee involvement, use of bracing and/or orthoses is conditionally recommended over no bracing and/or orthoses.",
+       "strength": "Conditional, for",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C46",
+       "s": "S1",
+       "quote": "In addition, although these interventions are available without a prescription, the Voting Panel recommends their prescription and use under the guidance of an experienced occupational therapist or physical therapist to ensure appropriate item selection and fit.",
+       "strength": "n/a",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-2.3"
+    },
+    {
+     "text": "需要時使用輔具，例如拐杖、助行器、長柄或加粗握把的用具；家中也可加裝扶手。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C49",
+       "s": "S1",
+       "quote": "Use of assistive devices is conditionally recommended over no assistive devices.",
+       "strength": "Conditional, for; no eligible evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C49",
+       "s": "S1",
+       "quote": "Devices to assist with mobility. Examples include crutches, canes, walkers, wheelchairs, tricycles, scooters.",
+       "strength": "Conditional, for; no eligible evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C50",
+       "s": "S1",
+       "quote": "Use of adaptive equipment is conditionally recommended over no adaptive equipment.",
+       "strength": "Conditional, for; no eligible evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C50",
+       "s": "S1",
+       "quote": "Devices to assist with activities of daily living. Examples include built up and/or long handled equipment, sock aide, button hook, reachers, pill cutters, cell phone holders.",
+       "strength": "Conditional, for; no eligible evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C51",
+       "s": "S1",
+       "quote": "Use of environmental adaptations is conditionally recommended over no environmental adaptations.",
+       "strength": "Conditional, for; no eligible evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C51",
+       "s": "S1",
+       "quote": "Adapting environment to improve safety. Examples include adaptations for toileting (raised toilet seat, commode, toilet safety rail), showering (tub seat, handheld shower, walk in bath), grab bars, ramps, stair lifts, home modification.",
+       "strength": "Conditional, for; no eligible evidence",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-2.4"
+    },
+    {
+     "text": "及早和醫師討論轉介職能治療或物理治療；治療內容可依您的需要調整。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C52",
+       "s": "S1",
+       "quote": "Participation in comprehensive occupational therapy (OT) is conditionally recommended over no comprehensive OT. … Participation in comprehensive physical therapy (PT) is conditionally recommended over no comprehensive PT.",
+       "strength": "Conditional, for; \"very low certainty evidence of improvement in pain and physical function\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C53",
+       "s": "S1",
+       "quote": "Clinicians should discuss the opportunity to refer to OT and/or PT early in the RA disease course with the recognition that OT and/or PT interventions can be tailored to unique patient needs throughout the patient’s experience with RA.",
+       "strength": "n/a",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-2.5"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "ra-diet",
+   "title": "飲食與體重",
+   "summary": "選擇地中海型飲食、以食物為優先，並維持健康體重。",
+   "illustration": "Simple flat illustration in soft colours of a Mediterranean-style meal on a table: vegetables, fruit, whole-grain bread, a small bowl of nuts and seeds, a bottle of olive oil, a piece of fish and a glass of milk. No text, no logos.",
+   "points": [
+    {
+     "text": "選擇地中海型飲食：多吃蔬菜、水果、全穀、堅果、種子和橄欖油，適量吃低脂乳品和魚。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C64",
+       "s": "S1",
+       "quote": "Adherence to a Mediterranean-style diet is conditionally recommended over no formally defined diet. … The Mediterranean-style diet pattern emphasizes the intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish",
+       "strength": "Conditional, for; \"low to moderate certainty of evidence of improvement in pain and no difference in physical function or disease activity\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-3.1"
+    },
+    {
+     "text": "不建議為了治療類風濕性關節炎而改採其他特定飲食法，例如生酮、無麩質、純素、間歇性斷食。",
+     "strength_label": "ACR 2022・不建議",
+     "evidence": [
+      {
+       "c": "RA-C66",
+       "s": "S1",
+       "quote": "Adherence to a formally defined diet, other than a Mediterranean-style diet, is conditionally recommended against.",
+       "strength": "Conditional, AGAINST; \"very low to moderate certainty evidence demonstrating no consistent, clinically meaningful benefit on physical function, pain, or disease activity specific to RA\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C66",
+       "s": "S1",
+       "quote": "Specific formally defined diets evaluated in this guideline were: anti-inflammatory, Mediterranean-style, ketogenic, paleo, gluten-free, vegetarian, vegan, intermittent fasting, elemental, elimination, raw foods, whole food plant-based.",
+       "strength": "Conditional, AGAINST; \"very low to moderate certainty evidence demonstrating no consistent, clinically meaningful benefit on physical function, pain, or disease activity specific to RA\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C66",
+       "s": "S1",
+       "quote": "Although people with RA may have other indications for these interventions (e.g., comorbidities), this guideline focuses specifically on managing RA.",
+       "strength": "Conditional, AGAINST; \"very low to moderate certainty evidence demonstrating no consistent, clinically meaningful benefit on physical function, pain, or disease activity specific to RA\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-3.2"
+    },
+    {
+     "text": "以食物為優先，不必為了治療類風濕性關節炎另外吃保健食品；因骨骼或心血管等其他需要考慮補充品時，先和醫師討論。醫師開的葉酸、鈣片或維生素 D，請照醫囑使用，不要自行停用。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C67",
+       "s": "S1",
+       "quote": "Following established dietary recommendations without dietary supplements is conditionally recommended over adding dietary supplements. … The Voting Panel supported a “food first” approach but recognized the role dietary supplements may serve for bone (e.g., Vitamin D) and cardiovascular (e.g., fish oil) health, which are particularly important in people with RA ().",
+       "strength": "Conditional; direction = established dietary recommendations without supplements, over adding supplements; \"very low to moderate certainty evidence demonstrating no consistent, clinically meaningful benefit on physical function, pain, or disease activity specific to RA\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C67 (notes)",
+       "s": "S1",
+       "quote": "Recommendations on folic acid supplementation in the setting of treatment with methotrexate are included in the pharmacologic treatment guidelines",
+       "strength": "Medication-adjacent narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial safety phrase 「醫師開的葉酸、鈣片或維生素 D，請照醫囑使用，不要自行停用」",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "RA-3.3"
+    },
+    {
+     "text": "維持健康體重；在類風濕性關節炎，肥胖與疾病活動度較高、身體功能較差和治療反應較差有關。",
+     "strength_label": "EULAR 2021・建議強度 D",
+     "evidence": [
+      {
+       "c": "RA-C75",
+       "s": "S2",
+       "quote": "People with RMDs should aim for a healthy weight",
+       "strength": "LoE 5; SoR D; LoA 9.7 (0.7)",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C74",
+       "s": "S1",
+       "quote": "However, the Voting Panel was unanimous in its support of clinicians engaging in discussion about maintaining a healthy body weight for people with RA to optimize long-term RA and general health outcomes. … In RA, obesity is associated with higher disease activity, impairments in physical function, and poorer treatment response, in addition to poor long-term health outcomes ().",
+       "strength": "Not a graded recommendation (no vote)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-3.4"
+    },
+    {
+     "text": "體重過重或肥胖時，和醫療團隊合作，靠健康飲食和多活動，有計畫、有控制地減重，可能對病情有幫助。",
+     "strength_label": "EULAR 2021・建議強度 B",
+     "evidence": [
+      {
+       "c": "RA-C76",
+       "s": "S2",
+       "quote": "People with RMDs who are overweight or obese should work with health professionals to achieve controlled and intentional weight loss through healthy diet and increased physical activity as this may be beneficial for RMD outcomes",
+       "strength": "LoE 2a; SoR B; LoA 9.5 (1.6)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-3.5"
+    }
+   ],
+   "tip": {
+    "text": "地中海型飲食也要減少添加糖、鈉、高度加工食品、精製澱粉和飽和脂肪。",
+    "strength_label": "ACR 2022・建議",
+    "evidence": [
+     {
+      "c": "RA-C64",
+      "s": "S1",
+      "quote": "Adherence to a Mediterranean-style diet is conditionally recommended over no formally defined diet. … and limits added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats.",
+      "strength": "Conditional, for; \"low to moderate certainty of evidence of improvement in pain and no difference in physical function or disease activity\"",
+      "confidence": "High"
+     }
+    ],
+    "sid": "RA-3.T"
+   }
+  },
+  {
+   "id": "ra-smoking-alcohol",
+   "title": "菸與酒",
+   "summary": "吸菸對病情和治療都不利；飲酒情形可和醫療團隊討論。",
+   "illustration": "Simple flat illustration in soft colours: a hand breaking a cigarette in half, and an adult talking with a doctor across a clinic desk. No text, no logos.",
+   "points": [
+    {
+     "text": "戒菸：吸菸對症狀、身體功能、疾病活動度和病程進展都不利，也會增加其他疾病的發生。",
+     "strength_label": "EULAR 2021・建議強度 B",
+     "evidence": [
+      {
+       "c": "RA-C80",
+       "s": "S2",
+       "quote": "People with RMDs should be encouraged to stop smoking and be informed that smoking is detrimental to symptoms, function, disease activity, disease progression and occurrence of comorbidities in all RMDs",
+       "strength": "LoE 2a; SoR B; LoA 9.9 (0.2)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-4.1"
+    },
+    {
+     "text": "吸菸也可能讓類風濕性關節炎藥物的治療效果變差。",
+     "strength_label": "EULAR 2021・建議強度 B",
+     "evidence": [
+      {
+       "c": "RA-C81",
+       "s": "S2",
+       "quote": "People with rheumatoid arthritis and health professionals should be aware that smoking may affect disease modifying anti-rheumatic drug treatment response",
+       "strength": "LoE 2a; SoR B; LoA 9.8 (0.7)",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C79",
+       "s": "S1",
+       "quote": "The Voting Panel recognized the well-established harms of tobacco including detrimental effects on RA that include higher disease severity, poorer treatment response, and increased risk of poor long-term disease outcomes ().",
+       "strength": "Not a graded recommendation (no eligible RA cessation studies)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-4.2"
+    },
+    {
+     "text": "想戒菸時，可請醫療團隊協助，也可利用戒菸服務。",
+     "strength_label": "ACR 2022・指引說明",
+     "evidence": [
+      {
+       "c": "RA-C79",
+       "s": "S1",
+       "quote": "People with RA who are currently using tobacco should be supported in their tobacco cessation journey.",
+       "strength": "Not a graded recommendation (no eligible RA cessation studies)",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C82",
+       "s": "S7",
+       "quote": "patients should be advised to stop smoking and directed towards the locally defined evidence-based smoking cessation programmes",
+       "strength": "Rec 7: LoE 1b; SoR A; LoA 9.8 (0.3)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-4.3"
+    },
+    {
+     "text": "少量飲酒不太可能讓病情變差，但這不適用於有肝病，或正在使用 methotrexate、leflunomide 等藥物的人，能不能喝酒請先和醫師討論。另外，中等量飲酒和類風濕性關節炎較容易發作、出現其他疾病有關。",
+     "strength_label": "EULAR 2021・建議強度 B",
+     "evidence": [
+      {
+       "c": "RA-C88",
+       "s": "S2",
+       "quote": "People with RMDs can be reassured that a low level of alcohol consumption is unlikely to negatively impact RMD outcomes except in certain situations",
+       "strength": "LoE 2a; SoR B; LoA 8.0 (2.2), the lowest agreement of any S2 statement",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C88",
+       "s": "S2",
+       "quote": "except in certain situations such as those with liver disease or who use certain treatments (eg, methotrexate, leflunomide).",
+       "strength": "LoE 2a; SoR B; LoA 8.0 (2.2), the lowest agreement of any S2 statement",
+       "confidence": "High"
+      },
+      {
+       "c": "common:C51",
+       "s": "common:S1",
+       "quote": "While there have been relatively few research studies on alcohol and RMDs, those that have been published have shown that, in general, low levels of alcohol consumption are unlikely to have negative impacts on RMD-specific outcomes, except in certain situations such as those with liver disease or who use certain treatments (eg, methotrexate, leflunomide).",
+       "strength": "LoE 2a; GoR B; LoA 8.0 (2.2) (73.7). Lowest agreement of all 18 recommendations.",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C89",
+       "s": "S2",
+       "quote": "People with rheumatoid arthritis and health professionals should be aware that moderate alcohol consumption is associated with increased risk of rheumatoid arthritis flare and comorbidities",
+       "strength": "LoE 2a; SoR B; LoA 9.1 (1.6)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-4.4"
+    },
+    {
+     "text": "開始新的治療時，和醫療團隊討論自己的飲酒情形。",
+     "strength_label": "EULAR 2021・建議強度 D",
+     "evidence": [
+      {
+       "c": "RA-C87",
+       "s": "S2",
+       "quote": "The alcohol consumption of people with RMDs should be discussed together with health professionals, particularly when starting new treatments",
+       "strength": "LoE 5; SoR D; LoA 9.5 (1.0)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-4.5"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "ra-fatigue-work",
+   "title": "疲倦、工作與心情",
+   "summary": "調配活動節奏，善用自我管理、心理與工作支持。",
+   "illustration": "Simple flat illustration in soft colours: an adult pausing to rest in a chair between household tasks, a small group sitting in a class with a facilitator, and an adult at a workstation with an adjusted chair and desk. No text, no logos.",
+   "points": [
+    {
+     "text": "安排活動節奏、節省體力，在活動與休息間取得平衡，可能有助維持身體功能和處理疲倦。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C58",
+       "s": "S1",
+       "quote": "Use of activity pacing, energy conservation, activity modification, and/or fatigue management is conditionally recommended over no activity pacing, energy conservation, activity modification, and/or fatigue management. … However, these interventions are generally safe and may help preserve physical function and manage fatigue.",
+       "strength": "Conditional, for; no evidence identified",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C58",
+       "s": "S1",
+       "quote": "Balancing activity and rest to accomplish activities. Includes activity pacing, energy conservation, activity modification, fatigue management techniques.",
+       "strength": "Conditional, for; no evidence identified",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-5.1"
+    },
+    {
+     "text": "容易疲倦時，可尋求量身設計的身體活動計畫，並長期保持活動；運動可能有助減輕疲倦。",
+     "strength_label": "EULAR 2023・建議強度 A",
+     "evidence": [
+      {
+       "c": "RA-C59",
+       "s": "S6",
+       "quote": "people with I-RMDs and fatigue should be offered access to tailored physical activity interventions and encouraged to engage in long-term physical activity",
+       "strength": "LoE 1a; GoR A; LoA 9.6 (1.0) (confirmed by independent fact-check)",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C34",
+       "s": "S20",
+       "quote": "Our mapping synthesis indicates that physical activity and exercises in RA are effective non-pharmacological interventions for some outcomes, such as hand function, muscle strength and fatigue, without any deterioration of pain, disease activity and radiological involvement.",
+       "strength": "Tier 2",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "RA-5.2"
+    },
+    {
+     "text": "參加標準化的自我管理課程，可能有助改善身體功能和疼痛。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C55",
+       "s": "S1",
+       "quote": "Use of a standardized self-management program is conditionally recommended over no standardized self-management program.",
+       "strength": "Conditional, for; \"low certainty evidence of improvement in physical function and pain\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-5.3"
+    },
+    {
+     "text": "可考慮認知行為治療或身心療法，可能有助改善憂鬱、焦慮、疲倦和睡眠。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C56",
+       "s": "S1",
+       "quote": "Use of cognitive behavioral therapy and/or mind-body approaches is conditionally recommended over no cognitive behavioral therapy and/or mind-body approaches … but low to moderate certainty evidence of improvement in depression, anxiety, fatigue, and sleep (important outcomes).",
+       "strength": "Conditional, for",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-5.4"
+    },
+    {
+     "text": "有工作或想工作的人，可尋求職業重建服務，並評估、調整工作環境。",
+     "strength_label": "ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "RA-C92",
+       "s": "S1",
+       "quote": "For patients who are currently employed or want to become employed, use of vocational rehabilitation (training programs to support employment) is conditionally recommended over no vocational rehabilitation.",
+       "strength": "Conditional, for; \"absence of evidence for vocational rehabilitation\"",
+       "confidence": "High"
+      },
+      {
+       "c": "RA-C93",
+       "s": "S1",
+       "quote": "For patients who are currently employed or want to become employed, work site evaluations and/or modifications are conditionally recommended over no work site evaluations and/or modifications",
+       "strength": "Conditional, for; \"low certainty evidence for work site evaluations and modifications\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "RA-5.5"
+    }
+   ],
+   "tip": {
+    "text": "工作可能對健康有好處；工作上的困難，可以在回診時和醫療團隊討論。",
+    "strength_label": "EULAR 2021・建議強度 B",
+    "evidence": [
+     {
+      "c": "RA-C94",
+      "s": "S2",
+      "quote": "Work participation may have beneficial effects on health outcomes of people with RMDs and therefore should receive attention within healthcare consultations",
+      "strength": "LoE 2a; SoR B; LoA 9.8 (0.5)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "RA-5.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "只要調整生活習慣或採用輔助療法，就可以取代類風濕性關節炎的藥物。",
+   "fact": "生活調整是用來搭配藥物治療，不能取代藥物；輔助療法也不應取代正規治療。用藥調整請和醫師討論。",
+   "strength_label": "EULAR 2021・基本原則",
+   "evidence": [
+    {
+     "c": "RA-C104",
+     "s": "S2",
+     "quote": "Lifestyle improvements complement medical treatment and do not replace it",
+     "strength": "LoE 5; SoR D; LoA 9.4 (1.2)",
+     "confidence": "High"
+    },
+    {
+     "c": "RA-C103",
+     "s": "S1",
+     "quote": "The recommended interventions do not replace DMARD treatments in accordance with existing ACR pharmacologic treatment guidelines () but are intended to be integrated into the comprehensive management of people with RA.",
+     "strength": "Guiding principle",
+     "confidence": "High"
+    },
+    {
+     "c": "RA-C101",
+     "s": "S8",
+     "quote": "If an adult with RA decides to try complementary therapies, advise them: • these approaches should not replace conventional treatment",
+     "strength": "NICE \"Inform\" / \"advise\" [2009]",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "",
+     "confidence": ""
+    }
+   ],
+   "sid": "RA-M1"
+  },
+  {
+   "belief": "有類風濕性關節炎就應該少動多休息，運動會讓病情變差、關節受損。",
+   "fact": "持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛、疾病活動度或 X 光上的關節變化惡化。",
+   "strength_label": "ACR 2022・強烈建議",
+   "evidence": [
+    {
+     "c": "RA-C01",
+     "s": "S1",
+     "quote": "Consistent engagement in exercise is strongly recommended over no exercise.",
+     "strength": "Strong, for; \"This recommendation is based on moderate certainty evidence suggesting improved physical function and pain.\"",
+     "confidence": "High"
+    },
+    {
+     "c": "RA-C34",
+     "s": "S20",
+     "quote": "Our mapping synthesis indicates that physical activity and exercises in RA are effective non-pharmacological interventions for some outcomes, such as hand function, muscle strength and fatigue, without any deterioration of pain, disease activity and radiological involvement.",
+     "strength": "Tier 2",
+     "confidence": "Medium"
+    },
+    {
+     "c": "RA-C32",
+     "s": "S11",
+     "quote": "Physical activity did not affect disease activity",
+     "strength": "Tier 2 (authors' GRADE-based rating)",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "RA-M2"
+  },
+  {
+   "belief": "吃魚油、益生菌等保健食品，就能大幅改善類風濕性關節炎。",
+   "fact": "吃特定食物不太可能大幅改善病情；證據較可靠的魚油、益生菌研究，不是沒有效果，就是效果可能不具臨床意義。",
+   "strength_label": "EULAR 2021・建議強度 A",
+   "evidence": [
+    {
+     "c": "RA-C69",
+     "s": "S2",
+     "quote": "People with RMDs should be informed that consuming specific food types is unlikely to have large benefits for RMD outcomes",
+     "strength": "LoE 1a; SoR A; LoA 9.7 (0.8)",
+     "confidence": "High"
+    },
+    {
+     "c": "RA-C71",
+     "s": "S10",
+     "quote": "The dietary exposures with moderate quality evidence (probiotics, vitamin D, fish oil/omega-3) showed either no effect or effect sizes that are probably not clinically significant.",
+     "strength": "Tier 2",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "RA-M3"
+  },
+  {
+   "belief": "整脊（脊椎調整）可以改善類風濕性關節炎。",
+   "fact": "不建議用整脊處理類風濕性關節炎，原因包括可能出現頸椎併發症，且看不出對類風濕性關節炎的特別好處。",
+   "strength_label": "ACR 2022・不建議",
+   "evidence": [
+    {
+     "c": "RA-C99",
+     "s": "S1",
+     "quote": "Using chiropractic therapy is conditionally recommended against.",
+     "strength": "Conditional, AGAINST; no eligible evidence",
+     "confidence": "High"
+    },
+    {
+     "c": "RA-C99",
+     "s": "S1",
+     "quote": "this recommendation for “not” using chiropractic therapy (i.e., chiropractic spinal adjustment) directly for the management of RA is conditional because of the potential cervical spine complications that can occur in people with RA (), Voting and Patient Panels’ perceived lack of benefit specific to RA, burden, and costs.",
+     "strength": "Conditional, AGAINST; no eligible evidence",
+     "confidence": "High"
+    }
+   ],
+   "sid": "RA-M4"
+  }
+ ],
+ "seek_care": [],
+ "sources": [
+  {
+   "s": "S1",
+   "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引",
+   "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Care Res (Hoboken) 2023;75(8):1603-1615. Co-published in Arthritis Rheumatol 2023;75(8):1299-1311 (PMID 37227071; doi:10.1002/art.42507).",
+   "pmid": "37227116",
+   "doi": "10.1002/acr.25117"
+  },
+  {
+   "s": "S2",
+   "short": "EULAR 2021 風濕病生活型態與工作參與建議",
+   "citation": "Gwinnutt JM, et al. 2021 EULAR recommendations regarding lifestyle behaviours and work participation to prevent progression of rheumatic and musculoskeletal diseases. Ann Rheum Dis 2023;82(1):48-56 (Epub 2022).",
+   "pmid": "35260387",
+   "doi": "10.1136/annrheumdis-2021-222020"
+  },
+  {
+   "s": "S3",
+   "short": "EULAR 2025 發炎性關節炎與退化性關節炎身體活動建議",
+   "citation": "Rausch Osthoff AK, et al. EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis: 2025 update. Ann Rheum Dis 2026;85(6):1026-1038.",
+   "pmid": "42036268",
+   "doi": "10.1016/j.ard.2026.03.006"
+  },
+  {
+   "s": "S6",
+   "short": "EULAR 2023 發炎性風濕病疲倦處理建議",
+   "citation": "Dures E, et al. 2023 EULAR recommendations for the management of fatigue in people with inflammatory rheumatic and musculoskeletal diseases. Ann Rheum Dis 2024;83(10):1260-1267.",
+   "pmid": "38050029",
+   "doi": "10.1136/ard-2023-224514"
+  },
+  {
+   "s": "S7",
+   "short": "EULAR 2015/2016 類風濕性關節炎心血管風險管理建議",
+   "citation": "Agca R, et al. EULAR recommendations for cardiovascular disease risk management in patients with rheumatoid arthritis and other forms of inflammatory joint disorders: 2015/2016 update. Ann Rheum Dis 76(1):17-28 (PubMed date 2016-10-03).",
+   "pmid": "27697765",
+   "doi": "10.1136/annrheumdis-2016-209775"
+  },
+  {
+   "s": "S8",
+   "short": "NICE 成人類風濕性關節炎處置指引（NG100）",
+   "citation": "National Institute for Health and Care Excellence (NICE). Rheumatoid arthritis in adults: management (NG100). Published 11 July 2018; last updated 12 October 2020.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.nice.org.uk/guidance/ng100"
+  },
+  {
+   "s": "S10",
+   "short": "EULAR 2021 建議之飲食系統性回顧",
+   "citation": "Gwinnutt JM, et al. Effects of diet on the outcomes of rheumatic and musculoskeletal diseases (RMDs): systematic review and meta-analyses informing the 2021 EULAR recommendations for lifestyle improvements in people with RMDs. RMD Open 2022;8(2):rmdopen-2021-002167.",
+   "pmid": "35654458",
+   "doi": "10.1136/rmdopen-2021-002167"
+  },
+  {
+   "s": "S11",
+   "short": "EULAR 2021 建議之運動與體重系統性回顧",
+   "citation": "Gwinnutt JM, et al. Effects of physical exercise and body weight on disease-specific outcomes of people with rheumatic and musculoskeletal diseases (RMDs): systematic reviews and meta-analyses informing the 2021 EULAR recommendations for lifestyle improvements in people with RMDs. RMD Open 2022;8(1):rmdopen-2021-002168.",
+   "pmid": "35361692",
+   "doi": "10.1136/rmdopen-2021-002168"
+  },
+  {
+   "s": "S20",
+   "short": "類風濕性關節炎復健介入之 Cochrane 回顧綜整（2023）",
+   "citation": "Küçükdeveci AA, et al. Overview of Cochrane Systematic Reviews of rehabilitation interventions for persons with rheumatoid arthritis: a mapping synthesis. Eur J Phys Rehabil Med 2023;59(2):259-269.",
+   "pmid": "36727299",
+   "doi": "10.23736/S1973-9087.22.07833-9"
+  },
+  {
+   "s": "common:S1",
+   "short": "EULAR 2021 風濕病生活型態與工作參與建議（共用證據檔，與 S2 為同一篇）",
+   "citation": "Gwinnutt JM, et al. 2021 EULAR recommendations regarding lifestyle behaviours and work participation to prevent progression of rheumatic and musculoskeletal diseases. Ann Rheum Dis 2023;82(1):48-56 (Epub 2022 Mar 8).",
+   "pmid": "35260387",
+   "doi": "10.1136/annrheumdis-2021-222020"
+  }
+ ],
+ "reviewer_notes": [
+  "1. DRUG NAMES (your decision): Card 4 names methotrexate and leflunomide, as the EULAR 2021 text does. The task instructions allowed this, but it is an exception to BRIEF rule 7 (generic classes only). If you prefer, replace them with 「某些治療藥物」. In ra.md this wording sits in the Notes column of RA-C88 and was seen in one WebFetch pass (WF-1). The same sentence appears in the Quote column of common:C51, from a separate read of the same paper, and that entry is cited as corroboration.",
+  "2. LEFT OUT BECAUSE SOURCES CONFLICT (BRIEF rule 5): (a) Electrotherapy/TENS myth. ACR 2022 conditionally recommends against electrotherapy for RA (the evidence file confirms the direction despite the PMC dropped-word problem). But NICE NG100 rec 1.8.1 [2009] says adults with RA should have physiotherapy access that includes learning about short-term pain relief from TENS (RA-C54 vs RA-C98). (b) EULAR 2021 Alcohol 3 ('moderate alcohol consumption is associated with increased risk of rheumatoid arthritis flare'). The evidence file shows that the RA results of the informing review (S9) contain no flare data and point in mixed directions (RA-C90; section E item 5). The sources do not quantify 'low' or 'moderate' alcohol, so the page gives no amounts. Note also that Alcohol 2 (the low-alcohol point used on the page) had the lowest panel agreement of any EULAR 2021 statement (LoA 8.0).",
+  "3. PLEASE CHECK AGAINST THE PDFs: Several quotes come from the Notes column of ra.md rather than its Quote column. Most are ACR 2022 Table 1 text seen in one WebFetch pass of the author manuscript (WF-1): the joint-protection definition (RA-C39), the examples of mobility aids, daily-living aids and home adaptations (RA-C49 to C51), the list of formally defined diets (RA-C66) and the activity-pacing definition (RA-C58). Other Notes-column quotes are ACR narrative from the PMC text: hand therapist (RA-C35), OT/PT education in joint protection (RA-C39), the scope sentence on diets (RA-C66) and the chiropractic rationale (RA-C99). NICE rec 1.8.10 (RA-C101) is also WF-1. Both 「不建議」 labels (other defined diets RA-C66, chiropractic RA-C99) rely on the evidence file's five-way confirmation that the PMC text dropped the word 'against'. Please confirm both in the published PDF.",
+  "4. Other conflicts, handled by writing only the common ground: (a) Mind-body exercise/tai chi: ACR conditionally recommends it, but the EULAR review (S11) found no tai chi benefit. It is listed as an ACR option with no benefit claim. (b) Hand exercises and pain: ACR cites low-certainty pain reduction, but the SARAH trial found no difference in pain. No pain claim is made. (c) Size of joint-protection benefit: ACR and the Hammond RCT are positive, but the Bobos meta-analysis found the effect too small to matter. Joint protection is described without a benefit claim. (d) Certainty of evidence for the Mediterranean diet: ACR says low to moderate, the EULAR review says very low. No efficacy claim is made. The NICE Mediterranean-diet definition ('more bread...') differs from ACR's, so only ACR's food list is used.",
+  "5. Exercise amount: the target of ≥150 min/week of at least moderate aerobic exercise plus strengthening twice a week is EULAR 2021 explanatory text supporting Exercise 4 (LoE 1a, SoR A), so it is labelled 指引說明. ACR 2022 deliberately did not define type, frequency, intensity or duration. EULAR 2025 (S3) agreement scores are not used anywhere. S3 is cited only for its supporting text (adverse events; the flare example), and no S3 grade or agreement score appears on the page.",
+  "6. EULAR 2023 fatigue (S6): the strength of recommendation was not found in accessible text. The point is labelled 「EULAR 2023・建議」 because the statement uses 'should'. The S12 meta-analysis of fatigue effect sizes was not used because its published correction has not been reviewed. S20 supports the statement that exercise helps fatigue instead.",
+  "7. seek_care is empty. The RA-specific candidates are: EULAR 2023, new or worsening fatigue should trigger evaluation of disease activity (RA-C61); Taiwan consensus, persistent cough or unexplained breathlessness should prompt ILD assessment (RA-C109); bone and falls-risk assessment at least every 3 years (RA-C110). All three are clinician-directed and rated Low as patient messages, so BRIEF rule 1 does not allow them as the only support. You may add them on clinical judgement.",
+  "8. Diet list and Taiwan context: ACR's conditionally-against list also includes vegetarian, anti-inflammatory, paleo, elemental, elimination, raw-food and whole-food plant-based diets. The page names only the four in the task brief (生酮、無麩質、純素、間歇性斷食). Many Taiwanese patients are vegetarian or vegan for religious reasons, so the advice is limited to changing diet 'to treat RA', matching ACR's own scope sentence. 'Anti-inflammatory diet' is not named because readers may confuse it with the recommended Mediterranean pattern. You may wish to swap 純素 for 原始人飲食 (paleo).",
+  "9. Localisation: (a) ACR's 'established dietary recommendations' are US (USDA/HHS, AHA). The page says only 以食物為優先, without naming any national guidance. (b) BMI cut-offs differ: EULAR cites WHO ≥25/≥30 and Taiwan MOHW uses 24/27 (common:C49), so the page gives no numbers. (c) No Taiwan stop-smoking service is named because none appears in the evidence. (d) 'Vocational rehabilitation' is rendered as 職業重建, the Taiwanese service term. (e) 精製澱粉 translates ACR's 'refined carbohydrates' (added sugars are listed separately).",
+  "10. Deliberately not claimed: (a) that exercise is ACR's only strong recommendation. The ACR abstract says this, but the evidence file records it only in Notes, not as a quote. (b) That quitting smoking lowers RA disease activity: the Cochrane review found this untested (RA-C85). The page says only that smoking is harmful and that quitting is advised.",
+  "11. Optional Taiwan reference: the Taiwan expert consensus (S22, Yu 2022) says smoking cessation 'should be a priority' because smoking is implicated in RA-ILD and persistent synovitis. It is not used because it appears in ungraded narrative on treating RA-ILD (a population restriction). It could be added as a local citation for the quit-smoking point.",
+  "12. The supplements myth deliberately names only fish oil and probiotics, although S10 lists vitamin D with them. Naming vitamin D could imply that vitamin D taken for bone health is useless; ACR recognises its role for bone health (card 3, point 3).",
+  "13. EDITORIAL: one neutral safety phrase (「用藥調整請和醫師討論」) is added to the 'replacing medicines' myth, with evidence code EDITORIAL.",
+  "14. Citation detail: the ACR quotes come from the identical co-published Arthritis Rheumatol version (PMC10947582; PMID 37227071). The sources entry gives the Arthritis Care Res PMID/DOI and names the co-publication in the citation. common:S1 is the same EULAR 2021 paper as S2, listed separately because common:C51 is cited."
+ ]
+}
