@@ -1,0 +1,1086 @@
+{
+ "group": "g1_exercise",
+ "entries": [
+  {
+   "id": "aerobic",
+   "term": "有氧運動",
+   "aliases": [
+    "有氧運動",
+    "有氧活動"
+   ],
+   "aka": "aerobic physical activity; aerobic exercise (also called endurance activity)",
+   "def": "身體的大肌肉有節奏地持續動一段時間的活動；做的時候心跳會加快、呼吸會變得比較喘。",
+   "example": "走路、跑步、游泳、騎腳踏車、跳舞",
+   "note": "又稱耐力運動，可提升心肺耐力。「運動」是有目的、有計畫、反覆進行的身體活動。",
+   "label": "WHO 2020・定義",
+   "evidence": [
+    {
+     "quote": "Activity in which the body’s large muscles move in a rhythmic manner for a sustained period of time. Aerobic activity—also called endurance activity—improves cardiorespiratory fitness. Examples include walking, running, swimming and bicycling.",
+     "location": "Table 1 (Glossary of terms), row \"Aerobic physical activity\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（大肌肉有節奏地持續活動一段時間）；note（又稱耐力運動、提升心肺耐力）；example（走路、跑步、游泳、騎腳踏車）"
+    },
+    {
+     "quote": "In aerobic activity (also called endurance or cardio activity), the large muscles move in a rhythmic manner for a sustained period. Aerobic activity causes the heart rate to increase and breathing to become more labored.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Types of Physical Activity > Aerobic Activity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "def（心跳加快、呼吸變得比較喘）"
+    },
+    {
+     "quote": "aerobic which refers to the type of repetitive, structured physical activity, and requires the body’s metabolic system to use oxygen to produce energy (e.g. walking, jogging, cycling and dancing)",
+     "location": "Section \"Lifestyle measures\" > \"Physical activity\" (rationale for Recommendation 28), item (i)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "example（騎腳踏車、跳舞）；本站 SL-4.2 的例子（走路、騎腳踏車、跳舞）都在此列"
+    },
+    {
+     "quote": "Exercise intended to improve cardiorespiratory fitness and muscular endurance. Examples include walking, biking or cycling, running, hiking, aerobics, rowing, swimming, using an elliptical.",
+     "location": "Table 1 (definitions of the interventions; table title in WebFetch read 2: \"Integrative Management of Rheumatoid Arthritis Interventions\"), row \"Aerobic exercise\"; not present in the get_full_text_article extraction, read twice via WebFetch with identical wording",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "與本站 RA-1.2 所引 ACR 2022 一致；note（提升心肺耐力）"
+    },
+    {
+     "quote": "On the other hand, exercise refers to a subset of physical activity that is purposeful, planned and repetitive with the goal of maintaining or improving physical fitness",
+     "location": "Introduction, paragraph 2",
+     "access": "PMC full text",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "note（「運動」是有目的、有計畫、反覆進行的身體活動）"
+    },
+    {
+     "quote": "Exercise is a subset of physical activity that is planned, structured, and repetitive and has as a final or an intermediate objective the improvement or maintenance of physical fitness.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "3920711",
+     "doi": "",
+     "pmcid": "PMC1424733",
+     "supports": "note（運動是有計畫、反覆進行的身體活動；說明本站「有氧活動」與「有氧運動」的關係）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引（British Society for Rheumatology；英國的風濕病醫學會）",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6):keag223.",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "ACR 2022 類風濕關節炎運動、復健、飲食與整合治療指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "2024 國際專家小組：紅斑性狼瘡身體活動與運動建議（國際共識）",
+     "citation": "Blaess J et al. Recommendations for physical activity and exercise in persons living with Systemic Lupus Erythematosus (SLE): consensus by an international task force. RMD Open 2024;10(2):e004171.",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171"
+    },
+    {
+     "short": "Caspersen 1985 身體活動、運動與體適能名詞定義論文",
+     "citation": "Caspersen CJ et al. Physical activity, exercise, and physical fitness: definitions and distinctions for health-related research. Public Health Rep 1985;100(2):126-131.",
+     "pmid": "3920711",
+     "doi": ""
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "WHO 2020 表1 定義的是 aerobic physical activity（本站 CM-1.1 用「有氧活動」）；ACR 2022 表1 定義 aerobic exercise（本站 RA-1.2「有氧運動」），兩者一致。ACR 表1 不在 get_full_text_article 的擷取內容中，經 WebFetch 讀兩次、文字一致。SL-4.2 的例子（走路、騎腳踏車、跳舞）都出現在 BSR 2026 的例子（walking, jogging, cycling and dancing）。註解中「運動」與「身體活動」的區別依 Caspersen 1985 摘要與 2024 國際共識（Blaess）。"
+  },
+  {
+   "id": "moderate-intensity",
+   "term": "中等強度",
+   "aliases": [
+    "中等強度"
+   ],
+   "aka": "moderate-intensity physical activity (MPA)",
+   "def": "活動時消耗的能量是安靜坐著時的3倍到未滿6倍；若用0–10分評估自己有多費力，約5–6分。",
+   "example": "快走、打排球、用耙子整理庭院",
+   "note": "簡單判斷：做中等強度活動時還能說話，但沒辦法唱歌。",
+   "label": "WHO 2020・定義",
+   "evidence": [
+    {
+     "quote": "On an absolute scale, moderate-intensity refers to the physical activity that is performed between 3 and <6 times the intensity of rest (METs). On a scale relative to an individual’s personal capacity, MPA is usually a 5 or 6 on a rating scale of perceived exertion scale of 0–10.",
+     "location": "Table 1 (Glossary of terms), row \"Moderate- intensity physical activity (MPA)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（3倍到未滿6倍；0–10分約5–6分）"
+    },
+    {
+     "quote": "One MET is the energy equivalent expended by an individual while seated at rest",
+     "location": "Table 1 (Glossary of terms), row \"Metabolic equivalent of task (MET)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（倍數是和「安靜坐著休息」相比）"
+    },
+    {
+     "quote": "Moderate-intensity activities have a MET value of 3 to 5.9 METs; vigorous-intensity activities have a MET value of 6 or greater.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "def（與 WHO 範圍一致）"
+    },
+    {
+     "quote": "Examples of moderate-intensity activities (defined using absolute intensity) include walking briskly at 2.5 to 4.0 mph, playing volleyball, or raking the yard.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "example（快走、打排球、用耙子整理庭院）"
+    },
+    {
+     "quote": "Generally, a person doing moderate-intensity aerobic activity can talk, but not sing, during the activity.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity (\"talk test\")",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "note（說話測試）"
+    },
+    {
+     "quote": "perceived exertion levels of 5 or 6 on a 0–10 scale",
+     "location": "Discussion of Statement 9",
+     "access": "PMC full text",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "def（5–6分；本站 SL-3.T 所引來源）"
+    },
+    {
+     "quote": "Moderate-intensity physical activity, as defined by the WHO, involves activities performed at 3–5 times the intensity of rest",
+     "location": "Discussion of Statement 9",
+     "access": "PMC full text",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "reviewer_notes（此處倍數與 WHO 原文不同）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    },
+    {
+     "short": "2024 國際專家小組：紅斑性狼瘡身體活動與運動建議（國際共識）",
+     "citation": "Blaess J et al. Recommendations for physical activity and exercise in persons living with Systemic Lupus Erythematosus (SLE): consensus by an international task force. RMD Open 2024;10(2):e004171.",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "WHO 2020 表1：3 至 <6 METs、自覺費力 5–6 分；美國身體活動指引：3–5.9 METs，兩者一致。注意：本站 SL-3.T 所引 2024 國際共識（Blaess）把 WHO 定義寫成「3–5 times the intensity of rest」，與 WHO 原文（3 至 <6）略有出入；本詞條採 WHO 原文。5–6 分三者一致。WHO 原文「rating scale of perceived exertion scale of 0–10」中 scale 重複為原文如此。例子與說話測試出自美國身體活動指引（JAMA 2018 摘要論文）。"
+  },
+  {
+   "id": "vigorous-intensity",
+   "term": "高強度（激烈）運動",
+   "aliases": [
+    "高強度有氧活動",
+    "高強度的激烈運動",
+    "激烈運動"
+   ],
+   "aka": "vigorous-intensity physical activity (VPA); high-intensity activity",
+   "def": "活動時消耗的能量達安靜坐著時的6倍以上；若用0–10分評估自己有多費力，約在7–8分或以上。",
+   "example": "慢跑或跑步、提很重的購物袋、上激烈的健身課",
+   "note": "簡單判斷：做高強度活動時，通常說不到幾個字就得停下來換氣。",
+   "label": "WHO 2020・定義",
+   "evidence": [
+    {
+     "quote": "On an absolute scale, vigorous intensity refers to physical activity that is performed at 6.0 or more METs. On a scale relative to an individual’s personal capacity, VPA is usually a 7 or 8 on a rating scale of perceived exertion scale of 0–10.",
+     "location": "Table 1 (Glossary of terms), row \"Vigorous-intensity physical activity (VPA)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（6倍以上；約7–8分）"
+    },
+    {
+     "quote": "One MET is the energy equivalent expended by an individual while seated at rest",
+     "location": "Table 1 (Glossary of terms), row \"Metabolic equivalent of task (MET)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（倍數是和「安靜坐著休息」相比）"
+    },
+    {
+     "quote": "On this scale, moderate-intensity activity is a 5 or 6; vigorous-intensity activity begins at a level of 7 or 8.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "def（「7–8分或以上」）"
+    },
+    {
+     "quote": "Examples of vigorous-intensity activities include jogging or running, carrying heavy groceries, or participating in a strenuous fitness class.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "example（慢跑或跑步、提很重的購物袋、上激烈的健身課）"
+    },
+    {
+     "quote": "A person doing vigorous-intensity activity generally cannot say more than a few words without pausing for a breath.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity (\"talk test\")",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "note（說話測試）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "本站「激烈運動」「高強度的激烈運動」出現在發作期建議（AS-1.T 引 TRA 2020、AS-M1 引 EULAR 2021、RA-1.5 引 EULAR 2025）；依既有研究筆記，這些指引用的是 high-intensity／intense strenuous 等字眼，並未給 MET 定義（本組未逐一重查原文）。本詞條以 WHO 2020 的正式定義說明，是最接近的正式定義。WHO 寫「usually a 7 or 8」，美國指引寫「begins at a level of 7 or 8」，故寫「約在7–8分或以上」。"
+  },
+  {
+   "id": "light-intensity",
+   "term": "輕度活動",
+   "aliases": [
+    "輕度活動"
+   ],
+   "aka": "light-intensity physical activity (LPA)",
+   "def": "活動時消耗的能量是安靜坐著時的1.5到3倍；若用0–10分評估自己有多費力，約2–4分。",
+   "example": "慢慢走路、洗澡、做輕鬆家事等不太讓心跳呼吸加快的活動",
+   "note": "用輕度活動取代久坐，也對健康有好處。",
+   "label": "WHO 2020・定義",
+   "evidence": [
+    {
+     "quote": "On an absolute scale, light intensity refers to physical activity that is performed between 1.5 and 3 METs. On a scale relative to an individual’s personal capacity, light-intensity physical activity is usually a 2–4 on a rating scale of perceived exertion scale of 0–10. Examples include slow walking, bathing or other incidental activities that do not result in a substantial increase in heart rate or breathing rate.",
+     "location": "Table 1 (Glossary of terms), row \"Light-intensity physical activity (LPA)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（1.5到3倍；約2–4分）；example（慢慢走路、洗澡、不太讓心跳呼吸加快的活動）"
+    },
+    {
+     "quote": "One MET is the energy equivalent expended by an individual while seated at rest",
+     "location": "Table 1 (Glossary of terms), row \"Metabolic equivalent of task (MET)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（倍數是和「安靜坐著休息」相比）"
+    },
+    {
+     "quote": "Light-intensity physical activity, such as walking slowly at 2 mph or less or doing light household chores, may also provide some health benefits, especially if a person replaces sedentary behavior with light-intensity activity.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "example（做輕鬆家事）；note（取代久坐有好處）"
+    },
+    {
+     "quote": "The recommendation to limit sedentary behaviour was qualified with an acknowledgement that replacing sedentary time with any intensity of physical activity (including light intensity) has health benefits.",
+     "location": "Discussion > \"What is new?\" (sedentary behaviour paragraph)",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "note（用輕度活動取代久坐也有益；與本站 CM-1.4 一致）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "WHO「do not result in a substantial increase in heart rate or breathing rate」描述的是例子（slow walking, bathing or other incidental activities），故放在例子欄，不寫成定義本身。「輕鬆家事」出自美國身體活動指引（light household chores）。註解與本站 CM-1.4 一致。"
+  },
+  {
+   "id": "muscle-strengthening",
+   "term": "肌力訓練（阻力訓練）",
+   "aliases": [
+    "肌力訓練",
+    "阻力訓練"
+   ],
+   "aka": "muscle-strengthening activity; resistance training (resistance exercise); strength training",
+   "def": "讓肌肉對抗外加的重量或阻力來出力的運動，目的是增加肌力；也叫阻力訓練。",
+   "example": "舉啞鈴、拉彈力帶、用自己的體重，或爬樓梯、從椅子上站起來",
+   "note": "",
+   "label": "國際共識 2024（引述 WHO）・定義",
+   "evidence": [
+    {
+     "quote": "WHO further categorises muscle-strengthening activities as those involving resistance training, weight lifting or exercises that require muscles to work against an applied force or weight. Muscle-strengthening activities may incorporate weights, elastic bands or using body weight for resistance training.",
+     "location": "Discussion of Statement 9",
+     "access": "PMC full text",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "def（肌肉對抗外加的重量或阻力）；example（重物、彈力帶、自己的體重）"
+    },
+    {
+     "quote": "resistance training, or strength training, involves the deliberate activation of specific skeletal muscles against external resistance, which may come from body mass, free weights or various exercise modalities.",
+     "location": "Discussion of Statement 14",
+     "access": "PMC full text",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "def（「肌力訓練」與「阻力訓練」同義）"
+    },
+    {
+     "quote": "Muscle-strengthening activities, which include resistance training and weight lifting, cause the body’s muscles to work or hold against an applied force or weight.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Types of Physical Activity > Muscle-Strengthening Activity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "def（對抗外加的力量或重量）"
+    },
+    {
+     "quote": "resistance which builds strength, anaerobic endurance and size of skeletal muscles (e.g. using resistance bands, hand weights and machines), or achieved via functional means such as stair climbing and rising from a chair to induce muscular contraction",
+     "location": "Section \"Lifestyle measures\" > \"Physical activity\" (rationale for Recommendation 28), item (ii)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "example（拉彈力帶、舉啞鈴、爬樓梯、從椅子上站起來）"
+    },
+    {
+     "quote": "Exercise intended to increase muscular strength. Examples include free weights, weight machines, resistance bands, Pilates.",
+     "location": "Table 1 (definitions of the interventions; table title in WebFetch read 2: \"Integrative Management of Rheumatoid Arthritis Interventions\"), row \"Resistance exercise\"; not present in the get_full_text_article extraction, read twice via WebFetch with identical wording",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def（目的是增加肌力）；與本站 RA-1.2 所引 ACR 2022 一致"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2024 國際專家小組：紅斑性狼瘡身體活動與運動建議（國際共識）",
+     "citation": "Blaess J et al. Recommendations for physical activity and exercise in persons living with Systemic Lupus Erythematosus (SLE): consensus by an international task force. RMD Open 2024;10(2):e004171.",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引（British Society for Rheumatology；英國的風濕病醫學會）",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6):keag223.",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "ACR 2022 類風濕關節炎運動、復健、飲食與整合治療指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "WHO 2020 BJSM 表1（PMC 擷取）沒有 muscle-strengthening 條目；WHO 的分類經本站已引用的 2024 國際共識（Blaess）轉述，另以美國身體活動指引、BSR 2026 佐證。ACR 2022 表1（WebFetch）把 Pilates 列為 resistance exercise，未放入例子。BSR 的 hand weights 譯為「舉啞鈴」，請確認可接受。本站 CM-4.4 的「阻力訓練」與 CM-1.2 等處的「肌力訓練」指同一類運動。"
+  },
+  {
+   "id": "major-muscle-groups",
+   "term": "全身主要肌群",
+   "aliases": [
+    "全身主要肌群"
+   ],
+   "aka": "all major muscle groups",
+   "def": "指身體各主要部位的肌肉，包括腿、臀部（髖部）、背部、腹部、胸部、肩膀和手臂。",
+   "example": "",
+   "note": "肌力訓練只會練到有出力的肌肉，所以每個部位都要練到。",
+   "label": "美國身體活動指引 2018・定義",
+   "evidence": [
+    {
+     "quote": "The effects of muscle-strengthening activity are limited to the muscles doing the work. It is important to work all the major muscle groups of the body–the legs, hips, back, abdomen, chest, shoulders, and arms.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Types of Physical Activity > Muscle-Strengthening Activity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "def（腿、臀部／髖部、背、腹、胸、肩、手臂）；note（只練到有出力的肌肉）"
+    },
+    {
+     "quote": "should do muscle strengthening activities at moderate or greater intensity that involve all major muscle groups on two or more days a week",
+     "location": "Section \"Lifestyle measures\" > \"Physical activity\" (rationale for Recommendation 28; BSR summary of the WHO recommendation)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "本站 CM-1.2「練到全身主要肌群」即 WHO 建議中的 all major muscle groups"
+    }
+   ],
+   "sources": [
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引（British Society for Rheumatology；英國的風濕病醫學會）",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6):keag223.",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "WHO 2020 建議（本站 CM-1.2）寫 all major muscle groups，但未列出部位；部位清單出自美國身體活動指引（美國聯邦政府衛生部門 HHS，JAMA 2018 摘要論文）。英國骨質疏鬆運動共識（Brooke-Wavell 2022，PMID 35577538）另列 legs, arms, chest, shoulders and back，內容相近，未採用。「hips」譯為「臀部（髖部）」。"
+  },
+  {
+   "id": "weight-bearing",
+   "term": "負重運動",
+   "aliases": [
+    "負重運動"
+   ],
+   "aka": "weight-bearing exercise",
+   "def": "用雙腳和雙腿撐住身體重量，讓骨骼和肌肉對抗地心引力的運動。",
+   "example": "走路、慢跑、太極拳、爬樓梯、跳舞、打網球",
+   "note": "這類活動會對骨骼施力（常來自身體與地面的撞擊），有助骨骼生長與強壯。",
+   "label": "BHOF 2022・定義",
+   "evidence": [
+    {
+     "quote": "Weight-bearing exercises (in which bones and muscles work against gravity with feet and legs bearing body weight) include walking, jogging, tai chi, stair climbing, dancing, and tennis.",
+     "location": "Section \"Universal bone health recommendations\" > \"Regular weight-bearing and muscle-strengthening physical activity\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def（雙腳雙腿撐住體重、骨骼和肌肉對抗地心引力）；example（走路、慢跑、太極拳、爬樓梯、跳舞、網球）"
+    },
+    {
+     "quote": "Bone-strengthening (also called weight-bearing or weight-loading) activities produce a force on the bones of the body that promotes bone growth and strength. This force is commonly produced by impact with the ground.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Types of Physical Activity > Bone-Strengthening Activity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "note（對骨骼施力、常來自與地面的撞擊、有助骨骼生長與強壯）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BHOF 2022 骨質疏鬆預防與治療臨床指南（Bone Health and Osteoporosis Foundation；美國的骨骼健康與骨質疏鬆基金會）",
+     "citation": "LeBoff MS et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "本站 CM-4.4 引 ACR 2022 類固醇骨質疏鬆指引，該指引只寫 weight-bearing or resistance training exercises，未下定義（依既有研究筆記）；定義取自美國的骨骼健康與骨質疏鬆基金會（BHOF，前身為 National Osteoporosis Foundation）2022 臨床指南（PubMed 類型為 Journal Article）。美國身體活動指引把 weight-bearing 當作 bone-strengthening 的別名。BHOF 把太極拳也列為負重運動。"
+  },
+  {
+   "id": "multicomponent",
+   "term": "多元活動（平衡與肌力）",
+   "aliases": [
+    "多元活動"
+   ],
+   "aka": "multicomponent physical activity",
+   "def": "在同一次活動中結合有氧、肌力和平衡訓練等不同種類的運動；可以在家做，也可參加團體課程。",
+   "example": "走路、舉重物，再加上倒退走、側走或單腳站等平衡練習",
+   "note": "跳舞、瑜伽、太極拳、園藝等活動常同時包含多種活動，也可算是多元活動。",
+   "label": "WHO 2020・定義",
+   "evidence": [
+    {
+     "quote": "Multicomponent physical activity are activities that can be done at home or in a structured group or class setting and combine all types of exercise (aerobic, muscle strengthening and balance training) into a session, and this has been shown to be effective. An example of a multicomponent physical activity programme could include walking (aerobic activity), lifting weights (muscle strengthening) and could incorporate balance training. Examples of balance training can include walking backwards or sideways or standing on one foot while doing an upper body muscle-strengthening activity, such as bicep curls. Dancing also combines aerobic and balance components.",
+     "location": "Table 1 (Glossary of terms), row \"Multicomponent physical activity\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（同一次結合有氧、肌力、平衡；在家或團體課程）；example（走路、舉重物、倒退走、側走、單腳站）"
+    },
+    {
+     "quote": "the recommendation regarding multicomponent physical activity that emphasises functional balance and strength training to enhance functional capacity and prevent falls now applies to all older adults rather than specifically those with poor mobility",
+     "location": "Discussion > \"What is new?\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "本站 CM-1.3 強調「結合平衡和肌力訓練」的依據"
+    },
+    {
+     "quote": "Recreational activities such as dancing, yoga, tai chi, gardening, or sports can also be considered multicomponent because they often incorporate multiple types of physical activity.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Types of Physical Activity > Multicomponent Physical Activity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "note（跳舞、瑜伽、太極拳、園藝等）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "WHO 定義包含有氧、肌力、平衡三類；本站 CM-1.3 寫「結合平衡和肌力訓練的多元活動」，對應 WHO 建議原文 emphasizes functional balance and strength training，沒有矛盾。註解的活動例子出自美國身體活動指引（原文另含 sports，未列出）。"
+  },
+  {
+   "id": "sedentary",
+   "term": "久坐（靜態行為）",
+   "aliases": [
+    "久坐"
+   ],
+   "aka": "sedentary behaviour",
+   "def": "醒著時坐著、斜躺或躺著，而且消耗能量很低（不超過安靜坐著時的1.5倍）的行為。",
+   "example": "大部分辦公桌前的工作、開車、看電視",
+   "note": "睡覺不算；坐輪椅等無法站立的人也適用。目前證據還不足以訂出「坐多久算太久」。",
+   "label": "WHO 2020・定義",
+   "evidence": [
+    {
+     "quote": "Any waking behaviour characterised by an energy expenditure of 1.5 METs or lower while sitting, reclining or lying. Most desk-based office work, driving a car and watching television are examples of sedentary behaviours; these can also apply to those unable to stand, such as wheelchair users.",
+     "location": "Table 1 (Glossary of terms), row \"Sedentary behaviour\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（醒著、坐／斜躺／躺、≤1.5 METs）；example（辦公桌前工作、開車、看電視）；note（睡覺不算、坐輪椅者也適用）"
+    },
+    {
+     "quote": "One MET is the energy equivalent expended by an individual while seated at rest",
+     "location": "Table 1 (Glossary of terms), row \"Metabolic equivalent of task (MET)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（1.5倍是和「安靜坐著休息」相比）"
+    },
+    {
+     "quote": "reducing sedentary behaviours is recommended across all age groups and abilities, although evidence was insufficient to quantify a sedentary behaviour threshold.",
+     "location": "Abstract, Results",
+     "access": "abstract",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "note（證據不足以訂出久坐的門檻）"
+    },
+    {
+     "quote": "any waking behaviour characterized by an energy expenditure ≤1.5 METs while in a sitting or reclining posture",
+     "location": "Results, \"Literature review\" (the 2012 SBRN definition as quoted)",
+     "access": "PMC full text",
+     "pmid": "28599680",
+     "doi": "10.1186/s12966-017-0525-8",
+     "pmcid": "PMC5466781",
+     "supports": "def（與 WHO 定義一致的共識定義）"
+    },
+    {
+     "quote": "the addition of the term “lying” to the widely used definition of sedentary behavior",
+     "location": "Discussion, paragraph 2",
+     "access": "PMC full text",
+     "pmid": "28599680",
+     "doi": "10.1186/s12966-017-0525-8",
+     "pmcid": "PMC5466781",
+     "supports": "def（2017 共識把「躺著」納入）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    },
+    {
+     "short": "SBRN 2017 久坐行為名詞共識（Sedentary Behavior Research Network；國際的久坐行為研究者網絡）",
+     "citation": "Tremblay MS et al. Sedentary Behavior Research Network (SBRN) - Terminology Consensus Project process and outcome. Int J Behav Nutr Phys Act 2017;14(1):75.",
+     "pmid": "28599680",
+     "doi": "10.1186/s12966-017-0525-8"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "本站「久坐」對應 WHO 的 sedentary behaviour（靜態行為）：醒著時低耗能的坐、斜躺或躺，不只是「坐很久」。WHO 與 SBRN 定義一致；SBRN 2017 的定義總表不在 PMC 擷取內容中，只引用內文中的 2012 定義與「加入 lying」的敘述。WHO 摘要明言證據不足以訂出久坐門檻，網站不宜把「每坐多久要起身」寫成有實證的數字。"
+  },
+  {
+   "id": "mind-body",
+   "term": "身心運動與身心療法",
+   "aliases": [
+    "身心運動",
+    "身心療法"
+   ],
+   "aka": "mind-body exercise; mind-body approaches",
+   "def": "身心運動是結合身體動作、專注力和呼吸控制的運動，例如瑜伽、太極拳、氣功；身心療法則是同時運用身心功能的練習。",
+   "example": "身心療法如冥想、正念、呼吸練習、漸進式肌肉放鬆、引導式想像",
+   "note": "",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "Exercise that combines movement, mental focus, and controlled breathing. Examples include yoga, Tai Chi, Qigong.",
+     "location": "Table 1 (definitions of the interventions; table title in WebFetch read 2: \"Integrative Management of Rheumatoid Arthritis Interventions\"), row \"Mind-body exercise\"; not present in the get_full_text_article extraction, read twice via WebFetch with identical wording",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def（身心運動：身體動作、專注力、呼吸控制；瑜伽、太極拳、氣功）"
+    },
+    {
+     "quote": "Practices engaging both mind and body functions. Examples include biofeedback, goal setting, meditation, mindfulness, breathing exercises, progressive muscle relaxation, guided imagery.",
+     "location": "Table 1 (definitions of the interventions; table title in WebFetch read 2: \"Integrative Management of Rheumatoid Arthritis Interventions\"), row \"Mind-body approaches\"; not present in the get_full_text_article extraction, read twice via WebFetch with identical wording",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def（身心療法：同時運用身心功能的練習）；example（冥想、正念、呼吸練習、漸進式肌肉放鬆、引導式想像）"
+    },
+    {
+     "quote": "Consistent engagement in mind-body exercise (yoga, Tai Chi, qigong) is conditionally recommended over no exercise.",
+     "location": "Results/Recommendations, Exercise recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def 的例子（本站 RA-1.2）"
+    },
+    {
+     "quote": "Use of cognitive behavioral therapy and/or mind-body approaches is conditionally recommended over no cognitive behavioral therapy and/or mind-body approaches",
+     "location": "Results/Recommendations, Additional integrative intervention recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "本站 RA-5.4「身心療法」= mind-body approaches"
+    },
+    {
+     "quote": "practices integrating physical movement, controlled breathing, and focused attention",
+     "location": "Abstract (definition of mind-body interventions)",
+     "access": "abstract",
+     "pmid": "42264828",
+     "doi": "10.1016/j.jbmt.2026.04.018",
+     "pmcid": "",
+     "supports": "def（可機器核對的佐證：動作、呼吸控制、專注）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕關節炎運動、復健、飲食與整合治療指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "2026 身心運動系統性回顧（失智長者）",
+     "citation": "da Silva VP et al. Mind-body exercise interventions in older adults with dementia: A systematic review and meta-analysis. J Bodyw Mov Ther 2026;47:469-478.",
+     "pmid": "42264828",
+     "doi": "10.1016/j.jbmt.2026.04.018"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "主要定義（ACR 2022 表1）不在 get_full_text_article 的擷取內容中，經 WebFetch 讀兩次、文字一致；兩次讀取對 mind-body approaches 一列的引號位置不同（不影響文字）。可機器核對的佐證：ACR PMC 內文「mind-body exercise (yoga, Tai Chi, qigong)」，以及 2026 系統性回顧摘要（期刊層級較低，只作佐證；其定義另含 dance、mindfulness）。本站 RA-1.2「身心運動」= mind-body exercise；RA-5.4「身心療法」= mind-body approaches，在 ACR 表1 是兩個不同條目。例子省略了 biofeedback、goal setting。"
+  },
+  {
+   "id": "aquatic",
+   "term": "水中運動",
+   "aliases": [
+    "水中運動"
+   ],
+   "aka": "aquatic exercise",
+   "def": "身體泡在水中進行的運動，同時包含有氧運動和肌力（阻力）訓練的成分。",
+   "example": "游泳、水中有氧、在水中走路或慢跑",
+   "note": "可在游泳池或水療池進行。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "Exercise performed in water, containing elements of both aerobic and resistance exercise. Examples include swimming, water aerobics, water walking or jogging.",
+     "location": "Table 1 (definitions of the interventions; table title in WebFetch read 2: \"Integrative Management of Rheumatoid Arthritis Interventions\"), row \"Aquatic exercise\"; not present in the get_full_text_article extraction, read twice via WebFetch with identical wording",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def（在水中、含有氧與阻力成分）；example（游泳、水中有氧、水中走路或慢跑）"
+    },
+    {
+     "quote": "Aquatic exercise is physical exercises taking place while the participant are immersed in water",
+     "location": "Plain language summary, \"Background: what is osteoarthritis of the hip and knee, and what is aquatic exercise?\"",
+     "access": "abstract",
+     "pmid": "27007113",
+     "doi": "10.1002/14651858.CD005523.pub3",
+     "pmcid": "PMC9942938",
+     "supports": "def（身體泡在水中進行；可機器核對的佐證）"
+    },
+    {
+     "quote": "While aquatic therapy can be used by those with access to a swimming pool or hydrotherapy tub, land-based therapy was conditionally preferred because access to land-based therapy is often greater.",
+     "location": "Results, A2. Rehabilitation, Evidence and rationale (PICO 18)",
+     "access": "PMC full text",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708",
+     "pmcid": "PMC5123844",
+     "supports": "note（游泳池或水療池）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕關節炎運動、復健、飲食與整合治療指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "Cochrane 2016 水中運動系統性回顧（膝、髖退化性關節炎）",
+     "citation": "Bartels EM et al. Aquatic exercise for the treatment of knee and hip osteoarthritis. Cochrane Database Syst Rev 2016;3(3):CD005523.",
+     "pmid": "27007113",
+     "doi": "10.1002/14651858.CD005523.pub3"
+    },
+    {
+     "short": "ACR/SAA/SPARTAN 2015 僵直性脊椎炎與放射線陰性中軸型脊椎關節炎治療建議（American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network；美國的風濕病醫學會與脊椎炎病友、研究團體）",
+     "citation": "Ward MM et al. American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network 2015 Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Care Res (Hoboken) 2016;68(2):151-166.",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "定義主要來自 ACR 2022 表1（WebFetch 兩次一致）；「泡在水中」由 Cochrane 2016 白話摘要（PMC 摘要，可機器核對）佐證，原文「the participant are」文法為原文如此；該摘要的水溫 32–36°C 是退化性關節炎試驗的典型條件，未寫入。「游泳池或水療池」出自 ACR 2015 中軸型脊椎關節炎建議的理由段；該段同時說明 2015 年因可近性條件式偏好陸上治療（既有研究筆記指出 2026 版可能改為偏好水中，未定稿）。"
+  },
+  {
+   "id": "range-of-motion",
+   "term": "關節活動度運動",
+   "aliases": [
+    "關節活動度運動",
+    "頸胸腰椎活動度"
+   ],
+   "aka": "range of motion exercises; joint range of motion",
+   "def": "「關節活動度」是指一個關節（或一組關節）能活動的範圍；關節活動度運動就是幫助維持或改善這個範圍的運動。",
+   "example": "",
+   "note": "保持關節的活動範圍，有助預防肌肉骨骼受傷、維持生活自理。",
+   "label": "AHA 2020・定義",
+   "evidence": [
+    {
+     "quote": "Third, flexibility refers to an individual’s range of motion around a joint, or group of joints.",
+     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC extraction reads \"Third,refers to an individual’s range of motion around a joint, or group of joints.\" (italic word dropped); \"flexibility\" restored from two WebFetch reads of the PMC page",
+     "access": "WebFetch",
+     "pmid": "32686505",
+     "doi": "10.1161/CIR.0000000000000866",
+     "pmcid": "PMC7524041",
+     "supports": "def（關節活動度 = 一個關節或一組關節能活動的範圍）"
+    },
+    {
+     "quote": "Flexibility is important for preventing musculoskeletal injury, maintaining functional independence, and for performing sports and activities of daily living.",
+     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1",
+     "access": "PMC full text",
+     "pmid": "32686505",
+     "doi": "10.1161/CIR.0000000000000866",
+     "pmcid": "PMC7524041",
+     "supports": "note（預防肌肉骨骼受傷、維持生活自理）"
+    },
+    {
+     "quote": "Crucial to maintaining joint range of movement, completing a series of flexibility exercises for each the major muscle-tendon groups",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21694556",
+     "doi": "10.1249/MSS.0b013e318213fefb",
+     "pmcid": "",
+     "supports": "def（運動可維持關節活動範圍）"
+    },
+    {
+     "quote": "balance and flexibility which is aimed to help patients stay steady, prevent falls, and improve range of movement of specific joints (e.g. yoga, tai chi or stretching)",
+     "location": "Section \"Lifestyle measures\" > \"Physical activity\" (rationale for Recommendation 28), item (iii)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def（運動可改善特定關節的活動範圍）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "AHA 2020 兒少心肺適能科學聲明（American Heart Association；美國的心臟醫學會）",
+     "citation": "Raghuveer G et al. Cardiorespiratory Fitness in Youth: An Important Marker of Health: A Scientific Statement From the American Heart Association. Circulation 2020;142(7):e101-e118.",
+     "pmid": "32686505",
+     "doi": "10.1161/CIR.0000000000000866"
+    },
+    {
+     "short": "ACSM 2011 運動處方立場聲明（American College of Sports Medicine；美國的運動醫學會）",
+     "citation": "Garber CE et al. American College of Sports Medicine position stand. Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults: guidance for prescribing exercise. Med Sci Sports Exerc 2011;43(7):1334-1359.",
+     "pmid": "21694556",
+     "doi": "10.1249/MSS.0b013e318213fefb"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引（British Society for Rheumatology；英國的風濕病醫學會）",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6):keag223.",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "未找到 PubMed 收錄、明確定義「range of motion exercise」的指引、共識或系統性回顧。「一個關節（或一組關節）能活動的範圍」取自 AHA 2020 科學聲明對 flexibility 的定義（PMC 擷取漏掉斜體字 flexibility，經兩次 WebFetch 讀 PMC 網頁補回，其餘文字可機器核對）；「維持或改善」依 ACSM 2011 摘要與 BSR 2026，但兩者講的是柔軟度（伸展）運動。本站 AS-1.2（NICE）把伸展與脊椎活動度運動分開列，故未用伸展當例子。別名「頸胸腰椎活動度」指頸、胸、腰椎的活動度運動。這是組合說明，請醫師確認用字。"
+  },
+  {
+   "id": "passive-therapy",
+   "term": "被動治療與主動運動",
+   "aliases": [
+    "被動治療",
+    "主動運動"
+   ],
+   "aka": "passive physical therapy interventions (massage, ultrasound, heat); active physical therapy interventions (supervised exercise)",
+   "def": "被動治療指按摩、超音波、熱療這類治療；主動運動指自己動起來做的運動，例如有人督導的運動訓練。",
+   "example": "",
+   "note": "物理治療的目標之一是教你學會自己運動，所以以主動運動為主，被動治療只能輔助、不能取代。",
+   "label": "ACR 2015・建議說明",
+   "evidence": [
+    {
+     "quote": "We conditionally recommend active physical therapy interventions (supervised exercise) over passive physical therapy interventions (massage, ultrasound, heat) (PICO 17; very low-quality evidence; vote 82% agreement).",
+     "location": "Results, A2. Rehabilitation (adults with active AS), recommendation for PICO 17",
+     "access": "PMC full text",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708",
+     "pmcid": "PMC5123844",
+     "supports": "def（被動 = 按摩、超音波、熱療；主動 = 有人督導的運動）"
+    },
+    {
+     "quote": "Because one of the goals of physical therapy is to educate patients in self-management in using an independent exercise program, the panel judged that active interventions should be stressed over passive interventions. Passive interventions could supplement, but not substitute for, active physical therapy interventions.",
+     "location": "Results, A2. Rehabilitation, Evidence and rationale",
+     "access": "PMC full text",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708",
+     "pmcid": "PMC5123844",
+     "supports": "note（目標是學會自己運動；以主動為主；被動只能輔助、不能取代）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR/SAA/SPARTAN 2015 僵直性脊椎炎與放射線陰性中軸型脊椎關節炎治療建議（American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network；美國的風濕病醫學會與脊椎炎病友、研究團體）",
+     "citation": "Ward MM et al. American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network 2015 Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Care Res (Hoboken) 2016;68(2):151-166.",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "ACR/SAA/SPARTAN 2015 以舉例方式界定：主動 = supervised exercise；被動 = massage, ultrasound, heat；未找到更概念化、PubMed 收錄的定義，故定義寫成舉例式。對象為活動期 AS 成人；條件式建議、證據品質很低（82% 同意）。建議原句只在 Arthritis Care Res 版（PMC5123844）的 PMC 擷取中出現；Arthritis Rheumatol 版（PMC5123840）擷取漏掉建議句、只有理由段。與本站 AS-M2 一致。"
+  },
+  {
+   "id": "aerobic-capacity",
+   "term": "心肺耐力",
+   "aliases": [
+    "心肺耐力"
+   ],
+   "aka": "aerobic capacity; cardiorespiratory fitness (CRF); cardiorespiratory endurance",
+   "def": "身體活動時，心臟、血管和肺把氧氣送到肌肉、讓肌肉產生能量的能力。",
+   "example": "",
+   "note": "也稱為心肺適能、有氧能力；有氧運動可以提升心肺耐力。",
+   "label": "AHA 2020・定義",
+   "evidence": [
+    {
+     "quote": "Cardiorespiratory fitness (CRF) refers to the capacity of the circulatory and respiratory systems to supply oxygen to skeletal muscle mitochondria for energy production needed during physical activity.",
+     "location": "Abstract (first sentence)",
+     "access": "abstract",
+     "pmid": "32686505",
+     "doi": "10.1161/CIR.0000000000000866",
+     "pmcid": "PMC7524041",
+     "supports": "def（循環與呼吸系統把氧氣送到肌肉產生能量的能力）"
+    },
+    {
+     "quote": "CRF, also known as cardiorespiratory endurance, cardiovascular fitness, aerobic capacity, and aerobic fitness among others, refers to the capacity of the body’s circulatory and respiratory systems to supply oxygen to skeletal muscle mitochondria for energy production during physical activity.",
+     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC extraction drops the italic subject \"CRF\" (\"components., also known as …\"); restored from two WebFetch reads of the PMC page",
+     "access": "WebFetch",
+     "pmid": "32686505",
+     "doi": "10.1161/CIR.0000000000000866",
+     "pmcid": "PMC7524041",
+     "supports": "note（也稱心肺適能、有氧能力；心肺耐力 = cardiorespiratory endurance）"
+    },
+    {
+     "quote": "Absolute intensity is the amount of energy expended during the activity, without considering a person’s cardiorespiratory fitness or aerobic capacity.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "note（cardiorespiratory fitness 與 aerobic capacity 並用；可機器核對）"
+    },
+    {
+     "quote": "Aerobic activity—also called endurance activity—improves cardiorespiratory fitness.",
+     "location": "Table 1 (Glossary of terms), row \"Aerobic physical activity\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "note（有氧運動可提升心肺耐力；與本站 SL-4.2 一致）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "AHA 2020 兒少心肺適能科學聲明（American Heart Association；美國的心臟醫學會）",
+     "citation": "Raghuveer G et al. Cardiorespiratory Fitness in Youth: An Important Marker of Health: A Scientific Statement From the American Heart Association. Circulation 2020;142(7):e101-e118.",
+     "pmid": "32686505",
+     "doi": "10.1161/CIR.0000000000000866"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    },
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "本站 SL-4.2「心肺耐力」對應 EULAR 2024 的 aerobic capacity。定義取自 AHA 2020 科學聲明摘要（可機器核對）；同文內文把 cardiorespiratory endurance、aerobic capacity 列為 CRF 的別名（PMC 擷取漏掉斜體字 CRF，經 WebFetch 兩次補回）；美國身體活動指引「cardiorespiratory fitness or aerobic capacity」可佐證兩詞同義。AHA 聲明的主題是兒少，但此定義屬一般性。「circulatory system」寫成「心臟、血管」，「respiratory system」寫成「肺」，為白話化。"
+  },
+  {
+   "id": "perceived-exertion",
+   "term": "自覺費力程度",
+   "aliases": [
+    "評估自己有多費力"
+   ],
+   "aka": "rating of perceived exertion (0–10 scale); relative intensity",
+   "def": "依自己的感覺，替活動有多費力打分數：0分是坐著，10分是自己能做到的最大努力。",
+   "example": "",
+   "note": "中等強度約5–6分、高強度約7–8分；同樣的活動，心肺耐力較差的人分數會較高。",
+   "label": "WHO 2020・定義",
+   "evidence": [
+    {
+     "quote": "On a scale relative to an individual’s personal capacity, MPA is usually a 5 or 6 on a rating scale of perceived exertion scale of 0–10.",
+     "location": "Table 1 (Glossary of terms), row \"Moderate- intensity physical activity (MPA)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "def（0–10分的自覺費力量表、相對於個人能力）；note（中等強度約5–6分）"
+    },
+    {
+     "quote": "On a scale relative to an individual’s personal capacity, VPA is usually a 7 or 8 on a rating scale of perceived exertion scale of 0–10.",
+     "location": "Table 1 (Glossary of terms), row \"Vigorous-intensity physical activity (VPA)\"",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "note（高強度約7–8分）"
+    },
+    {
+     "quote": "In contrast to absolute intensity, relative intensity is the level of effort required to do an activity compared with a person’s capacity. For an activity of a given absolute intensity, relative intensity will be higher for a person with lower aerobic capacity than for a person who is more fit. Relative intensity can be estimated using a scale of 0 to 10, where sitting is 0 and the highest level of effort possible is 10.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "def（0分是坐著、10分是最大努力）；note（心肺耐力較差的人分數較高）"
+    },
+    {
+     "quote": "perceived exertion levels of 5 or 6 on a 0–10 scale",
+     "location": "Discussion of Statement 9",
+     "access": "PMC full text",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "note（中等強度約5–6分；本站 SL-3.T 所引來源）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    },
+    {
+     "short": "美國身體活動指引第二版摘要論文（JAMA 2018；Department of Health and Human Services，美國聯邦政府的衛生部門）",
+     "citation": "Piercy KL et al. The Physical Activity Guidelines for Americans. JAMA 2018;320(19):2020-2028.",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854"
+    },
+    {
+     "short": "2024 國際專家小組：紅斑性狼瘡身體活動與運動建議（國際共識）",
+     "citation": "Blaess J et al. Recommendations for physical activity and exercise in persons living with Systemic Lupus Erythematosus (SLE): consensus by an international task force. RMD Open 2024;10(2):e004171.",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "WHO 稱此 0–10 分量表為 rating scale of perceived exertion（相對於個人能力）；美國身體活動指引稱為 relative intensity 量表，並給出兩端（坐著 = 0、最大努力 = 10）。兩者切點一致（中等 5–6、高強度 7–8）。2024 國際共識（Blaess）提到狼瘡研究也用過 respiratory Borg Scale；本站 SL-3.T 的 0–10 分寫法與 WHO、美國指引一致。"
+  }
+ ]
+}

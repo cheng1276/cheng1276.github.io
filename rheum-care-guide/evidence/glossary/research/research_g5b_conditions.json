@@ -1,0 +1,1510 @@
+{
+ "group": "g5b_conditions",
+ "entries": [
+  {
+   "id": "axspa",
+   "term": "中軸型脊椎關節炎",
+   "aliases": [
+    "中軸型脊椎關節炎"
+   ],
+   "aka": "axial spondyloarthritis (axSpA)",
+   "def": "一種主要影響脊椎和骨盆薦腸關節的慢性發炎性關節炎；包括 X 光已看得到結構破壞的僵直性脊椎炎，以及 X 光還看不到破壞的非放射線型。",
+   "example": "骨骼肌肉以外，也可能出現急性前葡萄膜炎、乾癬或發炎性腸道疾病。",
+   "note": "診斷應由風濕科專科醫師確認。",
+   "label": "BSR 2025・定義",
+   "evidence": [
+    {
+     "quote": "Axial spondyloarthritis (axSpA) is a chronic inflammatory condition that predominantly affects the spine and sacroiliac joints",
+     "location": "Background",
+     "access": "PMC full text",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089",
+     "pmcid": "PMC12107049",
+     "supports": "def：慢性發炎性疾病，主要影響脊椎與薦腸關節"
+    },
+    {
+     "quote": "It can also involve peripheral joints and entheses, and extra-musculoskeletal manifestations (EMMs) such as acute anterior uveitis, psoriasis and IBD.",
+     "location": "Background",
+     "access": "PMC full text",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089",
+     "pmcid": "PMC12107049",
+     "supports": "example：急性前葡萄膜炎、乾癬、發炎性腸道疾病"
+    },
+    {
+     "quote": "The diagnosis of axSpA should be verified by a consultant rheumatologist, and includes ankylosing spondylitis (radiographic axSpA) and non-radiographic axSpA with objective features of inflammation (elevated CRP and/or MRI findings).",
+     "location": "Text under recommendation on defining active disease (1B)",
+     "access": "PMC full text",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089",
+     "pmcid": "PMC12107049",
+     "supports": "def：包括僵直性脊椎炎與非放射線型；note：由風濕科醫師確認診斷"
+    },
+    {
+     "quote": "Axial spondyloarthritis is a chronic type of arthritis that primarily affects the sacroiliac joints and the spine.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "def：慢性關節炎，主要影響薦腸關節與脊椎"
+    },
+    {
+     "quote": "axSpA has been categorized into radiographic axSpA, which is largely synonymous with ankylosing spondylitis (AS) and presents with radiographically visible structural damage to the sacroiliac joint and axial skeleton; and non‐radiographic axSpA (nr‐axSpA), a milder form of axSpA that does not exhibit such structural damage but nevertheless imposes a heavy burden of disease.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "def：X 光看得到結構破壞＝僵直性脊椎炎；看不到＝非放射線型"
+    },
+    {
+     "quote": "The term axial spondyloarthritis covers both patients with non-radiographic and radiographic axial spondyloarthritis, which is also termed ankylosing spondylitis.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "28110981",
+     "doi": "10.1016/S0140-6736(16)31591-4",
+     "pmcid": "",
+     "supports": "def：涵蓋兩型；放射線型即僵直性脊椎炎"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2025 中軸型脊椎關節炎生物製劑與標靶藥物指引",
+     "citation": "Zhao SS et al. The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs. Rheumatology (Oxford) 2025;64(6):3242-3254.",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識",
+     "citation": "Wei JC et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    },
+    {
+     "short": "Lancet 2017 中軸型脊椎關節炎回顧",
+     "citation": "Sieper J, Poddubnyy D. Axial spondyloarthritis. Lancet 2017;390(10089):73-84.",
+     "pmid": "28110981",
+     "doi": "10.1016/S0140-6736(16)31591-4"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Definition from BSR 2025 (site-cited, Tier 1, PMC) and TRA 2020 (Taiwan, PMC); Sieper & Poddubnyy 2017 (Lancet abstract) agrees that axSpA covers radiographic axSpA (= ankylosing spondylitis) and non-radiographic axSpA. TRA calls nr-axSpA \"a milder form\"; not used in def because BSR/Sieper do not say so. The gloss 「骨盆」 for 薦腸關節 (sacroiliac joint) is an anatomical explanation not printed in the quotes; please check. ASAS-EULAR 2022 (PMID 36270658) abstract has no definition; ASAS classification papers were not needed. CM-1.5 site wording is consistent."
+  },
+  {
+   "id": "uveitis",
+   "term": "急性前葡萄膜炎（虹彩炎）",
+   "aliases": [
+    "急性前葡萄膜炎",
+    "葡萄膜炎",
+    "虹彩炎"
+   ],
+   "aka": "acute anterior uveitis (AAU); anterior uveitis; uveitis; iritis",
+   "def": "葡萄膜炎是眼球內部的發炎。前葡萄膜炎主要是眼睛前段的虹彩和睫狀體發炎（虹彩炎屬於此類）；急性型會突然發作、發作期有限，常是單眼，也可能兩眼輪流復發。",
+   "example": "常見症狀：怕光、眼睛痛、眼睛紅、視力模糊。",
+   "note": "屬急症，要盡快看眼科；延誤治療少數人可能出現青光眼或視力嚴重受損。",
+   "label": "SUN 2021・定義",
+   "evidence": [
+    {
+     "quote": "The uveitides are a collection of over 30 diseases characterized by intraocular inflammation.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "33848532",
+     "doi": "10.1016/j.ajo.2021.03.061",
+     "pmcid": "PMC8526627",
+     "supports": "def：葡萄膜炎＝眼球內部的發炎"
+    },
+    {
+     "quote": "The uveitic classes are defined anatomically by the primary site in which inflammation is detected clinically and consist of: anterior uveitis (primary site in the anterior chamber), intermediate uveitis (primary site in the vitreous), posterior uveitis (primary site in the retina or choroid), and panuveitis (anterior chamber, vitreous, and retina/choroid all typically involved without predominance in any one site).",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "33848532",
+     "doi": "10.1016/j.ajo.2021.03.061",
+     "pmcid": "PMC8526627",
+     "supports": "def：前葡萄膜炎＝發炎主要在眼睛前段（前房）"
+    },
+    {
+     "quote": "Anterior uveitis (AU) is characterized by the inflammation of the iris and ciliary body and is the most frequent extra-articular manifestation of spondyloarthritis (SpA).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "40182969",
+     "doi": "10.4103/sjopt.sjopt_240_24",
+     "pmcid": "PMC11964347",
+     "supports": "def：虹彩與睫狀體發炎（故虹彩炎屬於前葡萄膜炎）"
+    },
+    {
+     "quote": "HLA-B27 associated uveitis classically presents as a symptomatic, unilateral, sudden onset, and limited duration anterior segment inflammation, and is typically characterized as acute anterior uveitis.",
+     "location": "Section \"HLA-B27 Acute Anterior Uveitis\"",
+     "access": "PMC full text",
+     "pmid": "27232197",
+     "doi": "10.1080/09273948.2016.1175642",
+     "pmcid": "PMC6733982",
+     "supports": "def：急性型＝突然發作、發作期有限、單眼"
+    },
+    {
+     "quote": "Symptoms frequently include photophobia, ocular pain, eye redness and blurred vision.",
+     "location": "Section \"HLA-B27 Acute Anterior Uveitis\"",
+     "access": "PMC full text",
+     "pmid": "27232197",
+     "doi": "10.1080/09273948.2016.1175642",
+     "pmcid": "PMC6733982",
+     "supports": "example：怕光、眼睛痛、眼睛紅、視力模糊"
+    },
+    {
+     "quote": "Recurrence can occur in either eye and it is common to see inflammatory episodes ‘flip-flop’ between eyes.",
+     "location": "Section \"HLA-B27 Acute Anterior Uveitis\"",
+     "access": "PMC full text",
+     "pmid": "27232197",
+     "doi": "10.1080/09273948.2016.1175642",
+     "pmcid": "PMC6733982",
+     "supports": "def：可能兩眼輪流復發"
+    },
+    {
+     "quote": "The typical pattern for SpA-associated uveitis is a recurrent acute, unilateral or unilateral alternating, anterior uveitis.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "33845004",
+     "doi": "10.1016/j.ajo.2021.03.049",
+     "pmcid": "PMC8594762",
+     "supports": "def：脊椎關節炎相關者多為反覆急性、單眼或兩眼輪流"
+    },
+    {
+     "quote": "Acute anterior uveitis is the most frequent type associated with AS, and should be managed as an emergency to avoid complications",
+     "location": "Recommendation on extra-articular manifestations (accompanying text)",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "note：屬急症"
+    },
+    {
+     "quote": "Generally, axSpA patients with anterior uveitis should be referred to an ophthalmologist as soon as possible, as inflammation can lead to papillary and lens dysfunction with blurring of vision, and glaucoma and severe impairment of vision can occur in some cases if adequate treatment is delayed.",
+     "location": "Recommendation on extra-articular manifestations (accompanying text)",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "note：盡快看眼科；延誤治療少數人可能青光眼或嚴重視力受損"
+    },
+    {
+     "quote": "Acute anterior uveitis is the most common EMM that can occur in up to a quarter of people with axSpA",
+     "location": "Text under uveitis recommendations",
+     "access": "PMC full text",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089",
+     "pmcid": "PMC12107049",
+     "supports": "site context (AS-4.2)"
+    },
+    {
+     "quote": "In adults with AS and acute iritis, we strongly recommend treatment by an ophthalmologist to decrease the severity, duration, or complications of episodes",
+     "location": "Recommendations, section on iritis (PICO 27)",
+     "access": "PMC full text",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708",
+     "pmcid": "PMC5123844",
+     "supports": "site context (AS-4.4)：「acute iritis」在同一情境下使用"
+    }
+   ],
+   "sources": [
+    {
+     "short": "SUN 工作小組 2021 葡萄膜炎分類標準",
+     "citation": "Standardization of Uveitis Nomenclature (SUN) Working Group. Development of classification criteria for the uveitides. Am J Ophthalmol 2021;228:96-105.",
+     "pmid": "33848532",
+     "doi": "10.1016/j.ajo.2021.03.061"
+    },
+    {
+     "short": "2025 前葡萄膜炎與脊椎關節炎回顧",
+     "citation": "Bolletta E et al. A review on anterior uveitis and spondyloarthritis with a focus on the interdisciplinary approach between ophthalmologists and rheumatologists. Saudi J Ophthalmol 2025;39(1):20-30.",
+     "pmid": "40182969",
+     "doi": "10.4103/sjopt.sjopt_240_24"
+    },
+    {
+     "short": "2016 HLA-B27 相關眼疾回顧",
+     "citation": "Kopplin LJ, Mount G, Suhler EB. Review for Disease of the Year: Epidemiology of HLA-B27 Associated Ocular Disorders. Ocul Immunol Inflamm 2016;24(4):470-475.",
+     "pmid": "27232197",
+     "doi": "10.1080/09273948.2016.1175642"
+    },
+    {
+     "short": "SUN 工作小組 2021 脊椎關節炎相關前葡萄膜炎分類標準",
+     "citation": "Standardization of Uveitis Nomenclature (SUN) Working Group. Classification criteria for spondyloarthritis/HLA-B27-associated anterior uveitis. Am J Ophthalmol 2021;228:117-125.",
+     "pmid": "33845004",
+     "doi": "10.1016/j.ajo.2021.03.049"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識",
+     "citation": "Wei JC et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    },
+    {
+     "short": "BSR 2025 中軸型脊椎關節炎生物製劑與標靶藥物指引",
+     "citation": "Zhao SS et al. The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs. Rheumatology (Oxford) 2025;64(6):3242-3254.",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089"
+    },
+    {
+     "short": "ACR/SAA/SPARTAN 2015 僵直性脊椎炎治療建議",
+     "citation": "Ward MM et al. American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network 2015 Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Care Res (Hoboken) 2016;68(2):151-166.",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "SUN 2005 (Jabs DA et al., PMID 16196117, PMC8935739): the PMC body was not extractable and PMC blocked WebFetch, so its Table 1 (which lists iritis, iridocyclitis and anterior cyclitis under anterior uveitis) and its \"acute\" descriptor could not be quoted; the anatomic class definition is taken from SUN 2021 (PMC) and \"sudden onset, limited duration\" from Kopplin 2016 (PMC). 「虹彩炎屬於此類」 rests on Bolletta 2025 (abstract; AU = inflammation of iris and ciliary body) and ACR 2015 usage (\"acute iritis\"). The site’s 「急性前葡萄膜炎（虹彩炎）」 is a common simplification: anterior uveitis also includes iridocyclitis/anterior cyclitis. NICE NG65 (source of AS-4.1 symptoms) is not PubMed-indexed; Kopplin 2016 lists the same four symptoms. TRA text says \"papillary and lens dysfunction\" (probably \"pupillary\"); that phrase is not used in the note."
+  },
+  {
+   "id": "spinal-fusion",
+   "term": "脊椎融合",
+   "aliases": [
+    "脊椎已融合",
+    "脊椎大範圍融合"
+   ],
+   "aka": "spinal fusion; spinal ankylosis",
+   "def": "指脊椎骨之間長出新骨頭、互相連成一體（骨性融合），使脊椎僵硬、活動度大減；通常出現在疾病較晚期。",
+   "example": "晚期僵直性脊椎炎常被稱為「竹節狀脊椎」。",
+   "note": "僵直性脊椎炎的脊椎可能較脆弱，輕微外傷就可能骨折。",
+   "label": "影像學回顧 2024・定義",
+   "evidence": [
+    {
+     "quote": "Ankylosis usually occurs at an advanced stage and is associated with extensive loss of motion. In ankylosis, the joint or disc space stiffens due to bony fusion at the attachment sites of the annulus fibrosus (known as “bridging syndesmophytes”) and/or bony fusion of the facet joints.",
+     "location": "New bone formation in the spine – Ankylosis",
+     "access": "PMC full text",
+     "pmid": "37944938",
+     "doi": "10.1055/a-2193-1970",
+     "pmcid": "PMC11111289",
+     "supports": "def：骨性融合使脊椎僵硬、活動度大減；多在較晚期"
+    },
+    {
+     "quote": "The end stage of this process, ankylosis, contributes significantly to the permanent restriction of movement and loss of function.",
+     "location": "Role of imaging for axSpA",
+     "access": "PMC full text",
+     "pmid": "37944938",
+     "doi": "10.1055/a-2193-1970",
+     "pmcid": "PMC11111289",
+     "supports": "def：活動受限"
+    },
+    {
+     "quote": "axSpA is characterized by new bone formation, which occurs between acute episodes when the primary inflammation subsides.",
+     "location": "Role of imaging for axSpA",
+     "access": "PMC full text",
+     "pmid": "37944938",
+     "doi": "10.1055/a-2193-1970",
+     "pmcid": "PMC11111289",
+     "supports": "def：長出新骨頭"
+    },
+    {
+     "quote": "Ankylosing spondylitis (AS) is a form of chronic inflammatory arthritis characterized by sacroiliitis, enthesitis, and a marked propensity for sacroiliac joint and spinal fusion",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708",
+     "pmcid": "PMC5123844",
+     "supports": "def：僵直性脊椎炎容易出現脊椎融合（site 所用名詞）"
+    },
+    {
+     "quote": "advanced AS (known as “bamboo spine”) patients",
+     "location": "Recommendation on exercise (accompanying text)",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "example：竹節狀脊椎"
+    },
+    {
+     "quote": "AS patients often have fragile and osteoporotic spines that can develop spinal fractures or dislocations from only mild trauma, and therefore contact sports, cervical traction, and spinal manipulation should be avoided.",
+     "location": "Recommendation on exercise (accompanying text)",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "note：輕微外傷就可能骨折"
+    },
+    {
+     "quote": "Because falls can lead to spinal fractures and devastating neurologic consequences in some patients, the panel recommended fall evaluation and counseling for patients with osteoporosis, extensive spinal fusion, postural instability, or concomitant neurologic or musculoskeletal diseases that affect balance.",
+     "location": "Recommendations, fall evaluation (PICO 51)",
+     "access": "PMC full text",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708",
+     "pmcid": "PMC5123844",
+     "supports": "site context (AS-3.4)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2024 中軸型脊椎關節炎新骨生成影像回顧",
+     "citation": "Ulas ST, Deppe D, Ziegeler K, Diekhoff T. New Bone Formation in Axial Spondyloarthritis: A Review. Rofo 2024;196(6):550-559.",
+     "pmid": "37944938",
+     "doi": "10.1055/a-2193-1970"
+    },
+    {
+     "short": "ACR/SAA/SPARTAN 2015 僵直性脊椎炎治療建議",
+     "citation": "Ward MM et al. American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network 2015 Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Care Res (Hoboken) 2016;68(2):151-166.",
+     "pmid": "26401907",
+     "doi": "10.1002/acr.22708"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識",
+     "citation": "Wei JC et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "No guideline defines \"spinal fusion\" explicitly (ACR 2015 uses the term; ASAS-EULAR 2022 uses \"ankylosis of the spine\"); the definition comes from a radiology review in PMC (Ulas 2024, Tier 3), hence Medium. Ulas’s own \"bamboo spine\" sentence has a citation-glued word (spine”and) and was not quoted; TRA 2020 wording used for the example. The site’s AS-3.3 claim that people with a fused spine fracture more easily after minor trauma rests on ASAS-EULAR 2022 text (not in PMC, not re-verifiable here); the note instead quotes TRA 2020, which refers to AS spines in general (\"fragile and osteoporotic\"), not only fused spines. Site’s 「（黏在一起）」 matches \"bony fusion\"."
+  },
+  {
+   "id": "osteoporosis",
+   "term": "骨質疏鬆",
+   "aliases": [
+    "骨質疏鬆"
+   ],
+   "aka": "osteoporosis",
+   "def": "一種全身性的骨骼疾病：骨量減少、骨骼細微結構變差，使骨頭變脆、容易骨折。",
+   "example": "",
+   "note": "診斷主要靠測量骨密度；真正的危害在於因此發生的骨折。",
+   "label": "IOF/ESCEO 2019・定義",
+   "evidence": [
+    {
+     "quote": "Osteoporosis is defined as a systemic skeletal disease characterised by low bone mass and microarchitectural deterioration of bone tissue, with a consequent increase in bone fragility and susceptibility to fracture",
+     "location": "Section \"Osteoporosis in Europe\" (cites the 1993 Consensus Development Conference definition)",
+     "access": "PMC full text",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5",
+     "pmcid": "PMC7026233",
+     "supports": "def"
+    },
+    {
+     "quote": "Although the diagnosis of the disease relies on the quantitative assessment of bone mineral density, which is a major determinant of bone strength, the clinical significance of osteoporosis lies in the fractures that arise.",
+     "location": "Section \"Osteoporosis in Europe\"",
+     "access": "PMC full text",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5",
+     "pmcid": "PMC7026233",
+     "supports": "note"
+    },
+    {
+     "quote": "Osteoporosis greatly increases the risk of fractures.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "36781371",
+     "doi": "10.1016/j.jfma.2023.01.007",
+     "pmcid": "",
+     "supports": "def：容易骨折（台灣指引）"
+    },
+    {
+     "quote": "This increased risk could be due to the disease process (i.e. chronic inflammation) and the side effects of therapies, particularly GC.",
+     "location": "Section \"Bone health\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "site context (SL-5.5)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "IOF/ESCEO 2019 歐洲骨質疏鬆指引",
+     "citation": "Kanis JA, Cooper C, Rizzoli R, Reginster JY, et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2019;30(1):3-44.",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5"
+    },
+    {
+     "short": "台灣骨質疏鬆症學會 2022 骨質疏鬆指引",
+     "citation": "Tai TW et al. Clinical practice guidelines for the prevention and treatment of osteoporosis in Taiwan: 2022 update. J Formos Med Assoc 2023;122 Suppl 1:S4-S13.",
+     "pmid": "36781371",
+     "doi": "10.1016/j.jfma.2023.01.007"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "The 1993 Consensus Development Conference (Am J Med 1993;94:646-650, PMID 8506892) has no abstract and no PMC text; its definition is quoted verbatim (with citation) in the IOF/ESCEO 2019 European guidance (PMC). The Taiwan 2022 guideline (PMID 36781371) was available as abstract only and is used for the fracture-risk sentence. The NIH 2001 consensus abstract (PMID 11176917) does not contain its own definition sentence. Site usage (AS-3.2, AS-3.4, AS-3.T, SL-5.5) is consistent."
+  },
+  {
+   "id": "raynaud",
+   "term": "雷諾氏現象",
+   "aliases": [
+    "雷諾氏現象"
+   ],
+   "aka": "Raynaud's phenomenon (RP)",
+   "def": "手指、腳趾小血管的毛病：遇冷時血流變少，典型是皮膚先變白、再變藍紫、最後變紅，也可能麻木或腫脹。",
+   "example": "除了手指、腳趾，也可能出現在鼻子、耳朵。",
+   "note": "最常見的誘因是受冷，情緒壓力也可能引發。",
+   "label": "國際共識 2014・定義",
+   "evidence": [
+    {
+     "quote": "Raynaud’s phenomenon (RP), named after the French physician Maurice Raynaud (1834 – 1881), is a disorder of the microvasculature that generally affects the fingers and toes but can present on other extremities such as the nose, ears and nipples",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "24491823",
+     "doi": "10.1016/j.jaut.2014.01.020",
+     "pmcid": "PMC4018202",
+     "supports": "def：手指、腳趾小血管的毛病；example：鼻子、耳朵"
+    },
+    {
+     "quote": "Regardless of the subtype, the hallmark of RP is ischemia of the digits in response to cold, which produces a characteristic “triphasic” color pattern, (pallor, cyanosis, rubor) as well as numbness and swelling",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "24491823",
+     "doi": "10.1016/j.jaut.2014.01.020",
+     "pmcid": "PMC4018202",
+     "supports": "def：遇冷血流變少、三色變化、麻木腫脹"
+    },
+    {
+     "quote": "Initially, the distal finger pads become pale, or turn white due to constricted blood-flow; then become blue, a sign of tissue hypoxia; and lastly red, as the tissue is reperfused",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "24491823",
+     "doi": "10.1016/j.jaut.2014.01.020",
+     "pmcid": "PMC4018202",
+     "supports": "def：先白、再藍紫、最後紅"
+    },
+    {
+     "quote": "The most common trigger is thought to be exposure to cold.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "24491823",
+     "doi": "10.1016/j.jaut.2014.01.020",
+     "pmcid": "PMC4018202",
+     "supports": "note：最常見誘因是受冷"
+    },
+    {
+     "quote": "Other reported triggers include emotional stress",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "24491823",
+     "doi": "10.1016/j.jaut.2014.01.020",
+     "pmcid": "PMC4018202",
+     "supports": "note：情緒壓力"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2014 雷諾氏現象國際共識診斷標準",
+     "citation": "Maverakis E et al. International consensus criteria for the diagnosis of Raynaud's phenomenon. J Autoimmun 2014;48-49:60-65.",
+     "pmid": "24491823",
+     "doi": "10.1016/j.jaut.2014.01.020"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Wigley & Flavahan 2016 (N Engl J Med, PMID 27509103) has no abstract and no PMC text, so it was not quoted; the 2014 international consensus (Delphi) paper in PMC was used. One sentence in that paper (\"Attacks may even occur after minorin temperature...\") has a dropped word and was not used. The paper also says RP is the first manifestation of a connective tissue disease (incl. SLE) in 10–20% of cases — not added. Site SL-3.5 (keep warm, gloves, avoid cold surfaces) is consistent with \"cold\" as the main trigger."
+  },
+  {
+   "id": "lupus-nephritis",
+   "term": "狼瘡腎炎",
+   "aliases": [
+    "狼瘡腎炎"
+   ],
+   "aka": "lupus nephritis (LN)",
+   "def": "紅斑性狼瘡侵犯腎臟所造成的腎臟發炎，是狼瘡最嚴重的器官表現之一。",
+   "example": "",
+   "note": "回診時定期驗尿，有助及早發現腎炎。",
+   "label": "回顧文章 2020・定義",
+   "evidence": [
+    {
+     "quote": "Lupus nephritis (LN) is a form of glomerulonephritis that constitutes one of the most severe organ manifestations of the autoimmune disease systemic lupus erythematosus (SLE).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31974366",
+     "doi": "10.1038/s41572-019-0141-9",
+     "pmcid": "",
+     "supports": "def"
+    },
+    {
+     "quote": "Kidney involvement represents one of the most severe complications of systemic lupus erythematosus (SLE), with significant impact on morbidity and mortality.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "42368611",
+     "doi": "10.1016/j.ero.2025.07.006",
+     "pmcid": "PMC13292291",
+     "supports": "def：狼瘡侵犯腎臟，是最嚴重的併發症之一"
+    },
+    {
+     "quote": "Regular monitoring of urine dipstick at all assessment appointments is essential for detection of nephritis.",
+     "location": "Section \"Proteinuria monitoring and diagnostic tests\" (text under recommendation 66)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2020 狼瘡腎炎回顧（Nat Rev Dis Primers）",
+     "citation": "Anders HJ, Saxena R, Zhao MH, Parodis I, Salmon JE, Mohan C. Lupus nephritis. Nat Rev Dis Primers 2020;6(1):7.",
+     "pmid": "31974366",
+     "doi": "10.1038/s41572-019-0141-9"
+    },
+    {
+     "short": "EULAR 2025 狼瘡腎炎建議之系統性文獻回顧",
+     "citation": "Kostopoulou M, Bertsias G, Scire CA, Boumpas DT, Fanouriakis A. Management of systemic lupus erythematosus with kidney involvement: systematic literature review to inform the 2025 update of EULAR recommendations. EULAR Rheumatol Open 2025;1(3):210-219.",
+     "pmid": "42368611",
+     "doi": "10.1016/j.ero.2025.07.006"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "KDIGO 2024 LN guideline (PMID 38182286) has no abstract/PMC; its executive summary abstract (PMID 38182299) and the EULAR 2025 LN recommendations abstract (PMID 41107121) contain no definition. BSR 2026 discusses LN at length but does not define it. Explicit definition from Anders 2020 (Nat Rev Dis Primers, abstract, Tier 3); the EULAR 2025 SLR (PMC, Tier 2) supports \"kidney involvement … one of the most severe complications\". 「腎臟發炎」 simplifies \"glomerulonephritis\". Site SL-5.1 is consistent."
+  },
+  {
+   "id": "cutaneous-lupus",
+   "term": "皮膚型狼瘡",
+   "aliases": [
+    "皮膚型狼瘡"
+   ],
+   "aka": "cutaneous lupus erythematosus (CLE)",
+   "def": "以皮膚為主的發炎性自體免疫疾病，皮膚表現多樣；可以只侵犯皮膚，也可能與全身性紅斑性狼瘡一起出現。",
+   "example": "分急性、亞急性、慢性等型；慢性型如盤狀狼瘡。",
+   "note": "抗瘧疾藥物是主要的治療藥物之一。",
+   "label": "EDF/EADV 2017・定義",
+   "evidence": [
+    {
+     "quote": "Cutaneous lupus erythematosus (CLE) is a rare inflammatory autoimmune disease with heterogeneous clinical manifestations.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "27859683",
+     "doi": "10.1111/jdv.14053",
+     "pmcid": "",
+     "supports": "def"
+    },
+    {
+     "quote": "Cutaneous lupus erythematosus (CLE) is an inflammatory, autoimmune disease encompassing a broad spectrum of subtypes including acute, subacute, chronic and intermittent CLE. Among these, chronic CLE can be further classified into several subclasses of lupus erythematosus (LE) such as discoid LE, verrucous LE, LE profundus, chilblain LE and Blaschko linear LE.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "34364171",
+     "doi": "10.1016/j.jaut.2021.102707",
+     "pmcid": "",
+     "supports": "def；example：急性、亞急性、慢性；盤狀狼瘡"
+    },
+    {
+     "quote": "CLE can occur ‘alone’ as an isolated skin condition without the involvement of SLE in other organs.",
+     "location": "Section on management of CLE (rationale)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：可以只侵犯皮膚"
+    },
+    {
+     "quote": "For cutaneous involvement attributed to SLE, rheumatologists can start very potent/potent topical GC as a first-line therapy for up to 4 weeks.",
+     "location": "Section on management of CLE",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：也可能是全身性狼瘡的一部分"
+    },
+    {
+     "quote": "Interaction between smoking and efficacy of antimalarials, the mainstay of treatment for cutaneous lupus erythematosus (CLE), remains controversial.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025",
+     "pmcid": "",
+     "supports": "note；site context (SL-2.3)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EDF/EADV 2017 皮膚型狼瘡 S2k 治療指引",
+     "citation": "Kuhn A et al. S2k guideline for treatment of cutaneous lupus erythematosus - guided by the European Dermatology Forum (EDF) in cooperation with the European Academy of Dermatology and Venereology (EADV). J Eur Acad Dermatol Venereol 2017;31(3):389-404.",
+     "pmid": "27859683",
+     "doi": "10.1111/jdv.14053"
+    },
+    {
+     "short": "2021 亞洲皮膚型狼瘡診療指引",
+     "citation": "Lu Q et al. Guideline for the diagnosis, treatment and long-term management of cutaneous lupus erythematosus. J Autoimmun 2021;123:102707.",
+     "pmid": "34364171",
+     "doi": "10.1016/j.jaut.2021.102707"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "2015 吸菸與抗瘧疾藥物療效統合分析（皮膚型狼瘡）",
+     "citation": "Chasset F, Francès C, Barete S, Amoura Z, Arnaud L. Influence of smoking on the efficacy of antimalarials in cutaneous lupus: a meta-analysis of the literature. J Am Acad Dermatol 2015;72(4):634-639.",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Definition from the EDF/EADV S2k guideline abstract (2017; currency of this guideline not checked) and the 2021 Asian CLE guideline abstract; BSR 2026 (PMC) supports CLE alone vs. CLE with SLE. \"Antimalarials\" kept as a drug class (no brand/generic named). Site SL-2.3 is consistent."
+  },
+  {
+   "id": "neonatal-lupus",
+   "term": "新生兒狼瘡",
+   "aliases": [
+    "新生兒狼瘡"
+   ],
+   "aka": "neonatal lupus (erythematosus); neonatal lupus syndrome; anti-Ro/SSA, anti-La/SSB antibodies",
+   "def": "媽媽的抗 Ro/SSA 抗體（或合併抗 La/SSB 抗體）經胎盤進入胎兒所引起的少見疾病；可影響皮膚、血液、肝臟，最嚴重的是心臟電訊號傳導受阻（先天性心臟傳導阻滯）。",
+   "example": "",
+   "note": "皮疹、血球或肝指數異常多為短暫，常隨寶寶體內媽媽的抗體消失而好轉。",
+   "label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "quote": "Neonatal lupus (NL) is a rare syndrome resulting from the transplacental transfer of maternal anti-Ro/SSA autoantibodies, with or without anti-La/SSB antibodies, and is clinically characterized by cutaneous, hematological, hepatic, and especially cardiac manifestations. The most severe manifestation is congenital heart block (CHB), which occurs in structurally normal fetal hearts, is most often complete and irreversible, and is associated with substantial morbidity and mortality.",
+     "location": "Abstract (English abstract of a French review)",
+     "access": "abstract",
+     "pmid": "42680608",
+     "doi": "10.1016/j.revmed.2026.08.006",
+     "pmcid": "",
+     "supports": "def"
+    },
+    {
+     "quote": "In women planning pregnancy or in early pregnancy, anti-Ro/SSA and anti-La/SSB antibodies should be measured since they may be transferred across the placenta and are associated with congenital heart block (CHB) in ∼2–3% of babies born to mothers with SLE and anti-Ro/SSA and anti-La/SSB antibodies",
+     "location": "Text under recommendation 21",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：抗體可經胎盤傳給胎兒；與先天性心臟傳導阻滯有關"
+    },
+    {
+     "quote": "Prospective studies of infants born to women with anti-Ro/SSA and/or anti-La/SSB antibodies show that ∼10% develop neonatal lupus rash, 20% transient cytopenia and 30% mild transient transaminitis",
+     "location": "Text under recommendation 21",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：皮膚、血液、肝臟；note"
+    },
+    {
+     "quote": "These complications are short-lived and often resolve spontaneously as the child’s maternal antibodies disappear, and with no increased risk of developing SLE in later life.",
+     "location": "Text under recommendation 21",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note"
+    },
+    {
+     "quote": "Autoantibody-associated congenital heart block (CHB) is a passively acquired autoimmune condition associated with maternal anti-Ro/SSA antibodies and primarily affecting electric signal conduction at the atrioventricular node in the fetal heart.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24434353",
+     "doi": "10.1016/j.yexcr.2014.01.003",
+     "pmcid": "",
+     "supports": "def：心臟電訊號傳導受阻"
+    },
+    {
+     "quote": "Anti-Ro/SSA and anti-La/SSB antibodies are associated with neonatal lupus (including congenital heart block) and should be re-assessed prior to pregnancy, and pre-pregnancy counselling provided (1A)",
+     "location": "Recommendation 21",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "site context (SL-6.5)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "2026 新生兒狼瘡與先天性心臟傳導阻滯回顧（法國）",
+     "citation": "Martin de Frémont G et al. [Neonatal lupus and congenital heart block]. Rev Med Interne 2026 (in French; English abstract).",
+     "pmid": "42680608",
+     "doi": "10.1016/j.revmed.2026.08.006"
+    },
+    {
+     "short": "2014 先天性心臟傳導阻滯機轉回顧",
+     "citation": "Ambrosi A, Sonesson SE, Wahren-Herlenius M. Molecular mechanisms of congenital heart block. Exp Cell Res 2014;325(1):2-9.",
+     "pmid": "24434353",
+     "doi": "10.1016/j.yexcr.2014.01.003"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "BSR 2026 (site-cited, Tier 1, PMC) gives placental transfer, the CHB link and the transient skin/blood/liver findings; it states neonatal lupus itself is outside its scope. The explicit one-sentence definition is from a 2026 review by the French national reference centre (English abstract; article in French, Tier 3). CHB gloss 「心臟電訊號傳導受阻」 from Ambrosi 2014 abstract. BSR numbers (CHB ~2–3% of babies of mothers with SLE and these antibodies; rash ~10%) were not put in the def. Site SL-6.5 is consistent."
+  },
+  {
+   "id": "disease-activity",
+   "term": "疾病活動度",
+   "aliases": [
+    "疾病活動度",
+    "病情活動",
+    "疾病活性",
+    "病情活躍",
+    "病情不活躍"
+   ],
+   "aka": "disease activity",
+   "def": "指疾病目前「活躍」的程度，主要反映發炎，會隨時間起伏。醫師會綜合症狀、身體檢查、抽血和影像來評估，常分成緩解或不活躍、低、中、高等程度。",
+   "example": "",
+   "note": "疾病活動度和已經造成、無法恢復的器官損傷不同。",
+   "label": "ACR 2019・說明",
+   "evidence": [
+    {
+     "quote": "While the severity of chronic diseases such as diabetes mellitus or hypertension can be directly measured, no equivalent measurement exists in RA. Numerous RA disease activity measures have been proposed for this purpose, most incorporating data gathered from a combination of sources including patient reported measures, provider assessments, laboratory values, and/or imaging modalities.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "31709779",
+     "doi": "10.1002/acr.24042",
+     "pmcid": "PMC6884664",
+     "supports": "def：綜合症狀、身體檢查、抽血與影像評估"
+    },
+    {
+     "quote": "Fulfilling the minimum standard for a RA disease activity measure in regular use was established by measures 1) providing a numerical value, 2) categorizing to ≥3 disease states which separate low, moderate, and high disease activity, 3) being feasible for regular measurement in clinic and 4) possessing adequate psychometric properties.",
+     "location": "Methods – Selection Process",
+     "access": "PMC full text",
+     "pmid": "31709779",
+     "doi": "10.1002/acr.24042",
+     "pmcid": "PMC6884664",
+     "supports": "def：分成低、中、高"
+    },
+    {
+     "quote": "are accurate reflections of disease activity; are sensitive to change; discriminate well between low, moderate, and high disease activity states; have remission criteria; and are feasible to perform in clinical settings.",
+     "location": "Abstract (conclusions)",
+     "access": "abstract",
+     "pmid": "22473918",
+     "doi": "10.1002/acr.21649",
+     "pmcid": "PMC4028066",
+     "supports": "def：緩解、低、中、高"
+    },
+    {
+     "quote": "Active disease should be determined by the treating clinician in the context of verified diagnosis and inflammatory disease activity, supported by validated indices such as the Axial Spondyloarthritis Disease Activity Score (ASDAS), BASDAI and spinal pain (1B, SoA 97%).",
+     "location": "Recommendation on defining active disease",
+     "access": "PMC full text",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089",
+     "pmcid": "PMC12107049",
+     "supports": "def：主要反映發炎"
+    },
+    {
+     "quote": "When using any index, assessments should consider whether residual symptoms are related to active inflammation",
+     "location": "Text under response-assessment recommendations",
+     "access": "PMC full text",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089",
+     "pmcid": "PMC12107049",
+     "supports": "def：主要反映發炎"
+    },
+    {
+     "quote": "For people with SLE with inactive disease, without previous renal involvement or organ damage, review may be less frequent",
+     "location": "Section \"Frequency and type of clinic visits\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：不活躍"
+    },
+    {
+     "quote": "Once SLE is diagnosed, problems are lifelong, typically characterised by periods of relapse and remission following treatment with immunosuppressants.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：會隨時間起伏"
+    },
+    {
+     "quote": "The key aim of management should be to empower individuals with SLE to manage their condition, suppressing systemic disease activity, and preventing organ damage.",
+     "location": "Abstract",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note：活動度與器官損傷是不同概念"
+    },
+    {
+     "quote": "Systemic lupus erythematosus (SLE) is a heterogeneous autoimmune disease characterized by fluctuating multisystem involvement, relapsing-remitting activity, and substantial risk of irreversible organ damage.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "42066718",
+     "doi": "10.1016/j.coi.2026.102782",
+     "pmcid": "",
+     "supports": "def：起伏；note：無法恢復的器官損傷"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2019 類風濕性關節炎疾病活動度評估工具更新",
+     "citation": "England BR et al. 2019 Update of the American College of Rheumatology Recommended Rheumatoid Arthritis Disease Activity Measures. Arthritis Care Res (Hoboken) 2019;71(12):1540-1555.",
+     "pmid": "31709779",
+     "doi": "10.1002/acr.24042"
+    },
+    {
+     "short": "ACR 2012 類風濕性關節炎疾病活動度評估建議",
+     "citation": "Anderson J et al. Rheumatoid arthritis disease activity measures: American College of Rheumatology recommendations for use in clinical practice. Arthritis Care Res (Hoboken) 2012;64(5):640-647.",
+     "pmid": "22473918",
+     "doi": "10.1002/acr.21649"
+    },
+    {
+     "short": "BSR 2025 中軸型脊椎關節炎生物製劑與標靶藥物指引",
+     "citation": "Zhao SS et al. The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs. Rheumatology (Oxford) 2025;64(6):3242-3254.",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "2026 紅斑性狼瘡評估指標回顧",
+     "citation": "Suresh SC, Furie R, Narain S. Outcome measures in systemic lupus erythematosus. Curr Opin Immunol 2026;100:102782.",
+     "pmid": "42066718",
+     "doi": "10.1016/j.coi.2026.102782"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "No single consensus definition of \"disease activity\" was found; the entry is an operational description assembled from ACR 2019/2012 (RA measures), BSR 2025 axSpA (\"inflammatory disease activity\"), BSR 2026 SLE (relapse/remission; activity vs. organ damage) and Suresh 2026 (review). terms.json also lists SL-M4 and UR-4.2 for this term (not in the context file); UR-4.2 (urticaria) uses 「病情活躍」 for \"very active and uncontrolled CIndU\", where assessment is by symptoms rather than blood tests/imaging — consider not linking this popup there. Site usages (AS-2.1, CM-2.2, RA-3.4, RA-4.1, RA-M2, SL-3.3, SL-6.4, SL-M2) are consistent."
+  },
+  {
+   "id": "comorbidity",
+   "term": "共病",
+   "aliases": [
+    "共病"
+   ],
+   "aka": "comorbidity",
+   "def": "一個人在主要關注的疾病之外，同時存在或之後出現的其他疾病。",
+   "example": "痛風常見的共病：心血管疾病、慢性腎臟病、尿路結石、糖尿病。",
+   "note": "共病和較差的健康結果、較複雜的治療照護有關。",
+   "label": "Feinstein 定義（2021 社論引述）",
+   "evidence": [
+    {
+     "quote": "In 1970, Feinstein first coined the term ‘comorbidity’ to describe ‘Any distinct additional entity that has existed or may occur during the clinical course of a patient who has the index disease under study’.",
+     "location": "Editorial, paragraph 2",
+     "access": "PMC full text",
+     "pmid": "33718251",
+     "doi": "10.1177/2633556521993993",
+     "pmcid": "PMC7930649",
+     "supports": "def"
+    },
+    {
+     "quote": "For example, a patient with diagnosed chronic kidney disease, Type 2 Diabetes and hypertension, when seeing their nephrologist is considered by the specialist to have chronic kidney disease with comorbidities of Type 2 Diabetes and hypertension.",
+     "location": "Section \"Healthcare delivery\"",
+     "access": "PMC full text",
+     "pmid": "33718251",
+     "doi": "10.1177/2633556521993993",
+     "pmcid": "PMC7930649",
+     "supports": "def：相對於「主要關注的疾病」"
+    },
+    {
+     "quote": "Comorbidity is associated with worse health outcomes, more complex clinical management, and increased health care costs. There is no agreement, however, on the meaning of the term, and related constructs, such as multimorbidity, morbidity burden, and patient complexity, are not well conceptualized.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "19597174",
+     "doi": "10.1370/afm.983",
+     "pmcid": "PMC2713155",
+     "supports": "note；reviewer_notes"
+    },
+    {
+     "quote": "Moreover, gout or hyperuricemia is clearly associated with a variety of comorbidities, including cardiovascular diseases, chronic kidney disease, urolithiasis, metabolic syndrome, diabetes mellitus, thyroid dysfunction, and psoriasis.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266",
+     "pmcid": "",
+     "supports": "example；site context (GT-5.1)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2021 共病與多重疾病社論",
+     "citation": "Harrison C, Fortin M, van den Akker M, et al. Comorbidity versus multimorbidity: Why it matters. J Multimorb Comorb 2021;11:2633556521993993.",
+     "pmid": "33718251",
+     "doi": "10.1177/2633556521993993"
+    },
+    {
+     "short": "2009 共病定義回顧",
+     "citation": "Valderas JM, Starfield B, Sibbald B, Salisbury C, Roland M. Defining comorbidity: implications for understanding health and health services. Ann Fam Med 2009;7(4):357-363.",
+     "pmid": "19597174",
+     "doi": "10.1370/afm.983"
+    },
+    {
+     "short": "台灣 2018 痛風與高尿酸血症多專科共識",
+     "citation": "Yu KH et al. Management of gout and hyperuricemia: Multidisciplinary consensus in Taiwan. Int J Rheum Dis 2018;21(4):772-787.",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Valderas 2009 (PMC2713155): the PMC body could not be extracted with the PubMed tool and PMC blocked WebFetch, so only its abstract was quoted (it notes there is no agreed meaning). Feinstein’s 1970 definition is quoted via Harrison et al. 2021 (editorial, J Multimorb Comorb, PMC). Example from the Taiwan 2018 gout consensus abstract (site’s GT-5.1 source). Card title 「共病與定期檢查」 (gout-checkup) is consistent."
+  },
+  {
+   "id": "cvd",
+   "term": "心血管疾病",
+   "aliases": [
+    "心血管疾病"
+   ],
+   "aka": "cardiovascular disease (CVD)",
+   "def": "心臟和血管的疾病，主要是缺血性心臟病和中風，也包括動脈硬化、心肌梗塞、周邊血管疾病與心臟衰竭。",
+   "example": "",
+   "note": "紅斑性狼瘡患者發生心血管疾病的機會約為一般人的 2–3 倍。",
+   "label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "quote": "People with SLE are two to three times more likely to develop cardiovascular diseases including atherosclerosis, myocardial infarction, stroke, peripheral vascular disease and heart failure compared with the general population",
+     "location": "Section \"Cardiovascular comorbidities\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：包含的疾病；note：2–3 倍"
+    },
+    {
+     "quote": "Cardiovascular diseases (CVDs), principally ischemic heart disease (IHD) and stroke, are the leading cause of global mortality and a major contributor to disability.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "33309175",
+     "doi": "10.1016/j.jacc.2020.11.010",
+     "pmcid": "PMC7755038",
+     "supports": "def：主要是缺血性心臟病和中風"
+    },
+    {
+     "quote": "Moreover, gout or hyperuricemia is clearly associated with a variety of comorbidities, including cardiovascular diseases, chronic kidney disease, urolithiasis, metabolic syndrome, diabetes mellitus, thyroid dysfunction, and psoriasis.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266",
+     "pmcid": "",
+     "supports": "site context (GT-5.1)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "GBD 2019 全球心血管疾病負擔",
+     "citation": "Roth GA et al. Global Burden of Cardiovascular Diseases and Risk Factors, 1990-2019: Update From the GBD 2019 Study. J Am Coll Cardiol 2020;76(25):2982-3021.",
+     "pmid": "33309175",
+     "doi": "10.1016/j.jacc.2020.11.010"
+    },
+    {
+     "short": "台灣 2018 痛風與高尿酸血症多專科共識",
+     "citation": "Yu KH et al. Management of gout and hyperuricemia: Multidisciplinary consensus in Taiwan. Int J Rheum Dis 2018;21(4):772-787.",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "No PubMed-indexed WHO definition text was found (the WHO wording \"a group of disorders of the heart and blood vessels\" is from the WHO fact sheet, not PubMed). 「心臟和血管的疾病」 is a literal gloss of \"cardiovascular\"; the listed examples come from BSR 2026 SLE (Tier 1, PMC) and GBD 2019 (J Am Coll Cardiol abstract). The note’s 2–3 倍 is SLE-specific (matches SL-5.4 context). EULAR 2016 gout text (GT-5.T) was not re-checked (not PMC)."
+  },
+  {
+   "id": "ckd",
+   "term": "慢性腎臟病",
+   "aliases": [
+    "慢性腎臟病"
+   ],
+   "aka": "chronic kidney disease (CKD)",
+   "def": "腎臟受損，或腎臟的過濾功能（腎絲球過濾率）下降，持續 3 個月以上，不論是什麼原因。",
+   "example": "",
+   "note": "很多人沒有明顯症狀，常在驗尿或抽血時才發現。",
+   "label": "KDIGO 2005・定義",
+   "evidence": [
+    {
+     "quote": "CKD is defined as kidney damage or glomerular filtration rate (GFR) <60 mL/min/1.73 m(2) for 3 months or more, irrespective of cause.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "15882252",
+     "doi": "10.1111/j.1523-1755.2005.00365.x",
+     "pmcid": "",
+     "supports": "def"
+    },
+    {
+     "quote": "The definition and classification of chronic kidney disease (CKD) have evolved over time, but current international guidelines define this condition as decreased kidney function shown by glomerular filtration rate (GFR) of less than 60 mL/min per 1·73 m, or markers of kidney damage, or both, of at least 3 months duration, regardless of the underlying cause.",
+     "location": "Abstract (superscript \"2\" after \"m\" lost in the PubMed text)",
+     "access": "abstract",
+     "pmid": "27887750",
+     "doi": "10.1016/S0140-6736(16)32064-5",
+     "pmcid": "",
+     "supports": "def：目前國際指引的定義"
+    },
+    {
+     "quote": "Many people are asymptomatic or have non-specific symptoms such as lethargy, itch, or loss of appetite. Diagnosis is commonly made after chance findings from screening tests (urinary dipstick or blood tests), or when symptoms become severe.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "27887750",
+     "doi": "10.1016/S0140-6736(16)32064-5",
+     "pmcid": "",
+     "supports": "note"
+    },
+    {
+     "quote": "Moreover, gout or hyperuricemia is clearly associated with a variety of comorbidities, including cardiovascular diseases, chronic kidney disease, urolithiasis, metabolic syndrome, diabetes mellitus, thyroid dysfunction, and psoriasis.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266",
+     "pmcid": "",
+     "supports": "site context (GT-5.1)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "KDIGO 2005 慢性腎臟病定義與分類立場聲明",
+     "citation": "Levey AS et al. Definition and classification of chronic kidney disease: a position statement from Kidney Disease: Improving Global Outcomes (KDIGO). Kidney Int 2005;67(6):2089-2100.",
+     "pmid": "15882252",
+     "doi": "10.1111/j.1523-1755.2005.00365.x"
+    },
+    {
+     "short": "Lancet 2017 慢性腎臟病回顧",
+     "citation": "Webster AC, Nagler EV, Morton RL, Masson P. Chronic Kidney Disease. Lancet 2017;389(10075):1238-1252.",
+     "pmid": "27887750",
+     "doi": "10.1016/S0140-6736(16)32064-5"
+    },
+    {
+     "short": "台灣 2018 痛風與高尿酸血症多專科共識",
+     "citation": "Yu KH et al. Management of gout and hyperuricemia: Multidisciplinary consensus in Taiwan. Int J Rheum Dis 2018;21(4):772-787.",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "The KDIGO 2024 CKD guideline (Kidney Int 2024;105(4S):S117-S314, PMID 38490803) has no PubMed abstract and its executive summary abstract (PMID 38519239) does not state the definition, so the current KDIGO wording (\"abnormalities of kidney structure or function, present for >3 months, with implications for health\") could not be machine-verified. Used the KDIGO 2005 position statement abstract (Tier 2) and the Lancet 2017 seminar abstract (\"current international guidelines define…\"); both are consistent with the 3-month rule. The GFR threshold (<60) was left out of the lay def."
+  },
+  {
+   "id": "urolithiasis",
+   "term": "尿路結石",
+   "aliases": [
+    "尿路結石"
+   ],
+   "aka": "urolithiasis; urinary stones (urinary calculi)",
+   "def": "尿液中某種礦物質濃度過高（過飽和）時，在泌尿道沉積形成的結石。",
+   "example": "例如腎結石、輸尿管結石。",
+   "note": "結石常會復發：第一次發作後 5 年內，復發率可高達 50%。",
+   "label": "回顧文章 2016・定義",
+   "evidence": [
+    {
+     "quote": "Kidney stones are mineral deposits in the renal calyces and pelvis that are found free or attached to the renal papillae. They contain crystalline and organic components and are formed when the urine becomes supersaturated with respect to a mineral.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "27188687",
+     "doi": "10.1038/nrdp.2016.8",
+     "pmcid": "PMC5685519",
+     "supports": "def"
+    },
+    {
+     "quote": "Stone formation is highly prevalent, with rates of up to 14.8% and increasing, and a recurrence rate of up to 50% within the first 5 years of the initial stone episode.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "27188687",
+     "doi": "10.1038/nrdp.2016.8",
+     "pmcid": "PMC5685519",
+     "supports": "note"
+    },
+    {
+     "quote": "These guidelines summarise current recommendations for imaging, pain management, conservative treatment, and MET for renal and ureteral stones.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "26318710",
+     "doi": "10.1016/j.eururo.2015.07.040",
+     "pmcid": "",
+     "supports": "example：腎結石、輸尿管結石（泌尿道結石）"
+    },
+    {
+     "quote": "Most patients with urolithiasis present with typical colic symptoms, but stones in the renal calices remain asymptomatic.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "26318710",
+     "doi": "10.1016/j.eururo.2015.07.040",
+     "pmcid": "",
+     "supports": "reviewer_notes (optional extra note)"
+    },
+    {
+     "quote": "Moreover, gout or hyperuricemia is clearly associated with a variety of comorbidities, including cardiovascular diseases, chronic kidney disease, urolithiasis, metabolic syndrome, diabetes mellitus, thyroid dysfunction, and psoriasis.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266",
+     "pmcid": "",
+     "supports": "site context (GT-5.1)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2016 腎結石回顧（Nat Rev Dis Primers）",
+     "citation": "Khan SR et al. Kidney stones. Nat Rev Dis Primers 2016;2:16008.",
+     "pmid": "27188687",
+     "doi": "10.1038/nrdp.2016.8"
+    },
+    {
+     "short": "EAU 2016 尿路結石診斷與保守治療指引",
+     "citation": "Türk C et al. EAU Guidelines on Diagnosis and Conservative Management of Urolithiasis. Eur Urol 2016;69(3):468-474.",
+     "pmid": "26318710",
+     "doi": "10.1016/j.eururo.2015.07.040"
+    },
+    {
+     "short": "台灣 2018 痛風與高尿酸血症多專科共識",
+     "citation": "Yu KH et al. Management of gout and hyperuricemia: Multidisciplinary consensus in Taiwan. Int J Rheum Dis 2018;21(4):772-787.",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "The EAU 2016 guideline summary (Eur Urol, abstract, Tier 1) does not define urolithiasis but uses it for renal and ureteral stones; the mineral-deposit definition comes from Khan 2016 (Nat Rev Dis Primers, Tier 3), which defines \"kidney stones\" specifically. The 2026 AUA medical-management guideline abstracts (PMIDs 42529981, 42529979) contain no definition. Optional extra note available from EAU: typical symptom is colic, but stones in the kidney calices may cause no symptoms. Site GT-5.1 and GT-5.3 are consistent."
+  },
+  {
+   "id": "mgd",
+   "term": "瞼板腺功能不良",
+   "aliases": [
+    "瞼板腺"
+   ],
+   "aka": "meibomian gland dysfunction (MGD); meibomian glands",
+   "def": "瞼板腺是眼皮裡會分泌油脂的腺體，油脂能維持淚液和眼睛表面健康。瞼板腺功能不良是指腺體阻塞、油脂異常，是乾眼的主要原因之一。",
+   "example": "",
+   "note": "乾燥症的眼睛問題，除了淚水不足，也常合併瞼板腺功能不良。",
+   "label": "Cochrane 2020・定義",
+   "evidence": [
+    {
+     "quote": "One of the main causes of dry eye is known as 'meibomian gland dysfunction' (MGD), which causes problems in the meibomian glands (glands located in the eyelids). These glands produce an oily substance (known as meibum). Meibum is important for keeping the tears and surface of the eye healthy. In MGD, the meibomian glands become blocked and the meibum is abnormal.",
+     "location": "Plain language summary (in the PMC record)",
+     "access": "PMC full text",
+     "pmid": "32182637",
+     "doi": "10.1002/14651858.CD013559",
+     "pmcid": "PMC7077992",
+     "supports": "def"
+    },
+    {
+     "quote": "Meibomian gland dysfunction (MGD) is the major cause of evaporative dry eye disease, which is the more prevalent form of dry eye disease.",
+     "location": "Abstract – Background",
+     "access": "abstract",
+     "pmid": "32182637",
+     "doi": "10.1002/14651858.CD013559",
+     "pmcid": "PMC7077992",
+     "supports": "def：乾眼的主要原因之一"
+    },
+    {
+     "quote": "In addition to the formal literature review it was felt important to highlight that SD is associated with complex eye disease [] with aqueous tear deficiency, meibomian gland dysfunction [,] and surface inflammation contributing to the symptom load.",
+     "location": "Section on ocular management (empty brackets are stripped citation markers)",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "note"
+    },
+    {
+     "quote": "Advise a heated eyelid compress for at least 10 min daily (1, A) (SOA 94.9%).",
+     "location": "Recommendation under \"Warm compresses\"",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "site context (SJ-1.3)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 2020 脈衝光治療瞼板腺功能不良",
+     "citation": "Cote S et al. Intense pulsed light (IPL) therapy for the treatment of meibomian gland dysfunction. Cochrane Database Syst Rev 2020;3(3):CD013559.",
+     "pmid": "32182637",
+     "doi": "10.1002/14651858.CD013559"
+    },
+    {
+     "short": "BSR 2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "TFOS MGD workshop definition report (Nelson JD et al., IOVS 2011, PMID 21450914, PMC3072158) has no PubMed abstract and its PMC body (and the executive summary PMC3072157 / anatomy report PMC3072159) could not be extracted; the TFOS sentence was therefore not quoted. Used the Cochrane 2020 IPL review (cited by BSR 2025) plain-language summary, which is part of the PMC record. BSR uses both \"meibomian gland dysfunction\" and \"meibomian gland deficiency (MGD)\". Site’s 「眼皮油脂腺（瞼板腺）」 matches the quotes."
+  },
+  {
+   "id": "blepharitis",
+   "term": "眼瞼炎",
+   "aliases": [
+    "眼瞼炎"
+   ],
+   "aka": "blepharitis",
+   "def": "眼皮（眼瞼）的發炎，常有眼皮癢、發紅、脫屑和結痂；大人小孩都可能發生。",
+   "example": "",
+   "note": "清潔眼皮（眼瞼衛生）可能緩解眼瞼炎的症狀。",
+   "label": "Cochrane 2012・定義",
+   "evidence": [
+    {
+     "quote": "Blepharitis, an inflammatory condition associated with itchiness, redness, flaking, and crusting of the eyelids, is a common eye condition that affects both children and adults.",
+     "location": "Abstract – Background",
+     "access": "abstract",
+     "pmid": "22592706",
+     "doi": "10.1002/14651858.CD005556.pub2",
+     "pmcid": "PMC4270370",
+     "supports": "def"
+    },
+    {
+     "quote": "Lid hygiene may provide symptomatic relief for anterior and posterior blepharitis.",
+     "location": "Abstract – Main results",
+     "access": "abstract",
+     "pmid": "22592706",
+     "doi": "10.1002/14651858.CD005556.pub2",
+     "pmcid": "PMC4270370",
+     "supports": "note"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 2012 慢性眼瞼炎治療",
+     "citation": "Lindsley K, Matsumura S, Hatef E, Akpek EK. Interventions for chronic blepharitis. Cochrane Database Syst Rev 2012;(5):CD005556.",
+     "pmid": "22592706",
+     "doi": "10.1002/14651858.CD005556.pub2"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "AAO Blepharitis Preferred Practice Pattern (Amescua G et al., Ophthalmology 2019, PMID 30366800) has no PubMed abstract and no PMC text, so it could not be quoted; the Cochrane 2012 review abstract (Tier 3) was used. Site SJ-1.T (EULAR 2020: morning lid hygiene after ointment to prevent blepharitis) is about prevention; Cochrane supports lid hygiene for symptom relief only — the note says no more than that."
+  },
+  {
+   "id": "salivary-gland",
+   "term": "唾液腺",
+   "aliases": [
+    "唾液腺"
+   ],
+   "aka": "salivary glands (major: parotid, submandibular, sublingual; minor salivary glands)",
+   "def": "製造口水的腺體。主要有三對：耳下腺（腮腺）、頷下腺和舌下腺，另有許多位在口腔黏膜下的小唾液腺。",
+   "example": "",
+   "note": "乾燥症若唾液腺出現新的腫脹，應盡早檢查，因為可能是淋巴瘤的警訊。",
+   "label": "回顧文章 2016・定義",
+   "evidence": [
+    {
+     "quote": "Saliva in the mouth is a biofluid produced mainly by three pairs of major salivary glands--the submandibular, parotid and sublingual glands--along with secretions from many minor submucosal salivary glands.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "26662479",
+     "doi": "10.1111/prd.12116",
+     "pmcid": "",
+     "supports": "def"
+    },
+    {
+     "quote": "Individuals with SD should be offered further investigation early if they present with new salivary gland swelling or other symptoms that might suggest the development of lymphoma (1, A) (SOA 98.75%).",
+     "location": "Recommendation (lymphoma section)",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "note；site context (SJ-S1)"
+    },
+    {
+     "quote": "They described a novel four-grade semi-quantitative scoring system for the parotid and submandibular glands",
+     "location": "Section on salivary gland ultrasound",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def：乾燥症常評估的大唾液腺（耳下腺、頷下腺）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2016 唾液分泌生理回顧",
+     "citation": "Proctor GB. The physiology of salivary secretion. Periodontol 2000 2016;70(1):11-25.",
+     "pmid": "26662479",
+     "doi": "10.1111/prd.12116"
+    },
+    {
+     "short": "BSR 2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Proctor 2016 (Periodontol 2000, abstract, Tier 3) is a physiology review, not Sjögren-specific; BSR 2025 (Tier 1, PMC) gives the Sjögren context and names the parotid and submandibular glands (ultrasound scoring). Chinese gland names are translations (parotid = 耳下腺／腮腺; submandibular = 頷下腺; sublingual = 舌下腺). BSR also lists \"salivary gland enlargement\" among predictors of lymphoma. Site SJ-S1 is consistent."
+  },
+  {
+   "id": "night-sweats",
+   "term": "夜間盜汗",
+   "aliases": [
+    "夜間盜汗"
+   ],
+   "aka": "night sweats (drenching night sweats; one of the \"B symptoms\")",
+   "def": "睡覺時出汗，嚴重時會全身濕透。乾燥症病人若出現持續夜間盜汗、發燒，或 3 個月內體重減輕 10% 以上（合稱 B 症狀），可能是淋巴瘤的警訊，應盡早回診。",
+   "example": "",
+   "note": "夜間盜汗很常見、不具特異性，沒有相關疾病的人也常有。",
+   "label": "BSR 2025・指引說明",
+   "evidence": [
+    {
+     "quote": "In addition, clinical signs and symptoms associated with lymphoma should alert to the possible existence of early/microscopic NHL. These include B symptoms (persistent night sweats, fevers and weight loss of ≥10% over the preceding 3 months), clonal lymphocytosis in peripheral blood flow cytometry and splenomegaly.",
+     "location": "Lymphoma section (text before recommendation)",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def：持續夜間盜汗、發燒、3 個月內體重減輕 ≥10%＝淋巴瘤警訊"
+    },
+    {
+     "quote": "Individuals with SD should be offered further investigation early if they present with new salivary gland swelling or other symptoms that might suggest the development of lymphoma (1, A) (SOA 98.75%).",
+     "location": "Recommendation (lymphoma section)",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def：應盡早回診檢查"
+    },
+    {
+     "quote": "symptoms of fever, drenching night sweats, and weight loss (B symptoms)",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "36943212",
+     "doi": "10.1001/jama.2023.1946",
+     "pmcid": "",
+     "supports": "def：嚴重時全身濕透（drenching）"
+    },
+    {
+     "quote": "Nighttime sweating is a symptom linked to menopause, malignancies, autoimmune diseases, and infections. However, in primary care settings, night sweats are commonly reported by persons without these conditions.",
+     "location": "Abstract – Background",
+     "access": "abstract",
+     "pmid": "23136329",
+     "doi": "10.3122/jabfm.2012.06.120033",
+     "pmcid": "",
+     "supports": "def：睡覺時出汗；note：沒有相關疾病的人也常有"
+    },
+    {
+     "quote": "The symptom, night sweats, appears to be nonspecific.",
+     "location": "Abstract – Conclusions",
+     "access": "abstract",
+     "pmid": "23136329",
+     "doi": "10.3122/jabfm.2012.06.120033",
+     "pmcid": "",
+     "supports": "note：不具特異性"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    },
+    {
+     "short": "JAMA 2023 慢性淋巴球性白血病回顧",
+     "citation": "Shadman M. Diagnosis and Treatment of Chronic Lymphocytic Leukemia: A Review. JAMA 2023;329(11):918-932.",
+     "pmid": "36943212",
+     "doi": "10.1001/jama.2023.1946"
+    },
+    {
+     "short": "2012 夜間盜汗系統性回顧",
+     "citation": "Mold JW, Holtzclaw BJ, McCarthy L. Night sweats: a systematic review of the literature. J Am Board Fam Med 2012;25(6):878-893.",
+     "pmid": "23136329",
+     "doi": "10.3122/jabfm.2012.06.120033"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "BSR 2025 wording: \"B symptoms (persistent night sweats, fevers and weight loss of ≥10% over the preceding 3 months)\". Conventional lymphoma staging (Ann Arbor/Cotswolds; Lugano 2014, PMID 25113753) describes B symptoms as fever >38°C, drenching night sweats and unexplained weight loss >10% within the preceding 6 months (as restated, e.g., in the abstract of PMID 37034003); the Lugano text itself (PMC4979083) could not be machine-read (empty PMC body; PMC blocked WebFetch). The site (SJ-S2) correctly follows BSR’s 3-month wording; the physician may wish to know that most lymphoma sources use 6 months. 「全身濕透」 renders \"drenching\" (JAMA 2023 CLL review abstract). No PubMed source giving a formal definition of night sweats was found; Mold 2012 (systematic review) notes the lack of a uniform definition."
+  },
+  {
+   "id": "imaging",
+   "term": "磁振造影與電腦斷層",
+   "aliases": [
+    "磁振造影",
+    "電腦斷層"
+   ],
+   "aka": "magnetic resonance imaging (MRI); computed tomography (CT)",
+   "def": "兩種比一般 X 光更敏感的影像檢查：電腦斷層（CT）看骨頭最清楚，但有輻射；磁振造影（MRI）較適合看發炎等軟組織變化。",
+   "example": "",
+   "note": "新技術已大幅降低電腦斷層的輻射劑量。",
+   "label": "SUN 2021・說明",
+   "evidence": [
+    {
+     "quote": "Computerized tomographic (CT) imaging and magnetic resonance imaging (MRI) are more sensitive than conventional X-rays, with CT superior for bony involvement and MRI preferred for soft tissue inflammation.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "33845004",
+     "doi": "10.1016/j.ajo.2021.03.049",
+     "pmcid": "PMC8594762",
+     "supports": "def"
+    },
+    {
+     "quote": "CT is the reference standard for direct bone imaging.",
+     "location": "Imaging – CT",
+     "access": "PMC full text",
+     "pmid": "37944938",
+     "doi": "10.1055/a-2193-1970",
+     "pmcid": "PMC11111289",
+     "supports": "def：電腦斷層看骨頭最清楚"
+    },
+    {
+     "quote": "Recent technical advances significantly reduce radiation exposure, thus allowing more frequent use of this technique in the rather young patient population with axSpA.",
+     "location": "Imaging – CT",
+     "access": "PMC full text",
+     "pmid": "37944938",
+     "doi": "10.1055/a-2193-1970",
+     "pmcid": "PMC11111289",
+     "supports": "def：有輻射；note"
+    },
+    {
+     "quote": "Diagnosis is rapid using low-dose CT. However, radiation exposure is a limitation.",
+     "location": "Abstract – Conclusions",
+     "access": "abstract",
+     "pmid": "26318710",
+     "doi": "10.1016/j.eururo.2015.07.040",
+     "pmcid": "",
+     "supports": "def：電腦斷層有輻射"
+    },
+    {
+     "quote": "MRI can detect early inflammation before structural damage is radiographically visible",
+     "location": "Recommendation on disease monitoring (accompanying text)",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "def：磁振造影適合看發炎"
+    }
+   ],
+   "sources": [
+    {
+     "short": "SUN 工作小組 2021 脊椎關節炎相關前葡萄膜炎分類標準",
+     "citation": "Standardization of Uveitis Nomenclature (SUN) Working Group. Classification criteria for spondyloarthritis/HLA-B27-associated anterior uveitis. Am J Ophthalmol 2021;228:117-125.",
+     "pmid": "33845004",
+     "doi": "10.1016/j.ajo.2021.03.049"
+    },
+    {
+     "short": "2024 中軸型脊椎關節炎新骨生成影像回顧",
+     "citation": "Ulas ST, Deppe D, Ziegeler K, Diekhoff T. New Bone Formation in Axial Spondyloarthritis: A Review. Rofo 2024;196(6):550-559.",
+     "pmid": "37944938",
+     "doi": "10.1055/a-2193-1970"
+    },
+    {
+     "short": "EAU 2016 尿路結石診斷與保守治療指引",
+     "citation": "Türk C et al. EAU Guidelines on Diagnosis and Conservative Management of Urolithiasis. Eur Urol 2016;69(3):468-474.",
+     "pmid": "26318710",
+     "doi": "10.1016/j.eururo.2015.07.040"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識",
+     "citation": "Wei JC et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Optional entry. No PubMed-indexed source was found that explains in plain terms how MRI and CT work (magnetic field/radio waves vs. X-rays); the entry therefore describes only what each test is good for, using SUN 2021 (Am J Ophthalmol, PMC), an axSpA imaging review (Ulas 2024, PMC), EAU 2016 (CT radiation) and TRA 2020. If a \"how it works\" definition is required, change status to no_source. The AS-3.3 source sentence (ASAS-EULAR 2022: \"appropriate imaging such as MRI and/or CT scanning should be performed\") is not in PMC and was not re-verified here."
+  }
+ ]
+}

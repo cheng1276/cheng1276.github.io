@@ -1,0 +1,2003 @@
+{
+ "group": "g6_evidence_orgs",
+ "entries": [
+  {
+   "id": "guideline",
+   "term": "臨床指引",
+   "aliases": [
+    "臨床指引",
+    "國際指引",
+    "指引"
+   ],
+   "aka": "clinical practice guideline (CPG); guideline / recommendations",
+   "def": "臨床指引是一套照護建議，目的是讓病人得到最好的照護；建議依據有系統整理過的研究證據，並比較不同做法的好處與壞處。",
+   "example": "例如2026年國際蕁麻疹指引，由59國、107個學會的代表參與制定。",
+   "note": "建議有強弱之分；較弱（有條件）的建議，要依個人情況和醫師一起決定。",
+   "label": "IOM 2011・定義",
+   "evidence": [
+    {
+     "quote": "Clinical practice guidelines are statements that include recommendations intended to optimize patient care that are informed by systematic reviews of evidence and assessments of the benefits and harms of alternative care options.",
+     "location": "Introduction (Institute of Medicine 2011 definition, quoted verbatim by the authors)",
+     "access": "PMC full text",
+     "pmid": "41220535",
+     "doi": "10.31662/jmaj.2025-0066",
+     "pmcid": "PMC12598308",
+     "supports": "def（指引＝為了最佳照護而提出的建議；依據系統性回顧的證據與不同做法的好壞比較）"
+    },
+    {
+     "quote": "It is an initiative of the Global Allergy and Asthma Excellence Network (GALEN) and its Urticaria and Angioedema Centers of Reference and Excellence (UCAREs and ACAREs), with the participation of 210 delegates from 107 national and international societies, from 59 countries.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "example（國際指引：59國、107個學會的代表參與）"
+    },
+    {
+     "quote": "According to GRADE, a recommendation is categorized as strong if the panel is very confident that the benefits of an intervention clearly outweigh the harms (or vice versa); a conditional recommendation denotes uncertainty regarding the balance of benefits and harms, such as when the evidence quality is low or very low, or when the decision is particularly sensitive to individual patient preferences, or when costs are expected to affect the decision.",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note（建議有強／有條件之分）"
+    },
+    {
+     "quote": "Thus, conditional recommendations refer to decisions in which incorporation of patient preferences and values is an essential element of shared decision making.",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note（有條件建議要和醫師共同決定）"
+    },
+    {
+     "quote": "A strong recommendation in favour of an intervention was made when the benefits clearly outweighed the risks, or vice versa (recommendation against), for nearly all people with SLE, or weak when risks and benefits were more closely balanced or where there was more uncertainty.",
+     "location": "Methods – Strength of recommendation",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "reviewer_notes（核對網站「強烈建議／建議」說明）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "JMA J 2025 指引定義論文（引述 IOM 2011 定義）",
+     "citation": "Morizane T, Kawai F, Kojimahara N. Proposed New Definitions of Practice Guidelines for Health and Health Care. JMA J 2025;8(4):1384-1387.",
+     "pmid": "41220535",
+     "doi": "10.31662/jmaj.2025-0066"
+    },
+    {
+     "short": "ACR 2022 類風濕性關節炎整合療法指引（同步刊登版）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN）",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引（全文）",
+     "citation": "Md Yusof MY, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    }
+   ],
+   "confidence": "High (PMC full text; IOM definition quoted in a PubMed-indexed definitional paper, plus Tier-1 site-cited guidelines)",
+   "status": "ok",
+   "reviewer_notes": "IOM 2011 definition is taken as quoted (in quotation marks) in Morizane 2025 (PMC full text); the original IOM report is not PubMed-indexed and was not read, so its exact original wording (e.g. singular/plural of \"systematic review(s)\") was not checked. The site also calls EULAR/ASAS \"recommendations\" 指引; this fits the general IOM sense (recommendations informed by systematic review). Site legend check: 強烈建議／建議 wording is consistent with the GRADE definitions quoted from ACR 2022 (strong = benefits clearly outweigh harms; conditional = uncertain balance, preference-sensitive, shared decision making) and with BSR 2026 SLE (\"strong ... for nearly all people with SLE, or weak when risks and benefits were more closely balanced or where there was more uncertainty\"). Alias 指引 is very frequent on the site; consider linking only its first occurrence per page."
+  },
+  {
+   "id": "systematic-review",
+   "term": "系統性回顧（研究回顧）",
+   "aliases": [
+    "研究回顧",
+    "系統性回顧"
+   ],
+   "aka": "systematic review",
+   "def": "系統性回顧是針對一個清楚的問題，用明確、有系統的方法蒐集相關研究，再整理、綜合這些研究的結果。",
+   "example": "例如一篇DHEA研究回顧搜尋了4個資料庫，找到乾燥症研究5項、共240名女性。",
+   "note": "系統性回顧不一定會把數據合併計算；有合併計算的部分稱為統合分析。",
+   "label": "PRISMA 2020・定義",
+   "evidence": [
+    {
+     "quote": "A review that uses explicit, systematic methods to collate and synthesise findings of studies that address a clearly formulated question",
+     "location": "Box 1 Glossary of terms, entry \"Systematic review\" (the bold term label is dropped in the PMC extraction; label confirmed verbatim on bmj.com via WebFetch)",
+     "access": "PMC full text",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71",
+     "pmcid": "PMC8005924",
+     "supports": "def"
+    },
+    {
+     "quote": "PRISMA 2020 is intended for use in systematic reviews that include synthesis (such as pairwise meta-analysis or other statistical synthesis methods) or do not include synthesis (for example, because only one eligible study is identified).",
+     "location": "The PRISMA 2020 statement – Scope of the guideline",
+     "access": "PMC full text",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71",
+     "pmcid": "PMC8005924",
+     "supports": "note（系統性回顧可有或沒有合併計算）"
+    },
+    {
+     "quote": "This article proceeded an extensive systematic search of articles published in the following four databases: PubMed/MEDLINE, EMBASE, Scopus, and Scielo from 1966 to April 2023",
+     "location": "Methods – Literature review (grammar as in original)",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "example（搜尋4個資料庫）"
+    },
+    {
+     "quote": "In SS, the five studies encompassed 240 individuals, all females, and showed modest results.",
+     "location": "Results",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "example（乾燥症5項研究、240名女性）"
+    },
+    {
+     "quote": "The results were synthesised in two tables and no meta-analysis process was used.",
+     "location": "Methods – Literature review",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "note（這篇系統性回顧沒有做統合分析）"
+    },
+    {
+     "quote": "Five small studies (total 153 participants, with dry mouth following radiotherapy treatment) compared acupuncture with placebo.",
+     "location": "Abstract (Main results)",
+     "access": "abstract",
+     "pmid": "24006231",
+     "doi": "10.1002/14651858.CD009603.pub3",
+     "pmcid": "PMC7100870",
+     "supports": "reviewer_notes（針灸試驗的受試者是放射治療後口乾者）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "PRISMA 2020 系統性回顧報告準則",
+     "citation": "Page MJ, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71.",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71"
+    },
+    {
+     "short": "Skare 2023 DHEA 補充系統性回顧",
+     "citation": "Skare TL, et al. Dehydroepiandrosterone (DHEA) Supplementation in Rheumatic Diseases: A Systematic Review. Mediterr J Rheumatol 2023;34(3):292-301.",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd"
+    },
+    {
+     "short": "Cochrane 2013 口乾非藥物治療系統性回顧",
+     "citation": "Furness S, et al. Interventions for the management of dry mouth: non-pharmacological interventions. Cochrane Database Syst Rev 2013;(9):CD009603.",
+     "pmid": "24006231",
+     "doi": "10.1002/14651858.CD009603.pub3"
+    }
+   ],
+   "confidence": "High (PMC full text, Tier 2 reporting-guideline definition; label mapping confirmed via WebFetch)",
+   "status": "ok",
+   "reviewer_notes": "PRISMA 2020 Box 1: PMC text drops the bold glossary labels; WebFetch of bmj.com returned \"Systematic review—A review that uses explicit, systematic methods to collate and synthesise findings of studies that address a clearly formulated question\" (label used only to map the definition; the quote itself is from PMC). Site usage: 研究回顧 in SJ-M1 = the Cochrane review cited by BSR 2025 (Furness 2013, CD009603, PubMed type Systematic Review/Meta-Analysis); in SJ-M3 = Skare 2023 (systematic review, no meta-analysis). Content caveat for SJ-M1 (not a wording error): per the Furness 2013 abstract, the five acupuncture-vs-placebo trials enrolled people \"with dry mouth following radiotherapy treatment\", not people with Sjögren's. The site sentence itself matches BSR 2025."
+  },
+  {
+   "id": "meta-analysis",
+   "term": "統合分析",
+   "aliases": [
+    "統合分析"
+   ],
+   "aka": "meta-analysis",
+   "def": "統合分析是一種統計方法，把兩項以上研究的數據合併計算，得出一個整體的數字結果。",
+   "example": "例如2015年一篇統合分析，合併了10項研究、共1398名皮膚型狼瘡病人的資料。",
+   "note": "統合分析通常是系統性回顧的一部分。",
+   "label": "PRISMA 2020・定義",
+   "evidence": [
+    {
+     "quote": "The combination of quantitative results of two or more studies.",
+     "location": "Box 1 Glossary of terms, entry \"Statistical synthesis\" (label dropped in PMC text; confirmed on bmj.com via WebFetch)",
+     "access": "PMC full text",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71",
+     "pmcid": "PMC8005924",
+     "supports": "def（兩項以上研究的數據合併）"
+    },
+    {
+     "quote": "A statistical technique used to synthesise results when study effect estimates and their variances are available, yielding a quantitative summary of results",
+     "location": "Box 1 Glossary of terms, entry \"Meta-analysis of effect estimates\" (label dropped in PMC text; confirmed on bmj.com via WebFetch)",
+     "access": "PMC full text",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71",
+     "pmcid": "PMC8005924",
+     "supports": "def（統計方法；得出整體的數字結果）"
+    },
+    {
+     "quote": "We systematically reviewed the evidence for such an interaction and performed a meta-analysis to compare the efficacy of antimalarials among smoker versus nonsmoker patients with CLE.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025",
+     "pmcid": "",
+     "supports": "note（先系統性回顧，再做統合分析）"
+    },
+    {
+     "quote": "Individual study odds ratios were combined in the meta-analysis using a random effects model.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025",
+     "pmcid": "",
+     "supports": "def（合併計算各研究結果）"
+    },
+    {
+     "quote": "Of 240 citations retrieved, 10 studies met inclusion criteria, for a total of 1398 patients.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025",
+     "pmcid": "",
+     "supports": "example"
+    },
+    {
+     "quote": "Observational studies published up to March 2014 in the MEDLINE, Embase, and Cochrane databases were selected if they reported on the efficacy of antimalarials for treatment of CLE, according to smoking status.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025",
+     "pmcid": "",
+     "supports": "reviewer_notes（合併的是觀察性研究）"
+    },
+    {
+     "quote": "The pooled odds ratio for the response to antimalarials in smoker patients with CLE (n = 797) was 0.53 (95% confidence interval 0.29-0.98) compared with nonsmokers (n = 601).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025",
+     "pmcid": "",
+     "supports": "reviewer_notes（合併結果與信賴區間）"
+    },
+    {
+     "quote": "Smoking is associated with a 2-fold decrease in the proportion of patients with CLE achieving cutaneous improvement with antimalarials.",
+     "location": "Abstract (Conclusions)",
+     "access": "abstract",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025",
+     "pmcid": "",
+     "supports": "reviewer_notes（作者用「有關聯」描述）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "PRISMA 2020 系統性回顧報告準則",
+     "citation": "Page MJ, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71.",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71"
+    },
+    {
+     "short": "2015 吸菸與抗瘧疾藥物療效統合分析（皮膚型狼瘡）",
+     "citation": "Chasset F, et al. Influence of smoking on the efficacy of antimalarials in cutaneous lupus: a meta-analysis of the literature. J Am Acad Dermatol 2015;72(4):634-9.",
+     "pmid": "25648824",
+     "doi": "10.1016/j.jaad.2014.12.025"
+    }
+   ],
+   "confidence": "High (PMC full text Tier 2 definition; site-cited meta-analysis abstract for the example)",
+   "status": "ok",
+   "reviewer_notes": "Example and SL-2.3 rely on Chasset 2015 (abstract only). It pooled observational studies, so its result is an association (\"Smoking is associated with a 2-fold decrease ...\"). The authors' \"2-fold decrease\" supports 「明顯」, but the pooled OR 0.53 has a wide 95% CI (0.29-0.98) whose upper bound is close to 1; the physician may keep or soften 「明顯」. PRISMA Box 1 labels: see systematic-review entry."
+  },
+  {
+   "id": "rct",
+   "term": "隨機對照試驗（試驗）",
+   "aliases": [
+    "小型試驗",
+    "隨機對照試驗"
+   ],
+   "aka": "randomised controlled trial (RCT)",
+   "def": "隨機對照試驗是把參加者用隨機（類似抽籤）的方式分組，一組接受要測試的治療，另一組作為比較，再看兩組結果的差別。",
+   "example": "例如ACR痛風指引提到的兩個維生素C小型試驗（29人和40人）。",
+   "note": "隨機分組讓各組條件相近，是評估治療效果的標準方法；但人數少時結果較不精確。",
+   "label": "CONSORT 2010・定義",
+   "evidence": [
+    {
+     "quote": "Participants should be assigned to comparison groups in the trial on the basis of a chance (random) process characterised by unpredictability",
+     "location": "Item 8a (sequence generation)",
+     "access": "PMC full text",
+     "pmid": "20332511",
+     "doi": "10.1136/bmj.c869",
+     "pmcid": "PMC2844943",
+     "supports": "def（以機率、無法預測的方式分組＝類似抽籤）"
+    },
+    {
+     "quote": "Participants are then recruited and randomly assigned to either the intervention or the comparator group.",
+     "location": "Main text",
+     "access": "PMC full text",
+     "pmid": "29916205",
+     "doi": "10.1111/1471-0528.15199",
+     "pmcid": "PMC6235704",
+     "supports": "def（分成治療組與比較組）"
+    },
+    {
+     "quote": "This is because the act of randomization balances participant characteristics (both observed and unobserved) between the groups allowing attribution of any differences in outcome to the study intervention.",
+     "location": "Main text",
+     "access": "PMC full text",
+     "pmid": "29916205",
+     "doi": "10.1111/1471-0528.15199",
+     "pmcid": "PMC6235704",
+     "supports": "note（隨機分組讓各組條件相近）"
+    },
+    {
+     "quote": "Randomised controlled trials, when appropriately designed, conducted, and reported, represent the gold standard in evaluating healthcare interventions.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "20332509",
+     "doi": "10.1136/bmj.c332",
+     "pmcid": "PMC2844940",
+     "supports": "note（評估治療效果的標準方法）"
+    },
+    {
+     "quote": "Several factors contributed to the low-certainty evidence, including the limited number of studies evaluating relevant interventions, lack of blinding and study attrition, small sample sizes resulting in imprecision, and heterogeneity of study designs (e.g., various interventions, comparators, and outcomes) that prevented pooling results through a formal meta-analysis.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note（人數少→不精確）"
+    },
+    {
+     "quote": "Two small RCTs (n = 29 and n = 40) showed clinically insignificant changes in SU concentrations for patients with gout taking vitamin C",
+     "location": "Results – Other dietary recommendations",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "example；site usage GT-M3（小型試驗）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "CONSORT 2010 解說文件",
+     "citation": "Moher D, et al. CONSORT 2010 Explanation and Elaboration: updated guidelines for reporting parallel group randomised trials. BMJ 2010;340:c869.",
+     "pmid": "20332511",
+     "doi": "10.1136/bmj.c869"
+    },
+    {
+     "short": "CONSORT 2010 隨機試驗報告準則",
+     "citation": "Schulz KF, et al. CONSORT 2010 Statement: updated guidelines for reporting parallel group randomised trials. BMJ 2010;340:c332.",
+     "pmid": "20332509",
+     "doi": "10.1136/bmj.c332"
+    },
+    {
+     "short": "BJOG 2018 研究設計：隨機對照試驗",
+     "citation": "Hariton E, Locascio JJ. Randomised controlled trials - the gold standard for effectiveness research: Study design: randomised controlled trials. BJOG 2018;125(13):1716.",
+     "pmid": "29916205",
+     "doi": "10.1111/1471-0528.15199"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    },
+    {
+     "short": "ACR 2022 類風濕性關節炎整合療法指引（同步刊登版）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "High (PMC full text; Tier 2 CONSORT texts plus Tier-1 site-cited guidelines)",
+   "status": "ok",
+   "reviewer_notes": "Alias 小型試驗 (GT-M3) = ACR 2020 \"Two small RCTs (n = 29 and n = 40)\". 隨機對照試驗 also appears in the urticaria sources list (Grob 2009). Do NOT link 飲食試驗 (urticaria page): it means a supervised diet trial for one patient, not an RCT. 「類似抽籤」 is a plain-language rendering of CONSORT's \"chance (random) process characterised by unpredictability\". Glued words exist elsewhere in these PMC texts (Hariton \"intentionto-treat\"; CONSORT E&E Box 1 \"advantages.First\") and were not quoted."
+  },
+  {
+   "id": "observational",
+   "term": "觀察性研究",
+   "aliases": [
+    "觀察性研究",
+    "觀察研究"
+   ],
+   "aka": "observational study (e.g. cohort, case-control, cross-sectional, case-crossover)",
+   "def": "觀察性研究是研究者不安排誰接受哪種治療或習慣，只記錄大家實際的情況，再分析這些情況和健康結果有沒有關聯。",
+   "example": "例如比較吃櫻桃和沒吃櫻桃的期間，痛風發作的風險。",
+   "note": "結果通常只能說明「有關聯」，因為無法排除其他因素的影響；證據確定性通常較低。",
+   "label": "Lancet 2002・定義",
+   "evidence": [
+    {
+     "quote": "Clinical research falls into two general categories: experimental and observational, based on whether the investigator assigns the exposures or not.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "11809203",
+     "doi": "10.1016/S0140-6736(02)07283-5",
+     "pmcid": "",
+     "supports": "def（研究者不安排暴露因素＝觀察性）"
+    },
+    {
+     "quote": "Within analytical studies, cohort studies track people forward in time from exposure to outcome.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "11809203",
+     "doi": "10.1016/S0140-6736(02)07283-5",
+     "pmcid": "",
+     "supports": "def（記錄原本的情況，再追蹤之後的結果）"
+    },
+    {
+     "quote": "Much of the research into the cause of diseases relies on cohort, case-control, or cross-sectional studies.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "17941714",
+     "doi": "10.1371/journal.pmed.0040296",
+     "pmcid": "PMC2020495",
+     "supports": "def（世代、病例對照、橫斷研究屬觀察性研究；STROBE 報告準則）"
+    },
+    {
+     "quote": "STROBE provides general reporting recommendations for descriptive observational studies and studies that investigate associations between exposures and health outcomes.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "17941715",
+     "doi": "10.1371/journal.pmed.0040297",
+     "pmcid": "PMC2020496",
+     "supports": "def（分析暴露與健康結果的關聯）"
+    },
+    {
+     "quote": "Observational study designs include ecological designs, cross sectional, case-control, case-crossover, retrospective and prospective cohorts.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24969913",
+     "doi": "10.11613/BM.2014.022",
+     "pmcid": "PMC4083571",
+     "supports": "reviewer_notes（病例交叉設計也屬觀察性研究）"
+    },
+    {
+     "quote": "Cherry intake over a 2-day period was associated with a 35% lower risk of gout attacks compared with no intake (multivariate OR 0.65 [95% CI 0.50-0.85]).",
+     "location": "Abstract (Results)",
+     "access": "abstract",
+     "pmid": "23023818",
+     "doi": "10.1002/art.34677",
+     "pmcid": "PMC3510330",
+     "supports": "example"
+    },
+    {
+     "quote": "Nevertheless, our study was observational; thus, we cannot rule out the possibility that unmeasured factors might have contributed to the observed associations.",
+     "location": "Discussion (limitations)",
+     "access": "PMC full text",
+     "pmid": "23023818",
+     "doi": "10.1002/art.34677",
+     "pmcid": "PMC3510330",
+     "supports": "note（無法排除其他因素）"
+    },
+    {
+     "quote": "Randomized trials begin as high-quality evidence, observational studies as low quality.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21208779",
+     "doi": "10.1016/j.jclinepi.2010.07.015",
+     "pmcid": "",
+     "supports": "note（證據確定性通常較低）"
+    },
+    {
+     "quote": "The certainty of evidence drawn mainly from observational studies was low or very low, precluding specific recommendations on these topics.",
+     "location": "Results – Other dietary recommendations",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "note；site usage GT-M4"
+    },
+    {
+     "quote": "However, changes in body mass index (BMI) over time were associated with the risk of recurrent gout flare.",
+     "location": "Results – Weight loss (sentence follows \"In a large cohort study ...\")",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "site usage GT-3.T（觀察研究）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Lancet 2002 臨床研究類型概論",
+     "citation": "Grimes DA, Schulz KF. An overview of clinical research: the lay of the land. Lancet 2002;359(9300):57-61.",
+     "pmid": "11809203",
+     "doi": "10.1016/S0140-6736(02)07283-5"
+    },
+    {
+     "short": "STROBE 2007 觀察性研究報告準則",
+     "citation": "von Elm E, et al. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. PLoS Med 2007;4(10):e296.",
+     "pmid": "17941714",
+     "doi": "10.1371/journal.pmed.0040296"
+    },
+    {
+     "short": "STROBE 2007 解說文件",
+     "citation": "Vandenbroucke JP, et al. Strengthening the Reporting of Observational Studies in Epidemiology (STROBE): explanation and elaboration. PLoS Med 2007;4(10):e297.",
+     "pmid": "17941715",
+     "doi": "10.1371/journal.pmed.0040297"
+    },
+    {
+     "short": "Biochem Med 2014 研究設計概論",
+     "citation": "Thiese MS. Observational and interventional study design types; an overview. Biochem Med (Zagreb) 2014;24(2):199-210.",
+     "pmid": "24969913",
+     "doi": "10.11613/BM.2014.022"
+    },
+    {
+     "short": "Zhang 2012 櫻桃與痛風發作研究（觀察性）",
+     "citation": "Zhang Y, et al. Cherry consumption and decreased risk of recurrent gout attacks. Arthritis Rheum 2012;64(12):4004-11.",
+     "pmid": "23023818",
+     "doi": "10.1002/art.34677"
+    },
+    {
+     "short": "GRADE 指引第3篇：證據品質分級",
+     "citation": "Balshem H, et al. GRADE guidelines: 3. Rating the quality of evidence. J Clin Epidemiol 2011;64(4):401-6.",
+     "pmid": "21208779",
+     "doi": "10.1016/j.jclinepi.2010.07.015"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "Medium (core definition from a Tier-3 Lancet review abstract; supported by Tier-2 STROBE/GRADE texts and Tier-1 ACR guideline usage)",
+   "status": "ok",
+   "reviewer_notes": "GT-3.T: in ACR 2020 the BMI-change finding follows the sentence \"In a large cohort study, obesity was associated with a higher risk of incident gout, but not recurrent gout flares\"; ACR does not use the word \"observational\" there, but cohort studies are observational designs (Grimes 2002; STROBE; Thiese 2014). GT-M4: the cherry study (Zhang 2012) is a case-crossover study, listed by Thiese 2014 among observational designs; ACR rated the cherry evidence, \"drawn mainly from observational studies\", as low or very low certainty. STROBE E&E Box 1 was not used: its PMC text drops the bold design names (\"In, the investigators follow people over time\")."
+  },
+  {
+   "id": "placebo",
+   "term": "安慰劑",
+   "aliases": [
+    "安慰劑"
+   ],
+   "aka": "placebo (including sham / placebo acupuncture)",
+   "def": "安慰劑是外觀像真的治療、但沒有真正療效的「假治療」（例如假藥丸、假針灸），研究中用來和真的治療比較。",
+   "example": "例如口乾研究中，針灸是和「假針灸」比較。",
+   "note": "拿到安慰劑的人有時也會覺得改善，所以真的治療要比安慰劑好，才算有效。",
+   "label": "WHO・定義（文獻引述）",
+   "evidence": [
+    {
+     "quote": "In the context of research, a placebo is a substance or procedure which patients accept as a medicine or therapy, but which actually has no specific therapeutic activity for their conditions.",
+     "location": "Table 3 (definition attributed to the World Health Organization, 2009)",
+     "access": "PMC full text",
+     "pmid": "25423149",
+     "doi": "10.1371/journal.pone.0113654",
+     "pmcid": "PMC4244087",
+     "supports": "def（物質或程序；沒有特定療效）"
+    },
+    {
+     "quote": "For operational purposes we defined placebo as “An inert substance usually prepared to look as similar to the active product investigated in a study as possible”",
+     "location": "Methods – Definitions",
+     "access": "PMC full text",
+     "pmid": "25423149",
+     "doi": "10.1371/journal.pone.0113654",
+     "pmcid": "PMC4244087",
+     "supports": "def（做得和真的治療盡量相像）"
+    },
+    {
+     "quote": "The reasons summarized above suggest that a misunderstanding of what a placebo is, and the reason for its use, may impede the participation of patients in studies that employ it as a comparison treatment.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "25423149",
+     "doi": "10.1371/journal.pone.0113654",
+     "pmcid": "PMC4244087",
+     "supports": "def（研究中當作比較用的治療）"
+    },
+    {
+     "quote": "Meta-regression analyses showed that larger effects of placebo interventions were associated with physical placebo interventions (e.g. sham acupuncture)",
+     "location": "Abstract (Main results)",
+     "access": "abstract",
+     "pmid": "20091554",
+     "doi": "10.1002/14651858.CD003974.pub3",
+     "pmcid": "PMC7156905",
+     "supports": "def／example（假針灸屬於安慰劑）"
+    },
+    {
+     "quote": "There is low quality evidence that acupuncture is no different from placebo acupuncture with regard to dry mouth symptoms, which is the most important outcome.",
+     "location": "Abstract (Authors' conclusions)",
+     "access": "abstract",
+     "pmid": "24006231",
+     "doi": "10.1002/14651858.CD009603.pub3",
+     "pmcid": "PMC7100870",
+     "supports": "example；site usage SJ-M1"
+    },
+    {
+     "quote": "Placebo and nocebo effects occur in clinical or laboratory medical contexts after administration of an inert treatment or as part of active treatments and are due to psychobiological mechanisms such as expectancies of the patient.",
+     "location": "Abstract (Background)",
+     "access": "abstract",
+     "pmid": "29895014",
+     "doi": "10.1159/000490354",
+     "pmcid": "PMC6191882",
+     "supports": "def（inert treatment）；note（期待心理）"
+    },
+    {
+     "quote": "However, in certain settings placebo interventions can influence patient-reported outcomes, especially pain and nausea",
+     "location": "Abstract (Authors' conclusions)",
+     "access": "abstract",
+     "pmid": "20091554",
+     "doi": "10.1002/14651858.CD003974.pub3",
+     "pmcid": "PMC7156905",
+     "supports": "note（拿安慰劑也可能覺得改善）"
+    },
+    {
+     "quote": "we suggest that an explanation like placebo is a substance without any biological action that we use to ascertain the actual efficacy of a drug, as we know that expectations of patients and physicians on the effect of treatment may change the final effect of any drug.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "25423149",
+     "doi": "10.1371/journal.pone.0113654",
+     "pmcid": "PMC4244087",
+     "supports": "note（用安慰劑比較，才能確認真正療效）"
+    },
+    {
+     "quote": "DHEA and placebo improved equally fatigue and QoL",
+     "location": "Table 2 (row: Wirkki et al., 2010)",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "note（安慰劑組也改善）；site usage SJ-M3"
+    }
+   ],
+   "sources": [
+    {
+     "short": "PLoS One 2014 安慰劑定義研究（含 WHO 定義）",
+     "citation": "Hernández A, et al. The Definition of Placebo in the Informed Consent Forms of Clinical Trials. PLoS One 2014;9(11):e113654.",
+     "pmid": "25423149",
+     "doi": "10.1371/journal.pone.0113654"
+    },
+    {
+     "short": "Cochrane 2010 安慰劑介入系統性回顧",
+     "citation": "Hróbjartsson A, Gøtzsche PC. Placebo interventions for all clinical conditions. Cochrane Database Syst Rev 2010;(1):CD003974.",
+     "pmid": "20091554",
+     "doi": "10.1002/14651858.CD003974.pub3"
+    },
+    {
+     "short": "Cochrane 2013 口乾非藥物治療系統性回顧",
+     "citation": "Furness S, et al. Interventions for the management of dry mouth: non-pharmacological interventions. Cochrane Database Syst Rev 2013;(9):CD009603.",
+     "pmid": "24006231",
+     "doi": "10.1002/14651858.CD009603.pub3"
+    },
+    {
+     "short": "2018 安慰劑與反安慰劑效應專家共識",
+     "citation": "Evers AWM, et al. Implications of Placebo and Nocebo Effects for Clinical Practice: Expert Consensus. Psychother Psychosom 2018;87(4):204-210.",
+     "pmid": "29895014",
+     "doi": "10.1159/000490354"
+    },
+    {
+     "short": "Skare 2023 DHEA 補充系統性回顧",
+     "citation": "Skare TL, et al. Dehydroepiandrosterone (DHEA) Supplementation in Rheumatic Diseases: A Systematic Review. Mediterr J Rheumatol 2023;34(3):292-301.",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd"
+    }
+   ],
+   "confidence": "Medium (explicit definition is WHO's, reproduced in a PubMed-indexed PLoS One study; consistent with two Cochrane review abstracts and a consensus-statement abstract)",
+   "status": "ok",
+   "reviewer_notes": "The WHO definition is quoted second-hand from Hernández 2014 Table 3 (the WHO 2009 document is not PubMed-indexed and was not read). MeSH was not used. Site usage: SJ-M1 compares acupuncture with placebo (= placebo/sham acupuncture, Furness 2013); SJ-M3 compares DHEA with placebo (Skare 2023). Furness 2013 trials of acupuncture were in dry mouth after radiotherapy, not Sjögren's (see systematic-review entry)."
+  },
+  {
+   "id": "certainty",
+   "term": "證據確定性",
+   "aliases": [
+    "證據確定性",
+    "證據品質",
+    "證據的確定性"
+   ],
+   "aka": "certainty of evidence (also called quality of evidence; GRADE)",
+   "def": "證據確定性是指我們對研究結果有多少把握：真正的效果和研究估計的是否接近。通常分為高、中、低、極低四級。",
+   "example": "例如研究數量少、參加人數少時，確定性常被評為低或極低。",
+   "note": "確定性低，表示新研究很可能影響這個結果，甚至改變結論；「證據品質」是舊說法。",
+   "label": "GRADE・定義",
+   "evidence": [
+    {
+     "quote": "GRADE specifies four categories-high, moderate, low, and very low-that are applied to a body of evidence, not to individual studies. In the context of a systematic review, quality reflects our confidence that the estimates of the effect are correct.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21208779",
+     "doi": "10.1016/j.jclinepi.2010.07.015",
+     "pmcid": "",
+     "supports": "def（四級；對效果估計正確的信心）"
+    },
+    {
+     "quote": "Effect measures, such as risk ratios, were used to express the size of an effect, while the quality rating indicates the confidence that can be attributed to a result.",
+     "location": "Methods (guideline development)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def"
+    },
+    {
+     "quote": "Low (++): Our confidence in the effect estimate is limited: The true effect may be substantially different from the estimate of the effect",
+     "location": "Table 3 (GRADE quality levels)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def（真正效果可能和估計差很多）"
+    },
+    {
+     "quote": "Certainty in the evidence was graded as high, moderate, low or very low.",
+     "location": "Methods – Formulating and grading recommendations",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def（四級）"
+    },
+    {
+     "quote": "suggest that further research is likely or very likely to have an important impact on the confidence in the intervention effect estimate and may change the conclusion.",
+     "location": "Methods (definitions of moderate, low and very low level of evidence)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note（新研究可能改變結論）"
+    },
+    {
+     "quote": "Terminology used to describe particular review processes has also evolved, as in the shift from assessing “quality” to assessing “certainty” in the body of evidence.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71",
+     "pmcid": "PMC8005924",
+     "supports": "note（「品質」改稱「確定性」）"
+    },
+    {
+     "quote": "The evidence for most dietary exposures in RA was graded as low or very low (), primarily due to small numbers of studies with small sample sizes.",
+     "location": "Results – Rheumatoid arthritis – Summary",
+     "access": "PMC full text",
+     "pmid": "35654458",
+     "doi": "10.1136/rmdopen-2021-002167",
+     "pmcid": "PMC9096533",
+     "supports": "example"
+    },
+    {
+     "quote": "The certainty of evidence drawn mainly from observational studies was low or very low, precluding specific recommendations on these topics.",
+     "location": "Results – Other dietary recommendations",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "site usage GT-M4"
+    },
+    {
+     "quote": "The SIGN (Scottish Intercollegiate Guidelines Network) and GRADE (Grading of Recommendations, Assessment, Development, and Evaluations) processes were used to summarize the quality of the body of evidence for each recommendation as high (A), moderate (B) or low/very low (C) according to GRADE methodology. We have combined C (low) with D (very low) for the purposes of this guideline.",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "site usage SJ-M1（證據品質）；reviewer_notes"
+    },
+    {
+     "quote": "found low quality evidence that acupuncture is no different from placebo",
+     "location": "Key question on dry mouth (non-pharmacological therapies)",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "site usage SJ-M1"
+    },
+    {
+     "quote": "There was very low certainty that these dietary intervention programmes had a positive impact on measures of disease activity, fatigue or sleep in SLE.",
+     "location": "Rationale for diet recommendation",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "site usage SL-M4"
+    },
+    {
+     "quote": "In line with the BSR protocol, the GWG members then graded level of the evidence (LoE) of each proposed recommendation into A (high), B (moderate), C (low) or D (very low).",
+     "location": "Methods – level of evidence",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "reviewer_notes（BSR 2026 用 A–D）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "GRADE 指引第3篇：證據品質分級",
+     "citation": "Balshem H, et al. GRADE guidelines: 3. Rating the quality of evidence. J Clin Epidemiol 2011;64(4):401-6.",
+     "pmid": "21208779",
+     "doi": "10.1016/j.jclinepi.2010.07.015"
+    },
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN）",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引（全文）",
+     "citation": "Md Yusof MY, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "PRISMA 2020 系統性回顧報告準則",
+     "citation": "Page MJ, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ 2021;372:n71.",
+     "pmid": "33782057",
+     "doi": "10.1136/bmj.n71"
+    },
+    {
+     "short": "EULAR 2021 建議之飲食系統性回顧",
+     "citation": "Gwinnutt JM, et al. Effects of diet on the outcomes of rheumatic and musculoskeletal diseases (RMDs): systematic review and meta-analyses informing the 2021 EULAR recommendations for lifestyle improvements in people with RMDs. RMD Open 2022;8(2):e002167.",
+     "pmid": "35654458",
+     "doi": "10.1136/rmdopen-2021-002167"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    },
+    {
+     "short": "BSR 2025 乾燥症指引",
+     "citation": "Price EJ, et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    }
+   ],
+   "confidence": "High (Tier 2 GRADE abstract; Tier-1 site-cited guidelines in PMC full text)",
+   "status": "ok",
+   "reviewer_notes": "All three site wordings match the sources: GT-M4 \"certainty ... low or very low\" (ACR 2020); SJ-M1 證據品質低 = \"low quality evidence\" (BSR 2025, citing Cochrane); SL-M4 偏低 covers \"very low certainty\" (diet programmes) and \"low certainty\" (fish oil) in BSR 2026. Legend nuance: the site legend says BSR letters A–D; BSR 2026 SLE uses A–D, but BSR 2025 Sjögren uses A, B, C only (\"We have combined C (low) with D (very low)\") and C also includes expert consensus. EULAR \"建議強度 A–D\" is a strength-of-recommendation grade, not GRADE certainty; do not link this entry to 建議強度. The BSR 2025 acupuncture sentence contains an extraction-glued word elsewhere (\"poweredmanual\"); only the clean fragment is quoted."
+  },
+  {
+   "id": "clinical-significance",
+   "term": "臨床意義",
+   "aliases": [
+    "臨床意義"
+   ],
+   "aka": "clinical significance; clinically meaningful / important difference (minimal important difference, MID)",
+   "def": "臨床意義是指研究看到的變化夠不夠大、對病人是否真的重要（例如病人感覺得到）。統計上有差別，不一定有臨床意義。",
+   "example": "例如一項痛風試驗中，疼痛分數在統計上降低，但被判定不具臨床意義。",
+   "note": "效果很小時，即使有差別，也常被認為不具臨床意義。",
+   "label": "BMJ 2020・定義",
+   "evidence": [
+    {
+     "quote": "The minimal important difference, a measure of the smallest change in a measure that patients consider important, can greatly facilitate judgments of the magnitude of effect on patient reported outcomes",
+     "location": "Summary box \"What is already known on this topic\"",
+     "access": "PMC full text",
+     "pmid": "32499297",
+     "doi": "10.1136/bmj.m1714",
+     "pmcid": "PMC7270853",
+     "supports": "def（病人認為重要的最小改變）"
+    },
+    {
+     "quote": "The MID provides a measure of the smallest change in an outcome measure that patients perceive as an important improvement or deterioration",
+     "location": "Introduction (sentence continues after an extraction-glued comma; not quoted further)",
+     "access": "PMC full text",
+     "pmid": "32499297",
+     "doi": "10.1136/bmj.m1714",
+     "pmcid": "PMC7270853",
+     "supports": "def（病人感覺得到）"
+    },
+    {
+     "quote": "Pain scores were significantly lower in the intervention group, but this was judged not to be clinically significant.",
+     "location": "Results – Gout – Animal products",
+     "access": "PMC full text",
+     "pmid": "35654458",
+     "doi": "10.1136/rmdopen-2021-002167",
+     "pmcid": "PMC9096533",
+     "supports": "def（統計上有差別≠有臨床意義）；example"
+    },
+    {
+     "quote": "For diets that had moderate evidence (fish oil, chondroitin, glucosamine, vitamin D, ASU), the effect sizes for outcomes were generally small and therefore not clinically relevant.",
+     "location": "Results – Osteoarthritis – Summary",
+     "access": "PMC full text",
+     "pmid": "35654458",
+     "doi": "10.1136/rmdopen-2021-002167",
+     "pmcid": "PMC9096533",
+     "supports": "note（效果小→不具臨床意義）"
+    },
+    {
+     "quote": "The dietary exposures with moderate quality evidence (probiotics, vitamin D, fish oil/omega-3) showed either no effect or effect sizes that are probably not clinically significant.",
+     "location": "Results – Rheumatoid arthritis – Summary",
+     "access": "PMC full text",
+     "pmid": "35654458",
+     "doi": "10.1136/rmdopen-2021-002167",
+     "pmcid": "PMC9096533",
+     "supports": "site usage RA-M3"
+    },
+    {
+     "quote": "Two small RCTs (n = 29 and n = 40) showed clinically insignificant changes in SU concentrations for patients with gout taking vitamin C",
+     "location": "Results – Other dietary recommendations",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "site usage GT-M3"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BMJ 2020 最小重要差異（MID）方法學研究",
+     "citation": "Devji T, et al. Evaluating the credibility of anchor based estimates of minimal important differences for patient reported outcomes: instrument development and reliability study. BMJ 2020;369:m1714.",
+     "pmid": "32499297",
+     "doi": "10.1136/bmj.m1714"
+    },
+    {
+     "short": "EULAR 2021 建議之飲食系統性回顧",
+     "citation": "Gwinnutt JM, et al. Effects of diet on the outcomes of rheumatic and musculoskeletal diseases (RMDs): systematic review and meta-analyses informing the 2021 EULAR recommendations for lifestyle improvements in people with RMDs. RMD Open 2022;8(2):e002167.",
+     "pmid": "35654458",
+     "doi": "10.1136/rmdopen-2021-002167"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "Medium (definition from a methodological BMJ study; usage confirmed in Tier-1 site-cited ACR guideline and EULAR systematic review, PMC full text)",
+   "status": "ok",
+   "reviewer_notes": "The example deliberately says 「一項痛風試驗」: the EULAR SLR sentence naming the product (enriched milk powder) contains extraction-glued words (\"reviewsidentified\", \"RCTwhich\") and was not quoted; the quoted sentence sits in the Gout section of the SLR. Neither ACR 2020 (vitamin C, serum urate) nor the EULAR SLR states the numeric threshold used to judge clinical significance; the MID concept quoted is defined for patient-reported outcomes. Site wording matches sources: GT-M3 \"clinically insignificant changes in SU\"; RA-M3 \"probably not clinically significant\"."
+  },
+  {
+   "id": "expert-consensus",
+   "term": "專家共識",
+   "aliases": [
+    "專家共識"
+   ],
+   "aka": "expert consensus (formal consensus methods, e.g. Delphi process, nominal group technique)",
+   "def": "專家共識是一群專家經過討論和投票，對某項建議達成共同意見；同意的人要達到事先訂好的比例，常用在研究證據不足的問題。",
+   "example": "例如2018年台灣痛風共識，綜合了兩次跨科別會議的共識。",
+   "note": "沒有研究證據可依據時，專家共識常被列為較低的證據等級，例如BSR指引的C級。",
+   "label": "指引方法說明・定義",
+   "evidence": [
+    {
+     "quote": "When systematic reviews are not feasible but recommendations are still needed, developers may issue consensus statements. These rely on expert consensus, logical reasoning, and limited available data.",
+     "location": "Consensus Statements",
+     "access": "PMC full text",
+     "pmid": "41220535",
+     "doi": "10.31662/jmaj.2025-0066",
+     "pmcid": "PMC12598308",
+     "supports": "def（證據不足時以專家共識提出建議）"
+    },
+    {
+     "quote": "The formal consensus process was deemed especially critical in view of the lack of high-quality evidence.",
+     "location": "Materials and Methods",
+     "access": "PMC full text",
+     "pmid": "33075377",
+     "doi": "10.1016/j.chest.2020.10.011",
+     "pmcid": "PMC8438162",
+     "supports": "def（缺乏高品質證據時需要正式共識程序）"
+    },
+    {
+     "quote": "Guideline recommendations were reviewed by a consensus expert panel (CEP) composed of 30-40 clinicians from academia and community practices, as well as registered nurses and patients, using a modified Delphi process. A CEP agreement level of 75% was set as a minimum for adoption of a guideline recommendation.",
+     "location": "Abstract (Methods)",
+     "access": "abstract",
+     "pmid": "27390247",
+     "doi": "10.1002/acr.22968",
+     "pmcid": "",
+     "supports": "def（專家小組以德菲法投票；至少75%同意）"
+    },
+    {
+     "quote": "During the conference, the nominal group technique was used to facilitate discussion, modification, and the attainment of agreement on the different recommendations",
+     "location": "Methods (consensus conference)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def（討論與取得同意）"
+    },
+    {
+     "quote": "In accordance with the EuroGuiDerm Guideline Manual, strong consensus was defined as more than 95% agreement, whereas consensus was defined as 75%–95% agreement.",
+     "location": "Methods (consensus conference)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def（事先訂好的同意比例）"
+    },
+    {
+     "quote": "If the recommendation is further supported by evidence from a systematic review of the literature, the phrase used here will read “Evidence‐ and consensus‐based (see Evidence Report)” instead of “Expert consensus”.",
+     "location": "Methods (format of recommendations)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note（專家共識＝沒有系統性回顧證據支持）"
+    },
+    {
+     "quote": "The SIGN (Scottish Intercollegiate Guidelines Network) and GRADE (Grading of Recommendations, Assessment, Development, and Evaluations) processes were used to summarize the quality of the body of evidence for each recommendation as high (A), moderate (B) or low/very low (C) according to GRADE methodology.",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "note（C＝低／極低）"
+    },
+    {
+     "quote": "Please note that C will include expert consensus where we could find no evidence within the literature.",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "note"
+    },
+    {
+     "quote": "The content of this consensus paper was developed based on local epidemiology and current clinical practice, as well as consensuses from two multidisciplinary meetings and recommendations from Taiwan Guideline for the Management of Gout and Hyperuricemia.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266",
+     "pmcid": "",
+     "supports": "example；site label 台灣共識 2018"
+    },
+    {
+     "quote": "Based on evidence from a systematic literature review and expert opinion, 3 overarching principles and 15 recommendations were agreed on by Delphi consensus.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "site label 國際共識 2024；reviewer_notes"
+    },
+    {
+     "quote": "offering a tailored evidence-based and eminence-based approach",
+     "location": "Abstract (Conclusions)",
+     "access": "abstract",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171",
+     "pmcid": "PMC11002419",
+     "supports": "reviewer_notes"
+    },
+    {
+     "quote": "Overarching principles and recommendations were established by consensus among a panel of rheumatology and rehabilitation experts, based on analysis of the most up-to-date clinical evidence and the clinical experience of panelists. All Overarching Principles and Recommendations were graded according to the standards developed by the Oxford Centre for Evidence Based Medicine, and further evaluated and modified using the Delphi method.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "reviewer_notes（TRA 2020 亦以共識與德菲法制定）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "JMA J 2025 指引定義論文（引述 IOM 2011 定義）",
+     "citation": "Morizane T, Kawai F, Kojimahara N. Proposed New Definitions of Practice Guidelines for Health and Health Care. JMA J 2025;8(4):1384-1387.",
+     "pmid": "41220535",
+     "doi": "10.31662/jmaj.2025-0066"
+    },
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN）",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "Sjögren's Syndrome Foundation 2017 風濕表現治療指引",
+     "citation": "Carsons SE, et al. Treatment Guidelines for Rheumatologic Manifestations of Sjögren's Syndrome: Use of Biologic Agents, Management of Fatigue, and Inflammatory Musculoskeletal Pain. Arthritis Care Res (Hoboken) 2017;69(4):517-527.",
+     "pmid": "27390247",
+     "doi": "10.1002/acr.22968"
+    },
+    {
+     "short": "Sjögren's Foundation 2021 肺部疾病共識指引",
+     "citation": "Lee AS, et al. Consensus Guidelines for Evaluation and Management of Pulmonary Disease in Sjögren's. Chest 2021;159(2):683-698.",
+     "pmid": "33075377",
+     "doi": "10.1016/j.chest.2020.10.011"
+    },
+    {
+     "short": "BSR 2025 乾燥症指引",
+     "citation": "Price EJ, et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    },
+    {
+     "short": "台灣痛風與高尿酸血症多專科共識（2018）",
+     "citation": "Yu KH, et al. Management of gout and hyperuricemia: Multidisciplinary consensus in Taiwan. Int J Rheum Dis 2018;21(4):772-787.",
+     "pmid": "29363262",
+     "doi": "10.1111/1756-185X.13266"
+    },
+    {
+     "short": "2024 紅斑性狼瘡身體活動與運動國際共識",
+     "citation": "Blaess J, et al. Recommendations for physical activity and exercise in persons living with Systemic Lupus Erythematosus (SLE): consensus by an international task force. RMD Open 2024;10(2):e004171.",
+     "pmid": "38580348",
+     "doi": "10.1136/rmdopen-2024-004171"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識",
+     "citation": "Wei JC, et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    }
+   ],
+   "confidence": "High (PMC full text and abstracts of Tier-1 site-cited guidelines and consensus documents)",
+   "status": "ok",
+   "reviewer_notes": "The site uses 專家共識 as a strength label for Yu 2018 (Taiwan gout consensus; method in abstract = consensuses from two multidisciplinary meetings plus the Taiwan guideline; voting threshold not stated in the abstract) and for Blaess 2024 (Delphi consensus based on a systematic literature review and expert opinion). For Blaess the recommendations are not expert opinion alone (\"evidence-based and eminence-based\"); the label is still accurate as a description of how agreement was reached. Legend 「專家小組討論後的共識」 is consistent with the sources."
+  },
+  {
+   "id": "org-acr",
+   "term": "ACR",
+   "aliases": [
+    "ACR"
+   ],
+   "aka": "American College of Rheumatology",
+   "def": "美國的風濕病醫學會，發表多份風濕病臨床指引，例如痛風、類風濕性關節炎、類固醇引起骨質疏鬆的指引。",
+   "example": "",
+   "note": "",
+   "label": "ACR 指引・名稱",
+   "evidence": [
+    {
+     "quote": "2020 American College of Rheumatology Guideline for the Management of Gout.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "aka；def（痛風指引）"
+    },
+    {
+     "quote": "2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def（類風濕性關節炎指引）"
+    },
+    {
+     "quote": "2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646",
+     "pmcid": "",
+     "supports": "def（類固醇骨質疏鬆指引）"
+    },
+    {
+     "quote": "The American College of Rheumatology (ACR) has previously published pharmacologic guidelines to aid clinicians and people with RA",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def（發表多份指引）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD, et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    },
+    {
+     "short": "ACR 2022 類風濕性關節炎整合療法指引（同步刊登版）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "ACR 2022 類固醇骨質疏鬆指引",
+     "citation": "Humphrey MB, et al. 2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis. Arthritis Rheumatol 2023;75(12):2088-2102.",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Gloss follows the protocol example 「美國的風濕病醫學會」; the site legend uses 美國風濕病醫學會 (consistent)."
+  },
+  {
+   "id": "org-eular",
+   "term": "EULAR",
+   "aliases": [
+    "EULAR"
+   ],
+   "aka": "European Alliance of Associations for Rheumatology (current name; acronym EULAR retained); formerly European League Against Rheumatism",
+   "def": "歐洲的風濕病學會聯盟，發表多份風濕病治療建議；英文全名已更改，縮寫仍是EULAR。",
+   "example": "",
+   "note": "網站引用的較早文件（如2016年痛風、2019年疫苗建議）用的是舊名。",
+   "label": "EULAR 建議・名稱",
+   "evidence": [
+    {
+     "quote": "The 2018 European Alliance of Associations for Rheumatology (EULAR) recommendations for physical activity (PA) in people with inflammatory arthritis (IA) and osteoarthritis (OA) required revision",
+     "location": "Abstract (EULAR 2025 physical-activity update, cited on the site)",
+     "access": "abstract",
+     "pmid": "42036268",
+     "doi": "10.1016/j.ard.2026.03.006",
+     "pmcid": "",
+     "supports": "aka（現名）"
+    },
+    {
+     "quote": "following the European Alliance of Associations for Rheumatology standard operating procedure",
+     "location": "Abstract (EULAR 2024 SLE/SSc non-pharmacological recommendations, cited on the site)",
+     "access": "abstract",
+     "pmid": "37433575",
+     "doi": "10.1136/ard-2023-224416",
+     "pmcid": "",
+     "supports": "aka（現名）"
+    },
+    {
+     "quote": "the 2019 European Alliance of Associations for Rheumatology (formerly the European League Against Rheumatism)/American College of Rheumatology classification criteria",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38587826",
+     "doi": "10.1001/jama.2024.2315",
+     "pmcid": "",
+     "supports": "def／aka（新舊名稱關係）"
+    },
+    {
+     "quote": "the first European League Against Rheumatism (EULAR) recommendations for the management of gout, in 2006",
+     "location": "Abstract (EULAR 2016 gout, cited on the site)",
+     "access": "abstract",
+     "pmid": "27457514",
+     "doi": "10.1136/annrheumdis-2016-209707",
+     "pmcid": "",
+     "supports": "note（舊名）"
+    },
+    {
+     "quote": "To update the European League Against Rheumatism (EULAR) recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases (AIIRD) published in 2011.",
+     "location": "Abstract (EULAR 2019 vaccination, cited on the site)",
+     "access": "abstract",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882",
+     "pmcid": "",
+     "supports": "note（舊名）"
+    },
+    {
+     "quote": "A European League Against Rheumatism taskforce was convened to review the literature and develop recommendations on lifestyle behaviours for rheumatic and musculoskeletal diseases (RMDs).",
+     "location": "Abstract (EULAR 2021 lifestyle, cited on the site)",
+     "access": "abstract",
+     "pmid": "35260387",
+     "doi": "10.1136/annrheumdis-2021-222020",
+     "pmcid": "",
+     "supports": "reviewer_notes（2021 生活型態建議摘要仍用舊名）"
+    },
+    {
+     "quote": "the European League Against Rheumatism (EULAR) promoted and supported",
+     "location": "Abstract (EULAR 2020 Sjögren recommendations, cited on the site)",
+     "access": "abstract",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114",
+     "pmcid": "",
+     "supports": "reviewer_notes（舊名）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EULAR 2025 身體活動建議",
+     "citation": "Rausch Osthoff AK, et al. EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis: 2025 update. Ann Rheum Dis 2026;85(6):1026-1038.",
+     "pmid": "42036268",
+     "doi": "10.1016/j.ard.2026.03.006"
+    },
+    {
+     "short": "EULAR 2024 狼瘡與全身性硬化症非藥物建議",
+     "citation": "Parodis I, et al. EULAR recommendations for the non-pharmacological management of systemic lupus erythematosus and systemic sclerosis. Ann Rheum Dis 2024;83(6):720-729.",
+     "pmid": "37433575",
+     "doi": "10.1136/ard-2023-224416"
+    },
+    {
+     "short": "JAMA 2024 紅斑性狼瘡綜論",
+     "citation": "Siegel CH, Sammaritano LR. Systemic Lupus Erythematosus: A Review. JAMA 2024;331(17):1480-1491.",
+     "pmid": "38587826",
+     "doi": "10.1001/jama.2024.2315"
+    },
+    {
+     "short": "EULAR 2016 痛風治療建議",
+     "citation": "Richette P, et al. 2016 updated EULAR evidence-based recommendations for the management of gout. Ann Rheum Dis 2017;76(1):29-42.",
+     "pmid": "27457514",
+     "doi": "10.1136/annrheumdis-2016-209707"
+    },
+    {
+     "short": "EULAR 2019 自體免疫風濕病疫苗建議",
+     "citation": "Furer V, et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2020;79(1):39-52.",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882"
+    },
+    {
+     "short": "EULAR 2021 生活型態與工作參與建議",
+     "citation": "Gwinnutt JM, et al. 2021 EULAR recommendations regarding lifestyle behaviours and work participation to prevent progression of rheumatic and musculoskeletal diseases. Ann Rheum Dis 2023;82(1):48-56.",
+     "pmid": "35260387",
+     "doi": "10.1136/annrheumdis-2021-222020"
+    },
+    {
+     "short": "EULAR 2020 乾燥症局部與全身治療建議",
+     "citation": "Ramos-Casals M, et al. EULAR recommendations for the management of Sjögren's syndrome with topical and systemic therapies. Ann Rheum Dis 2020;79(1):3-18.",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Current name \"European Alliance of Associations for Rheumatology\" appears in EULAR's own 2024 and 2025/2026 recommendations cited on the site; \"European League Against Rheumatism\" appears in the 2016 gout, 2019 vaccination, 2020 Sjögren and 2021 lifestyle documents. A JAMA 2024 review states the relation explicitly (\"formerly the European League Against Rheumatism\"). The year of the name change was not found in a PubMed source, so no date is given. Site legend 歐洲風濕病聯盟（EULAR） is consistent with \"Alliance\"."
+  },
+  {
+   "id": "org-bsr",
+   "term": "BSR",
+   "aliases": [
+    "BSR"
+   ],
+   "aka": "British Society for Rheumatology",
+   "def": "英國的風濕病醫學會，發表痛風、乾燥症、紅斑性狼瘡、中軸型脊椎關節炎等臨床指引。",
+   "example": "",
+   "note": "",
+   "label": "BSR 指引・名稱",
+   "evidence": [
+    {
+     "quote": "The British Society for Rheumatology Guideline for the Management of Gout.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "28549177",
+     "doi": "10.1093/rheumatology/kex156",
+     "pmcid": "",
+     "supports": "aka；def（痛風）"
+    },
+    {
+     "quote": "British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def（乾燥症）"
+    },
+    {
+     "quote": "The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def（紅斑性狼瘡）"
+    },
+    {
+     "quote": "The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089",
+     "pmcid": "PMC12107049",
+     "supports": "def（中軸型脊椎關節炎）"
+    },
+    {
+     "quote": "In the UK, the first British Society for Rheumatology (BSR) gout guideline was published in 2007 and updated in 2017",
+     "location": "Editorial text",
+     "access": "PMC full text",
+     "pmid": "38274510",
+     "doi": "10.1093/rap/rkae007",
+     "pmcid": "PMC10809909",
+     "supports": "def（英國）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2017 痛風指引",
+     "citation": "Hui M, et al. The British Society for Rheumatology Guideline for the Management of Gout. Rheumatology (Oxford) 2017;56(7):e1-e20.",
+     "pmid": "28549177",
+     "doi": "10.1093/rheumatology/kex156"
+    },
+    {
+     "short": "BSR 2025 乾燥症指引",
+     "citation": "Price EJ, et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引（全文）",
+     "citation": "Md Yusof MY, et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "BSR 2025 中軸型脊椎關節炎生物製劑與標靶藥物指引",
+     "citation": "Zhao SS, et al. The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs. Rheumatology (Oxford) 2025;64(6):3242-3254.",
+     "pmid": "40199504",
+     "doi": "10.1093/rheumatology/keaf089"
+    },
+    {
+     "short": "Rheumatol Adv Pract 2024 英國痛風指引比較社論",
+     "citation": "Roddy E, Jordan KM, Giles I. Diagnosis and management of gout: are the British Society for Rheumatology and National Institute for Health and Care Excellence guidelines both needed? Rheumatol Adv Pract 2024;8(1):rkae007.",
+     "pmid": "38274510",
+     "doi": "10.1093/rap/rkae007"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Site legend uses 英國風濕病學會 (consistent with the gloss)."
+  },
+  {
+   "id": "org-nice",
+   "term": "NICE",
+   "aliases": [
+    "NICE"
+   ],
+   "aka": "National Institute for Health and Care Excellence",
+   "def": "英國的國家級醫療指引機構，發表過痛風、脊椎關節炎等指引。",
+   "example": "",
+   "note": "",
+   "label": "Rheumatol Adv Pract 2024・名稱",
+   "evidence": [
+    {
+     "quote": "the National Institute for Health and Care Excellence (NICE) published its guideline for the diagnosis and management of gout in 2022",
+     "location": "Editorial text",
+     "access": "PMC full text",
+     "pmid": "38274510",
+     "doi": "10.1093/rap/rkae007",
+     "pmcid": "PMC10809909",
+     "supports": "aka；def（痛風指引）"
+    },
+    {
+     "quote": "The NICE guideline is more up to date than the BSR guideline and should be considered the first-line guidance in the UK for managing most people with gout.",
+     "location": "Editorial text",
+     "access": "PMC full text",
+     "pmid": "38274510",
+     "doi": "10.1093/rap/rkae007",
+     "pmcid": "PMC10809909",
+     "supports": "def（英國）"
+    },
+    {
+     "quote": "Diagnosis and management of spondyloarthritis in the over-16s: NICE guideline.",
+     "location": "Title (PubMed record; no abstract)",
+     "access": "abstract",
+     "pmid": "29954812",
+     "doi": "10.3399/bjgp18X697865",
+     "pmcid": "PMC6014432",
+     "supports": "def（脊椎關節炎指引）"
+    },
+    {
+     "quote": "Both guidelines followed robust transparent guideline development methods, including a systematic search and review of the literature, and the BSR guideline protocol is accredited by NICE.",
+     "location": "Editorial text",
+     "access": "PMC full text",
+     "pmid": "38274510",
+     "doi": "10.1093/rap/rkae007",
+     "pmcid": "PMC10809909",
+     "supports": "reviewer_notes"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Rheumatol Adv Pract 2024 英國痛風指引比較社論",
+     "citation": "Roddy E, Jordan KM, Giles I. Diagnosis and management of gout: are the British Society for Rheumatology and National Institute for Health and Care Excellence guidelines both needed? Rheumatol Adv Pract 2024;8(1):rkae007.",
+     "pmid": "38274510",
+     "doi": "10.1093/rap/rkae007"
+    },
+    {
+     "short": "BJGP 2018 NICE 脊椎關節炎指引摘要",
+     "citation": "Forster D, Warburton L, O'Flynn N. Diagnosis and management of spondyloarthritis in the over-16s: NICE guideline. Br J Gen Pract 2018;68(672):346-347.",
+     "pmid": "29954812",
+     "doi": "10.3399/bjgp18X697865"
+    }
+   ],
+   "confidence": "High (name printed in a PubMed-indexed editorial about NICE's guideline; PMC full text)",
+   "status": "ok",
+   "reviewer_notes": "NICE guidelines themselves (NG65, NG100, NG219) are not retrievable as PubMed records with text via the tool; the name is taken from Roddy 2024 (PMC) and the BJGP 2018 summary title. 「國家級」 reflects \"National\" in the name; no Chinese official name is claimed. Roddy 2024 also states \"the BSR guideline protocol is accredited by NICE\"."
+  },
+  {
+   "id": "org-asas",
+   "term": "ASAS",
+   "aliases": [
+    "ASAS-EULAR"
+   ],
+   "aka": "Assessment of SpondyloArthritis international Society",
+   "def": "國際的脊椎關節炎評估學會；網站引用的「ASAS-EULAR」是它和EULAR的中軸型脊椎關節炎治療建議。",
+   "example": "",
+   "note": "",
+   "label": "ASAS-EULAR 2022・名稱",
+   "evidence": [
+    {
+     "quote": "To update the Assessment of SpondyloArthritis international Society (ASAS)-EULAR recommendations for the management of axial spondyloarthritis (axSpA).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "36270658",
+     "doi": "10.1136/ard-2022-223296",
+     "pmcid": "",
+     "supports": "aka；def"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ASAS-EULAR 2022 中軸型脊椎關節炎治療建議",
+     "citation": "Ramiro S, et al. ASAS-EULAR recommendations for the management of axial spondyloarthritis: 2022 update. Ann Rheum Dis 2023;82(1):19-34.",
+     "pmid": "36270658",
+     "doi": "10.1136/ard-2022-223296"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Capitalisation \"SpondyloArthritis international Society\" is as printed in the abstract."
+  },
+  {
+   "id": "org-who",
+   "term": "WHO",
+   "aliases": [
+    "WHO"
+   ],
+   "aka": "World Health Organization",
+   "def": "世界衛生組織；網站引用它2020年發表的身體活動與久坐行為指引。",
+   "example": "",
+   "note": "",
+   "label": "WHO 2020・名稱",
+   "evidence": [
+    {
+     "quote": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "aka；def"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO 2020 身體活動指引摘要論文",
+     "citation": "Bull FC, et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "世界衛生組織 is the commonly used Chinese name. The WHO UV-index documents also cited on the site (2002 guide, 2022 Q&A) are not PubMed-indexed and were not used here."
+  },
+  {
+   "id": "org-galen",
+   "term": "GALEN（GA²LEN）",
+   "aliases": [
+    "GALEN"
+   ],
+   "aka": "Global Allergy and Asthma Excellence Network (GALEN, also written GA²LEN); in the 2018 and 2022 guidelines: Global Allergy and Asthma European Network (GA²LEN)",
+   "def": "全球性的過敏與氣喘專業網絡；2026年國際蕁麻疹指引由它發起，並有59國、107個學會的代表參與。",
+   "example": "",
+   "note": "2018、2022年的舊版指引中，全名是「全球過敏與氣喘歐洲網絡」（GA²LEN）。",
+   "label": "GALEN 2026・名稱",
+   "evidence": [
+    {
+     "quote": "It is an initiative of the Global Allergy and Asthma Excellence Network (GALEN) and its Urticaria and Angioedema Centers of Reference and Excellence (UCAREs and ACAREs), with the participation of 210 delegates from 107 national and international societies, from 59 countries.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "aka；def"
+    },
+    {
+     "quote": "The guideline is an initiative of the Global Allergy and Asthma Excellence Network (GALEN)",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "aka"
+    },
+    {
+     "quote": "Global Allergy and Asthma Excellence Network (GA²LEN)",
+     "location": "Funding / acknowledgement statement",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "aka（GA²LEN 寫法）"
+    },
+    {
+     "quote": "Global Asthma and Allergy Excellence Network",
+     "location": "Abbreviations list (entry \"GALEN\")",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "reviewer_notes（縮寫表字序不同）"
+    },
+    {
+     "quote": "the Global Allergy and Asthma European Network (GA²LEN)",
+     "location": "Abstract (2022 guideline)",
+     "access": "abstract",
+     "pmid": "34536239",
+     "doi": "10.1111/all.15090",
+     "pmcid": "",
+     "supports": "note（舊全名）"
+    },
+    {
+     "quote": "the EU-founded network of excellence, the Global Allergy and Asthma European Network (GA²LEN)",
+     "location": "Abstract (2018 guideline)",
+     "access": "abstract",
+     "pmid": "29336054",
+     "doi": "10.1111/all.13397",
+     "pmcid": "",
+     "supports": "note（舊全名）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN）",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "2022 國際蕁麻疹指引（舊版）",
+     "citation": "Zuberbier T, et al. The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria. Allergy 2022;77(3):734-766.",
+     "pmid": "34536239",
+     "doi": "10.1111/all.15090"
+    },
+    {
+     "short": "2018 國際蕁麻疹指引（舊版）",
+     "citation": "Zuberbier T, et al. The EAACI/GA²LEN/EDF/WAO guideline for the definition, classification, diagnosis and management of urticaria. Allergy 2018;73(7):1393-1414.",
+     "pmid": "29336054",
+     "doi": "10.1111/all.13397"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Internal inconsistency in the 2026 guideline: abstract, introduction and funding statement say \"Global Allergy and Asthma Excellence Network\" (funding statement spells GA²LEN), but the abbreviations list says \"Global Asthma and Allergy Excellence Network\". The majority spelling is used in aka. The 2018 and 2022 predecessor guidelines expand GA²LEN as \"Global Allergy and Asthma European Network\". The site label GALEN matches the 2026 text. The Chinese gloss is descriptive, not an official name."
+  },
+  {
+   "id": "org-wao",
+   "term": "WAO",
+   "aliases": [
+    "WAO"
+   ],
+   "aka": "World Allergy Organization",
+   "def": "世界性的過敏組織；發表過「嚴重過敏反應（全身性過敏反應）」的處理指引，有2011年與2020年版。",
+   "example": "",
+   "note": "",
+   "label": "WAO 2020・名稱",
+   "evidence": [
+    {
+     "quote": "The World Allergy Organization (WAO) anaphylaxis guidelines were published in 2011, and the current guidance adopts their major indications",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "aka；def"
+    },
+    {
+     "quote": "World allergy organization anaphylaxis guidance 2020.",
+     "location": "Title (PubMed record; capitalisation as indexed)",
+     "access": "abstract",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "def（2020年版）"
+    },
+    {
+     "quote": "the European Dermatology Forum (EDF) and the World Allergy Organization (WAO)",
+     "location": "Abstract (2018 urticaria guideline)",
+     "access": "abstract",
+     "pmid": "29336054",
+     "doi": "10.1111/all.13397",
+     "pmcid": "",
+     "supports": "reviewer_notes"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2020 全身性過敏反應指引",
+     "citation": "Cardona V, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J 2020;13(10):100472.",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472"
+    },
+    {
+     "short": "2018 國際蕁麻疹指引（舊版）",
+     "citation": "Zuberbier T, et al. The EAACI/GA²LEN/EDF/WAO guideline for the definition, classification, diagnosis and management of urticaria. Allergy 2018;73(7):1393-1414.",
+     "pmid": "29336054",
+     "doi": "10.1111/all.13397"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "The PubMed title is in lower case (\"World allergy organization\"); the abstract prints \"World Allergy Organization (WAO)\", used as the name. WAO was also a co-developer of the 2018 urticaria guideline (2018 abstract: \"the World Allergy Organization (WAO)\")."
+  },
+  {
+   "id": "org-tfos",
+   "term": "TFOS",
+   "aliases": [
+    "TFOS"
+   ],
+   "aka": "Tear Film & Ocular Surface Society (also printed \"Tear Film and Ocular Surface Society\")",
+   "def": "研究淚液和眼睛表面（眼表）的學會，舉辦全球性的工作坊，發表乾眼症及生活型態影響眼睛的報告。",
+   "example": "",
+   "note": "「DEWS」是它的乾眼症工作坊（Dry Eye Workshop）。",
+   "label": "TFOS 2023・名稱",
+   "evidence": [
+    {
+     "quote": "The Tear Film & Ocular Surface Society (TFOS) Workshop entitled 'A Lifestyle Epidemic: Ocular Surface Disease' was a global initiative undertaken to establish the direct and indirect impacts of everyday lifestyle choices and challenges on ocular surface health.",
+     "location": "Abstract (TFOS Lifestyle executive summary)",
+     "access": "abstract",
+     "pmid": "37659474",
+     "doi": "10.1016/j.jtos.2023.08.009",
+     "pmcid": "",
+     "supports": "aka；def（全球性工作坊、生活型態報告）"
+    },
+    {
+     "quote": "This article presents an executive summary of the conclusions and recommendations of the third Tear Film and Ocular Surface Society Dry Eye Workshop (TFOS DEWS III) reports",
+     "location": "Abstract (TFOS DEWS III executive summary, cited on the site)",
+     "access": "abstract",
+     "pmid": "41005521",
+     "doi": "10.1016/j.ajo.2025.09.035",
+     "pmcid": "",
+     "supports": "def（乾眼症報告）；note（DEWS）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "TFOS 2023 生活型態報告執行摘要",
+     "citation": "Craig JP, et al. TFOS Lifestyle Report Executive Summary: A Lifestyle Epidemic - Ocular Surface Disease. Ocul Surf 2023;30:240-253.",
+     "pmid": "37659474",
+     "doi": "10.1016/j.jtos.2023.08.009"
+    },
+    {
+     "short": "TFOS DEWS III 2025 執行摘要",
+     "citation": "Perez VL, et al. TFOS DEWS III: Executive Summary. Am J Ophthalmol 2025;282:135-145.",
+     "pmid": "41005521",
+     "doi": "10.1016/j.ajo.2025.09.035"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Both spellings (\"&\" and \"and\") occur in PubMed abstracts; \"&\" is used in TFOS's own Lifestyle executive summary."
+  },
+  {
+   "id": "org-tra",
+   "term": "TRA",
+   "aliases": [
+    "TRA"
+   ],
+   "aka": "Taiwan Rheumatology Association",
+   "def": "台灣的風濕病醫學會；網站引用它2020年發表的中軸型脊椎關節炎治療共識建議。",
+   "example": "",
+   "note": "",
+   "label": "TRA 2020・名稱",
+   "evidence": [
+    {
+     "quote": "Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "aka；def"
+    },
+    {
+     "quote": "Overarching principles and recommendations were established by consensus among a panel of rheumatology and rehabilitation experts, based on analysis of the most up-to-date clinical evidence and the clinical experience of panelists. All Overarching Principles and Recommendations were graded according to the standards developed by the Oxford Centre for Evidence Based Medicine, and further evaluated and modified using the Delphi method.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "def（共識建議）"
+    },
+    {
+     "quote": "The Taiwan College of Rheumatology Consensus for the Management of Systemic Lupus Erythematosus.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "41546150",
+     "doi": "10.1111/1756-185x.70530",
+     "pmcid": "",
+     "supports": "reviewer_notes（另一個英文名稱）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識",
+     "citation": "Wei JC, et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    },
+    {
+     "short": "台灣 TCR 2026 紅斑性狼瘡共識",
+     "citation": "Huang WN, et al. The Taiwan College of Rheumatology Consensus for the Management of Systemic Lupus Erythematosus. Int J Rheum Dis 2026;29(1):e70530.",
+     "pmid": "41546150",
+     "doi": "10.1111/1756-185x.70530"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "No Chinese official name is given: none was found in a PubMed source. Another PubMed-indexed Taiwanese consensus (Huang 2026, SLE) is titled \"The Taiwan College of Rheumatology Consensus ...\"; whether this is the same body as the Taiwan Rheumatology Association was not verified from PubMed, so the two names are not linked here."
+  },
+  {
+   "id": "org-aaaai",
+   "term": "AAAAI／ACAAI",
+   "aliases": [
+    "AAAAI/ACAAI"
+   ],
+   "aka": "American Academy of Allergy, Asthma & Immunology (AAAAI); American College of Allergy, Asthma & Immunology (ACAAI)",
+   "def": "美國的兩個過敏、氣喘與免疫學會；代表它們的聯合工作小組，制定了2014年的蕁麻疹診療參數（指引）。",
+   "example": "",
+   "note": "",
+   "label": "AAAAI/ACAAI 2014・名稱",
+   "evidence": [
+    {
+     "quote": "These parameters were developed by the Joint Task Force on Practice Parameters (JTFPP), representing the American Academy of Allergy, Asthma & Immunology (AAAAI); the American College of Allergy, Asthma & Immunology (ACAAI); and the Joint Council of Allergy, Asthma & Immunology.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24766875",
+     "doi": "10.1016/j.jaci.2014.02.036",
+     "pmcid": "",
+     "supports": "aka；def"
+    }
+   ],
+   "sources": [
+    {
+     "short": "AAAAI/ACAAI 2014 美國蕁麻疹診療參數",
+     "citation": "Bernstein JA, et al. The diagnosis and management of acute and chronic urticaria: 2014 update. J Allergy Clin Immunol 2014;133(5):1270-7.",
+     "pmid": "24766875",
+     "doi": "10.1016/j.jaci.2014.02.036"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "The Joint Task Force on Practice Parameters also represents a third body, the Joint Council of Allergy, Asthma & Immunology (Bernstein 2014 abstract); the gloss mentions only the two named on the site. The 2026 urticaria guideline lists delegates of \"The American College of Allergy, Asthma and Immunology\" (spelled with \"and\"); the Bernstein 2014 spelling with \"&\" is used in aka."
+  },
+  {
+   "id": "org-bsaci",
+   "term": "BSACI",
+   "aliases": [
+    "BSACI"
+   ],
+   "aka": "British Society for Allergy and Clinical Immunology (also printed \"British Society for Allergy & Clinical Immunology\")",
+   "def": "英國的過敏與臨床免疫學會；網站引用它2015年的慢性蕁麻疹指引。",
+   "example": "",
+   "note": "",
+   "label": "BSACI 2015・名稱",
+   "evidence": [
+    {
+     "quote": "This guidance for the management of patients with chronic urticaria and angioedema has been prepared by the Standards of Care Committee of the British Society for Allergy and Clinical Immunology (BSACI).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25711134",
+     "doi": "10.1111/cea.12494",
+     "pmcid": "",
+     "supports": "aka；def"
+    },
+    {
+     "quote": "BSACI guideline for the management of chronic urticaria and angioedema.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "25711134",
+     "doi": "10.1111/cea.12494",
+     "pmcid": "",
+     "supports": "def"
+    },
+    {
+     "quote": "was supported by the British Society for Allergy & Clinical Immunology (BSACI)",
+     "location": "Funding / acknowledgement statement (2026 guideline)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "aka（另一種寫法）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSACI 2015 英國慢性蕁麻疹指引",
+     "citation": "Powell RJ, et al. BSACI guideline for the management of chronic urticaria and angioedema. Clin Exp Allergy 2015;45(3):547-65.",
+     "pmid": "25711134",
+     "doi": "10.1111/cea.12494"
+    },
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN）",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": ""
+  },
+  {
+   "id": "org-ects",
+   "term": "ECTS",
+   "aliases": [
+    "ECTS"
+   ],
+   "aka": "European Calcified Tissue Society",
+   "def": "歐洲的鈣化組織學會，發表骨質疏鬆相關建議，例如2024年類固醇引起骨質疏鬆的預防與治療建議。",
+   "example": "",
+   "note": "",
+   "label": "ECTS 2024・名稱",
+   "evidence": [
+    {
+     "quote": "Prevention and treatment of glucocorticoid-induced osteoporosis in adults: recommendations from the European Calcified Tissue Society.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "39556468",
+     "doi": "10.1093/ejendo/lvae146",
+     "pmcid": "",
+     "supports": "aka；def"
+    },
+    {
+     "quote": "This report presents the recommendations of the European Calcified Tissue Society (ECTS) for the prevention and treatment of glucocorticoid-induced osteoporosis (GIOP) in adults.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "39556468",
+     "doi": "10.1093/ejendo/lvae146",
+     "pmcid": "",
+     "supports": "aka；def"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ECTS 2024 類固醇骨質疏鬆建議",
+     "citation": "Paccou J, et al. Prevention and treatment of glucocorticoid-induced osteoporosis in adults: recommendations from the European Calcified Tissue Society. Eur J Endocrinol 2024;191(6):G1-G17.",
+     "pmid": "39556468",
+     "doi": "10.1093/ejendo/lvae146"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "No PubMed source describing the society itself was found; the gloss stays literal (鈣化組織學會) and describes it only by its published osteoporosis recommendations. 「鈣化組織」 is not explained further because no quote defines it."
+  },
+  {
+   "id": "org-sf",
+   "term": "Sjögren's Foundation",
+   "aliases": [
+    "Sjögren's Foundation"
+   ],
+   "aka": "Sjögren's Foundation (in 2016–2017 publications: Sjögren's Syndrome Foundation)",
+   "def": "美國的乾燥症基金會；發表過乾燥症口腔、眼睛、風濕（全身）表現及肺部的照護指引。",
+   "example": "",
+   "note": "2016–2017年的論文中，名稱寫作Sjögren's Syndrome Foundation。",
+   "label": "SF 2016／2021・名稱",
+   "evidence": [
+    {
+     "quote": "Clinical practice guidelines for pulmonary manifestations of Sjögren's were developed by the Sjögren's Foundation",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "33075377",
+     "doi": "10.1016/j.chest.2020.10.011",
+     "pmcid": "PMC8438162",
+     "supports": "aka（現名）；def（肺部指引）"
+    },
+    {
+     "quote": "The Sjögren's Syndrome Foundation developed the first US clinical practice guidelines for management of the oral, ocular, and rheumatologic or systemic manifestations.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "27431353",
+     "doi": "10.1016/j.rdc.2016.03.010",
+     "pmcid": "PMC5812283",
+     "supports": "def（美國；口腔、眼睛、風濕／全身表現指引）；note（舊名）"
+    },
+    {
+     "quote": "Syndrome Foundation, 6707 Democracy Boulevard, Suite 325, Bethesda, MD 20817, USA.",
+     "location": "Author affiliation (PubMed record)",
+     "access": "abstract",
+     "pmid": "27431353",
+     "doi": "10.1016/j.rdc.2016.03.010",
+     "pmcid": "PMC5812283",
+     "supports": "def（位於美國）"
+    },
+    {
+     "quote": "The Sjögren's Syndrome Foundation clinical practice guidelines (CPGs) are designed",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "27390247",
+     "doi": "10.1002/acr.22968",
+     "pmcid": "",
+     "supports": "note（舊名，2017）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Sjögren's Foundation 2021 肺部疾病共識指引",
+     "citation": "Lee AS, et al. Consensus Guidelines for Evaluation and Management of Pulmonary Disease in Sjögren's. Chest 2021;159(2):683-698.",
+     "pmid": "33075377",
+     "doi": "10.1016/j.chest.2020.10.011"
+    },
+    {
+     "short": "2016 乾燥症基金會治療指引綜述",
+     "citation": "Vivino FB, et al. New Treatment Guidelines for Sjögren's Disease. Rheum Dis Clin North Am 2016;42(3):531-51.",
+     "pmid": "27431353",
+     "doi": "10.1016/j.rdc.2016.03.010"
+    },
+    {
+     "short": "Sjögren's Syndrome Foundation 2017 風濕表現治療指引",
+     "citation": "Carsons SE, et al. Treatment Guidelines for Rheumatologic Manifestations of Sjögren's Syndrome: Use of Biologic Agents, Management of Fatigue, and Inflammatory Musculoskeletal Pain. Arthritis Care Res (Hoboken) 2017;69(4):517-527.",
+     "pmid": "27390247",
+     "doi": "10.1002/acr.22968"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "The site label 'Sjögren's Foundation 2016' refers to Zero 2016 (JADA); that abstract does not name the Foundation, but Vivino 2016 states that the Sjögren's Syndrome Foundation developed the oral, ocular and rheumatologic guidelines. No PubMed source explicitly stating the renaming was found; both names are reported as printed. Lee 2021 PMC text uses a typographic apostrophe (Sjögren’s); the PubMed abstract quoted here uses a straight one."
+  }
+ ]
+}

@@ -1,0 +1,1222 @@
+{
+ "group": "g2_rehab_psych",
+ "entries": [
+  {
+   "id": "physical-therapy",
+   "term": "物理治療",
+   "aliases": [
+    "物理治療師",
+    "物理治療"
+   ],
+   "aka": "physical therapy (PT); physiotherapy; physical therapist / physiotherapist",
+   "def": "物理治療是由物理治療師評估身體狀況，再用運動等多種方法治療；也會教您學會自己在家運動。",
+   "example": "例如設計伸展、肌力、有氧運動計畫，並教會正確動作",
+   "note": "在僵直性脊椎炎，物理治療有助維持或改善脊椎活動、增進體能，並減輕疼痛。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "In these recommendations, comprehensive refers to the numerous different approaches and interventions that occupational therapists and physical therapists utilize in the assessment and management of people with RA.",
+     "location": "Results, Rehabilitation recommendations (comprehensive OT and PT)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 物理治療師評估並用多種方法治療"
+    },
+    {
+     "quote": "Because one of the goals of physical therapy is to educate patients in self-management in using an independent exercise program, the panel judged that active interventions should be stressed over passive interventions.",
+     "location": "Recommendations A2 Rehabilitation (active AS), Evidence and rationale",
+     "access": "PMC full text",
+     "pmid": "26401991",
+     "doi": "10.1002/art.39298",
+     "pmcid": "PMC5123840",
+     "supports": "def: 教您學會自己運動"
+    },
+    {
+     "quote": "Physical therapy in stable patients was most important for periodic reassessment and appropriate modifications of home exercises.",
+     "location": "Recommendations B2 Rehabilitation (stable AS), Evidence and rationale",
+     "access": "PMC full text",
+     "pmid": "26401991",
+     "doi": "10.1002/art.39298",
+     "pmcid": "PMC5123840",
+     "supports": "def: 在家運動（居家運動的定期評估與調整）"
+    },
+    {
+     "quote": "The recommendation is conditional in that unsupervised back exercises should not substitute for initial instruction in back exercises by a physical therapist.",
+     "location": "Recommendations C (PICO 20), Evidence and rationale",
+     "access": "PMC full text",
+     "pmid": "26401991",
+     "doi": "10.1002/art.39298",
+     "pmcid": "PMC5123840",
+     "supports": "example: 教會正確動作"
+    },
+    {
+     "quote": "The Voting Panel and patient panel emphasized the importance of appropriate prescription and supervision of resistance exercise by physical therapists or other qualified exercise professionals to prevent harm.",
+     "location": "Results, Exercise recommendations (resistance exercise)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "example: 肌力訓練由物理治療師安排與指導"
+    },
+    {
+     "quote": "Evaluation and treatment by a physical therapist. Components of PT services will vary and should include exercise.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 評估與治療、內容應包含運動 (2 consistent segmented passes)"
+    },
+    {
+     "quote": "May also include functional training and physical activity, energy conservation, workplace accommodations, mobility and gait training, manual therapy, self-management education, electrotherapy, application of orthoses, instruction in assistive devices, pain-management including thermal therapy.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 多種方法 (2 consistent segmented passes)"
+    },
+    {
+     "quote": "Refer people with axial spondyloarthritis to a specialist physiotherapist to start an individualised, structured exercise programme, which should include: stretching, strengthening and postural exercises; deep breathing; spinal extension; range of motion exercises for the lumbar, thoracic and cervical sections of the spine; aerobic exercise.",
+     "location": "Recommendation 1.5.1 (nice.org.uk/guidance/ng65/chapter/Recommendations)",
+     "access": "WebFetch",
+     "pmid": "28350428",
+     "doi": "",
+     "pmcid": "",
+     "supports": "example: 設計伸展、肌力、有氧運動計畫 (matches research-phase reading in research/axspa.md C21)"
+    },
+    {
+     "quote": "Physiotherapy is an important treatment to maintain or improve movement in the spine, improve fitness and decrease pain.",
+     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "access": "PMC full text",
+     "pmid": "18254008",
+     "doi": "10.1002/14651858.CD002822.pub3",
+     "pmcid": "PMC8453259",
+     "supports": "note: 維持或改善脊椎活動、體能，減輕疼痛"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "ACR/SAA/SPARTAN 2015 僵直性脊椎炎與非放射學中軸型脊椎關節炎治療建議（美國的風濕病醫學會與兩個脊椎關節炎組織）",
+     "citation": "Ward MM, et al. American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network 2015 Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Rheumatol 2016;68(2):282-298. Co-published in Arthritis Care Res (Hoboken) 2016;68(2):151-166 (PMID 26401907; doi:10.1002/acr.22708).",
+     "pmid": "26401991",
+     "doi": "10.1002/art.39298"
+    },
+    {
+     "short": "NICE NG65 脊椎關節炎診斷與治療指引（英國的國家臨床指引機構）",
+     "citation": "National Institute for Health and Care Excellence (NICE). Spondyloarthritis in over 16s: diagnosis and management (NICE guideline NG65). London: NICE; 2017 (published 28 February 2017; last updated 2 June 2017).",
+     "pmid": "28350428",
+     "doi": ""
+    },
+    {
+     "short": "Cochrane 2008 僵直性脊椎炎物理治療系統性回顧",
+     "citation": "Dagfinrud H, Kvien TK, Hagen KB. Physiotherapy interventions for ankylosing spondylitis. Cochrane Database Syst Rev 2008;(1):CD002822.",
+     "pmid": "18254008",
+     "doi": "10.1002/14651858.CD002822.pub3"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: def rests on PMC-verified ACR 2022/2015 text (Tier 1); Table 1 and NICE quotes (WebFetch) are supplementary. No guideline gives a one-sentence professional definition of physical therapy; the def is built from what ACR 2022/ACR 2015 say physical therapists do (PMC-verified) plus ACR Table 1 (WebFetch, PMC table page, 2 consistent passes). The site uses 物理治療師 for both NICE's 'specialist physiotherapist' and ACR's 'physical therapist'; the research notes record that ASAS-EULAR changed 'physical therapy' to 'physiotherapy' in its 2022 update (research/axspa.md C42), i.e. the two words are used for the same intervention. Note is AS-specific (Cochrane 2008, search to Jan 2007). PubMed lists NICE NG65 as a book record (PMID 28350428 found by search; get_article_metadata returned no record; another 2017 NICE spondyloarthritis record, PMID 32049469, also exists) - please confirm the PMID. The site also uses 物理治療師 in axspa-exercise-sum, which is not in the context file."
+  },
+  {
+   "id": "occupational-therapy",
+   "term": "職能治療",
+   "aliases": [
+    "職能治療師",
+    "職能治療",
+    "職能或物理治療師"
+   ],
+   "aka": "occupational therapy (OT); occupational therapist",
+   "def": "職能治療是由職能治療師評估和治療，幫助您以較少的疼痛完成穿衣、煮飯、打掃、工作等日常生活的事。",
+   "example": "例如教關節保護與節省體力、提供副木、指導使用輔具",
+   "note": "職能治療師也能提供與工作場所有關的建議和資源。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "Occupational therapy (OT), with the aim to facilitate task performance and to decrease the consequences of rheumatoid arthritis for daily life activities, is considered to be a cornerstone in the management of rheumatoid arthritis.",
+     "location": "Abstract, Background",
+     "access": "abstract",
+     "pmid": "14974005",
+     "doi": "10.1002/14651858.CD003114.pub2",
+     "pmcid": "PMC7017227",
+     "supports": "def: 幫助完成日常生活的事"
+    },
+    {
+     "quote": "People with rheumatoid arthritis can find it difficult to do daily chores such as dressing, cooking, cleaning and working. Occupational therapists can give advice on how to do every day activities with less pain or advice on how to use splints and assistive devices.",
+     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "access": "PMC full text",
+     "pmid": "14974005",
+     "doi": "10.1002/14651858.CD003114.pub2",
+     "pmcid": "PMC7017227",
+     "supports": "def: 以較少疼痛完成穿衣、煮飯、打掃、工作; example: 副木、輔具"
+    },
+    {
+     "quote": "To determine whether OT interventions (classified as comprehensive therapy, training of motor function, training of skills, instruction on joint protection and energy conservation, counseling, instruction about assistive devices and provision of splints) for rheumatoid arthritis patients improve outcome on functional ability, social participation and/or health related quality of life.",
+     "location": "Abstract, Objectives",
+     "access": "abstract",
+     "pmid": "14974005",
+     "doi": "10.1002/14651858.CD003114.pub2",
+     "pmcid": "PMC7017227",
+     "supports": "example: 關節保護、節省體力、提供副木、指導使用輔具"
+    },
+    {
+     "quote": "In these recommendations, comprehensive refers to the numerous different approaches and interventions that occupational therapists and physical therapists utilize in the assessment and management of people with RA.",
+     "location": "Results, Rehabilitation recommendations (comprehensive OT and PT)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 評估和治療"
+    },
+    {
+     "quote": "Evaluation and treatment by Occupational Therapist with the goal of increasing physical function and participation.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 評估和治療 (2 consistent passes)"
+    },
+    {
+     "quote": "Components of OT services vary and may include arthritis education, ADL evaluation and training, joint protection, activity pacing, work simplification and fatigue management, exercise (particularly for the hand and arm), splinting/orthotics, provision of assistive/adaptive devices, environmental adaptations, work and leisure counselling/rehabilitation, work-site assessment, sexual advice, relaxation, and pain and stress management training.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "example (supplementary; 2 consistent segmented passes)"
+    },
+    {
+     "quote": "Early referral to these services can provide education to people with RA on ways to independently use these interventions (e.g., exercise, joint protection, energy conservation, assistive and adaptive devices) to self-manage their disease.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "example: 關節保護、節省體力、輔具 (OT and PT services)"
+    },
+    {
+     "quote": "Occupational therapists and occupational health experts can provide helpful advice and resources in relation to the workplace.",
+     "location": "Recommendations, R7",
+     "access": "PMC full text",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249",
+     "pmcid": "PMC8458093",
+     "supports": "note: 工作場所相關建議與資源"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 2004 類風濕性關節炎職能治療系統性回顧",
+     "citation": "Steultjens EM, et al. Occupational therapy for rheumatoid arthritis. Cochrane Database Syst Rev 2004;(1):CD003114.",
+     "pmid": "14974005",
+     "doi": "10.1002/14651858.CD003114.pub2"
+    },
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "EULAR 2021 發炎性關節炎自我管理策略建議（歐洲的風濕病學會聯盟）",
+     "citation": "Nikiphorou E, et al. 2021 EULAR recommendations for the implementation of self-management strategies in patients with inflammatory arthritis. Ann Rheum Dis 2021;80(10):1278-1285.",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: the 'daily activities' core of the def comes from a Cochrane review (Tier 3, PMC-verified) and ACR Table 1 (Tier 1, WebFetch, 2 passes); the example is also supported by PMC-verified ACR text. The Cochrane OT review is old (published 2004, last search December 2002); it is used only to describe what OT is and does, not for efficacy. ACR Table 1 definition read via WebFetch (2 consistent passes). The alias 職能或物理治療師 also belongs conceptually to physical-therapy; check how the glossary tool handles overlapping aliases."
+  },
+  {
+   "id": "hand-therapist",
+   "term": "手部治療師",
+   "aliases": [
+    "手部治療師"
+   ],
+   "aka": "hand therapist; certified hand therapist (CHT)",
+   "def": "手部治療師是專門評估手部問題的治療師，通常是受過額外訓練的職能或物理治療師，可依您的需要設計手部運動的方式和強度。",
+   "example": "",
+   "note": "指引舉例的資格是「認證手部治療師」（CHT）。",
+   "label": "ACR 2022・說明",
+   "evidence": [
+    {
+     "quote": "Evaluation of the unique needs of the person with RA with hand involvement is best performed by an experienced hand therapist (e.g., a certified hand therapist (CHT) who is typically an occupational or physical therapist with additional training) who can guide the specific design and intensity of the intervention.",
+     "location": "Results, Rehabilitation recommendations (hand therapy exercises)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def (all parts) and note (CHT)"
+    },
+    {
+     "quote": "For patients with hand involvement, performing hand therapy exercises is conditionally recommended over no hand therapy exercises.",
+     "location": "Results, Rehabilitation recommendations (hand therapy exercises)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "context: site sentence RA-2.1"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: single PMC-verified ACR 2022 sentence (Tier 1). Matches the site wording 多為受過進階訓練的職能或物理治療師 ('typically ... with additional training'). The source gives CHT only as an example; it does not say whether this credential exists in Taiwan, so the note does not claim it."
+  },
+  {
+   "id": "joint-protection",
+   "term": "關節保護技巧",
+   "aliases": [
+    "關節保護技巧",
+    "關節保護"
+   ],
+   "aka": "joint protection (techniques)",
+   "def": "關節保護是一種自我管理方法：改變做事方式和受影響關節的動作，以減少疼痛、發炎和關節負擔，幫助維持身體功能。",
+   "example": "例如改變做事方式以避免疼痛、休息、改用其他肌群",
+   "note": "最好向職能或物理治療師學習正確的做法。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "Self-management approach that aims to maintain function by providing people with ways to alter work methods and movement patterns of affected joints to reduce pain, inflammation, and joint stress. Examples include changing the way of performing activities to avoid pain, resting, using alternative muscle groups.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Joint protection techniques [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def and example (2 consistent segmented passes this session; identical to the research-phase reading of the author manuscript in research/ra.md RA-C39)"
+    },
+    {
+     "quote": "The Voting Panel also stressed the importance of proper patient education in joint protection techniques by occupational or physical therapists.",
+     "location": "Results, Rehabilitation recommendations (joint protection)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note"
+    },
+    {
+     "quote": "Use of joint protection techniques is conditionally recommended over no joint protection techniques.",
+     "location": "Results, Rehabilitation recommendations (joint protection)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "context: site sentence RA-2.2"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: Tier 1 definition read via WebFetch (PMC table page, 2 passes) and identical to the research-phase reading of the author manuscript; note is PMC-verified. The definition is in ACR Table 1, which get_full_text_article does not return. Please spot-check the Table 1 wording against the PMC page. The site's examples (RA-2.2) match Table 1 exactly."
+  },
+  {
+   "id": "orthoses",
+   "term": "副木、護具與矯具",
+   "aliases": [
+    "副木"
+   ],
+   "aka": "splints/splinting; braces/bracing; orthoses; compression (gloves); taping",
+   "def": "副木、護具與矯具是用來支撐、矯正肌肉和骨骼的功能，改善關節排列或保護關節的器具。",
+   "example": "例如手腕或手指副木、足部或膝部矯具、加壓手套、貼紮",
+   "note": "不用處方也買得到，但指引建議由有經驗的職能或物理治療師協助挑選和調整。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "Devices to correct and support musculoskeletal function, improve joint alignment, or protect the joint. Examples include wrist and finger splints, foot or knee orthoses, compression gloves, taping.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Bracing and orthoses [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def and example (2 consistent passes)"
+    },
+    {
+     "quote": "In addition, although these interventions are available without a prescription, the Voting Panel recommends their prescription and use under the guidance of an experienced occupational therapist or physical therapist to ensure appropriate item selection and fit.",
+     "location": "Results, Rehabilitation recommendations (splinting, bracing, orthoses)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note"
+    },
+    {
+     "quote": "For patients with hand and/or wrist involvement and/or deformity, use of splinting, orthoses, and/or compression is conditionally recommended over no splinting, orthoses, and/or compression.",
+     "location": "Results, Rehabilitation recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "context: site sentence RA-2.3 (hand/wrist)"
+    },
+    {
+     "quote": "For patients with foot and/or ankle involvement, use of bracing, orthoses, and/or taping is conditionally recommended over no bracing, orthoses, and/or compression.",
+     "location": "Results, Rehabilitation recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "context: site sentence RA-2.3 (foot/ankle); example 貼紮"
+    },
+    {
+     "quote": "For patients with knee involvement, use of bracing and/or orthoses is conditionally recommended over no bracing and/or orthoses.",
+     "location": "Results, Rehabilitation recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "context: site sentence RA-2.3 (knee)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: Tier 1 definition read via WebFetch (2 passes); note is PMC-verified. Table 1 has one combined row, 'Bracing and orthoses'. The Chinese mapping (splint = 副木, brace = 護具, orthosis = 矯具) follows the site and should be checked by the physician. The context file lists only the alias 副木, but 護具 and 矯具 also appear in RA-2.3; they were not added as aliases, to avoid unintended matches. The foot/ankle statement lists 'taping' in the intervention but 'compression' in the comparator (source inconsistency, already noted in research/ra.md)."
+  },
+  {
+   "id": "assistive-devices",
+   "term": "輔具",
+   "aliases": [
+    "輔具"
+   ],
+   "aka": "assistive devices (mobility); adaptive equipment (daily living); assistive technology",
+   "def": "輔具是用來增加或維持身體功能的用品，可幫助行動或完成日常生活中的活動。",
+   "example": "例如拐杖、助行器、長柄或加粗握把用具、取物夾",
+   "note": "居家環境調整（如扶手、加高馬桶座）也能提升安全。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "Assistive technology is any item used to increase or maintain functional ability in individuals with disabilities. It includes a wide range of products, from low‐technology devices to technologically complex equipment.",
+     "location": "Abstract, Background (text as displayed in the PMC record, which uses the hyphen character U+2010 in low‐technology)",
+     "access": "abstract",
+     "pmid": "19821383",
+     "doi": "10.1002/14651858.CD006729.pub2",
+     "pmcid": "PMC7389411",
+     "supports": "def: 增加或維持身體功能的用品"
+    },
+    {
+     "quote": "Devices to assist with mobility. Examples include crutches, canes, walkers, wheelchairs, tricycles, scooters.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Assistive devices [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 幫助行動; example: 拐杖、助行器 (2 passes; matches research/ra.md RA-C49)"
+    },
+    {
+     "quote": "Devices to assist with activities of daily living. Examples include built up and/or long handled equipment, sock aide, button hook, reachers, pill cutters, cell phone holders.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Adaptive equipment [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 日常生活活動; example: 長柄或加粗握把用具、取物夾 (2 passes; matches research/ra.md RA-C50)"
+    },
+    {
+     "quote": "Adapting environment to improve safety. Examples include adaptations for toileting (raised toilet seat, commode, toilet safety rail), showering (tub seat, handheld shower, walk in bath), grab bars, ramps, stair lifts, home modification.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Environmental adaptations [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note: 扶手、加高馬桶座 (2 passes; matches research/ra.md RA-C51)"
+    },
+    {
+     "quote": "In the absence of evidence addressing these PICO questions, a conditional recommendation was made in favor of using assistive devices/equipment because of the potential for meaningfully improving function and quality of life and the lack of known harms.",
+     "location": "Results, Rehabilitation recommendations (assistive devices, adaptive equipment, environmental adaptations)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "context: site sentence RA-2.4"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 2009 類風濕性關節炎輔具系統性回顧",
+     "citation": "Tuntland H, et al. Assistive technology for rheumatoid arthritis. Cochrane Database Syst Rev 2009;(4):CD006729.",
+     "pmid": "19821383",
+     "doi": "10.1002/14651858.CD006729.pub2"
+    },
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: def from a Cochrane abstract (Tier 3); examples and note from ACR Table 1 via WebFetch (2 passes, identical to research-phase reading). ACR splits these into three items: assistive devices (mobility), adaptive equipment (daily-living tools) and environmental adaptations (home safety). The site groups the first two under 輔具 and mentions 扶手 (grab bars, an environmental adaptation) separately, which is consistent. 拐杖 covers both crutches and canes. ACR found no eligible evidence for these questions (conditional recommendations)."
+  },
+  {
+   "id": "activity-pacing",
+   "term": "活動節奏與節省體力",
+   "aliases": [
+    "安排活動節奏",
+    "活動節奏",
+    "節省體力",
+    "調整步調"
+   ],
+   "aka": "activity pacing; energy conservation; activity modification; fatigue management; activity management (planning, prioritizing, pacing)",
+   "def": "指在活動和休息之間取得平衡，讓自己能完成要做的活動；包括調整活動節奏、節省體力、改變活動方式和處理疲倦的技巧。",
+   "example": "例如事先規劃、排出優先順序、調整步調",
+   "note": "目前研究證據很少，但一般認為安全；可請職能或物理治療師指導。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "Balancing activity and rest to accomplish activities. Includes activity pacing, energy conservation, activity modification, fatigue management techniques.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Activity pacing [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def (2 passes; identical to research-phase reading in research/ra.md RA-C58)"
+    },
+    {
+     "quote": "We recommend an individualized holistic review for those with fatigue focusing on activity management (for example planning, prioritizing, pacing), sleep quality and lifestyle (2, C) (SOA 96.7%).",
+     "location": "Fatigue section, recommendation after question 14",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "example: 事先規劃、排出優先順序、調整步調 (site sentence SJ-4.2)"
+    },
+    {
+     "quote": "There was no evidence found for this PICO question. However, these interventions are generally safe and may help preserve physical function and manage fatigue. Proper instruction in these approaches by occupational or physical therapists as well as periodic reminders to employ them were suggested by the Patient Panel and Voting Panel.",
+     "location": "Results, Rehabilitation recommendations (activity pacing, energy conservation)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note"
+    },
+    {
+     "quote": "Use of activity pacing, energy conservation, activity modification, and/or fatigue management is conditionally recommended over no activity pacing, energy conservation, activity modification, and/or fatigue management.",
+     "location": "Results, Rehabilitation recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "aka; context: site sentence RA-5.1"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "BSR 2025 乾燥症指引（英國的風濕病學會）",
+     "citation": "Price EJ, et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: Tier 1 definition via WebFetch (2 passes plus research-phase reading); example (BSR 2025) and note (ACR) are PMC-verified. One small cross-sectional RA study (Cuperus N et al. Clin Rehabil 2012;26:1048-52, PMID 22327885) found activity pacing associated with lower physical activity. This was not added to the note (single small study), but it supports the site's separate advice to keep exercising."
+  },
+  {
+   "id": "self-management",
+   "term": "自我管理課程",
+   "aliases": [
+    "自我管理課程",
+    "自我管理"
+   ],
+   "aka": "self-management; (standardized) self-management program",
+   "def": "自我管理是自己處理症狀、治療、生活習慣改變，以及疾病對心理與社會影響的能力；自我管理課程是引導您做到這些的標準化課程。",
+   "example": "課程可包括疾病衛教、學習解決問題和設定目標",
+   "note": "自我管理不是要您獨自面對，最好有醫療人員、病友團體和家人支持。",
+   "label": "EULAR 2021・定義",
+   "evidence": [
+    {
+     "quote": "self-management is defined as ‘the ability of the individual to manage symptoms, treatment, lifestyle changes and psychosocial and cultural consequences of health conditions’",
+     "location": "Results, Definition (definition adopted from Barlow)",
+     "access": "PMC full text",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249",
+     "pmcid": "PMC8458093",
+     "supports": "def: 自我管理的能力"
+    },
+    {
+     "quote": "In this definition, two major components were highlighted: (1) self-management is aimed at achieving independence and (2) ideally, self-management should be supported by others, for example, HCPs, patient organisations and family.",
+     "location": "Results, Definition",
+     "access": "PMC full text",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249",
+     "pmcid": "PMC8458093",
+     "supports": "note"
+    },
+    {
+     "quote": "R2. Patient education should be the start point and underpin all self-management interventions.",
+     "location": "Table 1, R2",
+     "access": "PMC full text",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249",
+     "pmcid": "PMC8458093",
+     "supports": "example: 疾病衛教"
+    },
+    {
+     "quote": "R3. Self-management interventions that include problem solving and goal setting and, where relevant to the individual and available, cognitive behavioural therapy should be incorporated into routine clinical practice to support patients.",
+     "location": "Table 1, R3",
+     "access": "PMC full text",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249",
+     "pmcid": "PMC8458093",
+     "supports": "example: 解決問題、設定目標"
+    },
+    {
+     "quote": "Use of a standardized self-management program is conditionally recommended over no standardized self-management program.",
+     "location": "Results, Additional integrative intervention recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 標準化課程; context: site sentence RA-5.3"
+    },
+    {
+     "quote": "Standardized program to guide self-management.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Self-management program [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 幫助您做到自我管理的標準化課程 (2 passes; the row continues with named example programmes, not used)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EULAR 2021 發炎性關節炎自我管理策略建議（歐洲的風濕病學會聯盟）",
+     "citation": "Nikiphorou E, et al. 2021 EULAR recommendations for the implementation of self-management strategies in patients with inflammatory arthritis. Ann Rheum Dis 2021;80(10):1278-1285.",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249"
+    },
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: EULAR 2021 definition and ACR 2022 'standardized self-management program' are PMC-verified; Table 1 wording (WebFetch) is supplementary. EULAR's definition also mentions 'cultural consequences'; the def says 心理與社會影響 for readability (a simplification, nothing added). EULAR 2021 is not cited on the site; it was used because it gives an explicit definition. ACR Table 1 names specific US programmes (e.g. Arthritis Self-Management Program); these were not used because they may not be available in Taiwan."
+  },
+  {
+   "id": "vocational-rehab",
+   "term": "職業重建",
+   "aliases": [
+    "職業重建"
+   ],
+   "aka": "vocational rehabilitation",
+   "def": "職業重建是幫助克服工作障礙、支持就業的訓練課程，適合目前有工作或想要工作的人。",
+   "example": "",
+   "note": "指引也建議評估並調整工作場所的環境和工作內容，以維護安全和健康。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "For patients who are currently employed or want to become employed, use of vocational rehabilitation (training programs to support employment) is conditionally recommended over no vocational rehabilitation.",
+     "location": "Results, Rehabilitation recommendations (vocational rehabilitation)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 支持就業的訓練課程；適合有工作或想工作的人"
+    },
+    {
+     "quote": "Training programs to overcome barriers preventing successful employment.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Vocational rehabilitation [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 克服工作障礙 (2 passes)"
+    },
+    {
+     "quote": "For patients who are currently employed or want to become employed, work site evaluations and/or modifications are conditionally recommended over no work site evaluations and/or modifications",
+     "location": "Results, Rehabilitation recommendations (work site evaluation)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note: 評估並調整工作場所"
+    },
+    {
+     "quote": "Evaluating and adjusting work-site conditions and duties for safety and well-being.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Work site evaluation and modifications [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note: 環境和工作內容、安全和健康 (2 passes)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: core def and note are PMC-verified ACR text; Table 1 wording (WebFetch, 2 passes) is supplementary. ACR based this recommendation on an 'absence of evidence for vocational rehabilitation'. Its implementation notes refer to US law (Americans with Disabilities Act, Family and Medical Leave Act) and do not apply to Taiwan. 職業重建 is the Taiwanese service term (as recorded in ra.json reviewer_notes); no source describes the Taiwanese service itself."
+  },
+  {
+   "id": "spinal-manipulation",
+   "term": "脊椎扳動手法（整脊）",
+   "aliases": [
+    "脊椎扳動手法",
+    "整脊"
+   ],
+   "aka": "spinal manipulation (high-velocity thrust); chiropractic spinal manipulation / chiropractic spinal adjustment",
+   "def": "脊椎扳動手法是一種徒手治療：在脊椎關節活動範圍的末端快速、小幅度地用力一推，常會發出「喀」一聲；整脊也屬於這類手法。",
+   "example": "",
+   "note": "脊椎已融合或嚴重骨鬆的人，曾有扳動後脊椎骨折、脊髓受傷的病例報告。",
+   "label": "系統性回顧・定義",
+   "evidence": [
+    {
+     "quote": "In this review, we consider SMT to represent any hands-on treatment of the spine, including both mobilisation and manipulation.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30867144",
+     "doi": "10.1136/bmj.l689",
+     "pmcid": "PMC6396088",
+     "supports": "def: 徒手治療"
+    },
+    {
+     "quote": "manipulation uses a high velocity impulse or thrust applied to a synovial joint over a short amplitude at or near the end of the passive or physiological range of motion",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30867144",
+     "doi": "10.1136/bmj.l689",
+     "pmcid": "PMC6396088",
+     "supports": "def: 在關節活動範圍末端快速、小幅度地推"
+    },
+    {
+     "quote": "This is often accompanied by an audible crack, resulting from cavitation of the joint.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30867144",
+     "doi": "10.1136/bmj.l689",
+     "pmcid": "PMC6396088",
+     "supports": "def: 常會發出喀一聲"
+    },
+    {
+     "quote": "the panel recommended strongly against spinal manipulation with high-velocity thrusts in patients with AS who have spinal fusion or advanced spinal osteoporosis.",
+     "location": "Recommendations C (PICO 21), Evidence and rationale",
+     "access": "PMC full text",
+     "pmid": "26401991",
+     "doi": "10.1002/art.39298",
+     "pmcid": "PMC5123840",
+     "supports": "def: high-velocity thrust; context: site sentence AS-3.2"
+    },
+    {
+     "quote": "Several case reports of spine fractures, spinal cord injury, and paraplegia following chiropractic spinal manipulation, particularly of the cervical spine in patients with spinal fusion or advanced osteoporosis of the spine, have been reported",
+     "location": "Recommendations C (PICO 21), Evidence and rationale",
+     "access": "PMC full text",
+     "pmid": "26401991",
+     "doi": "10.1002/art.39298",
+     "pmcid": "PMC5123840",
+     "supports": "def: 整脊屬於這類手法; note"
+    },
+    {
+     "quote": "this recommendation for “not” using chiropractic therapy (i.e., chiropractic spinal adjustment) directly for the management of RA is conditional because of the potential cervical spine complications that can occur in people with RA",
+     "location": "Results, Additional integrative intervention recommendations (chiropractic)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 整脊（脊椎調整）; context: site myth RA-M4"
+    },
+    {
+     "quote": "Diagnosis and manipulation of malaligned joints, particularly the spine.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Chiropractic [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 整脊是對脊椎等關節的扳動 (2 passes)"
+    },
+    {
+     "quote": "However, any type of spinal manipulation should be avoided in axSpA patients due to the risk of osteoporosis and spinal fracture, and rheumatologists should expressly warn patients of the risk involved",
+     "location": "Statement under Overarching Principle 3",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "context: site sentence AS-3.1"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2019 脊椎徒手治療（扳動與鬆動）系統性回顧與統合分析（BMJ）",
+     "citation": "Rubinstein SM, et al. Benefits and harms of spinal manipulative therapy for the treatment of chronic low back pain: systematic review and meta-analysis of randomised controlled trials. BMJ 2019;364:l689.",
+     "pmid": "30867144",
+     "doi": "10.1136/bmj.l689"
+    },
+    {
+     "short": "ACR/SAA/SPARTAN 2015 僵直性脊椎炎與非放射學中軸型脊椎關節炎治療建議（美國的風濕病醫學會與兩個脊椎關節炎組織）",
+     "citation": "Ward MM, et al. American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network 2015 Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis. Arthritis Rheumatol 2016;68(2):282-298. Co-published in Arthritis Care Res (Hoboken) 2016;68(2):151-166 (PMID 26401907; doi:10.1002/acr.22708).",
+     "pmid": "26401991",
+     "doi": "10.1002/art.39298"
+    },
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識（台灣的風濕病醫學會）",
+     "citation": "Wei JC, et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: all quotes PMC-verified, but the technical description (end of range, audible crack) comes from a BMJ systematic review (Tier 3); 'high-velocity thrust' and the note are Tier 1 (ACR 2015). Rubinstein's 'SMT' covers both manipulation and the gentler mobilisation; 扳動手法 corresponds to manipulation (high-velocity thrust), which is what ACR 2015 recommends against. Scope differs by source: ACR 2015 strongly against only with spinal fusion or advanced spinal osteoporosis; TRA 2020 says avoid any spinal manipulation in axSpA; ACR 2022 conditionally against chiropractic for RA (the PMC text drops the word 'against' from the statement, but 'not' is retained in the rationale quoted here). The PMC text of the TRA sentence ends '...techniques common in.' (word lost), so it was quoted only up to 'risk involved'. The 2019 BMJ review is about chronic low back pain; it is used only for the technical description of manipulation."
+  },
+  {
+   "id": "cervical-traction",
+   "term": "頸椎牽引",
+   "aliases": [
+    "頸椎牽引"
+   ],
+   "aka": "cervical traction (e.g., mechanical traction of the neck)",
+   "def": "頸椎牽引是用拉力伸展頸部的治療。例如機械牽引：躺著時把頭套套在後腦（有時也套住下巴），接上機器，依設定的重量和時間拉。",
+   "example": "",
+   "note": "僵直性脊椎炎患者的脊椎可能較脆弱，台灣共識建議避免頸椎牽引。",
+   "label": "系統性回顧・說明",
+   "evidence": [
+    {
+     "quote": "Mechanical traction 'stretches' the neck. With the patient lying on their back, a head halter is placed under the back of the head and possibly the jaw and attached to a machine. The machine is set for a certain time period and specific weight for the pulling action to occur.",
+     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "access": "PMC full text",
+     "pmid": "18646151",
+     "doi": "10.1002/14651858.CD006408.pub2",
+     "pmcid": "PMC13429286",
+     "supports": "def (all parts)"
+    },
+    {
+     "quote": "AS patients often have fragile and osteoporotic spines that can develop spinal fractures or dislocations from only mild trauma, and therefore contact sports, cervical traction, and spinal manipulation should be avoided.",
+     "location": "Statement accompanying Recommendation 4",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "note; context: site sentence AS-3.1"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 2008 頸部機械牽引系統性回顧",
+     "citation": "Graham N, et al. Mechanical traction for neck pain with or without radiculopathy. Cochrane Database Syst Rev 2008;(3):CD006408.",
+     "pmid": "18646151",
+     "doi": "10.1002/14651858.CD006408.pub2"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識（台灣的風濕病醫學會）",
+     "citation": "Wei JC, et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: def from a Cochrane review record in PMC (Tier 3); note PMC-verified (TRA 2020, Tier 1). The Cochrane description covers mechanical traction only; TRA advises avoiding cervical traction in general, so the def gives mechanical traction as an example. Cochrane 2008 (search to March 2008). It also lists side effects ('headache, nausea, fainting and injury to tissue'), which were not added."
+  },
+  {
+   "id": "contact-sports",
+   "term": "接觸性運動",
+   "aliases": [
+    "接觸性運動"
+   ],
+   "aka": "contact sports",
+   "def": "接觸性運動是指比賽中本來就預期選手之間會有身體接觸的運動。",
+   "example": "例如籃球、足球",
+   "note": "僵直性脊椎炎的脊椎可能較脆弱，輕微外力就可能骨折，台灣共識建議避免。",
+   "label": "文獻回顧・定義",
+   "evidence": [
+    {
+     "quote": "Contact sports are defined as sports in which body-to-body contact is expected as part of the game such as football, basketball, soccer and hockey.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "33443051",
+     "doi": "10.1136/jim-2020-001658",
+     "pmcid": "",
+     "supports": "def and example (basketball, soccer)"
+    },
+    {
+     "quote": "AS patients often have fragile and osteoporotic spines that can develop spinal fractures or dislocations from only mild trauma, and therefore contact sports, cervical traction, and spinal manipulation should be avoided.",
+     "location": "Statement accompanying Recommendation 4",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "note; context: site sentences AS-3.1 and AS-M1"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2021 接觸性運動與抗凝血治療回顧（J Investig Med）",
+     "citation": "Kichloo A, et al. Anticoagulation and antiplatelet therapy in contact sports: is it career limiting? J Investig Med 2021;69(3):781-784.",
+     "pmid": "33443051",
+     "doi": "10.1136/jim-2020-001658"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識（台灣的風濕病醫學會）",
+     "citation": "Wei JC, et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: explicit definition only in a narrative review abstract (Tier 3, mid-tier journal); note PMC-verified (TRA 2020). No guideline or consensus definition was found in accessible PubMed text. The AAP policy statement 'Medical conditions affecting sports participation' (Rice SG, Pediatrics 2008;121:841-8, PMID 18381550) classifies sports as collision, contact and limited-contact, but its abstract has no definition and the full text was not accessible. 'football' in the quote probably means American football and 'hockey' is ambiguous, so the example uses only basketball and soccer. The site's 容易碰撞的接觸性運動 fits this definition."
+  },
+  {
+   "id": "flare-plan",
+   "term": "發作計畫",
+   "aliases": [
+    "發作計畫"
+   ],
+   "aka": "flare management plan",
+   "def": "發作計畫是和醫療團隊討論後，依您的需要、偏好和生活情況擬定的「病情發作時怎麼辦」計畫。",
+   "example": "內容可包括聯絡誰、自我照護、疼痛與疲倦處理、可能的藥物調整",
+   "note": "自我照護例如運動、伸展和關節保護；也包括如何因應對生活和工作的影響。",
+   "label": "NICE 2017・建議內容",
+   "evidence": [
+    {
+     "quote": "Consider developing a flare management plan that is tailored to the person's individual needs, preferences and circumstances.",
+     "location": "Recommendation 1.3.4 (nice.org.uk/guidance/ng65/chapter/Recommendations)",
+     "access": "WebFetch",
+     "pmid": "28350428",
+     "doi": "",
+     "pmcid": "",
+     "supports": "def (2 passes this session; matches research/axspa.md C60)"
+    },
+    {
+     "quote": "When discussing any flare management plan, provide information on:",
+     "location": "Recommendation 1.3.5, lead-in",
+     "access": "WebFetch",
+     "pmid": "28350428",
+     "doi": "",
+     "pmcid": "",
+     "supports": "def: 和醫療團隊討論 (confirmed verbatim on a second pass; matches research/axspa.md C60)"
+    },
+    {
+     "quote": "access to care during flares (including details of a named person to contact [for example, a specialist rheumatology nurse]); self-care (for example, exercises, stretching and joint protection); pain and fatigue management; potential changes to medicines; managing the impact on daily life and ability to work.",
+     "location": "Recommendation 1.3.5, bullet list (joined with semicolons)",
+     "access": "WebFetch",
+     "pmid": "28350428",
+     "doi": "",
+     "pmcid": "",
+     "supports": "example and note (bullets returned verbatim this session; matches research/axspa.md C60)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "NICE NG65 脊椎關節炎診斷與治療指引（英國的國家臨床指引機構）",
+     "citation": "National Institute for Health and Care Excellence (NICE). Spondyloarthritis in over 16s: diagnosis and management (NICE guideline NG65). London: NICE; 2017 (published 28 February 2017; last updated 2 June 2017).",
+     "pmid": "28350428",
+     "doi": ""
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: Tier 1 guideline cited by the site, read via WebFetch (2 passes, matching the research-phase reading); PubMed record not retrievable by get_article_metadata. No PubMed abstract or PMC text defines a flare plan; NICE NG65 is the only source. PubMed indexes NG65 as a book record: PMID 28350428 found by title search and confirmed as a 2017 NICE spondyloarthritis record by field searches, but get_article_metadata returned nothing and there is no DOI. A second 2017 NICE spondyloarthritis record, PMID 32049469, also exists; please confirm which is the guideline. NICE's example contact (a specialist rheumatology nurse) is UK-specific and was omitted."
+  },
+  {
+   "id": "bed-cage",
+   "term": "支被架",
+   "aliases": [
+    "支被架"
+   ],
+   "aka": "bed cage (bed-cage); bed cradle",
+   "def": "",
+   "example": "",
+   "note": "",
+   "label": "未找到 PubMed 定義",
+   "evidence": [
+    {
+     "quote": "Bed-cages and ice-packs can be effective adjuncts to management.",
+     "location": "Recommendation II, management of acute attacks (academic.oup.com article page)",
+     "access": "WebFetch",
+     "pmid": "28549177",
+     "doi": "10.1093/rheumatology/kex156",
+     "pmcid": "",
+     "supports": "site usage only (GT-4.2); not a definition. The preceding sentence, 'Affected joints should be rested, elevated and exposed in a cool environment.', was read in the research phase (research/gout.md C88) but not re-read this session"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2017 英國風濕病學會痛風指引",
+     "citation": "Hui M, et al. The British Society for Rheumatology Guideline for the Management of Gout. Rheumatology (Oxford) 2017;56(7):e1-e20.",
+     "pmid": "28549177",
+     "doi": "10.1093/rheumatology/kex156"
+    }
+   ],
+   "confidence": "Low",
+   "status": "no_source",
+   "reviewer_notes": "Confidence basis: no definition found. No PubMed-indexed source defining a bed cage or bed cradle was found. BSR 2017 mentions bed-cages once without describing them (WebFetch search of the OUP full text: one mention). PubMed title/abstract searches for 'bed cage', 'bed-cage(s)', 'bed cradle(s)', and 'bedclothes' with gout/arthritis/cage/cradle/frame returned only 1948-1957 device notes without abstracts and unrelated records. The site's own phrase 可用支被架撐起棉被 already explains its use, but that wording is not in the BSR quote; the physician should decide whether to keep it as is or drop the glossary popup."
+  },
+  {
+   "id": "cbt",
+   "term": "認知行為治療",
+   "aliases": [
+    "認知行為治療"
+   ],
+   "aka": "cognitive behavioural therapy (CBT)",
+   "def": "認知行為治療是一種心理治療，幫助您找出並改變想法和行為的模式，以便更好地處理症狀。",
+   "example": "",
+   "note": "常由心理師或心理治療師提供，也有受過這項訓練的專科護理師。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "CBT focuses on changing the way someone thinks and behaves, to help them manage their symptoms better.",
+     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "access": "PMC full text",
+     "pmid": "32794606",
+     "doi": "10.1002/14651858.CD007407.pub4",
+     "pmcid": "PMC7437545",
+     "supports": "def: 改變想法和行為，以更好地處理症狀"
+    },
+    {
+     "quote": "Psychological treatments (talking and behaviour therapies) aim to help people change the way they manage pain, to minimise disability and distress.",
+     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "access": "PMC full text",
+     "pmid": "32794606",
+     "doi": "10.1002/14651858.CD007407.pub4",
+     "pmcid": "PMC7437545",
+     "supports": "def: 心理治療 (CBT is the main psychological treatment reviewed)"
+    },
+    {
+     "quote": "Psychological therapy to identify and change thought and behavior patterns.",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Cognitive behavioral therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
+     "access": "WebFetch",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def: 心理治療、找出並改變想法和行為模式 (2 passes)"
+    },
+    {
+     "quote": "CBT is a psychosocial intervention, often delivered by psychologists/psychotherapists, but also by some nurse specialists who have done a course in CBT and this further highlights the important role of the MDT.",
+     "location": "Recommendations, R3 text",
+     "access": "PMC full text",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249",
+     "pmcid": "PMC8458093",
+     "supports": "note"
+    },
+    {
+     "quote": "Use of cognitive behavioral therapy and/or mind-body approaches is conditionally recommended over no cognitive behavioral therapy and/or mind-body approaches",
+     "location": "Results, Additional integrative intervention recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "context: site sentence RA-5.4"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引（美國的風濕病醫學會）",
+     "citation": "England BR, et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615 (PMID 37227116; doi:10.1002/acr.25117).",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "Cochrane 2020 慢性疼痛心理治療系統性回顧",
+     "citation": "Williams ACC, et al. Psychological therapies for the management of chronic pain (excluding headache) in adults. Cochrane Database Syst Rev 2020;8(8):CD007407.",
+     "pmid": "32794606",
+     "doi": "10.1002/14651858.CD007407.pub4"
+    },
+    {
+     "short": "EULAR 2021 發炎性關節炎自我管理策略建議（歐洲的風濕病學會聯盟）",
+     "citation": "Nikiphorou E, et al. 2021 EULAR recommendations for the implementation of self-management strategies in patients with inflammatory arthritis. Ann Rheum Dis 2021;80(10):1278-1285.",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: def PMC-verified from a Cochrane plain language summary (Tier 3) and matches ACR Table 1 (Tier 1, WebFetch, 2 passes); note PMC-verified (EULAR 2021). Cochrane 2020 covers chronic pain, including RA; it is used only to describe what CBT is. 心理師 is used as the Taiwanese term for 'psychologists' (a translation, not a claim about Taiwanese licensing)."
+  },
+  {
+   "id": "psychosocial",
+   "term": "心理社會介入",
+   "aliases": [
+    "心理社會介入"
+   ],
+   "aka": "psychosocial interventions",
+   "def": "心理社會介入是各種用來影響或改變想法、情緒、行為或人際互動的非藥物協助方式。",
+   "example": "例如認知行為治療、團體治療、心理衛教課程、心理諮商",
+   "note": "認知行為治療就是一種心理社會介入。",
+   "label": "系統性回顧・定義",
+   "evidence": [
+    {
+     "quote": "Psychosocial interventions were defined as various kinds of interventions provided to influence or change cognitions, emotions, behaviours, social interactions, or a combination of these.",
+     "location": "Abstract, Selection criteria",
+     "access": "abstract",
+     "pmid": "28708236",
+     "doi": "10.1002/14651858.CD012030.pub2",
+     "pmcid": "PMC6408929",
+     "supports": "def"
+    },
+    {
+     "quote": "Photoprotection and psychosocial interventions are important for SLE patients, while mouth and hand exercises are important in SSc.",
+     "location": "Abstract, Results",
+     "access": "abstract",
+     "pmid": "37433575",
+     "doi": "10.1136/ard-2023-224416",
+     "pmcid": "",
+     "supports": "def: 非藥物 (listed among non-pharmacological management)"
+    },
+    {
+     "quote": "psychological interventions in the form of cognitive behavioural therapy (CBT), group therapy and psychoeducational programmes",
+     "location": "Text under the SLE-specific recommendation on psychosocial interventions (ard.bmj.com/content/83/6/720)",
+     "access": "WebFetch",
+     "pmid": "37433575",
+     "doi": "10.1136/ard-2023-224416",
+     "pmcid": "",
+     "supports": "example: 認知行為治療、團體治療、心理衛教課程 (matches research-phase reading in research/sle.md C106)"
+    },
+    {
+     "quote": "Counselling, CBT and supported psychotherapy improved anxiety",
+     "location": "Text under the SLE-specific recommendation on psychosocial interventions (ard.bmj.com/content/83/6/720)",
+     "access": "WebFetch",
+     "pmid": "37433575",
+     "doi": "10.1136/ard-2023-224416",
+     "pmcid": "",
+     "supports": "example: 心理諮商 (matches research/sle.md C106)"
+    },
+    {
+     "quote": "CBT is a psychosocial intervention, often delivered by psychologists/psychotherapists, but also by some nurse specialists who have done a course in CBT and this further highlights the important role of the MDT.",
+     "location": "Recommendations, R3 text",
+     "access": "PMC full text",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249",
+     "pmcid": "PMC8458093",
+     "supports": "note"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 2017 心理社會介入系統性回顧（癌症治療期間疲倦）",
+     "citation": "Poort H, et al. Psychosocial interventions for fatigue during cancer treatment with palliative intent. Cochrane Database Syst Rev 2017;7(7):CD012030.",
+     "pmid": "28708236",
+     "doi": "10.1002/14651858.CD012030.pub2"
+    },
+    {
+     "short": "EULAR 2024 紅斑性狼瘡與全身性硬化症非藥物治療建議",
+     "citation": "Parodis I, et al. EULAR recommendations for the non-pharmacological management of systemic lupus erythematosus and systemic sclerosis. Ann Rheum Dis 2024;83(6):720-729.",
+     "pmid": "37433575",
+     "doi": "10.1136/ard-2023-224416"
+    },
+    {
+     "short": "EULAR 2021 發炎性關節炎自我管理策略建議（歐洲的風濕病學會聯盟）",
+     "citation": "Nikiphorou E, et al. 2021 EULAR recommendations for the implementation of self-management strategies in patients with inflammatory arthritis. Ann Rheum Dis 2021;80(10):1278-1285.",
+     "pmid": "33962964",
+     "doi": "10.1136/annrheumdis-2021-220249"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: def from a Cochrane abstract (Tier 3); examples from the site-cited EULAR 2024 text via WebFetch (matching research-phase reading). EULAR 2024 gives no definition of 'psychosocial interventions' (checked by WebFetch). The explicit definition comes from a Cochrane review in cancer patients; it is generic and used only for the meaning of the term. Under its psychosocial-interventions recommendation, the EULAR explanatory text names these examples as 'psychological interventions' (CBT, group therapy, psychoeducational programmes; counselling, supported psychotherapy). EULAR 2024 is not in PMC; the site's own evidence (sle.json C105) quotes the Table 1 wording of the recommendation."
+  },
+  {
+   "id": "complementary",
+   "term": "輔助療法",
+   "aliases": [
+    "輔助療法"
+   ],
+   "aka": "complementary therapies; complementary and alternative medicine (CAM)",
+   "def": "輔助療法泛指不屬於當地、當時主流醫療體系的各種療法和做法。",
+   "example": "",
+   "note": "有些可能短期緩解症狀，但長期效果的證據很少，不應取代正規治療。",
+   "label": "IOM・定義",
+   "evidence": [
+    {
+     "quote": "Complementary and alternative medicine (CAM) is a broad domain of healing resources that encompasses all health systems, modalities, and practices and their accompanying theories and beliefs, other than those intrinsic to the politically dominant health system of a particular society or culture in a given historical period.",
+     "location": "Box 1, Theoretical definition of CAM (Institute of Medicine, 2005, as quoted by the Cochrane CAM Field)",
+     "access": "PMC full text",
+     "pmid": "21717826",
+     "doi": "",
+     "pmcid": "PMC3196853",
+     "supports": "def"
+    },
+    {
+     "quote": "Inform adults with RA who wish to try complementary therapies that although some may provide short-term symptomatic benefit, there is little or no evidence for their long-term efficacy. [2009]",
+     "location": "Recommendation 1.8.9 (nice.org.uk/guidance/ng100/chapter/Recommendations)",
+     "access": "WebFetch",
+     "pmid": "30102507",
+     "doi": "",
+     "pmcid": "",
+     "supports": "note: 短期緩解、長期證據很少 (matches research/ra.md RA-C101)"
+    },
+    {
+     "quote": "If an adult with RA decides to try complementary therapies, advise them: • these approaches should not replace conventional treatment",
+     "location": "Recommendation 1.8.10 (first bullet)",
+     "access": "WebFetch",
+     "pmid": "30102507",
+     "doi": "",
+     "pmcid": "",
+     "supports": "note: 不應取代正規治療 (matches research/ra.md RA-C101; site myth RA-M1)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2011 Cochrane 輔助與另類療法領域之定義文章",
+     "citation": "Wieland LS, Manheimer E, Berman BM. Development and classification of an operational definition of complementary and alternative medicine for the Cochrane collaboration. Altern Ther Health Med 2011;17(2):50-59.",
+     "pmid": "21717826",
+     "doi": ""
+    },
+    {
+     "short": "NICE NG100 成人類風濕性關節炎處置指引（英國的國家臨床指引機構）",
+     "citation": "National Institute for Health and Care Excellence (NICE). Rheumatoid arthritis in adults: management (NICE guideline NG100). London: NICE; 2018 (published 11 July 2018; last updated 12 October 2020).",
+     "pmid": "30102507",
+     "doi": ""
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Confidence basis: definition is the Institute of Medicine wording quoted in a PMC-verified Cochrane CAM Field paper (second-hand); note from NICE NG100 via WebFetch (matching research-phase reading). This is a definition of 'complementary and alternative medicine'; NICE uses 'complementary therapies' without defining it (WebFetch check of NG100). Wieland 2011 lists acupuncture, homeopathy, herbal medicine, traditional Chinese medicine and chiropractic as CAM from a US/European perspective. No example was given because in Taiwan Chinese medicine (including acupuncture) is licensed within the health system, so what counts as 'mainstream' differs (the IOM definition is relative to 'a particular society'). Also note that ACR 2022 conditionally recommends acupuncture and massage for RA. PubMed lists NICE NG100 as book record PMID 30102507 (a 2018 NICE rheumatoid arthritis record by field search; metadata not retrievable). Wieland 2011 has no DOI in PubMed."
+  }
+ ]
+}

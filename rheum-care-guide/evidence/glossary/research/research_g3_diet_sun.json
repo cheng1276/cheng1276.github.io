@@ -1,0 +1,1569 @@
+{
+ "group": "g3_diet_sun",
+ "entries": [
+  {
+   "id": "purine",
+   "term": "普林（高普林食物）",
+   "aliases": [
+    "高普林食物",
+    "普林"
+   ],
+   "aka": "purine; purine-rich (high-purine) foods",
+   "def": "普林是身體本來就有、很多食物也含有的物質；身體分解普林，最後會變成尿酸。高普林食物就是普林含量高的食物。",
+   "example": "肉類、內臟、肉汁、海鮮等。",
+   "note": "尿酸大多來自身體本身的普林；動物來源的高普林食物，普林量通常比植物來源的高。",
+   "label": "文獻回顧・定義",
+   "evidence": [
+    {
+     "quote": "Urate is the end-product of the purine metabolism in humans. The dominant source of urate is endogenous purines and the remainder comes through diet.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "32620198",
+     "doi": "10.1016/j.semarthrit.2020.04.007",
+     "pmcid": "",
+     "supports": "def：分解普林最後變成尿酸；普林有身體本身與飲食兩種來源。note：尿酸大多來自身體本身的普林。"
+    },
+    {
+     "quote": "Hyperuricemia or excessive circulating concentrations of urate, the final product of purine metabolism, is a major risk factor for gout and plays a major role in the pathogenesis of this condition.",
+     "location": "Introduction, paragraph 1",
+     "access": "PMC full text",
+     "pmid": "27697882",
+     "doi": "10.1136/bmjopen-2016-013191",
+     "pmcid": "PMC5073537",
+     "supports": "def：尿酸（urate）是普林代謝的最終產物。"
+    },
+    {
+     "quote": "The food items included all high-purine content of foods (eg, all meats, organ meats, meat extracts and gravies, seafood, beans, peas, lentils, oatmeal, spinach, asparagus, mushroom, yeast, beer and other alcoholic beverages (including wine and liquor))",
+     "location": "Methods – Ascertainment of risk factors",
+     "access": "PMC full text",
+     "pmid": "22648933",
+     "doi": "10.1136/annrheumdis-2011-201215",
+     "pmcid": "PMC3889483",
+     "supports": "example：研究列為高普林食物的肉類、內臟、肉汁（meat extracts and gravies）、海鮮（清單也含植物性食物與酒，見 reviewer_notes）。"
+    },
+    {
+     "quote": "indicate that avoiding or reducing purine-rich foods, especially of animal origin (that tend to have higher purine content than those of plant origin), would help reduce recurrent gout attacks.",
+     "location": "Discussion, paragraph 3",
+     "access": "PMC full text",
+     "pmid": "22648933",
+     "doi": "10.1136/annrheumdis-2011-201215",
+     "pmcid": "PMC3889483",
+     "supports": "note：動物來源的高普林食物，普林量通常比植物來源高。"
+    },
+    {
+     "quote": "Limiting purine intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "location": "Results – Management of lifestyle factors (recommendation statements)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "網站用法（GT-2.1 限制普林攝取）。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Keenan 2020 尿酸生物學回顧",
+     "citation": "Keenan RT. The biology of urate. Semin Arthritis Rheum 2020;50(3S):S2-S10.",
+     "pmid": "32620198",
+     "doi": "10.1016/j.semarthrit.2020.04.007"
+    },
+    {
+     "short": "Jamnik 2016 果糖與痛風系統性回顧",
+     "citation": "Jamnik J et al. Fructose intake and risk of gout and hyperuricemia: a systematic review and meta-analysis of prospective cohort studies. BMJ Open 2016;6(10):e013191.",
+     "pmid": "27697882",
+     "doi": "10.1136/bmjopen-2016-013191"
+    },
+    {
+     "short": "Zhang 2012 高普林食物與痛風復發研究",
+     "citation": "Zhang Y et al. Purine-rich foods intake and recurrent gout attacks. Ann Rheum Dis 2012;71(9):1448-53.",
+     "pmid": "22648933",
+     "doi": "10.1136/annrheumdis-2011-201215"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "Medium (Tier 3: review abstract, SR and cohort PMC full text; no Tier 1 guideline defines 'purine')",
+   "status": "ok",
+   "reviewer_notes": "ACR 2020, EULAR 2016 and BSR 2017 use 'purine intake / high purine foods' without defining purine; the definition therefore rests on a review (Keenan 2020, single author, Semin Arthritis Rheum supplement) and Jamnik 2016. Zhang 2012's list of 'high-purine content' foods also includes beans, peas, lentils, oatmeal, spinach, asparagus, mushroom, yeast, beer and other alcoholic beverages; the example deliberately lists only the animal foods so that it does not appear to contradict GT-2.4 (soy beans and vegetable protein encouraged) — Zhang found plant purines only weakly associated with attacks. Physician may prefer to show the full list with that caveat."
+  },
+  {
+   "id": "uric-acid",
+   "term": "尿酸與高尿酸血症",
+   "aliases": [
+    "高尿酸血症",
+    "血中尿酸",
+    "尿酸"
+   ],
+   "aka": "uric acid / urate; serum urate (SU); hyperuricemia (hyperuricaemia)",
+   "def": "尿酸是身體分解普林後最後產生的物質。血中尿酸濃度太高，叫做高尿酸血症，是發生痛風最重要的危險因子。",
+   "example": "",
+   "note": "美國痛風指引：血中尿酸6.8 mg/dL以上，但從未發作、也沒有痛風石，稱為無症狀高尿酸血症。",
+   "label": "ACR 2020・定義",
+   "evidence": [
+    {
+     "quote": "Hyperuricemia or excessive circulating concentrations of urate, the final product of purine metabolism, is a major risk factor for gout and plays a major role in the pathogenesis of this condition.",
+     "location": "Introduction, paragraph 1",
+     "access": "PMC full text",
+     "pmid": "27697882",
+     "doi": "10.1136/bmjopen-2016-013191",
+     "pmcid": "PMC5073537",
+     "supports": "def：尿酸是普林代謝的最終產物；高尿酸血症＝血中尿酸濃度過高，是痛風的主要危險因子。"
+    },
+    {
+     "quote": "Urate is the end-product of the purine metabolism in humans.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "32620198",
+     "doi": "10.1016/j.semarthrit.2020.04.007",
+     "pmcid": "",
+     "supports": "def：尿酸是人體普林代謝的最終產物。"
+    },
+    {
+     "quote": "Increased concentration of serum urate (hyperuricaemia) is the most important risk factor for the development of gout.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "33798500",
+     "doi": "10.1016/S0140-6736(21)00569-9",
+     "pmcid": "",
+     "supports": "def：血中尿酸濃度升高（高尿酸血症）是發生痛風最重要的危險因子。"
+    },
+    {
+     "quote": "Recommendations in this guideline apply to patients with gout, except for a single recommendation regarding the use of ULT in individuals with asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi.",
+     "location": "Methods (scope of the recommendations)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "note：ACR 對無症狀高尿酸血症的定義（SU ≥6.8 mg/dl，且無痛風發作或皮下痛風石）。"
+    },
+    {
+     "quote": "Gout flare and serum urate (SU) concentration (and tophus for PICO question 1) were specified as critical outcomes for all PICO questions specific to ULT.",
+     "location": "Methods – outcomes",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "alias「血中尿酸」＝ serum urate (SU)。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Jamnik 2016 果糖與痛風系統性回顧",
+     "citation": "Jamnik J et al. Fructose intake and risk of gout and hyperuricemia: a systematic review and meta-analysis of prospective cohort studies. BMJ Open 2016;6(10):e013191.",
+     "pmid": "27697882",
+     "doi": "10.1136/bmjopen-2016-013191"
+    },
+    {
+     "short": "Keenan 2020 尿酸生物學回顧",
+     "citation": "Keenan RT. The biology of urate. Semin Arthritis Rheum 2020;50(3S):S2-S10.",
+     "pmid": "32620198",
+     "doi": "10.1016/j.semarthrit.2020.04.007"
+    },
+    {
+     "short": "Dalbeth 2021 Lancet 痛風回顧",
+     "citation": "Dalbeth N et al. Gout. Lancet 2021;397(10287):1843-1855.",
+     "pmid": "33798500",
+     "doi": "10.1016/S0140-6736(21)00569-9"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "High (Tier 1 ACR 2020 PMC full text for the hyperuricemia threshold; definition of uric acid from Tier 3 SR/review, PMC full text and abstracts)",
+   "status": "ok",
+   "reviewer_notes": "Sources use 'urate' and 'uric acid' interchangeably; both are 尿酸 in plain Chinese. The 6.8 mg/dl threshold in ACR 2020 is given specifically for 'asymptomatic hyperuricemia' (no prior flares or tophi), so the note is worded that way rather than as a general cut-off. The Taiwan 2018 consensus (site S8, abstract only) was not checked for its own hyperuricemia threshold; if it differs, the physician may prefer the local definition."
+  },
+  {
+   "id": "hfcs",
+   "term": "高果糖玉米糖漿",
+   "aliases": [
+    "高果糖玉米糖漿",
+    "高果糖糖漿"
+   ],
+   "aka": "high-fructose corn syrup (HFCS)",
+   "def": "高果糖玉米糖漿是由果糖和葡萄糖組成的液體甜味劑，用來取代一般砂糖（蔗糖），常加在含糖飲料裡。",
+   "example": "",
+   "note": "果糖是植物中常見的一種單醣，也是高果糖玉米糖漿的主要成分。",
+   "label": "文獻回顧・定義",
+   "evidence": [
+    {
+     "quote": "High-fructose corn syrup (HFCS) is a fructose-glucose liquid sweetener alternative to sucrose (common table sugar) first introduced to the food and beverage industry in the 1970s.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "19064536",
+     "doi": "10.3945/ajcn.2008.25825B",
+     "pmcid": "",
+     "supports": "def：由果糖和葡萄糖組成的液體甜味劑，用來取代蔗糖（一般砂糖）。"
+    },
+    {
+     "quote": "Fructose is a monosaccharide found commonly in plants. It is also a major constituent of high-fructose corn syrup (HFCS) in sugar-sweetened beverages (SSBs).",
+     "location": "Introduction, paragraph 2",
+     "access": "PMC full text",
+     "pmid": "27697882",
+     "doi": "10.1136/bmjopen-2016-013191",
+     "pmcid": "PMC5073537",
+     "supports": "def：常加在含糖飲料裡；note：果糖是植物中常見的單醣，也是 HFCS 的主要成分。"
+    },
+    {
+     "quote": "Limiting high-fructose corn syrup intake is conditionally recommended for patients with gout, regardless of disease activity.",
+     "location": "Results – Management of lifestyle factors (recommendation statements)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "網站用法（GT-1.4 限制 HFCS）。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "White 2008 高果糖玉米糖漿回顧",
+     "citation": "White JS. Straight talk about high-fructose corn syrup: what it is and what it ain't. Am J Clin Nutr 2008;88(6):1716S-1721S.",
+     "pmid": "19064536",
+     "doi": "10.3945/ajcn.2008.25825B"
+    },
+    {
+     "short": "Jamnik 2016 果糖與痛風系統性回顧",
+     "citation": "Jamnik J et al. Fructose intake and risk of gout and hyperuricemia: a systematic review and meta-analysis of prospective cohort studies. BMJ Open 2016;6(10):e013191.",
+     "pmid": "27697882",
+     "doi": "10.1136/bmjopen-2016-013191"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "Medium (Tier 3: review abstract and SR PMC full text; ACR 2020 uses but does not define HFCS)",
+   "status": "ok",
+   "reviewer_notes": "White 2008 is a single-author review from a private consultancy (White Technical Research); its conflict-of-interest statement was not checked (full text not accessible), but the compositional definition is uncontroversial. The exact fructose percentages of commercial HFCS (e.g. 42%/55%) were not stated in any accessible source, so no number is given. The site's remark that Taiwanese food labels often say 「高果糖糖漿」 is an editorial localisation that cannot be verified in PubMed; please confirm."
+  },
+  {
+   "id": "alcohol-serving",
+   "term": "一份酒",
+   "aliases": [
+    "1份多到2份酒"
+   ],
+   "aka": "alcoholic beverage serving (standard serving size)",
+   "def": "在這項美國研究中，1份酒是指：1瓶或1罐12盎司（約355毫升）的啤酒、1杯5盎司（約148毫升）的葡萄酒，或1到1.5盎司（約30到44毫升）的烈酒。",
+   "example": "",
+   "note": "各國對「一份酒」的定義不同，這裡是該研究採用的美國份量。",
+   "label": "Neogi 2014・研究定義",
+   "evidence": [
+    {
+     "quote": "Explanation and pictorial depiction of standard serving sizes … a 12-ounce bottle or can of beer; a 5-ounce glass of wine; and 1 to 1.5 ounces of liquor",
+     "location": "Methods – Ascertainment of risk factors",
+     "access": "PMC full text (the word 'i.e.' before 'a 12-ounce' is dropped by the PMC extractor; full sentence confirmed by WebFetch of the PMC page)",
+     "pmid": "24440541",
+     "doi": "10.1016/j.amjmed.2013.12.019",
+     "pmcid": "PMC3991555",
+     "supports": "def：研究中「1份」的啤酒、葡萄酒、烈酒份量（盎司）。"
+    },
+    {
+     "quote": "Standardized questions regarding alcohol intake included the number of servings of wine, beer (including light beer, ciders, and malt beverages), or liquor (either straight or in a mixed drink) consumed during the prior 24-hour period for control and hazard periods.",
+     "location": "Methods – Ascertainment of risk factors",
+     "access": "PMC full text",
+     "pmid": "24440541",
+     "doi": "10.1016/j.amjmed.2013.12.019",
+     "pmcid": "PMC3991555",
+     "supports": "def：份數是以前24小時內喝的葡萄酒、啤酒、烈酒份數計算。"
+    },
+    {
+     "quote": "The risk of recurrent gout attack was 1.36 (95% confidence interval [CI], 1.00-1.88) and 1.51 (95% CI, 1.09-2.09) times higher for >1-2 and >2-4 alcoholic beverages, respectively, compared with no alcohol consumption in the prior 24 hours.",
+     "location": "Abstract – Results",
+     "access": "abstract",
+     "pmid": "24440541",
+     "doi": "10.1016/j.amjmed.2013.12.019",
+     "pmcid": "PMC3991555",
+     "supports": "網站用法（24小時內「>1–2份」酒）。"
+    },
+    {
+     "quote": "In a case-crossover study, consuming >1–2 alcoholic beverage servings in the prior 24 hours was associated with a 40% higher risk of gout flare than periods without alcohol consumption, with a dose-response relationship",
+     "location": "Results – Management of lifestyle factors (alcohol paragraph)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "網站 GT-1.T 的出處（ACR 以「alcoholic beverage servings」描述，約高40%）。"
+    },
+    {
+     "quote": "a US standard drink (14g) would require a 6oz. (1 US ounce=29.6ml) pour at 10%ABV",
+     "location": "The 'Standard Drink' or 'Unit', paragraph 2",
+     "access": "PMC full text",
+     "pmid": "22050262",
+     "doi": "10.1111/j.1465-3362.2011.00374.x",
+     "pmcid": "PMC3276704",
+     "supports": "def：盎司換算毫升（1 US ounce = 29.6 ml；12、5、1、1.5盎司依此換算並四捨五入）。"
+    },
+    {
+     "quote": "These are usually conceived in relation to the most commonly drunk beverage type such as the common bottle size (355ml) of typical strength (5%ABV) of beer in the US (14g) and Canada (13.45g).",
+     "location": "The 'Standard Drink' or 'Unit', paragraph 1",
+     "access": "PMC full text",
+     "pmid": "22050262",
+     "doi": "10.1111/j.1465-3362.2011.00374.x",
+     "pmcid": "PMC3276704",
+     "supports": "def：美國常見啤酒瓶約355毫升。"
+    },
+    {
+     "quote": "Standard drink definitions vary across countries and typically contain less alcohol than actual drinks.",
+     "location": "Abstract – Results",
+     "access": "abstract",
+     "pmid": "22050262",
+     "doi": "10.1111/j.1465-3362.2011.00374.x",
+     "pmcid": "PMC3276704",
+     "supports": "note：各國標準杯定義不同。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Neogi 2014 酒類與痛風復發研究",
+     "citation": "Neogi T et al. Alcohol quantity and type on risk of recurrent gout attacks: an internet-based case-crossover study. Am J Med 2014;127(4):311-8.",
+     "pmid": "24440541",
+     "doi": "10.1016/j.amjmed.2013.12.019"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    },
+    {
+     "short": "Kerr 2012 標準杯回顧",
+     "citation": "Kerr WC, Stockwell T. Understanding standard drinks and drinking guidelines. Drug Alcohol Rev 2012;31(2):200-5.",
+     "pmid": "22050262",
+     "doi": "10.1111/j.1465-3362.2011.00374.x"
+    }
+   ],
+   "confidence": "High (definition taken from the cited study's own PMC full text; unit conversion from a PMC review)",
+   "status": "ok",
+   "reviewer_notes": "The serving sizes are Neogi 2014's own definition (the case-crossover study that matches ACR 2020's description and that the site cites as S32; the ACR reference number itself could not be mapped because PMC extraction strips citation numbers). The millilitre values are arithmetic from Kerr & Stockwell's '1 US ounce=29.6ml' (12 oz≈355 ml, 5 oz≈148 ml, 1–1.5 oz≈30–44 ml), rounded; please confirm you want converted values shown. Neogi reports OR 1.36 (95% CI 1.00–1.88) for >1–2 servings, which ACR rounds to '40% higher'; the lower CI bound is 1.00. Neogi also states 'One typical drink is approximately 15 grams of alcohol' (not used, to avoid two different gram figures, since Kerr gives 14 g for the US standard drink). Local container sizes differ from US sizes."
+  },
+  {
+   "id": "mediterranean",
+   "term": "地中海型飲食",
+   "aliases": [
+    "地中海型飲食"
+   ],
+   "aka": "Mediterranean-style diet",
+   "def": "地中海型飲食是一種飲食型態：多吃蔬菜、水果、全穀、堅果、種子和橄欖油，適量吃低脂乳品和魚，並少吃添加糖、鈉、高度加工食品、精製澱粉和飽和脂肪。",
+   "example": "",
+   "note": "美國的類風濕性關節炎指引評估了多種飲食法，只有地中海型飲食有足夠證據獲得建議。",
+   "label": "ACR 2022・定義",
+   "evidence": [
+    {
+     "quote": "The Mediterranean-style diet pattern emphasizes the intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish; and limits added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats.",
+     "location": "Results – Diet recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def：飲食內容（多吃、適量、少吃的項目）。"
+    },
+    {
+     "quote": "Diet pattern that emphasizes intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish; and limits added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats.",
+     "location": "Table 1 (definitions of interventions), Mediterranean-style diet",
+     "access": "WebFetch (author manuscript copy on CDC Stacks, cdc_151745_DS1.pdf)",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "def：Table 1 的正式定義，與內文一致。"
+    },
+    {
+     "quote": "Adherence to a Mediterranean-style diet is conditionally recommended over no formally defined diet.",
+     "location": "Results – Diet recommendations (recommendation statement)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "網站用法（RA-3.1 建議地中海型飲食）。"
+    },
+    {
+     "quote": "Of several diets evaluated in this guideline (e.g., vegan, anti-inflammatory, elimination), only a Mediterranean-style diet had sufficient evidence to be recommended, given the burden and costs that accompany adhering to a formally defined diet.",
+     "location": "Discussion, paragraph 4",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note：評估的多種飲食中只有地中海型飲食有足夠證據被建議。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    }
+   ],
+   "confidence": "High (PMC full text, Tier 1 site-cited guideline)",
+   "status": "ok",
+   "reviewer_notes": "ACR's 'refined carbohydrates' is rendered on the site as 精製澱粉 (see refined-carbs entry). The site's S1 cites the Arthritis Care Res co-publication; the PMC copy used here is the Arthritis Rheumatol version (PMID 37227071), with identical recommendation wording. ACR rates the certainty for pain as low to moderate (EULAR 2021 SLR rated Mediterranean-diet evidence very low)."
+  },
+  {
+   "id": "special-diets",
+   "term": "生酮、無麩質、純素、間歇性斷食",
+   "aliases": [
+    "生酮",
+    "無麩質",
+    "純素",
+    "間歇性斷食"
+   ],
+   "aka": "ketogenic diet; gluten-free diet; vegan diet; intermittent fasting",
+   "def": "這些是有特定規則的飲食法：生酮是大幅少吃醣類；無麩質是不吃小麥、黑麥、大麥等含麩質穀類；純素是不吃任何動物性食物（包括蛋和奶）；間歇性斷食是反覆斷食，每次最長48小時。",
+   "example": "間歇性斷食也包括「限時進食」：每天至少14小時不進食。",
+   "note": "指引的「不建議」只針對治療類風濕性關節炎；有些人可能因其他疾病而有使用的需要。",
+   "label": "術語共識與回顧・定義",
+   "evidence": [
+    {
+     "quote": "Specific formally defined diets evaluated in this guideline were: anti-inflammatory, Mediterranean-style, ketogenic, paleo, gluten-free, vegetarian, vegan, intermittent fasting, elemental, elimination, raw foods, whole food plant-based.",
+     "location": "Table 1 (definitions of interventions), Formally defined diet",
+     "access": "WebFetch (author manuscript copy on CDC Stacks, cdc_151745_DS1.pdf)",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "網站用法：ACR 評估過的特定飲食法包含生酮、無麩質、純素、間歇性斷食（Table 1 只列名稱，未逐一定義）。"
+    },
+    {
+     "quote": "This recommendation is based on very low to moderate certainty evidence demonstrating no consistent, clinically meaningful benefit on physical function, pain, or disease activity specific to RA for formally defined diets other than a Mediterranean-style diet",
+     "location": "Results – Diet recommendations (rationale for statement 2)",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "網站 RA-3.2 的依據：這些飲食對 RA 沒有一致、具臨床意義的好處（PMC 文字中該建議句漏掉 'against'，故不引用建議句本身）。"
+    },
+    {
+     "quote": "Although people with RA may have other indications for these interventions (e.g., comorbidities), this guideline focuses specifically on managing RA.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "note：指引只針對治療 RA；有人可能因其他疾病而有需要。"
+    },
+    {
+     "quote": "Ketogenic diets are characterized by a reduction in carbohydrates (usually to less than 50 g/day) and a relative increase in the proportions of protein and fat.",
+     "location": "Introduction, paragraph 2",
+     "access": "PMC full text",
+     "pmid": "23801097",
+     "doi": "10.1038/ejcn.2013.116",
+     "pmcid": "PMC3826507",
+     "supports": "def：生酮＝大幅減少醣類（通常每天少於50公克），相對提高蛋白質和脂肪比例。"
+    },
+    {
+     "quote": "Gluten is the commonly used term for the complex of water insoluble proteins from wheat, rye and barley that are harmful to coeliac disease patients",
+     "location": "Results – Gluten (definition)",
+     "access": "PMC full text",
+     "pmid": "22345659",
+     "doi": "10.1136/gutjnl-2011-301346",
+     "pmcid": "PMC3440559",
+     "supports": "def：麩質是小麥、黑麥、大麥中的一類蛋白質。"
+    },
+    {
+     "quote": "A gluten-free diet usually indicates a diet free from wheat, rye, barley, triticale, kamut and spelt.",
+     "location": "Results – Gluten (text)",
+     "access": "PMC full text",
+     "pmid": "22345659",
+     "doi": "10.1136/gutjnl-2011-301346",
+     "pmcid": "PMC3440559",
+     "supports": "def：無麩質飲食＝不含小麥、黑麥、大麥等穀類。"
+    },
+    {
+     "quote": "Vegan diets, where animal- and all their by-products are excluded from the diet, have gained popularity, especially in the last decade.",
+     "location": "Abstract – Background",
+     "access": "abstract",
+     "pmid": "33341313",
+     "doi": "10.1016/j.clnu.2020.11.035",
+     "pmcid": "",
+     "supports": "def：純素＝排除所有動物性食物及其製品。"
+    },
+    {
+     "quote": "vegan diets (total plant-based nutrition) and lacto-ovo-vegetarian diets (this allows for the consumption of dairy products and eggs)",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "34836399",
+     "doi": "10.3390/nu13114144",
+     "pmcid": "PMC8623061",
+     "supports": "def：純素與蛋奶素不同，蛋奶素才允許吃乳製品和蛋（故純素不含蛋和奶）。"
+    },
+    {
+     "quote": "Ultimately, fasting was defined as “a voluntary abstinence from some or all foods or foods and beverages for preventive, therapeutic, religious, cultural, or other reasons.”",
+     "location": "Terms most discussed – Fasting",
+     "access": "PMC full text",
+     "pmid": "39059384",
+     "doi": "10.1016/j.cmet.2024.06.013",
+     "pmcid": "PMC11504329",
+     "supports": "def：斷食＝自願不吃部分或全部食物（或食物與飲料）。"
+    },
+    {
+     "quote": "The final definition of IF, which refers to repetitive fasting periods lasting up to 48 hours each, includes TRE and was finally accepted in the consensus conference.",
+     "location": "IF regimens – IF",
+     "access": "PMC full text",
+     "pmid": "39059384",
+     "doi": "10.1016/j.cmet.2024.06.013",
+     "pmcid": "PMC11504329",
+     "supports": "def：間歇性斷食＝反覆的斷食，每次最長48小時；並包含限時進食（TRE）。"
+    },
+    {
+     "quote": "TRE was finally defined as a dietary regimen with a fasting window of “at least 14 h” per day in humans and no explicit limit on energy intake during eating hours.",
+     "location": "IF regimens – TRE",
+     "access": "PMC full text",
+     "pmid": "39059384",
+     "doi": "10.1016/j.cmet.2024.06.013",
+     "pmcid": "PMC11504329",
+     "supports": "example：限時進食＝每天至少14小時不進食，進食時段不限熱量。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "Paoli 2013 生酮飲食回顧",
+     "citation": "Paoli A et al. Beyond weight loss: a review of the therapeutic uses of very-low-carbohydrate (ketogenic) diets. Eur J Clin Nutr 2013;67(8):789-96.",
+     "pmid": "23801097",
+     "doi": "10.1038/ejcn.2013.116"
+    },
+    {
+     "short": "Oslo 2013 乳糜瀉與麩質名詞定義共識",
+     "citation": "Ludvigsson JF et al. The Oslo definitions for coeliac disease and related terms. Gut 2013;62(1):43-52.",
+     "pmid": "22345659",
+     "doi": "10.1136/gutjnl-2011-301346"
+    },
+    {
+     "short": "Bakaloudi 2021 純素飲食系統性回顧",
+     "citation": "Bakaloudi DR et al. Intake and adequacy of the vegan diet. A systematic review of the evidence. Clin Nutr 2021;40(5):3503-3521.",
+     "pmid": "33341313",
+     "doi": "10.1016/j.clnu.2020.11.035"
+    },
+    {
+     "short": "Craig 2021 植物性飲食指引回顧",
+     "citation": "Craig WJ et al. The Safe and Effective Use of Plant-Based Diets with Guidelines for Health Professionals. Nutrients 2021;13(11):4144.",
+     "pmid": "34836399",
+     "doi": "10.3390/nu13114144"
+    },
+    {
+     "short": "Koppold 2024 斷食名詞國際共識",
+     "citation": "Koppold DA et al. International consensus on fasting terminology. Cell Metab 2024;36(8):1779-1794.e4.",
+     "pmid": "39059384",
+     "doi": "10.1016/j.cmet.2024.06.013"
+    }
+   ],
+   "confidence": "Medium (Tier 2 consensus definitions for gluten-free and intermittent fasting; Tier 3 review/SR for ketogenic and vegan; ACR diet list via WebFetch)",
+   "status": "ok",
+   "reviewer_notes": "ACR 2022 Table 1 lists these diets but does not define them individually, so each definition comes from a separate PubMed-indexed source. Known PMC pitfall: the ACR statement 'Adherence to a formally defined diet, other than a Mediterranean-style diet, is conditionally recommended [against]' loses 'against' in the PMC text; the rationale sentence quoted here is unaffected. Koppold 2024: inclusion of time-restricted eating under intermittent fasting 'was repeatedly opposed by a few participants'. The ketogenic threshold (<50 g carbohydrate/day) is Paoli's 'usually' figure and is omitted from the def. In Taiwan, 純素/全素 food labels may carry local (including religious) meanings beyond 'no animal products'; not checked in PubMed sources. The def (84 characters) is close to the 90-character limit; physician may prefer to split it into four separate glossary items."
+  },
+  {
+   "id": "refined-carbs",
+   "term": "精製澱粉",
+   "aliases": [
+    "精製澱粉"
+   ],
+   "aka": "refined carbohydrates (here: refined grains / refined starch)",
+   "def": "精製澱粉指精製過的穀類：加工時去掉富含蛋白質和油脂的胚芽、富含纖維的麩皮，只留下含澱粉的部分。",
+   "example": "白米。",
+   "note": "相對地，全穀保留了穀粒的全部三個部分。",
+   "label": "文獻回顧・定義",
+   "evidence": [
+    {
+     "quote": "The Mediterranean-style diet pattern emphasizes the intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish; and limits added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats.",
+     "location": "Results – Diet recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "網站用法（RA-3.T：少吃 refined carbohydrates）。"
+    },
+    {
+     "quote": "Minimally processed whole grains retain all three components of the seed. Refined grains are processed to remove the protein and fat rich germ and fibre rich bran, leaving only the starchy endosperm.",
+     "location": "How do carbohydrate containing foods affect health? – Grains",
+     "access": "PMC full text",
+     "pmid": "29898880",
+     "doi": "10.1136/bmj.k2340",
+     "pmcid": "PMC5996878",
+     "supports": "def：精製穀類去掉胚芽和麩皮，只留含澱粉的胚乳；note：全穀保留三個部分。"
+    },
+    {
+     "quote": "Conversely, greater refined grain intake, especially from white rice, is associated with an increased risk of type 2 diabetes",
+     "location": "How do carbohydrate containing foods affect health? – Grains",
+     "access": "PMC full text",
+     "pmid": "29898880",
+     "doi": "10.1136/bmj.k2340",
+     "pmcid": "PMC5996878",
+     "supports": "example：白米屬於精製穀類。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "Ludwig 2018 BMJ 碳水化合物品質回顧",
+     "citation": "Ludwig DS et al. Dietary carbohydrates: role of quality and quantity in chronic disease. BMJ 2018;361:k2340.",
+     "pmid": "29898880",
+     "doi": "10.1136/bmj.k2340"
+    }
+   ],
+   "confidence": "Medium (Tier 3 BMJ review, PMC full text; ACR uses but does not define the term)",
+   "status": "ok",
+   "reviewer_notes": "ACR 2022 says 'refined carbohydrates', which it does not define. The site's 精製澱粉 (refined starch) is narrower: in nutrition writing 'refined carbohydrates' can also cover sugars, but the site lists 添加糖 separately, so the narrower rendering is defensible; the definition here follows Ludwig 2018's definition of refined grains. Physician may consider 「精製碳水化合物」. Ludwig also notes potato products behave like refined grains (not included)."
+  },
+  {
+   "id": "saturated-fat",
+   "term": "飽和脂肪",
+   "aliases": [
+    "飽和脂肪"
+   ],
+   "aka": "saturated fat (saturated fatty acids, SFA)",
+   "def": "飽和脂肪是脂肪的一種，常溫下通常是固體；動物油脂和植物性的固態油脂含量較多。",
+   "example": "肉類和乳製品中的油脂。",
+   "note": "不是所有植物油都低飽和脂肪，例如棕櫚油的飽和脂肪就高。",
+   "label": "Cochrane 與回顧・定義",
+   "evidence": [
+    {
+     "quote": "The Mediterranean-style diet pattern emphasizes the intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish; and limits added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats.",
+     "location": "Results – Diet recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "網站用法（RA-3.T：少吃 saturated fats）。"
+    },
+    {
+     "quote": "If there are no double bonds, the fatty acids are considered saturated and show a linear structure.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29788879",
+     "doi": "10.2174/1381612824666180522092740",
+     "pmcid": "",
+     "supports": "def：飽和脂肪酸是沒有雙鍵的脂肪酸（化學定義，背景）。"
+    },
+    {
+     "quote": "The saturated fatty acids are usually solid at room temperature and the unsaturated fatty acids are liquid at that very same temperature.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29788879",
+     "doi": "10.2174/1381612824666180522092740",
+     "pmcid": "",
+     "supports": "def：飽和脂肪酸在常溫下通常是固體。"
+    },
+    {
+     "quote": "We wanted to find out the effects on health of cutting down on saturated fat in our food (replacing animal fats and hard vegetable fats with plant oils, unsaturated spreads or starchy foods).",
+     "location": "Plain language summary – Review question",
+     "access": "PMC full text (plain language summary in the PMC record)",
+     "pmid": "32428300",
+     "doi": "10.1002/14651858.CD011737.pub2",
+     "pmcid": "PMC7388853",
+     "supports": "def：減少飽和脂肪＝減少動物油脂和植物性硬脂（hard vegetable fats）。"
+    },
+    {
+     "quote": "Health guidance suggests that reducing the amount of saturated fat we eat, by cutting down on animal fats, is good for our health.",
+     "location": "Plain language summary – Background",
+     "access": "PMC full text (plain language summary in the PMC record)",
+     "pmid": "32428300",
+     "doi": "10.1002/14651858.CD011737.pub2",
+     "pmcid": "PMC7388853",
+     "supports": "def：動物油脂是飽和脂肪的主要來源之一。"
+    },
+    {
+     "quote": "For example, palmitic acid, the major saturated fatty acid in the diet, is synthesized in the liver from starch and sugar via de novo lipogenesis, and it is the predominant fatty acid present in dairy and meats",
+     "location": "Role of saturated, monounsaturated, and polyunsaturated fat in coronary heart disease",
+     "access": "PMC full text",
+     "pmid": "28854932",
+     "doi": "10.1186/s12937-017-0271-4",
+     "pmcid": "PMC5577766",
+     "supports": "example：飲食中主要的飽和脂肪酸（棕櫚酸）是乳製品和肉類脂肪中的主要脂肪酸。"
+    },
+    {
+     "quote": "ingredients high in saturated fat (e.g., palm oil) could be added to foods.",
+     "location": "Role of saturated, monounsaturated, and polyunsaturated fat in coronary heart disease",
+     "access": "PMC full text",
+     "pmid": "28854932",
+     "doi": "10.1186/s12937-017-0271-4",
+     "pmcid": "PMC5577766",
+     "supports": "note：棕櫚油是飽和脂肪高的成分。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "Campos 2018 脂肪特性回顧",
+     "citation": "Campos JR et al. Phase Behavior of Polymorphic Fats in Drug Delivery Systems - A Review of the State of Art. Curr Pharm Des 2018;24(21):2508-2512.",
+     "pmid": "29788879",
+     "doi": "10.2174/1381612824666180522092740"
+    },
+    {
+     "short": "Hooper 2020 Cochrane 減少飽和脂肪回顧",
+     "citation": "Hooper L et al. Reduction in saturated fat intake for cardiovascular disease. Cochrane Database Syst Rev 2020;5(5):CD011737.",
+     "pmid": "32428300",
+     "doi": "10.1002/14651858.CD011737.pub2"
+    },
+    {
+     "short": "Liu 2017 膳食脂肪回顧",
+     "citation": "Liu AG et al. A healthy approach to dietary fats: understanding the science and taking action to reduce consumer confusion. Nutr J 2017;16(1):53.",
+     "pmid": "28854932",
+     "doi": "10.1186/s12937-017-0271-4"
+    }
+   ],
+   "confidence": "Medium (Tier 3: Cochrane plain language summary and reviews; the 'solid at room temperature' point rests on a pharmaceutics review)",
+   "status": "ok",
+   "reviewer_notes": "No site-cited guideline defines saturated fat (ACR 2022, BSR 2026 and EULAR 2021 only advise limiting it). The WHO 2023 SFA/TFA guideline (NCBI Bookshelf, PMID 37490572) returned no PubMed metadata and was not used. Campos 2018 is a drug-delivery review, a weak authority for nutrition; it is used only for the chemistry/'solid at room temperature' phrase, which the physician may delete. 'Hard vegetable fats' (Cochrane) is rendered 植物性的固態油脂."
+  },
+  {
+   "id": "processed-food",
+   "term": "高度加工食品",
+   "aliases": [
+    "高度加工食品"
+   ],
+   "aka": "highly processed foods (closely related standard term: ultra-processed foods, NOVA classification)",
+   "def": "高度加工食品是經過多道工業加工、用多種成分組合製成的食品，常含家庭廚房很少用的成分或添加物，通常買來即可食用。",
+   "example": "成分表有高果糖玉米糖漿、氫化油、香料、色素或乳化劑等。",
+   "note": "指引沒有定義這個詞；這裡依國際常用的「超加工食品」分類來說明。",
+   "label": "NOVA 分類・定義",
+   "evidence": [
+    {
+     "quote": "The Mediterranean-style diet pattern emphasizes the intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish; and limits added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats.",
+     "location": "Results – Diet recommendations",
+     "access": "PMC full text",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507",
+     "pmcid": "PMC10947582",
+     "supports": "網站用法（RA-3.T：少吃 highly processed foods）。"
+    },
+    {
+     "quote": "\"Processed foods\" are defined as any foods other than raw agricultural commodities and can be categorized by the extent of changes occurring in foods as a result of processing.",
+     "location": "Abstract – Background",
+     "access": "abstract",
+     "pmid": "25948666",
+     "doi": "10.3945/ajcn.114.100925",
+     "pmcid": "PMC4441809",
+     "supports": "背景：「加工食品」範圍很廣，可依加工程度分級；高度加工是加工程度最高的一級。"
+    },
+    {
+     "quote": "Highly processed food purchases are a dominant, unshifting part of US purchasing patterns, but highly processed foods may have higher saturated fat, sugar, and sodium content than less-processed foods.",
+     "location": "Abstract – Conclusions",
+     "access": "abstract",
+     "pmid": "25948666",
+     "doi": "10.3945/ajcn.114.100925",
+     "pmcid": "PMC4441809",
+     "supports": "文獻中確有 'highly processed foods' 一詞（並未在摘要中定義）。"
+    },
+    {
+     "quote": "Ultra-processed foods are defined within the NOVA classification system, which groups foods according to the extent and purpose of industrial processing.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30744710",
+     "doi": "10.1017/S1368980018003762",
+     "pmcid": "PMC10260459",
+     "supports": "note：NOVA 依工業加工的程度與目的分類食品；超加工食品是其中一類。"
+    },
+    {
+     "quote": "Processes enabling the manufacture of ultra-processed foods include the fractioning of whole foods into substances, chemical modifications of these substances, assembly of unmodified and modified food substances, frequent use of cosmetic additives and sophisticated packaging.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30744710",
+     "doi": "10.1017/S1368980018003762",
+     "pmcid": "PMC10260459",
+     "supports": "def：多道工業加工、把食物拆解再組合、常用添加物。"
+    },
+    {
+     "quote": "Processes and ingredients used to manufacture ultra-processed foods are designed to create highly profitable (low-cost ingredients, long shelf-life, emphatic branding), convenient (ready-to-consume), hyper-palatable products liable to displace all other NOVA food groups, notably unprocessed or minimally processed foods.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30744710",
+     "doi": "10.1017/S1368980018003762",
+     "pmcid": "PMC10260459",
+     "supports": "def：方便、可直接食用（ready-to-consume）。"
+    },
+    {
+     "quote": "A practical way to identify an ultra-processed product is to check to see if its list of ingredients contains at least one item characteristic of the NOVA ultra-processed food group, which is to say, either food substances never or rarely used in kitchens (such as high-fructose corn syrup, hydrogenated or interesterified oils, and hydrolysed proteins), or classes of additives designed to make the final product palatable or more appealing (such as flavours, flavour enhancers, colours, emulsifiers, emulsifying salts, sweeteners, thickeners, and anti-foaming, bulking, carbonating, foaming, gelling and glazing agents).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30744710",
+     "doi": "10.1017/S1368980018003762",
+     "pmcid": "PMC10260459",
+     "supports": "def：含家庭廚房很少用的成分或添加物；example：高果糖玉米糖漿、氫化油、香料、色素、乳化劑。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類風濕性關節炎運動、復健、飲食與整合療法指引",
+     "citation": "England BR et al. 2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis. Arthritis Rheumatol 2023;75(8):1299-1311. Co-published in Arthritis Care Res (Hoboken) 2023;75(8):1603-1615.",
+     "pmid": "37227071",
+     "doi": "10.1002/art.42507"
+    },
+    {
+     "short": "Poti 2015 食品加工程度研究",
+     "citation": "Poti JM et al. Is the degree of food processing and convenience linked with the nutritional quality of foods purchased by US households? Am J Clin Nutr 2015;101(6):1251-62.",
+     "pmid": "25948666",
+     "doi": "10.3945/ajcn.114.100925"
+    },
+    {
+     "short": "Monteiro 2019 超加工食品（NOVA）說明",
+     "citation": "Monteiro CA et al. Ultra-processed foods: what they are and how to identify them. Public Health Nutr 2019;22(5):936-941.",
+     "pmid": "30744710",
+     "doi": "10.1017/S1368980018003762"
+    }
+   ],
+   "confidence": "Medium (Tier 3 abstracts; ACR does not define 'highly processed foods' and the NOVA 'ultra-processed' definition is a close but not identical match)",
+   "status": "ok",
+   "reviewer_notes": "Term mismatch to check: ACR 2022 says 'highly processed foods' without a definition. Poti 2015 defined its own 'highly processed' category in the full text, which could not be read (PMC returned abstract only; PMC web page served a CAPTCHA). The definition here follows the NOVA 'ultra-processed foods' description (Monteiro 2019, abstract), and the note tells readers so. Physician may prefer the site wording 「超加工食品」 or keep 「高度加工食品」 with this note."
+  },
+  {
+   "id": "elemental-calcium",
+   "term": "元素鈣",
+   "aliases": [
+    "元素鈣"
+   ],
+   "aka": "elemental calcium",
+   "def": "元素鈣是鈣補充品裡真正含有的「鈣」的重量，不是整個鈣鹽（例如碳酸鈣）的重量。",
+   "example": "1.25公克碳酸鈣約含500毫克元素鈣。",
+   "note": "不同鈣鹽的含鈣比例不同：碳酸鈣約40%，檸檬酸鈣約21%。",
+   "label": "文獻用法・說明",
+   "evidence": [
+    {
+     "quote": "Dietary and supplemented elemental calcium intake of up to 1,000 to 1,200 mg daily is recommended for adults (36) and between 1,000 and 1,300 mg daily based on age of the child.",
+     "location": "Recommendations for initial treatment (Table 2 / text)",
+     "access": "WebFetch (ACR-hosted manuscript PDF giop-guideline-manuscript-2022.pdf, linked from rheumatology.org)",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646",
+     "pmcid": "",
+     "supports": "網站用法（CM-4.2：以元素鈣計 1,000–1,200 毫克）。"
+    },
+    {
+     "quote": "Calcium supplementation in hypoparathyroidism usually consists of calcium carbonate because it is 40% elemental calcium by weight. However, calcium citrate (21% elemental calcium) is indicated for patients with achlorhydria and proton pump inhibitor therapy.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30390820",
+     "doi": "10.1016/j.ecl.2018.07.012",
+     "pmcid": "",
+     "supports": "def：元素鈣是以重量計的鈣含量；note：碳酸鈣含40%、檸檬酸鈣含21%元素鈣。"
+    },
+    {
+     "quote": "group B received a chewable tablet containing 1.25 g calcium carbonate (equivalent to 500 mg of elemental calcium)",
+     "location": "Abstract – Methods",
+     "access": "abstract",
+     "pmid": "32131366",
+     "doi": "",
+     "pmcid": "PMC7104583",
+     "supports": "example：1.25公克碳酸鈣相當於500毫克元素鈣。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類固醇骨質疏鬆指引",
+     "citation": "Humphrey MB et al. 2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis. Arthritis Rheumatol 2023;75(12):2088-2102.",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646"
+    },
+    {
+     "short": "Babey 2018 副甲狀腺低下治療回顧（鈣鹽含鈣量）",
+     "citation": "Babey M, Brandi ML, Shoback D. Conventional Treatment of Hypoparathyroidism. Endocrinol Metab Clin North Am 2018;47(4):889-900.",
+     "pmid": "30390820",
+     "doi": "10.1016/j.ecl.2018.07.012"
+    },
+    {
+     "short": "Argyrou 2020 鈣補充隨機試驗",
+     "citation": "Argyrou C et al. Effect of calcium and vitamin D supplementation with and without collagen peptides on bone turnover in postmenopausal women with osteopenia. J Musculoskelet Neuronal Interact 2020;20(1):12-17.",
+     "pmid": "32131366",
+     "doi": ""
+    }
+   ],
+   "confidence": "Medium (meaning derived from usage in a review abstract and an RCT abstract; no explicit one-sentence definition found)",
+   "status": "ok",
+   "reviewer_notes": "No PubMed-indexed source with an explicit definitional sentence for 'elemental calcium' was found; the definition is derived from usage ('40% elemental calcium by weight'; '1.25 g calcium carbonate (equivalent to 500 mg of elemental calcium)'). Babey 2018 is about hypoparathyroidism, but the percentages are compositional. Argyrou 2020 is an RCT, used only as an illustration. The ACR 2022 GIOP sentence was re-read by WebFetch of the ACR-hosted manuscript (the guideline is not in PMC)."
+  },
+  {
+   "id": "iu",
+   "term": "國際單位（IU）",
+   "aliases": [
+    "國際單位"
+   ],
+   "aka": "International Unit (IU)",
+   "def": "國際單位（IU）是計算維生素D份量常用的單位；同樣的份量也可以用微克（µg）表示，10微克等於400國際單位。",
+   "example": "",
+   "note": "",
+   "label": "BSR 2026・換算",
+   "evidence": [
+    {
+     "quote": "600 to 800 IU daily or more is typically required.",
+     "location": "Recommendations for initial treatment (Table 2 / text)",
+     "access": "WebFetch (ACR-hosted manuscript PDF giop-guideline-manuscript-2022.pdf, linked from rheumatology.org)",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646",
+     "pmcid": "",
+     "supports": "網站用法（CM-4.3：每天600到800國際單位）。"
+    },
+    {
+     "quote": "a daily supplement containing 10 micrograms (400 IU) of vitamin D throughout the year",
+     "location": "Dietary measures and supplementation – Vitamin D (rationale for Recommendation 30)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：10微克（µg）＝400 IU。"
+    },
+    {
+     "quote": "For vitamin D, RDAs of 600 IU/d for ages 1-70 yr and 800 IU/d for ages 71 yr and older, corresponding to a serum 25-hydroxyvitamin D level of at least 20 ng/ml (50 nmol/liter), meet the requirements of at least 97.5% of the population.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21118827",
+     "doi": "10.1210/jc.2010-2704",
+     "pmcid": "PMC3046611",
+     "supports": "def：IU 是維生素D建議量常用的單位。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2022 類固醇骨質疏鬆指引",
+     "citation": "Humphrey MB et al. 2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis. Arthritis Rheumatol 2023;75(12):2088-2102.",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "IOM 2011 鈣與維生素D建議攝取量報告摘要",
+     "citation": "Ross AC et al. The 2011 report on dietary reference intakes for calcium and vitamin D from the Institute of Medicine: what clinicians need to know. J Clin Endocrinol Metab 2011;96(1):53-8.",
+     "pmid": "21118827",
+     "doi": "10.1210/jc.2010-2704"
+    }
+   ],
+   "confidence": "Medium (unit equivalence from Tier 1 BSR 2026 PMC full text; no PubMed-indexed definition of 'International Unit' itself found)",
+   "status": "ok",
+   "reviewer_notes": "The IOM 2011 summary (Ross 2011) uses IU throughout, but its Table 1, which may list microgram equivalents, is not in the extracted PMC text; the equivalence is therefore taken from BSR 2026 ('10 micrograms (400 IU)'). Vieth 2007 (J Bone Miner Res, PMID 18290725) states '1 µg (40 IU)' but PubMed renders µg as 'mug', so it is not quoted. IU-to-µg factors are vitamin-specific; the entry is limited to vitamin D, matching the site's only use (CM-4.3)."
+  },
+  {
+   "id": "bmi",
+   "term": "BMI（身體質量指數）",
+   "aliases": [
+    "BMI"
+   ],
+   "aka": "body mass index (BMI)",
+   "def": "BMI（身體質量指數）是用體重（公斤）除以身高（公尺）的平方算出的數值，用來判斷體重是否過重。",
+   "example": "",
+   "note": "國際常用分級：25以上為過重、30以上為肥胖；亞洲人在較低的BMI時，健康風險就可能升高。",
+   "label": "WHO 分級・定義",
+   "evidence": [
+    {
+     "quote": "However, changes in body mass index (BMI) over time were associated with the risk of recurrent gout flare. An increase in BMI of >5% was associated with 60% higher odds of recurrent flare, and a decrease in BMI of >5% was associated with 40% lower odds of recurrent flare compared with those without weight change (–3.5% ≤ BMI ≤ 3.5%)",
+     "location": "Results – Management of lifestyle factors (weight loss paragraph)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "網站用法（GT-3.T：BMI 下降超過5%）。"
+    },
+    {
+     "quote": "The prevalence of overweight (body mass index [BMI] = 25-29.9 [calculated as weight in kilograms divided by height in meters squared]) and obesity (BMI ≥30) is increasing among patients with cystic fibrosis (CF).",
+     "location": "Abstract – Importance",
+     "access": "abstract",
+     "pmid": "35254432",
+     "doi": "10.1001/jamanetworkopen.2022.0740",
+     "pmcid": "PMC8902650",
+     "supports": "def：BMI＝體重（公斤）÷身高（公尺）的平方；note：25–29.9 過重、≥30 肥胖。"
+    },
+    {
+     "quote": "The consultation concluded that the proportion of Asian people with a high risk of type 2 diabetes and cardiovascular disease is substantial at BMIs lower than the existing WHO cut-off point for overweight (> or =25 kg/m2).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "14726171",
+     "doi": "10.1016/S0140-6736(03)15268-3",
+     "pmcid": "",
+     "supports": "note：WHO 過重切點為 ≥25；亞洲人在較低 BMI 時高風險者比例就不低。"
+    },
+    {
+     "quote": "The consultation also agreed that the WHO BMI cut-off points should be retained as international classifications.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "14726171",
+     "doi": "10.1016/S0140-6736(03)15268-3",
+     "pmcid": "",
+     "supports": "note：WHO 切點作為國際分級（「國際常用分級」）。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    },
+    {
+     "short": "Nagy 2022 BMI 系統性回顧",
+     "citation": "Nagy R et al. Association of Body Mass Index With Clinical Outcomes in Patients With Cystic Fibrosis: A Systematic Review and Meta-analysis. JAMA Netw Open 2022;5(3):e220740.",
+     "pmid": "35254432",
+     "doi": "10.1001/jamanetworkopen.2022.0740"
+    },
+    {
+     "short": "WHO 2004 亞洲族群 BMI 專家諮詢",
+     "citation": "WHO Expert Consultation. Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies. Lancet 2004;363(9403):157-63.",
+     "pmid": "14726171",
+     "doi": "10.1016/S0140-6736(03)15268-3"
+    }
+   ],
+   "confidence": "Medium (formula from a Tier 3 SR abstract; cut-offs and Asian caveat from a WHO expert consultation abstract)",
+   "status": "ok",
+   "reviewer_notes": "EULAR 2021 lifestyle recommendations (site-cited) state the WHO cut-offs (≥25 overweight, ≥30 obese) according to the earlier research notes (WebFetch), but that text was not re-verified in this session and is not quoted. Taiwan MOHW uses different adult cut-offs (overweight 24≦BMI<27, obese BMI≧27; government press release, not PubMed-indexed). Please decide whether the note should show the international (WHO) or the Taiwanese cut-offs. In adults, a >5% fall in BMI equals a >5% fall in body weight, but no source states this, so it is not written."
+  },
+  {
+   "id": "xylitol",
+   "term": "木糖醇",
+   "aliases": [
+    "木糖醇"
+   ],
+   "aka": "xylitol",
+   "def": "木糖醇是一種天然甜味劑，甜度和一般砂糖（蔗糖）差不多，可以用來代替糖。",
+   "example": "口香糖、糖果、含片、牙膏等產品。",
+   "note": "可能有脹氣、排氣或腹瀉等副作用。",
+   "label": "Cochrane 回顧・定義",
+   "evidence": [
+    {
+     "quote": "Recommend regular brushing with fluoride toothpaste, proactive dental care and the use of xylitol containing products as an alternative to sugar to prevent dental decay (2, C) (SOA 95.6%).",
+     "location": "Key question 9b – Recommendation",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "網站用法（SJ-2.2：用含木糖醇產品代替糖）。"
+    },
+    {
+     "quote": "This review has been produced to assess whether or not xylitol, a natural sweetener used in products such as sweets, candy, chewing gum and toothpaste, can help prevent tooth decay in children and adults.",
+     "location": "Plain language summary – Review question",
+     "access": "PMC full text (plain language summary in the PMC record)",
+     "pmid": "25809586",
+     "doi": "10.1002/14651858.CD010743.pub2",
+     "pmcid": "PMC9345289",
+     "supports": "def：天然甜味劑；example：糖果、口香糖、牙膏。"
+    },
+    {
+     "quote": "Xylitol is a natural sweetener, which is equally as sweet as normal sugar (sucrose).",
+     "location": "Plain language summary – Background",
+     "access": "PMC full text (plain language summary in the PMC record)",
+     "pmid": "25809586",
+     "doi": "10.1002/14651858.CD010743.pub2",
+     "pmcid": "PMC9345289",
+     "supports": "def：甜度和一般砂糖（蔗糖）一樣。"
+    },
+    {
+     "quote": "The products tested were the kind that are held in the mouth and sucked (lozenges, sucking tablets and sweets) or slowly released through a dummy/pacifier, as well as toothpastes, syrups, and wipes.",
+     "location": "Plain language summary – Study characteristics",
+     "access": "PMC full text (plain language summary in the PMC record)",
+     "pmid": "25809586",
+     "doi": "10.1002/14651858.CD010743.pub2",
+     "pmcid": "PMC9345289",
+     "supports": "example：含片（lozenges）、糖果、牙膏等產品形式。"
+    },
+    {
+     "quote": "In humans, xylitol is known to cause possible side effects such as bloating, wind and diarrhoea.",
+     "location": "Plain language summary – Background",
+     "access": "PMC full text (plain language summary in the PMC record)",
+     "pmid": "25809586",
+     "doi": "10.1002/14651858.CD010743.pub2",
+     "pmcid": "PMC9345289",
+     "supports": "note：可能的副作用為脹氣、排氣、腹瀉。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    },
+    {
+     "short": "Riley 2015 Cochrane 木糖醇預防蛀牙回顧",
+     "citation": "Riley P et al. Xylitol-containing products for preventing dental caries in children and adults. Cochrane Database Syst Rev 2015;(3):CD010743.",
+     "pmid": "25809586",
+     "doi": "10.1002/14651858.CD010743.pub2"
+    }
+   ],
+   "confidence": "Medium (Tier 3 Cochrane review plain language summary in the PMC record; BSR 2025 Tier 1 for usage)",
+   "status": "ok",
+   "reviewer_notes": "BSR 2025 cites this 2015 Cochrane review. Cochrane rates the caries evidence as low to very low quality, and only fluoride toothpaste with 10% xylitol in children had (low-quality) evidence of benefit; evidence in adults is insufficient. BSR's adjacent sentence 'It works by reducing[...]carriage' has a word dropped by the PMC extractor (italic organism name) and is not quoted."
+  },
+  {
+   "id": "diagnostic-diet",
+   "term": "飲食試驗",
+   "aliases": [
+    "飲食試驗"
+   ],
+   "aka": "diagnostic diet (e.g. pseudoallergen-low diet, histamine-low diet)",
+   "def": "飲食試驗是經醫師評估後，短期改吃低「假過敏原」或低組織胺的飲食，當作個人化的診斷工具，通常只做2到3週。",
+   "example": "低假過敏原飲食、低組織胺飲食。",
+   "note": "假過敏原是指可能引起非過敏性反應的天然食物成分，或部分食品添加物。",
+   "label": "GALEN 2026・定義",
+   "evidence": [
+    {
+     "quote": "Furthermore, nonallergic reactions to food can trigger CSU exacerbation, and physicians should ask patients about such patterns. Based on this information, diagnostic diets such as pseudoallergen‐ and histamine‐low diets may be considered in selected patients as individualized diagnostic tools. Diagnostic diets should be maintained only for a limited time to avoid side effects and safety risks; 2–3 weeks are usually recommended. Importantly, diagnostic diets should not delay effective treatment.",
+     "location": "4.2.3 Identification of Relevant Conditions That Aggravate Disease Activity",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：經評估的部分病人、作為個人化診斷工具、通常2到3週；example：低假過敏原、低組織胺飲食；不應延誤有效治療。"
+    },
+    {
+     "quote": "In some CSU patients, pseudoallergic reactions (non‐IgE‐mediated hypersensitivity reactions) to naturally occurring food ingredients, and in some cases to food additives, have been observed",
+     "location": "5.2.6 Food",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：假過敏反應＝對天然食物成分或部分食品添加物的非 IgE（非過敏）反應。"
+    },
+    {
+     "quote": "A pseudoallergen‐low diet, containing only low levels of natural as well as artificial food pseudoallergens, has been tested in different countries",
+     "location": "5.2.6 Food",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：低假過敏原飲食限制天然與人工的食物假過敏原。"
+    },
+    {
+     "quote": "Does include low histamine diet as pseudoallergen‐free diet is also low in histamine. The evidence is controversial and different interpretations about what a pseudoallergen is or what foods contain them exist.",
+     "location": "Table 12, footnote b",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "reviewer_notes：證據有爭議，假過敏原的定義也不一致。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High (PMC full text, Tier 1 site-cited guideline)",
+   "status": "ok",
+   "reviewer_notes": "飲食試驗 is the site's rendering of 'diagnostic diets'; the guideline describes them by example rather than with a formal definition. The guideline itself notes the evidence is controversial and that interpretations of what a pseudoallergen is differ. The AAAAI/ACAAI 2014 definition of pseudoallergens (site S2, Executive Summary) could not be re-verified here (PubMed abstract only), so it is not quoted; AAAAI/ACAAI 2014 does not recommend pseudoallergen avoidance."
+  },
+  {
+   "id": "spf",
+   "term": "SPF（防曬係數）",
+   "aliases": [
+    "SPF"
+   ],
+   "aka": "sun protection factor (SPF)",
+   "def": "SPF（防曬係數）表示防曬乳對UVB的防護力，是以「讓皮膚曬紅所需的紫外線量」測出來的；UVA的防護要另看UVA標示。",
+   "example": "",
+   "note": "英國指引採用的「高係數」：SPF至少30，且有UVA標誌或4到5星的UVA防護。",
+   "label": "BSR 2026・定義",
+   "evidence": [
+    {
+     "quote": "26. People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B) and to consider safe sun exposure strategies such as reduced sun exposure and the use of protective clothing (1D).",
+     "location": "Summary table of recommendations, item 26",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "SPF＝sun protection factor；網站 SL-1.2 的出處。"
+    },
+    {
+     "quote": "It is important to note that when choosing a sunscreen, UV-B protection is indicated by the SPF while UV-A protection is indicated by the UV-A logo or the UV-A star system (i.e. one to five stars).",
+     "location": "Lifestyle measures – Sun protection",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：SPF 代表 UVB 防護；UVA 防護看 UVA 標誌或星等。"
+    },
+    {
+     "quote": "Protection from UVB is quantified as a minimal erythema dose-based sun protection factor.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25207381",
+     "doi": "10.1007/978-1-4939-0437-2_25",
+     "pmcid": "",
+     "supports": "def：SPF 以最小紅斑劑量（讓皮膚曬紅的劑量）為基礎，量化 UVB 防護。"
+    },
+    {
+     "quote": "Due to the lack of high-quality evidence, we adopted the recommendation by the BAD (i.e. high SPF as defined by at least 30 and with a UV-A logo or UV-A with 4-star or 5-star protection).",
+     "location": "Lifestyle measures – Sun protection",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note：高 SPF＝至少30，並有 UVA 標誌或4–5星 UVA 防護。"
+    },
+    {
+     "quote": "The sunscreen should be reapplied at least every two hours, regardless of its SPF",
+     "location": "Lifestyle measures – Sun protection",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "網站用法（SL-1.3：不論 SPF 多高都要補擦）。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "Bens 2014 防曬乳回顧",
+     "citation": "Bens G. Sunscreens. Adv Exp Med Biol 2014;810:429-63.",
+     "pmid": "25207381",
+     "doi": "10.1007/978-1-4939-0437-2_25"
+    }
+   ],
+   "confidence": "High (Tier 1 BSR 2026 PMC full text; measurement basis from a Tier 3 review abstract)",
+   "status": "ok",
+   "reviewer_notes": "BSR's UVA labelling advice (UVA logo; 1–5 stars) follows UK/EU conventions adopted from the British Association of Dermatologists; products sold in Taiwan may use other UVA labelling systems, which no accessible source covers. The site says 'UVA 防護等級也要高', which is consistent."
+  },
+  {
+   "id": "uva-uvb",
+   "term": "UVA 與 UVB",
+   "aliases": [
+    "UVA",
+    "UV-A",
+    "UVB"
+   ],
+   "aka": "ultraviolet A (UVA, UV-A); ultraviolet B (UVB, UV-B)",
+   "def": "UVA和UVB是兩種紫外線，依波長區分：UVA約320–400奈米，波長較長、能穿透到皮膚較深的真皮層；UVB約290–320奈米。",
+   "example": "",
+   "note": "兩種都可能促成狼瘡皮膚病灶；指引建議使用同時防UVA和UVB的防曬乳。",
+   "label": "文獻回顧・定義",
+   "evidence": [
+    {
+     "quote": "Assessment of both ultraviolet-A (UVA) (320–400 nm) and ultraviolet-B (UVB) (290–320 nm) radiation suggest that each contributes via different mechanisms towards promoting cutaneous lesion development",
+     "location": "Ultraviolet radiation and lupus",
+     "access": "PMC full text",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018",
+     "pmcid": "PMC3539182",
+     "supports": "def：UVA 320–400 nm、UVB 290–320 nm；note：兩者都可能促成皮膚病灶。"
+    },
+    {
+     "quote": "In contrast, longer wavelength UVA radiation achieves penetration into the deeper dermis and plays a role in keratinocyte apoptosis via mitochondrial oxidative damage",
+     "location": "Ultraviolet radiation and lupus",
+     "access": "PMC full text",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018",
+     "pmcid": "PMC3539182",
+     "supports": "def：UVA 波長較長，可穿透到較深的真皮層。"
+    },
+    {
+     "quote": "Pertaining to exposure to ultraviolet A (UV-A) and ultraviolet B (UV-B), there is no new high-quality study since the last search of the previous BSR guideline",
+     "location": "Lifestyle measures – Sun protection",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "UV-A＝ultraviolet A、UV-B＝ultraviolet B（網站 SL-1.2 寫法）。"
+    },
+    {
+     "quote": "26. People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B) and to consider safe sun exposure strategies such as reduced sun exposure and the use of protective clothing (1D).",
+     "location": "Summary table of recommendations, item 26",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note：建議使用同時防 UV-A 和 UV-B 的廣效防曬乳。"
+    },
+    {
+     "quote": "For solar urticaria, the exact identification of the range of eliciting wave lengths may be important for the appropriate selection of sunscreens or light bulbs with a UV‐A filter.",
+     "location": "5.2.2 Definite and specific triggers of CIndU",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "網站用法（UR-2.T：有 UV-A 濾光的燈泡）。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Kim 2013 皮膚型狼瘡光敏感回顧",
+     "citation": "Kim A, Chong BF. Photosensitivity in cutaneous lupus erythematosus. Photodermatol Photoimmunol Photomed 2013;29(1):4-11.",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "Medium (wavelengths from a Tier 3 review, PMC full text; terms used in Tier 1 BSR 2026 and GALEN 2026)",
+   "status": "ok",
+   "reviewer_notes": "Wavelength boundaries are as stated by Kim & Chong 2013; other sources may use slightly different boundaries for UVA/UVB, so the def says 約 (about). The site's two spellings (UVA, UV-A) are both covered."
+  },
+  {
+   "id": "broad-spectrum",
+   "term": "廣效防曬",
+   "aliases": [
+    "廣效"
+   ],
+   "aka": "broad-spectrum (UVA and UVB) sunscreen",
+   "def": "廣效防曬是指同時能防護UVA和UVB兩種紫外線的防曬產品。",
+   "example": "",
+   "note": "SPF只代表UVB防護；UVA防護要另看UVA標誌或星等。",
+   "label": "BSR 2026・定義",
+   "evidence": [
+    {
+     "quote": "26. People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B) and to consider safe sun exposure strategies such as reduced sun exposure and the use of protective clothing (1D).",
+     "location": "Summary table of recommendations, item 26",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def：broad-spectrum UV-A and UV-B sunscreen（廣效＝同時防 UVA 與 UVB）。"
+    },
+    {
+     "quote": "Broad spectrum UVB and UVA protection and regular application in sufficient amounts are essential for prevention of skin cancers, UV-induced immunosuppression, and skin aging.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25207381",
+     "doi": "10.1007/978-1-4939-0437-2_25",
+     "pmcid": "",
+     "supports": "def：broad spectrum＝UVB 和 UVA 防護。"
+    },
+    {
+     "quote": "It is important to note that when choosing a sunscreen, UV-B protection is indicated by the SPF while UV-A protection is indicated by the UV-A logo or the UV-A star system (i.e. one to five stars).",
+     "location": "Lifestyle measures – Sun protection",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note：SPF 代表 UVB；UVA 看 UVA 標誌或星等。"
+    },
+    {
+     "quote": "Patients can use a broad-spectrum sunscreen with a minimum sun protective factor (SPF) of 30 on a daily basis, even on cloudy days.",
+     "location": "Photoprotection for lupus patients",
+     "access": "PMC full text",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018",
+     "pmcid": "PMC3539182",
+     "supports": "網站用法：狼瘡病人使用廣效、SPF 30 以上防曬乳。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "Bens 2014 防曬乳回顧",
+     "citation": "Bens G. Sunscreens. Adv Exp Med Biol 2014;810:429-63.",
+     "pmid": "25207381",
+     "doi": "10.1007/978-1-4939-0437-2_25"
+    },
+    {
+     "short": "Kim 2013 皮膚型狼瘡光敏感回顧",
+     "citation": "Kim A, Chong BF. Photosensitivity in cutaneous lupus erythematosus. Photodermatol Photoimmunol Photomed 2013;29(1):4-11.",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018"
+    }
+   ],
+   "confidence": "High (Tier 1 BSR 2026 PMC full text; meaning conveyed by the paired phrase 'broad-spectrum UV-A and UV-B', supported by a review abstract)",
+   "status": "ok",
+   "reviewer_notes": "Neither source gives a formal regulatory test for 'broad-spectrum' labelling (such tests differ by country); the definition is the plain meaning used by BSR 2026 and Bens 2014."
+  },
+  {
+   "id": "uv-index",
+   "term": "紫外線指數",
+   "aliases": [
+    "紫外線指數"
+   ],
+   "aka": "UV Index (Global Solar UV Index, UVI)",
+   "def": "紫外線指數是國際通用、表示陽光中紫外線強弱的簡單數字；數字越高，紫外線越強，用來提醒民眾採取適當的防曬。",
+   "example": "",
+   "note": "指數會受太陽高度、雲量、臭氧量、雪地反射等因素影響。",
+   "label": "文獻・定義（WHO 指數）",
+   "evidence": [
+    {
+     "quote": "The Global Solar Ultraviolet Index (UVI) was introduced by the WHO and partner organisations in 1995 as a simple measure of the intensity of solar UV radiation, providing guidance for the population to use appropriate sun protective measures.",
+     "location": "Abstract – Introduction",
+     "access": "abstract",
+     "pmid": "31289077",
+     "doi": "10.1136/bmjopen-2018-028092",
+     "pmcid": "PMC6629450",
+     "supports": "def：WHO 等機構推出、表示陽光紫外線強度的簡單數值，引導民眾採取適當防曬。"
+    },
+    {
+     "quote": "The index was adopted as a standard indicator of UV levels by the World Meteorological Organization and World Health Organization in 1994.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21033538",
+     "doi": "10.1007/BF03405303",
+     "pmcid": "PMC6974160",
+     "supports": "def：國際通用（WMO 與 WHO 採用的標準指標）。"
+    },
+    {
+     "quote": "Forecasts of UV Index values are now widely available and are intended to be used by the public as a guide to avoid excessive exposure to UV radiation.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21033538",
+     "doi": "10.1007/BF03405303",
+     "pmcid": "PMC6974160",
+     "supports": "def：預報供民眾參考，以避免過度曝曬。"
+    },
+    {
+     "quote": "Factors affecting the UV Index, such as the sun elevation, total amount of ozone in the atmosphere, cloud cover, reflection from snow and local pollution, are also discussed.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21033538",
+     "doi": "10.1007/BF03405303",
+     "pmcid": "PMC6974160",
+     "supports": "note：影響指數的因素（太陽高度、臭氧、雲量、雪地反射、局部污染）。"
+    },
+    {
+     "quote": "According to the World Health Organization and partner organizations, no protection against ultraviolet (UV) radiation is required on days with \"low\" values (i.e., values <3) of the Global Solar Ultraviolet Index (UVI).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30767232",
+     "doi": "10.1111/php.13092",
+     "pmcid": "",
+     "supports": "reviewer_notes：WHO 等機構認為指數 <3 時不需防護（網站 SL-1.T 以 3 為門檻）。"
+    },
+    {
+     "quote": "Conversely, sun exposure on days with rounded UVI values of 2 can indeed provide doses sufficient to induce erythema in skin type II after two hours around noon.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30767232",
+     "doi": "10.1111/php.13092",
+     "pmcid": "",
+     "supports": "reviewer_notes：指數 2 的日子中午約 2 小時，第 II 型膚色也可能曬出紅斑。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Lehmann 2019 紫外線指數認知系統性回顧計畫書",
+     "citation": "Lehmann M et al. The extent of public awareness, understanding and use of the Global Solar UV index as a worldwide health promotion instrument to improve sun protection: protocol for a systematic review. BMJ Open 2019;9(7):e028092.",
+     "pmid": "31289077",
+     "doi": "10.1136/bmjopen-2018-028092"
+    },
+    {
+     "short": "Fioletov 2010 紫外線指數定義與分布",
+     "citation": "Fioletov V, Kerr JB, Fergusson A. The UV index: definition, distribution and factors affecting it. Can J Public Health 2010;101(4):I5-9.",
+     "pmid": "21033538",
+     "doi": "10.1007/BF03405303"
+    },
+    {
+     "short": "Lehmann 2019 低紫外線指數日的紅斑劑量分析",
+     "citation": "Lehmann M et al. Erythemal UV Radiation on Days with Low UV Index Values-an Analysis of Data from the German Solar UV Monitoring Network over a Ten-year Period. Photochem Photobiol 2019;95(4):1076-1082.",
+     "pmid": "30767232",
+     "doi": "10.1111/php.13092"
+    }
+   ],
+   "confidence": "Medium (PubMed-indexed descriptions of the WHO index in abstracts; the WHO 2002 practical guide itself is not PubMed-indexed)",
+   "status": "ok",
+   "reviewer_notes": "The sources disagree on the year (Fioletov: adopted by WMO and WHO in 1994; Lehmann: introduced by WHO and partners in 1995), so no year is given. The site's CM-6.1 wording (higher index → more skin/eye damage, less time to harm) comes from the WHO Q&A web page, not a PubMed source; it is consistent with this entry. Possible caution for the lupus pages: Lehmann 2019 (Photochem Photobiol) found that on UVI 2 days about two hours around noon can produce erythema in skin type II, i.e. the WHO '<3 = no protection' band is not harmless for everyone; physician may add this for photosensitive patients. Organisation names as printed in the abstracts: 'World Health Organization', 'World Meteorological Organization'."
+  },
+  {
+   "id": "photosensitivity",
+   "term": "光敏感",
+   "aliases": [
+    "對光敏感"
+   ],
+   "aka": "photosensitivity",
+   "def": "光敏感是指皮膚對陽光有不尋常的反應，例如曬太陽後出現皮疹。紅斑性狼瘡的這類皮疹，常在曬後幾天到幾週才出現。",
+   "example": "",
+   "note": "有些人曬太陽後，也會出現疲倦、關節痛等全身症狀。",
+   "label": "ACR 標準・定義",
+   "evidence": [
+    {
+     "quote": "The ACR has defined photosensitivity as “a skin rash as a result of unusual reaction to sunlight”",
+     "location": "Photosensitivity in lupus patients",
+     "access": "PMC full text",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018",
+     "pmcid": "PMC3539182",
+     "supports": "def：ACR 定義＝對陽光有不尋常反應而出現的皮疹。"
+    },
+    {
+     "quote": "Whether noted from patient history or physician observation, photosensitivity remains one of the 11 diagnostic criteria for SLE as determined by the 1982 American College of Rheumatology (ACR) guidelines",
+     "location": "Photosensitivity in lupus patients",
+     "access": "PMC full text",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018",
+     "pmcid": "PMC3539182",
+     "supports": "背景：光敏感是 1982 年 ACR 紅斑性狼瘡標準之一（依病史或醫師觀察）。"
+    },
+    {
+     "quote": "Thus, because patients may not consider flares that occur days to weeks after extended sun exposure, we encourage providers to ask patients about flares that happen up to three weeks after being outside for an extended period.",
+     "location": "Photosensitivity in lupus patients",
+     "access": "PMC full text",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018",
+     "pmcid": "PMC3539182",
+     "supports": "def：皮疹可在曬後幾天到幾週才出現。"
+    },
+    {
+     "quote": "Detecting photosensitivity may be limited by a potential lag period of several weeks between sun exposure and skin lesions",
+     "location": "Lifestyle measures – Sun protection",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def／網站 SL-M3：曬太陽與皮膚病灶之間可能相隔數週，因此不易察覺。"
+    },
+    {
+     "quote": "Photosensitivity covers not only skin disease flares but also systemic symptoms such as fatigue and arthralgias",
+     "location": "Photosensitivity in lupus patients",
+     "access": "PMC full text",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018",
+     "pmcid": "PMC3539182",
+     "supports": "note：光敏感也包括疲倦、關節痛等全身症狀。"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Kim 2013 皮膚型狼瘡光敏感回顧",
+     "citation": "Kim A, Chong BF. Photosensitivity in cutaneous lupus erythematosus. Photodermatol Photoimmunol Photomed 2013;29(1):4-11.",
+     "pmid": "23281691",
+     "doi": "10.1111/phpp.12018"
+    },
+    {
+     "short": "BSR 2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    }
+   ],
+   "confidence": "Medium (ACR criteria definition quoted in a Tier 3 PMC review; delayed onset confirmed by Tier 1 BSR 2026 PMC full text)",
+   "status": "ok",
+   "reviewer_notes": "The original 1982 ACR criteria paper was not accessed; the ACR definition is taken from Kim & Chong's quotation of it. Kim & Chong call the 1982 ACR criteria 'diagnostic criteria' (they are classification criteria), note that the ACR wording is broad and can capture other light-induced rashes (e.g. polymorphous light eruption), and propose their own (unvalidated) definition. 'American College of Rheumatology' is the organisation's full name as printed in its own PubMed-indexed guidelines (e.g. FitzGerald 2020)."
+  }
+ ]
+}

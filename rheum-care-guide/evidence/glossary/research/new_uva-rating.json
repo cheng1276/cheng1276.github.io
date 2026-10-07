@@ -1,0 +1,136 @@
+{
+ "id": "uva-rating",
+ "cat": "sun",
+ "en": "UVA protection rating (PA grade; UVA logo / UVA star rating)",
+ "group": "g3_diet_sun",
+ "term": "UVA 防護等級",
+ "aliases": [
+  "UVA 防護等級"
+ ],
+ "aka": "UVA protection labelling: Protection Grade of UVA (PA+ to PA++++, based on persistent pigment darkening); UK UVA logo and UVA star system (one to five stars)",
+ "def": "防曬產品標示 UVA 防護力高低的方式，各地不同：亞洲常見 PA 等級，「+」越多防護越高；英國指引則看 UVA 標誌或 1 到 5 顆星。",
+ "example": "PA+、PA++、PA+++、PA++++。",
+ "note": "PA+++ 屬「高」、PA++++ 屬「很高」；英國指引則要求有 UVA 標誌或 4 到 5 顆星。",
+ "label": "BSR 2026 與文獻・說明",
+ "evidence": [
+  {
+   "quote": "It is important to note that when choosing a sunscreen, UV-B protection is indicated by the SPF while UV-A protection is indicated by the UV-A logo or the UV-A star system (i.e. one to five stars).",
+   "location": "Lifestyle measures – Sun protection (rationale for Recommendation 26)",
+   "access": "PMC full text",
+   "pmid": "42336388",
+   "doi": "10.1093/rheumatology/keag223",
+   "pmcid": "PMC13290301",
+   "supports": "def：UVA 防護是用標示表示（英國指引：UVA 標誌或 1 到 5 顆星）。"
+  },
+  {
+   "quote": "Due to the lack of high-quality evidence, we adopted the recommendation by the BAD (i.e. high SPF as defined by at least 30 and with a UV-A logo or UV-A with 4-star or 5-star protection).",
+   "location": "Lifestyle measures – Sun protection (rationale for Recommendation 26)",
+   "access": "PMC full text",
+   "pmid": "42336388",
+   "doi": "10.1093/rheumatology/keag223",
+   "pmcid": "PMC13290301",
+   "supports": "note：英國指引的高標準要求有 UVA 標誌或 4 到 5 顆星；網站 SL-1.2「UVA 防護等級也要高」的出處。"
+  },
+  {
+   "quote": "26. People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B) and to consider safe sun exposure strategies such as reduced sun exposure and the use of protective clothing (1D).",
+   "location": "Summary table of recommendations, item 26",
+   "access": "PMC full text",
+   "pmid": "42336388",
+   "doi": "10.1093/rheumatology/keag223",
+   "pmcid": "PMC13290301",
+   "supports": "網站用法（SL-1.2 的建議本身）。"
+  },
+  {
+   "quote": "Japan employs a PA rating system to communicate the extent of UVA protection. This system, developed domestically and now widely used in Asian markets, categorizes UVA effectiveness based on the persistent pigment darkening (PPD) method, with grading expressed in Table.",
+   "location": "Japanese sunscreen guidelines – UVA Protection and Protection Grade of UVA (PA) Rating System",
+   "access": "PMC full text",
+   "pmid": "41869094",
+   "doi": "10.7759/cureus.103757",
+   "pmcid": "PMC13000865",
+   "supports": "def：PA 等級用來表示 UVA 防護程度，亞洲常見（widely used in Asian markets）。"
+  },
+  {
+   "quote": "PA: Protection Grade of UVA; UVA: ultraviolet A PA Grade Level of UVA Protection PA+ Some UVA protection PA++ Moderate UVA protection PA+++ High UVA protection PA++++ Very high UVA protection",
+   "location": "Table 1 (PA Rating System for UVA Protection); table cells read in order, whitespace normalised",
+   "access": "PMC full text",
+   "pmid": "41869094",
+   "doi": "10.7759/cureus.103757",
+   "pmcid": "PMC13000865",
+   "supports": "def：「+」越多防護越高；example：PA+ 到 PA++++；note：PA+++＝高、PA++++＝很高。"
+  },
+  {
+   "quote": "Despite the availability of reliable methods, there is no worldwide consensus on how to measure and label the level of UVA protection.",
+   "location": "Introduction, paragraph 3",
+   "access": "PMC full text",
+   "pmid": "41968398",
+   "doi": "10.1111/phpp.70092",
+   "pmcid": "PMC13071116",
+   "supports": "def：UVA 防護的標示方法各地不同。"
+  },
+  {
+   "quote": "The sun protection factor (SPF) is primarily a measure of UVB protection against erythema and does not quantify protection from UVA, which is the major component of solar UVR.",
+   "location": "Abstract – Background/Purpose",
+   "access": "abstract",
+   "pmid": "41968398",
+   "doi": "10.1111/phpp.70092",
+   "pmcid": "PMC13071116",
+   "supports": "背景：SPF 看不出 UVA 防護，所以需要另外的 UVA 標示（未寫入白話解釋，見 SPF 詞條）。"
+  },
+  {
+   "quote": "UVA protection testing is less standardized: Persistent pigment darkening and critical wavelength are currently used methods. Marketing and labeling of sunscreens underlay national regulation which explains major differences between the European and the US sunscreen market.",
+   "location": "Abstract",
+   "access": "abstract",
+   "pmid": "25207381",
+   "doi": "10.1007/978-1-4939-0437-2_25",
+   "pmcid": "",
+   "supports": "def：各地標示不同（依各國法規）；reviewer_notes：UVA 防護的測試方法較不統一。"
+  },
+  {
+   "quote": "SPF and UV-A protection are often linked, so a higher SPF sunscreen will have more UV-A protection as per document produced by the British Association of Dermatologists (BAD)",
+   "location": "Lifestyle measures – Sun protection (rationale for Recommendation 26)",
+   "access": "PMC full text",
+   "pmid": "42336388",
+   "doi": "10.1093/rheumatology/keag223",
+   "pmcid": "PMC13290301",
+   "supports": "reviewer_notes：與 Young 2026 的結果不一致，故白話解釋不寫「SPF 高 UVA 防護就高」。"
+  },
+  {
+   "quote": "The study demonstrates the limitations of many commercial sunscreens to reach EU standards, with significant variations in UVA protection and a lack of relationship between SPF and UVA-PF values.",
+   "location": "Abstract – Conclusion",
+   "access": "abstract",
+   "pmid": "41968398",
+   "doi": "10.1111/phpp.70092",
+   "pmcid": "PMC13071116",
+   "supports": "reviewer_notes：SPF 與 UVA 防護不一定相關（與 BSR 2026 的說法不一致）。"
+  }
+ ],
+ "sources": [
+  {
+   "short": "BSR 2026 紅斑性狼瘡指引",
+   "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+   "pmid": "42336388",
+   "doi": "10.1093/rheumatology/keag223"
+  },
+  {
+   "short": "Patel 2026 各國防曬規範評論",
+   "citation": "Patel MN, Patel N. Global Perspectives on Regional Sun Protection Factor (SPF) Requirements: Scientific and Regulatory Insights. Cureus 2026;18(2):e103757.",
+   "pmid": "41869094",
+   "doi": "10.7759/cureus.103757"
+  },
+  {
+   "short": "Young 2026 防曬乳 UVA 防護研究",
+   "citation": "Young A et al. In Vivo Measurement of UVA Protection Factor (ISO 24442:2011) Across 38 Different SPF 50 and SPF 50+ Sunscreens Reveals High Heterogeneity and Limitations in the Level of Protection. Photodermatol Photoimmunol Photomed 2026;42(3):e70092.",
+   "pmid": "41968398",
+   "doi": "10.1111/phpp.70092"
+  },
+  {
+   "short": "Bens 2014 防曬乳回顧",
+   "citation": "Bens G. Sunscreens. Adv Exp Med Biol 2014;810:429-63.",
+   "pmid": "25207381",
+   "doi": "10.1007/978-1-4939-0437-2_25"
+  }
+ ],
+ "confidence": "Medium for the UK UVA logo / star system (Tier 1 BSR 2026, PMC full text). Low for the PA system: the only accessible PubMed-indexed description is an editorial in Cureus (Patel 2026, PMC full text); no Tier 1–3 dermatology source describing the PA grades could be read.",
+ "status": "ok",
+ "reviewer_notes": "PA SOURCE QUALITY: Patel 2026 is a Cureus editorial by two authors affiliated with NovoBliss Research Private Limited (clinical research operations, Ahmedabad, India); its Table 2 also calls JCIA the 'Japan Chemical Industry Association' while its text says 'Japan Cosmetic Industry Association', so editorial quality is limited. It is used only for what the PA grades are called and their order (PA+ some, PA++ moderate, PA+++ high, PA++++ very high UVA protection) and that PA is Japanese and widely used in Asian markets. Better sources that probably describe PA (Moyal 2010 Photochem Photobiol Sci, PMID 20354645; Moyal 2012 Indian J Dermatol Venereol Leprol, PMID 22710110) are abstract-only and their abstracts do not describe PA; Moyal 2006 (PMID 16719864) describes in its abstract 'The Japanese Cosmetic Industry Association (JCIA) PPD method' used to determine UVA protection factors. The PPD/UVA-PF ranges behind each PA grade were not stated in any accessible source, so no numbers are given. TAIWAN: no PubMed-indexed source on Taiwanese sunscreen labelling rules was found; the entry therefore says only 「亞洲常見」. UK LABEL: BSR says 'UV-A logo'; its shape (a circle) is not described in any accessible source, so the entry says 「UVA 標誌」. The BSR 'high' standard (SPF at least 30 plus UVA logo or 4–5 stars) is adopted from the British Association of Dermatologists. CONFLICT: BSR 2026 states 'SPF and UV-A protection are often linked, so a higher SPF sunscreen will have more UV-A protection' (citing BAD), whereas Young 2026 (38 SPF 50/50+ products, ISO 24442 in vivo PPD testing; funded by La Roche-Posay/L'Oréal) found 'a lack of relationship between SPF and UVA-PF values'; the entry does not say that a high SPF implies high UVA protection. The note does not equate PA grades with UK stars (no source maps one to the other). LINKING: the alias 「UVA 防護等級」 (normal space, exactly as in SL-1.2) is longer than the uva-uvb alias 「UVA」, so in SL-1.2 the second 「UVA」 (now a [repeat] of uva-uvb) becomes this entry's link, while 「（同時防 UVA 和 UVB）」 stays linked to uva-uvb; please confirm the site's JavaScript applies the same longest-match rule."
+}

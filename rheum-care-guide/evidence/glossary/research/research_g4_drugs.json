@@ -1,0 +1,1872 @@
+{
+ "group": "g4_drugs",
+ "entries": [
+  {
+   "id": "oral-glucocorticoid",
+   "term": "口服類固醇",
+   "aliases": [
+    "口服類固醇",
+    "類固醇"
+   ],
+   "aka": "oral glucocorticoids (GC); glucocorticoids",
+   "def": "這裡的類固醇指「糖皮質類固醇」，用來治療狼瘡等風濕病已有約75年歷史，能快速控制病情；口服類固醇就是用吃的。",
+   "example": "例如口服的 prednisolone",
+   "note": "長期使用對健康有不良影響（例如增加骨質疏鬆風險），指引建議盡量減少用量。",
+   "label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "quote": "GC have been used for three-quarters of a century for the treatment of SLE and other rheumatic diseases.",
+     "location": "Section \"Glucocorticoids\" (non-renal SLE)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def: 治療狼瘡等風濕病已約75年"
+    },
+    {
+     "quote": "GC have a uniquely consistent and rapid effect on disease activity that makes them valuable as a bridging therapy to settle a flare and/or while HCQ or a new or increased dose of an immunosuppressant takes effect.",
+     "location": "Section \"Glucocorticoids\" (non-renal SLE)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def: 能快速控制病情"
+    },
+    {
+     "quote": "Long-term maintenance treatment with oral GC is not routinely recommended to treat disease activity.",
+     "location": "Recommendation 46",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def: 口服類固醇 (oral GC as a distinct form)"
+    },
+    {
+     "quote": "allow for a faster tapering of oral prednisolone",
+     "location": "Section \"Glucocorticoids\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "example: 口服的 prednisolone"
+    },
+    {
+     "quote": "With the advancement in therapies and owing to the detrimental effects of GC on longer-term health outcomes, the GWG members strongly advocate for minimisation of GC exposure.",
+     "location": "Section \"Glucocorticoids\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note: 長期使用對健康有不良影響；盡量減少用量"
+    },
+    {
+     "quote": "This increased risk could be due to the disease process (i.e. chronic inflammation) and the side effects of therapies, particularly GC.",
+     "location": "Section \"Bone health\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note: 增加骨質疏鬆風險"
+    },
+    {
+     "quote": "The objective is to update recommendations for prevention and treatment of glucocorticoid-induced osteoporosis (GIOP) for patients with rheumatic or nonrheumatic conditions receiving >3 months treatment with glucocorticoids (GCs) ≥2.5 mg daily.",
+     "location": "Abstract (objective)",
+     "access": "abstract",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646",
+     "pmcid": "",
+     "supports": "site usage CM-4.1: long-term (>3 months) glucocorticoid use and bone"
+    },
+    {
+     "quote": "A preliminary assessment of fracture risk should be routinely performed in patients likely to receive oral GCs for ≥3 months",
+     "location": "Abstract, R1-2",
+     "access": "abstract",
+     "pmid": "39556468",
+     "doi": "10.1093/ejendo/lvae146",
+     "pmcid": "",
+     "supports": "site usage CM-4.T: oral GCs for ≥3 months"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR（英國的風濕病學會）2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "ACR（美國的風濕病醫學會）2022 類固醇引起骨質疏鬆指引",
+     "citation": "Humphrey MB et al. 2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis. Arthritis Rheumatol 2023;75(12):2088-2102.",
+     "pmid": "37845798",
+     "doi": "10.1002/art.42646"
+    },
+    {
+     "short": "ECTS（歐洲的鈣化組織學會）2024 類固醇引起骨質疏鬆建議",
+     "citation": "Paccou J et al. Prevention and treatment of glucocorticoid-induced osteoporosis in adults: recommendations from the European Calcified Tissue Society. Eur J Endocrinol 2024;191(6):G1-G17.",
+     "pmid": "39556468",
+     "doi": "10.1093/ejendo/lvae146"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "「約75年」 renders BSR 2026 \"three-quarters of a century\". The site uses 類固醇 for systemic glucocorticoids; lay readers may confuse it with anabolic or inhaled/topical steroids, so the def names 糖皮質類固醇. BSR also lists non-oral GC forms (topical, intra-articular, intramuscular, IV methylprednisolone), which is why 口服 is specified. The ACR 2022 GIOP abstract defines its population as \">3 months treatment with glucocorticoids (GCs) ≥2.5 mg daily\" without stating the route; ECTS 2024 (abstract) refers to \"oral GCs for ≥3 months\". Site CM-4.1 omits the ≥2.5 mg/day threshold (physician may wish to add it)."
+  },
+  {
+   "id": "dmard",
+   "term": "抗風濕藥物",
+   "aliases": [
+    "抗風濕藥物"
+   ],
+   "aka": "disease-modifying antirheumatic drugs (DMARDs)",
+   "def": "這裡指「疾病調節型抗風濕藥物」（DMARDs），是治療類風濕性關節炎等風濕病的一大類藥物，分為傳統合成、標靶合成和生物製劑等類型。",
+   "example": "傳統合成類如 methotrexate、hydroxychloroquine",
+   "note": "",
+   "label": "DMARD 命名 2014・分類",
+   "evidence": [
+    {
+     "quote": "In light of the recent emergence of new therapeutics for rheumatoid arthritis, such as kinase inhibitors and biosimilars, a new nomenclature for disease-modifying antirheumatic drugs (DMARDs), which are currently often classified as synthetic (or chemical) DMARDs (sDMARDS) and biological DMARDs (bDMARDs), may be needed.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317",
+     "pmcid": "",
+     "supports": "def: DMARDs 是治療類風濕性關節炎的藥物；分為合成與生物兩大類"
+    },
+    {
+     "quote": "and the former into conventional synthetic and targeted synthetic DMARDs (csDMARDs and tsDMARDs, respectively). tsDMARDs would then constitute only those that were specifically developed to target a particular molecular structure (such as tofacitinib, fostamatinib, baricitinib or apremilast, or agents not focused primarily on rheumatic diseases, such as imatinib or ibrutinib), while csDMARDs would comprise the traditional drugs (such as methotrexate, sulfasalazine, leflunomide, hydroxychloroquine, gold salts and others).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317",
+     "pmcid": "",
+     "supports": "def: 傳統合成、標靶合成；example: methotrexate、hydroxychloroquine"
+    },
+    {
+     "quote": "The task force agreed on 5 overarching principles and 11 recommendations concerning use of conventional synthetic (cs) DMARDs (methotrexate (MTX), leflunomide, sulfasalazine); GCs; biological (b) DMARDs (tumour necrosis factor inhibitors (adalimumab, certolizumab pegol, etanercept, golimumab, infliximab including biosimilars), abatacept, rituximab, tocilizumab, sarilumab and targeted synthetic (ts) DMARDs, namely the Janus kinase inhibitors tofacitinib, baricitinib, filgotinib, upadacitinib.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "36357155",
+     "doi": "10.1136/ard-2022-223356",
+     "pmcid": "",
+     "supports": "def: 傳統合成（cs）、生物（b）、標靶合成（ts）DMARDs 用於類風濕性關節炎"
+    },
+    {
+     "quote": "The task force agreed on 5 overarching principles and reduced the number of recommendations to 9 concerning use of conventional synthetic DMARDs (methotrexate [MTX], leflunomide, sulfasalazine); glucocorticoids (GCs); biological (b)DMARDs (tumour necrosis factor inhibitors [adalimumab, certolizumab pegol, etanercept, golimumab, infliximab], abatacept, rituximab, tocilizumab, sarilumab, including biosimilars) and targeted synthetic [ts]DMARDs (namely the Janus kinase inhibitors [JAKi] tofacitinib, baricitinib, filgotinib, upadacitinib).",
+     "location": "Abstract (results), 2025 update",
+     "access": "abstract",
+     "pmid": "41826212",
+     "doi": "10.1016/j.ard.2026.01.023",
+     "pmcid": "",
+     "supports": "def: same cs/b/ts DMARD categories in the current (2025) update"
+    },
+    {
+     "quote": "Whenever possible, vaccination should be completed before initiating therapy with conventional synthetic DMARDs, including methotrexate, leflunomide, hydroxychloroquine, and sulfasalazine.",
+     "location": "Recommendation on csDMARDs (Results)",
+     "access": "PMC full text",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8",
+     "pmcid": "PMC13488773",
+     "supports": "def: 等風濕病（immune-mediated rheumatic diseases）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "DMARD 新命名提案 2014（Smolen 等）",
+     "citation": "Smolen JS et al. Proposal for a new nomenclature of disease-modifying antirheumatic drugs. Ann Rheum Dis 2014;73(1):3-5.",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2022 類風濕性關節炎用藥建議",
+     "citation": "Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2022 update. Ann Rheum Dis 2023;82(1):3-18.",
+     "pmid": "36357155",
+     "doi": "10.1136/ard-2022-223356"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2025 類風濕性關節炎用藥建議",
+     "citation": "Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biologic disease-modifying antirheumatic drugs: 2025 update. Ann Rheum Dis 2026;85(6):991-1009.",
+     "pmid": "41826212",
+     "doi": "10.1016/j.ard.2026.01.023"
+    },
+    {
+     "short": "SBR（巴西的風濕病學會）2025 疫苗建議",
+     "citation": "Pileggi GCS et al. Brazilian Society of Rheumatology - 2025 recommendations on vaccination in immune-mediated rheumatic diseases. Adv Rheumatol 2026;66(1):14.",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "On the site, 抗風濕藥物 (CM-5.1) translates EULAR 2019 \"DMARDs\". A bare 抗風濕藥物 could be read as any anti-rheumatic medicine (e.g. NSAIDs or glucocorticoids); consider writing 疾病調節型抗風濕藥物 on the site. No PubMed-accessible functional definition (e.g. \"slows joint damage\") was found in an abstract or PMC text this session, so the def gives no mechanism or effect claim. The EULAR RA 2025 update (PMID 41826212, abstract) supersedes the 2022 update and keeps the same cs/b/ts DMARD categories. The nomenclature paper's PubMed epub year is 2013; print citation is 2014;73:3-5."
+  },
+  {
+   "id": "immunosuppressant",
+   "term": "免疫抑制藥物",
+   "aliases": [
+    "免疫抑制藥物",
+    "免疫抑制治療"
+   ],
+   "aka": "immunosuppressive medications; immunosuppressive therapy; immunosuppression",
+   "def": "免疫抑制藥物是用來治療風濕病、會壓低免疫系統作用的藥物；使用期間比較容易得到可用疫苗預防的感染，感染也可能比較嚴重。",
+   "example": "例如 methotrexate、azathioprine、長期使用的類固醇",
+   "note": "",
+   "label": "ACR 2022・指引說明",
+   "evidence": [
+    {
+     "quote": "immunosuppressive medications used to treat them place patients at higher risk of vaccine-preventable infections and of more serious complications of infection.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "def: 用來治療風濕病；較容易得到可用疫苗預防的感染，感染也可能較嚴重"
+    },
+    {
+     "quote": "Patients with immune-mediated rheumatic diseases (IMRD) are at increased risk for infections due to both disease-related immune dysregulation and immunosuppressive therapy.",
+     "location": "Abstract (background)",
+     "access": "abstract",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8",
+     "pmcid": "PMC13488773",
+     "supports": "def: 使用期間比較容易感染"
+    },
+    {
+     "quote": "The Task Force agreed on 5 overarching principles and 13 recommendations, concerning the use of hydroxychloroquine (HCQ), glucocorticoids (GC), immunosuppressive drugs (ISDs) (including methotrexate, mycophenolate, azathioprine, cyclophosphamide (CYC)), calcineurin inhibitors (CNIs, cyclosporine, tacrolimus, voclosporin) and biologics (belimumab, anifrolumab, rituximab).",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "37827694",
+     "doi": "10.1136/ard-2023-224762",
+     "pmcid": "",
+     "supports": "example: methotrexate、azathioprine (immunosuppressive drugs, ISDs)"
+    },
+    {
+     "quote": "Diseases requiring treatment with immunosuppressive drugs, including long-term systemic corticosteroids and radiation therapy.",
+     "location": "Table 1 footnote (iatrogenic immunosuppression)",
+     "access": "PMC full text",
+     "pmid": "35085226",
+     "doi": "10.15585/mmwr.mm7104a1",
+     "pmcid": "PMC9351524",
+     "supports": "example: 長期使用的類固醇 (long-term systemic corticosteroids)"
+    },
+    {
+     "quote": "The former address the need for an annual vaccination status assessment, shared decision-making and timing of vaccination, favouring vaccination during quiescent disease, preferably prior to the initiation of immunosuppression.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882",
+     "pmcid": "",
+     "supports": "site usage CM-5.1: 免疫抑制治療 (immunosuppression)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR（美國的風濕病醫學會）2022 疫苗指引",
+     "citation": "Bass AR et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res (Hoboken) 2023;75(3):449-464.",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045"
+    },
+    {
+     "short": "SBR（巴西的風濕病學會）2025 疫苗建議",
+     "citation": "Pileggi GCS et al. Brazilian Society of Rheumatology - 2025 recommendations on vaccination in immune-mediated rheumatic diseases. Adv Rheumatol 2026;66(1):14.",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2023 紅斑性狼瘡建議",
+     "citation": "Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis 2024;83(1):15-29.",
+     "pmid": "37827694",
+     "doi": "10.1136/ard-2023-224762"
+    },
+    {
+     "short": "ACIP（美國的免疫接種諮詢委員會）2022 成人肺炎鏈球菌疫苗建議",
+     "citation": "Kobayashi M et al. Use of 15-Valent Pneumococcal Conjugate Vaccine and 20-Valent Pneumococcal Conjugate Vaccine Among U.S. Adults: Updated Recommendations of the Advisory Committee on Immunization Practices - United States, 2022. MMWR Morb Mortal Wkly Rep 2022;71(4):109-117.",
+     "pmid": "35085226",
+     "doi": "10.15585/mmwr.mm7104a1"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2019 成人疫苗建議",
+     "citation": "Furer V et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2020;79(1):39-52.",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "「會壓低免疫系統作用」 is the literal meaning of \"immunosuppressive\". ACR 2022 lists the medications it covers (Table 1) and defines its terms in a glossary table (Table 2); neither is in the PMC extraction, and the ACR-hosted PDF could not be opened this session (WebFetch permission not granted). Whether ACR counts hydroxychloroquine or sulfasalazine as \"immunosuppressive medication\" was therefore NOT verified, so the def gives no complete list. The corticosteroid example follows the ACIP footnote (\"long-term systemic corticosteroids\"); ACR grades glucocorticoid doses for vaccination (prednisone-equivalent ≤10, >10 to <20, ≥20 mg/day); these thresholds are not used here."
+  },
+  {
+   "id": "biologic",
+   "term": "生物製劑",
+   "aliases": [
+    "生物製劑"
+   ],
+   "aka": "biologics; biological DMARDs (bDMARDs)",
+   "def": "生物製劑是用活細胞製造、結構很複雜的藥物；在風濕科屬於抗風濕藥物（DMARDs）中的「生物型」一類。",
+   "example": "例如治療狼瘡的 belimumab、rituximab",
+   "note": "研究顯示抽菸可能降低部分生物製劑（如 belimumab）的療效。",
+   "label": "綜論 2017・定義",
+   "evidence": [
+    {
+     "quote": "Biologic drugs are highly complex molecules produced by living cells through a multistep manufacturing process.",
+     "location": "Abstract (first sentence)",
+     "access": "abstract",
+     "pmid": "28903544",
+     "doi": "10.1093/rheumatology/kex278",
+     "pmcid": "PMC5850795",
+     "supports": "def: 用活細胞製造、結構很複雜的藥物"
+    },
+    {
+     "quote": "In light of the recent emergence of new therapeutics for rheumatoid arthritis, such as kinase inhibitors and biosimilars, a new nomenclature for disease-modifying antirheumatic drugs (DMARDs), which are currently often classified as synthetic (or chemical) DMARDs (sDMARDS) and biological DMARDs (bDMARDs), may be needed.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317",
+     "pmcid": "",
+     "supports": "def: 屬於 DMARDs 中的「生物型」一類 (biological DMARDs vs synthetic/chemical DMARDs)"
+    },
+    {
+     "quote": "The Task Force agreed on 5 overarching principles and 13 recommendations, concerning the use of hydroxychloroquine (HCQ), glucocorticoids (GC), immunosuppressive drugs (ISDs) (including methotrexate, mycophenolate, azathioprine, cyclophosphamide (CYC)), calcineurin inhibitors (CNIs, cyclosporine, tacrolimus, voclosporin) and biologics (belimumab, anifrolumab, rituximab).",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "37827694",
+     "doi": "10.1136/ard-2023-224762",
+     "pmcid": "",
+     "supports": "example: belimumab、rituximab (biologics in SLE)"
+    },
+    {
+     "quote": "the only licensed biologic therapy in 2017 was belimumab (B-cell activating factor inhibitor)",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note: belimumab is a biologic"
+    },
+    {
+     "quote": "Beyond increasing cardiovascular risk, an SLR and meta-analysis of cohort studies showed that smoking may also reduce the efficacy of hydroxychloroquine and belimumab",
+     "location": "Section \"Smoking\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note: 抽菸可能降低 belimumab 療效 (site SL-2.2)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "生物相似藥製程綜論 2017（Vulto 等）",
+     "citation": "Vulto AG et al. The process defines the product: what really matters in biosimilar design and production? Rheumatology (Oxford) 2017;56(suppl_4):iv14-iv29.",
+     "pmid": "28903544",
+     "doi": "10.1093/rheumatology/kex278"
+    },
+    {
+     "short": "DMARD 新命名提案 2014（Smolen 等）",
+     "citation": "Smolen JS et al. Proposal for a new nomenclature of disease-modifying antirheumatic drugs. Ann Rheum Dis 2014;73(1):3-5.",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2023 紅斑性狼瘡建議",
+     "citation": "Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis 2024;83(1):15-29.",
+     "pmid": "37827694",
+     "doi": "10.1136/ard-2023-224762"
+    },
+    {
+     "short": "BSR（英國的風濕病學會）2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "The definitional quote (\"produced by living cells\") comes from a narrative review (Tier 3) in a Rheumatology supplement; one author is from Biogen (industry). No guideline-level, PubMed-accessible definition of \"biologic\" was found. The site's SL-2.2 source (EULAR 2023 \"antimalarials and biologics (belimumab)\") is full text read via WebFetch in the research phase; the same point is confirmed here in BSR 2026 PMC text. EULAR SLE 2023 also says \"biological agents (anifrolumab, belimumab)\"; 生物製劑 is the usual Taiwanese term. Confidence Medium because the definitional quote is Tier 3."
+  },
+  {
+   "id": "antimalarial",
+   "term": "抗瘧疾藥物（hydroxychloroquine）",
+   "aliases": [
+    "抗瘧疾藥物",
+    "hydroxychloroquine"
+   ],
+   "aka": "antimalarials; hydroxychloroquine (HCQ)",
+   "def": "這類藥最早用來治療瘧疾，現在也用於紅斑性狼瘡、乾燥症等風濕病；hydroxychloroquine 是狼瘡治療的基石藥物。",
+   "example": "例如 hydroxychloroquine、mepacrine",
+   "note": "使用期間醫師會安排眼睛檢查，監測可能的視網膜副作用。",
+   "label": "BSR 2026・指引說明",
+   "evidence": [
+    {
+     "quote": "Initially used as antimalarial drugs, hydroxychloroquine (HCQ) and, to a lesser extent, chloroquine (CQ) are currently being used to treat several diseases. Due to its cost-effectiveness, safety and efficacy, HCQ is especially used in rheumatic autoimmune disorders (RADs), such as systemic lupus erythematosus, primary Sjögren's syndrome and rheumatoid arthritis.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "32715647",
+     "doi": "10.15252/emmm.202012476",
+     "pmcid": "PMC7411564",
+     "supports": "def: 最早用來治療瘧疾；現在用於狼瘡、乾燥症等風濕病"
+    },
+    {
+     "quote": "Hydroxychloroquine (HCQ) is a cornerstone therapy for SLE.",
+     "location": "Section \"General recommendations for antimalarial therapies\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def: 狼瘡治療的基石"
+    },
+    {
+     "quote": "Hydroxychloroquine (HCQ) is recommended for all people with SLE unless contraindicated (1A)",
+     "location": "Recommendation 38",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "def: 狼瘡治療的基石 (recommended for all)"
+    },
+    {
+     "quote": "combined antimalarials (e.g. hydroxychloroquine and mepacrine)",
+     "location": "Section on cutaneous lupus (summary)",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "example: hydroxychloroquine、mepacrine"
+    },
+    {
+     "quote": "The GWG recommend following the RCOphth guideline [] to monitor for possible ocular toxicity associated with HCQ in all people with SLE.",
+     "location": "Section \"Monitoring for antimalarial therapies\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "note: 眼睛檢查"
+    },
+    {
+     "quote": "HCQ is recommended for all patients with lupus at a target dose 5 mg/kg real body weight/day, considering the individual's risk for flares and retinal toxicity.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "37827694",
+     "doi": "10.1136/ard-2023-224762",
+     "pmcid": "",
+     "supports": "note: 視網膜副作用 (retinal toxicity)"
+    },
+    {
+     "quote": "Beyond increasing cardiovascular risk, an SLR and meta-analysis of cohort studies showed that smoking may also reduce the efficacy of hydroxychloroquine and belimumab",
+     "location": "Section \"Smoking\"",
+     "access": "PMC full text",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223",
+     "pmcid": "PMC13290301",
+     "supports": "site usage SL-2.2: smoking may reduce HCQ efficacy"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR（英國的風濕病學會）2026 紅斑性狼瘡指引",
+     "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+     "pmid": "42336388",
+     "doi": "10.1093/rheumatology/keag223"
+    },
+    {
+     "short": "hydroxychloroquine 綜論 2020（Nirk 等）",
+     "citation": "Nirk EL et al. Hydroxychloroquine in rheumatic autoimmune disorders and beyond. EMBO Mol Med 2020;12(8):e12476.",
+     "pmid": "32715647",
+     "doi": "10.15252/emmm.202012476"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2023 紅斑性狼瘡建議",
+     "citation": "Fanouriakis A et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis 2024;83(1):15-29.",
+     "pmid": "37827694",
+     "doi": "10.1136/ard-2023-224762"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "The \"antimalarial\" origin comes from a narrative review abstract (Nirk 2020, Tier 3); everything else comes from BSR 2026 (PMC) and the EULAR 2023 abstract. Confidence Medium only because of that Tier-3 clause. BSR also lists chloroquine as an alternative if HCQ is unavailable or not tolerated, with \"a greater risk of retinal toxicity than HCQ\" (not in def). No dosing is given."
+  },
+  {
+   "id": "mtx-lef",
+   "term": "methotrexate 與 leflunomide",
+   "aliases": [
+    "methotrexate",
+    "leflunomide"
+   ],
+   "aka": "methotrexate (MTX); leflunomide; conventional synthetic DMARDs (csDMARDs)",
+   "def": "兩者都是「傳統合成」抗風濕藥物（csDMARDs），用來治療類風濕性關節炎；指引建議治療一開始先用 methotrexate。",
+   "example": "同類的還有 sulfasalazine",
+   "note": "這兩種藥也被歸類為免疫抑制藥物。",
+   "label": "EULAR 2022・分類",
+   "evidence": [
+    {
+     "quote": "The task force agreed on 5 overarching principles and 11 recommendations concerning use of conventional synthetic (cs) DMARDs (methotrexate (MTX), leflunomide, sulfasalazine); GCs; biological (b) DMARDs (tumour necrosis factor inhibitors (adalimumab, certolizumab pegol, etanercept, golimumab, infliximab including biosimilars), abatacept, rituximab, tocilizumab, sarilumab and targeted synthetic (ts) DMARDs, namely the Janus kinase inhibitors tofacitinib, baricitinib, filgotinib, upadacitinib.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "36357155",
+     "doi": "10.1136/ard-2022-223356",
+     "pmcid": "",
+     "supports": "def: methotrexate、leflunomide 屬 csDMARDs；example: sulfasalazine"
+    },
+    {
+     "quote": "Initially, MTX plus GCs is recommended",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "36357155",
+     "doi": "10.1136/ard-2022-223356",
+     "pmcid": "",
+     "supports": "def: 一開始先用 methotrexate"
+    },
+    {
+     "quote": "Initially, MTX ideally in combination with short-term GCs is recommended",
+     "location": "Abstract (2025 update)",
+     "access": "abstract",
+     "pmid": "41826212",
+     "doi": "10.1016/j.ard.2026.01.023",
+     "pmcid": "",
+     "supports": "def: 一開始先用 methotrexate (confirmed in 2025 update)"
+    },
+    {
+     "quote": "and the former into conventional synthetic and targeted synthetic DMARDs (csDMARDs and tsDMARDs, respectively). tsDMARDs would then constitute only those that were specifically developed to target a particular molecular structure (such as tofacitinib, fostamatinib, baricitinib or apremilast, or agents not focused primarily on rheumatic diseases, such as imatinib or ibrutinib), while csDMARDs would comprise the traditional drugs (such as methotrexate, sulfasalazine, leflunomide, hydroxychloroquine, gold salts and others).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317",
+     "pmcid": "",
+     "supports": "def: 傳統合成 (traditional drugs incl. methotrexate, leflunomide)"
+    },
+    {
+     "quote": "synthetic immunosuppressive agents (cyclophosphamide, azathioprine, methotrexate, leflunomide and mycophenolate)",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114",
+     "pmcid": "",
+     "supports": "note: 也被歸類為免疫抑制藥物"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2022 類風濕性關節炎用藥建議",
+     "citation": "Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biological disease-modifying antirheumatic drugs: 2022 update. Ann Rheum Dis 2023;82(1):3-18.",
+     "pmid": "36357155",
+     "doi": "10.1136/ard-2022-223356"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2025 類風濕性關節炎用藥建議",
+     "citation": "Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biologic disease-modifying antirheumatic drugs: 2025 update. Ann Rheum Dis 2026;85(6):991-1009.",
+     "pmid": "41826212",
+     "doi": "10.1016/j.ard.2026.01.023"
+    },
+    {
+     "short": "DMARD 新命名提案 2014（Smolen 等）",
+     "citation": "Smolen JS et al. Proposal for a new nomenclature of disease-modifying antirheumatic drugs. Ann Rheum Dis 2014;73(1):3-5.",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2020 乾燥症建議",
+     "citation": "Ramos-Casals M et al. EULAR recommendations for the management of Sjögren's syndrome with topical and systemic therapies. Ann Rheum Dis 2020;79(1):3-18.",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Site RA-4.4 (alcohol advice does not apply to people on methotrexate or leflunomide) rests on the EULAR 2021 lifestyle full text (\"...who use certain treatments (eg, methotrexate, leflunomide)\"). That was read via WebFetch in the research phase; it is not in the PubMed abstract (PMID 35260387) and was not re-confirmed this session. EULAR RA 2025 (PMID 41826212) is now the current version. 「指引建議治療一開始先用 methotrexate」: EULAR recommends MTX together with (short-term) glucocorticoids."
+  },
+  {
+   "id": "nsaid",
+   "term": "消炎止痛藥（NSAIDs）",
+   "aliases": [
+    "消炎止痛藥",
+    "NSAIDs"
+   ],
+   "aka": "non-steroidal anti-inflammatory drugs (NSAIDs)",
+   "def": "消炎止痛藥（NSAIDs，非類固醇消炎藥）是很常用的一大類藥物，有消炎、退燒和止痛的作用；阿斯匹靈也屬於這一類。",
+   "example": "例如 ibuprofen、diclofenac、阿斯匹靈",
+   "note": "乙醯胺酚（acetaminophen）被認為對慢性自發型蕁麻疹病人較安全；換藥前請先問醫師。",
+   "label": "EAACI 2022・共識",
+   "evidence": [
+    {
+     "quote": "drug hypersensitivity, especially for nonsteroidal anti‐inflammatory drugs (NSAIDs).",
+     "location": "Section on diagnostic workup of acute urticaria",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: NSAIDs = nonsteroidal anti-inflammatory drugs (非類固醇消炎藥)"
+    },
+    {
+     "quote": "Non-steroidal anti-inflammatory drugs (NSAIDs) and other eicosanoid pathway modifiers are among the most ubiquitously used medications in the general population. Their broad anti-inflammatory, antipyretic, and analgesic effects are applied against symptoms of respiratory infections, including SARS-CoV-2, as well as in other acute and chronic inflammatory diseases that often coexist with allergy and asthma.",
+     "location": "Abstract (first two sentences)",
+     "access": "abstract",
+     "pmid": "35174512",
+     "doi": "10.1111/all.15258",
+     "pmcid": "PMC9111413",
+     "supports": "def: 很常用；消炎、退燒、止痛作用"
+    },
+    {
+     "quote": "should avoid NSAIDs, including ASA at anti-platelet doses",
+     "location": "Section \"NEFA/NIFA – Management\"",
+     "access": "PMC full text",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086",
+     "pmcid": "PMC12361610",
+     "supports": "def: 阿斯匹靈（ASA）也屬於 NSAIDs"
+    },
+    {
+     "quote": "acetylsalicylic acid (ASA)—commonly known under the trade name of “aspirin”",
+     "location": "Section \"N-ERD – Pathogenic mechanism\"",
+     "access": "PMC full text",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086",
+     "pmcid": "PMC12361610",
+     "supports": "def/example: ASA = 阿斯匹靈"
+    },
+    {
+     "quote": "as shown with propionic acid (eg, ibuprofen, ketoprofen, and flurbiprofen), acetic acid (eg, diclofenac and aceclofenac), and pyrazolone derivatives (eg, propyphenazone and metamizole/dipyrone).",
+     "location": "Section \"SNIUAA – Management\"",
+     "access": "PMC full text",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086",
+     "pmcid": "PMC12361610",
+     "supports": "example: ibuprofen、diclofenac"
+    },
+    {
+     "quote": "Non‐IgE‐mediated reactions to drugs can also augment the activity of preexisting CSU. NSAIDs are the most common drugs to do so in up to one‐fourth of patients, except for paracetamol (acetaminophen) and/or COX‐2 inhibitors which are considered to be safer options in patients with CSU.",
+     "location": "Section 4 (triggers of CSU – medications)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note: 乙醯胺酚對慢性自發型蕁麻疹病人較安全; site UR-1.1"
+    },
+    {
+     "quote": "Antipyretic medications such as nonsteroidal antiinflammatory drugs and acetaminophen were also not included.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "def: 退燒作用; acetaminophen listed separately from NSAIDs"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EAACI（歐洲的過敏與臨床免疫學會）2022 消炎止痛藥共識報告",
+     "citation": "Sokolowska M et al. Effects of non-steroidal anti-inflammatory drugs and other eicosanoid pathway modifiers on antiviral and allergic responses: EAACI task force on eicosanoids consensus report in times of COVID-19. Allergy 2022;77(8):2337-2354.",
+     "pmid": "35174512",
+     "doi": "10.1111/all.15258"
+    },
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN 等）",
+     "citation": "Zuberbier T et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "WAO（國際的過敏醫學組織）2025 消炎止痛藥過敏聲明",
+     "citation": "Romano A et al. Updating the classification and routine diagnosis of NSAID hypersensitivity reactions: A WAO Statement. World Allergy Organ J 2025;18(8):101086.",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086"
+    },
+    {
+     "short": "ACR（美國的風濕病醫學會）2022 疫苗指引",
+     "citation": "Bass AR et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res (Hoboken) 2023;75(3):449-464.",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "消炎止痛藥 is the common lay label for NSAIDs. Acetaminophen (paracetamol) relieves pain but is not an NSAID; the 2026 urticaria guideline says paracetamol \"and/or COX-2 inhibitors\" are \"considered to be safer options in patients with CSU\" (COX-2 inhibitors omitted from the note for simplicity). The EAACI 2022 abstract groups \"NSAIDs and other eicosanoid pathway modifiers\" when describing anti-inflammatory, antipyretic and analgesic effects. 「換藥前請先問醫師」 is an editorial safety phrase, not from a source."
+  },
+  {
+   "id": "low-dose-aspirin",
+   "term": "低劑量阿斯匹靈",
+   "aliases": [
+    "低劑量阿斯匹靈"
+   ],
+   "aka": "low-dose acetylsalicylic acid (ASA, aspirin); anti-platelet-dose aspirin",
+   "def": "低劑量阿斯匹靈是小劑量的阿斯匹靈（乙醯水楊酸），用來預防血栓、降低心血管疾病風險；阿斯匹靈本身屬於消炎止痛藥（NSAIDs）。",
+   "example": "",
+   "note": "蕁麻疹病人不一定要停用；醫師可能暫改用其他抗血栓藥4週來判斷，請勿自行停藥。",
+   "label": "GALEN 2026・指引說明",
+   "evidence": [
+    {
+     "quote": "However, if low‐dose acetylsalicylic acid is needed as an antithrombotic treatment, it is not always necessary to abstain from using this drug.",
+     "location": "Section 4 (triggers of CSU – medications)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: 用來預防血栓; note: 不一定要停用"
+    },
+    {
+     "quote": "A four‐week transition to another antithrombotic agent can help to assess causality, and if symptoms persist, reintroduction can be considered.",
+     "location": "Section 4 (triggers of CSU – medications)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note: 暫改用其他抗血栓藥4週來判斷"
+    },
+    {
+     "quote": "FDEIA has also been reported in individuals taking low doses of ASA for reducing cardiovascular risk.",
+     "location": "Section \"NEFA/NIFA – Clinical presentation\"",
+     "access": "PMC full text",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086",
+     "pmcid": "PMC12361610",
+     "supports": "def: 降低心血管疾病風險"
+    },
+    {
+     "quote": "should avoid NSAIDs, including ASA at anti-platelet doses",
+     "location": "Section \"NEFA/NIFA – Management\"",
+     "access": "PMC full text",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086",
+     "pmcid": "PMC12361610",
+     "supports": "def: 阿斯匹靈屬於 NSAIDs (低劑量 = anti-platelet doses)"
+    },
+    {
+     "quote": "acetylsalicylic acid (ASA)—commonly known under the trade name of “aspirin”",
+     "location": "Section \"N-ERD – Pathogenic mechanism\"",
+     "access": "PMC full text",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086",
+     "pmcid": "PMC12361610",
+     "supports": "def: 阿斯匹靈 = 乙醯水楊酸"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN 等）",
+     "citation": "Zuberbier T et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "WAO（國際的過敏醫學組織）2025 消炎止痛藥過敏聲明",
+     "citation": "Romano A et al. Updating the classification and routine diagnosis of NSAID hypersensitivity reactions: A WAO Statement. World Allergy Organ J 2025;18(8):101086.",
+     "pmid": "40837856",
+     "doi": "10.1016/j.waojou.2025.101086"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "The WAO statement calls \"aspirin\" a trade name for acetylsalicylic acid; in Taiwan 阿斯匹靈 is the common name, so the def adds 乙醯水楊酸. No dose cut-off for \"low-dose\" appears in the accessible text, so none is given. 「請勿自行停藥」 is an editorial safety phrase (as on site UR-1.3). The guideline describes a physician-led 4-week switch, not self-management."
+  },
+  {
+   "id": "antihistamine",
+   "term": "抗組織胺（不會嗜睡的）",
+   "aliases": [
+    "不會嗜睡的抗組織胺",
+    "抗組織胺"
+   ],
+   "aka": "H1-antihistamines; second-generation (non-sedating) H1-antihistamines",
+   "def": "抗組織胺是常用來治療蕁麻疹和過敏性鼻炎的抗過敏藥。舊的第一代容易讓人想睡；新的第二代很少或不會讓人想睡，是蕁麻疹的第一線用藥。",
+   "example": "第二代例如 cetirizine、loratadine",
+   "note": "全身性（口服）抗組織胺是研究列出可能造成口乾的藥物類別之一。",
+   "label": "GALEN 2026・指引說明",
+   "evidence": [
+    {
+     "quote": "H‐antihistamines have been available for the treatment of urticaria since the 1950s.",
+     "location": "Section \"H1-antihistamine treatment\"",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: 用來治療蕁麻疹"
+    },
+    {
+     "quote": "In a GALEN position paper [] it is strongly recommended not to use 1st generation H‐antihistamines any longer in allergy for adults and especially not for children.",
+     "location": "Section \"H1-antihistamine treatment\"",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: 抗過敏藥 (H1-antihistamines used in allergy)"
+    },
+    {
+     "quote": "as several modern 2nd generation H‐antihistamines are now prescription free and used widely in both allergic rhinitis and urticaria",
+     "location": "Section 5.5.2 (pregnancy and lactation)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: 常用於蕁麻疹和過敏性鼻炎"
+    },
+    {
+     "quote": "The older 1st generation H‐antihistamines have pronounced anticholinergic and sedative effects and many interactions with alcohol and other drugs such as analgesics, hypnotics, sedatives, and mood elevating drugs, have been described.",
+     "location": "Section \"H1-antihistamine treatment\"",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: 舊的第一代容易讓人想睡"
+    },
+    {
+     "quote": "Modern 2nd generation H‐antihistamines are minimally or nonsedating and free of anticholinergic effects",
+     "location": "Section \"H1-antihistamine treatment\"",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: 新的第二代很少或不會讓人想睡"
+    },
+    {
+     "quote": "We recommend the use of a standard‐dosed modern 2nd generation H‐antihistamines as the first‐line symptomatic treatment for urticaria.",
+     "location": "Section \"H1-antihistamine treatment\" (recommendation)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def: 蕁麻疹的第一線用藥"
+    },
+    {
+     "quote": "evidence supports the use of bilastine, cetirizine, desloratadine, ebastine, fexofenadine, levocetirizine, loratadine, mizolastine, and rupatadine",
+     "location": "Section \"H1-antihistamine treatment\"",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "example: cetirizine、loratadine"
+    },
+    {
+     "quote": "Nonsedating 2nd generation H‐antihistamines, for example, should be used daily, to prevent the occurrence of wheals and angioedema, rather than on demand.",
+     "location": "Section 5.1 (treatment principles)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "site usage UR-4.1/UR-M2"
+    },
+    {
+     "quote": "Among the 94 subgroups under the second level, 26 contain agents were reported to be associated with SGD, with 22 having strong evidence, namely drugs for functional gastrointestinal disorders, anti-emetics and anti-nauseants, anti-obesity preparations, anti-hypertensives, diuretics, beta-blocking agents, calcium channel blockers, urologicals, anti-neoplastic agents, muscle relaxants, drugs for the treatment of bone diseases, analgesics, anti-epileptics, anti-Parkinson drugs, psycholeptics, psychoanaleptics, other nervous system drugs, anti-muscarinic drugs for obstructive airway diseases, anti-histamines for systemic use, and ophthalmologicals.",
+     "location": "Results (ATC classification)",
+     "access": "PMC full text",
+     "pmid": "27853957",
+     "doi": "10.1007/s40268-016-0153-9",
+     "pmcid": "PMC5318321",
+     "supports": "note: 全身性抗組織胺可能造成口乾 (site SJ-3.2)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "2026 國際蕁麻疹指引（GALEN 等）",
+     "citation": "Zuberbier T et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "造成口乾藥物的系統性回顧 2017（Wolff 等）",
+     "citation": "Wolff A et al. A Guide to Medications Inducing Salivary Gland Dysfunction, Xerostomia, and Subjective Sialorrhea: A Systematic Review Sponsored by the World Workshop on Oral Medicine VI. Drugs R D 2017;17(1):1-28.",
+     "pmid": "27853957",
+     "doi": "10.1007/s40268-016-0153-9"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "PMC extraction drops the subscript \"1\" of \"H1-antihistamines\" in most sentences (quotes therefore read \"H‐antihistamines\"; one sentence elsewhere in the same text keeps \"H1‐antihistamines\"). The original reads H1-antihistamines; meaning is unaffected. The guideline says 2nd-generation H1-antihistamines are \"minimally or nonsedating\", so the site's 「不會嗜睡」 slightly overstates; consider 「較不會嗜睡」. The guideline also warns that two 2nd-generation drugs (astemizole, terfenadine) are cardiotoxic and should not be used (not in def). \"[]\" marks a citation number stripped by the PMC extraction."
+  },
+  {
+   "id": "ult",
+   "term": "降尿酸藥",
+   "aliases": [
+    "降尿酸藥"
+   ],
+   "aka": "urate-lowering therapy (ULT)",
+   "def": "降尿酸藥是把血中尿酸降下來、減少痛風發作的藥，指引建議長期持續使用；醫師會依抽血的尿酸值調整劑量。",
+   "example": "例如 allopurinol、febuxostat",
+   "note": "剛開始吃可能誘發發作，指引強烈建議同時使用至少3到6個月的預防發作藥物。",
+   "label": "ACR 2020・指引說明",
+   "evidence": [
+    {
+     "quote": "Strong recommendations included initiation of ULT for all patients with tophaceous gout, radiographic damage due to gout, or frequent gout flares; allopurinol as the preferred first-line ULT, including for those with moderate-to-severe chronic kidney disease (CKD; stage ≥3); using a low starting dose of allopurinol (≤100 mg/day, and lower in CKD) or febuxostat (≤40 mg/day); and a treat-to-target management strategy with ULT dose titration guided by serial serum urate (SU) measurements, with an SU target of <6 mg/dl.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 依抽血尿酸值調整劑量；example: allopurinol、febuxostat"
+    },
+    {
+     "quote": "there was high certainty of evidence regarding the efficacy of ULT in reducing flare frequency",
+     "location": "Results, \"Indications for pharmacologic ULT\"",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 減少痛風發作"
+    },
+    {
+     "quote": "Continuing ULT indefinitely over stopping ULT is conditionally recommended.",
+     "location": "Results, \"Duration of ULT\"",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 指引建議長期持續使用"
+    },
+    {
+     "quote": "When initiating ULT, concomitant antiinflammatory prophylaxis therapy for a duration of at least 3–6 months was strongly recommended.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "note: 同時使用至少3到6個月的預防發作藥物"
+    },
+    {
+     "quote": "A lower starting dose of any ULT reduces the risk of flare associated with initiation",
+     "location": "Results, \"Recommendations for choice of initial ULT\"",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "note: 剛開始吃可能誘發發作"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR（美國的風濕病醫學會）2020 痛風指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "The \"Continuing ULT indefinitely\" sentence has no glued words. Its direction (\"over stopping\") was also confirmed by the 2023 Korean guideline in the research notes (gout.md C97). The serum urate target (<6 mg/dl, abstract) is left out of the def on purpose. Site GT-4.4 (keep taking ULT during a flare) rests on BSR 2017 and was not re-checked here."
+  },
+  {
+   "id": "flare-medicine",
+   "term": "痛風發作時用的藥",
+   "aliases": [
+    "發作時用的藥"
+   ],
+   "aka": "gout flare treatment; first-line anti-inflammatory therapy for gout flares (colchicine, NSAIDs, glucocorticoids)",
+   "def": "痛風發作時用來壓下關節發炎和疼痛的藥，第一線是 colchicine、消炎止痛藥（NSAIDs）或類固醇；發作後及早使用效果較好。",
+   "example": "",
+   "note": "能認出發作早期徵兆的人，可和醫師討論在家先備好藥（「口袋藥」）。",
+   "label": "ACR 2020・指引說明",
+   "evidence": [
+    {
+     "quote": "Using colchicine, NSAIDs, or glucocorticoids (oral, intraarticular, or intramuscular) as appropriate first-line therapy for gout flares over IL-1 inhibitors or adrenocorticotropic hormone (ACTH) is strongly recommended for patients experiencing a gout flare.",
+     "location": "Results, \"Gout flare management\" (strong recommendation)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 第一線是 colchicine、NSAIDs 或類固醇"
+    },
+    {
+     "quote": "Gout is the most common form of inflammatory arthritis",
+     "location": "Introduction (first sentence)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 關節發炎 (gout is an inflammatory arthritis)"
+    },
+    {
+     "quote": "The second NMA evaluated antiinflammatory agents in gout flare management",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 壓下關節發炎 (anti-inflammatory agents)"
+    },
+    {
+     "quote": "the Patient Panel also indicated its preference for an injectable therapy in appropriate circumstances to achieve pain relief as quickly as possible",
+     "location": "Results, \"Gout flare management\"",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 疼痛 (goal: pain relief)"
+    },
+    {
+     "quote": "The Voting Panel’s recommendation of colchicine, NSAIDs, or glucocorticoids as preferred first-line therapies was based on substantial trial data demonstrating efficacy, relative low cost (versus IL-1 inhibitors and ACTH), and tolerability of these agents in flare management, particularly when administered early after symptom onset.",
+     "location": "Results, \"Gout flare management\"",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "def: 發作後及早使用效果較好"
+    },
+    {
+     "quote": "the Patient Panel emphasized its preference for early intervention given the challenges of engaging a provider in timely manner, including an at-home “medication-in-pocket” strategy for patients who are able to identify the early signs of flare onset.",
+     "location": "Results, \"Gout flare management\"",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "note: 在家先備好藥（medication-in-pocket）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR（美國的風濕病醫學會）2020 痛風指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "「口袋藥」 translates \"medication-in-pocket\" (ACR: advocated by the Voting Panel; preferred by the Patient Panel; not separately graded). Colchicine dosing and second-line IL-1 inhibitors are left out on purpose."
+  },
+  {
+   "id": "non-live-vaccine",
+   "term": "非活性疫苗",
+   "aliases": [
+    "非活性疫苗"
+   ],
+   "aka": "non-live vaccines; inactivated vaccines",
+   "def": "非活性疫苗是不含活病原的疫苗（相對於活性減毒疫苗）；風濕病患者即使正在使用類固醇或抗風濕藥物，也可以安全接種。",
+   "example": "例如肺炎鏈球菌疫苗、B型肝炎疫苗、重組帶狀疱疹疫苗",
+   "note": "部分藥物會讓疫苗反應變弱（但通常不會完全沒效）；最好在開始免疫抑制治療前接種。",
+   "label": "EULAR 2019・指引說明",
+   "evidence": [
+    {
+     "quote": "Non-live vaccines can be safely provided to AIIRD patients regardless of underlying therapy, whereas live-attenuated vaccines may be considered with caution.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882",
+     "pmcid": "",
+     "supports": "def: 相對於活性減毒疫苗；可以安全接種"
+    },
+    {
+     "quote": "Non-live vaccines can be safely given to immunosuppressed pedAIIRD patients.",
+     "location": "Abstract (paediatric update)",
+     "access": "abstract",
+     "pmid": "35725297",
+     "doi": "10.1136/annrheumdis-2022-222574",
+     "pmcid": "",
+     "supports": "def: 使用免疫抑制藥物時可安全接種"
+    },
+    {
+     "quote": "Among the inactivated vaccines, were assessed influenza (seasonal and pandemic A/H1N1), pneumococcal (both polysaccharide and conjugate formulations), hepatitis B, Human papillomavirus vaccine (HPV vaccine) and the recombinant adjuvanted herpes zoster vaccine. Regarding live attenuated vaccines, only the yellow fever vaccine (17DD strain) was systematically analyzed.",
+     "location": "Methods (scope of vaccines)",
+     "access": "PMC full text",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8",
+     "pmcid": "PMC13488773",
+     "supports": "example: 肺炎鏈球菌、B型肝炎、重組帶狀疱疹疫苗"
+    },
+    {
+     "quote": "Studies that demonstrate diminished vaccine responses in RMD patients receiving immunosuppression (other than rituximab) generally demonstrate diminished, but not completely abrogated, responses.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "note: 疫苗反應變弱但通常不會完全沒效"
+    },
+    {
+     "quote": "Immunogenicity may be reduced in patients receiving methotrexate, mycophenolate, corticosteroids, rituximab, and JAK inhibitors, although this does not appear to compromise clinical protection in most cases.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8",
+     "pmcid": "PMC13488773",
+     "supports": "note: 疫苗反應變弱"
+    },
+    {
+     "quote": "The former address the need for an annual vaccination status assessment, shared decision-making and timing of vaccination, favouring vaccination during quiescent disease, preferably prior to the initiation of immunosuppression.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882",
+     "pmcid": "",
+     "supports": "note: 最好在開始免疫抑制治療前接種"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2019 成人疫苗建議",
+     "citation": "Furer V et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2020;79(1):39-52.",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882"
+    },
+    {
+     "short": "EULAR/PRES（歐洲的風濕病學會聯盟與兒童風濕病學會）2021 兒童疫苗建議",
+     "citation": "Jansen MHA et al. EULAR/PRES recommendations for vaccination of paediatric patients with autoimmune inflammatory rheumatic diseases: update 2021. Ann Rheum Dis 2023;82(1):35-47.",
+     "pmid": "35725297",
+     "doi": "10.1136/annrheumdis-2022-222574"
+    },
+    {
+     "short": "SBR（巴西的風濕病學會）2025 疫苗建議",
+     "citation": "Pileggi GCS et al. Brazilian Society of Rheumatology - 2025 recommendations on vaccination in immune-mediated rheumatic diseases. Adv Rheumatol 2026;66(1):14.",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8"
+    },
+    {
+     "short": "ACR（美國的風濕病醫學會）2022 疫苗指引",
+     "citation": "Bass AR et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res (Hoboken) 2023;75(3):449-464.",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "No PubMed-accessible source this session gave a component-based definition (inactivated, subunit, toxoid, recombinant, etc.); 「不含活病原」 is the literal meaning of \"non-live\" as set against \"live-attenuated\" in EULAR 2019/2021. The Brazilian SBR 2025 guideline uses \"inactivated vaccines\" for this group (it includes the recombinant zoster and pneumococcal vaccines). Influenza is not used as an unqualified example because ACR notes live influenza vaccines have \"inactivated alternatives\". ACR exception: rituximab blunts responses strongly (\"other than rituximab\"). The site's CM-5.1 rests on the EULAR 2019 full text \"during the use of glucocorticoids and DMARDs\" (research-phase WebFetch); the abstract quote (\"regardless of underlying therapy\") supports the same point."
+  },
+  {
+   "id": "live-vaccine",
+   "term": "活性減毒疫苗",
+   "aliases": [
+    "活性減毒疫苗",
+    "活性疫苗"
+   ],
+   "aka": "live attenuated vaccines; live-attenuated vaccines",
+   "def": "活性減毒疫苗含有活的、但已減弱的病毒；正在使用免疫抑制藥物的人接種後，可能被疫苗裡的病毒感染，所以通常建議延後或謹慎接種。",
+   "example": "例如麻疹腮腺炎德國麻疹混合疫苗（MMR）、黃熱病疫苗",
+   "note": "有些活性疫苗另有非活性版本，可安全給使用免疫抑制藥物的人；接種前請先問風濕科醫師。",
+   "label": "ACR 2022・指引說明",
+   "evidence": [
+    {
+     "quote": "Typically, the duration of viremia (live virus circulating in the blood) after live attenuated vaccination is 2 weeks, although it can be longer in some patients",
+     "location": "Results, live attenuated vaccines",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "def: 含有活的病毒"
+    },
+    {
+     "quote": "The MMR vaccine is a live-attenuated virus vaccine, we therefore focussed on vaccine-induced infections with the attenuated virus.",
+     "location": "Results, MMR vaccine – safety",
+     "access": "PMC full text",
+     "pmid": "35874582",
+     "doi": "10.3389/fped.2022.910026",
+     "pmcid": "PMC9298835",
+     "supports": "def: 已減弱的病毒；可能被疫苗裡的病毒感染；example: MMR"
+    },
+    {
+     "quote": "Managing immunosuppressive therapy at the time of live attenuated vaccination to avoid vaccine-associated illness",
+     "location": "Results (PICO heading)",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "def: 使用免疫抑制藥物時可能被疫苗病毒感染"
+    },
+    {
+     "quote": "the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression.",
+     "location": "Results, \"Specific recommendations for holding medications...\"",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "def: 通常建議延後"
+    },
+    {
+     "quote": "Non-live vaccines can be safely provided to AIIRD patients regardless of underlying therapy, whereas live-attenuated vaccines may be considered with caution.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882",
+     "pmcid": "",
+     "supports": "def: 謹慎接種"
+    },
+    {
+     "quote": "Regarding live attenuated vaccines, only the yellow fever vaccine (17DD strain) was systematically analyzed.",
+     "location": "Methods (scope of vaccines)",
+     "access": "PMC full text",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8",
+     "pmcid": "PMC13488773",
+     "supports": "example: 黃熱病疫苗"
+    },
+    {
+     "quote": "For some live attenuated virus vaccines, such as for oral polio, oral typhoid, and influenza, there are inactivated alternatives that can be safely given to RMD patients taking immunosuppressive medication.",
+     "location": "Results, live attenuated vaccines",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "note: 有些活性疫苗另有非活性版本"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR（美國的風濕病醫學會）2022 疫苗指引",
+     "citation": "Bass AR et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res (Hoboken) 2023;75(3):449-464.",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045"
+    },
+    {
+     "short": "兒童風濕病疫苗系統性文獻回顧 2022（Jansen 等）",
+     "citation": "Jansen MH et al. Efficacy, Immunogenicity and Safety of Vaccination in Pediatric Patients With Autoimmune Inflammatory Rheumatic Diseases (pedAIIRD): A Systematic Literature Review for the 2021 Update of the EULAR/PRES Recommendations. Front Pediatr 2022;10:910026.",
+     "pmid": "35874582",
+     "doi": "10.3389/fped.2022.910026"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2019 成人疫苗建議",
+     "citation": "Furer V et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2020;79(1):39-52.",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882"
+    },
+    {
+     "short": "SBR（巴西的風濕病學會）2025 疫苗建議",
+     "citation": "Pileggi GCS et al. Brazilian Society of Rheumatology - 2025 recommendations on vaccination in immune-mediated rheumatic diseases. Adv Rheumatol 2026;66(1):14.",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "The ACR live-vaccine recommendation sentence in the PMC text has a dropped word (\"medication,live attenuated vaccines is conditionally recommended\"; \"deferring\" missing), so it is NOT quoted. The direction comes from the intact sentence \"the Voting Panel conditionally recommended against administering live attenuated virus vaccines...\". EULAR 2019 words it more softly (\"may be considered with caution\"). EULAR/PRES 2021 (children): \"Live-attenuated vaccines should be avoided in immunosuppressed patients\", with MMR-booster and VZV exceptions. 「接種前請先問風濕科醫師」 repeats the site's wording (editorial). Some live vaccines (e.g. oral typhoid, BCG) are bacterial; the def says 病毒 because the quotes describe viruses."
+  },
+  {
+   "id": "rzv",
+   "term": "重組帶狀疱疹疫苗",
+   "aliases": [
+    "重組帶狀疱疹（皮蛇）疫苗",
+    "重組帶狀疱疹"
+   ],
+   "aka": "recombinant zoster vaccine (RZV); recombinant varicella-zoster virus (VZV) vaccine",
+   "def": "重組帶狀疱疹疫苗是預防帶狀疱疹（皮蛇）的非活性疫苗。皮蛇是水痘帶狀疱疹病毒重新活化引起的疼痛水泡疹，免疫力較弱的人風險較高。",
+   "example": "",
+   "note": "帶狀疱疹疫苗有「活性」和「重組」兩種，兩者不同；重組疫苗接種後的不適反應很常見。",
+   "label": "IDST 2024・指引說明",
+   "evidence": [
+    {
+     "quote": "Herpes zoster (HZ) is a painful, vesicular, cutaneous eruption from reactivation of varicella zoster virus (VZV), which can lead to potentially debilitating complications.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "def: 皮蛇是水痘帶狀疱疹病毒重新活化引起的疼痛水泡疹"
+    },
+    {
+     "quote": "The lifetime risk of HZ is estimated to be 20%-30% in the general population, with an increased risk in the elderly and immunocompromised populations.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "def: 免疫力較弱的人風險較高"
+    },
+    {
+     "quote": "Two types of HZ vaccines, zoster vaccine live and recombinant zoster vaccine, have been approved for use.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "note: 活性和重組兩種"
+    },
+    {
+     "quote": "Among the inactivated vaccines, were assessed influenza (seasonal and pandemic A/H1N1), pneumococcal (both polysaccharide and conjugate formulations), hepatitis B, Human papillomavirus vaccine (HPV vaccine) and the recombinant adjuvanted herpes zoster vaccine. Regarding live attenuated vaccines, only the yellow fever vaccine (17DD strain) was systematically analyzed.",
+     "location": "Methods (scope of vaccines)",
+     "access": "PMC full text",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8",
+     "pmcid": "PMC13488773",
+     "supports": "def: 非活性疫苗 (recombinant adjuvanted herpes zoster vaccine listed among inactivated vaccines)"
+    },
+    {
+     "quote": "For patients with RMD age >18 years who are taking immunosuppressive medication, administering the recombinant VZV vaccine is strongly recommended.",
+     "location": "Results, \"Recombinant varicella-zoster virus (VZV) vaccination\"",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "site usage CM-5.5"
+    },
+    {
+     "quote": "Patients with RMDs such as systemic lupus erythematosus (SLE) and RA are at higher risk of herpes zoster than older adults recommended for vaccination",
+     "location": "Results, \"Recombinant VZV vaccination\"",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "def: 風濕病（免疫力較弱）風險較高"
+    },
+    {
+     "quote": "reactogenicity is common with this vaccine",
+     "location": "Results, \"Recombinant VZV vaccination\"",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "note: 接種後的不適反應很常見"
+    }
+   ],
+   "sources": [
+    {
+     "short": "IDST（台灣的感染症醫學會）2024 成人帶狀疱疹疫苗建議",
+     "citation": "Lin KY et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669-684.",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001"
+    },
+    {
+     "short": "SBR（巴西的風濕病學會）2025 疫苗建議",
+     "citation": "Pileggi GCS et al. Brazilian Society of Rheumatology - 2025 recommendations on vaccination in immune-mediated rheumatic diseases. Adv Rheumatol 2026;66(1):14.",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8"
+    },
+    {
+     "short": "ACR（美國的風濕病醫學會）2022 疫苗指引",
+     "citation": "Bass AR et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res (Hoboken) 2023;75(3):449-464.",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "IDST 2024 = Infectious Diseases Society of Taiwan working-group guidance, endorsed among others by the Taiwan College of Rheumatology; abstract only (its specific recommendations were not read). How a \"recombinant\" vaccine is made is not described in the accessible text, so the def does not explain it. ACR also notes one retrospective study reporting \"mild disease flares in some patients around the time of vaccination\". 「不適反應」 renders \"reactogenicity\"."
+  },
+  {
+   "id": "pneumococcal",
+   "term": "肺炎鏈球菌疫苗",
+   "aliases": [
+    "肺炎鏈球菌疫苗"
+   ],
+   "aka": "pneumococcal vaccines (pneumococcal conjugate vaccine, PCV; pneumococcal polysaccharide vaccine, PPSV23)",
+   "def": "肺炎鏈球菌疫苗是預防肺炎鏈球菌感染的非活性疫苗。肺炎鏈球菌是常見的細菌，會引起肺炎等呼吸道感染，也可能造成血液感染和腦膜炎。",
+   "example": "分為結合型（PCV）和多醣體型（PPSV23）",
+   "note": "接種的種類、劑次和間隔依年齡和身體狀況而不同，請和醫師討論。",
+   "label": "ACIP 2024・說明",
+   "evidence": [
+    {
+     "quote": "(pneumococcus) is a common bacterial cause of respiratory tract infections, bacteremia, and meningitis.",
+     "location": "Introduction (first sentence; italic species name dropped by extraction)",
+     "access": "PMC full text",
+     "pmid": "39773952",
+     "doi": "10.15585/mmwr.mm7401a1",
+     "pmcid": "PMC11709131",
+     "supports": "def: 常見的細菌，引起呼吸道感染、血液感染（菌血症）和腦膜炎"
+    },
+    {
+     "quote": "Pneumococcal pneumonia, accounting for 12%–13% of all hospitalized pneumonia cases, has been estimated to result in approximately 225,000 U.S. adult hospitalizations annually",
+     "location": "Rationale and Evidence",
+     "access": "PMC full text",
+     "pmid": "39773952",
+     "doi": "10.15585/mmwr.mm7401a1",
+     "pmcid": "PMC11709131",
+     "supports": "def: 肺炎"
+    },
+    {
+     "quote": "Among the inactivated vaccines, were assessed influenza (seasonal and pandemic A/H1N1), pneumococcal (both polysaccharide and conjugate formulations), hepatitis B, Human papillomavirus vaccine (HPV vaccine) and the recombinant adjuvanted herpes zoster vaccine. Regarding live attenuated vaccines, only the yellow fever vaccine (17DD strain) was systematically analyzed.",
+     "location": "Methods (scope of vaccines)",
+     "access": "PMC full text",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8",
+     "pmcid": "PMC13488773",
+     "supports": "def: 非活性疫苗 (pneumococcal, polysaccharide and conjugate)"
+    },
+    {
+     "quote": "with a pneumococcal conjugate vaccine (PCV13 or PCV15), followed 2 months later by a dose of the pneumococcal polysaccharide vaccine (PPSV23).",
+     "location": "Results, \"Pneumococcal vaccination\"",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "example: 結合型（PCV）和多醣體型（PPSV23）"
+    },
+    {
+     "quote": "The recommended pneumococcal vaccine doses and intervals between doses differ by age and underlying conditions, making adult pneumococcal vaccine recommendations complicated.",
+     "location": "Background",
+     "access": "PMC full text",
+     "pmid": "35085226",
+     "doi": "10.15585/mmwr.mm7104a1",
+     "pmcid": "PMC9351524",
+     "supports": "note: 種類、劑次和間隔依年齡和身體狀況而不同"
+    },
+    {
+     "quote": "Patients with RMDs taking immunosuppressive medication may be at increased risk of pneumococcal infection",
+     "location": "Results, \"Pneumococcal vaccination\"",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "site usage CM-5.4: why recommended"
+    },
+    {
+     "quote": "For patients with RMD age <65 years who are taking immunosuppressive medication, pneumococcal vaccination is strongly recommended.",
+     "location": "Results, \"Pneumococcal vaccination\"",
+     "access": "PMC full text",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045",
+     "pmcid": "PMC10291822",
+     "supports": "site usage CM-5.4"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACIP（美國的免疫接種諮詢委員會）2024 成人肺炎鏈球菌疫苗建議",
+     "citation": "Kobayashi M et al. Expanded Recommendations for Use of Pneumococcal Conjugate Vaccines Among Adults Aged ≥50 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2024. MMWR Morb Mortal Wkly Rep 2025;74(1):1-8.",
+     "pmid": "39773952",
+     "doi": "10.15585/mmwr.mm7401a1"
+    },
+    {
+     "short": "ACIP（美國的免疫接種諮詢委員會）2022 成人肺炎鏈球菌疫苗建議",
+     "citation": "Kobayashi M et al. Use of 15-Valent Pneumococcal Conjugate Vaccine and 20-Valent Pneumococcal Conjugate Vaccine Among U.S. Adults: Updated Recommendations of the Advisory Committee on Immunization Practices - United States, 2022. MMWR Morb Mortal Wkly Rep 2022;71(4):109-117.",
+     "pmid": "35085226",
+     "doi": "10.15585/mmwr.mm7104a1"
+    },
+    {
+     "short": "SBR（巴西的風濕病學會）2025 疫苗建議",
+     "citation": "Pileggi GCS et al. Brazilian Society of Rheumatology - 2025 recommendations on vaccination in immune-mediated rheumatic diseases. Adv Rheumatol 2026;66(1):14.",
+     "pmid": "41578353",
+     "doi": "10.1186/s42358-026-00520-8"
+    },
+    {
+     "short": "ACR（美國的風濕病醫學會）2022 疫苗指引",
+     "citation": "Bass AR et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res (Hoboken) 2023;75(3):449-464.",
+     "pmid": "36597813",
+     "doi": "10.1002/acr.25045"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "PMC extraction of the MMWR 2024 first sentence dropped the italic species name before \"(pneumococcus)\"; the quote starts at \"(pneumococcus)\" and its meaning is intact. ACIP product choices and schedules are US recommendations; Taiwan schedules were not checked. ACR itself advises following CDC guidance for the specific pneumococcal strategy because \"this area is rapidly changing\". 「血液感染」 renders \"bacteremia\"."
+  },
+  {
+   "id": "artificial-tears",
+   "term": "人工淚液（不含防腐劑）",
+   "aliases": [
+    "不含防腐劑的人工淚液",
+    "人工淚液"
+   ],
+   "aka": "artificial tears; lubricating eye drops; preservative-free artificial tears",
+   "def": "人工淚液是用來取代或補充眼睛表面天然淚水的潤滑眼藥水，通常是乾眼的第一線治療。",
+   "example": "例如含玻尿酸（sodium hyaluronate）的眼藥水",
+   "note": "防腐劑對眼睛表面有毒性和刺激性，可能讓乾眼更嚴重，所以建議用不含防腐劑的。",
+   "label": "Cochrane 2016・定義",
+   "evidence": [
+    {
+     "quote": "OTC artificial tears are meant to replace or supplement the tears (fluid) that naturally cover the eye’s front surface (cornea and conjunctiva).",
+     "location": "Plain language summary",
+     "access": "abstract",
+     "pmid": "26905373",
+     "doi": "10.1002/14651858.CD009729.pub2",
+     "pmcid": "PMC5045033",
+     "supports": "def: 取代或補充眼睛表面天然淚水"
+    },
+    {
+     "quote": "the first‐line treatment for dry eye is typically over the counter (OTC) artificial tears.",
+     "location": "Plain language summary",
+     "access": "abstract",
+     "pmid": "26905373",
+     "doi": "10.1002/14651858.CD009729.pub2",
+     "pmcid": "PMC5045033",
+     "supports": "def: 通常是乾眼的第一線治療"
+    },
+    {
+     "quote": "A Cochrane review of lubricating drops for dry eye included 43 RCTs of 3497 participants with dry eye",
+     "location": "Key question 6, \"Lubricating eye drops\"",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def: 人工淚液 = 潤滑眼藥水 (BSR calls the same Cochrane review \"lubricating drops\")"
+    },
+    {
+     "quote": "They concluded that individuals should be offered non-preserved or soft preserved eye drops to avoid worsening of the dry-eye disease due to the toxic, proinflammatory and detergent effects of the preservative",
+     "location": "Key question 6, \"Lubricating eye drops\"",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "note: 防腐劑有毒性和刺激性，可能讓乾眼更嚴重"
+    },
+    {
+     "quote": "Always prescribe preservative free drops.",
+     "location": "Key question 6, \"Lubricating eye drops\"",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "note: 建議用不含防腐劑的"
+    },
+    {
+     "quote": "Advise regular use of a preservative free lubricating eye drop (e.g. 2–3 hourly) (1, A) (SOA 94.4%).",
+     "location": "Key question 6, Recommendation",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "site usage SJ-1.1"
+    },
+    {
+     "quote": "In general, most of us treating patients with SD associated dry eye would start with a sodium hyaluronate–containing drop during the day and an eye ointment at night",
+     "location": "Key question 6, \"Lubricating eye drops\"",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "example: 含玻尿酸（sodium hyaluronate）的眼藥水"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 人工淚液系統性回顧 2016（Pucker 等）",
+     "citation": "Pucker AD et al. Over the counter (OTC) artificial tear drops for dry eye syndrome. Cochrane Database Syst Rev 2016;2(2):CD009729.",
+     "pmid": "26905373",
+     "doi": "10.1002/14651858.CD009729.pub2"
+    },
+    {
+     "short": "BSR（英國的風濕病學會）2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "The Cochrane plain-language summary sits in the abstract section of the PMC record (the PMC body text is empty). BSR 2025 uses \"lubricating eye drops\" and calls the same Cochrane review (43 RCTs, 3497 participants) a review of \"lubricating drops\", which supports 人工淚液 = 潤滑眼藥水. Confidence Medium because the core definition is from a Cochrane review (Tier 3 under this protocol), although BSR (Tier 1) cites the same review. EULAR 2020 (research-phase WebFetch) recommends preservative-free artificial tears mainly for people needing ≥4 applications a day, whereas BSR says \"Always prescribe preservative free drops\" (a small difference). 「玻尿酸」 is the common Taiwanese name for hyaluronate/hyaluronic acid."
+  },
+  {
+   "id": "eye-ointment",
+   "term": "潤滑眼藥膏",
+   "aliases": [
+    "潤滑眼藥膏",
+    "眼藥膏"
+   ],
+   "aka": "ophthalmic ointment; lubricating eye ointment",
+   "def": "潤滑眼藥膏是塗在眼睛裡、比人工淚液更濃稠的潤滑藥膏，可在夜間緩解乾眼；因為會讓視線模糊，通常在睡前使用。",
+   "example": "部分市售眼藥膏含維生素A",
+   "note": "塗過眼藥膏的隔天早上要清潔眼皮，可預防眼瞼炎。",
+   "label": "EULAR 2020・指引說明",
+   "evidence": [
+    {
+     "quote": "Ophthalmic ointments are thicker than AT and may be used to provide symptom control overnight; they are typically used before bedtime because they produce blurred vision and their use should be followed by morning lid hygiene to prevent blepharitis.",
+     "location": "Recommendation on ocular dryness (first-line), explanatory text",
+     "access": "WebFetch (research phase, ard.bmj.com; 3 passes per research notes; NOT re-read this session)",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114",
+     "pmcid": "",
+     "supports": "def: 比人工淚液更濃稠；夜間緩解；會讓視線模糊、睡前使用; note: 隔天早上清潔眼皮預防眼瞼炎"
+    },
+    {
+     "quote": "In general, most of us treating patients with SD associated dry eye would start with a sodium hyaluronate–containing drop during the day and an eye ointment at night",
+     "location": "Key question 6, \"Lubricating eye drops\"",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def: 晚上使用眼藥膏 (expert practice)"
+    },
+    {
+     "quote": "Several of the commercially available eye ointments contain vitamin A.",
+     "location": "Key question 13 (nutraceuticals)",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "example: 部分市售眼藥膏含維生素A"
+    },
+    {
+     "quote": "Consider vitamin A containing eye ointments (2, C) (SOA 89.8%).",
+     "location": "Key question 13, Recommendation",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "example: 維生素A眼藥膏 (conditional recommendation)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2020 乾燥症建議",
+     "citation": "Ramos-Casals M et al. EULAR recommendations for the management of Sjögren's syndrome with topical and systemic therapies. Ann Rheum Dis 2020;79(1):3-18.",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114"
+    },
+    {
+     "short": "BSR（英國的風濕病學會）2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "The main EULAR 2020 sentence (thicker than artificial tears; overnight relief; blurred vision; morning lid hygiene) is not in the PubMed abstract, and EULAR 2020 has no PMC version. It was read via WebFetch in the research phase (3 consistent passes; sjogren.md C08). Re-confirmation was attempted this session, but WebFetch permission was not granted, so the physician should check it against the published article (Ann Rheum Dis 2020;79:3-18, ocular dryness recommendation). BSR 2025 (PMC) independently supports night-time ointment use and vitamin A ointments. No PubMed-accessible text was found that states the blurred-vision point."
+  },
+  {
+   "id": "saliva-substitute",
+   "term": "人工唾液",
+   "aliases": [
+    "人工唾液"
+   ],
+   "aka": "saliva substitutes; artificial saliva",
+   "def": "人工唾液（唾液替代品）是放在口中、用來滋潤口腔的產品，可以緩解口乾的不適。",
+   "example": "例如人工唾液噴劑",
+   "note": "研究沒有發現哪一種口乾外用產品明顯比較有效。",
+   "label": "BSR 2025・指引說明",
+   "evidence": [
+    {
+     "quote": "Use of intraoral topical agents, such as a spray containing malic acid, sugar-free chewing gums or candy, saliva substitutes, or non-alcoholic mouthwashes to moisten or lubricate the mouth have served as the mainstay of treatment for patients with a dry mouth.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "27853957",
+     "doi": "10.1007/s40268-016-0153-9",
+     "pmcid": "PMC5318321",
+     "supports": "def: 放在口中、用來滋潤口腔的產品"
+    },
+    {
+     "quote": "Suggest saliva substitutes for symptomatic relief of oral dryness (2, C) (SOA 93.3%).",
+     "location": "Key question 7, Recommendation",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def: 緩解口乾的不適 (site SJ-2.4)"
+    },
+    {
+     "quote": "Oxygenated glyceroltriester saliva substitute spray showed evidence of improved effectiveness compared with an electrolyte spray",
+     "location": "Key question 7",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "example: 人工唾液噴劑"
+    },
+    {
+     "quote": "A Cochrane review [] of topical treatments for dry mouth of any cause (including SD) found no strong evidence supporting one topical therapy over another.",
+     "location": "Key question 7 (Cochrane review; \"[]\" = stripped citation number)",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "note: 沒有哪一種產品明顯比較有效"
+    },
+    {
+     "quote": "The recommendations address the use of topical oral (saliva substitutes)",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114",
+     "pmcid": "",
+     "supports": "def: 口腔外用治療 (topical oral therapy)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BSR（英國的風濕病學會）2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    },
+    {
+     "short": "造成口乾藥物的系統性回顧 2017（Wolff 等）",
+     "citation": "Wolff A et al. A Guide to Medications Inducing Salivary Gland Dysfunction, Xerostomia, and Subjective Sialorrhea: A Systematic Review Sponsored by the World Workshop on Oral Medicine VI. Drugs R D 2017;17(1):1-28.",
+     "pmid": "27853957",
+     "doi": "10.1007/s40268-016-0153-9"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2020 乾燥症建議",
+     "citation": "Ramos-Casals M et al. EULAR recommendations for the management of Sjögren's syndrome with topical and systemic therapies. Ann Rheum Dis 2020;79(1):3-18.",
+     "pmid": "31672775",
+     "doi": "10.1136/annrheumdis-2019-216114"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "The second clause of site SJ-2.4 (saliva substitutes are the main option when there is little or no saliva) rests on the EULAR 2020 full text (research-phase WebFetch: \"preferred therapeutic approach to alleviate symptoms in patients with no residual glandular function\"). It was not re-confirmed this session, so the def does not repeat it. The Wolff 2017 review concerns medication-induced dry mouth."
+  },
+  {
+   "id": "fluoride",
+   "term": "含氟產品",
+   "aliases": [
+    "含氟產品",
+    "含氟牙膏"
+   ],
+   "aka": "topical fluoride; fluoride toothpaste; fluoride varnish",
+   "def": "含氟產品是含有氟化物、直接用在牙齒上的護牙產品，可以預防蛀牙。",
+   "example": "例如含氟牙膏、含氟塗劑（氟漆）",
+   "note": "口水少容易蛀牙；指引強烈建議乾燥症有口乾的人都要使用含氟產品。",
+   "label": "Sjögren's Foundation 2016・指引",
+   "evidence": [
+    {
+     "quote": "Final recommendations for patients with Sjögren disease with dry mouth were as follows: topical fluoride should be used in all patients (strong)",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "26762707",
+     "doi": "10.1016/j.adaj.2015.11.008",
+     "pmcid": "",
+     "supports": "def: 直接用在牙齒上（topical）; note: 強烈建議都使用"
+    },
+    {
+     "quote": "The incidence of caries in patients with Sjögren disease can be reduced with the use of topical fluoride and other preventive strategies.",
+     "location": "Abstract (conclusions)",
+     "access": "abstract",
+     "pmid": "26762707",
+     "doi": "10.1016/j.adaj.2015.11.008",
+     "pmcid": "",
+     "supports": "def: 可以預防蛀牙"
+    },
+    {
+     "quote": "Salivary dysfunction in Sjögren disease can lead to serious and costly oral health complications.",
+     "location": "Abstract (background)",
+     "access": "abstract",
+     "pmid": "26762707",
+     "doi": "10.1016/j.adaj.2015.11.008",
+     "pmcid": "",
+     "supports": "note: 口水少容易出現口腔問題（蛀牙）"
+    },
+    {
+     "quote": "A 2019 Cochrane review to determine the influence of fluoride toothpaste on caries prevention concluded that fluoride toothpaste was more beneficial in caries prevention than no-fluoride toothpaste, with a dose–response effect noted in children and adolescents",
+     "location": "Key question 9b",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def: 預防蛀牙; example: 含氟牙膏"
+    },
+    {
+     "quote": "Fluoride varnishes were confirmed to have a substantial caries-inhibiting effect in children and adolescents in a Cochrane review",
+     "location": "Key question 9b",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "example: 含氟塗劑（氟漆）"
+    },
+    {
+     "quote": "Recommend regular brushing with fluoride toothpaste, proactive dental care and the use of xylitol containing products as an alternative to sugar to prevent dental decay (2, C) (SOA 95.6%).",
+     "location": "Key question 9b, Recommendation",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "site usage SJ-2.2"
+    },
+    {
+     "quote": "The possible adverse effects associated with these disorders, especially SGH, include dental caries, dysgeusia, oral mucosal soreness, and oral candidiasis.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "27853957",
+     "doi": "10.1007/s40268-016-0153-9",
+     "pmcid": "PMC5318321",
+     "supports": "note: 口水少容易蛀牙"
+    }
+   ],
+   "sources": [
+    {
+     "short": "乾燥症口腔照護（預防蛀牙）臨床指引 2016（Zero 等）",
+     "citation": "Zero DT et al. Clinical practice guidelines for oral management of Sjögren disease: Dental caries prevention. J Am Dent Assoc 2016;147(4):295-305.",
+     "pmid": "26762707",
+     "doi": "10.1016/j.adaj.2015.11.008"
+    },
+    {
+     "short": "BSR（英國的風濕病學會）2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    },
+    {
+     "short": "造成口乾藥物的系統性回顧 2017（Wolff 等）",
+     "citation": "Wolff A et al. A Guide to Medications Inducing Salivary Gland Dysfunction, Xerostomia, and Subjective Sialorrhea: A Systematic Review Sponsored by the World Workshop on Oral Medicine VI. Drugs R D 2017;17(1):1-28.",
+     "pmid": "27853957",
+     "doi": "10.1007/s40268-016-0153-9"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok",
+   "reviewer_notes": "Zero 2016 is the Sjögren's Foundation caries-prevention guideline; abstract only (JADA full text blocked in the research phase). The Foundation's name does not appear in the abstract; the label follows the site's existing label. The evidence for fluoride varnish and toothpaste dose-response is mainly in children and adolescents (BSR: \"None of the published evidence is SD specific\"). BSR's UK over-the-counter limit (1500 ppm) is UK-specific; Taiwan rules were not checked. EULAR 2020 (research-phase WebFetch) also advises a neutral-pH sodium fluoride gel for severe salivary dysfunction."
+  },
+  {
+   "id": "dhea",
+   "term": "DHEA",
+   "aliases": [
+    "DHEA"
+   ],
+   "aka": "dehydroepiandrosterone (DHEA)",
+   "def": "DHEA（dehydroepiandrosterone）是腎上腺分泌的一種荷爾蒙，身體可把它轉變成男性和女性荷爾蒙；也有口服的 DHEA 補充劑。",
+   "example": "",
+   "note": "研究回顧發現，DHEA 用於乾燥症的結果令人失望；副作用多為輕微的長痘痘和多毛。",
+   "label": "系統性回顧 2023・定義",
+   "evidence": [
+    {
+     "quote": "Dehydroepiandrosterone (DHEA) is a weak androgen secreted by the adrenal gland’s zona reticularis. It is considered the most abundant steroid hormone in the plasma; it is a precursor of sex hormones: androgens and estrogens.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "def: 腎上腺分泌的荷爾蒙；可轉變成男性和女性荷爾蒙"
+    },
+    {
+     "quote": "Dehydroepiandrosterone (DHEA) is an adrenal hormone used to treat rheumatic conditions such as systemic lupus erythematosus (SLE), Sjogren’s syndrome (SS), rheumatoid arthritis (RA) with controversial results.",
+     "location": "Abstract (background)",
+     "access": "abstract",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "def: 腎上腺荷爾蒙；用於風濕病結果有爭議"
+    },
+    {
+     "quote": "One study investigated the use of oral DHEA (dehydroepiandrosterone, a testosterone precursor) capsules",
+     "location": "Key question 6, \"Androgen replacement therapy\"",
+     "access": "PMC full text",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152",
+     "pmcid": "PMC12013823",
+     "supports": "def: 口服 DHEA 補充劑"
+    },
+    {
+     "quote": "Most studies analysed in lupus demonstrated that DHEA use seems to have good effects on disease activity and BMD; results in RA, FM, and SS are disappointing.",
+     "location": "Conclusion",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "note: 用於乾燥症的結果令人失望"
+    },
+    {
+     "quote": "Side effects were uncommon; most of them were androgenic effects such as acne and hirsutism, which were considered mild.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "note: 副作用多為輕微的長痘痘和多毛"
+    },
+    {
+     "quote": "In SS, the five studies encompassed 240 individuals, all females, and showed modest results.",
+     "location": "Results",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "site usage SJ-M3 (5 studies, 240 women)"
+    },
+    {
+     "quote": "Some improvement in dryness, fatigue, and quality of life was observed without differences compared to placebo.",
+     "location": "Results",
+     "access": "PMC full text",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd",
+     "pmcid": "PMC10628885",
+     "supports": "site usage SJ-M3 (no difference vs placebo)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "DHEA 用於風濕病系統性回顧 2023（Skare 等）",
+     "citation": "Skare TL et al. Dehydroepiandrosterone (DHEA) Supplementation in Rheumatic Diseases: A Systematic Review. Mediterr J Rheumatol 2023;34(3):292-301.",
+     "pmid": "37941864",
+     "doi": "10.31138/mjr.20230825.dd"
+    },
+    {
+     "short": "BSR（英國的風濕病學會）2025 乾燥症指引",
+     "citation": "Price EJ et al. British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease. Rheumatology (Oxford) 2025;64(2):409-439.",
+     "pmid": "38621708",
+     "doi": "10.1093/rheumatology/keae152"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "Skare 2023 is a systematic review without meta-analysis in a smaller journal (Tier 3 under this protocol). It is the source the site already cites, and BSR 2025 (PMC) independently describes DHEA as \"a testosterone precursor\". Confidence Medium because the definition rests on a Tier-3 systematic review. No Chinese chemical name is given because no source supplies one."
+  }
+ ]
+}

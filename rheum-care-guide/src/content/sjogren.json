@@ -433,8 +433,8 @@
  "myths": [
   {
    "belief": "針灸可以改善口乾。",
-   "fact": "研究回顧發現，針灸改善口乾的效果和安慰劑沒有差別（證據品質低）。",
-   "strength_label": "BSR 2025・指引說明",
+   "fact": "針灸能否改善乾燥症的口乾，目前證據不足：研究回顧中的針灸研究，對象是放射治療後口乾的人，效果和假針灸沒有差別（證據品質低）；乾燥症病人的試驗結果則不一致。",
+   "strength_label": "BSR 2025・指引說明；研究顯示",
    "evidence": [
     {
      "c": "M01",
@@ -449,6 +449,48 @@
      "quote": "concluded that acupuncture was no different from placebo",
      "strength": "Narrative (Cochrane-based)",
      "confidence": "High"
+    },
+    {
+     "c": "M01",
+     "s": "S25",
+     "quote": "Five small studies (total 153 participants, with dry mouth following radiotherapy treatment) compared acupuncture with placebo.",
+     "strength": "Systematic review (Cochrane)",
+     "confidence": "High"
+    },
+    {
+     "c": "M01",
+     "s": "S25",
+     "quote": "There is low quality evidence that acupuncture is no different from placebo acupuncture with regard to dry mouth symptoms, which is the most important outcome.",
+     "strength": "Systematic review (Cochrane)",
+     "confidence": "High"
+    },
+    {
+     "c": "M01",
+     "s": "S29",
+     "quote": "The use of other treatment modalities cannot be supported on the basis of current evidence.",
+     "strength": "Systematic review",
+     "confidence": "Medium"
+    },
+    {
+     "c": "M01",
+     "s": "S26",
+     "quote": "In patients with primary Sjögren's syndrome, acupuncture did not satisfactorily improve symptoms compared to placebo.",
+     "strength": "RCT (n=120, sham-controlled)",
+     "confidence": "Medium"
+    },
+    {
+     "c": "M01",
+     "s": "S27",
+     "quote": "The acupuncture group exhibited significant improvement in total ESSPRI and ESSPRI dryness scores.",
+     "strength": "RCT (46 randomized, 27 completed; sham-controlled)",
+     "confidence": "Low"
+    },
+    {
+     "c": "M01",
+     "s": "S28",
+     "quote": "Compared with the control group, the treatment group had significantly lower ESSPRI scores, eye dryness NRS, and mouth dryness NRS and significantly higher salivary flow rates, Schirmer test results, and BUT scores (all P<0.05)",
+     "strength": "RCT (n=138, sham-controlled, both arms on hydroxychloroquine)",
+     "confidence": "Low"
     }
    ],
    "sid": "SJ-M1"
@@ -654,6 +696,46 @@
    "pmid": null,
    "doi": null,
    "url": "https://sjogrens.org/sites/default/files/inline-files/SF_PCG-Systemic.pdf"
+  },
+  {
+   "s": "S25",
+   "short": "Cochrane 2013 口乾非藥物治療系統性回顧",
+   "citation": "Furness S, et al. Interventions for the management of dry mouth: non-pharmacological interventions. Cochrane Database Syst Rev 2013;(9):CD009603.",
+   "pmid": "24006231",
+   "doi": "10.1002/14651858.CD009603.pub3",
+   "url": null
+  },
+  {
+   "s": "S26",
+   "short": "Zhou 2022 乾燥症針灸隨機對照試驗",
+   "citation": "Zhou X, et al. Efficacy and Safety of Acupuncture on Symptomatic Improvement in Primary Sjögren's Syndrome: A Randomized Controlled Trial. Front Med (Lausanne) 2022;9:878218.",
+   "pmid": "35602489",
+   "doi": "10.3389/fmed.2022.878218",
+   "url": null
+  },
+  {
+   "s": "S27",
+   "short": "Gomes-Silva 2025 乾燥症針灸隨機對照試驗",
+   "citation": "Gomes-Silva JM, et al. Prospective Sham-Controlled trial: acupuncture for symptom-relieving in patients with Sjögren's disease. Clin Rheumatol 2025;44(5):1971-1982.",
+   "pmid": "40178679",
+   "doi": "10.1007/s10067-025-07410-2",
+   "url": null
+  },
+  {
+   "s": "S28",
+   "short": "Li 2026 乾燥症針灸隨機對照試驗",
+   "citation": "Li JB, et al. Efficacy and Safety of Acupuncture Combined with Hydroxychloroquine in Treating Primary Sjögren's Syndrome: A Randomized Controlled Trial. Chin J Integr Med 2026 (epub 2026 Oct 2).",
+   "pmid": "42826003",
+   "doi": "10.1007/s11655-026-4253-2",
+   "url": null
+  },
+  {
+   "s": "S29",
+   "short": "Al Hamad 2019 乾燥症口乾治療系統性回顧",
+   "citation": "Al Hamad A, et al. Interventions for dry mouth and hyposalivation in Sjögren's syndrome: A systematic review and meta-analysis. Oral Dis 2019;25(4):1027-1047.",
+   "pmid": "30086205",
+   "doi": "10.1111/odi.12952",
+   "url": null
   }
  ],
  "reviewer_notes": [
@@ -669,6 +751,7 @@
   "Fluoride: Zero 2016 'topical fluoride should be used in all patients (strong)' was read in the abstract only. Per the Foundation summary, the panel made no recommendation on fluoride type or frequency, so the page names no product. Consider adding 「種類和次數可請牙醫建議」 (EDITORIAL). EULAR's neutral-pH sodium fluoride gel for severe salivary dysfunction is prescription-only and was not included.",
   "Mouth points 3 and 4 put EULAR's stepwise approach into lay terms. 'Mild dysfunction / residual capacity' became 「還有一些唾液」 and 'severe dysfunction / no residual glandular function' became 「唾液很少或幾乎沒有」. Patients cannot measure gland function themselves. EULAR Rec 1 (baseline evaluation of salivary gland function) was seen in only one WebFetch pass, so it was not used to say 'your doctor can assess this'.",
   "Air conditioning: BSR says 'where possible' avoid overheated and air-conditioned environments. In Taiwan this is mainly indoor air conditioning (the evidence file notes Taiwan's humid climate), so the text keeps 「盡量」 and does not set a humidity target.",
-  "Population notes: most BSR dry-eye evidence comes from general dry-eye populations, not SjD alone. The blue-light statement (S14) is for digital eye strain in general. The oil-pulling trial was in medication-induced xerostomia, and the myth text says so. The DHEA studies were all in women, and the myth text gives 5 studies and 240 women. The acupuncture wording is kept neutral (low-quality evidence). Traditional Chinese medicine was not addressed because no guideline covers it; only a small negative Taiwan RCT exists (Tier 3, excluded by protocol)."
+  "Population notes: most BSR dry-eye evidence comes from general dry-eye populations, not SjD alone. The blue-light statement (S14) is for digital eye strain in general. The oil-pulling trial was in medication-induced xerostomia, and the myth text says so. The DHEA studies were all in women, and the myth text gives 5 studies and 240 women. The acupuncture wording is kept neutral (low-quality evidence). Traditional Chinese medicine was not addressed because no guideline covers it; only a small negative Taiwan RCT exists (Tier 3, excluded by protocol).",
+  "SJ-M1 (acupuncture) revised 2026-10-07 after the glossary verification: BSR 2025 repeats the Cochrane conclusion (Furness 2013) without stating the population, but the Cochrane abstract says all five acupuncture trials were in dry mouth after radiotherapy (its only Sjögren trials tested electrostimulation). Sham-controlled trials in Sjögren's disagree (Zhou 2022 no difference, n=120; Gomes-Silva 2025 benefit, 27 completers; Li 2026 benefit, n=138, with hydroxychloroquine in both arms). The fact now says the evidence is insufficient and mixed. The Cochrane plain-language summary gives trial counts by cause that do not reconcile with its abstract; full text not read."
  ]
 }

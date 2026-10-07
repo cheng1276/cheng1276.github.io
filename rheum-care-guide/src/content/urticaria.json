@@ -193,7 +193,7 @@
      "sid": "UR-2.2"
     },
     {
-     "text": "寒冷性蕁麻疹：游泳等水上活動讓全身受冷，可能引起全身性反應，下水前先問醫師。",
+     "text": "寒冷性蕁麻疹：游泳等水上活動讓全身受冷，可能引起全身性的過敏反應，下水前先問醫師。",
      "strength_label": "AAAAI/ACAAI 2014・指引說明",
      "evidence": [
       {
@@ -350,7 +350,7 @@
    "illustration": "A weekly pill organizer with one compartment opened for today, next to a simple wall calendar with a tick on each day. Flat style; no text, no numbers, no brands.",
    "points": [
     {
-     "text": "自發型：依醫師指示每天吃不會嗜睡的抗組織胺預防發作，不要等發作才吃。",
+     "text": "自發型：依醫師指示每天吃較不會嗜睡的抗組織胺預防發作，不要等發作才吃。",
      "strength_label": "GALEN 2026・指引說明",
      "evidence": [
       {
@@ -456,7 +456,7 @@
     }
    ],
    "tip": {
-    "text": "這類不會嗜睡的抗組織胺，已有連續使用數年的安全資料。",
+    "text": "這類較不會嗜睡的抗組織胺，已有連續使用數年的安全資料。",
     "strength_label": "GALEN 2026・指引說明",
     "evidence": [
      {
@@ -477,7 +477,7 @@
    "illustration": "A smartphone photographing a patch of raised red welts on a forearm, beside a blank paper grid with empty tick boxes (not a real questionnaire). Flat style; no text, no numbers, no brands.",
    "points": [
     {
-     "text": "自發型：每天替膨疹和癢各打0到3分，連續7天加總為蕁麻疹活性分數（UAS7），最高42分。",
+     "text": "自發型：每天替膨疹和癢各打0到3分，連續7天加總為蕁麻疹活動分數（UAS7），最高42分。",
      "strength_label": "GALEN 2026・指引說明",
      "evidence": [
       {
@@ -602,7 +602,7 @@
   },
   {
    "belief": "抗組織胺只要發作時吃就好。",
-   "fact": "國際指引指出，自發型蕁麻疹應每天規則吃不會嗜睡的抗組織胺來預防，而非發作才吃。",
+   "fact": "國際指引指出，自發型蕁麻疹應每天規則吃較不會嗜睡的抗組織胺來預防，而非發作才吃。",
    "strength_label": "GALEN 2026・指引說明",
    "evidence": [
     {
@@ -676,7 +676,7 @@
  ],
  "seek_care": [
   {
-   "text": "膨疹或腫脹，同時出現呼吸困難、呼吸有咻咻聲或喘鳴、舌頭或喉嚨腫脹、頭暈、昏倒或嘔吐，可能是嚴重過敏反應，請立刻撥打 119。",
+   "text": "膨疹或腫脹，同時出現呼吸困難、呼吸有咻咻聲、吸氣時有尖銳高音（喘鳴）、舌頭或喉嚨腫脹、頭暈、昏倒或嘔吐，可能是嚴重過敏反應，請立刻撥打 119。",
    "strength_label": "WAO 2020・指引說明",
    "evidence": [
     {
@@ -791,7 +791,7 @@
   },
   {
    "s": "S7",
-   "short": "WAO 2020 全身性過敏反應指引",
+   "short": "WAO 2020 嚴重過敏反應指引",
    "citation": "Cardona V, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J 2020;13(10):100472.",
    "pmid": "33204386",
    "doi": "10.1016/j.waojou.2020.100472"

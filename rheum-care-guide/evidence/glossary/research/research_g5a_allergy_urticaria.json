@@ -1,0 +1,1306 @@
+{
+ "group": "g5a_allergy_urticaria",
+ "entries": [
+  {
+   "id": "autoimmune",
+   "term": "自體免疫",
+   "aliases": [
+    "自體免疫風濕病",
+    "自體免疫"
+   ],
+   "aka": "autoimmunity; autoimmune disease; autoimmune inflammatory rheumatic diseases (AIIRD)",
+   "def": "免疫系統本來會分辨「自己」和「外來的東西」。自體免疫是指免疫系統出現了針對自己身體的成分（例如自體抗體）；自體免疫再加上明顯的病變，就是自體免疫疾病。",
+   "example": "例如紅斑性狼瘡就是一種自體免疫疾病。",
+   "note": "國際指引指出，慢性蕁麻疹主要和自體免疫有關；超過一半自發型病人的病情和自體抗體有關。",
+   "label": "綜論・定義",
+   "evidence": [
+    {
+     "quote": "Autoimmunity can be considered as the presence of self-reactive adaptive immune components, and autoimmune diseases can be thought of as autoimmunity plus clinically apparent pathology",
+     "location": "Introduction, first sentence",
+     "access": "PMC full text",
+     "pmid": "36446151",
+     "doi": "10.1016/j.coi.2022.102266",
+     "pmcid": "PMC9918670",
+     "supports": "def：自體免疫＝出現針對自己的免疫成分；自體免疫疾病＝自體免疫再加上明顯病變"
+    },
+    {
+     "quote": "Autoimmunity is characterized by self-reactive immune components and autoimmune disease by autoimmunity plus pathology.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "36446151",
+     "doi": "10.1016/j.coi.2022.102266",
+     "pmcid": "PMC9918670",
+     "supports": "def：同上（摘要版）"
+    },
+    {
+     "quote": "While autoantibodies alone are not diagnostic for disease, they do define the presence of autoimmunity.",
+     "location": "Section 'Evidence for increasing autoimmunity'",
+     "access": "PMC full text",
+     "pmid": "36446151",
+     "doi": "10.1016/j.coi.2022.102266",
+     "pmcid": "PMC9918670",
+     "supports": "def：「例如自體抗體」；自體抗體代表有自體免疫，但單獨不等於疾病"
+    },
+    {
+     "quote": "The critical function of the immune system is to discriminate self from non-self.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "19963079",
+     "doi": "10.1016/j.autrev.2009.12.002",
+     "pmcid": "",
+     "supports": "def：免疫系統本來會分辨「自己」和「外來的東西」（non-self 意譯）"
+    },
+    {
+     "quote": "It is also important to explain to the patient that CU is predominantly an autoimmune condition",
+     "location": "Section 4 (Diagnosis of Urticaria), 2nd paragraph",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：慢性蕁麻疹主要和自體免疫有關"
+    },
+    {
+     "quote": "In more than 50% of CSU patients, the pathophysiology is driven by two main autoimmune mechanisms: Type I (autoallergy) involving IgE autoantibodies against autoallergens, and type IIb involving IgG autoantibodies",
+     "location": "Section 3.3 Pathophysiological Aspects",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：超過一半自發型病人的病情和自體抗體有關"
+    },
+    {
+     "quote": "The basic tests include a differential blood count, CRP and/or ESR (to rule out severe systemic disease, as an indicator for parasitic disease, eosinophilic count, autoimmune disease such as systemic lupus), in all patients.",
+     "location": "Section 4.2 (diagnostic workup in CSU)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "example：「autoimmune disease such as systemic lupus」→紅斑性狼瘡是自體免疫疾病"
+    },
+    {
+     "quote": "To update the European League Against Rheumatism (EULAR) recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases (AIIRD) published in 2011.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882",
+     "pmcid": "",
+     "supports": "alias「自體免疫風濕病」對應 EULAR 的 autoimmune inflammatory rheumatic diseases (AIIRD)（僅名稱，摘要未定義）"
+    },
+    {
+     "quote": "Although proposals have been made regarding approaches to define autoimmunity and specific autoimmune diseases, there are still no commonly agreed upon general criteria for these",
+     "location": "Introduction, second sentence",
+     "access": "PMC full text",
+     "pmid": "36446151",
+     "doi": "10.1016/j.coi.2022.102266",
+     "pmcid": "PMC9918670",
+     "supports": "reviewer_notes：目前沒有公認的自體免疫通用判定標準"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Miller 2023 自體免疫綜論",
+     "citation": "Miller FW. The increasing prevalence of autoimmunity and autoimmune diseases: an urgent call to action for improved understanding, diagnosis, treatment, and prevention. Curr Opin Immunol 2023;80:102266.",
+     "pmid": "36446151",
+     "doi": "10.1016/j.coi.2022.102266"
+    },
+    {
+     "short": "Lleo 2010 自體免疫定義綜論",
+     "citation": "Lleo A, et al. Definition of human autoimmunity--autoantibodies versus autoimmune disease. Autoimmun Rev 2010;9(5):A259-66.",
+     "pmid": "19963079",
+     "doi": "10.1016/j.autrev.2009.12.002"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "EULAR 2019 自體免疫風濕病疫苗建議",
+     "citation": "Furer V, et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2020;79(1):39-52.",
+     "pmid": "31413005",
+     "doi": "10.1136/annrheumdis-2019-215882"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "No Tier 1–2 consensus definition of 'autoimmunity' was found; Miller 2023 itself says there are 'still no commonly agreed upon general criteria'. The definition therefore rests on two reviews (Miller 2023, PMC full text + abstract; Lleo 2010, abstract), hence Medium confidence. 'non-self' is rendered as 「外來的東西」 (plain approximation). 'self-reactive' is rendered as 「針對自己身體」 rather than 'attack', which no quote uses. Alias 自體免疫風濕病 = EULAR 2019 'autoimmune inflammatory rheumatic diseases (AIIRD)'; the EULAR abstract names the group but does not list its diseases, so the entry explains only the general concept. The example (紅斑性狼瘡) rests on S1's phrase 'autoimmune disease such as systemic lupus', which sits in a sentence about routine blood tests in CSU; the site's SLE page is titled 紅斑性狼瘡. Site wording UR-3.1/UR-M1 「慢性蕁麻疹主要和自體免疫有關」 matches S1 ('CU is predominantly an autoimmune condition'); the '>50%' autoimmune-mechanism figure in the note applies to CSU (自發型), as worded."
+  },
+  {
+   "id": "csu-cindu",
+   "term": "自發型與誘發型蕁麻疹",
+   "aliases": [
+    "自發型",
+    "誘發型"
+   ],
+   "aka": "chronic spontaneous urticaria (CSU); chronic inducible urticaria (CIndU)",
+   "def": "慢性蕁麻疹（超過6週）分兩型：自發型的膨疹或腫脹會自己冒出來，沒有明確的誘發因子；誘發型則是碰到足夠強的特定誘發因子（如冷、皮膚受壓、陽光）才發作。",
+   "example": "誘發型例如寒冷性、延遲性壓力性、日光性、膽鹼性蕁麻疹。",
+   "note": "兩型可能同時存在；自發型也可能因壓力或感染而加重。",
+   "label": "GALEN 2026・定義",
+   "evidence": [
+    {
+     "quote": "Urticaria is classified based on two main criteria: (i) its duration, as acute or chronic, and (ii) the role of definite triggers, categorized as inducible or spontaneous",
+     "location": "Section 3.2 Classification",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：依有無明確誘發因子分為誘發型與自發型"
+    },
+    {
+     "quote": "Spontaneous appearance of wheals, angioedema or both for > 6 weeks",
+     "location": "Table 6 (CSU column); quoted only up to '> 6 weeks' because the next word is glued in the PMC extraction",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：自發型＝膨疹或腫脹自己出現、超過6週"
+    },
+    {
+     "quote": "Chronic urticaria (CU) is either spontaneous or inducible, lasts >6 weeks and persists for >1 year in most patients.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "36109590",
+     "doi": "10.1038/s41572-022-00389-z",
+     "pmcid": "",
+     "supports": "def：慢性蕁麻疹分自發型或誘發型，超過6週"
+    },
+    {
+     "quote": "In contrast to chronic spontaneous urticaria (CSU), chronic inducible urticaria (CIndU) has definite and subtype-specific triggers that induce signs and symptoms.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "36109590",
+     "doi": "10.1038/s41572-022-00389-z",
+     "pmcid": "",
+     "supports": "def：誘發型有明確、各亞型特有的誘發因子；自發型沒有"
+    },
+    {
+     "quote": "Inducible urticaria is characterized by the presence of definite and subtype‐specific triggers leading to the development of wheals, angioedema, or both",
+     "location": "Section 3.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：誘發型由明確、特定的誘發因子引起膨疹或腫脹"
+    },
+    {
+     "quote": "These triggers are definite because the symptoms always appear when the trigger at the individual threshold level is present and never when the trigger is absent.",
+     "location": "Section 3.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：「碰到足夠強的（達個人門檻）誘發因子才發作」"
+    },
+    {
+     "quote": "These triggers are specific because each subtype of inducible urticaria has its own relevant trigger, such as exposure to cold in cold urticaria, and this trigger is not relevant in other forms of inducible urticaria.",
+     "location": "Section 3.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：例子「冷」"
+    },
+    {
+     "quote": "Eliciting factor: vertical pressure (wheals arising with a 3-12 h latency)",
+     "location": "Table 1, 'Delayed pressure urticaria' row",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：例子「皮膚受壓」"
+    },
+    {
+     "quote": "Eliciting factor: UV and/or visible light",
+     "location": "Table 1, 'Solar urticaria' row",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：例子「陽光（紫外線或可見光）」"
+    },
+    {
+     "quote": "CIndU is further subclassified as symptomatic dermographism, cold urticaria, delayed pressure urticaria, solar urticaria, heat urticaria, and vibratory angioedema (collectively referred to as chronic physical urticaria), as well as cholinergic urticaria, contact urticaria, and aquagenic urticaria.",
+     "location": "Table 6 legend",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "example：誘發型的亞型（寒冷性、延遲性壓力性、日光性、膽鹼性等）"
+    },
+    {
+     "quote": "CU patients can concomitantly show more than one form of CU including more than one form of CIndU and they often do.",
+     "location": "Table 6 legend",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：兩型可能同時存在"
+    },
+    {
+     "quote": "Some patients suffering from CSU experience trigger‐induced augmentation of wheals, angioedema, or both. Among others, these triggers include stress and infections.",
+     "location": "Section 3.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：自發型也可能因壓力或感染而加重"
+    }
+   ],
+   "sources": [
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "Kolkhir 2022 蕁麻疹綜論",
+     "citation": "Kolkhir P, et al. Urticaria. Nat Rev Dis Primers 2022;8(1):61.",
+     "pmid": "36109590",
+     "doi": "10.1038/s41572-022-00389-z"
+    },
+    {
+     "short": "WAO 2012 蕁麻疹與血管性水腫立場文件",
+     "citation": "Sánchez-Borges M, et al. Diagnosis and treatment of urticaria and angioedema: a worldwide perspective. World Allergy Organ J 2012;5(11):125-47.",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "S1's narrative sentences that define acute/chronic urticaria and CSU lost their bold subject words in the PMC extraction ('…spontaneous.is defined as…', '…it is described as).'), so they are not quoted; the Table 6 CSU cell is quoted only up to '> 6 weeks' because the following text is glued ('knownor unknown causes'). '沒有明確的誘發因子' does not mean 'no cause': S1 says 'CSU comes as CSU with known cause and CSU with unknown cause' (e.g., autoimmunity), and CSU can be worsened by nonspecific aggravators (stress, infections, NSAIDs) — the note covers stress/infection. The site uses 自發型/誘發型 as shorthand for the chronic forms (CSU/CIndU), which fits S1. '超過6週' follows S1/Kolkhir ('> 6 weeks'); the superseded Taiwanese Dermatological Association 2014 consensus (Chung WH et al., J Formos Med Assoc 2016;115(11):968-980; PMID 26679383; abstract checked) used '≥ 6 weeks'."
+  },
+  {
+   "id": "cold-urticaria",
+   "term": "寒冷性蕁麻疹",
+   "aliases": [
+    "寒冷性蕁麻疹"
+   ],
+   "aka": "cold urticaria (ColdU); cold contact urticaria",
+   "def": "寒冷性蕁麻疹是誘發型蕁麻疹的一種：受冷後冒出膨疹或腫脹，膨疹常在回暖時出現。",
+   "example": "例如冷空氣、冷風、冷水、冰冷的物品或冷飲。",
+   "note": "全身受冷（例如游泳、跳進冷水）可能引起嚴重過敏反應。",
+   "label": "WAO 2012、綜論・定義",
+   "evidence": [
+    {
+     "quote": "Cold urticaria (ColdU) is a common form of chronic inducible urticaria characterized by the development of wheals, angioedema or both in response to cold exposure.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "33249577",
+     "doi": "10.1111/all.14674",
+     "pmcid": "",
+     "supports": "def：誘發型的一種，受冷後出現膨疹、腫脹或兩者"
+    },
+    {
+     "quote": "We know that cold-induced wheals usually develop on rewarming and resolve within an hour and that anaphylaxis can occur.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "33249577",
+     "doi": "10.1111/all.14674",
+     "pmcid": "",
+     "supports": "def：膨疹常在回暖時出現；note：可能發生嚴重過敏反應"
+    },
+    {
+     "quote": "Eliciting factor: cold objects/air/fluids/wind",
+     "location": "Table 1, 'Cold contact urticaria' row (Definition column)",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "example：冷的物品、冷空氣、冷的液體、冷風"
+    },
+    {
+     "quote": "In the COLD-CE cohort, patients with typical ColdU reported the following triggers: cold air (88%), full-body cold-water immersion (68%), localized skin contact with cold liquids (65%), cold surfaces (59%), and ingestion of cold food or drinks (34%).",
+     "location": "Section 'Triggers'",
+     "access": "PMC full text",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "example：冷空氣、冷水、冷的表面、冷食或冷飲"
+    },
+    {
+     "quote": "These triggers are specific because each subtype of inducible urticaria has its own relevant trigger, such as exposure to cold in cold urticaria, and this trigger is not relevant in other forms of inducible urticaria.",
+     "location": "Section 3.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：屬誘發型，誘發因子是冷"
+    },
+    {
+     "quote": "Similar considerations hold for cold urticaria where the impact of the wind chill factor in cold winds needs to be remembered.",
+     "location": "Section 5.2.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "example：冷風（與網站 UR-2.4 寒風一致）"
+    },
+    {
+     "quote": "Cold urticaria (ColdU) is characterized by wheals, angioedema, or both, which are triggered by exposure to cold. A subset of patients experiences cold-induced anaphylaxis (ColdA), a potentially life-threatening systemic reaction.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "note：部分病人會出現寒冷誘發的嚴重過敏反應（全身性反應）"
+    },
+    {
+     "quote": "ColdA occurs more frequently in patients with mucosal angioedema involving the oropharynx. It is most commonly triggered by full-body cold exposure, such as swimming.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "note：最常由全身受冷（例如游泳）引發"
+    },
+    {
+     "quote": "In cold urticaria, systemic reactions have been described in the case of a rapid change of skin temperature, for example, when patients jumped into cold water.",
+     "location": "Section on physical urticarias ('Severity of Disease and PROs')",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "note：例如跳進冷水"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2012 蕁麻疹與血管性水腫立場文件",
+     "citation": "Sánchez-Borges M, et al. Diagnosis and treatment of urticaria and angioedema: a worldwide perspective. World Allergy Organ J 2012;5(11):125-47.",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c"
+    },
+    {
+     "short": "Maltseva 2021 寒冷性蕁麻疹綜論",
+     "citation": "Maltseva N, et al. Cold urticaria - What we know and what we do not know. Allergy 2021;76(4):1077-1094.",
+     "pmid": "33249577",
+     "doi": "10.1111/all.14674"
+    },
+    {
+     "short": "Bizjak 2025 寒冷性蕁麻疹綜論",
+     "citation": "Bizjak M. Cold Urticaria: From Wheals to Anaphylaxis. Allergy Asthma Immunol Res 2025;17(5):547-562.",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Site UR-2.3 (swimming → 全身性反應) is attributed to AAAAI/ACAAI 2014, which the research phase could read only via WebFetch; this entry instead uses WAO 2012 and Bizjak 2025 (both PMC full text), which state the same risk. S1 (2026) classifies cold urticaria as a CIndU subtype (footnote: 'Also called cold contact urticaria or acquired cold urticaria') but its PMC text gives no trigger list, so triggers come from WAO 2012 Table 1 and Bizjak 2025. The CIndU consensus (Magerl 2016, PMID 26991006) has no PMC full text and its abstract contains no subtype definitions, so it is not quoted. WAO 2012 Table 1 is marked 'Modified with permission from Zuberbier et al' (copyright 2009)."
+  },
+  {
+   "id": "pressure-urticaria",
+   "term": "延遲性壓力性蕁麻疹",
+   "aliases": [
+    "延遲性壓力性蕁麻疹"
+   ],
+   "aka": "delayed pressure urticaria (DPU); pressure urticaria",
+   "def": "延遲性壓力性蕁麻疹是誘發型蕁麻疹的一種：皮膚持續受壓後，過了幾個小時才出現紅腫，常會痛。",
+   "example": "例如提重物時，袋子提把造成的壓力。",
+   "note": "壓力是力量除以面積；把提把加寬、分散壓力，可能有助預防。",
+   "label": "WAO 2012、系統性回顧・定義",
+   "evidence": [
+    {
+     "quote": "Eliciting factor: vertical pressure (wheals arising with a 3-12 h latency)",
+     "location": "Table 1, 'Delayed pressure urticaria' row (Definition column)",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：受壓後延遲數小時（3–12小時）才出現"
+    },
+    {
+     "quote": "Delayed pressure urticaria (DPU) is characterized by recurrent erythematous and often painful swelling after the skin is exposed to sustained pressure.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "32179196",
+     "doi": "10.1016/j.jaip.2020.03.004",
+     "pmcid": "",
+     "supports": "def：皮膚持續受壓後出現紅腫，常會痛"
+    },
+    {
+     "quote": "Delayed pressure urticaria (DPU) is a chronic inducible subtype of urticaria, characterized by painful erythematous swelling triggered by sustained mechanical pressure. After pressure stimuli, lesions often appear within 4 to 6 hours, peak around 6 hours later, and persist for 8 hours to 3 days.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41182243",
+     "doi": "10.12932/AP-130825-2133",
+     "pmcid": "",
+     "supports": "def：屬誘發型；受壓後常在4到6小時內出現"
+    },
+    {
+     "quote": "For example, patients with delayed pressure urticaria should be informed that pressure is defined as force per area and that simple measures, such as broadening of the handle of heavy bags, may be helpful in the prevention of symptoms.",
+     "location": "Section 5.2.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "example：重物袋子的提把；note：壓力＝力量÷面積，加寬提把可能有助預防"
+    },
+    {
+     "quote": "For example, pressure is defined as force per area and simply increasing the size of a handle of a bag may help in patients with pressure urticaria to avoid symptoms.",
+     "location": "Section 'Management of Physical Urticaria'",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "example／note：同上"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2012 蕁麻疹與血管性水腫立場文件",
+     "citation": "Sánchez-Borges M, et al. Diagnosis and treatment of urticaria and angioedema: a worldwide perspective. World Allergy Organ J 2012;5(11):125-47.",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c"
+    },
+    {
+     "short": "Kulthanan 2020 延遲性壓力性蕁麻疹系統性回顧",
+     "citation": "Kulthanan K, et al. Delayed Pressure Urticaria: A Systematic Review of Treatment Options. J Allergy Clin Immunol Pract 2020;8(6):2035-2049.e5.",
+     "pmid": "32179196",
+     "doi": "10.1016/j.jaip.2020.03.004"
+    },
+    {
+     "short": "Kulthanan 2025 延遲性壓力性蕁麻疹綜論",
+     "citation": "Kulthanan K, et al. Pathophysiological insights into delayed pressure urticaria: A comprehensive review. Asian Pac J Allergy Immunol 2025;43(3):382-402.",
+     "pmid": "41182243",
+     "doi": "10.12932/AP-130825-2133"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Sources give different latencies: WAO 2012 Table 1 '3-12 h'; Kulthanan 2025 'within 4 to 6 hours' (and AAAAI/ACAAI 2014 '4 to 6 hours' per the research-phase WebFetch). The definition says 「過了幾個小時」 to stay within all of them. '常會痛' follows Kulthanan 2020/2025 ('often painful', 'painful erythematous swelling'). The example and note match site UR-2.5 and S1 §5.2.2 (bag handles; 'pressure is defined as force per area')."
+  },
+  {
+   "id": "solar-urticaria",
+   "term": "日光性蕁麻疹",
+   "aliases": [
+    "日光性蕁麻疹"
+   ],
+   "aka": "solar urticaria",
+   "def": "日光性蕁麻疹是誘發型蕁麻疹的一種：皮膚照到光線後幾分鐘內，就冒出會癢的紅斑和膨疹；引發的光線多為紫外線A或可見光。",
+   "example": "",
+   "note": "醫師可用不同波長的光做測試，找出引發的光線，可能有助挑選防曬乳或有UV-A濾光的燈泡。",
+   "label": "系統性回顧、WAO 2012・定義",
+   "evidence": [
+    {
+     "quote": "Solar urticaria is a rare and debilitating photodermatosis classified as a subtype of inducible (physical) urticaria. It is characterized by the rapid onset of pruritic erythema and wheals within minutes of exposure to light",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "40869562",
+     "doi": "10.3390/jcm14165736",
+     "pmcid": "PMC12386910",
+     "supports": "def：屬誘發型；照光後幾分鐘內出現會癢的紅斑和膨疹"
+    },
+    {
+     "quote": "In affected individuals, symptoms are reproducibly triggered by specific wavelengths of radiation, most commonly within the ultraviolet A (UVA) and visible light (VL) spectra, as determined by phototesting",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "40869562",
+     "doi": "10.3390/jcm14165736",
+     "pmcid": "PMC12386910",
+     "supports": "def：引發的光線多為紫外線A或可見光"
+    },
+    {
+     "quote": "Eliciting factor: UV and/or visible light",
+     "location": "Table 1, 'Solar urticaria' row (Definition column)",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：誘發因子是紫外線和／或可見光"
+    },
+    {
+     "quote": "Provocation with UV and visible light of different wave lengths and threshold test",
+     "location": "Table 8, 'Solar urticaria' row",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：用不同波長的光做測試"
+    },
+    {
+     "quote": "For solar urticaria, the exact identification of the range of eliciting wave lengths may be important for the appropriate selection of sunscreens or light bulbs with a UV‐A filter.",
+     "location": "Section 5.2.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：找出引發的波長，可能有助挑選防曬乳或有UV-A濾光的燈泡"
+    },
+    {
+     "quote": "Due to the limited effectiveness of sunscreens in protecting against UVA and VL",
+     "location": "Introduction, second paragraph",
+     "access": "PMC full text",
+     "pmid": "40869562",
+     "doi": "10.3390/jcm14165736",
+     "pmcid": "PMC12386910",
+     "supports": "reviewer_notes：防曬乳對UVA與可見光的保護有限"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2012 蕁麻疹與血管性水腫立場文件",
+     "citation": "Sánchez-Borges M, et al. Diagnosis and treatment of urticaria and angioedema: a worldwide perspective. World Allergy Organ J 2012;5(11):125-47.",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c"
+    },
+    {
+     "short": "Engler Markowitz 2025 日光性蕁麻疹系統性回顧",
+     "citation": "Engler Markowitz M, et al. Efficacy of Therapies for Solar Urticaria: A Systematic Review and Meta-Analysis. J Clin Med 2025;14(16):5736.",
+     "pmid": "40869562",
+     "doi": "10.3390/jcm14165736"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Engler Markowitz 2025 (systematic review) notes 'the limited effectiveness of sunscreens in protecting against UVA and VL'. This does not contradict site UR-2.T, which says identifying wavelengths 'may' help choose sunscreens or UV-A-filtered bulbs (S1), but you may want to avoid implying that sunscreen alone is protective. '紫外線A' renders UVA; the site writes 'UV-A'. S1 also states that advising solar-urticaria patients to avoid going outdoors 'should not be the aim', consistent with site UR-2.2."
+  },
+  {
+   "id": "cholinergic-urticaria",
+   "term": "膽鹼性蕁麻疹",
+   "aliases": [
+    "膽鹼性蕁麻疹"
+   ],
+   "aka": "cholinergic urticaria (CholU)",
+   "def": "膽鹼性蕁麻疹是誘發型蕁麻疹的一種：體溫上升而流汗時（例如運動、泡熱水澡、情緒緊張），冒出針尖大小、很癢或會痛的膨疹，周圍泛紅。",
+   "example": "",
+   "note": "運動時冒疹子也可能是運動誘發的嚴重過敏反應，需由醫師區分。",
+   "label": "WAO 2012、綜論・定義",
+   "evidence": [
+    {
+     "quote": "Cholinergic urticaria (CholU) is a subtype of chronic inducible urticaria with a chief complaint of itching and/or stinging, painful papular wheals that develop simultaneously with sweating.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "36107396",
+     "doi": "10.1007/s40257-022-00728-6",
+     "pmcid": "PMC9476404",
+     "supports": "def：屬誘發型；流汗時出現很癢或刺痛的膨疹"
+    },
+    {
+     "quote": "manifests as pinpoint, highly pruritic, or often painful wheals with surrounding erythema. These wheals occur after sweating induced by an increase in the body temperature, which occurs in response to hot bathing, physical exercise, and emotional stress",
+     "location": "Introduction, first paragraph (sentence subject: 'Cholinergic urticaria (CholU)')",
+     "access": "PMC full text",
+     "pmid": "36107396",
+     "doi": "10.1007/s40257-022-00728-6",
+     "pmcid": "PMC9476404",
+     "supports": "def：針尖大小、很癢或常會痛的膨疹，周圍泛紅；體溫上升流汗時出現，例如泡熱水澡、運動、情緒緊張"
+    },
+    {
+     "quote": "Cholinergic urticaria symptoms can be elicited through a hot shower or bath. The underlying mechanism in cholinergic urticaria, however, is not the external stimulus but the increase in body core temperature; cholinergic urticaria can also be elicited by exercise or emotional distress",
+     "location": "Section on physical urticarias",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：機轉是體溫（核心體溫）上升，可由熱水澡、運動或情緒緊張引發"
+    },
+    {
+     "quote": "Elicitation by increase of body core temperature due to physical exercises, spicy food",
+     "location": "Table 1, 'Cholinergic urticaria' row (Definition column)",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：核心體溫上升（例如運動）"
+    },
+    {
+     "quote": "Exercise-induced anaphylaxis includes four types: food-independent EIA, food-dependent EIA with IgE sensitivity, food-dependent EIA without IgE sensitivity, and drug-dependent EIA",
+     "location": "Section 'Differential Diagnosis'",
+     "access": "PMC full text",
+     "pmid": "36107396",
+     "doi": "10.1007/s40257-022-00728-6",
+     "pmcid": "PMC9476404",
+     "supports": "note：EIA＝運動誘發的嚴重過敏反應"
+    },
+    {
+     "quote": "Cholinergic urticaria must be differentiated from EIA and heat urticaria based on whether the clinical episode has developed secondary to exercise and/or heat stimulation.",
+     "location": "Section 'Differential Diagnosis'",
+     "access": "PMC full text",
+     "pmid": "36107396",
+     "doi": "10.1007/s40257-022-00728-6",
+     "pmcid": "PMC9476404",
+     "supports": "note：需和運動誘發的嚴重過敏反應區分"
+    },
+    {
+     "quote": "Strenuous exertion may provoke both EIA and CholU, but passive warming will induce solely CholU and not EIA.",
+     "location": "Section 'Differential Diagnosis'",
+     "access": "PMC full text",
+     "pmid": "36107396",
+     "doi": "10.1007/s40257-022-00728-6",
+     "pmcid": "PMC9476404",
+     "supports": "note：劇烈運動兩者都可能引發"
+    },
+    {
+     "quote": "For example, advising patients with cholinergic urticaria to completely avoid physical exercise or recommending that patients with solar urticaria avoid going outdoors should not be the aim of a patient‐centered management strategy.",
+     "location": "Section 5.2",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "reviewer_notes：S1 認為不應要求膽鹼性蕁麻疹病人完全不運動（網站 UR-2.2）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2012 蕁麻疹與血管性水腫立場文件",
+     "citation": "Sánchez-Borges M, et al. Diagnosis and treatment of urticaria and angioedema: a worldwide perspective. World Allergy Organ J 2012;5(11):125-47.",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c"
+    },
+    {
+     "short": "Fukunaga 2023 膽鹼性蕁麻疹綜論",
+     "citation": "Fukunaga A, et al. Cholinergic Urticaria: Subtype Classification and Clinical Approach. Am J Clin Dermatol 2023;24(1):41-54.",
+     "pmid": "36107396",
+     "doi": "10.1007/s40257-022-00728-6"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "Site UR-S2 is attributed to AAAAI/ACAAI 2014 (WebFetch-only in the research phase); Fukunaga 2023 (PMC full text) supports the same point that cholinergic urticaria must be distinguished from exercise-induced anaphylaxis. WAO 2012 Table 1 also lists 'spicy food' as an elicitor and Fukunaga mentions hot or spicy foods; these were left out of the definition for brevity. S1 says advising complete avoidance of exercise 'should not be the aim' (site UR-2.2); this was deliberately NOT put in the note, so the note does not imply that exercise is safe before a doctor has excluded exercise-induced anaphylaxis."
+  },
+  {
+   "id": "wheal",
+   "term": "膨疹",
+   "aliases": [
+    "膨疹"
+   ],
+   "aka": "wheal (weal); hives",
+   "def": "膨疹是皮膚淺層突然腫起的一塊，大小、形狀不一，周圍常有一圈紅暈，會癢（有時是灼熱感），通常在24小時內消退、恢復原狀。",
+   "example": "",
+   "note": "膨疹來得快、去得快，看診時不一定還在，可以先拍照給醫師看。",
+   "label": "WAO 2012・定義",
+   "evidence": [
+    {
+     "quote": "Urticaria is characterized by the sudden appearance of wheals and/or angioedema, defining wheals as a cutaneous swelling of variable size, almost invariably surrounded by a reflex erythema, with associated itching or, sometimes, a burning sensation, and of transient nature, with the skin returning to its normal appearance in usually 1 to 24 hours.",
+     "location": "Section 'Definition and Classification'",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：突然出現、大小不一的腫起，周圍幾乎都有紅暈，會癢或有時灼熱，會自行消退、通常1到24小時內恢復"
+    },
+    {
+     "quote": "Wheals are sharply circumscribed, superficial skin swellings that vary in size and shape, and are typically pruritic. They are often surrounded by erythematous flare.",
+     "location": "Section 'Diagnosis'",
+     "access": "PMC full text",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "def：皮膚淺層的腫起，大小形狀不一，通常會癢，周圍常有紅暈"
+    },
+    {
+     "quote": "Urticaria is a condition characterized by the development of wheals (hives), angioedema, or both.",
+     "location": "Section 3.1 Definition",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "aka：wheals (hives)；膨疹是蕁麻疹的主要表現"
+    },
+    {
+     "quote": "Since wheals and angioedema are transient and may not be present at the time of physical examination, it is important to review prior documentation, including patient‐provided photographs of wheals and/or angioedema",
+     "location": "Section 4 (Diagnosis of Urticaria), 1st paragraph",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：會消退、看診時不一定還在，可提供照片"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2012 蕁麻疹與血管性水腫立場文件",
+     "citation": "Sánchez-Borges M, et al. Diagnosis and treatment of urticaria and angioedema: a worldwide perspective. World Allergy Organ J 2012;5(11):125-47.",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c"
+    },
+    {
+     "short": "Bizjak 2025 寒冷性蕁麻疹綜論",
+     "citation": "Bizjak M. Cold Urticaria: From Wheals to Anaphylaxis. Allergy Asthma Immunol Res 2025;17(5):547-562.",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "S1 (2026) §3.1 defines urticaria ('wheals (hives), angioedema, or both') but its PMC text gives no feature-by-feature definition of a wheal; the 2018 and 2022 versions of the guideline have no PMC full text (checked with convert_article_ids), so the definition is quoted from the WAO 2012 position paper (PMC) and Bizjak 2025 (PMC). WAO 2012 gives 'usually 1 to 24 hours'; the entry says 「通常在24小時內」 and does not state a lower bound. WAO 2012 says the wheal is 'almost invariably' surrounded by reflex erythema and Bizjak says 'often'; the entry uses 「常有」."
+  },
+  {
+   "id": "angioedema",
+   "term": "血管性水腫",
+   "aliases": [
+    "血管性水腫"
+   ],
+   "aka": "angioedema (AE)",
+   "def": "血管性水腫是皮膚深層或黏膜突然出現的明顯腫脹，可能會痛而不是癢，消退得比膨疹慢，可能要到72小時。",
+   "example": "",
+   "note": "可和膨疹一起出現，也可能單獨出現；只有腫脹、沒有膨疹時，需請醫師評估其他原因。",
+   "label": "WAO 2012、DANCE 2024・定義",
+   "evidence": [
+    {
+     "quote": "Angioedema can be defined as a sudden and pronounced swelling of the deep dermis and subcutaneous tissue or mucous membranes, with a painful rather than an itching sensation and a slower resolution than for wheals that can take up to 72 hours",
+     "location": "Section 'Definition and Classification'",
+     "access": "PMC full text",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c",
+     "pmcid": "PMC3651155",
+     "supports": "def：皮膚深層、皮下組織或黏膜突然明顯腫脹，痛而非癢，消退比膨疹慢，可達72小時"
+    },
+    {
+     "quote": "Angioedema (AE) manifests with intermittent, localized, self-limiting swelling of the subcutaneous and/or submucosal tissue.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "38670233",
+     "doi": "10.1016/j.jaci.2024.03.024",
+     "pmcid": "",
+     "supports": "def：局部、會自行消退的皮下或黏膜下腫脹"
+    },
+    {
+     "quote": "In angioedema, similar changes occur primarily in the lower dermis and the subcutis.",
+     "location": "Section 3.3 Pathophysiological Aspects",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：發生在皮膚較深層與皮下"
+    },
+    {
+     "quote": "In contrast, cutaneous angioedema presents with deeper, erythematous, or skin-colored swellings with poorly defined borders.",
+     "location": "Section 'Diagnosis'",
+     "access": "PMC full text",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "def：比膨疹更深層的腫脹"
+    },
+    {
+     "quote": "Recurrent angioedema (RecA) is a frequent clinical problem characterized by suddenly occurring cutaneous and/or mucosal swellings. Depending on their location, RecA may be painful, hindering, disfiguring, or even life-threatening.",
+     "location": "Abstract, first two sentences",
+     "access": "abstract",
+     "pmid": "23919330",
+     "doi": "10.1111/all.12209",
+     "pmcid": "",
+     "supports": "def：突然出現的皮膚或黏膜腫脹；「可能會痛」"
+    },
+    {
+     "quote": "AE is heterogeneous, can be hereditary or acquired, may occur only once or be recurrent, may exhibit wheals or not, and may be due to mast cell mediators, bradykinin, or other mechanisms.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38670233",
+     "doi": "10.1016/j.jaci.2024.03.024",
+     "pmcid": "",
+     "supports": "note：可伴隨膨疹，也可能沒有；原因可能不同"
+    },
+    {
+     "quote": "On the other hand, in patients who suffer exclusively from recurrent angioedema (but not from wheals), differential diagnosis should include bradykinin‐mediated angioedema, including those induced by angiotensin‐converting enzyme (ACE)‐inhibitor or gliptins, or hereditary angioedema (HAE)",
+     "location": "Section 4.2.1",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：只有腫脹、沒有膨疹時，需評估其他類型（例如緩激肽引起的）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2012 蕁麻疹與血管性水腫立場文件",
+     "citation": "Sánchez-Borges M, et al. Diagnosis and treatment of urticaria and angioedema: a worldwide perspective. World Allergy Organ J 2012;5(11):125-47.",
+     "pmid": "23282382",
+     "doi": "10.1097/WOX.0b013e3182758d6c"
+    },
+    {
+     "short": "DANCE 2024 血管性水腫命名共識",
+     "citation": "Reshef A, et al. Definition, acronyms, nomenclature, and classification of angioedema (DANCE): AAAAI, ACAAI, ACARE, and APAAACI DANCE consensus. J Allergy Clin Immunol 2024;154(2):398-411.e1.",
+     "pmid": "38670233",
+     "doi": "10.1016/j.jaci.2024.03.024"
+    },
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "Bizjak 2025 寒冷性蕁麻疹綜論",
+     "citation": "Bizjak M. Cold Urticaria: From Wheals to Anaphylaxis. Allergy Asthma Immunol Res 2025;17(5):547-562.",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547"
+    },
+    {
+     "short": "Weller 2013 AAS 開發與驗證研究",
+     "citation": "Weller K, et al. Development, validation, and initial results of the Angioedema Activity Score. Allergy 2013;68(9):1185-92.",
+     "pmid": "23919330",
+     "doi": "10.1111/all.12209"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "'可能會痛而不是癢' softens WAO 2012's categorical 'a painful rather than an itching sensation' (Weller 2013 likewise says recurrent angioedema 'may be painful'). The note avoids naming drug classes; S1 names ACE inhibitors and gliptins for angioedema without wheals (site UR-S3 already says 「例如某些降血壓藥」, which is an interpretation of 'ACE-inhibitor' not stated in the quote itself)."
+  },
+  {
+   "id": "anaphylaxis",
+   "term": "嚴重過敏反應（全身性過敏反應）",
+   "aliases": [
+    "嚴重過敏反應",
+    "全身性反應"
+   ],
+   "aka": "anaphylaxis; systemic allergic reaction",
+   "def": "嚴重過敏反應是最嚴重的一種全身性過敏反應，通常發作很快，可能危及呼吸或血液循環，甚至致命。",
+   "example": "例如呼吸困難、咻咻聲、喘鳴、嘴唇或舌頭腫、頭暈或昏倒。",
+   "note": "這是急症，需立刻處理；不一定有皮膚症狀。寒冷性蕁麻疹病人游泳等全身受冷時也可能發生。",
+   "label": "WAO 2020・定義",
+   "evidence": [
+    {
+     "quote": "Anaphylaxis is the most severe clinical presentation of acute systemic allergic reactions.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "def：最嚴重的一種全身性過敏反應"
+    },
+    {
+     "quote": "Anaphylaxis is a serious systemic hypersensitivity reaction that is usually rapid in onset and may cause death. Severe anaphylaxis is characterized by potentially life-threatening compromise in breathing and/or the circulation, and may occur without typical skin features or circulatory shock being present.",
+     "location": "Section 'A revised definition for anaphylaxis' (WAO Anaphylaxis Committee)",
+     "access": "PMC full text",
+     "pmid": "31719946",
+     "doi": "10.1016/j.waojou.2019.100066",
+     "pmcid": "PMC6838992",
+     "supports": "def：通常發作很快、可能致命，嚴重時危及呼吸或循環；note：不一定有典型皮膚症狀"
+    },
+    {
+     "quote": "Early suspicion of anaphylaxis, either by patients or health-professionals, based on the development of symptoms suggestive of allergy usually affecting several organ systems more or less simultaneously, should prompt immediate management. Anaphylaxis is a medical emergency that requires rapid identification and treatment.",
+     "location": "Section 'Acute treatment of anaphylaxis'",
+     "access": "PMC full text",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "note：急症，需立刻處理；症狀常同時影響多個器官"
+    },
+    {
+     "quote": "how to recognize anaphylaxis symptoms (eg, tingling in the extremities, sense of heat, sense of dizziness/fainting, swollen lips-tongue-uvula, shortness of breath, wheeze, stridor, collapse)",
+     "location": "Section on self-management (written anaphylaxis emergency action plan)",
+     "access": "PMC full text",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "example：呼吸急促、咻咻聲、喘鳴、嘴唇舌頭腫、頭暈或昏倒、虛脫"
+    },
+    {
+     "quote": "Cold urticaria (ColdU) is characterized by wheals, angioedema, or both, which are triggered by exposure to cold. A subset of patients experiences cold-induced anaphylaxis (ColdA), a potentially life-threatening systemic reaction.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "note：寒冷性蕁麻疹可能引起嚴重過敏反應（alias「全身性反應」的語境）"
+    },
+    {
+     "quote": "ColdA occurs more frequently in patients with mucosal angioedema involving the oropharynx. It is most commonly triggered by full-body cold exposure, such as swimming.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "note：最常由全身受冷（例如游泳）引發"
+    },
+    {
+     "quote": "Therefore, the majority of anaphylaxis reactions cannot be described as life-threatening in themselves",
+     "location": "Section 'Definition and clinical diagnostic criteria for anaphylaxis'",
+     "access": "PMC full text",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "def 措辭：寫「可能…甚至致命」而非「一定危及生命」"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WAO 2020 全身性過敏反應指引",
+     "citation": "Cardona V, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J 2020;13(10):100472.",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472"
+    },
+    {
+     "short": "WAO 全身性過敏反應委員會 2019 定義修訂",
+     "citation": "Turner PJ, et al. Time to revisit the definition and clinical criteria for anaphylaxis? World Allergy Organ J 2019;12(10):100066.",
+     "pmid": "31719946",
+     "doi": "10.1016/j.waojou.2019.100066"
+    },
+    {
+     "short": "Bizjak 2025 寒冷性蕁麻疹綜論",
+     "citation": "Bizjak M. Cold Urticaria: From Wheals to Anaphylaxis. Allergy Asthma Immunol Res 2025;17(5):547-562.",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "WAO 2020's own table of definitions is missing from the PMC extraction; the formal wording is quoted from Turner 2019, the WAO Anaphylaxis Committee paper that proposed it (PMC). Whether WAO 2020 repeats this wording verbatim was not verified. Alias 全身性反應 (site UR-2.3) renders 'systemic reactions' in the AAAAI/ACAAI 2014 sentence cited for UR-2.3 (claim C51 in /home/claude/research/urticaria.md). WAO 2012 and Bizjak 2025 describe these as systemic/anaphylactic reactions, so linking the alias here is reasonable, but 'systemic reaction' can be broader than anaphylaxis; consider rewording UR-2.3 to 「全身性過敏反應」 or not linking that alias. The example symptoms come from WAO 2020's action-plan list for at-risk patients; 「呼吸困難」 renders 'shortness of breath'. The emergency number 119 (site UR-S1) is editorial and not in any source."
+  },
+  {
+   "id": "stridor-wheeze",
+   "term": "喘鳴與咻咻聲",
+   "aliases": [
+    "喘鳴",
+    "咻咻聲"
+   ],
+   "aka": "stridor; wheeze (wheezing)",
+   "def": "咻咻聲是呼吸時像吹口哨的聲音，多在吐氣時出現，因為支氣管收縮；喘鳴是吸氣時發出的尖銳高音，因為呼吸道阻塞。",
+   "example": "",
+   "note": "兩者都可能是嚴重過敏反應的徵兆，屬於急症。",
+   "label": "綜論・定義",
+   "evidence": [
+    {
+     "quote": "wheeze (whistling sound, mainly during exhalation due to bronchoconstriction), stridor (high-pitched sound during inhalation due to airway obstruction)",
+     "location": "Table 2 ('Proposed parameters for guided patient history'), 'Respiratory manifestations' row",
+     "access": "PMC full text",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547",
+     "pmcid": "PMC12511795",
+     "supports": "def：咻咻聲＝主要在吐氣時、因支氣管收縮的口哨聲；喘鳴＝吸氣時、因呼吸道阻塞的高音"
+    },
+    {
+     "quote": "Stridor is a high-pitched respiratory sound that signals upper airway obstruction.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "30358678",
+     "doi": "10.1097/01.JAA.0000546480.64441.af",
+     "pmcid": "",
+     "supports": "def：喘鳴是代表上呼吸道阻塞的高音（佐證）"
+    },
+    {
+     "quote": "how to recognize anaphylaxis symptoms (eg, tingling in the extremities, sense of heat, sense of dizziness/fainting, swollen lips-tongue-uvula, shortness of breath, wheeze, stridor, collapse)",
+     "location": "Section on self-management (written anaphylaxis emergency action plan)",
+     "access": "PMC full text",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "note：wheeze 和 stridor 都列為嚴重過敏反應的症狀"
+    },
+    {
+     "quote": "Early suspicion of anaphylaxis, either by patients or health-professionals, based on the development of symptoms suggestive of allergy usually affecting several organ systems more or less simultaneously, should prompt immediate management. Anaphylaxis is a medical emergency that requires rapid identification and treatment.",
+     "location": "Section 'Acute treatment of anaphylaxis'",
+     "access": "PMC full text",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472",
+     "pmcid": "PMC7607509",
+     "supports": "note：屬於急症"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Bizjak 2025 寒冷性蕁麻疹綜論",
+     "citation": "Bizjak M. Cold Urticaria: From Wheals to Anaphylaxis. Allergy Asthma Immunol Res 2025;17(5):547-562.",
+     "pmid": "41044831",
+     "doi": "10.4168/aair.2025.17.5.547"
+    },
+    {
+     "short": "Clark 2018 嬰兒先天性喘鳴綜論",
+     "citation": "Clark CM, et al. Common causes of congenital stridor in infants. JAAPA 2018;31(11):36-40.",
+     "pmid": "30358678",
+     "doi": "10.1097/01.JAA.0000546480.64441.af"
+    },
+    {
+     "short": "WAO 2020 全身性過敏反應指引",
+     "citation": "Cardona V, et al. World allergy organization anaphylaxis guidance 2020. World Allergy Organ J 2020;13(10):100472.",
+     "pmid": "33204386",
+     "doi": "10.1016/j.waojou.2020.100472"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok",
+   "reviewer_notes": "WAO 2020 (Tier 1) lists 'wheeze, stridor' as anaphylaxis symptoms but does not define them; no Tier 1–2 plain-language definition was found (the ERS lung-sound nomenclature paper, PMID 26647442, has no definitions in its abstract and no PMC full text). The definitions come from a review table (Bizjak 2025, PMC) and, for stridor, an infant-focused review abstract (Clark 2018) whose opening definition is general; hence Medium confidence. Terminology: the site renders wheeze as 咻咻聲 and stridor as 喘鳴, matching WAO's 'wheeze, stridor'. In Taiwanese clinical usage 喘鳴 is sometimes also used for wheezing, so please confirm this mapping."
+  },
+  {
+   "id": "uas7",
+   "term": "蕁麻疹活性分數（UAS7）",
+   "aliases": [
+    "UAS7"
+   ],
+   "aka": "Urticaria Activity Score over 7 days (UAS7)",
+   "def": "UAS7 是自發型病人每天自己替膨疹和癢各打0到3分，連續7天加總的分數（最高42分），用來追蹤病情活躍度和治療效果。",
+   "example": "",
+   "note": "症狀時好時壞，連續每天記錄最能反映整體病情。",
+   "label": "GALEN 2026・工具說明",
+   "evidence": [
+    {
+     "quote": "For the UAS7 the sum of the score (0–3 for wheals +0–3 for pruritis) for each day is summarized over 1 week (7 days) for a maximum of 42.",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：每天膨疹0–3分加癢0–3分，加總7天，最高42分"
+    },
+    {
+     "quote": "It captures the two key signs and symptoms of urticaria—wheals and pruritus—based on daily self‐assessments by the patient",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：病人每天自己評估膨疹和癢"
+    },
+    {
+     "quote": "Given the fluctuating nature of urticaria, the most reliable way to assess overall disease activity is through daily symptom tracking over several days. The UAS7, calculated as the sum of daily scores over 7 consecutive days, should be routinely used to monitor disease activity and treatment response in patients with CSU.",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：連續7天加總，用來追蹤自發型的病情活躍度和治療反應；note：每天記錄最可靠"
+    },
+    {
+     "quote": "To achieve this, the use of validated specific Patient Report Outcome Measures (PROMs) such as the Urticaria Activity Score over 7 days (UAS7), the Urticaria Control Test (UCT), and others, is very helpful.",
+     "location": "Section 4.2 (diagnostic workup in CSU)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "aka：Urticaria Activity Score over 7 days (UAS7)"
+    },
+    {
+     "quote": "Copyright for UAS: GALEN; copyright for AAS (UK version): MOXIE GmbH",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "reviewer_notes：UAS 版權屬 GALEN"
+    }
+   ],
+   "sources": [
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "S1 states 'Copyright for UAS: GALEN'. The entry describes only the scoring structure already on the site (0–3 + 0–3 per day, 7 days, max 42) and does not reproduce the score-sheet anchors in S1 Table 11. 'pruritis' is S1's spelling in the quote. S1 recommends UAS7 for CSU patients with wheals, matching site UR-5.1 (自發型)."
+  },
+  {
+   "id": "uct",
+   "term": "蕁麻疹控制測試（UCT）",
+   "aliases": [
+    "UCT"
+   ],
+   "aka": "Urticaria Control Test (UCT)",
+   "def": "UCT 是回想過去4週、回答4個問題的簡短問卷，用來評估蕁麻疹控制得好不好；滿分16分，12分以上代表控制良好。",
+   "example": "",
+   "note": "自發型和誘發型都適用；治療目標是持續完全控制（16分）。",
+   "label": "GALEN 2026・工具說明",
+   "evidence": [
+    {
+     "quote": "It is a simple four‐item tool with a clearly defined cut off for patients with “well‐controlled” vs. “poorly controlled” disease, and it is thus suited for the management of patients in routine clinical practice. Its recall period is 4 weeks.",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：4題、回想期4週、有控制良好與否的切點"
+    },
+    {
+     "quote": "The UCT cutoff value for well‐controlled disease is 12 out of 16 possible points.",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：滿分16分，12分以上代表控制良好"
+    },
+    {
+     "quote": "The UCT was developed and validated to determine the level of disease control in all forms of CU (CSU and CIndU)",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：自發型和誘發型都適用"
+    },
+    {
+     "quote": "The goal of treatment is to treat the disease until it is gone, as efficiently and as safely as possible, aiming at a continuous complete control (consistently UAS = 0/UCT = 16) and a normalization of quality of life",
+     "location": "Section 5.1 Basic Considerations",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：治療目標是持續完全控制（UCT＝16）"
+    },
+    {
+     "quote": "A 4-item UCT with a recall period of 4 weeks was developed based on 25 potential UCT items tested in 508 patients with chronic urticaria.",
+     "location": "Abstract (Results)",
+     "access": "abstract",
+     "pmid": "24522090",
+     "doi": "10.1016/j.jaci.2013.12.1076",
+     "pmcid": "",
+     "supports": "def：4題、回想4週（原始開發研究佐證）"
+    },
+    {
+     "quote": "The UCT is the first valid and reliable tool to assess disease control in patients with chronic urticaria (spontaneous and inducible).",
+     "location": "Abstract (Conclusions)",
+     "access": "abstract",
+     "pmid": "24522090",
+     "doi": "10.1016/j.jaci.2013.12.1076",
+     "pmcid": "",
+     "supports": "def／note：評估控制程度，自發型和誘發型都適用"
+    },
+    {
+     "quote": "In patients who are in the range of UCT 12–15, therefore a step up might also be required.",
+     "location": "Figure 3 legend",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "reviewer_notes：UCT 12–15 分仍可能需要加強治療"
+    },
+    {
+     "quote": "(A) The urticaria control test (UCT) and (B) The angioedema control test (AECT). Copyright: MOXIE GmbH, Berlin, Germany",
+     "location": "Figure 2 legend",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "reviewer_notes：UCT 版權屬 MOXIE GmbH"
+    }
+   ],
+   "sources": [
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "Weller 2014 UCT 開發與驗證研究",
+     "citation": "Weller K, et al. Development and validation of the Urticaria Control Test: a patient-reported outcome instrument for assessing urticaria control. J Allergy Clin Immunol 2014;133(5):1365-72, 1372.e1-6.",
+     "pmid": "24522090",
+     "doi": "10.1016/j.jaci.2013.12.1076"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "UCT copyright: MOXIE GmbH (S1 Figure 2). The entry does not reproduce the four questions. S1 Figure 3 adds that patients scoring 12–15 may still need a treatment step-up, which is why the note gives the goal as 16. S1 also mentions a 7-day-recall version (UCT7), not covered here. Site UR-5.4 matches S1."
+  },
+  {
+   "id": "aas",
+   "term": "血管性水腫活動分數（AAS）",
+   "aliases": [
+    "AAS"
+   ],
+   "aka": "Angioedema Activity Score (AAS)",
+   "def": "AAS 是有血管性水腫（腫脹）的病人每天填寫的5題問卷，把每天的分數加總，用來評估腫脹發作的活躍程度。",
+   "example": "",
+   "note": "同時有膨疹和腫脹的自發型病人，UAS7 和 AAS 要一起記錄。",
+   "label": "GALEN 2026・工具說明",
+   "evidence": [
+    {
+     "quote": "For CSU patients who develop angioedema, with or without wheals, the Angioedema Activity Score (AAS) should be used to assess disease activity",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：自發型有血管性水腫者用 AAS 評估活躍程度"
+    },
+    {
+     "quote": "For the AAS, scores are summed up to an AAS day sum score (0–15), 7 AAS day sum scores to an AAS week sum score (AAS7, 0–105)",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "def：每天有一個加總分數，7天再加總"
+    },
+    {
+     "quote": "To develop and validate the first specific patient-reported outcome instrument to assess disease activity in RecA patients, the Angioedema Activity Score (AAS).",
+     "location": "Abstract (Objective)",
+     "access": "abstract",
+     "pmid": "23919330",
+     "doi": "10.1111/all.12209",
+     "pmcid": "",
+     "supports": "def：病人自填、評估血管性水腫活躍程度的工具"
+    },
+    {
+     "quote": "The resulting AAS consisted of five items and was found to have a one-dimensional structure and excellent internal consistency.",
+     "location": "Abstract (Results)",
+     "access": "abstract",
+     "pmid": "23919330",
+     "doi": "10.1111/all.12209",
+     "pmcid": "",
+     "supports": "def：共5題"
+    },
+    {
+     "quote": "CSU patients who experience wheals and angioedema should use the UAS7 and the AAS in combination.",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note：同時有膨疹和腫脹者，UAS7 和 AAS 一起用"
+    },
+    {
+     "quote": "Copyright for UAS: GALEN; copyright for AAS (UK version): MOXIE GmbH",
+     "location": "Section 4.2.6",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "reviewer_notes：AAS（英國版）版權屬 MOXIE GmbH"
+    }
+   ],
+   "sources": [
+    {
+     "short": "GALEN 2026 國際蕁麻疹指引",
+     "citation": "Zuberbier T, et al. The International Guideline for the Definition, Classification, Diagnosis and Management of Urticaria. Allergy 2026;81(8):2582-2632.",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210"
+    },
+    {
+     "short": "Weller 2013 AAS 開發與驗證研究",
+     "citation": "Weller K, et al. Development, validation, and initial results of the Angioedema Activity Score. Allergy 2013;68(9):1185-92.",
+     "pmid": "23919330",
+     "doi": "10.1111/all.12209"
+    }
+   ],
+   "confidence": "High",
+   "status": "ok",
+   "reviewer_notes": "AAS (UK version) copyright: MOXIE GmbH (S1). S1 Table 11 prints the AAS items; they are not reproduced here. The AAS was developed for recurrent angioedema in general (Weller 2013); S1 recommends it for CSU patients with angioedema, matching site UR-5.T. S1's sentence continues with a typo ('4 ASS week sum scores'), which is outside the quoted span."
+  }
+ ]
+}

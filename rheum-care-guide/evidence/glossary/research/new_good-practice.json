@@ -1,0 +1,133 @@
+{
+ "id": "good-practice",
+ "cat": "evidence",
+ "term": "良好實務建議",
+ "en": "good practice statement",
+ "aliases": [
+  "良好實務建議"
+ ],
+ "aka": "good practice statement (GPS); also called best practice statement; ungraded, consensus-based statement",
+ "def": "良好實務建議是指引裡不分級的建議：專家共識認為這樣做的好處明顯大於壞處，但依據的多是間接證據（不是直接研究這個做法），所以不另評證據等級。",
+ "example": "兒童癌症疲倦指引中的「定期評估疲倦程度」。",
+ "note": "沒有分級不代表不重要；這類建議原本就是要當成強烈建議來看待。",
+ "label": "GRADE・定義",
+ "evidence": [
+  {
+   "quote": "Best or good practice statements (GPS) are actionable statements deemed to be necessary for practice (desirable effects of an intervention clearly outweigh its undesirable effects) but are supported by indirect evidence that does not diminish the certainty in evidence.",
+   "location": "Introduction, paragraph 2",
+   "access": "PMC full text",
+   "pmid": "35428694",
+   "doi": "10.1136/bmjebm-2022-111962",
+   "pmcid": "PMC10313969",
+   "supports": "def（照護上需要的建議；好處明顯大於壞處；依據的是間接證據）；note（不代表不重要：deemed to be necessary for practice）"
+  },
+  {
+   "quote": "Instead, the GRADE Working Group has recommended developing ungraded best or good practice statement (GPS) and developed guidance under which circumsances they would be appropriate.",
+   "location": "Abstract (spelling 'circumsances' as in original)",
+   "access": "abstract",
+   "pmid": "35428694",
+   "doi": "10.1136/bmjebm-2022-111962",
+   "pmcid": "PMC10313969",
+   "supports": "def（不分級）；label（GRADE）"
+  },
+  {
+   "quote": "Good practice statements (GPSs) are developed when there is high certainty that the desirable effects of an intervention clearly outweigh its undesirable effects, but the body of supportive evidence is indirect and other criteria for their development are fulfilled; under those circumstances, the application of the Grading of Recommendations, Assessment, Development and Evaluations (GRADE) approach to develop a formal recommendation is inappropriate.",
+   "location": "Summary box (first)",
+   "access": "PMC full text",
+   "pmid": "35428694",
+   "doi": "10.1136/bmjebm-2022-111962",
+   "pmcid": "PMC10313969",
+   "supports": "def（好處明顯大於壞處；間接證據；所以不另評證據等級）"
+  },
+  {
+   "quote": "Deliberating these potential consequences of implementing a GPS is crucial for their development, as they are intended to be interpreted as strong recommendations (since there is the underlying assumptions that there is high certainty in the net benefits or net harms).",
+   "location": "Proposal – 'Assess the potential consequences of implementing the statement using EtD criteria'",
+   "access": "PMC full text",
+   "pmid": "35428694",
+   "doi": "10.1136/bmjebm-2022-111962",
+   "pmcid": "PMC10313969",
+   "supports": "note（原本就是要當成強烈建議來看待）"
+  },
+  {
+   "quote": "In the presentation of the GPS, guideline developers should ensure that users are not confused with formally graded recommendations and follow the suggestions made by the GRADE Working Group, using a separate heading for GPS or adding ‘ungraded’ next to the statement.",
+   "location": "Proposal – 'Construct a statement that is clear and actionable'",
+   "access": "PMC full text",
+   "pmid": "35428694",
+   "doi": "10.1136/bmjebm-2022-111962",
+   "pmcid": "PMC10313969",
+   "supports": "def（不分級，和有分級的建議分開標示）；site usage（網站用獨立標籤「良好實務建議」）"
+  },
+  {
+   "quote": "They may also feature “Good Practice Statements (GPS),” which present widely accepted practices based on indirect evidence or strong rationale. Because GPS are grounded in expert consensus rather than direct evidence, systematic reviews are not required.",
+   "location": "Three Categories of Guidelines – Clinical practice guidelines",
+   "access": "PMC full text",
+   "pmid": "41220535",
+   "doi": "10.31662/jmaj.2025-0066",
+   "pmcid": "PMC12598308",
+   "supports": "def（專家共識；間接證據＝不是直接研究這個做法的證據：rather than direct evidence）"
+  },
+  {
+   "quote": "We present recommendations and ungraded, consensus-based good practice statements for the treatment and management of SLE that are applicable to pediatric and adult patients.",
+   "location": "Abstract (Results)",
+   "access": "abstract",
+   "pmid": "41187097",
+   "doi": "10.1002/art.43452",
+   "pmcid": "",
+   "supports": "def（不分級、依據專家共識；風濕科指引實例）"
+  },
+  {
+   "quote": "The panel made a new good practice statement to routinely assess for fatigue, ideally using a validated scale.",
+   "location": "Abstract",
+   "access": "abstract",
+   "pmid": "37609066",
+   "doi": "10.1016/j.eclinm.2023.102147",
+   "pmcid": "PMC10440444",
+   "supports": "example（定期評估疲倦程度）"
+  },
+  {
+   "quote": "For all populations, doing some physical activity is better than doing none. If individuals are not currently meeting these recommendations, doing some physical activity will bring benefits to health. Individuals should start with small amounts of physical activity and gradually increase frequency, intensity and duration over time.",
+   "location": "'The 2020 guidelines on physical activity and sedentary behaviour' section",
+   "access": "PMC full text",
+   "pmid": "33239350",
+   "doi": "10.1136/bjsports-2020-102955",
+   "pmcid": "PMC7719906",
+   "supports": "site usage CM-1.T（提示內容；但「good practice」標籤本身不在 PubMed 收錄文本中，見 reviewer_notes）"
+  }
+ ],
+ "sources": [
+  {
+   "short": "GRADE 良好實務建議方法學論文（BMJ EBM 2023）",
+   "citation": "Dewidar O, et al. Good or best practice statements: proposal for the operationalisation and implementation of GRADE guidance. BMJ Evid Based Med 2023;28(3):189-196 (epub 2022 Apr 15).",
+   "pmid": "35428694",
+   "doi": "10.1136/bmjebm-2022-111962"
+  },
+  {
+   "short": "JMA J 2025 指引定義論文",
+   "citation": "Morizane T, Kawai F, Kojimahara N. Proposed New Definitions of Practice Guidelines for Health and Health Care. JMA J 2025;8(4):1384-1387.",
+   "pmid": "41220535",
+   "doi": "10.31662/jmaj.2025-0066"
+  },
+  {
+   "short": "ACR 2025 紅斑性狼瘡治療指引（American College of Rheumatology；美國的風濕病醫學會）",
+   "citation": "Sammaritano LR, et al. 2025 American College of Rheumatology (ACR) Guideline for the Treatment of Systemic Lupus Erythematosus. Arthritis Rheumatol 78(7):1361-1386 (published online 2025 Nov 4).",
+   "pmid": "41187097",
+   "doi": "10.1002/art.43452"
+  },
+  {
+   "short": "2023 兒童與青少年癌症疲倦處理指引",
+   "citation": "Patel P, et al. Guideline for the management of fatigue in children and adolescents with cancer or pediatric hematopoietic cell transplant recipients: 2023 update. EClinicalMedicine 2023;63:102147.",
+   "pmid": "37609066",
+   "doi": "10.1016/j.eclinm.2023.102147"
+  },
+  {
+   "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+   "citation": "Bull FC, et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+   "pmid": "33239350",
+   "doi": "10.1136/bjsports-2020-102955"
+  }
+ ],
+ "confidence": "Medium–High (definition from PMC full text of a GRADE-methods paper by GRADE Working Group members, Tier 2–3; supported by a Tier 1 ACR 2025 guideline abstract and JMA J 2025 PMC text). The 'good practice' label for the WHO tip itself is not machine-verifiable in a PubMed-indexed text.",
+ "status": "ok",
+ "reviewer_notes": "Site usage: only the strength label 「WHO 2020・良好實務建議」 under tip CM-1.T. The tip's content matches Bull 2020 (quoted). The label itself could not be confirmed in a PubMed-indexed text: the phrase 'good practice' does not occur anywhere in the PMC text of Bull 2020 (PMID 33239350); in its Table 4 the same advice follows a heading lost in extraction (text reads ':.If not currently meeting these recommendations, doing some physical activity will bring benefits to health. Start with small amounts...'). The label therefore rests on the WHO guideline book cited on the site as S5 (NCBI Bookshelf NBK566048), which is not PubMed-indexed and was not read here; please confirm that WHO calls this a good practice statement there. The primary GRADE guidance papers (Guyatt GH et al. J Clin Epidemiol 2015;68(5):597-600, PMID 25660962, 'Guideline panels should not GRADE good practice statements'; Guyatt GH et al. J Clin Epidemiol 2016;80:3-7, PMID 27452192, 'Guideline panels should seldom make good practice statements: guidance from the GRADE Working Group') have no PubMed abstract and no PMC text via the tool, so they were not quoted; Dewidar 2022 summarises them. Wording choices: 「不分級」 = 'ungraded'; 「專家共識認為」 = 'consensus-based' / 'grounded in expert consensus'; 「依據的多是間接證據」 = 'supported by indirect evidence'; 「所以不另評證據等級」 compresses Dewidar's reasoning that GRADE would wrongly rate such evidence low/very low for indirectness despite high certainty of net benefit. Note 「沒有分級不代表不重要」 paraphrases 'deemed to be necessary for practice' and 'intended to be interpreted as strong recommendations'. The example comes from a paediatric oncology guideline (the only short, lay-friendly GPS example found in a PubMed abstract); drop it if it seems out of place on a rheumatology site. The ACR 2025 SLE citation gives the PubMed fields (volume 78, issue 7, epub 2025 Nov 4); the print-issue year is not shown by the tool. Suggest adding 良好實務建議 to the site legend (怎麼看每則建議下方的小字), which currently has no entry for it.",
+ "group": "g6_evidence_orgs"
+}

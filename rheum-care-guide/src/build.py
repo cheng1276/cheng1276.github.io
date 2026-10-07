@@ -15,6 +15,7 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 CONTENT = HERE / 'content'
+GLOSSARY = HERE / 'glossary' / 'glossary.json'
 TEMPLATE = HERE / 'template.html'
 SITE_URL = 'https://cheng1276.github.io/rheum-care-guide/'
 
@@ -35,12 +36,15 @@ NOTES = {
         '「發作期間繼續吃原本的降尿酸藥」只有 BSR 2017 與馬來西亞指引明寫，ACR、NICE、EULAR 沒有提到。',
         '「每天喝超過 2 公升水」只適用於曾有尿路結石的人，BSR 專家同意度 57%。',
         '「高果糖糖漿」是編輯加註的台灣食品標示用語，請確認。',
+        'GT-4.2 刪去「可用支被架撐起棉被」：找不到 PubMed 收錄的支被架說明，病友也可能看不懂；如要保留，可改成白話（例如用支架把棉被撐高）。',
     ],
     'urticaria': [
         '「119」「請勿自行停藥」為在地化或安全加註；依查核意見，119 的條件已加入「舌頭或喉嚨腫脹」。',
         '熱、緊身衣物、喝酒只見於 2014 年美國與 2015 年英國指引，2026 國際指引沒有列出，網站以「可能」表述。',
         '未列出較安全止痛藥的名稱（國際指引提到 paracetamol、COX-2 抑制劑）；如需列出請告知。',
         'UAS7、UCT、AAS 有版權（GALEN、MOXIE），網站只說明計分方式；門診準備單裡的蕁麻疹日記也需要確認授權。',
+        '配合名詞解釋的查核而修改：UR-2.3「全身性反應」改為「全身性的過敏反應」；「不會嗜睡的抗組織胺」改為「較不會嗜睡」（指引原文 minimally or nonsedating）；UAS7 改稱「蕁麻疹活動分數」，與「血管性水腫活動分數（AAS）」一致。',
+        'UR-S1 改為「呼吸有咻咻聲、吸氣時有尖銳高音（喘鳴）」：網站依 WAO 用法以咻咻聲指 wheeze、喘鳴指 stridor，但台灣也常用「喘鳴」指 wheezing，請確認。',
     ],
     'ra': [
         '是否保留藥名 methotrexate、leflunomide（EULAR 原文所列）請決定。',
@@ -51,6 +55,7 @@ NOTES = {
         'ACR/SAA/SPARTAN 2026 更新尚未正式出版；出版後需複查整脊、跌倒評估、水中運動等建議。',
         '「出現手腳麻木或無力請立即就醫」與「告知醫師您有僵直性脊椎炎」為編輯加註。',
         '「脊椎扳動手法／整脊」「推拿」的用詞請確認是否符合病友習慣。',
+        'AS-3.3 的「磁振造影」後加註「（核磁共振）」，方便病友對照常用說法（編輯加註）。',
     ],
     'sle': [
         '維生素 D：英國 BSR 2026 強烈建議所有狼瘡患者全年每天補充（1B），EULAR 只建議視需要評估；網站採「和醫師討論」，請決定是否採用 BSR 立場。',
@@ -62,6 +67,19 @@ NOTES = {
         '「可能讓口乾的藥」依據一般族群的系統性回顧，不是乾燥症指引；「不要自行停藥」為編輯加註。',
         '油漱口（油拔法）的迷思已刪除，因為原指引呈現的證據有正有負。',
         '熱敷「溫熱不燙」為編輯加註。',
+        'SJ-M1（針灸）已改寫：BSR 2025 引用的 Cochrane 回顧中，5 個針灸試驗的對象都是放射治療後口乾；乾燥症本身的假針灸對照試驗結果不一致（2022 年無差異；2025、2026 年報告有改善），所以改為「目前證據不足」，標示加上「研究顯示」。請確認是否同意。',
+    ],
+    'glossary': [
+        '喘鳴與咻咻聲：依 WAO 用法，咻咻聲＝wheeze、喘鳴＝stridor（吸氣時的尖銳高音）；台灣也常用「喘鳴」指 wheezing，請確認。',
+        'BMI：補充寫 WHO 國際分級（25 以上過重、30 以上肥胖），並註明亞洲人在 BMI 較低時風險就可能升高；國健署切點（24、27）沒有 PubMed 收錄的出處，是否另加請決定。',
+        'UVA 防護等級：PA 等級的說明只找到一篇 Cureus 評論（證據力弱）；「PA+++ 代表高」取自該文表格，和英國狼瘡指引的「高」（UVA 標誌或 4–5 星）沒有正式對照。',
+        '一份酒：毫升數（355、148、30–44 毫升）是由研究的盎司換算，屬編輯換算。',
+        '良好實務建議：WHO 2020 把「有動總比沒動好」列為 good practice statement 的說法見於 WHO 指引全書（非 PubMed 收錄），請確認；詞條定義依 GRADE 方法學論文。',
+        '物理治療：刪去「有助改善脊椎活動、體能與疼痛」的補充（出自 2008 年 Cochrane 回顧的背景句；2019 年回顧對脊椎活動度的效果仍不確定）。',
+        '負重運動：此詞只連結在「類固醇與骨骼保健」卡片，例子刪去慢跑和網球（BHOF 指引列為骨質疏鬆者可能受傷的活動），補充加上「開始跑步、舉重等新運動前先請醫師評估」。',
+        '夜間盜汗、唾液腺：補充不提淋巴瘤，和網站就醫提醒的語氣一致；但打開「英文原文依據」時，會看到含 lymphoma 的指引原文。',
+        '消炎止痛藥：補充提醒「醫師為預防血栓開的低劑量阿斯匹靈，不一定要停用」；仍未列出較安全止痛藥的名稱。',
+        'ACR 2022 類風濕性關節炎整合指引的表 1（運動、復健、飲食多個詞條的定義）在 PMC 文字檔中缺漏，只能以 WebFetch 讀取 PMC 表格頁與 CDC 收藏的作者稿兩份文件，內容一致，但無法機器比對。',
     ],
 }
 
@@ -89,6 +107,33 @@ def ev(items):
 
 def item(p):
     return {'t': p['text'], 'l': p.get('strength_label', ''), 'sid': p.get('sid', ''), 'ev': ev(p.get('evidence'))}
+
+
+def glossary_data(review):
+    g = json.load(open(GLOSSARY, encoding='utf-8'))
+    entries = []
+    srcs, src_index = [], {}
+
+    def src_id(s):
+        key = (s.get('pmid') or '', s.get('short') or '')
+        if key not in src_index:
+            src_index[key] = len(srcs)
+            srcs.append({k: s.get(k) for k in ('short', 'citation', 'pmid', 'doi')})
+        return src_index[key]
+
+    for e in g['entries']:
+        x = {'id': e['id'], 'cat': e['cat'], 'term': e['term'], 'en': e['en'], 'al': e['aliases'], 'def': e['def'],
+             'ex': e['example'], 'note': e['note'], 'lab': e['label'], 'sc': e['scope'], 'xp': e['exclude_pages'],
+             'src': [src_id(s) for s in e['sources']],
+             'ev': [{'q': v['quote'], 'loc': v.get('location', ''), 'acc': v.get('access', ''), 'pmid': v.get('pmid', '')}
+                    for v in e['evidence']]}
+        if review:
+            x['rn'] = e.get('reviewer_notes', '')
+        entries.append(x)
+    n_quotes = sum(len(e['evidence']) for e in g['entries'])
+    return {'cats': g['categories'], 'stop': g.get('stop', []), 'entries': entries, 'srcs': srcs,
+            'notes': NOTES.get('glossary', []) if review else [],
+            'meta': {'n': len(entries), 'quotes': n_quotes}}
 
 
 def build_data(review):
@@ -123,6 +168,7 @@ def build_data(review):
                                   'myths': myths, 'seek': seek, 'sources': sources,
                                   'notes': NOTES.get(slug, []) if review else []}
     data['meta'] = {'statements': n_stmt, 'quotes': 348}
+    data['glossary'] = glossary_data(review)
     return data, n_stmt
 
 
@@ -134,7 +180,7 @@ def main(argv):
     blob = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     page = TEMPLATE.read_text(encoding='utf-8').replace('/*__DATA__*/', blob)
     if not review:
-        page = page.replace('審閱模式：在每則建議下方顯示英文原文依據', '顯示每則建議的英文原文依據')
+        page = page.replace('審閱模式：顯示每則建議與名詞解釋的英文原文依據', '顯示每則建議與名詞解釋的英文原文依據')
     if not fragment:
         cut = page.index('</style>') + len('</style>')
         head, body = page[:cut], page[cut:]
