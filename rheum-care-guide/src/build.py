@@ -15,6 +15,7 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parent
 CONTENT = HERE / 'content'
+GLOSSARY = HERE / 'glossary' / 'glossary.json'
 TEMPLATE = HERE / 'template.html'
 SITE_URL = 'https://cheng1276.github.io/rheum-care-guide/'
 
@@ -51,6 +52,33 @@ def item(p):
     return {'t': p['text'], 'l': p.get('strength_label', ''), 'sid': p.get('sid', ''), 'ev': ev(p.get('evidence'))}
 
 
+def glossary_data(review):
+    g = json.load(open(GLOSSARY, encoding='utf-8'))
+    entries = []
+    srcs, src_index = [], {}
+
+    def src_id(s):
+        key = (s.get('pmid') or '', s.get('short') or '')
+        if key not in src_index:
+            src_index[key] = len(srcs)
+            srcs.append({k: s.get(k) for k in ('short', 'citation', 'pmid', 'doi')})
+        return src_index[key]
+
+    for e in g['entries']:
+        x = {'id': e['id'], 'cat': e['cat'], 'term': e['term'], 'en': e['en'], 'al': e['aliases'], 'def': e['def'],
+             'ex': e['example'], 'note': e['note'], 'lab': e['label'], 'sc': e['scope'], 'xp': e['exclude_pages'],
+             'src': [src_id(s) for s in e['sources']],
+             'ev': [{'q': v['quote'], 'loc': v.get('location', ''), 'acc': v.get('access', ''), 'pmid': v.get('pmid', '')}
+                    for v in e['evidence']]}
+        if review:
+            x['rn'] = e.get('reviewer_notes', '')
+        entries.append(x)
+    n_quotes = sum(len(e['evidence']) for e in g['entries'])
+    return {'cats': g['categories'], 'stop': g.get('stop', []), 'entries': entries, 'srcs': srcs,
+            'notes': NOTES.get('glossary', []) if review else [],
+            'meta': {'n': len(entries), 'quotes': n_quotes}}
+
+
 def build_data(review):
     common_src = {s['s']: s for s in json.load(open(CONTENT / 'common.json', encoding='utf-8'))['sources']}
     data = {'order': ORDER, 'diseases': {}, 'meta': {}}
@@ -83,6 +111,7 @@ def build_data(review):
                                   'myths': myths, 'seek': seek, 'sources': sources,
                                   'notes': NOTES.get(slug, []) if review else []}
     data['meta'] = {'statements': n_stmt, 'quotes': 348}
+    data['glossary'] = glossary_data(review)
     return data, n_stmt
 
 
@@ -94,7 +123,7 @@ def main(argv):
     blob = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     page = TEMPLATE.read_text(encoding='utf-8').replace('/*__DATA__*/', blob)
     if not review:
-        page = page.replace('審閱模式：在每則建議下方顯示英文原文依據', '顯示每則建議的英文原文依據')
+        page = page.replace('審閱模式：顯示每則建議與名詞解釋的英文原文依據', '顯示每則建議與名詞解釋的英文原文依據')
     if not fragment:
         cut = page.index('</style>') + len('</style>')
         head, body = page[:cut], page[cut:]

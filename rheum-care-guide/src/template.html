@@ -38,6 +38,7 @@
   --axspa:#3d7f2a; --axspa-ink:#2a5a1c; --axspa-soft:#b7d9a8; --axspa-wash:#e7f2e1;
   --sle:#6c4cb8; --sle-ink:#4b3189; --sle-soft:#cbbbef; --sle-wash:#efe9fa;
   --sjogren:#0a7d9c; --sjogren-ink:#075a71; --sjogren-soft:#9fd6e6; --sjogren-wash:#dff1f6;
+  --glossary:#4f5a7a; --glossary-ink:#353e5a; --glossary-soft:#c5cbe0; --glossary-wash:#eceef6;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -51,6 +52,7 @@
     --axspa:#93cf7a; --axspa-ink:#cde9c1; --axspa-soft:#36592b; --axspa-wash:#182a14;
     --sle:#b6a0f2; --sle-ink:#ddd2fa; --sle-soft:#463a70; --sle-wash:#211b35;
     --sjogren:#62c7e2; --sjogren-ink:#b8e6f3; --sjogren-soft:#245562; --sjogren-wash:#12272d;
+    --glossary:#a7b2d6; --glossary-ink:#d8ddef; --glossary-soft:#3b4362; --glossary-wash:#1b1f2c;
     color-scheme:dark;
   }
 }
@@ -65,6 +67,7 @@
   --axspa:#93cf7a; --axspa-ink:#cde9c1; --axspa-soft:#36592b; --axspa-wash:#182a14;
   --sle:#b6a0f2; --sle-ink:#ddd2fa; --sle-soft:#463a70; --sle-wash:#211b35;
   --sjogren:#62c7e2; --sjogren-ink:#b8e6f3; --sjogren-soft:#245562; --sjogren-wash:#12272d;
+  --glossary:#a7b2d6; --glossary-ink:#d8ddef; --glossary-soft:#3b4362; --glossary-wash:#1b1f2c;
   color-scheme:dark;
 }
 
@@ -90,6 +93,7 @@ button{font:inherit;color:inherit}
 [data-d="axspa"]{--hue:var(--axspa);--hue-ink:var(--axspa-ink);--hue-soft:var(--axspa-soft);--hue-wash:var(--axspa-wash)}
 [data-d="sle"]{--hue:var(--sle);--hue-ink:var(--sle-ink);--hue-soft:var(--sle-soft);--hue-wash:var(--sle-wash)}
 [data-d="sjogren"]{--hue:var(--sjogren);--hue-ink:var(--sjogren-ink);--hue-soft:var(--sjogren-soft);--hue-wash:var(--sjogren-wash)}
+[data-d="glossary"]{--hue:var(--glossary);--hue-ink:var(--glossary-ink);--hue-soft:var(--glossary-soft);--hue-wash:var(--glossary-wash)}
 
 /* ---------- header ---------- */
 .top{padding-block:2rem 1.25rem;display:grid;gap:.875rem}
@@ -99,7 +103,7 @@ h1{font-size:var(--t-h1)}
 .facts{display:flex;flex-wrap:wrap;gap:.375rem 1.25rem;font-size:var(--t-sm);color:var(--ink-2)}
 .facts b{font-family:var(--f-latin);font-variant-numeric:tabular-nums;color:var(--ink);font-weight:700;margin-right:.15em}
 .legend{border:1px solid var(--rule);border-radius:10px;background:var(--sheet)}
-.legend summary{cursor:pointer;padding:.75rem 1rem;min-height:3rem;display:flex;align-items:center;font-size:var(--t-sm);font-weight:600}
+.legend summary{cursor:pointer;padding:.75rem 1rem;min-height:3rem;display:flex;align-items:center;gap:.7rem;font-size:var(--t-sm);font-weight:600;list-style:none}
 .legend-body{padding:0 1rem 1rem;display:grid;gap:.5rem;font-size:var(--t-sm);color:var(--ink-2)}
 .legend dl{margin:0;display:grid;gap:.375rem}
 .legend dl div{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:.75rem}
@@ -170,11 +174,82 @@ h1{font-size:var(--t-h1)}
 .seek li{display:grid;gap:.15rem}
 .seek .cite{color:var(--ink-2)}
 
+#myth-h,#seek-h{scroll-margin-top:5rem}
+.panel{scroll-margin-top:3.5rem}
 .refs{display:grid;gap:.625rem}
 .refs ol{margin:0;padding-left:1.4em;display:grid;gap:.5rem;font-size:var(--t-sm);color:var(--ink-2)}
 .refs li{overflow-wrap:anywhere}
 .refs .r-short{color:var(--ink);font-weight:600}
 .refs .r-links{display:inline-flex;gap:.75rem;margin-left:.25rem;font-family:var(--f-latin);font-size:var(--t-xs)}
+
+/* ---------- tappable terms ---------- */
+.term,.term-demo{
+  display:inline;position:relative;margin:0;padding:0 .08em;border:0;border-radius:3px;
+  background:var(--hue-wash);color:inherit;font:inherit;cursor:pointer;
+  text-decoration-line:underline;text-decoration-style:dotted;text-decoration-color:var(--hue);
+  text-decoration-thickness:2px;text-underline-offset:.3em;-webkit-tap-highlight-color:transparent;
+}
+.term::after{content:"";position:absolute;inset:-.5em -.15em}
+.term:hover{background:var(--hue-soft)}
+.term:focus-visible{outline:3px solid var(--hue);outline-offset:1px}
+.term-demo{cursor:default}
+.cite .term{background:none;text-decoration-thickness:1.5px;text-underline-offset:.25em}
+.cite .term::after{inset:-.9em -.2em}
+.hint{font-size:var(--t-sm);color:var(--ink-2);max-width:36em}
+.linkish{border:0;background:none;padding:0;margin:0;color:var(--brand);font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.flash-t{animation:flash-t 2s ease-out}
+.flash{animation:flash 1.8s ease-out}
+@keyframes flash-t{0%,55%{box-shadow:0 0 0 3px var(--hue)}100%{box-shadow:0 0 0 0 transparent}}
+@keyframes flash{0%,45%{box-shadow:0 0 0 4px var(--hue)}100%{box-shadow:var(--shadow)}}
+
+/* ---------- explanation sheet ---------- */
+.sheet-open,.sheet-open body{overflow:hidden}
+.sheet{
+  position:fixed;inset:auto 0 0 0;margin:0 auto;padding:0;border:0;width:100%;max-width:40rem;
+  max-height:min(86vh,46rem);background:var(--sheet);color:var(--ink);
+  border-radius:20px 20px 0 0;box-shadow:0 -10px 40px rgb(0 0 0 / .28);overflow:hidden;
+}
+.sheet[open]{display:flex}
+.sheet::backdrop{background:rgb(8 16 14 / .5)}
+.sheet-in{display:flex;flex-direction:column;width:100%;max-height:inherit;min-height:0}
+.sheet-grab{flex:none;width:2.75rem;height:.3125rem;border-radius:3px;background:var(--rule);margin:.625rem auto .125rem}
+.sheet-h{flex:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.75rem;align-items:start;padding:.5rem 1.125rem .875rem;border-bottom:1px solid var(--rule)}
+.sheet-cat{font-size:var(--t-xs);letter-spacing:.06em;color:var(--hue-ink)}
+.sheet-h h2{font-size:1.5rem;color:var(--ink);outline:none}
+.sheet-en{font-family:var(--f-latin);font-size:var(--t-sm);color:var(--ink-3);overflow-wrap:anywhere;line-height:1.45}
+.sheet-x{flex:none;width:2.75rem;height:2.75rem;display:grid;place-items:center;border:1px solid var(--rule);border-radius:50%;background:var(--paper);color:var(--ink-2);cursor:pointer}
+.sheet-b{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:1rem 1.125rem calc(1.25rem + env(safe-area-inset-bottom,0px));display:grid;gap:.875rem;align-content:start}
+.g-def{font-size:1.125rem;line-height:1.75}
+.g-row{display:grid;grid-template-columns:3.25rem minmax(0,1fr);gap:.5rem;align-items:baseline}
+.g-k{justify-self:start;font-size:var(--t-xs);font-weight:700;letter-spacing:.06em;color:var(--hue-ink);background:var(--hue-wash);border-radius:4px;padding:.05rem .4rem}
+.g-src summary{cursor:pointer;font-size:var(--t-sm);color:var(--ink-2);min-height:2.75rem;display:flex;align-items:center;gap:.6rem;list-style:none;width:fit-content}
+.g-src summary::-webkit-details-marker,.legend summary::-webkit-details-marker{display:none}
+.g-src summary::before,.legend summary::before{content:"";flex:none;width:.45rem;height:.45rem;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg);margin-left:.15rem}
+.g-src[open] > summary::before,.legend[open] > summary::before{transform:rotate(45deg)}
+.g-src ol{margin:.25rem 0 0;padding-left:1.3em;display:grid;gap:.5rem;font-size:var(--t-xs);color:var(--ink-2)}
+.g-src li{overflow-wrap:anywhere}
+.g-src .r-short{color:var(--ink);font-weight:600;font-size:var(--t-sm)}
+.g-src .r-links{display:inline-flex;gap:.75rem;margin-left:.375rem;font-family:var(--f-latin)}
+.g-more{justify-self:start;border:1.5px solid var(--hue);background:var(--sheet);color:var(--hue-ink);border-radius:999px;padding:.4rem 1rem;min-height:2.75rem;cursor:pointer;font-size:var(--t-sm)}
+.g-rn{display:none}
+.review .g-rn{display:grid;gap:.25rem;padding:.625rem .75rem;border:1.5px dashed var(--hue);border-radius:8px;font-size:var(--t-xs);color:var(--ink-2);overflow-wrap:anywhere}
+
+/* ---------- glossary tab ---------- */
+.g-tools{display:grid;gap:.75rem}
+.g-search{width:100%;min-height:3rem;padding:.625rem .875rem;border:1.5px solid var(--rule);border-radius:12px;background:var(--sheet);color:var(--ink);font:inherit;font-size:1.0625rem}
+.g-search::placeholder{color:var(--ink-3)}
+.g-search:focus{border-color:var(--hue);outline:none;box-shadow:0 0 0 3px var(--hue-wash)}
+.g-cats{display:flex;flex-wrap:wrap;gap:.375rem}
+.g-cats button{border:1.5px solid var(--rule);background:var(--sheet);color:var(--ink-2);border-radius:999px;padding:.3rem .75rem;min-height:2.5rem;font-size:var(--t-sm);cursor:pointer}
+.g-cats button[aria-pressed="true"]{background:var(--hue-wash);border-color:var(--hue);color:var(--hue-ink)}
+.g-count{font-size:var(--t-sm);color:var(--ink-3)}
+.g-list{display:grid;gap:1.75rem}
+.g-sec{display:grid;gap:.75rem}
+.g-card{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;padding:1rem 1.125rem;display:grid;gap:.5rem;min-width:0;scroll-margin-top:5rem}
+.g-card h4{margin:0;font-family:var(--f-display);font-weight:400;font-size:1.25rem;line-height:1.35;outline:none}
+.g-where{display:flex;flex-wrap:wrap;gap:.375rem;align-items:center;font-size:var(--t-xs);color:var(--ink-3)}
+.g-where button{border:0;background:var(--hue-wash);color:var(--hue-ink);border-radius:999px;padding:.2rem .7rem;min-height:2.25rem;font-size:var(--t-xs);cursor:pointer}
+.g-empty{color:var(--ink-2)}
 
 /* review mode */
 .ev,.notes{display:none}
@@ -199,6 +274,18 @@ h1{font-size:var(--t-h1)}
 .switch input{width:1.25rem;height:1.25rem;accent-color:var(--brand)}
 .meta{font-size:var(--t-xs);color:var(--ink-3)}
 
+@media (min-width:720px){
+  .sheet{inset:0;margin:auto;border-radius:20px;max-height:min(80vh,46rem)}
+  .sheet-grab{display:none}
+  .sheet-h{padding-top:1.125rem}
+}
+@media (prefers-reduced-motion:no-preference){
+  .sheet[open]{animation:sheet-up .2s ease-out}
+  .sheet[open]::backdrop{animation:fade-in .2s ease-out}
+}
+@media (prefers-reduced-motion:reduce){.flash,.flash-t{animation:none}}
+@keyframes sheet-up{from{transform:translateY(1.5rem);opacity:.4}to{transform:none;opacity:1}}
+@keyframes fade-in{from{opacity:0}to{opacity:1}}
 @media (min-width:640px){
   .card{padding:1.5rem 1.5rem}
   .c-head{grid-template-columns:6rem minmax(0,1fr)}
@@ -215,6 +302,7 @@ h1{font-size:var(--t-h1)}
     <p class="eyebrow">風濕免疫科門診衛教</p>
     <h1>生活照護圖解</h1>
     <p class="lead">把國際與台灣臨床指引裡的生活照護建議，整理成病友看得懂的做法。每一則建議下方的小字，標出它來自哪一份指引、建議有多強。</p>
+    <p class="hint">內文中<span class="term-demo" data-d="common">有虛線底線的詞</span>，點一下就能看白話解釋；全部名詞也可以在<button type="button" class="linkish" data-goto-tab="glossary">名詞小辭典</button>查詢。</p>
     <p class="facts" id="facts"></p>
     <details class="legend">
       <summary>怎麼看每則建議下方的小字？</summary>
@@ -225,11 +313,12 @@ h1{font-size:var(--t-h1)}
           <div><dt>建議</dt><dd>指引有條件地建議，適不適合可依個人情況和醫師討論。</dd></div>
           <div><dt>不建議</dt><dd>指引建議不要這樣做；「強烈不建議」表示理由更充分。</dd></div>
           <div><dt>建議強度 A–D</dt><dd>歐洲風濕病聯盟（EULAR）等使用的分級，A 的證據最強，D 主要依據專家意見。</dd></div>
-          <div><dt>（1B）等代碼</dt><dd>英國風濕病學會（BSR）的分級：數字 1 是強烈建議、2 是建議；字母 A 到 D 表示證據品質由高到很低。</dd></div>
+          <div><dt>（1B）等代碼</dt><dd>英國風濕病學會（BSR）的分級：數字 1 是強烈建議、2 是建議；字母表示證據品質，A 最高，往後依序降低。</dd></div>
           <div><dt>基本原則</dt><dd>指引開頭的總原則。</dd></div>
           <div><dt>指引說明</dt><dd>指引內文的說明，不是分級建議。</dd></div>
           <div><dt>研究顯示</dt><dd>來自系統性回顧或研究的結果。</dd></div>
           <div><dt>專家共識</dt><dd>專家小組討論後的共識。</dd></div>
+          <div><dt>良好實務建議</dt><dd>指引裡不分級的建議：專家一致認為好處明顯大於壞處，只是支持它的多是間接證據，所以不另評證據等級。</dd></div>
           <div><dt>編輯加註</dt><dd>為了安全或配合台灣情況而加上的提醒，沒有直接出處。</dd></div>
         </dl>
       </div>
@@ -260,13 +349,25 @@ h1{font-size:var(--t-h1)}
         <li>文獻檢索：PubMed，以及各學會指引的原文。</li>
         <li>優先採用最新的臨床指引（如 ACR、EULAR、ASAS、BSR、NICE、WHO、國際蕁麻疹指引與台灣共識）；指引沒寫到的細節，才採用系統性回顧或重要研究。</li>
         <li>每一句都對應到原文引述。另一套獨立查核流程逐句比對了 <span id="nStmt"></span> 則網站文字與約 <span id="nQuote"></span> 則引述，未發現事實錯誤；不夠精確或遺漏注意事項之處已修正。</li>
+        <li>名詞小辭典的 <span id="gN"></span> 個白話解釋，都依據 PubMed 收錄的指引或文獻；另一組獨立查核逐條核對了解釋與 <span id="gQ"></span> 則原文引述，不夠精確之處已修正。</li>
         <li>內容由 AI 協助檢索、整理與查核。</li>
       </ul>
     </section>
-    <label class="switch" for="reviewToggle"><input type="checkbox" id="reviewToggle"> 審閱模式：在每則建議下方顯示英文原文依據</label>
+    <label class="switch" for="reviewToggle"><input type="checkbox" id="reviewToggle"> 審閱模式：顯示每則建議與名詞解釋的英文原文依據</label>
     <p class="meta" id="metaLine">試用版・內容尚待醫師審閱・審閱醫師：（待填）・最後更新：2026 年 10 月</p>
   </footer>
 </div>
+
+<dialog class="sheet" id="sheet" aria-labelledby="sheetTerm">
+  <div class="sheet-in">
+    <div class="sheet-grab" aria-hidden="true"></div>
+    <div class="sheet-h">
+      <div><p class="sheet-cat" id="sheetCat"></p><h2 id="sheetTerm" tabindex="-1"></h2><p class="sheet-en" id="sheetEn" lang="en"></p></div>
+      <button type="button" class="sheet-x" id="sheetClose" aria-label="關閉解釋"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M6 6 L18 18 M18 6 L6 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="sheet-b" id="sheetBody"></div>
+  </div>
+</dialog>
 
 <script type="application/json" id="data">/*__DATA__*/</script>
 <script>
@@ -275,6 +376,13 @@ h1{font-size:var(--t-h1)}
   const DATA = JSON.parse(document.getElementById('data').textContent);
   const ORDER = DATA.order;
   const D = DATA.diseases;
+  const G = DATA.glossary;
+  const GE = {};
+  G.entries.forEach((e) => { GE[e.id] = e; });
+  const CATN = {};
+  G.cats.forEach((c) => { CATN[c.id] = c.name; });
+  const TABS = ORDER.concat(['glossary']);
+  const valid = (s) => s === 'glossary' || Object.prototype.hasOwnProperty.call(D, s);
   const $ = (id) => document.getElementById(id);
   const esc = (t) => String(t == null ? '' : t).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const KEY = 'careguide.v1';
@@ -341,8 +449,6 @@ h1{font-size:var(--t-h1)}
       ? `<div class="ev-i"><span class="ev-ed">編輯加註（無直接出處）</span><span class="ev-q">${esc(e.st)}</span></div>`
       : `<div class="ev-i"><span class="ev-id">${esc(e.c)} · ${esc(e.s)} · ${esc(e.cf)} · ${esc(e.st)}</span><span class="ev-q">“${esc(e.q)}”</span></div>`).join('')}</div>`;
   };
-  const point = (p) => `<li class="pt"><div class="pt-body"><p>${esc(p.t)}</p><span class="cite">${esc(p.l)}${isEd(p.ev) ? '<span class="badge-ed">含編輯加註</span>' : ''}</span>${evHTML(p.ev)}</div></li>`;
-
   const linksFor = (s) => {
     const out = [];
     String(s.pmid || '').split(/[;,\s]+/).filter((x) => /^\d{6,9}$/.test(x)).forEach((id) => out.push(`<a href="https://pubmed.ncbi.nlm.nih.gov/${id}/" target="_blank" rel="noopener">PubMed ${id}</a>`));
@@ -351,50 +457,266 @@ h1{font-size:var(--t-h1)}
     return out.join('');
   };
 
+  /* ---------- glossary: find terms in site text ---------- */
+  // Same rules as the build-time checker (evidence/glossary/occ.py): the longest alias wins at each position and
+  // is consumed; Latin aliases need non-alphanumeric neighbours; stop strings and excluded pages are consumed
+  // without a link; only the first occurrence per card (or per page, for scope "page") becomes a button.
+  const AIDX = new Map();
+  const addAlias = (a, id) => { const k = a[0]; if (!AIDX.has(k)) AIDX.set(k, []); AIDX.get(k).push([a, id]); };
+  (G.stop || []).forEach((a) => addAlias(a, null));
+  G.entries.forEach((e) => e.al.forEach((a) => addAlias(a, e.id)));
+  AIDX.forEach((v) => v.sort((x, y) => y[0].length - x[0].length));
+  const isAl = (c) => !!c && /[A-Za-z0-9]/.test(c);
+  function segs(text) {
+    const out = [];
+    const n = text.length;
+    let i = 0;
+    while (i < n) {
+      const list = AIDX.get(text[i]);
+      let hit = null;
+      if (list) {
+        for (const [a, id] of list) {
+          if (!text.startsWith(a, i)) continue;
+          if (isAl(a[0]) && i > 0 && isAl(text[i - 1])) continue;
+          if (isAl(a[a.length - 1]) && i + a.length < n && isAl(text[i + a.length])) continue;
+          hit = [i, i + a.length, a, id];
+          break;
+        }
+      }
+      if (hit) { out.push(hit); i = hit[1]; } else i += 1;
+    }
+    return out;
+  }
+  function makeLinker(slug) {
+    const pageSeen = new Set();
+    const scopes = new Map();
+    return (text, scopeKey) => {
+      text = String(text == null ? '' : text);
+      let seen = scopes.get(scopeKey);
+      if (!seen) { seen = new Set(); scopes.set(scopeKey, seen); }
+      let html = '';
+      let pos = 0;
+      for (const [s0, s1, a, id] of segs(text)) {
+        if (id === null) continue;
+        const e = GE[id];
+        if (e.xp.indexOf(slug) >= 0) continue;
+        const set = e.sc === 'page' ? pageSeen : seen;
+        if (set.has(id)) continue;
+        set.add(id);
+        html += esc(text.slice(pos, s0)) + `<button type="button" class="term" data-term="${id}" aria-haspopup="dialog">${esc(a)}</button>`;
+        pos = s1;
+      }
+      return html + esc(text.slice(pos));
+    };
+  }
+  // Where each term occurs on the site (for the 出現在 chips in the glossary tab).
+  const WHERE = {};
+  ORDER.forEach((slug) => {
+    const d = D[slug];
+    const seenBlock = {};
+    const add = (text, block, label) => {
+      for (const hit of segs(String(text || ''))) {
+        const id = hit[3];
+        if (!id || GE[id].xp.indexOf(slug) >= 0) continue;
+        const k = id + '|' + block;
+        if (seenBlock[k]) continue;
+        seenBlock[k] = 1;
+        (WHERE[id] = WHERE[id] || []).push({ slug, block, label });
+      }
+    };
+    add(d.intro, 'top', '頁首說明');
+    d.cards.forEach((c) => {
+      [c.title, c.summary].forEach((t) => add(t, c.id, c.title));
+      c.points.forEach((p) => { add(p.t, c.id, c.title); add(p.l, c.id, c.title); });
+      if (c.tip) { add(c.tip.t, c.id, c.title); add(c.tip.l, c.id, c.title); }
+    });
+    d.myths.forEach((m) => { add(m.b, 'myths', '常見迷思'); add(m.f, 'myths', '常見迷思'); add(m.l, 'myths', '常見迷思'); });
+    const seekName = slug === 'common' ? '什麼時候要問醫師' : '何時就醫';
+    d.seek.forEach((x) => { add(x.t, 'seek', seekName); add(x.l, 'seek', seekName); });
+  });
+
+  /* ---------- rendering ---------- */
   function render(slug) {
     const d = D[slug];
     const panel = $('panel');
     panel.dataset.d = slug;
-    const cards = d.cards.map((c) => `
+    const L = makeLinker(slug);
+    const badge = (x) => (isEd(x.ev) ? '<span class="badge-ed">含編輯加註</span>' : '');
+    const cite = (x, sk) => `<span class="cite">${L(x.l, sk)}${badge(x)}</span>${evHTML(x.ev)}`;
+    const intro = L(d.intro, 'intro');
+    const cards = d.cards.map((c) => {
+      const sk = c.id;
+      const title = L(c.title, sk);
+      const sum = L(c.summary, sk);
+      const pts = c.points.map((p) => { const t = L(p.t, sk); return `<li class="pt"><div class="pt-body"><p>${t}</p>${cite(p, sk)}</div></li>`; }).join('');
+      let tip = '';
+      if (c.tip) { const t = L(c.tip.t, sk); tip = `<aside class="tip"><span class="tip-l">小提醒</span><p>${t}</p>${cite(c.tip, sk)}</aside>`; }
+      return `
       <article class="card" id="card-${esc(c.id)}">
-        <div class="c-head">${pic(c.id)}<div><h3 class="c-title">${esc(c.title)}</h3><p class="c-sum">${esc(c.summary)}</p></div></div>
-        <ul class="pts">${c.points.map(point).join('')}</ul>
-        ${c.tip ? `<aside class="tip"><span class="tip-l">小提醒</span><p>${esc(c.tip.t)}</p><span class="cite">${esc(c.tip.l)}${isEd(c.tip.ev) ? '<span class="badge-ed">含編輯加註</span>' : ''}</span>${evHTML(c.tip.ev)}</aside>` : ''}
-      </article>`).join('');
+        <div class="c-head">${pic(c.id)}<div><h3 class="c-title">${title}</h3><p class="c-sum">${sum}</p></div></div>
+        <ul class="pts">${pts}</ul>
+        ${tip}
+      </article>`;
+    }).join('');
     const myths = d.myths.length ? `
       <section class="myths" aria-labelledby="myth-h">
         <h3 class="sec-h" id="myth-h">常見迷思</h3>
-        ${d.myths.map((m) => `<div class="myth">
-          <div class="m-row"><span class="m-tag">常見說法</span><p class="m-belief">${esc(m.b)}</p></div>
-          <div class="m-row"><span class="m-tag fact">指引怎麼說</span><div class="pt-body"><p>${esc(m.f)}</p><span class="cite">${esc(m.l)}${isEd(m.ev) ? '<span class="badge-ed">含編輯加註</span>' : ''}</span>${evHTML(m.ev)}</div></div>
-        </div>`).join('')}
+        ${d.myths.map((m) => { const b = L(m.b, 'myths'); const f = L(m.f, 'myths'); return `<div class="myth">
+          <div class="m-row"><span class="m-tag">常見說法</span><p class="m-belief">${b}</p></div>
+          <div class="m-row"><span class="m-tag fact">指引怎麼說</span><div class="pt-body"><p>${f}</p>${cite(m, 'myths')}</div></div>
+        </div>`; }).join('')}
       </section>` : '';
     const seekTitle = slug === 'common' ? '什麼時候要問醫師' : '這些情況請盡快就醫';
     const seek = d.seek.length ? `
       <section class="seek" aria-labelledby="seek-h">
         <h3 id="seek-h">${seekTitle}</h3>
-        <ul>${d.seek.map((s) => `<li><p>${esc(s.t)}</p><span class="cite">${esc(s.l)}${isEd(s.ev) ? '<span class="badge-ed">含編輯加註</span>' : ''}</span>${evHTML(s.ev)}</li>`).join('')}</ul>
+        <ul>${d.seek.map((x) => { const t = L(x.t, 'seek'); return `<li><p>${t}</p>${cite(x, 'seek')}</li>`; }).join('')}</ul>
       </section>` : '';
     const notes = d.notes.length ? `<aside class="notes"><h3>審閱重點（給醫師）</h3><ul>${d.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul></aside>` : '';
     const refs = `
       <section class="refs" aria-labelledby="ref-h">
         <h3 class="sec-h" id="ref-h">本頁參考文獻</h3>
-        <ol>${d.sources.map((s) => `<li><span class="r-short">${esc(s.short)}</span>　${esc(s.citation)}<span class="r-links">${linksFor(s)}</span></li>`).join('')}</ol>
+        <ol>${d.sources.map((x) => `<li><span class="r-short">${esc(x.short)}</span>　${esc(x.citation)}<span class="r-links">${linksFor(x)}</span></li>`).join('')}</ol>
       </section>`;
     panel.innerHTML = `
       <div class="p-head">
         <p class="p-kicker">${slug === 'common' ? '六種疾病都適用' : '風濕免疫科門診常見疾病'}</p>
         <h2>${esc(d.name)}</h2>
-        <p class="p-intro">${esc(d.intro)}</p>
+        <p class="p-intro">${intro}</p>
         <div class="jump" aria-label="本頁主題">${d.cards.map((c) => `<button type="button" data-jump="card-${esc(c.id)}">${esc(c.title)}</button>`).join('')}</div>
       </div>
       ${notes}${cards}${myths}${seek}${refs}`;
-    for (const t of document.querySelectorAll('.tab')) {
-      const on = t.dataset.slug === slug;
-      t.setAttribute('aria-selected', on ? 'true' : 'false');
-      t.tabIndex = on ? 0 : -1;
-    }
     document.title = (slug === 'common' ? '' : d.name + '｜') + '風濕免疫生活照護圖解';
+  }
+
+  /* ---------- glossary content ---------- */
+  const gSources = (e) => `<details class="g-src"><summary>出處：${e.src.length} 篇 PubMed 收錄文獻</summary><ol>${e.src.map((i) => G.srcs[i]).map((x) => `<li><span class="r-short">${esc(x.short)}</span><br>${esc(x.citation)}<span class="r-links">${linksFor(x)}</span></li>`).join('')}</ol></details>`;
+  const gEvidence = (e) => (e.ev.length ? `<div class="ev"><span class="ev-id">英文原文依據</span>${e.ev.map((v) => `<div class="ev-i"><span class="ev-id">PMID ${esc(v.pmid)} · ${esc(v.acc)}${v.loc ? ' · ' + esc(v.loc) : ''}</span><span class="ev-q">“${esc(v.q)}”</span></div>`).join('')}</div>` : '');
+  const gNotes = (e) => (e.rn ? `<div class="g-rn"><span class="ev-id">查證備註（給醫師）</span><p>${esc(e.rn)}</p></div>` : '');
+  const gBody = (e) => `<p class="g-def">${esc(e.def)}</p>`
+    + (e.ex ? `<div class="g-row"><span class="g-k">例子</span><p>${esc(e.ex)}</p></div>` : '')
+    + (e.note ? `<div class="g-row"><span class="g-k">補充</span><p>${esc(e.note)}</p></div>` : '')
+    + `<p class="cite">${esc(e.lab)}</p>${gSources(e)}${gEvidence(e)}${gNotes(e)}`;
+  function gWhere(id) {
+    const w = WHERE[id];
+    if (!w || !w.length) return '';
+    const by = {};
+    w.forEach((x) => { (by[x.slug] = by[x.slug] || []).push(x); });
+    const chips = ORDER.filter((sl) => by[sl]).map((sl) => {
+      const list = by[sl];
+      if (list.length > 3) return `<button type="button" data-d="${sl}" data-where="${sl}|top|${id}">${esc(D[sl].tab)}（${list.length} 處）</button>`;
+      return list.map((x) => `<button type="button" data-d="${sl}" data-where="${sl}|${esc(x.block)}|${id}">${esc(D[sl].tab)}・${esc(x.label)}</button>`).join('');
+    }).join('');
+    return `<div class="g-where"><span>出現在</span>${chips}</div>`;
+  }
+  const gCard = (e) => `<article class="g-card" id="g-${e.id}"><h4 tabindex="-1">${esc(e.term)}</h4>${e.en ? `<p class="sheet-en" lang="en">${esc(e.en)}</p>` : ''}${gBody(e)}${gWhere(e.id)}</article>`;
+
+  let gq = '';
+  let gcat = '';
+  function renderGlossary() {
+    const panel = $('panel');
+    panel.dataset.d = 'glossary';
+    const counts = {};
+    G.entries.forEach((e) => { counts[e.cat] = (counts[e.cat] || 0) + 1; });
+    const notes = G.notes.length ? `<aside class="notes"><h3>審閱重點（給醫師）</h3><ul>${G.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul></aside>` : '';
+    panel.innerHTML = `
+      <div class="p-head">
+        <p class="p-kicker">看不懂的詞，可以在這裡查</p>
+        <h2>名詞小辭典</h2>
+        <p class="p-intro">各頁內文中有虛線底線的詞，點一下就能看白話解釋。這裡收錄全部 ${G.meta.n} 個詞；每個解釋都附上 PubMed 收錄的指引或文獻，可以點「出處」查看。</p>
+      </div>
+      ${notes}
+      <div class="g-tools">
+        <input type="search" id="gq" class="g-search" placeholder="搜尋名詞，例如：有氧運動、UVA、類固醇" aria-label="搜尋名詞" autocomplete="off" value="${esc(gq)}">
+        <div class="g-cats" role="group" aria-label="依類別篩選">
+          <button type="button" data-cat="" aria-pressed="${gcat === ''}">全部</button>
+          ${G.cats.filter((c) => counts[c.id]).map((c) => `<button type="button" data-cat="${c.id}" aria-pressed="${gcat === c.id}">${esc(c.name)}</button>`).join('')}
+        </div>
+        <p class="g-count" id="gcount" aria-live="polite"></p>
+      </div>
+      <div class="g-list" id="glist"></div>`;
+    drawGlossary();
+    document.title = '名詞小辭典｜風濕免疫生活照護圖解';
+  }
+  function drawGlossary() {
+    const q = gq.trim().toLowerCase();
+    const hit = (e) => (!gcat || e.cat === gcat) && (!q || [e.term, e.en, e.def, e.ex, e.note].concat(e.al).some((t) => String(t || '').toLowerCase().indexOf(q) >= 0));
+    const groups = G.cats.map((c) => ({ c, list: G.entries.filter((e) => e.cat === c.id && hit(e)) })).filter((g) => g.list.length);
+    const n = groups.reduce((a, g) => a + g.list.length, 0);
+    $('gcount').textContent = (q || gcat) ? `找到 ${n} 個詞` : `共 ${n} 個詞`;
+    $('glist').innerHTML = n
+      ? groups.map((g) => `<section class="g-sec" aria-labelledby="gs-${g.c.id}"><h3 class="sec-h" id="gs-${g.c.id}">${esc(g.c.name)}</h3>${g.list.map(gCard).join('')}</section>`).join('')
+      : '<p class="g-empty">找不到符合的詞。可以換個說法，或清除搜尋再試一次。</p>';
+  }
+
+  /* ---------- explanation sheet ---------- */
+  const sheet = $('sheet');
+  let opener = null;
+  function openSheet(id, from) {
+    const e = GE[id];
+    if (!e) return;
+    opener = from || document.activeElement;
+    sheet.dataset.d = current;
+    $('sheetCat').textContent = CATN[e.cat] || '';
+    $('sheetTerm').textContent = e.term;
+    $('sheetEn').textContent = e.en || '';
+    $('sheetBody').innerHTML = gBody(e) + `<button type="button" class="g-more" data-goto-term="${e.id}">到名詞小辭典看全部名詞</button>`;
+    $('sheetBody').scrollTop = 0;
+    document.documentElement.classList.add('sheet-open');
+    if (typeof sheet.showModal === 'function') { if (!sheet.open) sheet.showModal(); }
+    else sheet.setAttribute('open', '');
+    $('sheetTerm').focus();
+  }
+  function sheetClosed() {
+    document.documentElement.classList.remove('sheet-open');
+    const o = opener;
+    opener = null;
+    if (o && document.contains(o)) { try { o.focus({ preventScroll: true }); } catch (err) { o.focus(); } }
+  }
+  function closeSheet() {
+    if (typeof sheet.close === 'function') { if (sheet.open) sheet.close(); else sheetClosed(); }
+    else { sheet.removeAttribute('open'); sheetClosed(); }
+  }
+  sheet.addEventListener('close', sheetClosed);
+  sheet.addEventListener('click', (e) => { if (e.target === sheet) closeSheet(); });
+  $('sheetClose').addEventListener('click', closeSheet);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && sheet.hasAttribute('open') && typeof sheet.showModal !== 'function') closeSheet(); });
+
+  const scrollToEl = (el) => {
+    if (!el) return;
+    const calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    el.scrollIntoView({ block: 'start', behavior: calm ? 'auto' : 'smooth' });
+  };
+  const flash = (el, cls) => { if (!el) return; el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); setTimeout(() => el.classList.remove(cls), 2100); };
+  function gotoGlossary(id) {
+    opener = null;
+    closeSheet();
+    gq = '';
+    gcat = '';
+    select('glossary', { scroll: true });
+    const card = $('g-' + id);
+    if (card) {
+      scrollToEl(card);
+      flash(card, 'flash');
+      const h = card.querySelector('h4');
+      if (h) { try { h.focus({ preventScroll: true }); } catch (err) { h.focus(); } }
+    }
+  }
+  function gotoWhere(slug, block, id) {
+    select(slug, { scroll: true });
+    let target = null;
+    if (block === 'myths') target = $('myth-h');
+    else if (block === 'seek') target = $('seek-h');
+    else if (block !== 'top') target = $('card-' + block);
+    if (target) {
+      scrollToEl(target);
+      const box = target.closest('.card') || target.parentElement;
+      const t = box && box.querySelector(`.term[data-term="${id}"]`);
+      if (t) flash(t, 'flash-t'); else if (target.classList.contains('card')) flash(target, 'flash');
+    } else {
+      const t = $('panel').querySelector(`.term[data-term="${id}"]`);
+      if (t) { scrollToEl(t.closest('.card') || t.closest('.p-head') || t); flash(t, 'flash-t'); }
+    }
   }
 
   /* ---------- state ---------- */
@@ -403,10 +725,18 @@ h1{font-size:var(--t-h1)}
   const saveState = () => { try { localStorage.setItem(KEY, JSON.stringify({ current, review })); } catch (e) { /* storage unavailable */ } };
   const readState = () => { try { return JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { return {}; } };
 
+  function markTabs(slug) {
+    for (const t of document.querySelectorAll('.tab')) {
+      const on = t.dataset.slug === slug;
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+      t.tabIndex = on ? 0 : -1;
+    }
+  }
   function select(slug, opts) {
-    if (!D[slug]) slug = 'common';
+    if (!valid(slug)) slug = 'common';
     current = slug;
-    render(slug);
+    if (slug === 'glossary') renderGlossary(); else render(slug);
+    markTabs(slug);
     saveState();
     try { history.replaceState(null, '', '#' + slug); } catch (e) { /* sandboxed */ }
     if (opts && opts.scroll) {
@@ -425,33 +755,53 @@ h1{font-size:var(--t-h1)}
   function boot(snap) {
     snap = snap || {};
     const tl = $('tablist');
-    tl.innerHTML = ORDER.map((s) => `<button type="button" class="tab" role="tab" data-d="${s}" data-slug="${s}" id="tab-${s}" aria-controls="panel" aria-selected="false">${esc(D[s].tab)}</button>`).join('');
+    tl.innerHTML = TABS.map((s) => `<button type="button" class="tab" role="tab" data-d="${s}" data-slug="${s}" id="tab-${s}" aria-controls="panel" aria-selected="false">${esc(s === 'glossary' ? '名詞小辭典' : D[s].tab)}</button>`).join('');
     tl.addEventListener('click', (e) => { const b = e.target.closest('.tab'); if (b) select(b.dataset.slug, { scroll: true }); });
     tl.addEventListener('keydown', (e) => {
       if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
-      const i = ORDER.indexOf(current) + (e.key === 'ArrowRight' ? 1 : -1);
-      const next = ORDER[(i + ORDER.length) % ORDER.length];
+      const i = TABS.indexOf(current) + (e.key === 'ArrowRight' ? 1 : -1);
+      const next = TABS[(i + TABS.length) % TABS.length];
       select(next, { scroll: true });
       $('tab-' + next).focus();
       e.preventDefault();
     });
     $('panel').addEventListener('click', (e) => {
       const b = e.target.closest('[data-jump]');
-      if (b) { const el = $(b.dataset.jump); const calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches; if (el) el.scrollIntoView({ block: 'start', behavior: calm ? 'auto' : 'smooth' }); }
+      if (b) { scrollToEl($(b.dataset.jump)); return; }
+      const c = e.target.closest('[data-cat]');
+      if (c) {
+        gcat = c.dataset.cat;
+        for (const x of $('panel').querySelectorAll('[data-cat]')) x.setAttribute('aria-pressed', x.dataset.cat === gcat ? 'true' : 'false');
+        drawGlossary();
+        return;
+      }
+      const w = e.target.closest('[data-where]');
+      if (w) { const [sl, block, id] = w.dataset.where.split('|'); gotoWhere(sl, block, id); }
+    });
+    $('panel').addEventListener('input', (e) => { if (e.target.id === 'gq') { gq = e.target.value; drawGlossary(); } });
+    document.addEventListener('click', (e) => {
+      const t = e.target.closest('.term[data-term]');
+      if (t) { openSheet(t.dataset.term, t); return; }
+      const g = e.target.closest('[data-goto-term]');
+      if (g) { gotoGlossary(g.dataset.gotoTerm); return; }
+      const tab = e.target.closest('[data-goto-tab]');
+      if (tab) { select(tab.dataset.gotoTab, { scroll: true }); const p = $('panel'); scrollToEl(p); }
     });
     $('reviewToggle').addEventListener('change', (e) => setReview(e.target.checked));
-    window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (D[h] && h !== current) select(h); });
+    window.addEventListener('hashchange', () => { const h = location.hash.slice(1); if (valid(h) && h !== current) select(h); });
 
     const totals = ORDER.reduce((a, s) => { a.cards += D[s].cards.length; return a; }, { cards: 0 });
     const srcSet = new Set();
     ORDER.forEach((s) => D[s].sources.forEach((x) => srcSet.add((x.doi || x.url || x.citation).toLowerCase())));
-    $('facts').innerHTML = `<span><b>6</b>種常見疾病＋共通照護</span><span><b>${totals.cards}</b>張照護卡</span><span><b>${DATA.meta.statements}</b>則建議</span><span><b>${srcSet.size}</b>份指引與研究</span>`;
+    $('facts').innerHTML = `<span><b>6</b>種常見疾病＋共通照護</span><span><b>${totals.cards}</b>張照護卡</span><span><b>${DATA.meta.statements}</b>則建議</span><span><b>${srcSet.size}</b>份指引與研究</span><span><b>${G.meta.n}</b>個名詞解釋</span>`;
     $('nStmt').textContent = DATA.meta.statements;
     $('nQuote').textContent = DATA.meta.quotes;
+    $('gN').textContent = G.meta.n;
+    $('gQ').textContent = G.meta.quotes;
 
     const st = readState();
     const hash = location.hash.slice(1);
-    const start = D[snap.current] ? snap.current : (D[hash] ? hash : (D[st.current] ? st.current : 'common'));
+    const start = valid(snap.current) ? snap.current : (valid(hash) ? hash : (valid(st.current) ? st.current : 'common'));
     setReview(snap.review != null ? snap.review : !!st.review);
     select(start);
   }

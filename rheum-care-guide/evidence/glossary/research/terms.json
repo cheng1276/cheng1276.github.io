@@ -1,0 +1,1769 @@
+[
+ {
+  "cat": "exercise",
+  "id": "aerobic",
+  "term": "有氧運動",
+  "aliases": [
+   "有氧運動",
+   "有氧活動"
+  ],
+  "appears": [
+   "AS-1.2",
+   "CM-1.1",
+   "RA-1.2",
+   "RA-1.T",
+   "SJ-4.4",
+   "SL-4.2"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "moderate-intensity",
+  "term": "中等強度",
+  "aliases": [
+   "中等強度"
+  ],
+  "appears": [
+   "CM-1.1",
+   "RA-1.T",
+   "SL-3.3",
+   "SL-3.T"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "vigorous-intensity",
+  "term": "高強度（激烈）運動",
+  "aliases": [
+   "高強度有氧活動",
+   "高強度的激烈運動",
+   "激烈運動"
+  ],
+  "appears": [
+   "AS-1.T",
+   "AS-M1",
+   "CM-1.1",
+   "RA-1.5"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "light-intensity",
+  "term": "輕度活動",
+  "aliases": [
+   "輕度活動"
+  ],
+  "appears": [
+   "CM-1.4"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "muscle-strengthening",
+  "term": "肌力訓練（阻力訓練）",
+  "aliases": [
+   "肌力訓練",
+   "阻力訓練"
+  ],
+  "appears": [
+   "CM-1.2",
+   "CM-1.3",
+   "CM-4.4",
+   "RA-1.2",
+   "RA-1.3",
+   "RA-1.T",
+   "SL-3.3"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "major-muscle-groups",
+  "term": "全身主要肌群",
+  "aliases": [
+   "全身主要肌群"
+  ],
+  "appears": [
+   "CM-1.2"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "weight-bearing",
+  "term": "負重運動",
+  "aliases": [
+   "負重運動"
+  ],
+  "appears": [
+   "CM-4.4"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "multicomponent",
+  "term": "多元活動（平衡與肌力）",
+  "aliases": [
+   "多元活動"
+  ],
+  "appears": [
+   "CM-1.3"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "sedentary",
+  "term": "久坐（靜態行為）",
+  "aliases": [
+   "久坐"
+  ],
+  "appears": [
+   "CM-1.4"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "mind-body",
+  "term": "身心運動",
+  "aliases": [
+   "身心運動",
+   "身心療法"
+  ],
+  "appears": [
+   "RA-1.2",
+   "RA-5.4"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "aquatic",
+  "term": "水中運動",
+  "aliases": [
+   "水中運動"
+  ],
+  "appears": [
+   "RA-1.2"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "range-of-motion",
+  "term": "關節活動度運動",
+  "aliases": [
+   "關節活動度運動",
+   "頸胸腰椎活動度"
+  ],
+  "appears": [
+   "AS-1.2",
+   "RA-1.5"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "passive-therapy",
+  "term": "被動治療與主動運動",
+  "aliases": [
+   "被動治療",
+   "主動運動"
+  ],
+  "appears": [
+   "AS-M2"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "aerobic-capacity",
+  "term": "心肺耐力",
+  "aliases": [
+   "心肺耐力"
+  ],
+  "appears": [
+   "SL-4.2"
+  ]
+ },
+ {
+  "cat": "exercise",
+  "id": "perceived-exertion",
+  "term": "自覺費力程度",
+  "aliases": [
+   "評估自己有多費力"
+  ],
+  "appears": [
+   "SL-3.T"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "physical-therapy",
+  "term": "物理治療",
+  "aliases": [
+   "物理治療師",
+   "物理治療"
+  ],
+  "appears": [
+   "AS-1.2",
+   "AS-1.3",
+   "AS-1.4",
+   "AS-M3",
+   "RA-1.3",
+   "RA-2.1",
+   "RA-2.2",
+   "RA-2.3",
+   "RA-2.5",
+   "axspa-exercise-sum"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "occupational-therapy",
+  "term": "職能治療",
+  "aliases": [
+   "職能治療師",
+   "職能治療",
+   "職能或物理治療師"
+  ],
+  "appears": [
+   "RA-2.1",
+   "RA-2.2",
+   "RA-2.3",
+   "RA-2.5"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "hand-therapist",
+  "term": "手部治療師",
+  "aliases": [
+   "手部治療師"
+  ],
+  "appears": [
+   "RA-2.1"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "joint-protection",
+  "term": "關節保護技巧",
+  "aliases": [
+   "關節保護技巧",
+   "關節保護"
+  ],
+  "appears": [
+   "RA-2.2",
+   "ra-hands-sum",
+   "ra-intro"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "orthoses",
+  "term": "副木、護具與矯具",
+  "aliases": [
+   "副木"
+  ],
+  "appears": [
+   "RA-2.3"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "assistive-devices",
+  "term": "輔具",
+  "aliases": [
+   "輔具"
+  ],
+  "appears": [
+   "RA-2.4",
+   "ra-hands-sum"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "activity-pacing",
+  "term": "活動節奏與節省體力",
+  "aliases": [
+   "安排活動節奏",
+   "活動節奏",
+   "節省體力",
+   "調整步調"
+  ],
+  "appears": [
+   "RA-5.1",
+   "SJ-4.2",
+   "ra-fatigue-work-sum"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "self-management",
+  "term": "自我管理課程",
+  "aliases": [
+   "自我管理課程",
+   "自我管理"
+  ],
+  "appears": [
+   "RA-5.3",
+   "ra-fatigue-work-sum"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "vocational-rehab",
+  "term": "職業重建",
+  "aliases": [
+   "職業重建"
+  ],
+  "appears": [
+   "RA-5.5"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "spinal-manipulation",
+  "term": "脊椎扳動手法（整脊）",
+  "aliases": [
+   "脊椎扳動手法",
+   "整脊"
+  ],
+  "appears": [
+   "AS-3.1",
+   "AS-3.2",
+   "RA-M4"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "cervical-traction",
+  "term": "頸椎牽引",
+  "aliases": [
+   "頸椎牽引"
+  ],
+  "appears": [
+   "AS-3.1"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "contact-sports",
+  "term": "接觸性運動",
+  "aliases": [
+   "接觸性運動"
+  ],
+  "appears": [
+   "AS-3.1",
+   "AS-M1"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "flare-plan",
+  "term": "發作計畫",
+  "aliases": [
+   "發作計畫"
+  ],
+  "appears": [
+   "AS-1.T",
+   "AS-5.2",
+   "axspa-support-sum"
+  ]
+ },
+ {
+  "cat": "rehab",
+  "id": "bed-cage",
+  "term": "支被架",
+  "aliases": [
+   "支被架"
+  ],
+  "appears": [
+   "GT-4.2"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "purine",
+  "term": "普林（高普林食物）",
+  "aliases": [
+   "高普林食物",
+   "普林"
+  ],
+  "appears": [
+   "GT-2.1",
+   "gout-food-sum"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "uric-acid",
+  "term": "尿酸與高尿酸血症",
+  "aliases": [
+   "高尿酸血症",
+   "血中尿酸",
+   "尿酸"
+  ],
+  "appears": [
+   "GT-2.5",
+   "GT-4.4",
+   "GT-5.1",
+   "GT-M3",
+   "gout-flare-sum"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "hfcs",
+  "term": "高果糖玉米糖漿",
+  "aliases": [
+   "高果糖玉米糖漿",
+   "高果糖糖漿"
+  ],
+  "appears": [
+   "GT-1.4"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "alcohol-serving",
+  "term": "一份酒",
+  "aliases": [
+   "1份多到2份酒"
+  ],
+  "appears": [
+   "GT-1.T"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "mediterranean",
+  "term": "地中海型飲食",
+  "aliases": [
+   "地中海型飲食"
+  ],
+  "appears": [
+   "RA-3.1",
+   "RA-3.T",
+   "ra-diet-sum"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "special-diets",
+  "term": "生酮、無麩質、純素、間歇性斷食",
+  "aliases": [
+   "生酮",
+   "無麩質",
+   "純素",
+   "間歇性斷食"
+  ],
+  "appears": [
+   "RA-3.2"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "refined-carbs",
+  "term": "精製澱粉",
+  "aliases": [
+   "精製澱粉"
+  ],
+  "appears": [
+   "RA-3.T"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "saturated-fat",
+  "term": "飽和脂肪",
+  "aliases": [
+   "飽和脂肪"
+  ],
+  "appears": [
+   "RA-3.T"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "processed-food",
+  "term": "高度加工食品",
+  "aliases": [
+   "高度加工食品"
+  ],
+  "appears": [
+   "RA-3.T"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "elemental-calcium",
+  "term": "元素鈣",
+  "aliases": [
+   "元素鈣"
+  ],
+  "appears": [
+   "CM-4.2"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "iu",
+  "term": "國際單位（IU）",
+  "aliases": [
+   "國際單位"
+  ],
+  "appears": [
+   "CM-4.3"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "bmi",
+  "term": "BMI（身體質量指數）",
+  "aliases": [
+   "BMI"
+  ],
+  "appears": [
+   "GT-3.T"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "xylitol",
+  "term": "木糖醇",
+  "aliases": [
+   "木糖醇"
+  ],
+  "appears": [
+   "SJ-2.2"
+  ]
+ },
+ {
+  "cat": "diet",
+  "id": "diagnostic-diet",
+  "term": "飲食試驗",
+  "aliases": [
+   "飲食試驗"
+  ],
+  "appears": [
+   "UR-3.4",
+   "UR-M3",
+   "urticaria-diet-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "oral-glucocorticoid",
+  "term": "口服類固醇",
+  "aliases": [
+   "口服類固醇",
+   "類固醇"
+  ],
+  "appears": [
+   "CM-4.1",
+   "CM-4.T",
+   "CM-5.1",
+   "SL-5.5",
+   "common-bone-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "dmard",
+  "term": "抗風濕藥物",
+  "aliases": [
+   "抗風濕藥物"
+  ],
+  "appears": [
+   "CM-5.1"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "immunosuppressant",
+  "term": "免疫抑制藥物",
+  "aliases": [
+   "免疫抑制藥物",
+   "免疫抑制治療"
+  ],
+  "appears": [
+   "CM-5.1",
+   "CM-5.2",
+   "CM-5.4",
+   "CM-5.5"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "biologic",
+  "term": "生物製劑",
+  "aliases": [
+   "生物製劑"
+  ],
+  "appears": [
+   "SL-2.2"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "antimalarial",
+  "term": "抗瘧疾藥物（hydroxychloroquine）",
+  "aliases": [
+   "抗瘧疾藥物",
+   "hydroxychloroquine"
+  ],
+  "appears": [
+   "SL-2.2",
+   "SL-2.3"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "mtx-lef",
+  "term": "methotrexate 與 leflunomide",
+  "aliases": [
+   "methotrexate",
+   "leflunomide"
+  ],
+  "appears": [
+   "RA-4.4"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "nsaid",
+  "term": "消炎止痛藥（NSAIDs）",
+  "aliases": [
+   "消炎止痛藥",
+   "NSAIDs"
+  ],
+  "appears": [
+   "UR-1.1",
+   "UR-1.2",
+   "UR-5.3"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "low-dose-aspirin",
+  "term": "低劑量阿斯匹靈",
+  "aliases": [
+   "低劑量阿斯匹靈"
+  ],
+  "appears": [
+   "UR-1.3"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "antihistamine",
+  "term": "抗組織胺（不會嗜睡的）",
+  "aliases": [
+   "不會嗜睡的抗組織胺",
+   "抗組織胺"
+  ],
+  "appears": [
+   "SJ-3.2",
+   "UR-4.1",
+   "UR-4.T",
+   "UR-M2",
+   "urticaria-antihistamines-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "ult",
+  "term": "降尿酸藥",
+  "aliases": [
+   "降尿酸藥"
+  ],
+  "appears": [
+   "GT-4.4",
+   "gout-flare-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "flare-medicine",
+  "term": "痛風發作時用的藥",
+  "aliases": [
+   "發作時用的藥"
+  ],
+  "appears": [
+   "GT-4.T"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "non-live-vaccine",
+  "term": "非活性疫苗",
+  "aliases": [
+   "非活性疫苗"
+  ],
+  "appears": [
+   "CM-5.1",
+   "common-vaccine-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "live-vaccine",
+  "term": "活性減毒疫苗",
+  "aliases": [
+   "活性減毒疫苗",
+   "活性疫苗"
+  ],
+  "appears": [
+   "CM-5.1",
+   "CM-5.2",
+   "common-vaccine-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "rzv",
+  "term": "重組帶狀疱疹疫苗",
+  "aliases": [
+   "重組帶狀疱疹（皮蛇）疫苗",
+   "重組帶狀疱疹"
+  ],
+  "appears": [
+   "CM-5.5"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "pneumococcal",
+  "term": "肺炎鏈球菌疫苗",
+  "aliases": [
+   "肺炎鏈球菌疫苗"
+  ],
+  "appears": [
+   "CM-5.3",
+   "CM-5.4"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "artificial-tears",
+  "term": "人工淚液（不含防腐劑）",
+  "aliases": [
+   "不含防腐劑的人工淚液",
+   "人工淚液"
+  ],
+  "appears": [
+   "SJ-1.1",
+   "sjogren-eyes-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "eye-ointment",
+  "term": "潤滑眼藥膏",
+  "aliases": [
+   "潤滑眼藥膏",
+   "眼藥膏"
+  ],
+  "appears": [
+   "SJ-1.2",
+   "SJ-1.T"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "saliva-substitute",
+  "term": "人工唾液",
+  "aliases": [
+   "人工唾液"
+  ],
+  "appears": [
+   "SJ-2.4"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "fluoride",
+  "term": "含氟產品",
+  "aliases": [
+   "含氟產品",
+   "含氟牙膏"
+  ],
+  "appears": [
+   "SJ-2.1",
+   "SJ-2.2",
+   "sjogren-mouth-sum"
+  ]
+ },
+ {
+  "cat": "drug",
+  "id": "dhea",
+  "term": "DHEA",
+  "aliases": [
+   "DHEA"
+  ],
+  "appears": [
+   "SJ-M3"
+  ]
+ },
+ {
+  "cat": "sun",
+  "id": "spf",
+  "term": "SPF（防曬係數）",
+  "aliases": [
+   "SPF"
+  ],
+  "appears": [
+   "SL-1.2",
+   "SL-1.3"
+  ]
+ },
+ {
+  "cat": "sun",
+  "id": "uva-uvb",
+  "term": "UVA 與 UVB",
+  "aliases": [
+   "UVA",
+   "UV-A",
+   "UVB"
+  ],
+  "appears": [
+   "SL-1.2",
+   "UR-2.T"
+  ]
+ },
+ {
+  "cat": "sun",
+  "id": "broad-spectrum",
+  "term": "廣效防曬",
+  "aliases": [
+   "廣效"
+  ],
+  "appears": [
+   "SL-1.2"
+  ]
+ },
+ {
+  "cat": "sun",
+  "id": "uv-index",
+  "term": "紫外線指數",
+  "aliases": [
+   "紫外線指數"
+  ],
+  "appears": [
+   "CM-6.1",
+   "SL-1.5",
+   "SL-1.T"
+  ]
+ },
+ {
+  "cat": "sun",
+  "id": "photosensitivity",
+  "term": "光敏感",
+  "aliases": [
+   "對光敏感"
+  ],
+  "appears": [
+   "SL-M3"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "autoimmune",
+  "term": "自體免疫",
+  "aliases": [
+   "自體免疫風濕病",
+   "自體免疫"
+  ],
+  "appears": [
+   "CM-5.1",
+   "CM-5.3",
+   "UR-3.1",
+   "UR-M1"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "csu-cindu",
+  "term": "自發型與誘發型蕁麻疹",
+  "aliases": [
+   "自發型",
+   "誘發型"
+  ],
+  "appears": [
+   "UR-3.1",
+   "UR-4.1",
+   "UR-4.2",
+   "UR-4.5",
+   "UR-5.1",
+   "UR-5.T",
+   "UR-M1",
+   "UR-M2",
+   "UR-S4",
+   "urticaria-antihistamines-sum",
+   "urticaria-diet-sum",
+   "urticaria-intro",
+   "urticaria-triggers-sum"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "cold-urticaria",
+  "term": "寒冷性蕁麻疹",
+  "aliases": [
+   "寒冷性蕁麻疹"
+  ],
+  "appears": [
+   "UR-2.3",
+   "UR-2.4"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "pressure-urticaria",
+  "term": "延遲性壓力性蕁麻疹",
+  "aliases": [
+   "延遲性壓力性蕁麻疹"
+  ],
+  "appears": [
+   "UR-2.5"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "solar-urticaria",
+  "term": "日光性蕁麻疹",
+  "aliases": [
+   "日光性蕁麻疹"
+  ],
+  "appears": [
+   "UR-2.T"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "cholinergic-urticaria",
+  "term": "膽鹼性蕁麻疹",
+  "aliases": [
+   "膽鹼性蕁麻疹"
+  ],
+  "appears": [
+   "UR-S2"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "wheal",
+  "term": "膨疹",
+  "aliases": [
+   "膨疹"
+  ],
+  "appears": [
+   "UR-1.5",
+   "UR-5.1",
+   "UR-5.5",
+   "UR-S1",
+   "UR-S3"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "angioedema",
+  "term": "血管性水腫",
+  "aliases": [
+   "血管性水腫"
+  ],
+  "appears": [
+   "UR-5.T"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "anaphylaxis",
+  "term": "嚴重過敏反應（全身性過敏反應）",
+  "aliases": [
+   "嚴重過敏反應",
+   "全身性反應"
+  ],
+  "appears": [
+   "UR-2.3",
+   "UR-S1",
+   "UR-S2"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "stridor-wheeze",
+  "term": "喘鳴與咻咻聲",
+  "aliases": [
+   "喘鳴",
+   "咻咻聲"
+  ],
+  "appears": [
+   "UR-S1"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "axspa",
+  "term": "中軸型脊椎關節炎",
+  "aliases": [
+   "中軸型脊椎關節炎"
+  ],
+  "appears": [
+   "CM-1.5"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "uveitis",
+  "term": "急性前葡萄膜炎（虹彩炎）",
+  "aliases": [
+   "急性前葡萄膜炎",
+   "葡萄膜炎",
+   "虹彩炎"
+  ],
+  "appears": [
+   "AS-4.1",
+   "AS-4.2",
+   "AS-4.3",
+   "AS-4.4"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "spinal-fusion",
+  "term": "脊椎融合",
+  "aliases": [
+   "脊椎已融合",
+   "脊椎大範圍融合"
+  ],
+  "appears": [
+   "AS-3.2",
+   "AS-3.3",
+   "AS-3.4"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "osteoporosis",
+  "term": "骨質疏鬆",
+  "aliases": [
+   "骨質疏鬆"
+  ],
+  "appears": [
+   "AS-3.2",
+   "AS-3.4",
+   "AS-3.T",
+   "SL-5.5"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "raynaud",
+  "term": "雷諾氏現象",
+  "aliases": [
+   "雷諾氏現象"
+  ],
+  "appears": [
+   "SL-3.5"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "lupus-nephritis",
+  "term": "狼瘡腎炎",
+  "aliases": [
+   "狼瘡腎炎"
+  ],
+  "appears": [
+   "SL-5.1"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "cutaneous-lupus",
+  "term": "皮膚型狼瘡",
+  "aliases": [
+   "皮膚型狼瘡"
+  ],
+  "appears": [
+   "SL-2.3"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "neonatal-lupus",
+  "term": "新生兒狼瘡",
+  "aliases": [
+   "新生兒狼瘡"
+  ],
+  "appears": [
+   "SL-6.5"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "disease-activity",
+  "term": "疾病活動度",
+  "aliases": [
+   "疾病活動度",
+   "病情活動",
+   "疾病活性",
+   "病情活躍",
+   "病情不活躍"
+  ],
+  "appears": [
+   "AS-2.1",
+   "CM-2.2",
+   "RA-3.4",
+   "RA-4.1",
+   "RA-M2",
+   "SL-3.3",
+   "SL-6.4",
+   "SL-M2",
+   "SL-M4",
+   "UR-4.2"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "comorbidity",
+  "term": "共病",
+  "aliases": [
+   "共病"
+  ],
+  "appears": [
+   "gout-checkup (card title 共病與定期檢查)"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "cvd",
+  "term": "心血管疾病",
+  "aliases": [
+   "心血管疾病"
+  ],
+  "appears": [
+   "GT-5.1",
+   "GT-5.T",
+   "SL-5.4"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "ckd",
+  "term": "慢性腎臟病",
+  "aliases": [
+   "慢性腎臟病"
+  ],
+  "appears": [
+   "GT-5.1"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "urolithiasis",
+  "term": "尿路結石",
+  "aliases": [
+   "尿路結石"
+  ],
+  "appears": [
+   "GT-5.1",
+   "GT-5.3"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "mgd",
+  "term": "瞼板腺功能不良",
+  "aliases": [
+   "瞼板腺"
+  ],
+  "appears": [
+   "SJ-1.3"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "blepharitis",
+  "term": "眼瞼炎",
+  "aliases": [
+   "眼瞼炎"
+  ],
+  "appears": [
+   "SJ-1.T"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "salivary-gland",
+  "term": "唾液腺",
+  "aliases": [
+   "唾液腺"
+  ],
+  "appears": [
+   "SJ-S1"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "night-sweats",
+  "term": "夜間盜汗",
+  "aliases": [
+   "夜間盜汗"
+  ],
+  "appears": [
+   "SJ-S2"
+  ]
+ },
+ {
+  "cat": "condition",
+  "id": "imaging",
+  "term": "磁振造影與電腦斷層",
+  "aliases": [
+   "磁振造影",
+   "電腦斷層"
+  ],
+  "appears": [
+   "AS-3.3"
+  ]
+ },
+ {
+  "cat": "tool",
+  "id": "uas7",
+  "term": "蕁麻疹活性分數（UAS7）",
+  "aliases": [
+   "UAS7"
+  ],
+  "appears": [
+   "UR-5.1"
+  ]
+ },
+ {
+  "cat": "tool",
+  "id": "uct",
+  "term": "蕁麻疹控制測試（UCT）",
+  "aliases": [
+   "UCT"
+  ],
+  "appears": [
+   "UR-5.4"
+  ]
+ },
+ {
+  "cat": "tool",
+  "id": "aas",
+  "term": "血管性水腫活動分數（AAS）",
+  "aliases": [
+   "AAS"
+  ],
+  "appears": [
+   "UR-5.T"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "guideline",
+  "term": "臨床指引",
+  "aliases": [
+   "臨床指引",
+   "國際指引",
+   "指引"
+  ],
+  "appears": [
+   "CM-M1",
+   "GT-1.5",
+   "GT-M1",
+   "GT-M3",
+   "GT-M4",
+   "UR-4.3",
+   "UR-M2",
+   "UR-M4",
+   "axspa-intro",
+   "gout-intro",
+   "ra-intro"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "systematic-review",
+  "term": "系統性回顧（研究回顧）",
+  "aliases": [
+   "研究回顧",
+   "系統性回顧"
+  ],
+  "appears": [
+   "SJ-M1",
+   "SJ-M3"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "meta-analysis",
+  "term": "統合分析",
+  "aliases": [
+   "統合分析"
+  ],
+  "appears": [
+   "SL-2.3 label 統合分析 2015・研究顯示"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "rct",
+  "term": "隨機對照試驗（試驗）",
+  "aliases": [
+   "小型試驗"
+  ],
+  "appears": [
+   "GT-M3"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "observational",
+  "term": "觀察性研究",
+  "aliases": [
+   "觀察性研究",
+   "觀察研究"
+  ],
+  "appears": [
+   "GT-3.T",
+   "GT-M4"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "placebo",
+  "term": "安慰劑",
+  "aliases": [
+   "安慰劑"
+  ],
+  "appears": [
+   "SJ-M1",
+   "SJ-M3"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "certainty",
+  "term": "證據確定性",
+  "aliases": [
+   "證據確定性",
+   "證據品質",
+   "證據的確定性"
+  ],
+  "appears": [
+   "GT-M4",
+   "SJ-M1",
+   "SL-M4"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "clinical-significance",
+  "term": "臨床意義",
+  "aliases": [
+   "臨床意義"
+  ],
+  "appears": [
+   "GT-M3",
+   "RA-M3"
+  ]
+ },
+ {
+  "cat": "evidence",
+  "id": "expert-consensus",
+  "term": "專家共識",
+  "aliases": [
+   "專家共識"
+  ],
+  "appears": [
+   "labels, e.g. GT-5.1 台灣共識 2018・專家共識; legend"
+  ]
+ },
+ {
+  "cat": "psych",
+  "id": "cbt",
+  "term": "認知行為治療",
+  "aliases": [
+   "認知行為治療"
+  ],
+  "appears": [
+   "RA-5.4",
+   "SL-4.3"
+  ]
+ },
+ {
+  "cat": "psych",
+  "id": "psychosocial",
+  "term": "心理社會介入",
+  "aliases": [
+   "心理社會介入"
+  ],
+  "appears": [
+   "SL-4.3"
+  ]
+ },
+ {
+  "cat": "psych",
+  "id": "complementary",
+  "term": "輔助療法",
+  "aliases": [
+   "輔助療法"
+  ],
+  "appears": [
+   "RA-M1"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-acr",
+  "term": "ACR",
+  "aliases": [
+   "ACR"
+  ],
+  "appears": [
+   "AS-1.3",
+   "AS-3.2",
+   "AS-3.4",
+   "AS-4.4",
+   "AS-M2",
+   "CM-4.1",
+   "CM-4.2",
+   "CM-4.3",
+   "CM-4.4",
+   "CM-4.5",
+   "CM-5.2",
+   "CM-5.4",
+   "CM-5.5",
+   "GT-1.1",
+   "GT-1.4",
+   "GT-1.T",
+   "GT-2.1",
+   "GT-2.5",
+   "GT-3.2",
+   "GT-3.T",
+   "GT-4.1",
+   "GT-4.T",
+   "GT-M1",
+   "GT-M3",
+   "GT-M4",
+   "RA-1.1",
+   "RA-1.2",
+   "RA-1.3",
+   "RA-2.1",
+   "RA-2.2",
+   "RA-2.3",
+   "RA-2.4",
+   "RA-2.5",
+   "RA-3.1",
+   "RA-3.2",
+   "RA-3.3",
+   "RA-3.T",
+   "RA-4.3",
+   "RA-5.1",
+   "RA-5.3",
+   "RA-5.4",
+   "RA-5.5",
+   "RA-M2",
+   "RA-M4",
+   "SL-6.3"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-eular",
+  "term": "EULAR",
+  "aliases": [
+   "EULAR"
+  ],
+  "appears": [
+   "AS-1.1",
+   "AS-1.4",
+   "AS-2.1",
+   "AS-2.2",
+   "AS-5.1",
+   "AS-M1",
+   "AS-M3",
+   "CM-1.5",
+   "CM-2.1",
+   "CM-2.2",
+   "CM-2.3",
+   "CM-3.1",
+   "CM-3.2",
+   "CM-3.3",
+   "CM-3.4",
+   "CM-3.5",
+   "CM-3.T",
+   "CM-5.1",
+   "CM-5.3",
+   "CM-5.T",
+   "CM-6.5",
+   "GT-1.2",
+   "GT-1.3",
+   "GT-1.5",
+   "GT-2.2",
+   "GT-3.4",
+   "GT-4.3",
+   "GT-5.T",
+   "GT-M2",
+   "RA-1.4",
+   "RA-1.5",
+   "RA-1.T",
+   "RA-3.4",
+   "RA-3.5",
+   "RA-4.1",
+   "RA-4.2",
+   "RA-4.4",
+   "RA-4.5",
+   "RA-5.2",
+   "RA-5.T",
+   "RA-M1",
+   "RA-M3",
+   "SJ-1.2",
+   "SJ-1.T",
+   "SJ-2.3",
+   "SJ-2.4",
+   "SJ-4.4",
+   "SL-1.1",
+   "SL-1.5",
+   "SL-2.2",
+   "SL-4.2",
+   "SL-4.3",
+   "SL-5.3",
+   "SL-6.1",
+   "SL-6.2",
+   "SL-6.4",
+   "SL-6.T",
+   "SL-M1"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-bsr",
+  "term": "BSR",
+  "aliases": [
+   "BSR"
+  ],
+  "appears": [
+   "AS-4.2",
+   "GT-2.3",
+   "GT-2.4",
+   "GT-3.3",
+   "GT-4.2",
+   "GT-4.4",
+   "GT-5.2",
+   "GT-5.3",
+   "SJ-1.1",
+   "SJ-1.3",
+   "SJ-1.4",
+   "SJ-2.2",
+   "SJ-2.4",
+   "SJ-4.1",
+   "SJ-4.2",
+   "SJ-4.3",
+   "SJ-M1",
+   "SJ-S1",
+   "SJ-S2",
+   "SL-1.2",
+   "SL-1.3",
+   "SL-1.4",
+   "SL-2.1",
+   "SL-3.1",
+   "SL-4.1",
+   "SL-4.4",
+   "SL-5.1",
+   "SL-5.2",
+   "SL-5.4",
+   "SL-5.5",
+   "SL-5.T",
+   "SL-6.5",
+   "SL-M3",
+   "SL-M4",
+   "SL-S1",
+   "SL-S2",
+   "SL-S3"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-nice",
+  "term": "NICE",
+  "aliases": [
+   "NICE"
+  ],
+  "appears": [
+   "AS-1.2",
+   "AS-3.3",
+   "AS-4.1",
+   "AS-4.3",
+   "AS-5.2",
+   "AS-5.3",
+   "AS-S1",
+   "AS-S2",
+   "GT-3.1"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-asas",
+  "term": "ASAS",
+  "aliases": [
+   "ASAS-EULAR"
+  ],
+  "appears": [
+   "AS-1.1",
+   "AS-1.4",
+   "AS-2.2",
+   "AS-5.1",
+   "AS-M3"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-who",
+  "term": "WHO",
+  "aliases": [
+   "WHO"
+  ],
+  "appears": [
+   "CM-1.1",
+   "CM-1.2",
+   "CM-1.3",
+   "CM-1.4",
+   "CM-1.T",
+   "CM-6.1",
+   "CM-6.3",
+   "CM-6.4",
+   "CM-6.T",
+   "CM-M1",
+   "CM-M2",
+   "CM-S1",
+   "SL-1.T"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-galen",
+  "term": "GALEN（GA²LEN）",
+  "aliases": [
+   "GALEN"
+  ],
+  "appears": [
+   "UR-1.1",
+   "UR-1.2",
+   "UR-1.3",
+   "UR-1.4",
+   "UR-1.5",
+   "UR-2.1",
+   "UR-2.2",
+   "UR-2.4",
+   "UR-2.5",
+   "UR-2.T",
+   "UR-3.1",
+   "UR-3.2",
+   "UR-3.3",
+   "UR-3.4",
+   "UR-4.1",
+   "UR-4.2",
+   "UR-4.3",
+   "UR-4.4",
+   "UR-4.5",
+   "UR-4.T",
+   "UR-5.1",
+   "UR-5.2",
+   "UR-5.3",
+   "UR-5.4",
+   "UR-5.5",
+   "UR-5.T",
+   "UR-M1",
+   "UR-M2",
+   "UR-M3",
+   "UR-M4",
+   "UR-S3",
+   "UR-S4"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-wao",
+  "term": "WAO",
+  "aliases": [
+   "WAO"
+  ],
+  "appears": [
+   "UR-S1"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-tfos",
+  "term": "TFOS",
+  "aliases": [
+   "TFOS"
+  ],
+  "appears": [
+   "SJ-1.5",
+   "SJ-3.1",
+   "SJ-M2"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-tra",
+  "term": "TRA",
+  "aliases": [
+   "TRA"
+  ],
+  "appears": [
+   "AS-1.5",
+   "AS-1.T",
+   "AS-2.3",
+   "AS-3.1",
+   "AS-3.T"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-aaaai",
+  "term": "AAAAI／ACAAI",
+  "aliases": [
+   "AAAAI/ACAAI"
+  ],
+  "appears": [
+   "UR-1.T",
+   "UR-2.3",
+   "UR-M3",
+   "UR-S2"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-bsaci",
+  "term": "BSACI",
+  "aliases": [
+   "BSACI"
+  ],
+  "appears": [
+   "UR-1.T"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-ects",
+  "term": "ECTS",
+  "aliases": [
+   "ECTS"
+  ],
+  "appears": [
+   "CM-4.T"
+  ]
+ },
+ {
+  "cat": "org",
+  "id": "org-sf",
+  "term": "Sjögren's Foundation",
+  "aliases": [
+   "Sjögren's Foundation"
+  ],
+  "appears": [
+   "SJ-2.1"
+  ]
+ }
+]
