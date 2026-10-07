@@ -3136,8 +3136,8 @@
    ],
    "def": "BMI（身體質量指數）是用體重（公斤）除以身高（公尺）的平方算出的數值，常用來判斷是否過重或肥胖。",
    "example": "",
-   "note": "國際（WHO）分級：25 以上為過重、30 以上為肥胖；亞洲人在 BMI 較低時，健康風險就可能升高。",
-   "label": "EASO 2015、WHO 2004・定義",
+   "note": "台灣（國健署）成人標準：24 以上為過重、27 以上為肥胖；WHO 國際分級則是 25、30。亞洲人在 BMI 較低時，健康風險就可能升高。",
+   "label": "EASO 2015、WHO 2004、台灣・定義",
    "scope": "card",
    "exclude_pages": [],
    "sources": [
@@ -3164,6 +3164,18 @@
      "citation": "Rubino F, et al. Definition and diagnostic criteria of clinical obesity. Lancet Diabetes Endocrinol 2025;13(3):221-262.",
      "pmid": "39824205",
      "doi": "10.1016/S2213-8587(24)00316-4"
+    },
+    {
+     "short": "台灣肥胖與相關疾病回顧 2008（Obes Rev）",
+     "citation": "Huang KC. Obesity and its related diseases in Taiwan. Obes Rev 2008;9 Suppl 1:32-4.",
+     "pmid": "18307696",
+     "doi": "10.1111/j.1467-789X.2007.00435.x"
+    },
+    {
+     "short": "台灣肥胖盛行率回顧 2005（Obes Rev）",
+     "citation": "Chu NF. Prevalence of obesity in Taiwan. Obes Rev 2005;6(4):271-4.",
+     "pmid": "16246212",
+     "doi": "10.1111/j.1467-789X.2005.00175.x"
     }
    ],
    "evidence": [
@@ -3220,6 +3232,24 @@
      "doi": "10.1016/S2213-8587(24)00316-4",
      "pmcid": "PMC11870235",
      "supports": "note（30 以上為肥胖）"
+    },
+    {
+     "quote": "In Taiwan, overweight and obesity are defined as body mass index > or = 24 and 27 kg m(-2), respectively. These cut-offs differ from Caucasian standards, as Asians have higher comorbidities and fat mass at lower BMI levels than Caucasians.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "18307696",
+     "doi": "10.1111/j.1467-789X.2007.00435.x",
+     "pmcid": "",
+     "supports": "note（台灣成人標準：24 以上過重、27 以上肥胖）"
+    },
+    {
+     "quote": "In adults, using the criteria defined by the Department of Health in Taiwan [overweight as (body mass index) BMI > or = 24 and obese as BMI > or = 27]",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "16246212",
+     "doi": "10.1111/j.1467-789X.2005.00175.x",
+     "pmcid": "",
+     "supports": "note（台灣衛生主管機關訂定的切點）"
     }
    ],
    "aka": "body mass index (BMI)",
