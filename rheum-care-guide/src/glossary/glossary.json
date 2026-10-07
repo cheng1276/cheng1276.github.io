@@ -2557,7 +2557,7 @@
    ],
    "aka": "alcoholic beverage serving (standard serving size)",
    "confidence": "High (definition taken from the cited study's own PMC full text; unit conversion from a PMC review)",
-   "reviewer_notes": "The serving sizes are Neogi 2014's own definition (the case-crossover study that matches ACR 2020's description and that the site cites as S32; the ACR reference number itself could not be mapped because PMC extraction strips citation numbers). The millilitre values are arithmetic from Kerr & Stockwell's '1 US ounce=29.6ml' (12 oz≈355 ml, 5 oz≈148 ml, 1–1.5 oz≈30–44 ml), rounded; please confirm you want converted values shown. Neogi reports OR 1.36 (95% CI 1.00–1.88) for >1–2 servings, which ACR rounds to '40% higher'; the lower CI bound is 1.00. Neogi also states 'One typical drink is approximately 15 grams of alcohol' (not used, to avoid two different gram figures, since Kerr gives 14 g for the US standard drink). Local container sizes differ from US sizes.",
+   "reviewer_notes": "The serving sizes are Neogi 2014's own definition (the case-crossover study that matches ACR 2020's description and that the site cites as S32; the ACR reference number itself could not be mapped because PMC extraction strips citation numbers). The millilitre values are arithmetic from Kerr & Stockwell's '1 US ounce=29.6ml' (12 oz≈355 ml, 5 oz≈148 ml, 1–1.5 oz≈30–44 ml), rounded; please confirm you want converted values shown. Neogi reports OR 1.36 (95% CI 1.00–1.88) for >1–2 servings, which ACR rounds to '40% higher'; the lower CI bound is 1.00. Neogi also states 'One typical drink is approximately 15 grams of alcohol' (not used, to avoid two different gram figures, since Kerr gives 14 g for the US standard drink). Local container sizes differ from US sizes. 醫師確認（2026-10-08）：毫升數由研究原文的盎司換算，可以這樣寫。",
    "group": "g3_diet_sun"
   },
   {
@@ -3175,8 +3175,8 @@
    ],
    "def": "BMI（身體質量指數）是用體重（公斤）除以身高（公尺）的平方算出的數值，常用來判斷是否過重或肥胖。",
    "example": "",
-   "note": "國際（WHO）分級：25 以上為過重、30 以上為肥胖；亞洲人在 BMI 較低時，健康風險就可能升高。",
-   "label": "EASO 2015、WHO 2004・定義",
+   "note": "台灣（國健署）成人標準：24 以上為過重、27 以上為肥胖；WHO 國際分級則是 25、30。亞洲人在 BMI 較低時，健康風險就可能升高。",
+   "label": "EASO 2015、WHO 2004、台灣・定義",
    "scope": "card",
    "exclude_pages": [],
    "sources": [
@@ -3203,6 +3203,18 @@
      "citation": "Rubino F, et al. Definition and diagnostic criteria of clinical obesity. Lancet Diabetes Endocrinol 2025;13(3):221-262.",
      "pmid": "39824205",
      "doi": "10.1016/S2213-8587(24)00316-4"
+    },
+    {
+     "short": "台灣肥胖與相關疾病回顧 2008（Obes Rev）",
+     "citation": "Huang KC. Obesity and its related diseases in Taiwan. Obes Rev 2008;9 Suppl 1:32-4.",
+     "pmid": "18307696",
+     "doi": "10.1111/j.1467-789X.2007.00435.x"
+    },
+    {
+     "short": "台灣肥胖盛行率回顧 2005（Obes Rev）",
+     "citation": "Chu NF. Prevalence of obesity in Taiwan. Obes Rev 2005;6(4):271-4.",
+     "pmid": "16246212",
+     "doi": "10.1111/j.1467-789X.2005.00175.x"
     }
    ],
    "evidence": [
@@ -3259,11 +3271,29 @@
      "doi": "10.1016/S2213-8587(24)00316-4",
      "pmcid": "PMC11870235",
      "supports": "note（30 以上為肥胖）"
+    },
+    {
+     "quote": "In Taiwan, overweight and obesity are defined as body mass index > or = 24 and 27 kg m(-2), respectively. These cut-offs differ from Caucasian standards, as Asians have higher comorbidities and fat mass at lower BMI levels than Caucasians.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "18307696",
+     "doi": "10.1111/j.1467-789X.2007.00435.x",
+     "pmcid": "",
+     "supports": "note（台灣成人標準：24 以上過重、27 以上肥胖）"
+    },
+    {
+     "quote": "In adults, using the criteria defined by the Department of Health in Taiwan [overweight as (body mass index) BMI > or = 24 and obese as BMI > or = 27]",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "16246212",
+     "doi": "10.1111/j.1467-789X.2005.00175.x",
+     "pmcid": "",
+     "supports": "note（台灣衛生主管機關訂定的切點）"
     }
    ],
    "aka": "body mass index (BMI)",
    "confidence": "Medium (formula from a Tier 3 SR abstract; cut-offs and Asian caveat from a WHO expert consultation abstract)",
-   "reviewer_notes": "EULAR 2021 lifestyle recommendations (site-cited) state the WHO cut-offs (≥25 overweight, ≥30 obese) according to the earlier research notes (WebFetch), but that text was not re-verified in this session and is not quoted. Taiwan MOHW uses different adult cut-offs (overweight 24≦BMI<27, obese BMI≧27; government press release, not PubMed-indexed). Please decide whether the note should show the international (WHO) or the Taiwanese cut-offs. In adults, a >5% fall in BMI equals a >5% fall in body weight, but no source states this, so it is not written. 查核後修訂：BMI 算法與 30 以上為肥胖改以 EASO 2015 指引與 2025 Lancet 委員會為出處（原出處為囊腫性纖維化研究摘要，已刪除）。台灣國健署切點（24、27）沒有 PubMed 收錄的出處，請醫師決定是否另加。",
+   "reviewer_notes": "EULAR 2021 lifestyle recommendations (site-cited) state the WHO cut-offs (≥25 overweight, ≥30 obese) according to the earlier research notes (WebFetch), but that text was not re-verified in this session and is not quoted. Taiwan MOHW uses different adult cut-offs (overweight 24≦BMI<27, obese BMI≧27; government press release, not PubMed-indexed). Please decide whether the note should show the international (WHO) or the Taiwanese cut-offs. In adults, a >5% fall in BMI equals a >5% fall in body weight, but no source states this, so it is not written. 查核後修訂：BMI 算法與 30 以上為肥胖改以 EASO 2015 指引與 2025 Lancet 委員會為出處（原出處為囊腫性纖維化研究摘要，已刪除）。醫師決定（2026-10-08）加上台灣切點：出處為 Huang 2008 與 Chu 2005（Obes Rev 摘要；Chu 寫明是 Department of Health in Taiwan，即衛生署，現由衛福部國健署公告）；「國健署」為編輯依醫師指示加註。",
    "group": "g3_diet_sun"
   },
   {
@@ -6879,7 +6909,7 @@
    ],
    "aka": "stridor; wheeze (wheezing)",
    "confidence": "Medium",
-   "reviewer_notes": "WAO 2020 (Tier 1) lists 'wheeze, stridor' as anaphylaxis symptoms but does not define them; no Tier 1–2 plain-language definition was found (the ERS lung-sound nomenclature paper, PMID 26647442, has no definitions in its abstract and no PMC full text). The definitions come from a review table (Bizjak 2025, PMC) and, for stridor, an infant-focused review abstract (Clark 2018) whose opening definition is general; hence Medium confidence. Terminology: the site renders wheeze as 咻咻聲 and stridor as 喘鳴, matching WAO's 'wheeze, stridor'. In Taiwanese clinical usage 喘鳴 is sometimes also used for wheezing, so please confirm this mapping.",
+   "reviewer_notes": "WAO 2020 (Tier 1) lists 'wheeze, stridor' as anaphylaxis symptoms but does not define them; no Tier 1–2 plain-language definition was found (the ERS lung-sound nomenclature paper, PMID 26647442, has no definitions in its abstract and no PMC full text). The definitions come from a review table (Bizjak 2025, PMC) and, for stridor, an infant-focused review abstract (Clark 2018) whose opening definition is general; hence Medium confidence. Terminology: the site renders wheeze as 咻咻聲 and stridor as 喘鳴, matching WAO's 'wheeze, stridor'. In Taiwanese clinical usage 喘鳴 is sometimes also used for wheezing, so please confirm this mapping. 醫師決定（2026-10-08）：依 WAO 用法，咻咻聲＝wheeze、喘鳴＝stridor。",
    "group": "g5a_allergy_urticaria"
   },
   {
@@ -11332,7 +11362,7 @@
    ],
    "aka": "UVA protection labelling: Protection Grade of UVA (PA+ to PA++++, based on persistent pigment darkening); UK UVA logo and UVA star system (one to five stars)",
    "confidence": "Medium for the UK UVA logo / star system (Tier 1 BSR 2026, PMC full text). Low for the PA system: the only accessible PubMed-indexed description is an editorial in Cureus (Patel 2026, PMC full text); no Tier 1–3 dermatology source describing the PA grades could be read.",
-   "reviewer_notes": "PA SOURCE QUALITY: Patel 2026 is a Cureus editorial by two authors affiliated with NovoBliss Research Private Limited (clinical research operations, Ahmedabad, India); its Table 2 also calls JCIA the 'Japan Chemical Industry Association' while its text says 'Japan Cosmetic Industry Association', so editorial quality is limited. It is used only for what the PA grades are called and their order (PA+ some, PA++ moderate, PA+++ high, PA++++ very high UVA protection) and that PA is Japanese and widely used in Asian markets. Better sources that probably describe PA (Moyal 2010 Photochem Photobiol Sci, PMID 20354645; Moyal 2012 Indian J Dermatol Venereol Leprol, PMID 22710110) are abstract-only and their abstracts do not describe PA; Moyal 2006 (PMID 16719864) describes in its abstract 'The Japanese Cosmetic Industry Association (JCIA) PPD method' used to determine UVA protection factors. The PPD/UVA-PF ranges behind each PA grade were not stated in any accessible source, so no numbers are given. TAIWAN: no PubMed-indexed source on Taiwanese sunscreen labelling rules was found; the entry therefore says only 「亞洲常見」. UK LABEL: BSR says 'UV-A logo'; its shape (a circle) is not described in any accessible source, so the entry says 「UVA 標誌」. The BSR 'high' standard (SPF at least 30 plus UVA logo or 4–5 stars) is adopted from the British Association of Dermatologists. CONFLICT: BSR 2026 states 'SPF and UV-A protection are often linked, so a higher SPF sunscreen will have more UV-A protection' (citing BAD), whereas Young 2026 (38 SPF 50/50+ products, ISO 24442 in vivo PPD testing; funded by La Roche-Posay/L'Oréal) found 'a lack of relationship between SPF and UVA-PF values'; the entry does not say that a high SPF implies high UVA protection. The note does not equate PA grades with UK stars (no source maps one to the other). LINKING: the alias 「UVA 防護等級」 (normal space, exactly as in SL-1.2) is longer than the uva-uvb alias 「UVA」, so in SL-1.2 the second 「UVA」 (now a [repeat] of uva-uvb) becomes this entry's link, while 「（同時防 UVA 和 UVB）」 stays linked to uva-uvb; please confirm the site's JavaScript applies the same longest-match rule.",
+   "reviewer_notes": "PA SOURCE QUALITY: Patel 2026 is a Cureus editorial by two authors affiliated with NovoBliss Research Private Limited (clinical research operations, Ahmedabad, India); its Table 2 also calls JCIA the 'Japan Chemical Industry Association' while its text says 'Japan Cosmetic Industry Association', so editorial quality is limited. It is used only for what the PA grades are called and their order (PA+ some, PA++ moderate, PA+++ high, PA++++ very high UVA protection) and that PA is Japanese and widely used in Asian markets. Better sources that probably describe PA (Moyal 2010 Photochem Photobiol Sci, PMID 20354645; Moyal 2012 Indian J Dermatol Venereol Leprol, PMID 22710110) are abstract-only and their abstracts do not describe PA; Moyal 2006 (PMID 16719864) describes in its abstract 'The Japanese Cosmetic Industry Association (JCIA) PPD method' used to determine UVA protection factors. The PPD/UVA-PF ranges behind each PA grade were not stated in any accessible source, so no numbers are given. TAIWAN: no PubMed-indexed source on Taiwanese sunscreen labelling rules was found; the entry therefore says only 「亞洲常見」. UK LABEL: BSR says 'UV-A logo'; its shape (a circle) is not described in any accessible source, so the entry says 「UVA 標誌」. The BSR 'high' standard (SPF at least 30 plus UVA logo or 4–5 stars) is adopted from the British Association of Dermatologists. CONFLICT: BSR 2026 states 'SPF and UV-A protection are often linked, so a higher SPF sunscreen will have more UV-A protection' (citing BAD), whereas Young 2026 (38 SPF 50/50+ products, ISO 24442 in vivo PPD testing; funded by La Roche-Posay/L'Oréal) found 'a lack of relationship between SPF and UVA-PF values'; the entry does not say that a high SPF implies high UVA protection. The note does not equate PA grades with UK stars (no source maps one to the other). LINKING: the alias 「UVA 防護等級」 (normal space, exactly as in SL-1.2) is longer than the uva-uvb alias 「UVA」, so in SL-1.2 the second 「UVA」 (now a [repeat] of uva-uvb) becomes this entry's link, while 「（同時防 UVA 和 UVB）」 stays linked to uva-uvb; please confirm the site's JavaScript applies the same longest-match rule. 醫師決定（2026-10-08）：保留 PA 等級說明（出處證據力弱，已知）。",
    "group": "g3_diet_sun"
   }
  ]

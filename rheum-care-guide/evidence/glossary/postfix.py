@@ -24,6 +24,12 @@ SRC = {
     '7667647': {'short': '1995 急性前葡萄膜炎回顧',
                 'citation': 'Careless DJ, Inman RD. Acute anterior uveitis: clinical and experimental aspects. Semin Arthritis Rheum 1995;24(6):432-41.',
                 'pmid': '7667647', 'doi': '10.1016/s0049-0172(95)80011-5'},
+    '18307696': {'short': '台灣肥胖與相關疾病回顧 2008（Obes Rev）',
+                 'citation': 'Huang KC. Obesity and its related diseases in Taiwan. Obes Rev 2008;9 Suppl 1:32-4.',
+                 'pmid': '18307696', 'doi': '10.1111/j.1467-789X.2007.00435.x'},
+    '16246212': {'short': '台灣肥胖盛行率回顧 2005（Obes Rev）',
+                 'citation': 'Chu NF. Prevalence of obesity in Taiwan. Obes Rev 2005;6(4):271-4.',
+                 'pmid': '16246212', 'doi': '10.1111/j.1467-789X.2005.00175.x'},
     '35602489': {'short': '2022 乾燥症針灸隨機對照試驗',
                  'citation': "Zhou X, et al. Efficacy and Safety of Acupuncture on Symptomatic Improvement in Primary Sjögren's Syndrome: A Randomized Controlled Trial. Front Med (Lausanne) 2022;9:878218.",
                  'pmid': '35602489', 'doi': '10.3389/fmed.2022.878218'},
@@ -116,7 +122,8 @@ POST = {
         'def': '高果糖玉米糖漿是由果糖和葡萄糖組成的液體甜味劑，用來取代一般砂糖（蔗糖），例如加在含糖飲料裡。',
         'supports_replace': [('def：常加在含糖飲料裡；note：果糖是植物中常見的單醣，也是 HFCS 的主要成分。', 'def：例如加在含糖飲料裡。')],
     },
-    'alcohol-serving': {'note': '各國對「一份酒」的定義不同，這裡是該美國研究採用的份量。'},
+    'alcohol-serving': {'note': '各國對「一份酒」的定義不同，這裡是該美國研究採用的份量。',
+                        'rn_append': '醫師確認（2026-10-08）：毫升數由研究原文的盎司換算，可以這樣寫。'},
     'special-diets': {
         'def': '生酮：大幅少吃醣類。無麩質：不吃小麥、黑麥、大麥等含麩質穀類。純素：不吃任何動物性食物，包括蛋和奶。間歇性斷食：反覆斷食，每次最長48小時。',
         'drop_quote_prefix': ['TRE was finally defined'],
@@ -128,7 +135,8 @@ POST = {
     },
     'processed-food': {'note': '指引沒有定義這個詞；這裡借用一套依工業加工程度分類食品的系統（NOVA）對「超加工食品」的說明。'},
     'bmi': {
-        'label': 'EASO 2015、WHO 2004・定義',
+        'label': 'EASO 2015、WHO 2004、台灣・定義',
+        'note': '台灣（國健署）成人標準：24 以上為過重、27 以上為肥胖；WHO 國際分級則是 25、30。亞洲人在 BMI 較低時，健康風險就可能升高。',
         'drop_pmids': ['35254432'],
         'add_ev': [
             ev('In clinical practice, the body fatness is usually estimated by BMI. BMI is calculated as measured body weight (kg) divided by measured height squared',
@@ -138,8 +146,12 @@ POST = {
             ev('According to WHO, an adult with a BMI of 30 … or higher is considered to have obesity.', '39824205',
                'PMC full text ("kg/m²" glued in the PMC extraction, replaced by …)', 'note（30 以上為肥胖）',
                doi='10.1016/S2213-8587(24)00316-4', pmcid='PMC11870235'),
+            ev('In Taiwan, overweight and obesity are defined as body mass index > or = 24 and 27 kg m(-2), respectively. These cut-offs differ from Caucasian standards, as Asians have higher comorbidities and fat mass at lower BMI levels than Caucasians.',
+               '18307696', 'Abstract', 'note（台灣成人標準：24 以上過重、27 以上肥胖）', access='abstract', doi='10.1111/j.1467-789X.2007.00435.x'),
+            ev('In adults, using the criteria defined by the Department of Health in Taiwan [overweight as (body mass index) BMI > or = 24 and obese as BMI > or = 27]',
+               '16246212', 'Abstract', 'note（台灣衛生主管機關訂定的切點）', access='abstract', doi='10.1111/j.1467-789X.2005.00175.x'),
         ],
-        'rn_append': '查核後修訂：BMI 算法與 30 以上為肥胖改以 EASO 2015 指引與 2025 Lancet 委員會為出處（原出處為囊腫性纖維化研究摘要，已刪除）。台灣國健署切點（24、27）沒有 PubMed 收錄的出處，請醫師決定是否另加。',
+        'rn_append': '查核後修訂：BMI 算法與 30 以上為肥胖改以 EASO 2015 指引與 2025 Lancet 委員會為出處（原出處為囊腫性纖維化研究摘要，已刪除）。醫師決定（2026-10-08）加上台灣切點：出處為 Huang 2008 與 Chu 2005（Obes Rev 摘要；Chu 寫明是 Department of Health in Taiwan，即衛生署，現由衛福部國健署公告）；「國健署」為編輯依醫師指示加註。',
     },
     'spf': {'def': 'SPF（防曬係數）表示防曬乳對UVB的防護力，是以「讓皮膚曬紅所需的紫外線量」測出來的；UVA的防護要另看UVA防護等級標示。'},
     'uva-uvb': {
@@ -162,6 +174,7 @@ POST = {
         'def': '防曬品標示 UVA 防護力高低的方式，各地不同：亞洲常見 PA 等級，「+」越多防護越高；英國則用 UVA 標誌或 1 到 5 顆星。',
         'example': 'PA+、PA++、PA+++、PA++++',
         'note': 'PA+++ 代表 UVA 防護「高」，PA++++ 代表「很高」。',
+        'rn_append': '醫師決定（2026-10-08）：保留 PA 等級說明（出處證據力弱，已知）。',
     },
 
     # ---------- g4 drugs ----------
@@ -238,7 +251,8 @@ POST = {
         'rn_append': '查核後修訂：此詞條也連結在疫苗卡片（CM-5.1），原補充（慢性蕁麻疹主要和自體免疫有關、超過一半自發型和自體抗體有關，GALEN 2026 §3.3、§4）放在那裡離題，改為兩頁都適用的說明；蕁麻疹頁的 UR-3.1 本身已寫明慢性蕁麻疹和自體免疫有關。',
     },
     'solar-urticaria': {'def': '日光性蕁麻疹是誘發型蕁麻疹的一種：皮膚照到光線後幾分鐘內，就冒出會癢的紅斑和膨疹；引發的光線多為紫外線A（UV-A）或可見光。'},
-    'stridor-wheeze': {'def': '咻咻聲是呼吸時像吹口哨的聲音，多在吐氣時出現，因為支氣管收縮；喘鳴在這裡指吸氣時發出的尖銳高音，因為上呼吸道阻塞。'},
+    'stridor-wheeze': {'def': '咻咻聲是呼吸時像吹口哨的聲音，多在吐氣時出現，因為支氣管收縮；喘鳴在這裡指吸氣時發出的尖銳高音，因為上呼吸道阻塞。',
+                       'rn_append': '醫師決定（2026-10-08）：依 WAO 用法，咻咻聲＝wheeze、喘鳴＝stridor。'},
     'angioedema': {
         'note': '可和膨疹一起或單獨出現；只有腫脹時請醫師找原因。喉嚨腫脹可能危及生命。',
         'add_ev': [ev('Angioedema of the upper airway can be life threatening.', '23282382', 'Definition and Classification',
