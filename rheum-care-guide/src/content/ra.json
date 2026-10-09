@@ -701,8 +701,8 @@
   },
   {
    "belief": "有類風濕性關節炎就應該少動多休息，運動會讓病情變差、關節受損。",
-   "fact": "持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛、疾病活動度或 X 光上的關節變化惡化。",
-   "strength_label": "ACR 2022・強烈建議",
+   "fact": "持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛或疾病活動度惡化。大關節已有嚴重損傷的人，高強度、讓受損關節負荷過重的運動，可能讓損傷進展較快；運動計畫請和醫師或物理治療師討論。",
+   "strength_label": "ACR 2022・強烈建議；RAPIT 試驗・研究顯示",
    "evidence": [
     {
      "c": "RA-C01",
@@ -724,6 +724,27 @@
      "quote": "Physical activity did not affect disease activity",
      "strength": "Tier 2 (authors' GRADE-based rating)",
      "confidence": "Medium"
+    },
+    {
+     "c": "RA-C111",
+     "s": "S27",
+     "quote": "Intensive exercise does not increase radiographic damage of the large joints, except possibly in patients with considerable baseline damage of the large joints.",
+     "strength": "RCT (RAPIT; n=309; 2 years); abstract conclusion",
+     "confidence": "High"
+    },
+    {
+     "c": "RA-C112",
+     "s": "S28",
+     "quote": "High-intensity weight-bearing exercises appear to accelerate joint damage progression in patients with preexisting extensive damage. Patients with extensive large joint damage should, therefore, be advised to refrain from activities excessively loading the damaged joints.",
+     "strength": "Subgroup analysis of the RAPIT RCT (n=277; extensive large-joint damage subgroup n=59: progression 85% vs 48%, RR 1.8)",
+     "confidence": "Medium"
+    },
+    {
+     "c": "RA-C06",
+     "s": "S1",
+     "quote": "The Voting Panel and patient panel emphasized the importance of appropriate prescription and supervision of resistance exercise by physical therapists or other qualified exercise professionals to prevent harm.",
+     "strength": "n/a (panel emphasis)",
+     "confidence": "High"
     }
    ],
    "sid": "RA-M2"
@@ -845,6 +866,20 @@
    "citation": "Gwinnutt JM, et al. 2021 EULAR recommendations regarding lifestyle behaviours and work participation to prevent progression of rheumatic and musculoskeletal diseases. Ann Rheum Dis 2023;82(1):48-56 (Epub 2022 Mar 8).",
    "pmid": "35260387",
    "doi": "10.1136/annrheumdis-2021-222020"
+  },
+  {
+   "s": "S27",
+   "short": "RAPIT 試驗：類風濕性關節炎長期高強度運動（2003）",
+   "citation": "de Jong Z, et al. Is a long-term high-intensity exercise program effective and safe in patients with rheumatoid arthritis? Results of a randomized controlled trial. Arthritis Rheum 2003;48(9):2415-2424.",
+   "pmid": "13130460",
+   "doi": "10.1002/art.11216"
+  },
+  {
+   "s": "S28",
+   "short": "RAPIT 試驗次族群分析：大關節損傷與高強度負重運動（2005）",
+   "citation": "Munneke M, et al. Effect of a high-intensity weight-bearing exercise program on radiologic damage progression of the large joints in subgroups of patients with rheumatoid arthritis. Arthritis Rheum 2005;53(3):410-417.",
+   "pmid": "15934121",
+   "doi": "10.1002/art.21165"
   }
  ],
  "reviewer_notes": [
@@ -861,6 +896,7 @@
   "11. Optional Taiwan reference: the Taiwan expert consensus (S22, Yu 2022) says smoking cessation 'should be a priority' because smoking is implicated in RA-ILD and persistent synovitis. It is not used because it appears in ungraded narrative on treating RA-ILD (a population restriction). It could be added as a local citation for the quit-smoking point.",
   "12. The supplements myth deliberately names only fish oil and probiotics, although S10 lists vitamin D with them. Naming vitamin D could imply that vitamin D taken for bone health is useless; ACR recognises its role for bone health (card 3, point 3).",
   "13. EDITORIAL: one neutral safety phrase (「用藥調整請和醫師討論」) is added to the 'replacing medicines' myth, with evidence code EDITORIAL.",
-  "14. Citation detail: the ACR quotes come from the identical co-published Arthritis Rheumatol version (PMC10947582; PMID 37227071). The sources entry gives the Arthritis Care Res PMID/DOI and names the co-publication in the citation. common:S1 is the same EULAR 2021 paper as S2, listed separately because common:C51 is cited."
+  "14. Citation detail: the ACR quotes come from the identical co-published Arthritis Rheumatol version (PMC10947582; PMID 37227071). The sources entry gives the Arthritis Care Res PMID/DOI and names the co-publication in the citation. common:S1 is the same EULAR 2021 paper as S2, listed separately because common:C51 is cited.",
+  "15. 2026-10-09 change approved by the reviewing physician: myth RA-M2 no longer says research found no worsening of X-ray joint changes. The RAPIT RCT (S27, n=309, 2 years) found more large-joint radiographic progression in people with considerable baseline damage, and its subgroup analysis (S28) found progression in 85% vs 48% (RR 1.8) of those with extensive large-joint damage, advising them to avoid activities that excessively load the damaged joints. The fact now keeps pain and disease activity only (S20, S11) and adds that caution, with 'discuss your exercise plan with your doctor or physiotherapist' (Munneke's advice plus the ACR panel's emphasis on physiotherapist supervision, RA-C06)."
  ]
 }

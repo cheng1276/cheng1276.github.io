@@ -73,7 +73,7 @@
      "sid": "SJ-1.3"
     },
     {
-     "text": "盡量避開過熱、開冷氣或乾燥的環境，也避免吹風，以免淚水蒸發太快。",
+     "text": "盡量避開過熱或乾燥的環境，避免風直接吹到眼睛，以免淚水蒸發太快。",
      "strength_label": "BSR 2025・指引說明；巴西風濕病學會 2015・建議強度 D",
      "evidence": [
       {
@@ -644,7 +644,7 @@
   {
    "s": "S12",
    "short": "TFOS DEWS III 2025 乾眼報告執行摘要",
-   "citation": "Perez VL, et al. TFOS DEWS III: Executive Summary. Am J Ophthalmol 2025;282:135-145.",
+   "citation": "Perez VL, et al. TFOS DEWS III: Executive Summary. Am J Ophthalmol 2026;282:135-145 (epub 2025 Sep 24).",
    "pmid": "41005521",
    "doi": "10.1016/j.ajo.2025.09.035",
    "url": null
@@ -750,8 +750,9 @@
   "Optional additions, all sourced but not in the suggested plan: (a) TSCRS 2024 Taiwan consensus (S21, High): people with Sjögren's planning eye surgery such as cataract surgery should consult their rheumatologist first and have mild, stable, well-controlled dry eye; (b) avoid alcohol-containing mouth rinses (Brazilian Table 1, grade D, supported by Wolff 2017 'non-alcoholic mouthwashes'); (c) tell the doctor about fatigue or pain so other conditions can be evaluated (EULAR 'Concomitant diseases should be evaluated…', LoE 5); (d) written information and support groups (BSR 2C); (e) chronic cough >8 weeks warrants evaluation (S9, strength not found). Item (e) was not added because '8 weeks' could be read as a waiting period.",
   "Fluoride: Zero 2016 'topical fluoride should be used in all patients (strong)' was read in the abstract only. Per the Foundation summary, the panel made no recommendation on fluoride type or frequency, so the page names no product. Consider adding 「種類和次數可請牙醫建議」 (EDITORIAL). EULAR's neutral-pH sodium fluoride gel for severe salivary dysfunction is prescription-only and was not included.",
   "Mouth points 3 and 4 put EULAR's stepwise approach into lay terms. 'Mild dysfunction / residual capacity' became 「還有一些唾液」 and 'severe dysfunction / no residual glandular function' became 「唾液很少或幾乎沒有」. Patients cannot measure gland function themselves. EULAR Rec 1 (baseline evaluation of salivary gland function) was seen in only one WebFetch pass, so it was not used to say 'your doctor can assess this'.",
-  "Air conditioning: BSR says 'where possible' avoid overheated and air-conditioned environments. In Taiwan this is mainly indoor air conditioning (the evidence file notes Taiwan's humid climate), so the text keeps 「盡量」 and does not set a humidity target.",
+  "Air conditioning (updated 2026-10-09, physician decision): BSR says 'where possible' avoid overheated and air-conditioned environments, and the Brazilian guideline lists air conditioning and wind. In Taiwan's heat air conditioning is often necessary, so SJ-1.4 no longer mentions it; 'avoid wind' is rendered as 「避免風直接吹到眼睛」 (the purpose in both sources is to slow tear evaporation), so it does not read as 'do not use a fan'. The page still keeps 「盡量」 and sets no humidity target.",
   "Population notes: most BSR dry-eye evidence comes from general dry-eye populations, not SjD alone. The blue-light statement (S14) is for digital eye strain in general. The oil-pulling trial was in medication-induced xerostomia, and the myth text says so. The DHEA studies were all in women, and the myth text gives 5 studies and 240 women. The acupuncture wording is kept neutral (low-quality evidence). Traditional Chinese medicine was not addressed because no guideline covers it; only a small negative Taiwan RCT exists (Tier 3, excluded by protocol).",
-  "SJ-M1 (acupuncture) revised 2026-10-07 after the glossary verification: BSR 2025 repeats the Cochrane conclusion (Furness 2013) without stating the population, but the Cochrane abstract says all five acupuncture trials were in dry mouth after radiotherapy (its only Sjögren trials tested electrostimulation). Sham-controlled trials in Sjögren's disagree (Zhou 2022 no difference, n=120; Gomes-Silva 2025 benefit, 27 completers; Li 2026 benefit, n=138, with hydroxychloroquine in both arms). The fact now says the evidence is insufficient and mixed. The Cochrane plain-language summary gives trial counts by cause that do not reconcile with its abstract; full text not read."
+  "SJ-M1 (acupuncture) revised 2026-10-07 after the glossary verification: BSR 2025 repeats the Cochrane conclusion (Furness 2013) without stating the population, but the Cochrane abstract says all five acupuncture trials were in dry mouth after radiotherapy (its only Sjögren trials tested electrostimulation). Sham-controlled trials in Sjögren's disagree (Zhou 2022 no difference, n=120; Gomes-Silva 2025 benefit, 27 completers; Li 2026 benefit, n=138, with hydroxychloroquine in both arms). The fact now says the evidence is insufficient and mixed. The Cochrane plain-language summary gives trial counts by cause that do not reconcile with its abstract; full text not read.",
+  "2026-10-09: S12 citation corrected to the print issue year (Am J Ophthalmol vol 282 is the February 2026 issue; the summary went online on 24 Sep 2025). The strength label 'TFOS DEWS III 2025' refers to the 2025 workshop reports and was kept."
  ]
 }

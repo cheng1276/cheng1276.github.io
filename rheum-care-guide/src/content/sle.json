@@ -116,9 +116,23 @@
     }
    ],
    "tip": {
-    "text": "出門前查中央氣象署紫外線指數：3 以上就要做好防曬（中午找陰涼處、穿長袖、擦防曬乳、戴帽子）；8 以上（過量級、危險級）時，中午時段盡量不要待在戶外。",
-    "strength_label": "WHO 2002・指引說明",
+    "text": "狼瘡患者平常就要防曬。出門前也可以查中央氣象署紫外線指數：3 以上更要做好防曬（中午找陰涼處、穿長袖、擦防曬乳、戴帽子）；8 以上（過量級、危險級）時，中午時段盡量不要待在戶外。",
+    "strength_label": "EULAR 2024・指引說明；WHO 2002・指引說明",
     "evidence": [
+     {
+      "c": "C22",
+      "s": "S04",
+      "quote": "…use physical barriers such as hats, sunglasses and long-sleeved shirts and pants…",
+      "strength": "Expert opinion plus LoE 4 evidence",
+      "confidence": "High"
+     },
+     {
+      "c": "C25",
+      "s": "S02",
+      "quote": "People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B)…",
+      "strength": "Sunscreen part: 1B (strong; moderate evidence). SoA 96.9%.",
+      "confidence": "High"
+     },
      {
       "c": "common:C83",
       "s": "common:S11",
@@ -1028,7 +1042,7 @@
   "SPOT-CHECK EULAR 2024 (Parodis) TABLE 1 AGAINST THE PDF: the SoR letters shown on the page (photoprotection C, exercise C, aerobic exercise B, psychosocial interventions B) came from WebFetch readings of the PDF. common.md's separate reading of the same recommendations gave different LoA values (photoprotection 9.6 vs 9.2; smoking 9.7 vs 9.4) and found no SoR. The smoking ('B/C') and cold ('C/D') SoRs were printed jointly for SLE/SSc, so the smoking point carries the BSR 1C label and the Raynaud's point the 2024 international consensus (1b/A) label instead of a EULAR letter.",
   "HERBAL SUPPLEMENT MYTH LEFT OUT: the only source on 'immune-boosting' herbs (alfalfa, echinacea, spirulina, chlorella and others) is a 2025 scoping review (S24; mostly in vitro, animal and case-report evidence), rated Low. No Tier-1 guideline was found, and green tea extract is conflicting (S23 vs S24). Add a physician-authored statement if you want this myth on the page.",
   "EXERCISE AND FATIGUE CONFLICT: EULAR 2024 recommends aerobic exercise to reduce fatigue (SoR B) and a 2026 meta-analysis rates the benefit moderate certainty, while Cochrane 2023 and a 2026 umbrella review rate it low certainty or slight. The page says only '也可能有助減輕疲倦'. Psychological interventions are claimed only for quality of life, anxiety and depression, not for fatigue or disease activity (the SLE subgroup in the EULAR fatigue SLR and the 2024 lifestyle SR found no such effect), and the card 4 summary avoids implying a fatigue benefit.",
-  "UV INDEX TIP (common.md): the WHO scheme is for the general population (fair-skinned people who burn easily) and no SLE-specific UV index threshold was found. To avoid the WHO 2002 vs WHO 2022 Q&A difference at the low end ('<2' vs '0–2'; 'below 3' vs 'below 2'), the tip mentions only UVI 8+ (wording identical in both WHO documents) with the CWA names 過量級/危險級, and does not imply that lower levels need no protection. EULAR's 'days with high UV index' has no number, so card 1 says '紫外線指數偏高的日子'. common.md did not record URLs for the two WHO documents; please add them. The CWA URL was checked and loads.",
+  "UV INDEX TIP (updated 2026-10-09, approved by the reviewing physician): the WHO scheme is for the general population (fair-skinned people who burn easily), and WHO pairs 'UVI 3+ needs protection' with 'below 3 no protection is needed'. No SLE-specific UV index threshold was found (common.md M14). The tip therefore now opens with 「狼瘡患者平常就要防曬」 (EULAR 2024 'avoid direct sun exposure, especially during days with high UV index'; BSR 2026 sunscreen advice has no UV index condition), and the WHO levels follow as extra steps (3 以上更要做好防曬; 8 以上中午時段盡量不要待在戶外), so the page no longer implies that low UV index days need no protection.",
   "UVA LABELLING: BSR adopts the BAD definition of high SPF (at least 30 plus a UVA logo or 4–5-star UVA). These are UK/EU labels and no Taiwan/Asian labelling source was found, so the page says 'UVA 防護足夠' without naming a label system; add local label guidance if you wish. 'SPF 30' and 'reapply at least every 2 hours' are BSR rationale text adopted from BAD (not separately graded), hence '指引說明' on the reapplication point.",
   "150–300 MIN/WEEK: 2024 international consensus statement 9 is expert opinion (5/D), limited to inactive or mildly active disease and 'unless otherwise indicated'; BSR notes that the WHO evidence behind these targets comes from other chronic diseases. The consensus is a Delphi task force, not a society guideline; its Oxford grades are shown as '國際共識 2024・建議強度 A/D'. Its statement 10 (medical evaluation before starting exercise, 1b/A) is stricter than the general WHO view that clearance is usually unnecessary for light-to-moderate activity (common.md M3); the page follows the SLE-specific consensus.",
   "PREGNANCY CARD: EULAR 2017 Table 1 statements and their LoE/GoR were not accessible, so points use body-text or abstract sentences labelled '建議' because they say 'should'; the 6–12-month window comes from Table 2 (risk-factor checklist, labelled '指引說明'). ACR 2020 was read as abstract only; its 'guiding principles' are labelled '基本原則'. Drug-specific advice (hydroxychloroquine in pregnancy, contraceptive method by aPL status, pregnancy supplements) was left out on purpose. The Taiwan College of Rheumatology 2026 SLE consensus (which includes pregnancy statements) could not be read; please check this card against it.",

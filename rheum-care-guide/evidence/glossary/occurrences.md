@@ -65,12 +65,13 @@
 ## perceived-exertion — 自覺費力程度  (aliases: 評估自己有多費力; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-3.T (text) 「評估自己有多費力」: 中等強度大約是：用 0–10 分評估自己有多費力時，約 5–6 分。
 
-## physical-therapy — 物理治療  (aliases: 物理治療師 / 物理治療; scope: page; links: 2; occurrences: 10)
+## physical-therapy — 物理治療  (aliases: 物理治療師 / 物理治療; scope: page; links: 2; occurrences: 11)
 - [LINK] RA-1.3 (text) 「物理治療師」: 請物理治療師或合格的運動專業人員安排、指導肌力訓練，以避免傷害。
 - [repeat] RA-2.1 (text) 「物理治療師」: 手部受影響時，可做手部治療運動，最好由有經驗的手部治療師（多為受過進階訓練的職能或物理治療師）評估。
 - [repeat] RA-2.2 (text) 「物理治療師」: 向職能或物理治療師學習關節保護技巧，例如改變做事方式以避免疼痛、休息、改用其他肌群。
 - [repeat] RA-2.3 (text) 「物理治療師」: 手、腕、膝或足踝受影響時，可使用副木、護具或矯具，並請職能或物理治療師協助挑選和調整。
 - [repeat] RA-2.5 (text) 「物理治療」: 及早和醫師討論轉介職能治療或物理治療；治療內容可依您的需要調整。
+- [repeat] RA-M2 (fact) 「物理治療師」: 持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛或疾病活動度惡化。大關節已有嚴重損傷的人，高強度、讓受損關節負荷過重的運動，可能讓損傷進展較快；運動計畫請和醫師或物理治療師討論。
 - [LINK] axspa-exercise (summary) 「物理治療師」: 運動是治療的基石，可請物理治療師協助開始。
 - [repeat] AS-1.2 (text) 「物理治療師」: 請物理治療師設計個人化運動計畫，包括伸展、肌力、姿勢、深呼吸、脊椎伸展、頸胸腰椎活動度與有氧運動。
 - [repeat] AS-1.3 (text) 「物理治療師」: 先由物理治療師教會動作，之後也建議在家自己做背部運動。
@@ -289,7 +290,7 @@
 - [LINK] common-uv (title) 「紫外線指數」: 看懂紫外線指數
 - [repeat] CM-6.1 (text) 「紫外線指數」: 紫外線指數越高，皮膚和眼睛越容易受傷，受傷所需的時間也越短。
 - [LINK] SL-1.5 (text) 「紫外線指數」: 盡量避免陽光直射，紫外線指數偏高的日子更要注意。
-- [repeat] SL-1.T (text) 「紫外線指數」: 出門前查中央氣象署紫外線指數：3 以上就要做好防曬（中午找陰涼處、穿長袖、擦防曬乳、戴帽子）；8 以上（過量級、危險級）時，中午時段盡量不要待在戶外。
+- [repeat] SL-1.T (text) 「紫外線指數」: 狼瘡患者平常就要防曬。出門前也可以查中央氣象署紫外線指數：3 以上更要做好防曬（中午找陰涼處、穿長袖、擦防曬乳、戴帽子）；8 以上（過量級、危險級）時，中午時段盡量不要待在戶外。
 
 ## photosensitivity — 光敏感  (aliases: 對光敏感; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-M3 (fact) 「對光敏感」: 曬太陽後，皮膚病灶可能隔幾週才出現，所以不容易察覺自己對光敏感；仍建議做好防曬。
@@ -387,7 +388,7 @@
 - [excluded] UR-4.2 (text) 「病情活躍」: 誘發型：病情活躍或控制不好時，通常建議每天吃；有些人可在接觸誘發因子前才吃。怎麼吃，依誘發因子能否預期，和醫師一起決定。
 - [LINK] RA-3.4 (text) 「疾病活動度」: 維持健康體重；在類風濕性關節炎，肥胖與疾病活動度較高、身體功能較差和治療反應較差有關。
 - [repeat] RA-4.1 (text) 「疾病活動度」: 戒菸：吸菸對症狀、身體功能、疾病活動度和病程進展都不利，也會增加其他疾病的發生。
-- [repeat] RA-M2 (fact) 「疾病活動度」: 持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛、疾病活動度或 X 光上的關節變化惡化。
+- [repeat] RA-M2 (fact) 「疾病活動度」: 持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛或疾病活動度惡化。大關節已有嚴重損傷的人，高強度、讓受損關節負荷過重的運動，可能讓損傷進展較快；運動計畫請和醫師或物理治療師討論。
 - [LINK] AS-2.1 (text) 「疾病活動度」: 如果有抽菸，請戒菸。抽菸對症狀、身體功能、疾病活動度、病情進展和其他疾病都有不良影響。
 - [LINK] SL-3.3 (text) 「病情不活躍」: 病情不活躍或輕微、醫師也沒有特別限制時，可逐步做到每週 150–300 分鐘中等強度運動，加上每週至少 2 天肌力訓練。
 - [repeat] SL-6.4 (text) 「病情活躍」: 暫時不打算懷孕時，和醫師討論避孕方式，尤其在病情活躍或使用可能影響胎兒的藥物期間。
@@ -526,8 +527,8 @@
 - [repeat] RA-5.3 (label) 「ACR」: ACR 2022・建議
 - [repeat] RA-5.4 (label) 「ACR」: ACR 2022・建議
 - [repeat] RA-5.5 (label) 「ACR」: ACR 2022・建議
-- [repeat] RA-M2 (fact) 「ACR」: 持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛、疾病活動度或 X 光上的關節變化惡化。
-- [repeat] RA-M2 (label) 「ACR」: ACR 2022・強烈建議
+- [repeat] RA-M2 (fact) 「ACR」: 持續規律運動是 ACR 強烈建議的照護；研究中也沒有發現運動讓疼痛或疾病活動度惡化。大關節已有嚴重損傷的人，高強度、讓受損關節負荷過重的運動，可能讓損傷進展較快；運動計畫請和醫師或物理治療師討論。
+- [repeat] RA-M2 (label) 「ACR」: ACR 2022・強烈建議；RAPIT 試驗・研究顯示
 - [repeat] RA-M4 (label) 「ACR」: ACR 2022・不建議
 - [LINK] AS-1.3 (label) 「ACR」: ACR 2015・建議
 - [repeat] AS-3.2 (label) 「ACR」: ACR 2015・強烈不建議
@@ -536,7 +537,7 @@
 - [repeat] AS-M2 (label) 「ACR」: ACR 2015・建議
 - [LINK] SL-6.3 (label) 「ACR」: ACR 2020・基本原則
 
-## org-eular — EULAR  (aliases: EULAR; scope: page; links: 6; occurrences: 53)
+## org-eular — EULAR  (aliases: EULAR; scope: page; links: 6; occurrences: 54)
 - [LINK] CM-1.5 (label) 「EULAR」: EULAR 2021・建議強度 A
 - [repeat] CM-2.1 (label) 「EULAR」: EULAR 2021・建議強度 B
 - [repeat] CM-2.2 (label) 「EULAR」: EULAR 2021・建議強度 B
@@ -576,6 +577,7 @@
 - [repeat] AS-M1 (label) 「EULAR」: EULAR 2021・建議強度 A
 - [LINK] SL-1.1 (label) 「EULAR」: EULAR 2024・建議強度 C
 - [repeat] SL-1.5 (label) 「EULAR」: EULAR 2024・指引說明
+- [repeat] SL-1.T (label) 「EULAR」: EULAR 2024・指引說明；WHO 2002・指引說明
 - [repeat] SL-2.2 (label) 「EULAR」: EULAR 2023・指引說明
 - [repeat] SL-4.2 (label) 「EULAR」: EULAR 2024・建議強度 B
 - [repeat] SL-4.3 (label) 「EULAR」: EULAR 2024・建議強度 B
@@ -662,7 +664,7 @@
 - [repeat] CM-M1 (label) 「WHO」: WHO 2020・指引說明
 - [repeat] CM-M2 (label) 「WHO」: WHO 2002・指引說明
 - [repeat] CM-S1 (label) 「WHO」: WHO 2020・指引說明
-- [LINK] SL-1.T (label) 「WHO」: WHO 2002・指引說明
+- [LINK] SL-1.T (label) 「WHO」: EULAR 2024・指引說明；WHO 2002・指引說明
 
 ## org-galen — GALEN（GA²LEN）  (aliases: GALEN; scope: page; links: 1; occurrences: 32)
 - [LINK] UR-1.1 (label) 「GALEN」: GALEN 2026・指引說明
