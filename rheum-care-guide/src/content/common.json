@@ -390,6 +390,20 @@
       }
      ],
      "sid": "CM-4.5"
+    },
+    {
+     "text": "及早和醫師討論骨質疏鬆與骨折風險。",
+     "strength_label": "ACR 2022・強烈建議",
+     "evidence": [
+      {
+       "c": "C92",
+       "s": "S6",
+       "quote": "For adults beginning or continuing >3 months of GC treatment, we strongly recommend as soon as possible after initiation of GCs, initial assessment of fracture risks with clinical fracture assessment, bone mineral density with vertebral fracture assessment or spinal x-ray, and Fracture Risk Assessment Tool if ≥40 years old. … Initial assessment should occur as soon as possible within 6 months of GC therapy initiation.",
+       "strength": "Strong; low certainty of evidence (manuscript: a strong recommendation as good clinical practice)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-4.6"
     }
    ],
    "tip": {

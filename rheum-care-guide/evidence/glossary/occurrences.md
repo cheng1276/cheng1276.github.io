@@ -365,7 +365,8 @@
 - [repeat] AS-3.3 (text) 「脊椎已融合」: 跌倒或受傷後，請找醫療人員檢查，尤其是疼痛加劇時，並告知醫師您有僵直性脊椎炎。脊椎已融合的人，輕微外傷也較容易骨折；懷疑骨折時，可能需要磁振造影（核磁共振）或電腦斷層檢查。
 - [repeat] AS-3.4 (text) 「脊椎大範圍融合」: 有骨質疏鬆、脊椎大範圍融合或平衡不穩的人，可請醫療團隊評估跌倒風險並提供建議。
 
-## osteoporosis — 骨質疏鬆  (aliases: 骨質疏鬆; scope: card; links: 2; occurrences: 4)
+## osteoporosis — 骨質疏鬆  (aliases: 骨質疏鬆; scope: card; links: 3; occurrences: 5)
+- [LINK] CM-4.6 (text) 「骨質疏鬆」: 及早和醫師討論骨質疏鬆與骨折風險。
 - [LINK] AS-3.2 (text) 「骨質疏鬆」: 脊椎已融合（黏在一起）或有嚴重脊椎骨質疏鬆的人，更不要接受整脊等脊椎扳動手法。
 - [repeat] AS-3.4 (text) 「骨質疏鬆」: 有骨質疏鬆、脊椎大範圍融合或平衡不穩的人，可請醫療團隊評估跌倒風險並提供建議。
 - [repeat] AS-3.T (text) 「骨質疏鬆」: 台灣常以機車、腳踏車代步，宜及早和醫師討論骨質疏鬆與脊椎骨折的風險。
@@ -486,12 +487,13 @@
 - [LINK] RA-M1 (belief) 「輔助療法」: 只要調整生活習慣或採用輔助療法，就可以取代類風濕性關節炎的藥物。
 - [repeat] RA-M1 (fact) 「輔助療法」: 生活調整是用來搭配藥物治療，不能取代藥物；輔助療法也不應取代正規治療。用藥調整請和醫師討論。
 
-## org-acr — ACR  (aliases: ACR; scope: page; links: 5; occurrences: 49)
+## org-acr — ACR  (aliases: ACR; scope: page; links: 5; occurrences: 50)
 - [LINK] CM-4.1 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.2 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.3 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.4 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.5 (label) 「ACR」: ACR 2022・建議
+- [repeat] CM-4.6 (label) 「ACR」: ACR 2022・強烈建議
 - [repeat] CM-5.2 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-5.4 (label) 「ACR」: ACR 2022・強烈建議
 - [repeat] CM-5.5 (label) 「ACR」: ACR 2022・強烈建議
