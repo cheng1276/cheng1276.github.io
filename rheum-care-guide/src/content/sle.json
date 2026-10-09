@@ -116,9 +116,23 @@
     }
    ],
    "tip": {
-    "text": "出門前查中央氣象署紫外線指數：3 以上就要做好防曬（中午找陰涼處、穿長袖、擦防曬乳、戴帽子）；8 以上（過量級、危險級）時，中午時段盡量不要待在戶外。",
-    "strength_label": "WHO 2002・指引說明",
+    "text": "狼瘡患者平常就要防曬。出門前也可以查中央氣象署紫外線指數：3 以上更要做好防曬（中午找陰涼處、穿長袖、擦防曬乳、戴帽子）；8 以上（過量級、危險級）時，中午時段盡量不要待在戶外。",
+    "strength_label": "EULAR 2024・指引說明；WHO 2002・指引說明",
     "evidence": [
+     {
+      "c": "C22",
+      "s": "S04",
+      "quote": "…use physical barriers such as hats, sunglasses and long-sleeved shirts and pants…",
+      "strength": "Expert opinion plus LoE 4 evidence",
+      "confidence": "High"
+     },
+     {
+      "c": "C25",
+      "s": "S02",
+      "quote": "People with SLE should be advised at diagnosis and more frequently as necessary to use high sun protection factor (SPF), broad-spectrum UV-A and UV-B sunscreen (1B)…",
+      "strength": "Sunscreen part: 1B (strong; moderate evidence). SoA 96.9%.",
+      "confidence": "High"
+     },
      {
       "c": "common:C83",
       "s": "common:S11",

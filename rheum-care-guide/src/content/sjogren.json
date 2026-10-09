@@ -73,7 +73,7 @@
      "sid": "SJ-1.3"
     },
     {
-     "text": "盡量避開過熱、開冷氣或乾燥的環境，也避免吹風，以免淚水蒸發太快。",
+     "text": "盡量避開過熱或乾燥的環境，避免風直接吹到眼睛，以免淚水蒸發太快。",
      "strength_label": "BSR 2025・指引說明；巴西風濕病學會 2015・建議強度 D",
      "evidence": [
       {
@@ -644,7 +644,7 @@
   {
    "s": "S12",
    "short": "TFOS DEWS III 2025 乾眼報告執行摘要",
-   "citation": "Perez VL, et al. TFOS DEWS III: Executive Summary. Am J Ophthalmol 2025;282:135-145.",
+   "citation": "Perez VL, et al. TFOS DEWS III: Executive Summary. Am J Ophthalmol 2026;282:135-145 (epub 2025 Sep 24).",
    "pmid": "41005521",
    "doi": "10.1016/j.ajo.2025.09.035",
    "url": null
