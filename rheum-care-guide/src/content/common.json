@@ -449,13 +449,13 @@
      "sid": "CM-5.1"
     },
     {
-     "text": "風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種；接種前請先問風濕科醫師。",
+     "text": "風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種，包括活性的帶狀疱疹（皮蛇）疫苗；流感疫苗請選非活性的。接種前請先問風濕科醫師。",
      "strength_label": "ACR 2022・建議",
      "evidence": [
       {
        "c": "C77",
        "s": "S10",
-       "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression.",
+       "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression. … For some live attenuated virus vaccines, such as for oral polio, oral typhoid, and influenza, there are inactivated alternatives that can be safely given to RMD patients taking immunosuppressive medication.",
        "strength": "Conditional; \"Very low\" (Table 7)",
        "confidence": "High"
       },
@@ -464,6 +464,13 @@
        "s": "S9",
        "quote": "Live-attenuated vaccines may be considered with caution in patients with AIIRD",
        "strength": "Strength not found",
+       "confidence": "High"
+      },
+      {
+       "c": "C93",
+       "s": "S21",
+       "quote": "Two types of HZ vaccines, zoster vaccine live and recombinant zoster vaccine, have been approved for use.",
+       "strength": "Narrative (abstract); describes the vaccine types, not a recommendation",
        "confidence": "High"
       }
      ],
@@ -798,6 +805,14 @@
    "citation": "Parodis I et al. EULAR recommendations for the non-pharmacological management of systemic lupus erythematosus and systemic sclerosis. Ann Rheum Dis 2024;83(6):720–729.",
    "pmid": "37433575",
    "doi": "10.1136/ard-2023-224416",
+   "url": ""
+  },
+  {
+   "s": "S21",
+   "short": "IDST 2024 台灣成人帶狀疱疹疫苗建議",
+   "citation": "Lin KY et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669–684.",
+   "pmid": "38987064",
+   "doi": "10.1016/j.jmii.2024.06.001",
    "url": ""
   }
  ]
