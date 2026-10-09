@@ -449,13 +449,13 @@
      "sid": "CM-5.1"
     },
     {
-     "text": "風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種；接種前請先問風濕科醫師。",
+     "text": "風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種，包括活性的帶狀疱疹（皮蛇）疫苗；流感疫苗請選非活性的。接種前請先問風濕科醫師。",
      "strength_label": "ACR 2022・建議",
      "evidence": [
       {
        "c": "C77",
        "s": "S10",
-       "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression.",
+       "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression. … For some live attenuated virus vaccines, such as for oral polio, oral typhoid, and influenza, there are inactivated alternatives that can be safely given to RMD patients taking immunosuppressive medication.",
        "strength": "Conditional; \"Very low\" (Table 7)",
        "confidence": "High"
       },
@@ -464,6 +464,13 @@
        "s": "S9",
        "quote": "Live-attenuated vaccines may be considered with caution in patients with AIIRD",
        "strength": "Strength not found",
+       "confidence": "High"
+      },
+      {
+       "c": "C93",
+       "s": "S21",
+       "quote": "Two types of HZ vaccines, zoster vaccine live and recombinant zoster vaccine, have been approved for use.",
+       "strength": "Narrative (abstract); describes the vaccine types, not a recommendation",
        "confidence": "High"
       }
      ],
@@ -799,6 +806,14 @@
    "pmid": "37433575",
    "doi": "10.1136/ard-2023-224416",
    "url": ""
+  },
+  {
+   "s": "S21",
+   "short": "IDST 2024 台灣成人帶狀疱疹疫苗建議",
+   "citation": "Lin KY et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669–684.",
+   "pmid": "38987064",
+   "doi": "10.1016/j.jmii.2024.06.001",
+   "url": ""
   }
  ],
  "reviewer_notes": [
@@ -818,6 +833,7 @@
   "The intro's first sentence rests on common:C01 (S1 overarching principle 1: 'Lifestyle improvements complement medical treatment and do not replace it'; LoE 5, GoR D).",
   "Wording choices: 'vigorous-intensity' is 「高強度」 (Taiwan HPA, S19, uses 「劇烈強度」); 'varied multicomponent physical activity' is 「多樣化的活動」; 'photoprotection' is 「防曬」; the colloquial 「皮蛇」 is added after 帶狀疱疹; 'DMARDs' is 「抗風濕藥物」.",
   "Unverified versions and single reads: S1 is the online-first PDF (not compared with print), and S6 is the ACR-hosted manuscript (not compared with the typeset version). The C38 text, C86, C88, C89 and C90 quotes are single WebFetch reads. S11 was read from the ICNIRP-hosted PDF; the URL given is the WHO publication page, which I checked on 2026-10-06 (title and 2002 date match), as was the S12 URL.",
-  "CM-4.6 added on 2026-10-10 at the reviewing physician's request, after the fact-check of the steroid bone-care video: 「及早和醫師討論骨質疏鬆與骨折風險。」 It rests on ACR 2022's strong recommendation (low-certainty evidence, 'good clinical practice') for an initial fracture-risk assessment as soon as possible, within 6 months, after starting GCs (C92). The assessment methods (clinical fracture assessment, BMD with vertebral fracture assessment or spine x-ray, FRAX if ≥40) and the drug-treatment thresholds are not printed, because they are outside the lifestyle scope."
+  "CM-4.6 added on 2026-10-10 at the reviewing physician's request, after the fact-check of the steroid bone-care video: 「及早和醫師討論骨質疏鬆與骨折風險。」 It rests on ACR 2022's strong recommendation (low-certainty evidence, 'good clinical practice') for an initial fracture-risk assessment as soon as possible, within 6 months, after starting GCs (C92). The assessment methods (clinical fracture assessment, BMD with vertebral fracture assessment or spine x-ray, FRAX if ≥40) and the drug-treatment thresholds are not printed, because they are outside the lifestyle scope.",
+  "CM-5.2 extended on 2026-10-10 at the reviewing physician's request, after the fact-check of the vaccine video. It now names the live zoster vaccine among the live attenuated vaccines to defer, and says to choose a non-live influenza vaccine. Sources: ACR's inactivated-alternatives sentence (C77: influenza has inactivated alternatives that can be safely given on immunosuppression) and the IDST 2024 abstract, which says both a live and a recombinant zoster vaccine are approved (C93, S21, abstract only). The strength label stays ACR 2022・建議 (conditional) because the IDST sentence describes the vaccine types and is not a recommendation."
  ]
 }
