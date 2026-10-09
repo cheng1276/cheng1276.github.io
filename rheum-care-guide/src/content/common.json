@@ -390,6 +390,20 @@
       }
      ],
      "sid": "CM-4.5"
+    },
+    {
+     "text": "及早和醫師討論骨質疏鬆與骨折風險。",
+     "strength_label": "ACR 2022・強烈建議",
+     "evidence": [
+      {
+       "c": "C92",
+       "s": "S6",
+       "quote": "For adults beginning or continuing >3 months of GC treatment, we strongly recommend as soon as possible after initiation of GCs, initial assessment of fracture risks with clinical fracture assessment, bone mineral density with vertebral fracture assessment or spinal x-ray, and Fracture Risk Assessment Tool if ≥40 years old. … Initial assessment should occur as soon as possible within 6 months of GC therapy initiation.",
+       "strength": "Strong; low certainty of evidence (manuscript: a strong recommendation as good clinical practice)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-4.6"
     }
    ],
    "tip": {
@@ -803,6 +817,7 @@
   "Population wording: points that claim an effect on the disease name 風濕病 (S1/S10 'RMDs') or 自體免疫風濕病 (S9 'AIIRD'). Plain behaviour advice from S1 (eat a balanced diet, aim for a healthy weight, quit smoking, talk about alcohol) is left unscoped, because it is not wrong for anyone; strictly, though, S1 covers RMDs, not chronic urticaria. Scope those points too if you want strict wording.",
   "The intro's first sentence rests on common:C01 (S1 overarching principle 1: 'Lifestyle improvements complement medical treatment and do not replace it'; LoE 5, GoR D).",
   "Wording choices: 'vigorous-intensity' is 「高強度」 (Taiwan HPA, S19, uses 「劇烈強度」); 'varied multicomponent physical activity' is 「多樣化的活動」; 'photoprotection' is 「防曬」; the colloquial 「皮蛇」 is added after 帶狀疱疹; 'DMARDs' is 「抗風濕藥物」.",
-  "Unverified versions and single reads: S1 is the online-first PDF (not compared with print), and S6 is the ACR-hosted manuscript (not compared with the typeset version). The C38 text, C86, C88, C89 and C90 quotes are single WebFetch reads. S11 was read from the ICNIRP-hosted PDF; the URL given is the WHO publication page, which I checked on 2026-10-06 (title and 2002 date match), as was the S12 URL."
+  "Unverified versions and single reads: S1 is the online-first PDF (not compared with print), and S6 is the ACR-hosted manuscript (not compared with the typeset version). The C38 text, C86, C88, C89 and C90 quotes are single WebFetch reads. S11 was read from the ICNIRP-hosted PDF; the URL given is the WHO publication page, which I checked on 2026-10-06 (title and 2002 date match), as was the S12 URL.",
+  "CM-4.6 added on 2026-10-10 at the reviewing physician's request, after the fact-check of the steroid bone-care video: 「及早和醫師討論骨質疏鬆與骨折風險。」 It rests on ACR 2022's strong recommendation (low-certainty evidence, 'good clinical practice') for an initial fracture-risk assessment as soon as possible, within 6 months, after starting GCs (C92). The assessment methods (clinical fracture assessment, BMD with vertebral fracture assessment or spine x-ray, FRAX if ≥40) and the drug-treatment thresholds are not printed, because they are outside the lifestyle scope."
  ]
 }
