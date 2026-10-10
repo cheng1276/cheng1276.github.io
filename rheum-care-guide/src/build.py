@@ -4,6 +4,9 @@ Usage:
   python3 src/build.py                 # public site -> index.html (full HTML document)
   python3 src/build.py --review --fragment --out PATH
                                        # review copy with physician notes, as an HTML fragment
+  python3 src/build.py --review --drafts DIR --fragment --out PATH
+                                       # review copy that also shows the draft pages in DRAFT_ORDER,
+                                       # read from DIR/<slug>.json (not part of the public site)
 
 Content lives in src/content/<slug>.json: every sentence carries the guideline quotes it rests on.
 """
@@ -20,8 +23,11 @@ TEMPLATE = HERE / 'template.html'
 SITE_URL = 'https://cheng1276.github.io/rheum-care-guide/'
 
 ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren']
+# Pages drafted for physician review; shown only in a review build with --drafts.
+DRAFT_ORDER = ['oa', 'osteoporosis', 'labs', 'infection']
 TABS = {'common': '共通照護', 'gout': '痛風', 'urticaria': '慢性蕁麻疹', 'ra': '類風濕性關節炎',
-        'axspa': '僵直性脊椎炎', 'sle': '紅斑性狼瘡', 'sjogren': '乾燥症'}
+        'axspa': '僵直性脊椎炎', 'sle': '紅斑性狼瘡', 'sjogren': '乾燥症',
+        'oa': '退化性關節炎', 'osteoporosis': '骨質疏鬆症', 'labs': '健檢報告異常', 'infection': '治療期間防感染'}
 
 # Items the physician still has to decide (shown only in the review copy).
 NOTES = {}  # notes for the reviewing physician are kept privately
@@ -79,12 +85,14 @@ def glossary_data(review):
             'meta': {'n': len(entries), 'quotes': n_quotes}}
 
 
-def build_data(review):
+def build_data(review, drafts=None):
     common_src = {s['s']: s for s in json.load(open(CONTENT / 'common.json', encoding='utf-8'))['sources']}
-    data = {'order': ORDER, 'diseases': {}, 'meta': {}}
+    order = ORDER + (DRAFT_ORDER if (review and drafts) else [])
+    data = {'order': order, 'diseases': {}, 'meta': {}}
     n_stmt = 0
-    for slug in ORDER:
-        d = json.load(open(CONTENT / f'{slug}.json', encoding='utf-8'))
+    for slug in order:
+        base = drafts if slug in DRAFT_ORDER else CONTENT
+        d = json.load(open(base / f'{slug}.json', encoding='utf-8'))
         cards = []
         for c in d['cards']:
             cards.append({'id': c['id'], 'title': c['title'], 'summary': c['summary'],
@@ -119,7 +127,10 @@ def main(argv):
     review = '--review' in argv
     fragment = '--fragment' in argv
     out = pathlib.Path(argv[argv.index('--out') + 1]) if '--out' in argv else ROOT / 'index.html'
-    data, n_stmt = build_data(review)
+    drafts = pathlib.Path(argv[argv.index('--drafts') + 1]) if '--drafts' in argv else None
+    if drafts and not review:
+        sys.exit('--drafts is only allowed with --review')
+    data, n_stmt = build_data(review, drafts)
     blob = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     page = TEMPLATE.read_text(encoding='utf-8').replace('/*__DATA__*/', blob)
     if not review:

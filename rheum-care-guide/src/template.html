@@ -39,6 +39,10 @@
   --sle:#6c4cb8; --sle-ink:#4b3189; --sle-soft:#cbbbef; --sle-wash:#efe9fa;
   --sjogren:#0a7d9c; --sjogren-ink:#075a71; --sjogren-soft:#9fd6e6; --sjogren-wash:#dff1f6;
   --glossary:#4f5a7a; --glossary-ink:#353e5a; --glossary-soft:#c5cbe0; --glossary-wash:#eceef6;
+  --oa:#66751a; --oa-ink:#46520f; --oa-soft:#d3dd9f; --oa-wash:#f1f5dd;
+  --osteoporosis:#7a6656; --osteoporosis-ink:#55463a; --osteoporosis-soft:#dccdc0; --osteoporosis-wash:#f4eee8;
+  --labs:#8b3a8f; --labs-ink:#632866; --labs-soft:#e1b6e3; --labs-wash:#f6e8f7;
+  --infection:#1d7350; --infection-ink:#125238; --infection-soft:#a6d9c2; --infection-wash:#e0f1e9;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -53,6 +57,10 @@
     --sle:#b6a0f2; --sle-ink:#ddd2fa; --sle-soft:#463a70; --sle-wash:#211b35;
     --sjogren:#62c7e2; --sjogren-ink:#b8e6f3; --sjogren-soft:#245562; --sjogren-wash:#12272d;
     --glossary:#a7b2d6; --glossary-ink:#d8ddef; --glossary-soft:#3b4362; --glossary-wash:#1b1f2c;
+    --oa:#c3d26a; --oa-ink:#e4ecb6; --oa-soft:#4b5420; --oa-wash:#222610;
+    --osteoporosis:#cdb6a3; --osteoporosis-ink:#ebdfd5; --osteoporosis-soft:#57493e; --osteoporosis-wash:#26201b;
+    --labs:#e09be3; --labs-ink:#f3d3f4; --labs-soft:#5b2d5e; --labs-wash:#2a172b;
+    --infection:#6fcfa5; --infection-ink:#c0ebd7; --infection-soft:#275c45; --infection-wash:#11281e;
     color-scheme:dark;
   }
 }
@@ -68,6 +76,10 @@
   --sle:#b6a0f2; --sle-ink:#ddd2fa; --sle-soft:#463a70; --sle-wash:#211b35;
   --sjogren:#62c7e2; --sjogren-ink:#b8e6f3; --sjogren-soft:#245562; --sjogren-wash:#12272d;
   --glossary:#a7b2d6; --glossary-ink:#d8ddef; --glossary-soft:#3b4362; --glossary-wash:#1b1f2c;
+  --oa:#c3d26a; --oa-ink:#e4ecb6; --oa-soft:#4b5420; --oa-wash:#222610;
+  --osteoporosis:#cdb6a3; --osteoporosis-ink:#ebdfd5; --osteoporosis-soft:#57493e; --osteoporosis-wash:#26201b;
+  --labs:#e09be3; --labs-ink:#f3d3f4; --labs-soft:#5b2d5e; --labs-wash:#2a172b;
+  --infection:#6fcfa5; --infection-ink:#c0ebd7; --infection-soft:#275c45; --infection-wash:#11281e;
   color-scheme:dark;
 }
 
@@ -93,6 +105,10 @@ button{font:inherit;color:inherit}
 [data-d="axspa"]{--hue:var(--axspa);--hue-ink:var(--axspa-ink);--hue-soft:var(--axspa-soft);--hue-wash:var(--axspa-wash)}
 [data-d="sle"]{--hue:var(--sle);--hue-ink:var(--sle-ink);--hue-soft:var(--sle-soft);--hue-wash:var(--sle-wash)}
 [data-d="sjogren"]{--hue:var(--sjogren);--hue-ink:var(--sjogren-ink);--hue-soft:var(--sjogren-soft);--hue-wash:var(--sjogren-wash)}
+[data-d="oa"]{--hue:var(--oa);--hue-ink:var(--oa-ink);--hue-soft:var(--oa-soft);--hue-wash:var(--oa-wash)}
+[data-d="osteoporosis"]{--hue:var(--osteoporosis);--hue-ink:var(--osteoporosis-ink);--hue-soft:var(--osteoporosis-soft);--hue-wash:var(--osteoporosis-wash)}
+[data-d="labs"]{--hue:var(--labs);--hue-ink:var(--labs-ink);--hue-soft:var(--labs-soft);--hue-wash:var(--labs-wash)}
+[data-d="infection"]{--hue:var(--infection);--hue-ink:var(--infection-ink);--hue-soft:var(--infection-soft);--hue-wash:var(--infection-wash)}
 [data-d="glossary"]{--hue:var(--glossary);--hue-ink:var(--glossary-ink);--hue-soft:var(--glossary-soft);--hue-wash:var(--glossary-wash)}
 
 /* ---------- header ---------- */
@@ -382,6 +398,8 @@ h1{font-size:var(--t-h1)}
   const CATN = {};
   G.cats.forEach((c) => { CATN[c.id] = c.name; });
   const TABS = ORDER.concat(['glossary']);
+  const TOPICS = ['labs', 'infection'];
+  const KICKER = { common: '六種疾病都適用', labs: '看懂檢查報告', infection: '治療期間的照護' };
   const valid = (s) => s === 'glossary' || Object.prototype.hasOwnProperty.call(D, s);
   const $ = (id) => document.getElementById(id);
   const esc = (t) => String(t == null ? '' : t).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -437,7 +455,31 @@ h1{font-size:var(--t-h1)}
     'sjogren-eyes': '<path class="ts" d="M48 6 q13 17 13 25 a13 13 0 0 1 -26 0 q0 -8 13 -25z"/><path class="w" d="M8 62 q40 -30 80 0 q-40 30 -80 0z"/><circle class="a" cx="48" cy="62" r="11"/><circle class="kf" cx="48" cy="62" r="4.5"/>',
     'sjogren-mouth': '<path class="w" d="M16 30 c0 -10 10 -14 18 -10 c4 2 8 2 12 0 c8 -4 18 0 18 10 c0 12 -6 18 -8 30 c-1 8 -3 18 -8 18 c-5 0 -5 -14 -9 -14 c-4 0 -4 14 -9 14 c-5 0 -7 -10 -8 -18 c-2 -12 -6 -18 -6 -30z"/><path class="k" d="M24 30 c1 -5 6 -7 10 -5"/>' + GLASS(70, 40, 20, 44),
     'sjogren-medicines': '<rect class="w" x="14" y="36" width="36" height="48" rx="5"/><rect class="a" x="11" y="26" width="42" height="12" rx="3"/><rect class="t" x="21" y="50" width="22" height="18" rx="2"/><g transform="rotate(-30 70 70)"><rect class="w" x="56" y="64" width="28" height="12" rx="6"/><path class="a" d="M70 64 h8 a6 6 0 0 1 0 12 h-8z"/></g><path class="w" d="M58 6 h26 a6 6 0 0 1 6 6 v10 a6 6 0 0 1 -6 6 h-15 l-7 6 v-6 h-4 a6 6 0 0 1 -6 -6 v-10 a6 6 0 0 1 6 -6z"/><circle class="a" cx="64" cy="17" r="2.3"/><circle class="a" cx="71" cy="17" r="2.3"/><circle class="a" cx="78" cy="17" r="2.3"/>',
-    'sjogren-fatigue': WALK + '<circle class="w" cx="74" cy="24" r="14"/><path class="k" d="M74 15 V24 L80 28"/>'
+    'sjogren-fatigue': WALK + '<circle class="w" cx="74" cy="24" r="14"/><path class="k" d="M74 15 V24 L80 28"/>',
+    'oa-basics': '<path class="w" d="M34 6 h22 v22 c7 3 8 9 6 14 h-34 c-2 -5 -1 -11 6 -14z"/><rect class="t" x="28" y="44" width="34" height="6" rx="3"/><path class="w" d="M28 52 h34 c1 6 -2 10 -6 12 v24 h-22 v-24 c-4 -2 -7 -6 -6 -12z"/><circle class="a" cx="77" cy="24" r="13"/><path class="kw" d="M71 24 l4 4 l8 -8"/>',
+    'oa-exercise': WALK + '<path class="k" d="M58 64 q6 -5 12 0 t12 0 t12 0 M58 77 q6 -5 12 0 t12 0 t12 0"/>',
+    'oa-exercise-pain': '<path class="w" d="M12 70 a36 36 0 0 1 72 0z"/><path class="kb" d="M22 70 a26 26 0 0 1 13 -22.5"/><path class="k" d="M48 70 L39 47"/><circle class="kf" cx="48" cy="70" r="5"/><path class="k" d="M8 82 H88"/>',
+    'oa-weight': '<rect class="w" x="8" y="42" width="52" height="42" rx="8"/><path class="k" d="M22 60 a12 12 0 0 1 24 0 M34 60 L38 53"/><path class="k" d="M76 14 V52 M66 42 L76 52 L86 42"/>',
+    'oa-hand': '<rect class="w" x="34" y="16" width="8.5" height="30" rx="4.2"/><rect class="w" x="43.5" y="11" width="8.5" height="35" rx="4.2"/><rect class="w" x="53" y="13" width="8.5" height="33" rx="4.2"/><rect class="w" x="62.5" y="19" width="8" height="27" rx="4"/><rect class="w" x="20" y="38" width="9" height="24" rx="4.5" transform="rotate(-35 24.5 50)"/><rect class="w" x="31" y="38" width="40" height="30" rx="10"/><rect class="a" x="18.5" y="47" width="12" height="10" rx="3" transform="rotate(-35 24.5 50)"/><circle class="t" cx="38.2" cy="22" r="3"/><circle class="t" cx="47.7" cy="17" r="3"/><path class="k" d="M38 68 V86 M64 68 V86"/>',
+    'oa-aids': '<path class="kb" d="M20 20 q0 -10 10 -10 q8 0 8 8 V88"/><path class="w" d="M50 60 h14 l4 9 l14 6 q6 2 6 8 v3 h-38z"/><path class="t" d="M50 86 h38 v4 h-38z"/>',
+    'osteoporosis-fracture': '<g transform="rotate(-20 40 54)"><circle class="w" cx="14" cy="47" r="7"/><circle class="w" cx="14" cy="61" r="7"/><circle class="w" cx="66" cy="47" r="7"/><circle class="w" cx="66" cy="61" r="7"/><rect class="wf" x="13" y="48.6" width="54" height="10.8"/><path class="k" d="M19 48 H61 M19 60 H61"/><path class="k" d="M37 48 l5 4 l-6 3 l5 5"/></g><path class="nf" d="M78 8 l14 24 h-28 z"/><path class="kw" d="M78 16 v8 M78 28 v.5"/>',
+    'osteoporosis-calcium-vitamin-d': '<path class="w" d="M14 38 l9 -12 h22 l9 12 v48 h-40z"/><path class="k" d="M14 38 h40 M23 26 l2 -10 h18 l2 10"/><rect class="a" x="14" y="52" width="40" height="14"/>' + SUN(76, 26, 9),
+    'osteoporosis-exercise': '<circle class="a" cx="48" cy="26" r="7"/><path class="k" d="M48 35 V60 M48 42 L33 22 M48 42 L63 22 M48 60 L38 84 M48 60 L58 84"/><path class="k" d="M22 20 H74"/><rect class="a" x="15" y="11" width="8" height="18" rx="2"/><rect class="a" x="73" y="11" width="8" height="18" rx="2"/>',
+    'osteoporosis-spine': [10, 22, 34, 46, 58, 70].map((y) => `<rect class="w" x="26" y="${y}" width="28" height="9" rx="3"/>`).join('') + '<path class="t" d="M30 81 h20 v6 h-20z"/><circle class="a" cx="76" cy="30" r="13"/><path class="kw" d="M70 30 l4 4 l8 -8"/>',
+    'osteoporosis-falls': '<path class="w" d="M8 88 V72 H28 V56 H48 V40 H68 V24 H88 V88 Z"/><path class="kb" d="M10 54 L72 8"/><path class="k" d="M23 44 V70 M43 30 V54 M63 15 V38"/>',
+    'osteoporosis-treatment': '<rect class="w" x="6" y="14" width="56" height="54" rx="6"/><path class="a" d="M6 20 a6 6 0 0 1 6 -6 h44 a6 6 0 0 1 6 6 v8 h-56z"/><path class="k" d="M20 8 V20 M48 8 V20"/>' + [0, 1, 2].map((c) => [0, 1].map((r) => `<rect class="t" x="${14 + c * 14}" y="${36 + r * 14}" width="8" height="7" rx="1.5"/>`).join('')).join('') + '<path class="w" d="M60 52 c4 -4 10 -2 12 0 c2 -2 8 -4 12 0 c4 5 2 13 0 18 c-1 6 -2 14 -6 14 c-3 0 -3 -9 -6 -9 c-3 0 -3 9 -6 9 c-4 0 -5 -8 -6 -14 c-2 -5 -4 -13 0 -18z"/>',
+    'labs-ana': '<circle class="w" cx="42" cy="52" r="32"/><circle class="t" cx="42" cy="52" r="18"/>' + [[35, 45], [46, 43], [40, 53], [51, 53], [34, 58], [45, 62]].map(([x, y]) => `<circle class="kf" cx="${x}" cy="${y}" r="2.5"/>`).join('') + '<circle class="a" cx="79" cy="20" r="12"/><path class="kw" d="M79 14 v12 M73 20 h12"/>',
+    'labs-sle': '<rect class="w" x="18" y="14" width="60" height="74" rx="6"/><rect class="a" x="34" y="8" width="28" height="12" rx="4"/><rect class="a" x="27" y="28" width="11" height="11" rx="2"/><path class="kw" d="M29.5 33.5 l2.5 2.5 l4 -4.5"/>' + [44, 59, 74].map((y) => `<rect class="w" x="27" y="${y - 2}" width="11" height="11" rx="2"/><path class="k" d="M44 ${y + 3.5} H69"/>`).join('') + '<path class="k" d="M44 33.5 H69"/>',
+    'labs-rf-ccp': '<path class="k" d="M12 52 H84 M16 52 V88 M80 52 V88"/><path class="w" d="M26 10 h14 v58 a7 7 0 0 1 -14 0z"/><path class="t" d="M27.6 44 h10.8 v24 a5.4 5.4 0 0 1 -10.8 0z"/><path class="w" d="M56 10 h14 v58 a7 7 0 0 1 -14 0z"/><path class="a" d="M57.6 34 h10.8 v34 a5.4 5.4 0 0 1 -10.8 0z"/>',
+    'labs-ana-screening': '<circle class="w" cx="42" cy="42" r="18"/><circle class="t" cx="42" cy="42" r="10"/><path class="kb" d="M56 56 L70 70"/><circle class="n" cx="48" cy="48" r="38"/><path class="n" d="M21 21 L75 75"/>',
+    'labs-urate': '<path class="ts" d="M38 8 q22 28 22 46 a22 22 0 0 1 -44 0 q0 -18 22 -46z"/><path class="k" d="M27 60 l13 -7 M31 70 l15 -8 M33 49 l11 -6"/><path class="k" d="M78 76 V30 M69 39 L78 30 L87 39"/>',
+    'labs-urate-treatment': '<g transform="rotate(-30 36 64)"><rect class="w" x="14" y="56" width="44" height="17" rx="8.5"/><path class="a" d="M36 56 h13.5 a8.5 8.5 0 0 1 0 17 h-13.5z"/></g><path class="w" d="M54 8 h30 a6 6 0 0 1 6 6 v18 a6 6 0 0 1 -6 6 h-15 l-8 7 v-7 h-7 a6 6 0 0 1 -6 -6 v-18 a6 6 0 0 1 6 -6z"/><path class="k" d="M63 18 a6 6 0 1 1 8.5 5.5 c-2 1 -2.5 2 -2.5 4"/><circle class="kf" cx="69" cy="32.5" r="2"/>',
+    'infection-screening': '<rect class="w" x="10" y="14" width="50" height="72" rx="6"/><rect class="a" x="23" y="8" width="24" height="12" rx="4"/><path class="k" d="M19 34 l3 3 l5 -6 M32 34 H51 M19 50 l3 3 l5 -6 M32 50 H51 M19 66 l3 3 l5 -6 M32 66 H51"/><path class="w" d="M70 16 h14 v54 a7 7 0 0 1 -14 0z"/><path class="a" d="M71.6 46 h10.8 v24 a5.4 5.4 0 0 1 -10.8 0z"/>',
+    'infection-tb': '<path class="ts" d="M40 30 c-14 2 -25 18 -27 38 c-1 10 4 16 12 14 c9 -2 15 -6 15 -15z"/><path class="ts" d="M56 30 c14 2 25 18 27 38 c1 10 -4 16 -12 14 c-9 -2 -15 -6 -15 -15z"/><path class="k" d="M48 8 V38 M48 38 q-4 3 -8 6 M48 38 q4 3 8 6"/><circle class="a" cx="28" cy="60" r="4"/><circle class="a" cx="67" cy="54" r="4"/>',
+    'infection-hbv': '<path class="ts" d="M8 40 c4 -14 30 -20 52 -16 c14 3 26 8 26 16 c0 10 -16 14 -28 22 c-12 8 -24 18 -34 14 c-12 -5 -20 -22 -16 -36z"/><path class="a" d="M70 50 q13 16 13 24 a13 13 0 0 1 -26 0 q0 -8 13 -24z"/><path class="kw" d="M64 74 a6 6 0 0 0 6 6"/>',
+    'infection-steroid': '<rect class="w" x="6" y="40" width="56" height="44" rx="6"/>' + [[19, 53], [34, 53], [49, 53], [19, 71], [34, 71], [49, 71]].map(([x, y]) => `<circle class="a" cx="${x}" cy="${y}" r="5"/>`).join('') + '<circle class="w" cx="72" cy="24" r="16"/><path class="k" d="M72 15 V24 L79 28"/>',
+    'infection-zoster': '<path class="w" d="M6 56 q42 -22 84 0 v20 q-42 -22 -84 0z"/>' + [[20, 60], [31, 56], [42, 54], [53, 54], [64, 56], [75, 60]].map(([x, y]) => `<circle class="ts" cx="${x}" cy="${y + 4}" r="4"/>`).join('') + '<path class="a" d="M72 6 l15 5 v9 c0 9 -7 14 -15 18 c-8 -4 -15 -9 -15 -18 v-9 z"/><path class="kw" d="M66 21 l4 4 l8 -8"/>',
+    'infection-sick': '<path class="w" d="M18 16 a8 8 0 0 1 16 0 v42 a13 13 0 1 1 -16 0z"/><path class="a" d="M22.5 34 h7 v28 a8.5 8.5 0 1 1 -7 0z"/><rect class="w" x="54" y="22" width="32" height="60" rx="6"/><rect class="t" x="58.5" y="30" width="23" height="40" rx="2"/><circle class="a" cx="70" cy="76" r="2.8"/>'
   };
   const pic = (id) => `<div class="pic" aria-hidden="true"><svg viewBox="0 0 96 96" focusable="false">${ICONS[id] || ''}</svg></div>`;
 
@@ -580,7 +622,7 @@ h1{font-size:var(--t-h1)}
       </section>`;
     panel.innerHTML = `
       <div class="p-head">
-        <p class="p-kicker">${slug === 'common' ? '六種疾病都適用' : '風濕免疫科門診常見疾病'}</p>
+        <p class="p-kicker">${KICKER[slug] || '風濕免疫科門診常見疾病'}</p>
         <h2>${esc(d.name)}</h2>
         <p class="p-intro">${intro}</p>
         <div class="jump" aria-label="本頁主題">${d.cards.map((c) => `<button type="button" data-jump="card-${esc(c.id)}">${esc(c.title)}</button>`).join('')}</div>
@@ -793,7 +835,7 @@ h1{font-size:var(--t-h1)}
     const totals = ORDER.reduce((a, s) => { a.cards += D[s].cards.length; return a; }, { cards: 0 });
     const srcSet = new Set();
     ORDER.forEach((s) => D[s].sources.forEach((x) => srcSet.add((x.doi || x.url || x.citation).toLowerCase())));
-    $('facts').innerHTML = `<span><b>6</b>種常見疾病＋共通照護</span><span><b>${totals.cards}</b>張照護卡</span><span><b>${DATA.meta.statements}</b>則建議</span><span><b>${srcSet.size}</b>份指引與研究</span><span><b>${G.meta.n}</b>個名詞解釋</span>`;
+    $('facts').innerHTML = `<span><b>${ORDER.filter((x) => x !== 'common' && !TOPICS.includes(x)).length}</b>種常見疾病＋共通照護${ORDER.some((x) => TOPICS.includes(x)) ? `＋<b>${ORDER.filter((x) => TOPICS.includes(x)).length}</b>個主題` : ''}</span><span><b>${totals.cards}</b>張照護卡</span><span><b>${DATA.meta.statements}</b>則建議</span><span><b>${srcSet.size}</b>份指引與研究</span><span><b>${G.meta.n}</b>個名詞解釋</span>`;
     $('nStmt').textContent = DATA.meta.statements;
     $('nQuote').textContent = DATA.meta.quotes;
     $('gN').textContent = G.meta.n;
