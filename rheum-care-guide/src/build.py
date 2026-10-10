@@ -4,6 +4,9 @@ Usage:
   python3 src/build.py                 # public site -> index.html (full HTML document)
   python3 src/build.py --review --fragment --out PATH
                                        # review copy with physician notes, as an HTML fragment
+  python3 src/build.py --review --drafts DIR --fragment --out PATH
+                                       # review copy that also shows the draft pages in DRAFT_ORDER,
+                                       # read from DIR/<slug>.json (not part of the public site)
 
 Content lives in src/content/<slug>.json: every sentence carries the guideline quotes it rests on.
 """
@@ -20,8 +23,11 @@ TEMPLATE = HERE / 'template.html'
 SITE_URL = 'https://cheng1276.github.io/rheum-care-guide/'
 
 ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren']
+# Pages drafted for physician review; shown only in a review build with --drafts.
+DRAFT_ORDER = ['oa', 'osteoporosis', 'labs', 'infection']
 TABS = {'common': '共通照護', 'gout': '痛風', 'urticaria': '慢性蕁麻疹', 'ra': '類風濕性關節炎',
-        'axspa': '僵直性脊椎炎', 'sle': '紅斑性狼瘡', 'sjogren': '乾燥症'}
+        'axspa': '僵直性脊椎炎', 'sle': '紅斑性狼瘡', 'sjogren': '乾燥症',
+        'oa': '退化性關節炎', 'osteoporosis': '骨質疏鬆症', 'labs': '健檢報告異常', 'infection': '治療期間防感染'}
 
 # Items the physician still has to decide (shown only in the review copy).
 NOTES = {
@@ -67,6 +73,32 @@ NOTES = {
         '「可能讓口乾的藥」依據一般族群的系統性回顧，不是乾燥症指引；「不要自行停藥」為編輯加註。',
         '油漱口（油拔法）的迷思已刪除，因為原指引呈現的證據有正有負。',
         '熱敷「溫熱不燙」為編輯加註。',
+    ],
+    'oa': [
+        '新頁（2026 年 10 月草稿，尚未上線）。ACR 2026 退化性關節炎更新目前只有摘要、未經同儕審查，網站未引用；它會改變的地方（手部運動、手杖、護膝、TENS、拇指副木的建議變弱；按摩改為有條件建議；軟骨素加入強烈不建議）列在撰寫者備註，正式版出刊後需複查。',
+        '針灸、按摩、肌內效貼布、軟骨素、髖關節水中運動等，各指引看法不同，網站未寫。',
+        'OA-S2「可能不是單純的退化性關節炎，請盡快就醫」依 NICE 對非典型表現的定義；「請盡快就醫」與 OA-5.4「注意溫度，避免燙傷」為編輯加註。',
+        '沒有找到台灣的退化性關節炎指引，以新加坡 ACE 2026 膝關節指引作第二引用。NICE NG226 的 PubMed 編號無法確認，出處列 NICE 網址。',
+    ],
+    'osteoporosis': [
+        '新頁（2026 年 10 月草稿，尚未上線）。鈣的建議量各指引不同（英國至少 700、美加 1,000–1,200、台灣骨質疏鬆症學會 2021 年 50 歲以上至少 1,200、澳洲 1,300 毫克）；網站採美國與加拿大的數字，請決定是否改用台灣建議量。',
+        '維生素 D 只寫英國「缺乏或可能缺乏者每天至少 800 國際單位」，沒有全民建議量。',
+        '「每半年打一次的骨鬆皮下注射針劑（denosumab）」：是否保留藥名請決定；不可自行停藥或延後的提醒依英國、加拿大與澳洲指引。',
+        '乳品：國健署 2018 每日飲食指南為每天 1.5 到 2 杯；2026 年 3 月草案改為 1 杯，尚未確認定案。大骨湯迷思未放（唯一來源是單一實驗室研究）。',
+        '台灣骨質疏鬆症學會 2025 版無法讀取，OP-1.3、OP-1.4、OP-2.3 請對照原文。',
+    ],
+    'labs': [
+        '新頁（2026 年 10 月草稿，尚未上線）。頁名「健檢報告異常」請確認。',
+        '無症狀高尿酸是否用藥，指引不一致（ACR 2020 有條件不建議；日本與中國 2024 建議特定族群用藥；韓國、EULAR、香港沒有建議）；網站只寫共同點「不是每個人都需要」。台灣 2018 多專科共識只讀到摘要，請對照全文。',
+        '抗核抗體陽性率各研究不同，網站寫「1:40 以上約 20%、最多可達 35%，1:160 以上約 5%」；沒有找到台灣健康成人的數據。',
+        'LB-2.2：紅斑性狼瘡分類另要求「至少 1 項臨床表現」，此規則在分類標準的圖中，只有二手來源，網站未寫；如要加入請確認。',
+        '沒有來源說明「沒有症狀但報告異常」何時該就醫；何時就醫只寫關節腫脹（EULAR 6 週內看風濕科、NICE 持續腫脹要評估），另加編輯加註「對報告有疑問，可以帶著報告和醫師討論」。',
+    ],
+    'infection': [
+        '新頁（2026 年 10 月草稿，尚未上線）。類固醇兩點（不可自行突然停用、發燒或感染時可能需要暫時補充類固醇；嘔吐或腹瀉時盡快就醫）依據內分泌學會 2024 腎上腺功能不足指引，不是風濕科指引，請確認。',
+        'B 型肝炎抗病毒藥：沒有來源直接寫「不要自行停用」；依 APASL、AASLD「停免疫抑制治療後仍要繼續一段時間、停藥後繼續抽血」的內容，「請不要自行停用」為編輯加註。',
+        'HIV、C 型肝炎與傳統藥物前的結核篩檢範圍各指引不同，網站寫「醫師也可能安排」。「JAK 抑制劑」藥物類別名稱出現在皮蛇相關兩處，請確認。',
+        '疾管署潛伏結核資料（都治、約 9 成保護）經查核者另行讀取確認；費用補助的說法前後不一致，網站未寫。台灣風濕病醫學會 2012 結核與 B 肝共識未找到原文。',
     ],
     'glossary': [
         '良好實務建議：WHO 2020 把「有動總比沒動好」列為 good practice statement 的說法見於 WHO 指引全書（非 PubMed 收錄），請確認；詞條定義依 GRADE 方法學論文。',
@@ -131,12 +163,14 @@ def glossary_data(review):
             'meta': {'n': len(entries), 'quotes': n_quotes}}
 
 
-def build_data(review):
+def build_data(review, drafts=None):
     common_src = {s['s']: s for s in json.load(open(CONTENT / 'common.json', encoding='utf-8'))['sources']}
-    data = {'order': ORDER, 'diseases': {}, 'meta': {}}
+    order = ORDER + (DRAFT_ORDER if (review and drafts) else [])
+    data = {'order': order, 'diseases': {}, 'meta': {}}
     n_stmt = 0
-    for slug in ORDER:
-        d = json.load(open(CONTENT / f'{slug}.json', encoding='utf-8'))
+    for slug in order:
+        base = drafts if slug in DRAFT_ORDER else CONTENT
+        d = json.load(open(base / f'{slug}.json', encoding='utf-8'))
         cards = []
         for c in d['cards']:
             cards.append({'id': c['id'], 'title': c['title'], 'summary': c['summary'],
@@ -171,7 +205,10 @@ def main(argv):
     review = '--review' in argv
     fragment = '--fragment' in argv
     out = pathlib.Path(argv[argv.index('--out') + 1]) if '--out' in argv else ROOT / 'index.html'
-    data, n_stmt = build_data(review)
+    drafts = pathlib.Path(argv[argv.index('--drafts') + 1]) if '--drafts' in argv else None
+    if drafts and not review:
+        sys.exit('--drafts is only allowed with --review')
+    data, n_stmt = build_data(review, drafts)
     blob = json.dumps(data, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
     page = TEMPLATE.read_text(encoding='utf-8').replace('/*__DATA__*/', blob)
     if not review:

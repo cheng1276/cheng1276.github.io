@@ -1,0 +1,961 @@
+{
+ "slug": "labs",
+ "name": "健檢報告異常",
+ "intro": "健檢報告出現抗核抗體、類風濕因子、抗CCP抗體陽性或尿酸偏高時，這頁說明它們的意思；是否生病，要由醫師合併症狀與檢查判斷。",
+ "cards": [
+  {
+   "id": "labs-ana",
+   "title": "抗核抗體陽性",
+   "summary": "健康的人也可能陽性，數值越高越少見。",
+   "illustration": "A calm adult sitting at a kitchen table reading a printed health-check report shown only as blank lines and simple icons, with a cup of tea nearby; flat, friendly style, no text, no numbers, no brands.",
+   "points": [
+    {
+     "text": "健康的人也可能驗出抗核抗體（ANA）陽性：1:40以上約20%、最多可達35%，1:160以上約5%。",
+     "strength_label": "CRA 2015・指引說明；ICAP 2019・專家共識",
+     "evidence": [
+      {
+       "c": "C28",
+       "s": "S8",
+       "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
+       "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+       "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+      },
+      {
+       "c": "C20",
+       "s": "S5",
+       "quote": "Indeed, up to 35% of healthy controls may be positive if a screening dilution of 1/40 is used.",
+       "strength": "Consensus statement (citing EASI/IUIS, S6) | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-1.1"
+    },
+    {
+     "text": "抗核抗體數值越高（如1:160高於1:40），和自體免疫風濕病關聯越強。",
+     "strength_label": "ICAP 2019・專家共識",
+     "evidence": [
+      {
+       "c": "C19",
+       "s": "S5",
+       "quote": "Indeed, higher antibody levels are better associated with SARD and have an increased likelihood to identify the autoantigen in follow-up testing.",
+       "strength": "Consensus statement | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "confidence": "High"
+      },
+      {
+       "c": "C12",
+       "s": "S4",
+       "quote": "For ANA at titers of 1:40, 1:80, 1:160, and 1:320, meta-regression gave sensitivity values of … The corresponding specificities were 66.9% (95% CI 57.8-74.9%), 74.7% (95% CI 66.7-81.3%), 86.2% (95% CI 80.4-90.5%), and 96.6% (95% CI 93.9-98.1%), respectively.",
+       "strength": "SR/meta-regression (specificity estimated against comparison groups, not the general population) | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 28544593))",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C28",
+       "s": "S8",
+       "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
+       "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+       "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+      }
+     ],
+     "sid": "LB-1.2"
+    },
+    {
+     "text": "單看報告上的抗核抗體型態，通常不能確定和哪一種疾病有關，要由醫師配合症狀判斷。",
+     "strength_label": "ICAP 2019・專家共識",
+     "evidence": [
+      {
+       "c": "C22",
+       "s": "S5",
+       "quote": "Altogether, it is evident that, with the exception of the centromere pattern (AC-3), all patterns are to be confirmed by antigen-specific immunoassay for a solid association with the respective autoimmune diseases.",
+       "strength": "Consensus statement | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "confidence": "High"
+      },
+      {
+       "c": "C25",
+       "s": "S7",
+       "quote": "1. Do not test antinuclear antibody (ANA) subserologies without a positive ANA and clinical suspicion of immune-mediated disease",
+       "strength": "Grade 1C item; cited here for the point that further antibody testing depends on the doctor's clinical suspicion | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-1.3"
+    },
+    {
+     "text": "不同醫院或檢驗所的抗核抗體檢驗方法、陽性切點可能不同，結果不一定一致。",
+     "strength_label": "EASI/IUIS 2014・專家共識；ICAP 2019・專家共識",
+     "evidence": [
+      {
+       "c": "C24",
+       "s": "S6",
+       "quote": "These alternative platforms differ in their antigen profiles, sensitivity and specificity, raising uncertainties regarding standardisation and interpretation of incongruent results.",
+       "strength": "International consensus recommendations (abstract) | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 24126457))",
+       "confidence": "Medium (abstract only)"
+      },
+      {
+       "c": "C20",
+       "s": "S5",
+       "quote": "Therefore, in the EASI/IUIS recommendations, it is advocated that each laboratory verifies that the screening dilution is defined by a cut-off set at the 95th percentile.",
+       "strength": "Consensus statement (citing EASI/IUIS, S6) | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-1.4"
+    }
+   ],
+   "tip": {
+    "text": "沒有相關疾病表現、卻驗出抗核抗體陽性的情況越來越多，可能和真正有病的陽性一樣常見。",
+    "strength_label": "ICAP 2019・專家共識",
+    "evidence": [
+     {
+      "c": "C21",
+      "s": "S5",
+      "quote": "the number of clinically unexpected positive results, that is, positive test results with no clinical evidence of an associated autoimmune disease, is ever increasing and may even equal the likelihood of a clinically true-positive result.",
+      "strength": "Consensus statement | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+      "confidence": "High"
+     }
+    ],
+    "sid": "LB-1.T"
+   }
+  },
+  {
+   "id": "labs-sle",
+   "title": "抗核抗體與紅斑性狼瘡",
+   "summary": "抗核抗體陽性只是入門條件，不等於紅斑性狼瘡。",
+   "illustration": "A doctor and a patient talking at a desk; beside them, a simple drawing of an open door with a few blank puzzle pieces beyond it, suggesting that one test is only a first step; flat, friendly style, no text.",
+   "points": [
+    {
+     "text": "國際紅斑性狼瘡分類標準中，抗核抗體陽性（1:80以上）只是入門條件。",
+     "strength_label": "EULAR/ACR 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C14",
+       "s": "S3",
+       "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; … They endorsed “positive ANA (≥1:80 by HEp-2 immunofluorescence)” as an entry criterion.",
+       "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "confidence": "High"
+      },
+      {
+       "c": "C13",
+       "s": "S4",
+       "quote": "ANAs at a titer of 1:80 have sufficiently high sensitivity to be considered as an entry criterion for SLE classification criteria, i.e., formally test other classification criteria for SLE only if ANAs of at least 1:80 have been found.",
+       "strength": "SR/meta-regression | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 28544593))",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "LB-2.1"
+    },
+    {
+     "text": "通過入門條件後，還要依7類臨床表現（例如皮膚黏膜、肌肉骨骼、腎臟）和3類免疫檢驗評分，累積10分以上，才歸類為紅斑性狼瘡。",
+     "strength_label": "EULAR/ACR 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C14",
+       "s": "S3",
+       "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; followed by additive weighted criteria grouped in 7 clinical (constitutional, hematologic, neuropsychiatric, mucocutaneous, serosal, musculoskeletal, renal) and 3 immunological (antiphospholipid antibodies, complement proteins, SLE-specific antibodies) domains, and weighted from 2 to 10. Patients accumulating ≥10 points are classified.",
+       "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-2.2"
+    },
+    {
+     "text": "在紅斑性狼瘡分類標準中，每一項表現都要在沒有其他更可能的原因時，才能算分。",
+     "strength_label": "EULAR/ACR 2019・基本原則",
+     "evidence": [
+      {
+       "c": "C15",
+       "s": "S3",
+       "quote": "The concept that all criteria are only to be counted if SLE is thought to be the most likely cause of the manifestation (i.e. no other more likely cause exists) is central to these new EULAR/ACR criteria, and is explicitly stated as an overarching principle.",
+       "strength": "Classification criteria (EULAR/ACR); overarching principle | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-2.3"
+    },
+    {
+     "text": "分類標準不是設計來診斷或決定治療的；是否為紅斑性狼瘡，要由受過適當訓練的醫師評估個人狀況來判斷。",
+     "strength_label": "EULAR/ACR 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C15",
+       "s": "S3",
+       "quote": "However, it is important to stress that classification criteria are not designed for diagnosis or treatment decisions (). … Diagnosis of SLE remains the purview of an appropriately trained physician evaluating an individual patient ().",
+       "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-2.4"
+    }
+   ],
+   "tip": {
+    "text": "抗核抗體被當成入門條件，考量之一是：紅斑性狼瘡患者幾乎都會陽性，但沒有這個病的人也可能陽性。",
+    "strength_label": "EULAR/ACR 2019・指引說明",
+    "evidence": [
+     {
+      "c": "C14",
+      "s": "S3",
+      "quote": "Such an approach was thought to reflect underlying SLE pathogenesis, and take into account ANA test characteristics of high sensitivity and limited specificity.",
+      "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+      "confidence": "High"
+     },
+     {
+      "c": "C16",
+      "s": "S3",
+      "quote": "In the phase 1 early SLE cohort, 99.5% of the 389 SLE patients were ANA positive (). … Using ANA as entry criterion means the new criteria cannot classify SLE among patients who are persistently ANA negative.",
+      "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+      "confidence": "High"
+     }
+    ],
+    "sid": "LB-2.T"
+   }
+  },
+  {
+   "id": "labs-rf-ccp",
+   "title": "類風濕因子與抗CCP",
+   "summary": "陽性不等於類風濕性關節炎；分類標準要求關節腫脹。",
+   "illustration": "A doctor gently examining a patient's hand at a clinic desk, with a capped blood-test tube resting on the desk; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "類風濕因子（RF）陽性，不一定是類風濕性關節炎；沒有這個病的人也可能驗出陽性。",
+     "strength_label": "Nishimura 2007・研究顯示",
+     "evidence": [
+      {
+       "c": "C35",
+       "s": "S24",
+       "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
+       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C31",
+       "s": "S10",
+       "quote": "RF may also be elevated in healthy individuals, as well as in scenarios such as infection and malignancy.",
+       "strength": "CRA Pediatric Committee Choosing Wisely (peer-reviewed); general background statement. POPULATION: children. This sentence came from a single WebFetch read | Fact-check 2026-10-10: verified in the original (jrheum.org First Release PDF via WebFetch (now two independent reads))",
+       "confidence": "High (item 4 read twice; other quotes single read)"
+      },
+      {
+       "c": "C44",
+       "s": "S31",
+       "quote": "Autoantibody screening revealed rheumatoid factor (RF), antinuclear antibody (ANA), anti-Ro antibody, and anti-La antibody positivity in 20.8%, 23.4%, 13.0%, and 2.6% of the patients, respectively.",
+       "strength": "Cross-sectional (77 patients with hepatitis C infection, northern Taiwan); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 37055257))",
+       "confidence": "Low (Tier 3)"
+      }
+     ],
+     "sid": "LB-3.1"
+    },
+    {
+     "text": "沒有類風濕性關節炎的人，抗CCP抗體陽性的機會比類風濕因子低。",
+     "strength_label": "Nishimura 2007・研究顯示",
+     "evidence": [
+      {
+       "c": "C35",
+       "s": "S24",
+       "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44). … Anti-CCP antibodies are more specific than RF for diagnosing rheumatoid arthritis",
+       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C36",
+       "s": "S25",
+       "quote": "Anti-CCP2 had greater specificity than rheumatoid factor (96% vs. 86%), with similar sensitivity.",
+       "strength": "SR (151 studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 20368651))",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "LB-3.2"
+    },
+    {
+     "text": "類風濕性關節炎的分類標準，要先有至少1個關節腫脹（經專業評估），且沒有其他疾病更能解釋，才能套用。",
+     "strength_label": "ACR/EULAR 2010・指引說明",
+     "evidence": [
+      {
+       "c": "C32",
+       "s": "S23",
+       "quote": "\"The classification criteria can be applied to any patient or otherwise healthy individual,\" \"as long as two mandatory requirements are met: first, there must be evidence of currently active clinical synovitis\" \"(ie, swelling) in at least one joint as determined by an expert assessor (table 3).\" … \"Second, the criteria may be applied only to those patients in whom the observed synovitis\" \"is not better explained by another diagnosis (table 3).\"",
+       "strength": "Classification criteria (ACR/EULAR). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; 'at least one joint' also in the PubMed abstract)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-3.3"
+    },
+    {
+     "text": "類風濕因子或抗CCP抗體陰性，也不能排除類風濕性關節炎：研究中，每種抗體都有3成以上的患者是陰性。",
+     "strength_label": "Nishimura 2007・研究顯示",
+     "evidence": [
+      {
+       "c": "C35",
+       "s": "S24",
+       "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
+       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C36",
+       "s": "S25",
+       "quote": "In cohort studies that investigated second-generation anti-cyclic citrullinated peptide antibodies (anti-CCP2) in patients with early rheumatoid arthritis (<2 years), summary sensitivity and specificity were 57% (95% CI, 51% to 63%) and 96% (CI, 93% to 97%), respectively.",
+       "strength": "SR (151 studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 20368651))",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C46",
+       "s": "S29",
+       "quote": "\"Refer urgently (even with a normal acute-phase response, negative anti-cyclic citrullinated peptide\" \"[CCP] antibodies or rheumatoid factor) if any of the following apply:\"",
+       "strength": "NICE recommendation 1.1.1 (directive wording; no grade). WebFetch | Fact-check 2026-10-10: verified in the original (nice.org.uk recommendation 1.1.1 via WebFetch)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-3.4"
+    }
+   ],
+   "tip": {
+    "text": "類風濕性關節炎的分類標準主要是為研究而訂，不是診斷標準。",
+    "strength_label": "ACR/EULAR 2010・指引說明",
+    "evidence": [
+     {
+      "c": "C33",
+      "s": "S23",
+      "quote": "\"The working group has deliberately labelled these criteria as ‘classification criteria’\" \"as opposed to ‘diagnostic criteria’.\" … \"The aim is to provide a standardised approach for discriminating, from a population of individuals\" \"presenting with undifferentiated synovitis, the subgroup with the highest probability of persistent or erosive RA,\" \"who may be enrolled into clinical trials and other studies through the use of uniform criteria.\"",
+      "strength": "Classification criteria (ACR/EULAR). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; 'at least one joint' also in the PubMed abstract)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "LB-3.T"
+   }
+  },
+  {
+   "id": "labs-ana-screening",
+   "title": "抗核抗體不是篩檢工具",
+   "summary": "沒有特定症狀時，不建議用抗核抗體篩檢。",
+   "illustration": "A thoughtful adult at a health-check counter looking at a simple menu of optional blood tests drawn only as blank icons; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "沒有紅斑性狼瘡或其他結締組織疾病的特定症狀或徵象時，不建議把抗核抗體當成篩檢。",
+     "strength_label": "CRA 2015・不建議",
+     "evidence": [
+      {
+       "c": "C28",
+       "s": "S8",
+       "quote": "\"Do not order antinuclear antibodies (ANA) as a screening test in patients without specific signs or\" \"symptoms of systemic lupus erythematosus (SLE) or another connective tissue disease (CTD)\"",
+       "strength": "CRA Choosing Wisely item 1 (peer-reviewed; ungraded 'Do not' item). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+       "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+      }
+     ],
+     "sid": "LB-4.1"
+    },
+    {
+     "text": "醫師評估後不懷疑免疫疾病時，即使抗核抗體陽性，也不建議再加驗相關的特定抗體。",
+     "strength_label": "ACR 2013・強烈不建議（1C）",
+     "evidence": [
+      {
+       "c": "C25",
+       "s": "S7",
+       "quote": "1. Do not test antinuclear antibody (ANA) subserologies without a positive ANA and clinical suspicion of immune-mediated disease … Grade 1C. … classifies recommendations as strong (grade 1) or weak (grade 2) … the quality of evidence as high (grade A), moderate (grade B), or low (grade C)",
+       "strength": "Grade 1C (strong recommendation; low-quality evidence, per the paper's modified GRADE). Adult list; 'meant to leave room for clinical judgment' | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-4.2"
+    },
+    {
+     "text": "檢查結果不會改變處理方式，或生病機會低到假陽性比真陽性更可能時，就不建議檢查。",
+     "strength_label": "ACR 2013・指引說明",
+     "evidence": [
+      {
+       "c": "C26",
+       "s": "S7",
+       "quote": "This suggestion follows from several principles regarding use of diagnostic tests, including that tests should not be performed if results will not change management or if the pretest probability of disease is low enough to raise the likelihood of a false-positive test higher than the likelihood of a true-positive result.",
+       "strength": "Supporting text for Grade 1C item (ACR text) | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "confidence": "High (ACR text)"
+      }
+     ],
+     "sid": "LB-4.3"
+    },
+    {
+     "text": "沒有方向、範圍很廣的檢查，可能增加假陽性，帶來不必要的追加檢查和擔心。",
+     "strength_label": "ACR 2013・指引說明",
+     "evidence": [
+      {
+       "c": "C26",
+       "s": "S7",
+       "quote": "However, newer testing may complicate patient care if it results in undirected or very broad testing that increases false-positive results, leading to unnecessary followup tests and patient concern.",
+       "strength": "Supporting text for Grade 1C item (ACR text) | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "confidence": "High (ACR text)"
+      }
+     ],
+     "sid": "LB-4.4"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "labs-urate",
+   "title": "尿酸高但沒有痛風",
+   "summary": "尿酸高是痛風的危險因子，但不等於痛風。",
+   "illustration": "A calm adult walking outdoors in comfortable shoes, with a small capped blood-test tube icon floating beside them; flat, friendly style, no text, no numbers.",
+   "points": [
+    {
+     "text": "血中尿酸偏高，但從沒有痛風發作，也沒有痛風石，稱為無症狀高尿酸血症。",
+     "strength_label": "ACR 2020・指引說明",
+     "evidence": [
+      {
+       "c": "C47",
+       "s": "S32",
+       "quote": "Recommendations in this guideline apply to patients with gout, except for a single recommendation regarding the use of ULT in individuals with asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi.",
+       "strength": "Definition (text says ≥6.8 mg/dl; S33 Table 1 says >6.8 mg/dl) | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-5.1"
+    },
+    {
+     "text": "尿酸高是發生痛風的重要危險因子，但不能只憑尿酸高就診斷痛風。",
+     "strength_label": "EULAR 2018・指引說明；G-CAN 2019・專家共識",
+     "evidence": [
+      {
+       "c": "C52",
+       "s": "S34",
+       "quote": "\"The diagnosis of gout should not be made on the presence of hyperuric a emia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
+       "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; Rec 4 also in the PubMed abstract)",
+       "confidence": "High"
+      },
+      {
+       "c": "C54",
+       "s": "S36",
+       "quote": "There was consensus agreement that the label ‘gout’ should be restricted to current or prior clinically evident disease caused by monosodium urate crystal deposition.",
+       "strength": "Consensus (≥80% agreement) | Fact-check 2026-10-10: verified in the original (PMC7288724 abstract)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-5.2"
+    },
+    {
+     "text": "國外研究顯示，尿酸超過9 mg/dL的人，5年內約2成發生痛風；超過10 mg/dL的人，15年內約一半。",
+     "strength_label": "ACR 2020・指引說明；EULAR 2018・指引說明",
+     "evidence": [
+      {
+       "c": "C49",
+       "s": "S32",
+       "quote": "From observational studies, among patients with asymptomatic hyperuricemia with SU concentrations of >9 mg/dl, only 20% went on to develop gout within 5 years ().",
+       "strength": "Supporting text for the asymptomatic-hyperuricaemia recommendation | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+       "confidence": "High"
+      },
+      {
+       "c": "C52",
+       "s": "S34",
+       "quote": "\"For instance, only 22% of asymptomatic patients with SUA levels above 9 mg/dL developed incident gout over a 5-year period.\" … \"For instance, a recent study found that only half of patients with SUA levels above 10 mg/dL\" \"will develop gout over 15 years.\"",
+       "strength": "Text supporting Recommendation 4. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; Rec 4 also in the PubMed abstract)",
+       "confidence": "High"
+      },
+      {
+       "c": "C57",
+       "s": "S39",
+       "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
+       "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only) | Fact-check 2026-10-10: the figure and the US population were checked against the PubMed abstract (PMID 3826098; US men); this exact sentence was not quoted by the fact-check (the evidence agent machine-checked it against the abstract)",
+       "confidence": "Low (Tier 3)"
+      },
+      {
+       "c": "C56",
+       "s": "S38",
+       "quote": "Nonetheless, only about half of those with serum urate concentrations ≥10mg/dL develop clinically evident gout over 15 years, implying a role for prolonged hyperuricaemia and additional factors in the pathogenesis of gout.",
+       "strength": "Individual participant data analysis of 4 US cohorts (ARIC, CARDIA, Framingham; n=18 889). Threshold ≥10 mg/dL. Cited only as a second citation showing that the data come from abroad | Fact-check 2026-10-10: the figure and the US population were checked against the PubMed abstract (PMID 29463518); this exact sentence was not quoted by the fact-check (the evidence agent machine-checked it against the abstract)",
+       "confidence": "Low (Tier 3)"
+      }
+     ],
+     "sid": "LB-5.3"
+    }
+   ],
+   "tip": {
+    "text": "「偏高」沒有全球統一的數字：美國指引以6.8 mg/dL為界，國際專家共識則沒有訂出單一數字。",
+    "strength_label": "ACR 2020・指引說明；G-CAN 2019・專家共識",
+    "evidence": [
+     {
+      "c": "C47",
+      "s": "S32",
+      "quote": "Recommendations in this guideline apply to patients with gout, except for a single recommendation regarding the use of ULT in individuals with asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi.",
+      "strength": "Definition (text says ≥6.8 mg/dl; S33 Table 1 says >6.8 mg/dl) | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+      "confidence": "High"
+     },
+     {
+      "c": "C55",
+      "s": "S37",
+      "quote": "For ‘hyperuric(a)emia’, it was considered beyond the scope of this nomenclature project to include a specific threshold of blood urate concentration in its definition. … Therefore, the final accepted definition was modified to read ‘an elevated blood urate concentration over the saturation threshold’.",
+      "strength": "Consensus (≥80% agreement) | Fact-check 2026-10-10: verified in the original (PMC6252290 (full text))",
+      "confidence": "High"
+     },
+     {
+      "c": "C61",
+      "s": "S42",
+      "quote": "Hyperuricemia, defined by elevated concentration of serum urate (SU) exceeding the saturation threshold of 420 μmol/L (7 mg/dL), is a primary risk factor for the development of gout.",
+      "strength": "Text statement (Introduction) | Fact-check 2026-10-10: verified in the original (PMC12280528 (full text))",
+      "confidence": "High"
+     }
+    ],
+    "sid": "LB-5.T"
+   }
+  },
+  {
+   "id": "labs-urate-treatment",
+   "title": "尿酸高要吃藥嗎？",
+   "summary": "是否用藥各國標準不同，並非每個人都需要。",
+   "illustration": "A patient and a family doctor talking at a clinic desk, with a simple plate of mixed vegetables and a pair of walking shoes in the background; flat, friendly style, no text, no brands, no pills.",
+   "points": [
+    {
+     "text": "沒有痛風的高尿酸要不要吃降尿酸藥，各國指引看法不同，並不是每個人都需要。",
+     "strength_label": "ACR 2020・不建議；中國指引 2024・指引說明",
+     "evidence": [
+      {
+       "c": "C48",
+       "s": "S33",
+       "quote": "Initiating ULT is conditionally recommended against in patients with asymptomatic hyperuricemia.",
+       "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction confirmed from the co-published version because the PMC text of S32 drops 'against'. WebFetch; two reads | Fact-check 2026-10-10: verified in the original (Deep Blue PDF art41247 via WebFetch, text and Table 1; direction also corroborated by S40, MDedge and the S32 rationale)",
+       "confidence": "High"
+      },
+      {
+       "c": "C61",
+       "s": "S42",
+       "quote": "Patients with asymptomatic hyperuricemia and SU ≥ 9 mg/dL, or those with comorbidities such as cardiovascular, metabolic dysfunction, and kidney diseases, should initiate ULT as per the 2019 Guideline [].",
+       "strength": "Text statement referring to the 2019 guideline (no grade attached to this sentence) | Fact-check 2026-10-10: verified in the original (PMC12280528 (full text))",
+       "confidence": "High"
+      },
+      {
+       "c": "C58",
+       "s": "S40",
+       "quote": "\"Considering the use of ULA at SUA ≥9 mg/dL and target to SUA ≤6 mg/dL\" … \"In patients with a SUA ≥8 mg/dL who have complications such as CKD, hypertension, heart failure etc.,\" \"treatment with ULAs should be considered after life-style modifications.\"",
+       "strength": "As reported by a secondary source for the Japanese guideline (3rd ed.); no grade stated for these rows. WebFetch | Fact-check 2026-10-10: verified in the original (J-STAGE html via WebFetch)",
+       "confidence": "Low (secondary source; WebFetch)"
+      }
+     ],
+     "sid": "LB-6.1"
+    },
+    {
+     "text": "調整生活型態（例如飲食和運動）是處理高尿酸和痛風的基礎。",
+     "strength_label": "香港風濕病學會 2023・指引說明",
+     "evidence": [
+      {
+       "c": "C72",
+       "s": "S44",
+       "quote": "Finally, lifestyle modification is a cornerstone in the management of hyperuricemia and gout, and relevant patient education regarding diet and exercise should be espoused when treating these patients.",
+       "strength": "Consensus document text (Discussion; not a numbered statement). This sentence is NOT in the evidence file: it is quoted from the independent fact-check (verify_labs.md, 2026-10-10), which read it verbatim in PMC10345000",
+       "confidence": "High (verified in PMC full text by the fact-check)"
+      }
+     ],
+     "sid": "LB-6.2"
+    },
+    {
+     "text": "多數情況下，高尿酸可以在基層醫療（如家庭醫師）處理；一般治療效果不好時，可能需要轉介專科。",
+     "strength_label": "香港風濕病學會 2023・指引說明",
+     "evidence": [
+      {
+       "c": "C64",
+       "s": "S44",
+       "quote": "In most cases, gout and hyperuricemia can be managed in the primary care setting. Patients who are refractory to standard care may require specialist management and should be referred as and when necessary.",
+       "strength": "Consensus document text (Discussion; not a numbered statement) | Fact-check 2026-10-10: verified in the original (PMC10345000 (full text))",
+       "confidence": "High"
+      }
+     ],
+     "sid": "LB-6.3"
+    }
+   ],
+   "tip": {
+    "text": "要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人，不要自行停藥。",
+    "strength_label": "編輯加註・安全提醒",
+    "evidence": [
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "Editorial safety phrase (「要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人，不要自行停藥」, added because the page says not everyone needs medicine; first clause added after the fact-check); not from a source",
+      "confidence": "EDITORIAL"
+     }
+    ],
+    "sid": "LB-6.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "抗核抗體陽性，就是得了紅斑性狼瘡。",
+   "fact": "不一定。以1:40檢驗，健康的人約20%、最多35%會陽性；抗核抗體只是紅斑性狼瘡分類的入門條件，診斷要由醫師評估。",
+   "strength_label": "CRA 2015・指引說明；ICAP 2019・專家共識；EULAR/ACR 2019・指引說明",
+   "evidence": [
+    {
+     "c": "C28",
+     "s": "S8",
+     "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
+     "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+     "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+    },
+    {
+     "c": "C20",
+     "s": "S5",
+     "quote": "Indeed, up to 35% of healthy controls may be positive if a screening dilution of 1/40 is used.",
+     "strength": "Consensus statement (citing EASI/IUIS, S6) | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+     "confidence": "High"
+    },
+    {
+     "c": "C14",
+     "s": "S3",
+     "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; … They endorsed “positive ANA (≥1:80 by HEp-2 immunofluorescence)” as an entry criterion.",
+     "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+     "confidence": "High"
+    },
+    {
+     "c": "C15",
+     "s": "S3",
+     "quote": "Diagnosis of SLE remains the purview of an appropriately trained physician evaluating an individual patient ().",
+     "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+     "confidence": "High"
+    }
+   ],
+   "sid": "LB-M1"
+  },
+  {
+   "belief": "類風濕因子陽性，就是得了類風濕性關節炎。",
+   "fact": "不一定。沒有這個病的人也可能陽性；國際分類標準規定，至少要有1個關節腫脹才能套用，單靠抽血不行。",
+   "strength_label": "ACR/EULAR 2010・指引說明；Nishimura 2007・研究顯示",
+   "evidence": [
+    {
+     "c": "C32",
+     "s": "S23",
+     "quote": "\"The classification criteria can be applied to any patient or otherwise healthy individual,\" \"as long as two mandatory requirements are met: first, there must be evidence of currently active clinical synovitis\" \"(ie, swelling) in at least one joint as determined by an expert assessor (table 3).\" … \"Second, the criteria may be applied only to those patients in whom the observed synovitis\" \"is not better explained by another diagnosis (table 3).\"",
+     "strength": "Classification criteria (ACR/EULAR). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; 'at least one joint' also in the PubMed abstract)",
+     "confidence": "High"
+    },
+    {
+     "c": "C35",
+     "s": "S24",
+     "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
+     "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C31",
+     "s": "S10",
+     "quote": "RF may also be elevated in healthy individuals, as well as in scenarios such as infection and malignancy.",
+     "strength": "CRA Pediatric Committee Choosing Wisely (peer-reviewed); general background statement. POPULATION: children. This sentence came from a single WebFetch read | Fact-check 2026-10-10: verified in the original (jrheum.org First Release PDF via WebFetch (now two independent reads))",
+     "confidence": "High (item 4 read twice; other quotes single read)"
+    }
+   ],
+   "sid": "LB-M2"
+  },
+  {
+   "belief": "尿酸高就是痛風。",
+   "fact": "不是。尿酸高是痛風的重要危險因子，但不能只憑它診斷痛風；國外研究中，尿酸超過9 mg/dL的人，5年內約2成發生痛風。",
+   "strength_label": "EULAR 2018・指引說明；ACR 2020・指引說明",
+   "evidence": [
+    {
+     "c": "C52",
+     "s": "S34",
+     "quote": "\"The diagnosis of gout should not be made on the presence of hyperuric a emia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
+     "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; Rec 4 also in the PubMed abstract)",
+     "confidence": "High"
+    },
+    {
+     "c": "C49",
+     "s": "S32",
+     "quote": "From observational studies, among patients with asymptomatic hyperuricemia with SU concentrations of >9 mg/dl, only 20% went on to develop gout within 5 years ().",
+     "strength": "Supporting text for the asymptomatic-hyperuricaemia recommendation | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+     "confidence": "High"
+    },
+    {
+     "c": "C54",
+     "s": "S36",
+     "quote": "There was consensus agreement that the label ‘gout’ should be restricted to current or prior clinically evident disease caused by monosodium urate crystal deposition.",
+     "strength": "Consensus (≥80% agreement) | Fact-check 2026-10-10: verified in the original (PMC7288724 abstract)",
+     "confidence": "High"
+    },
+    {
+     "c": "C57",
+     "s": "S39",
+     "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
+     "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only) | Fact-check 2026-10-10: the figure and the US population were checked against the PubMed abstract (PMID 3826098; US men); this exact sentence was not quoted by the fact-check (the evidence agent machine-checked it against the abstract)",
+     "confidence": "Low (Tier 3)"
+    }
+   ],
+   "sid": "LB-M3"
+  },
+  {
+   "belief": "尿酸高，就一定要吃降尿酸藥。",
+   "fact": "不一定。沒有痛風的高尿酸要不要用藥，各國指引看法不同，並不是每個人都需要；已在用藥的人請先和醫師討論，不要自行停藥。",
+   "strength_label": "ACR 2020・不建議；中國指引 2024・指引說明",
+   "evidence": [
+    {
+     "c": "C48",
+     "s": "S33",
+     "quote": "Initiating ULT is conditionally recommended against in patients with asymptomatic hyperuricemia.",
+     "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction confirmed from the co-published version because the PMC text of S32 drops 'against'. WebFetch; two reads | Fact-check 2026-10-10: verified in the original (Deep Blue PDF art41247 via WebFetch, text and Table 1; direction also corroborated by S40, MDedge and the S32 rationale)",
+     "confidence": "High"
+    },
+    {
+     "c": "C61",
+     "s": "S42",
+     "quote": "Patients with asymptomatic hyperuricemia and SU ≥ 9 mg/dL, or those with comorbidities such as cardiovascular, metabolic dysfunction, and kidney diseases, should initiate ULT as per the 2019 Guideline [].",
+     "strength": "Text statement referring to the 2019 guideline (no grade attached to this sentence) | Fact-check 2026-10-10: verified in the original (PMC12280528 (full text))",
+     "confidence": "High"
+    },
+    {
+     "c": "C58",
+     "s": "S40",
+     "quote": "\"Considering the use of ULA at SUA ≥9 mg/dL and target to SUA ≤6 mg/dL\" … \"In patients with a SUA ≥8 mg/dL who have complications such as CKD, hypertension, heart failure etc.,\" \"treatment with ULAs should be considered after life-style modifications.\"",
+     "strength": "As reported by a secondary source for the Japanese guideline (3rd ed.); no grade stated for these rows. WebFetch | Fact-check 2026-10-10: verified in the original (J-STAGE html via WebFetch)",
+     "confidence": "Low (secondary source; WebFetch)"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety phrase (「已在用藥的人請先和醫師討論，不要自行停藥」); not from a source",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "LB-M4"
+  }
+ ],
+ "seek_care": [
+  {
+   "text": "關節腫脹，而且會痛或僵硬時，建議在症狀開始後6週內看風濕科醫師。",
+   "strength_label": "EULAR 2016・建議強度 B",
+   "evidence": [
+    {
+     "c": "C45",
+     "s": "S28",
+     "quote": "\"Patients presenting with arthritis (any joint swelling, associated with pain or stiffness)\" \"should be referred to, and seen by, a rheumatologist, within 6 weeks after the onset of symptoms.\" … \"The strength of this recommendation was considered 'good' (category B) (table 1).\"",
+     "strength": "Recommendation 1; strength of recommendation B ('good'); level of evidence not found in accessible text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch (matches the evidence agent's two reads))",
+     "confidence": "High"
+    }
+   ],
+   "sid": "LB-S1"
+  },
+  {
+   "text": "關節持續腫脹，應請專科醫師評估；如果是手腳小關節、不只一個關節腫，或症狀出現3個月以上才就醫，即使類風濕因子或抗CCP抗體陰性，也應盡快。",
+   "strength_label": "NICE NG100・建議",
+   "evidence": [
+    {
+     "c": "C46",
+     "s": "S29",
+     "quote": "\"Refer for specialist opinion any adult with suspected persistent synovitis of undetermined cause.\" … \"Refer urgently (even with a normal acute-phase response, negative anti-cyclic citrullinated peptide\" \"[CCP] antibodies or rheumatoid factor) if any of the following apply:\" … \"the small joints of the hands or feet are affected\" … \"more than one joint is affected\" … \"there has been a delay of 3 months or longer between onset of symptoms and seeking medical advice.\"",
+     "strength": "NICE recommendation 1.1.1 (directive wording; no grade). WebFetch | Fact-check 2026-10-10: verified in the original (nice.org.uk recommendation 1.1.1 via WebFetch)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "LB-S2"
+  },
+  {
+   "text": "對報告有疑問，可以帶著報告和醫師討論。",
+   "strength_label": "編輯加註・安全提醒",
+   "evidence": [
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety phrase (「對報告有疑問，可以帶著報告和醫師討論」, proposed by the writer and supported by the fact-check; no source states when to see a doctor for an abnormal result without symptoms); not from a source",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "LB-S3"
+  }
+ ],
+ "sources": [
+  {
+   "s": "S3",
+   "short": "EULAR/ACR 2019 紅斑性狼瘡分類標準",
+   "citation": "Aringer M et al. 2019 European League Against Rheumatism/American College of Rheumatology Classification Criteria for Systemic Lupus Erythematosus. Arthritis Rheumatol 2019;71(9):1400-1412. Co-published: Ann Rheum Dis 2019;78(9):1151-1159 (PMID 31383717; doi 10.1136/annrheumdis-2018-214819).",
+   "pmid": "31385462",
+   "doi": "10.1002/art.40930",
+   "url": null
+  },
+  {
+   "s": "S4",
+   "short": "Leuchten 2018 抗核抗體分類表現統合分析",
+   "citation": "Leuchten N et al. Performance of Antinuclear Antibodies for Classifying Systemic Lupus Erythematosus: A Systematic Literature Review and Meta-Regression of Diagnostic Data. Arthritis Care Res (Hoboken) 2018;70(3):428-438.",
+   "pmid": "28544593",
+   "doi": "10.1002/acr.23292",
+   "url": null
+  },
+  {
+   "s": "S5",
+   "short": "ICAP 2019 抗核抗體型態國際共識",
+   "citation": "Damoiseaux J et al. Clinical relevance of HEp-2 indirect immunofluorescent patterns: the International Consensus on ANA patterns (ICAP) perspective. Ann Rheum Dis 2019;78(7):879-889.",
+   "pmid": "30862649",
+   "doi": "10.1136/annrheumdis-2018-214436",
+   "url": null
+  },
+  {
+   "s": "S6",
+   "short": "EASI/IUIS 2014 抗核抗體檢驗國際建議",
+   "citation": "Agmon-Levin N et al. International recommendations for the assessment of autoantibodies to cellular antigens referred to as anti-nuclear antibodies. Ann Rheum Dis 73(1):17-23 (PubMed date 14 Oct 2013).",
+   "pmid": "24126457",
+   "doi": "10.1136/annrheumdis-2013-203863",
+   "url": null
+  },
+  {
+   "s": "S7",
+   "short": "ACR 2013 明智選擇清單（成人）",
+   "citation": "Yazdany J et al. Choosing wisely: the American College of Rheumatology's Top 5 list of things physicians and patients should question. Arthritis Care Res (Hoboken) 2013;65(3):329-39.",
+   "pmid": "23436818",
+   "doi": "10.1002/acr.21930",
+   "url": null
+  },
+  {
+   "s": "S8",
+   "short": "CRA 2015 加拿大風濕病學會明智選擇清單",
+   "citation": "Chow SL et al. Choosing wisely: the Canadian Rheumatology Association's list of 5 items physicians and patients should question. J Rheumatol 2015;42(4):682-9.",
+   "pmid": "25641889",
+   "doi": "10.3899/jrheum.141140",
+   "url": null
+  },
+  {
+   "s": "S10",
+   "short": "CRA 2023 加拿大兒童風濕明智選擇清單",
+   "citation": "Lim L et al. Choosing Wisely: The Canadian Rheumatology Association Pediatric Committee's List of Items Physicians and Patients Should Question. J Rheumatol 2023;50(12):1610-1618 (published online 1 Aug 2023; the PDF is marked First Release 1 Sep 2023).",
+   "pmid": "37527858",
+   "doi": "10.3899/jrheum.2023-0043",
+   "url": null
+  },
+  {
+   "s": "S23",
+   "short": "ACR/EULAR 2010 類風濕性關節炎分類標準",
+   "citation": "Aletaha D et al. 2010 rheumatoid arthritis classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Ann Rheum Dis 2010;69(9):1580-8. Co-published: Arthritis Rheum 2010;62(9):2569-81 (PMID 20872595; doi 10.1002/art.27584).",
+   "pmid": "20699241",
+   "doi": "10.1136/ard.2010.138461",
+   "url": null
+  },
+  {
+   "s": "S24",
+   "short": "Nishimura 2007 抗CCP抗體與類風濕因子統合分析",
+   "citation": "Nishimura K et al. Meta-analysis: diagnostic accuracy of anti-cyclic citrullinated peptide antibody and rheumatoid factor for rheumatoid arthritis. Ann Intern Med 2007;146(11):797-808.",
+   "pmid": "17548411",
+   "doi": "10.7326/0003-4819-146-11-200706050-00008",
+   "url": null
+  },
+  {
+   "s": "S25",
+   "short": "Whiting 2010 抗CCP抗體系統性回顧",
+   "citation": "Whiting PF et al. Systematic review: accuracy of anti-citrullinated Peptide antibodies for diagnosing rheumatoid arthritis. Ann Intern Med 2010;152(7):456-64; W155-66.",
+   "pmid": "20368651",
+   "doi": "10.7326/0003-4819-152-7-201004060-00010",
+   "url": null
+  },
+  {
+   "s": "S28",
+   "short": "EULAR 2016 早期關節炎處理建議",
+   "citation": "Combe B et al. 2016 update of the EULAR recommendations for the management of early arthritis. Ann Rheum Dis 76(6):948-959 (PubMed date 15 Dec 2016).",
+   "pmid": "27979873",
+   "doi": "10.1136/annrheumdis-2016-210602",
+   "url": null
+  },
+  {
+   "s": "S29",
+   "short": "NICE NG100 成人類風濕性關節炎指引",
+   "citation": "National Institute for Health and Care Excellence (NICE). Rheumatoid arthritis in adults: management. NICE guideline NG100, recommendations page (last reviewed 19 November 2024; publication date not displayed; recommendation 1.1.1 tagged [2009, amended 2018]).",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.nice.org.uk/guidance/ng100"
+  },
+  {
+   "s": "S31",
+   "short": "Weng 2023 台灣C型肝炎患者自體抗體研究",
+   "citation": "Weng MT et al. Rheumatic manifestations of hepatitis C virus infection are associated with autoantibodies but not viremia. J Microbiol Immunol Infect 2023;56(4):739-746.",
+   "pmid": "37055257",
+   "doi": "10.1016/j.jmii.2023.03.007",
+   "url": null
+  },
+  {
+   "s": "S32",
+   "short": "ACR 2020 痛風治療指引",
+   "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+   "pmid": "32391934",
+   "doi": "10.1002/acr.24180",
+   "url": null
+  },
+  {
+   "s": "S33",
+   "short": "ACR 2020 痛風治療指引（同步刊登版）",
+   "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Rheumatol 2020;72(6):879-895.",
+   "pmid": "32390306",
+   "doi": "10.1002/art.41247",
+   "url": null
+  },
+  {
+   "s": "S34",
+   "short": "EULAR 2018 痛風診斷建議",
+   "citation": "Richette P et al. 2018 updated European League Against Rheumatism evidence-based recommendations for the diagnosis of gout. Ann Rheum Dis 2020;79(1):31-38 (published online 5 Jun 2019).",
+   "pmid": "31167758",
+   "doi": "10.1136/annrheumdis-2019-215315",
+   "url": null
+  },
+  {
+   "s": "S36",
+   "short": "G-CAN 2019 痛風疾病狀態命名共識",
+   "citation": "Bursill D et al. Gout, Hyperuricaemia and Crystal-Associated Disease Network (G-CAN) consensus statement regarding labels and definitions of disease states of gout. Ann Rheum Dis 2019;78(11):1592-1600.",
+   "pmid": "31501138",
+   "doi": "10.1136/annrheumdis-2019-215933",
+   "url": null
+  },
+  {
+   "s": "S37",
+   "short": "G-CAN 2019 痛風疾病要素命名共識",
+   "citation": "Bursill D et al. Gout, Hyperuricemia, and Crystal-Associated Disease Network Consensus Statement Regarding Labels and Definitions for Disease Elements in Gout. Arthritis Care Res (Hoboken) 2019;71(3):427-434.",
+   "pmid": "29799677",
+   "doi": "10.1002/acr.23607",
+   "url": null
+  },
+  {
+   "s": "S38",
+   "short": "Dalbeth 2018 美國世代研究：尿酸值與痛風發生",
+   "citation": "Dalbeth N et al. Relationship between serum urate concentration and clinically evident incident gout: an individual participant data analysis. Ann Rheum Dis 2018;77(7):1048-1052.",
+   "pmid": "29463518",
+   "doi": "10.1136/annrheumdis-2017-212288",
+   "url": null
+  },
+  {
+   "s": "S39",
+   "short": "Campion 1987 美國男性無症狀高尿酸研究",
+   "citation": "Campion EW et al. Asymptomatic hyperuricemia. Risks and consequences in the Normative Aging Study. Am J Med 1987;82(3):421-6.",
+   "pmid": "3826098",
+   "doi": "10.1016/0002-9343(87)90441-4",
+   "url": null
+  },
+  {
+   "s": "S40",
+   "short": "Hisatome 2020 日本無症狀高尿酸血症指引介紹（次級來源）",
+   "citation": "Hisatome I et al. Uric Acid as a Risk Factor for Chronic Kidney Disease and Cardiovascular Disease - Japanese Guideline on the Management of Asymptomatic Hyperuricemia. Circ J 2021;85(2):130-138 (advance online 18 Dec 2020).",
+   "pmid": "33342914",
+   "doi": "10.1253/circj.CJ-20-0406",
+   "url": null
+  },
+  {
+   "s": "S42",
+   "short": "中國 2024 高尿酸血症與痛風指引（中華醫學會內分泌學分會）",
+   "citation": "Sun M et al. 2024 Update of Chinese Guidelines for Diagnosis and Treatment of Hyperuricemia and Gout Part I: Recommendations for General Patients. Int J Rheum Dis 2025;28(7):e70375.",
+   "pmid": "40692263",
+   "doi": "10.1111/1756-185x.70375",
+   "url": null
+  },
+  {
+   "s": "S44",
+   "short": "香港風濕病學會 2023 痛風共識建議",
+   "citation": "Yip RM et al. The Hong Kong Society of Rheumatology consensus recommendations for the management of gout. Clin Rheumatol 2023;42(8):2013-2027.",
+   "pmid": "37014501",
+   "doi": "10.1007/s10067-023-06578-9",
+   "url": null
+  }
+ ],
+ "reviewer_notes": [
+  "CONFLICT (BRIEF rule 5): DRUG TREATMENT OF HIGH URIC ACID WITHOUT GOUT. ACR 2020 conditionally recommends AGAINST starting urate-lowering therapy (certainty of evidence high), and says this also applies to people with CKD, CVD, kidney stones, hypertension or crystals on imaging (C48-C50). The Japanese guideline, 3rd ed. (read only through a secondary source, S40, Low) suggests considering drugs at ≥9 mg/dL, or ≥8 mg/dL with complications, after lifestyle change, and conditionally recommends them for hyperuricaemia with kidney injury (C58, C59). The Chinese 2024 guideline (endocrinology society) says drugs should be started at ≥9 mg/dL or with cardiovascular, metabolic or kidney comorbidities (C61). Korea 2023 made no recommendation for CKD 3-4 (C63). EULAR 2018/2016 and HKSR 2023 make no recommendation. APLAR 2021 has 2 statements that neither the evidence agent nor the fact-checker could read (C66). The Taiwan 2018 consensus was read in abstract only. The abstract states no position on drug treatment for hyperuricaemia without gout, and its 'earlier use of pharmacotherapeutic treatment should be considered' does not say which population it means (C65). LB-6.1 and LB-M4 therefore state only the common ground: standards differ between countries, and not everyone needs medicine. LB-6.T now adds the EDITORIAL line 「要不要用藥，請和醫師討論個人狀況」, so that readers whom the Chinese or Japanese guideline would treat are pointed to a doctor. The fact-check confirmed the ACR direction (S33 Deep Blue PDF, text and Table 1, certainty 'High†') and judged the common-ground wording fair to all three cited positions. Deliberately not used in patient text: ACR's '24 people treated for 3 years to prevent one flare' (C49), ACR's 'also applies with CKD/CVD/stones/hypertension' (C50), the Japanese and Chinese thresholds, and any kidney-protection claim (myth M10 in the evidence file: Japan conditional FOR, certainty B; ACR against including CKD; Korea no recommendation; CKD-FIX and PERL showed no benefit; Cochrane 2017 'very uncertain'). Please read the Taiwan 2018 consensus full text and the APLAR 2021 statements. If you want the page to state a Taiwanese position, it needs a source we can quote.",
+  "LB-2.2 GAP: THE 'AT LEAST ONE CLINICAL CRITERION' RULE IS NOT ON THE PAGE. The 2019 EULAR/ACR SLE criteria classify a patient only with ≥10 points AND at least one clinical criterion. That rule sits in the criteria figure, which is an image and is not in the extracted text. The evidence file has no verbatim quote for it, and the fact-check confirmed it only through two secondary sources (The Rheumatologist; ebm.one). LB-2.2 was therefore reworded to 「還要依7類臨床表現（例如皮膚黏膜、肌肉骨骼、腎臟）和3類免疫檢驗評分，累積10分以上」. Joining the two with 「和」 instead of 「或」 means the sentence no longer suggests that antibody or complement results alone could reach classification (blood-count abnormalities belong to the hematologic clinical domain). Do not add patient text saying blood tests cannot qualify. If you confirm the rule against the Aringer 2019 criteria figure, please add 「而且至少要有1項臨床表現」 to LB-2.2. The quote should also be added to the evidence file.",
+  "VERIFICATION STATUS AND WHAT STILL NEEDS THE PDFs. The independent fact-check (verify_labs.md, 2026-10-10) checked all 43 quotes against the originals and found 0 mismatches: 31 against PMC full text or PubMed abstracts (exact text), and 12 through WebFetch, each matching the evidence agent's earlier reads word for word. Each evidence item's 'strength' field now ends with 'Fact-check 2026-10-10: verified in the original (…)'. Quotes added after the fact-check: S5 'up to 35%' (the fact-checker quoted it from the PMC Discussion); S7 item 1, now also used for LB-1.3 (verified in PMC); NICE's third urgent criterion (verified on nice.org.uk); the HKSR lifestyle sentence (c = 'FACT-CHECK', verified in PMC10345000, not in the evidence file); and S38/S39 (evidence-file quotes whose figures and populations the fact-checker checked in the PubMed abstracts). Still to confirm in the PDFs, because the shell could not download any: (a) ACR 2020 direction in S33 p. 882 and Table 1 (the PMC text of S32 drops 'against'); (b) the WebFetch-only quotes from S8, S10, S23, S28, S29, S33, S34 and S40.",
+  "ANA PERCENTAGES: LB-1.1 AND LB-M1 NOW GIVE A RANGE. They read: at ≥1:40 about 20% (CRA 2015) and up to 35% (ICAP 2019) of healthy people; at ≥1:160 about 5% (CRA 2015). Both figures refer to HEp-2 immunofluorescence (CRA: 'With the HEp-2 substrate'), which the text does not say. CRA cites Kavanaugh 2000 for its figures (per the fact-check). The Low-confidence data were not used in the text: Tan 1997 31.7% / 13.3% / 5.0% / 3.3% at 1:40 / 1:80 / 1:160 / 1:320; a Japanese town health-check study 26.0% at 1:40 and 9.5% at 1:160; a Chinese health-check study 14.01% above 1:100 and 5.93% above 1:320. So '5% at 1:160' may be low for some Asian populations. No ANA, RF or anti-CCP prevalence study in healthy Taiwanese adults was found. The only Taiwanese ANA series is 8299 hospital patients referred for testing (35.3% positive at 1:80), and its authors say it should not be extrapolated.",
+  "CANADIAN 2025 LIST (S9) NOT RELIED ON. The evidence file marks it 'not peer-reviewed; not PubMed-indexed', so BRIEF rule 2 applies. As a result the page has: no adult statement on when RF or anti-CCP should be ordered (CRA 2025 item 9: only with clinically suspicious arthralgia or arthritis on exam); no 'more than 30%-60% of people with clinically suspicious arthralgia and positive RF and ACPA do not develop RA within 2 years' (the only High source against the belief 'positive anti-CCP means I will get RA'); and no 'ANA reactivity is present in many non-rheumatic conditions'. LB-4.1 rests on the peer-reviewed CRA 2015 item, which the 2025 list repeats almost word for word ('another systemic autoimmune rheumatic disease' replaces 'another connective tissue disease'). If you accept the 2025 society document, these points can be added, but its URL is truncated in the evidence file and would have to be supplied. The paediatric CRA list (S10, peer-reviewed) appears only as a supporting citation for the general statement that RF can be raised in healthy people (LB-3.1, LB-M2). Its population is children; the fact-check has now read that sentence a second time.",
+  "SEEK CARE. No source states when a person with a positive ANA, RF or anti-CCP and no symptoms, or with asymptomatic hyperuricaemia, should see a doctor or a rheumatologist (evidence file Section E, items 31-32). LB-S1 and LB-S2 are joint-swelling triggers: EULAR 2016 Rec 1 (strength B) and NICE NG100 1.1.1, which is tagged [2009, amended 2018]. After the fact-check, LB-S2 includes NICE's third urgent criterion (symptoms for 3 months or longer before seeking advice). NICE's 'of undetermined cause' and 'normal acute-phase response' are still omitted, to stay within 70 characters. LB-S3 「對報告有疑問，可以帶著報告和醫師討論。」 was added as an EDITORIAL line, as the writer proposed and the fact-check supported. Nielsen 2012's authors suggest referring people with a high RF and no joint symptoms (Tier 3 author opinion, C40); this conflicts with the society position and was not used. LB-6.3 (most hyperuricaemia can be managed in primary care) is narrative text from the Discussion of the Hong Kong regional consensus, not a numbered statement.",
+  "LIFESTYLE (LB-6.2, REPLACED AFTER THE FACT-CHECK). LB-6.2 now reads 「調整生活型態（例如飲食和運動）是處理高尿酸和痛風的基礎。」. It rests on the HKSR 2023 sentence: 'Finally, lifestyle modification is a cornerstone in the management of hyperuricemia and gout, and relevant patient education regarding diet and exercise should be espoused when treating these patients.' This sentence is NOT in the evidence file. The fact-checker read it verbatim in PMC10345000 (Discussion), and the coordinator allowed verifier-confirmed quotes if disclosed (evidence item c = 'FACT-CHECK'). Please add it to the evidence file. Caveat: HKSR's numbered statements concern patients with gout, but this sentence names 'hyperuricemia and gout'. The previous text, which cited Chinese 2024 ('A small subset of patients may be able to maintain SU levels below 360 μmol/L …'), was removed. In §3.1 that sentence belongs to the paragraph on stopping ULT ('Currently, there is insufficient evidence to support discontinuing medication in patients with asymptomatic hyperuricemia.'), so out of context it misrepresented the guideline. If you would rather keep the Chinese source with its context, an alternative is 「已在用降尿酸藥的人，少數可以靠飲食、運動和控制代謝症候群，把尿酸維持在較低的範圍；能否停藥，要和醫師討論。」 ACR 2020 makes no lifestyle recommendation for asymptomatic hyperuricaemia (C51). There are still no diet or drink details and no link to the gout page's diet card, because those recommendations are for people with gout.",
+  "CHINESE GUIDELINE (S42; Chinese Society of Endocrinology, Chinese Medical Association) is cited in LB-5.T, LB-6.1 and LB-M4; it is no longer cited in LB-6.2. The gout page left out mainland-China guideline items because their applicability to Taiwan is not established. It is used here because 'standards differ' needs a second High-confidence position, and the Japanese guideline is only Low (secondary source). If you remove it, LB-6.1 and LB-M4 would have to rest on ACR alone, and the text would then state ACR's position rather than the common ground. The label is written 「中國指引 2024」 (the '2024 Update' was published in 2025); the sources list names the society.",
+  "STRENGTH LABELS (the fact-check found none wrong). Classification criteria text is labelled 「指引說明」. LB-2.3 is labelled 「基本原則」 because S3 says the 'most likely cause' rule 'is explicitly stated as an overarching principle'. EULAR 2018 diagnosis Rec 4: strength not found in accessible text, so 「指引說明」. ACR 2013 Choosing Wisely supporting text: 「指引說明」 (the list's current status on choosingwisely.org was not verified). ACR 2013 item 1 is graded 1C (strong; low-quality evidence), so LB-4.2 is labelled 「強烈不建議（1C）」; its text uses the logically equivalent form. In LB-1.3 the same item is only a supporting citation (further testing depends on clinical suspicion), so that label stays 「ICAP 2019・專家共識」. LB-2.T says 「考量之一」 because S3 gives two reasons for the entry criterion. CRA 2015 item 1 is an ungraded 'Do not order' item; it is labelled 「不建議」 by analogy with ungraded NICE → 「建議」. ICAP is labelled 「專家共識」 (the paper states it is not based on a systematic review). NICE NG100 shows no publication year, so the label is 「NICE NG100・建議」. LB-M1 now carries three labels (CRA 2015, ICAP 2019, EULAR/ACR 2019) because its range comes from two sources. EASI/IUIS (S6) is labelled 2014: volume 73 is the 2014 print year, as the fact-check confirmed.",
+  "LEFT OUT (no source, conflicting sources, Low only, or removed after the fact-check). (1) The DFS70 clause was removed from LB-1.2. ICAP adds in the same cell that the 'healthy' association holds only if the antibody is confirmed as anti-DFS70 with no other common ENA, and the Hung 2026 meta-analysis weakens it further. If you want it back, the condition is quotable from C22, e.g. 「有一種型態（緻密細斑點型）即使數值高也常見於健康的人，但要經檢驗確認是單純的抗DFS70抗體、且沒有其他常見抗體，才能這樣解讀」. (2) LB-1.3 no longer names the centromere pattern. The fact-checker found that ICAP's own AC-3 entry recommends confirmation 'especially in case of low titers' and lists more than one association (limited cutaneous SSc, PBC); that text is not in the evidence file. (3) Also left out: whether ANA titre reflects disease severity (no source); repeat ANA testing (ACR's statement concerns people with disease); the chance that an ANA-positive healthy person develops lupus (no study); ANA and age (conflict); RF and age (conflict); smoking with a raised RF (Low; smoking is on the common page); 'positive anti-CCP means RA will follow' (Low or S9 only); causes of a positive ANA such as thyroid disease, infection or drugs (Low; S9); ACP's 'fatigue or myalgia' example (Low, secondary quotation); routine ANA testing advocated by two Chinese single-centre papers (author opinion); and ICAP's community-study sentence on misdiagnosis and 'toxic medications' (left out to avoid alarm).",
+  "NUMBERS AND WORDING. LB-5.3 and LB-M3 now say 「國外研究顯示/國外研究中」. The fact-check matched the 5-year figure to Campion 1987 (2046 initially healthy US men, 22% at ≥9 mg/dl) and the 15-year figure to Dalbeth 2018 (US cohorts, 49% at ≥10 mg/dL). Both are added as Low second citations (S39, S38), quoted from the evidence file. Their thresholds ('9 mg/dl or higher', '≥10 mg/dL') differ slightly from the guideline wording ('>9', 'above 10'). Neither guideline names the study behind its figure, so 'men only' applies to the 5-year figure only if it comes from Campion. '約2成' covers ACR's 20% and EULAR's 22%. LB-5.T says ACR uses 6.8 mg/dL 「為界」 to avoid the discrepancy between the text (≥6.8) and Table 1 (>6.8). In LB-3.4, 「3成以上」 is 1 minus sensitivity: RF 69%, anti-CCP 67%, anti-CCP2 57% in early RA. In LB-1.2, 「（如1:160高於1:40）」 follows from CRA 2015's figures and the titre order in Leuchten 2018; no source defines a titre in words. LB-3.2 restates specificity measured against control groups in diagnostic studies, not in the general population.",
+  "TRANSLATION CHOICES TO CONFIRM: SARD → 自體免疫風濕病 (the glossary alias); CTD → 結締組織疾病 (LB-4.1, following the CRA 2015 wording); 7 clinical / 3 immunological domains → 7類臨床表現 / 3類免疫檢驗, with mucocutaneous → 皮膚黏膜, musculoskeletal → 肌肉骨骼, renal → 腎臟 (LB-2.2); antigen-specific immunoassay / ANA subserologies → 特定抗體檢驗 / 相關的特定抗體; clinical suspicion of immune-mediated disease → 醫師評估後懷疑免疫疾病; strong risk factor → 重要的危險因子; cornerstone → 基礎; primary care → 基層醫療（如家庭醫師）; expert assessor → 經專業評估; appropriately trained physician → 受過適當訓練的醫師; ACPA → 抗CCP抗體 (the evidence file notes anti-CCP is the usual ACPA test). You may want glossary entries for 抗核抗體, 類風濕因子, 抗CCP抗體, 假陽性 and the 1:40 / 1:160 notation (力價/稀釋倍數; no source defines it, so the page does not explain it).",
+  "EDITORIAL items (all judged neutral and harmless by the fact-check): LB-6.T 「要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人，不要自行停藥」 (first clause added after the fact-check); the end of LB-M4 「已在用藥的人請先和醫師討論，不要自行停藥」; LB-S3 「對報告有疑問，可以帶著報告和醫師討論。」 (new). The intro has no evidence field; its last clause rests on LB-2.4 (S3), LB-3.3 (S23) and LB-5.2 (S34).",
+  "SOURCE DETAILS. Citation years were corrected as the fact-check found: S10 J Rheumatol 2023;50(12):1610-1618 (online 1 Aug 2023); S34 Ann Rheum Dis 2020;79(1):31-38; S40 Circ J 2021;85(2):130-138. The fact-check confirmed every PMID and DOI. S28's print year is still unconfirmed (the Crossref lookup was rate-limited; volume 76 is expected to be 2017), so it is still cited with its online date. New sources S38 (Dalbeth 2018) and S39 (Campion 1987) were added as Low second citations. S40 has an internal year inconsistency: it says the 3rd edition was 'published in 2018' but its reference is titled '2019 Guidelines'. S8 is the earlier, peer-reviewed version of the CRA list.",
+  "CROSS-PAGE NOTE FROM THE FACT-CHECK (gout page): the PMC text of ACR 2020 (S32) also drops a word in the first-flare recommendation ('Initiating ULT is conditionally recommendedin patients with gout experiencing their first gout flare'). Please make sure the gout page took no direction from the PMC text.",
+  "查核後修改（2026-10-10）：依獨立查核（verify_labs.md：0 項嚴重、0 項主要、10 項次要；43 則引文全部對照原文確認，無不符）修改如下。(1) LB-1.1、LB-M1 改列範圍：1:40 以上約 20%、最多可達 35%，1:160 以上約 5%；加引 ICAP 2019。(2) LB-1.2 刪去「有一種型態即使數值高，也常見於看似健康的人」：原文附有「須確認為單純抗 DFS70 抗體」的條件，頁面不易說清楚。(3) LB-1.3 改為「單看報告上的抗核抗體型態，通常不能確定和哪一種疾病有關，要由醫師配合症狀判斷」，不再提著絲點型，並加引 ACR 2013 第 1 項。(4) LB-2.2 改為「依7類臨床表現（例如皮膚黏膜、肌肉骨骼、腎臟）和3類免疫檢驗評分」，避免暗示只靠抽血就能歸類；「至少要有1項臨床表現」在證據檔中沒有原文引句，未寫入，請見備註。(5) LB-3.T 加「主要」。(6) LB-5.3、LB-M3 加「國外研究」，並以 Campion 1987、Dalbeth 2018 作第二引用。(7) LB-6.2 改用香港風濕病學會 2023「調整生活型態是處理高尿酸和痛風的基礎」：這句是查核者在 PMC 原文確認的，證據檔未收錄。原本引用的中國指引句子，上下文是討論停藥，已刪除。(8) LB-6.T 前加「要不要用藥，請和醫師討論個人狀況」（編輯加註）。(9) LB-S2 加入 NICE 第三項：症狀出現 3 個月以上才就醫。(10) 新增 LB-S3「對報告有疑問，可以帶著報告和醫師討論。」（編輯加註）。(11) 出處年份修正：S10 J Rheumatol 2023;50(12):1610-1618、S34 Ann Rheum Dis 2020;79(1):31-38、S40 Circ J 2021;85(2):130-138；新增出處 S38、S39；每則引文的 strength 欄已加註查核結果。未採用：LB-3.T 的「是否罹病仍由醫師判斷」，因為證據檔沒有這句，查核報告只引了半句（'The criteria do not remove the onus on individual physicians…'）；LB-2.2 的「至少要有1項臨床表現」，因為只有次級來源。"
+ ]
+}

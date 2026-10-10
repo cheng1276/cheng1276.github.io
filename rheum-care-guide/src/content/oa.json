@@ -1,0 +1,1084 @@
+{
+ "slug": "oa",
+ "name": "退化性關節炎",
+ "intro": "這頁依據國際指引，整理膝、髖和手部退化性關節炎的運動、體重管理、輔具與日常照護，並說明常見迷思。",
+ "cards": [
+  {
+   "id": "oa-basics",
+   "title": "認識與自我管理",
+   "summary": "學會自我管理；運動和需要時的體重管理是核心治療。",
+   "illustration": "A patient and a doctor sitting together at a clinic desk, looking at a simple care-plan sheet with small pictures of a walking person and a bathroom scale; flat, friendly style; no text, no numbers, no brands.",
+   "points": [
+    {
+     "text": "45歲以上、活動時關節痛、早上關節不僵硬或僵硬不超過30分鐘的人，通常靠症狀和身體檢查就能診斷，不必照X光；症狀不典型時，可能需要影像檢查。",
+     "strength_label": "NICE 2022・建議",
+     "evidence": [
+      {
+       "c": "C61",
+       "s": "S6",
+       "quote": "Diagnose osteoarthritis clinically without imaging in people who: • are 45 or over and • have activity-related joint pain and • have either no morning joint-related stiffness or morning stiffness that lasts no longer than 30 minutes.",
+       "strength": "No formal grade (NICE wording \"Diagnose\"); Recommendation 1.1.1 (population: 45 or over with these features). Single read in the evidence session; matched word for word in the independent fact-check's read of the NICE recommendations page",
+       "confidence": "High"
+      },
+      {
+       "c": "C80",
+       "s": "S6",
+       "quote": "Do not routinely use imaging to diagnose osteoarthritis unless there are atypical features or features that suggest an alternative or additional diagnosis.",
+       "strength": "NICE \"Do not routinely…\"; Recommendation 1.1.2. Not in the evidence file; wording from the independent fact-check's WebFetch read of the NICE recommendations page (verify_oa.md, row OA-1.1)",
+       "confidence": "High"
+      },
+      {
+       "c": "C04",
+       "s": "S6",
+       "quote": "Explain to people with osteoarthritis that: • it is diagnosed clinically and usually does not need imaging to confirm the diagnosis and …",
+       "strength": "No formal grade (NICE wording \"Explain\"); Recommendation 1.2.2, read twice",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-1.1"
+    },
+    {
+     "text": "治療依症狀和身體功能安排；核心治療是運動，需要時加上體重管理，並搭配衛教資訊與支持。",
+     "strength_label": "NICE 2022・建議",
+     "evidence": [
+      {
+       "c": "C04",
+       "s": "S6",
+       "quote": "Explain to people with osteoarthritis that: … • management should be guided by symptoms and physical function and • the core treatments for the condition are therapeutic exercise and weight management (if appropriate), along with information and support.",
+       "strength": "No formal grade (NICE wording \"Explain\"); Recommendation 1.2.2, read twice",
+       "confidence": "High"
+      },
+      {
+       "c": "C07",
+       "s": "S5",
+       "quote": "Core Treatments for Knee OA included arthritis education and structured land-based exercise programs with or without dietary weight management. Core Treatments for Hip and Polyarticular OA included arthritis education and structured land-based exercise programs.",
+       "strength": "\"Core Treatment\"; strength label not verified in accessible text (abstract only)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OA-1.2"
+    },
+    {
+     "text": "膝、髖關節退化：和醫療團隊一起訂出個人化計畫，結合多種非藥物的核心治療。",
+     "strength_label": "EULAR 2023・建議強度 A",
+     "evidence": [
+      {
+       "c": "C01",
+       "s": "S7",
+       "quote": "People with hip or knee OA should be offered an individualised, multicomponent management plan that includes the recommended core non-pharmacological approaches.",
+       "strength": "LoE 1a; strength A; LoA 9.8 (0.7), median 10 (7–10); implementation priority rank 2",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-1.3"
+    },
+    {
+     "text": "向醫療團隊學習這個病的知識和自我管理方法，之後回診時也可以持續複習。",
+     "strength_label": "EULAR 2023・建議強度 A；EULAR 2018・基本原則",
+     "evidence": [
+      {
+       "c": "C02",
+       "s": "S7",
+       "quote": "People with hip or knee OA should be offered information, education and advice on self-management strategies (considering available modes of delivery) and these should be included and reinforced at subsequent clinical encounters.",
+       "strength": "LoE 1a; A; LoA 9.6 (0.7), 10 (7–10); priority rank 1",
+       "confidence": "High"
+      },
+      {
+       "c": "C06",
+       "s": "S9",
+       "quote": "All patients should be offered information on the nature and course of the disease, as well as education on self-management principles and treatment options",
+       "strength": "Overarching principle (hand OA); LoA 9.8 (0.8); no LoE/GoR for principles",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-1.4"
+    },
+    {
+     "text": "需要用藥時，藥物是用來搭配運動等非藥物治療，不是取代它們；用藥請和醫師討論。",
+     "strength_label": "NICE 2022・建議",
+     "evidence": [
+      {
+       "c": "C64",
+       "s": "S6",
+       "quote": "If pharmacological treatments are needed to manage osteoarthritis, use them: • alongside non-pharmacological treatments and to support therapeutic exercise …",
+       "strength": "No formal grade; Recommendation 1.4.1 (medication-adjacent; single read)",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial safety phrase 「用藥請和醫師討論」; not from a source",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "OA-1.5"
+    }
+   ],
+   "tip": {
+    "text": "可以考慮認知行為治療；改善心情、減輕壓力和處理失眠，也可能有助整體健康和治療效果。",
+    "strength_label": "ACR 2019・建議",
+    "evidence": [
+     {
+      "c": "C57",
+      "s": "S2",
+      "quote": "Cognitive behavioral therapy (CBT) is conditionally recommended for patients with knee, hip, and/or hand OA.",
+      "strength": "Conditional",
+      "confidence": "High"
+     },
+     {
+      "c": "C58",
+      "s": "S2",
+      "quote": "Measures aimed at improving mood, reducing stress, addressing insomnia, managing weight, and enhancing fitness may improve the patient’s overall well-being and OA treatment success.",
+      "strength": "Narrative (not graded)",
+      "confidence": "High"
+     },
+     {
+      "c": "C58",
+      "s": "S13",
+      "quote": "Psychosocial factors such as kinesiophobia, pain catastrophising, depression and poor sleep can negatively influence how patients perceive their pain and functional limitations and affect adherence to mainstay strategies.",
+      "strength": "Narrative (not graded)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OA-1.T"
+   }
+  },
+  {
+   "id": "oa-exercise",
+   "title": "規律運動",
+   "summary": "膝、髖關節退化強烈建議運動，選自己做得到的方式並持續。",
+   "illustration": "Older adults exercising in a park: one walking briskly, one doing a leg-strengthening exercise with an elastic band, and a small group practising tai chi; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "膝或髖關節退化的人，強烈建議規律運動。",
+     "strength_label": "ACR 2019・強烈建議；EULAR 2023・建議強度 A",
+     "evidence": [
+      {
+       "c": "C09",
+       "s": "S2",
+       "quote": "Exercise is strongly recommended for patients with knee, hip, and/or hand OA.",
+       "strength": "Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C11",
+       "s": "S7",
+       "quote": "All people with hip or knee OA should be offered an exercise programme (eg, strength, aerobic, flexibility or neuromotor*) of adequate dosage with progression tailored to their physical function, preferences and available services.",
+       "strength": "LoE 1a; A; LoA 9.6 (0.8), 10 (7–10); priority rank 3",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-2.1"
+    },
+    {
+     "text": "膝、髖關節退化可做肌力、有氧、伸展或平衡協調訓練（如太極拳；膝關節退化也可做瑜伽），並依身體功能逐步增加。",
+     "strength_label": "EULAR 2023・建議強度 A",
+     "evidence": [
+      {
+       "c": "C11",
+       "s": "S7",
+       "quote": "All people with hip or knee OA should be offered an exercise programme (eg, strength, aerobic, flexibility or neuromotor*) of adequate dosage with progression tailored to their physical function, preferences and available services. … *Neuromotor exercise includes various motor skills, including balance, coordination, gait, agility, proprioceptive training and activities combining neuromotor exercise, resistance exercise and flexibility (eg, tai chi, yoga).",
+       "strength": "LoE 1a; A; LoA 9.6 (0.8), 10 (7–10); priority rank 3 (recommendation and its footnote)",
+       "confidence": "High"
+      },
+      {
+       "c": "C27",
+       "s": "S2",
+       "quote": "Yoga is conditionally recommended for patients with knee OA. … Due to lack of data, no recommendation can be made regarding use of yoga to help manage symptoms of hip OA.",
+       "strength": "Conditional (knee OA); no recommendation for hip OA. Ellipsis marks an intervening paragraph, as the independent fact-check found",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-2.2"
+    },
+    {
+     "text": "選擇自己喜歡、方便參加的運動方式，個人或團體、面對面或線上都可以；目前研究無法確定哪種運動最好。",
+     "strength_label": "ACR 2019・指引說明；EULAR 2023・建議強度 A",
+     "evidence": [
+      {
+       "c": "C14",
+       "s": "S2",
+       "quote": "While patients and providers seek recommendations on the “best” exercise and the ideal dosage (duration, intensity, and frequency), current evidence is insufficient to recommend specific exercise prescriptions. … Exercise recommendations to patients should focus on the patient’s preferences and access, both of which may be important barriers to participation.",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C15",
+       "s": "S7",
+       "quote": "In summary, results showed that a variety of exercise modalities might lead to improved pain and function for people with hip or knee OA, making it difficult to recommend one type of exercise over another.",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C15",
+       "s": "S15",
+       "quote": "We did not find any differences in effects between different types of exercise, …",
+       "strength": "Tier 2 (Cochrane systematic review; abstract)",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C17",
+       "s": "S7",
+       "quote": "The mode of delivery of exercises (eg, individual or group sessions, supervised or unsupervised, face to face or by using digital technology, land-based or aquatic exercise) should be selected according to local availability and patient preferences.",
+       "strength": "LoE 1a; A; LoA 9.6 (0.6), 10 (8–10); priority rank 4",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-2.3"
+    },
+    {
+     "text": "可以考慮在專業人員指導下運動；多數人在病程中某些時候，轉介物理治療或職能治療可能有幫助。",
+     "strength_label": "NICE 2022・建議；ACR 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C18",
+       "s": "S6",
+       "quote": "Consider supervised therapeutic exercise sessions for people with osteoarthritis.",
+       "strength": "NICE \"Consider\"; Recommendation 1.3.2 (single read)",
+       "confidence": "High"
+      },
+      {
+       "c": "C63",
+       "s": "S2",
+       "quote": "Most patients with OA are likely to experience benefit from referral to physical therapy and/or occupational therapy at various times during the course of their disease.",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C18",
+       "s": "S13",
+       "quote": "Consider referring patients with knee OA to relevant allied health professionals (AHPs) for additional non-pharmacological strategies (e.g. supervised exercise, walking aids).",
+       "strength": "Conditional (\"The EG agreed on a conditional recommendation for AHP referrals\")",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-2.4"
+    },
+    {
+     "text": "長期持續運動，減輕疼痛、改善功能和生活品質的好處才能維持並增加。",
+     "strength_label": "NICE 2022・建議；EULAR 2023・指引說明",
+     "evidence": [
+      {
+       "c": "C22",
+       "s": "S6",
+       "quote": "long-term adherence to an exercise plan increases its benefits by reducing pain and increasing functioning and quality of life.",
+       "strength": "NICE \"Explain\"; Recommendation 1.3.3 (second bullet), read twice",
+       "confidence": "High"
+      },
+      {
+       "c": "C22",
+       "s": "S7",
+       "quote": "The TF also expressed the importance of maintaining exercise over time for the positive effects to persist.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-2.5"
+    }
+   ],
+   "tip": {
+    "text": "可以和醫療團隊一起設定目標、擬定行動計畫，並用計步器等穿戴裝置記錄活動量。",
+    "strength_label": "EULAR 2025・建議強度 A",
+    "evidence": [
+     {
+      "c": "C21",
+      "s": "S10",
+      "quote": "HCPs should plan, deliver and follow-up PA*/** interventions that include self-monitoring, goal setting, action planning, feedback, and problem-solving. … Wearable activity trackers and other digital technologies should be considered when promoting PA*/**.",
+      "strength": "Rec 9: LoE 1A, A, LoA 9.7 (0.7); Rec 11: LoE 1A, A, LoA 9.1 (1.3) (population: inflammatory arthritis and OA; single reads)",
+      "confidence": "High"
+     },
+     {
+      "c": "C21",
+      "s": "S7",
+      "quote": "Consider employing elements of behaviour change techniques when lifestyle modifications are needed (eg, physical activity, weight loss) for people with hip or knee OA.",
+      "strength": "LoE 1b, A, LoA 9.2 (0.8), 9 (8–10)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OA-2.T"
+   }
+  },
+  {
+   "id": "oa-exercise-pain",
+   "title": "運動時會痛怎麼辦",
+   "summary": "剛開始可能會痛；可以調整動作和強度，繼續保持活動。",
+   "illustration": "An older adult pausing on a walk with a hand resting on one knee, and the same person continuing with a gentle seated leg exercise at home; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "剛開始運動時，關節可能會比較痛；規律、持續地運動，對關節仍有好處。",
+     "strength_label": "NICE 2022・建議",
+     "evidence": [
+      {
+       "c": "C30",
+       "s": "S6",
+       "quote": "Advise people with osteoarthritis that joint pain may increase when they start therapeutic exercise. Explain that: doing regular and consistent exercise, even though this may initially cause pain or discomfort, will be beneficial for their joints …",
+       "strength": "No formal grade (NICE \"Advise/Explain\"); Recommendation 1.3.3, confirmed in a verification pass",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-3.1"
+    },
+    {
+     "text": "運動後48到72小時內疼痛增加，可能是延遲性肌肉痠痛，屬正常反應，剛開始運動的人尤其如此。",
+     "strength_label": "EULAR 2025・指引說明",
+     "evidence": [
+      {
+       "c": "C32",
+       "s": "S10",
+       "quote": "For example, higher pain rates until 48 to 72 hours after activities might be due to delayed-onset muscle soreness, which is a normal reaction, especially in exercise novices.",
+       "strength": "Explanatory text under Recommendation 5 (Recommendation 5 itself: LoE 4; strength D; LoA 9.4 (1.1)); read twice",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-3.2"
+    },
+    {
+     "text": "如果某個動作會讓關節痛，可以改做訓練同一群肌肉的其他動作。",
+     "strength_label": "EULAR 2025・指引說明",
+     "evidence": [
+      {
+       "c": "C32",
+       "s": "S10",
+       "quote": "For cases in which specific activities cause joint pain, alternative exercises using the same muscle group and energy systems should be considered.",
+       "strength": "Explanatory text under Recommendation 5 (Recommendation 5 itself: LoE 4; strength D; LoA 9.4 (1.1)); read twice",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-3.3"
+    },
+    {
+     "text": "關節疼痛發作時，可能做不了高強度活動，但散步或關節活動度運動，或許還做得到。",
+     "strength_label": "EULAR 2025・指引說明",
+     "evidence": [
+      {
+       "c": "C33",
+       "s": "S10",
+       "quote": "For example, whereas a flare might prevent someone from performing high-intensity activities, activities of lower intensity such as going for a walk or range of motion exercises might still be possible.",
+       "strength": "Explanatory text (population: inflammatory arthritis and OA); read twice",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-3.4"
+    },
+    {
+     "text": "疼痛到什麼程度還能運動，沒有統一的標準；什麼時候開始運動，可以和醫師一起決定。",
+     "strength_label": "ACR 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C31",
+       "s": "S2",
+       "quote": "There is no uniformly accepted level of pain at which a patient should or should not exercise, and a common-sense approach of shared decision-making between the treating clinician and the patient regarding when to initiate an exercise program is advisable.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-3.5"
+    }
+   ],
+   "tip": {
+    "text": "研究中回報的運動不適，大多短暫且輕微，例如肌肉痠痛、疲倦，或膝蓋暫時更痛、更腫。",
+    "strength_label": "EULAR 2025・指引說明；新加坡 ACE 2026・指引說明",
+    "evidence": [
+     {
+      "c": "C34",
+      "s": "S10",
+      "quote": "Overall, reported adverse events with exercise and/or PA interventions in IA or OA were transient and mild [27,47,49], including eg, muscle pain and tiredness.",
+      "strength": "Narrative (text under Recommendation 1)",
+      "confidence": "High"
+     },
+     {
+      "c": "C34",
+      "s": "S13",
+      "quote": "Most risks associated with exercise are minor and involve transient increases in pain and swelling at the knee joints.",
+      "strength": "Narrative (Recommendation 2 rationale)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OA-3.T"
+   }
+  },
+  {
+   "id": "oa-weight",
+   "title": "體重管理",
+   "summary": "體重過重或肥胖時，減重可減輕疼痛、改善功能。",
+   "illustration": "An adult cooking a simple balanced meal at home, with a pair of walking shoes by the door and a bathroom scale on the floor; flat, friendly style; no text, no numbers, no brands.",
+   "points": [
+    {
+     "text": "膝或髖關節退化、且體重過重或肥胖的人，強烈建議減重。",
+     "strength_label": "ACR 2019・強烈建議",
+     "evidence": [
+      {
+       "c": "C38",
+       "s": "S2",
+       "quote": "Weight loss is strongly recommended for patients with knee and/or hip OA who are overweight or obese.",
+       "strength": "Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C41",
+       "s": "S7",
+       "quote": "People with hip or knee OA should be offered education on the importance of maintaining a healthy weight. Those overweight or obese should be offered support to achieve and maintain weight loss.",
+       "strength": "LoE 1a; A; LoA 9.2 (1.4), 10 (4–10); priority rank 5",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-4.1"
+    },
+    {
+     "text": "體重過重或肥胖時，減重可以改善生活品質和身體功能，並減輕疼痛。",
+     "strength_label": "NICE 2022・建議",
+     "evidence": [
+      {
+       "c": "C40",
+       "s": "S6",
+       "quote": "For people with osteoarthritis who are living with overweight or obesity: advise them that weight loss will improve their quality of life and physical function, and reduce pain …",
+       "strength": "No formal grade (NICE \"advise/support/explain\"); Recommendation 1.3.5, confirmed in a verification pass",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-4.2"
+    },
+    {
+     "text": "體重過重或肥胖的人，可和醫療團隊一起訂減重目標；減多少都可能有幫助，減掉體重的10%可能比5%更好。",
+     "strength_label": "NICE 2022・建議",
+     "evidence": [
+      {
+       "c": "C40",
+       "s": "S6",
+       "quote": "For people with osteoarthritis who are living with overweight or obesity: … • support them to choose a weight loss goal • explain that any amount of weight loss is likely to be beneficial, but losing 10% of their body weight is likely to be better than 5%.",
+       "strength": "No formal grade (NICE \"advise/support/explain\"); Recommendation 1.3.5, confirmed in a verification pass. Bullet markers restored as printed on the NICE recommendations page; wording confirmed by the independent fact-check",
+       "confidence": "High"
+      },
+      {
+       "c": "C38",
+       "s": "S2",
+       "quote": "A loss of ≥5% of body weight can be associated with changes in clinical and mechanistic outcomes. Furthermore, clinically important benefits continue to increase with weight loss of 5–10%, 10–20%, and >20% of body weight.",
+       "strength": "Narrative amounts within the strong weight-loss recommendation (knee/hip OA with overweight or obesity)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-4.3"
+    },
+    {
+     "text": "減重時飲食控制搭配運動，效果比只做其中一項好一些。",
+     "strength_label": "EULAR 2023・指引說明；ACR 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C41",
+       "s": "S7",
+       "quote": "When comparing combined interventions of dietary weight loss and exercise to dietary weight loss or exercise alone, small effects were found in favour of the combined intervention. … The TF notes that the amount of evidence mainly stems from studies on knee OA.",
+       "strength": "Narrative text after Recommendation 5 (LoE 1a; A)",
+       "confidence": "High"
+      },
+      {
+       "c": "C38",
+       "s": "S2",
+       "quote": "The efficacy of weight loss for OA symptom management is enhanced by use of a concomitant exercise program.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-4.4"
+    },
+    {
+     "text": "膝關節退化、且體重過重或肥胖而需要減重的人，宜逐步、持續地減重；快速減重曾被發現與關節不穩、肌少症和骨質疏鬆等風險有關。",
+     "strength_label": "新加坡 ACE 2026・指引說明",
+     "evidence": [
+      {
+       "c": "C43",
+       "s": "S13",
+       "quote": "Whereas gradual and sustained weight loss is associated with benefits for patients with knee OA, rapid weight loss has been associated with risks such as joint instability, sarcopenia and osteoporosis. … To minimise these risks, patients should be advised to adopt strategies that promote gradual and sustainable weight loss.",
+       "strength": "Rationale text within a strong recommendation (Recommendation 2: \"The EG agreed to a strong recommendation\")",
+       "confidence": "High"
+      },
+      {
+       "c": "C43",
+       "s": "S13",
+       "quote": "The EG agreed to a strong recommendation, although not all patients with OA may need all these strategies (e.g. patients who are bedbound or underweight).",
+       "strength": "Recommendation 2 (strong). The full sentence is not in the evidence file; wording confirmed in the PMC full text (PMC13405452) by the independent fact-check (verify_oa.md, row OA-4.5)",
+       "confidence": "High"
+      },
+      {
+       "c": "C38",
+       "s": "S2",
+       "quote": "Weight loss is strongly recommended for patients with knee and/or hip OA who are overweight or obese.",
+       "strength": "Strong (population for weight loss: overweight or obesity)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-4.5"
+    }
+   ],
+   "tip": {
+    "text": "目前預防退化性關節炎，主要方向是體重管理和避免關節受傷。",
+    "strength_label": "ACR 2019・指引說明",
+    "evidence": [
+     {
+      "c": "C44",
+      "s": "S2",
+      "quote": "No effective disease-modifying agents for OA have yet been identified though phase 2 and 3 trials are underway, and, for the time being, preventive strategies focus on weight management and injury prevention.",
+      "strength": "Narrative (Discussion)",
+      "confidence": "High"
+     },
+     {
+      "c": "C44",
+      "s": "S7",
+      "quote": "As overweight and obesity are strong risk factors for the development and progression of OA, and in particular knee OA …",
+      "strength": "Narrative text after Recommendation 5",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OA-4.T"
+   }
+  },
+  {
+   "id": "oa-hand",
+   "title": "手部關節照護",
+   "summary": "做手部運動、善用輔具，大拇指根部退化可考慮副木。",
+   "illustration": "Two hands doing gentle finger and thumb exercises at a table, with a plain thumb splint and a small paraffin wax bath nearby; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "手部退化的人都可以考慮做手部運動，目標是改善關節活動度、肌力和大拇指根部的穩定度。",
+     "strength_label": "EULAR 2018・建議強度 A",
+     "evidence": [
+      {
+       "c": "C29",
+       "s": "S9",
+       "quote": "Exercises to improve function and muscle strength, as well as to reduce pain, should be considered for every patient. … Exercises should aim at improving joint mobility, muscle strength and thumb base stability.",
+       "strength": "LoE 1a; GoR A; LoA 9.1 (1.6)",
+       "confidence": "High"
+      },
+      {
+       "c": "C29",
+       "s": "S18",
+       "quote": "For non-pharmacological interventions, there was low-certainty evidence for a small long-term effect of hand exercises …",
+       "strength": "Tier 2 (systematic review; GRADE as quoted)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OA-5.1"
+    },
+    {
+     "text": "學習符合人體工學的做事方法、調整活動步調，並善用輔具；輔具有助改善手部功能。",
+     "strength_label": "EULAR 2018・建議強度 A；系統性回顧 2025・研究顯示",
+     "evidence": [
+      {
+       "c": "C54",
+       "s": "S9",
+       "quote": "Education and training in ergonomic principles, pacing of activity and use of assistive devices should be offered to every patient. … The use of assistive devices is an important and commonly used strategy to improve patient’s self-management",
+       "strength": "LoE 1b; GoR A; LoA 9.3 (1.1). The end of the second sentence ('to improve patient’s self-management') was read on the publisher page by the independent fact-check (WebFetch); the evidence file stopped at 'strategy'",
+       "confidence": "High"
+      },
+      {
+       "c": "C29",
+       "s": "S18",
+       "quote": "… moderate-certainty evidence that assistive devices had a moderate long-term effect on function.",
+       "strength": "Tier 2 (systematic review; GRADE as quoted)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OA-5.2"
+    },
+    {
+     "text": "大拇指根部退化，可和醫療人員討論是否用副木緩解症狀；如果使用，建議持續使用一段較長的時間（研究中至少使用3個月）。",
+     "strength_label": "EULAR 2018・建議強度 A",
+     "evidence": [
+      {
+       "c": "C49",
+       "s": "S9",
+       "quote": "Orthoses should be considered for symptom relief in patients with thumb base OA. Long-term use is advocated … These trials provide evidence for beneficial effects of a thumb base orthosis, especially on pain and to a lesser extent on function, but not on grip strength, when used for a prolonged period (at least 3 months).",
+       "strength": "LoE 1b; GoR A; LoA 9.3 (1.0). The 'These trials…' sentence is from the text after Recommendation 3: the evidence file had only the fragment 'when used for a prolonged period (at least 3 months)', and the independent fact-check read the full sentence on the publisher page (WebFetch), so it has now been read twice",
+       "confidence": "High"
+      },
+      {
+       "c": "C29",
+       "s": "S18",
+       "quote": "… a moderate long-term effect of thumb orthoses for pain …",
+       "strength": "Tier 2 (systematic review; GRADE as quoted)",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OA-5.3"
+    },
+    {
+     "text": "手部關節可以考慮使用石蠟浴，這是一種手部熱療方式；使用時注意溫度，避免燙傷。",
+     "strength_label": "ACR 2019・建議",
+     "evidence": [
+      {
+       "c": "C55",
+       "s": "S2",
+       "quote": "Paraffin, an additional method of heat therapy for the hands, is conditionally recommended for patients with hand OA.",
+       "strength": "Conditional",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial safety phrase 「使用時注意溫度，避免燙傷」; not from a source; added for consistency with OA-6.2 at the independent fact-check's suggestion",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "OA-5.4"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "oa-aids",
+   "title": "輔具與其他療法",
+   "summary": "善用助行器和舒適的鞋子；楔形鞋墊和TENS不建議。",
+   "illustration": "An older adult at home walking with a cane in comfortable, roomy shoes past a stair handrail, with a raised toilet seat visible through a doorway and a warm pack resting on one knee; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "膝或髖關節退化影響走路時，可考慮使用手杖等助行器；家中也可加裝樓梯扶手、使用加高馬桶座或可調高度的椅子。",
+     "strength_label": "NICE 2022・建議；EULAR 2023・建議強度 A",
+     "evidence": [
+      {
+       "c": "C46",
+       "s": "S6",
+       "quote": "Consider walking aids (such as walking sticks) for people with lower limb osteoarthritis.",
+       "strength": "No formal grade (NICE \"Consider\"); Recommendation 1.3.10 (single read)",
+       "confidence": "High"
+      },
+      {
+       "c": "C47",
+       "s": "S7",
+       "quote": "For people with hip or knee OA, consider walking aids, appropriate footwear, assistive devices and adaptations at home and at work to reduce pain and increase participation. … The results were contradictory, and conclusions on the effect of cane were difficult to draw from the available evidence. … Examples of such devices might be devices to aid dressing, height-adjustable chairs, raised toilet seats, handrails in staircases or the use of appropriate walking aids.",
+       "strength": "LoE 1b; A; LoA 9.3 (1.0), 10 (6–10); priority rank 8",
+       "confidence": "High"
+      },
+      {
+       "c": "C45",
+       "s": "S2",
+       "quote": "Cane use is strongly recommended for patients with knee and/or hip OA in whom disease in 1 or more joints is causing a sufficiently large impact on ambulation, joint stability, or pain to warrant use of an assistive device.",
+       "strength": "Strong (2019)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-6.1"
+    },
+    {
+     "text": "膝、髖或手部退化，可以局部熱敷或冰敷，暫時緩解症狀；使用時注意溫度，避免燙傷或凍傷。",
+     "strength_label": "ACR 2019・建議",
+     "evidence": [
+      {
+       "c": "C55",
+       "s": "S2",
+       "quote": "Thermal interventions (locally applied heat or cold) are conditionally recommended for patients with knee, hip, and/or hand OA. … The heterogeneity of modalities and short duration of benefit for these interventions led to the conditional recommendation.",
+       "strength": "Conditional",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial safety phrase 「使用時注意溫度，避免燙傷或凍傷」; not from a source; no source read gives heat or cold safety advice or says when to choose heat versus cold",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "OA-6.2"
+    },
+    {
+     "text": "膝、髖關節退化：選擇舒適、站著時腳趾也有足夠空間的鞋子；目前研究還無法確定哪種鞋最好。",
+     "strength_label": "EULAR 2023・指引說明；ACR 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C52",
+       "s": "S7",
+       "quote": "… The TF wanted to add that from a clinical perspective, the use of comfortable shoes, big enough to give ample space for the toes when weight-bearing, is still a general recommendation for people with hip and knee OA.",
+       "strength": "Clinical-perspective statement within Recommendation 6 (LoE 1b; A)",
+       "confidence": "High"
+      },
+      {
+       "c": "C52",
+       "s": "S2",
+       "quote": "While optimal footwear is likely to be of considerable importance for those with knee and/or hip OA, the available studies do not define the best type of footwear to improve specific outcomes for knee or hip OA.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-6.3"
+    },
+    {
+     "text": "不建議用楔形鞋墊（外側或內側墊高的鞋墊）來改善膝、髖關節退化。",
+     "strength_label": "ACR 2019・不建議",
+     "evidence": [
+      {
+       "c": "C53",
+       "s": "S2",
+       "quote": "Lateral and medial wedged insoles are conditionally recommended against in patients with knee and/or hip OA. The currently available literature does not demonstrate clear efficacy of lateral or medial wedged insoles.",
+       "strength": "Conditional against (2019). Heading wording ('recommended against') confirmed in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233) by the independent fact-check (two reads); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+       "confidence": "High"
+      },
+      {
+       "c": "C53",
+       "s": "S7",
+       "quote": "Summarised, most evidence did not support the use of any lateral wedged or other insoles to affect pain or function in knee OA.",
+       "strength": "Narrative text after Recommendation 6",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-6.4"
+    },
+    {
+     "text": "不建議用經皮神經電刺激（TENS）處理退化性關節炎，因為沒有足夠證據顯示有好處。",
+     "strength_label": "NICE 2022・不建議",
+     "evidence": [
+      {
+       "c": "C56",
+       "s": "S6",
+       "quote": "Do not offer any of the following electrotherapy treatments to people with osteoarthritis because there is insufficient evidence of benefit: • transcutaneous electrical nerve stimulation (TENS) …",
+       "strength": "NICE \"Do not offer\"; Recommendation 1.3.9 (single read in the evidence session; matched in the independent fact-check's reads of the NICE page and PDF)",
+       "confidence": "High"
+      },
+      {
+       "c": "C56",
+       "s": "S2",
+       "quote": "Transcutaneous electrical stimulation (TENS) is strongly recommended against in patients with knee and/or hip OA. … Studies have demonstrated a lack of benefit for knee OA.",
+       "strength": "Strong against (2019). Heading wording ('recommended against') confirmed in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233) by the independent fact-check (two reads); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OA-6.5"
+    }
+   ],
+   "tip": {
+    "text": "護膝或膝關節支架不是每個人都需要；膝蓋不穩、走路明顯受影響，而且單靠運動效果不好時，可以和醫療人員討論是否適合。",
+    "strength_label": "NICE 2022・建議",
+    "evidence": [
+     {
+      "c": "C48",
+      "s": "S6",
+      "quote": "Do not routinely offer insoles, braces, tape, splints or supports to people with osteoarthritis unless: • there is joint instability or abnormal biomechanical loading and • therapeutic exercise is ineffective or unsuitable without the addition of an aid or device and • the addition of an aid or device is likely to improve movement and function.",
+      "strength": "NICE \"Do not routinely offer… unless\"; Recommendation 1.3.11, confirmed in a verification pass",
+      "confidence": "High"
+     },
+     {
+      "c": "C48",
+      "s": "S2",
+      "quote": "Tibiofemoral knee braces are strongly recommended for patients with knee OA in whom disease in 1 or both knees is causing a sufficiently large impact on ambulation, joint stability, or pain to warrant use of an assistive device, and who are able to tolerate the associated inconvenience and burden associated with bracing. Patellofemoral braces are conditionally recommended for patients with patellofemoral knee OA in whom disease in 1 or both knees is causing a sufficiently large impact on ambulation, joint stability, or pain to warrant use of an assistive device.",
+      "strength": "Strong (tibiofemoral), Conditional (patellofemoral) (2019)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OA-6.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "吃葡萄糖胺可以治療退化性關節炎。",
+   "fact": "美國 ACR 指引強烈不建議用葡萄糖胺治療膝、髖或手部退化性關節炎，英國 NICE 也不建議。最可靠的研究顯示，它比起安慰劑沒有明顯好處。",
+   "strength_label": "ACR 2019・強烈不建議；NICE 2022・不建議",
+   "evidence": [
+    {
+     "c": "C66",
+     "s": "S2",
+     "quote": "Glucosamine is strongly recommended against in patients with knee, hip, and/or hand OA. … The data that were deemed to have the lowest risk of bias fail to show any important benefits over placebo. These recommendations represent a change from the prior conditional recommendation against the use of glucosamine. The weight of the evidence indicates a lack of efficacy and large placebo effects.",
+     "strength": "Strong against (2019). Heading wording ('recommended against') confirmed in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233) by the independent fact-check (two reads); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+     "confidence": "High"
+    },
+    {
+     "c": "C66",
+     "s": "S6",
+     "quote": "Do not offer glucosamine or strong opioids to people to manage osteoarthritis. If the person with osteoarthritis asks about glucosamine or strong opioids, explain that: • there is no strong evidence of benefit for glucosamine …",
+     "strength": "NICE \"Do not offer\"; Recommendations 1.4.6 (read twice) and 1.4.7 (single read in the evidence session; both matched in the independent fact-check's reads)",
+     "confidence": "High"
+    },
+    {
+     "c": "C68",
+     "s": "S28",
+     "quote": "Industry independent trials showed smaller effects than commercially funded trials (P=0.02 for interaction). … Compared with placebo, glucosamine, chondroitin, and their combination do not reduce joint pain or have an impact on narrowing of joint space.",
+     "strength": "Tier 2 (network meta-analysis of large trials; hip or knee OA). Sentence order restored as in the PubMed abstract after the independent fact-check",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "OA-M1"
+  },
+  {
+   "belief": "關節退化就該多休息，運動會讓關節磨損得更快。",
+   "fact": "美國 ACR 指引強烈建議膝、髖關節退化的人規律運動。研究回顧也發現，膝關節負重運動看來不會傷害軟骨，但證據品質低。",
+   "strength_label": "ACR 2019・強烈建議；系統性回顧 2019・研究顯示",
+   "evidence": [
+    {
+     "c": "C09",
+     "s": "S2",
+     "quote": "Exercise is strongly recommended for patients with knee, hip, and/or hand OA.",
+     "strength": "Strong",
+     "confidence": "High"
+    },
+    {
+     "c": "C37",
+     "s": "S20",
+     "quote": "Knee joint loading exercise seems to not be harmful for articular cartilage in people at increased risk of, or with, knee OA. However, the quality of evidence was low, including some interventions studying activities considered outside the therapeutic loading spectrum to promote cartilage health.",
+     "strength": "Tier 2 (systematic review of RCTs; low quality)",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C37",
+     "s": "S21",
+     "quote": "Exercise therapy is not harmful, because it does not increase the concentration of molecular biomarkers related to cartilage turnover and inflammation, implicated in osteoarthritis progression. The overall quality of evidence was downgraded to low because of the limited number of RCTs available.",
+     "strength": "Tier 2 (systematic review and meta-analysis; low quality)",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C79",
+     "s": "S13",
+     "quote": "Patient empowerment: Provide educational materials that dispel misconceptions about exercising (e.g. exercise worsens knee OA symptoms) and practical resources demonstrating how patients with knee OA can exercise safely.",
+     "strength": "Narrative (implementation text)",
+     "confidence": "High"
+    },
+    {
+     "c": "C79",
+     "s": "S9",
+     "quote": "The term ‘joint protection’, although still often used, was viewed by the task force as an outdated concept, implying that one should protect the joints and refrain from using them.",
+     "strength": "Narrative (text after Recommendation 1; one dedicated read)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "OA-M2"
+  },
+  {
+   "belief": "吃魚油或維生素D，可以改善退化性關節炎。",
+   "fact": "美國 ACR 指引不建議用魚油或維生素D補充品治療膝、髖或手部退化性關節炎。醫師因其他原因開立的維生素D，請照醫囑使用。",
+   "strength_label": "ACR 2019・不建議",
+   "evidence": [
+    {
+     "c": "C70",
+     "s": "S2",
+     "quote": "Fish oil is conditionally recommended against in patients with knee, hip, and/or hand OA. … Despite its popularity, only 1 published trial has addressed its potential role in OA. This study failed to show efficacy of a higher dose of fish oil over a lower dose.",
+     "strength": "Conditional against (2019). Heading wording ('recommended against') confirmed in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233) by the independent fact-check (two reads); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+     "confidence": "High"
+    },
+    {
+     "c": "C71",
+     "s": "S2",
+     "quote": "Vitamin D is conditionally recommended against in patients with knee, hip, and/or hand OA. A number of trials in OA demonstrated small effect sizes with vitamin D treatment, while others have shown no benefit and pooling data across studies yielded null results.",
+     "strength": "Conditional against (2019). Heading wording ('recommended against') confirmed in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233) by the independent fact-check (two reads); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety phrase 「醫師因其他原因開立的維生素D，請照醫囑使用」; not from a source; the ACR rows address vitamin D as a treatment for OA, not bone health or deficiency",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "OA-M3"
+  },
+  {
+   "belief": "跑步會傷膝蓋，造成退化性關節炎。",
+   "fact": "觀察研究中，休閒跑者的髖、膝關節退化比例，並沒有比不跑步的人高；競技跑者的比例則比休閒跑者高。不過這類研究無法確定因果關係。",
+   "strength_label": "系統性回顧 2017、2023・研究顯示",
+   "evidence": [
+    {
+     "c": "C74",
+     "s": "S22",
+     "quote": "The overall prevalence of hip and knee OA was 13.3% (95% CI: 11.6%, 15.2%) in competitive runners, 3.5% (95% CI: 3.4%, 3.6%) in recreational runners, and 10.2% (95% CI: 9.9%, 10.6%) in controls. … Recreational runners had a lower occurrence of OA compared with competitive runners and controls. These results indicated that a more sedentary lifestyle or long exposure to high-volume and/or high-intensity running are both associated with hip and/or knee OA. However, it was not possible to determine whether these associations were causative or confounded by other risk factors, such as previous injury.",
+     "strength": "Tier 2 (systematic review and meta-analysis of observational studies; controls were sedentary non-runners). The conclusion sentences ('Recreational runners had a lower occurrence…') are not in the evidence file; wording confirmed in the PubMed abstract by the independent fact-check and re-read in PubMed for this revision",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C74",
+     "s": "S23",
+     "quote": "Most of the included studies were rated as having a very high (n = 2) or high (n = 3) risk of bias on the Newcastle Ottawa Scale. There was no difference in knee osteoarthritis prevalence between runners and controls (OR = 0.97, 95% CI = 0.56 to 1.68).",
+     "strength": "Tier 2 (systematic review and meta-analysis of case-control studies; controls ran <8 km per week). Sentence order restored as in the PubMed abstract (adjacent sentences) after the independent fact-check",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C74",
+     "s": "S24",
+     "quote": "In the short term, running is not associated with worsening PROs or radiological signs of knee OA and may be protective against generalized knee pain.",
+     "strength": "Tier 2 (systematic review without meta-analysis; level of evidence 4)",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "OA-M4"
+  }
+ ],
+ "seek_care": [
+  {
+   "text": "在和醫師約定的時間內，治療計畫沒有效果，或執行上有困難時，請回診討論。",
+   "strength_label": "NICE 2022・建議",
+   "evidence": [
+    {
+     "c": "C62",
+     "s": "S6",
+     "quote": "Advise people with osteoarthritis to seek follow-up if planned management is not working within an agreed follow-up time or they are having difficulties with the agreed approaches.",
+     "strength": "No formal grade (NICE \"Advise\"); Recommendation 1.5.3 (single read)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "OA-S1"
+  },
+  {
+   "text": "最近受傷後關節痛、早上關節僵硬很久、症狀或關節變形快速惡化、關節又熱又腫，或懷疑感染時，可能不是單純的退化性關節炎，請盡快就醫。",
+   "strength_label": "NICE 2022・指引說明",
+   "evidence": [
+    {
+     "c": "C81",
+     "s": "S6",
+     "quote": "Atypical features could include a history of recent trauma, prolonged morning joint‑related stiffness, rapid worsening of symptoms or deformity, the presence of a hot swollen joint, or concerns that may suggest infection or malignancy.",
+     "strength": "NICE NG226, 'Terms used in this guideline' (definition of atypical features); not a graded recommendation. Not in the evidence file; wording from two WebFetch reads of the NICE recommendations page by the independent fact-check (verify_oa.md, row OA-S1)",
+     "confidence": "High"
+    },
+    {
+     "c": "C80",
+     "s": "S6",
+     "quote": "Do not routinely use imaging to diagnose osteoarthritis unless there are atypical features or features that suggest an alternative or additional diagnosis.",
+     "strength": "NICE \"Do not routinely…\"; Recommendation 1.1.2. Not in the evidence file; wording from the independent fact-check's WebFetch read of the NICE recommendations page (verify_oa.md, row OA-1.1)",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety phrase 「請盡快就醫」; not from a source; NICE frames these features as reasons to reconsider the diagnosis and gives no time frame. 'Malignancy', also in NICE's list, is not named in the text",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "OA-S2"
+  }
+ ],
+ "sources": [
+  {
+   "s": "S2",
+   "short": "ACR/AF 2019 退化性關節炎指引",
+   "citation": "Kolasinski SL, et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken) 2020;72(2):149-162; co-published in Arthritis Rheumatol 2020;72(2):220-233 (PMID 31908163; doi 10.1002/art.41142).",
+   "pmid": "31908149",
+   "doi": "10.1002/acr.24131",
+   "url": ""
+  },
+  {
+   "s": "S5",
+   "short": "OARSI 2019 退化性關節炎非手術治療指引",
+   "citation": "Bannuru RR, et al. OARSI guidelines for the non-surgical management of knee, hip, and polyarticular osteoarthritis. Osteoarthritis Cartilage 2019;27(11):1578-1589.",
+   "pmid": "31278997",
+   "doi": "10.1016/j.joca.2019.06.011",
+   "url": ""
+  },
+  {
+   "s": "S6",
+   "short": "NICE 2022 英國退化性關節炎指引（NG226）",
+   "citation": "National Institute for Health and Care Excellence (NICE). Osteoarthritis in over 16s: diagnosis and management. NICE guideline NG226. Published 19 October 2022; last minor change October 2023.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.nice.org.uk/guidance/ng226"
+  },
+  {
+   "s": "S7",
+   "short": "EULAR 2023 膝、髖退化性關節炎非藥物核心治療建議",
+   "citation": "Moseng T, et al. EULAR recommendations for the non-pharmacological core management of hip and knee osteoarthritis: 2023 update. Ann Rheum Dis 2024;83(6):730-740.",
+   "pmid": "38212040",
+   "doi": "10.1136/ard-2023-225041",
+   "url": ""
+  },
+  {
+   "s": "S9",
+   "short": "EULAR 2018 手部退化性關節炎治療建議",
+   "citation": "Kloppenburg M, et al. 2018 update of the EULAR recommendations for the management of hand osteoarthritis. Ann Rheum Dis 2019;78(1):16-24.",
+   "pmid": "30154087",
+   "doi": "10.1136/annrheumdis-2018-213826",
+   "url": ""
+  },
+  {
+   "s": "S10",
+   "short": "EULAR 2025 發炎性關節炎與退化性關節炎身體活動建議",
+   "citation": "Rausch Osthoff AK, et al. EULAR recommendations for physical activity in people with inflammatory arthritis and osteoarthritis: 2025 update. Ann Rheum Dis 2026;85(6):1026-1038.",
+   "pmid": "42036268",
+   "doi": "10.1016/j.ard.2026.03.006",
+   "url": ""
+  },
+  {
+   "s": "S13",
+   "short": "新加坡 ACE 2026 膝關節退化性關節炎指引（證據轉建議說明）",
+   "citation": "Chan JLE, et al. Evidence-to-Recommendation Framework for 2026 ACE Clinical Guideline on the management of knee osteoarthritis — a joint effort with patients. Singapore Med J 2026;67(6):336-344.",
+   "pmid": "42054041",
+   "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
+   "url": ""
+  },
+  {
+   "s": "S15",
+   "short": "Cochrane 2024 膝關節退化性關節炎運動回顧",
+   "citation": "Lawford BJ, et al. Exercise for osteoarthritis of the knee. Cochrane Database Syst Rev 2024;12(12):CD004376.",
+   "pmid": "39625083",
+   "doi": "10.1002/14651858.CD004376.pub4",
+   "url": ""
+  },
+  {
+   "s": "S18",
+   "short": "Kjeken 2025 手部退化性關節炎治療系統性回顧",
+   "citation": "Kjeken I, et al. Efficacy and safety of non-pharmacological, pharmacological and surgical treatments for hand osteoarthritis in 2024: a systematic review. RMD Open 2025;11(1):e004963.",
+   "pmid": "39793978",
+   "doi": "10.1136/rmdopen-2024-004963",
+   "url": ""
+  },
+  {
+   "s": "S20",
+   "short": "Bricca 2019 運動與膝關節軟骨系統性回顧",
+   "citation": "Bricca A, et al. Impact of exercise on articular cartilage in people at risk of, or with established, knee osteoarthritis: a systematic review of randomised controlled trials. Br J Sports Med 2019;53(15):940-947.",
+   "pmid": "29934429",
+   "doi": "10.1136/bjsports-2017-098661",
+   "url": ""
+  },
+  {
+   "s": "S21",
+   "short": "Bricca 2019 運動與軟骨、發炎生物標記統合分析",
+   "citation": "Bricca A, et al. Impact of Exercise Therapy on Molecular Biomarkers Related to Cartilage and Inflammation in Individuals at Risk of, or With Established, Knee Osteoarthritis: A Systematic Review and Meta-Analysis of Randomized Controlled Trials. Arthritis Care Res (Hoboken) 2019;71(11):1504-1515.",
+   "pmid": "30320965",
+   "doi": "10.1002/acr.23786",
+   "url": ""
+  },
+  {
+   "s": "S22",
+   "short": "Alentorn-Geli 2017 跑步與髖、膝退化性關節炎統合分析",
+   "citation": "Alentorn-Geli E, et al. The Association of Recreational and Competitive Running With Hip and Knee Osteoarthritis: A Systematic Review and Meta-analysis. J Orthop Sports Phys Ther 2017;47(6):373-390.",
+   "pmid": "28504066",
+   "doi": "10.2519/jospt.2017.7137",
+   "url": ""
+  },
+  {
+   "s": "S23",
+   "short": "Burfield 2023 跑步量與膝關節退化性關節炎統合分析",
+   "citation": "Burfield M, et al. The association between running volume and knee osteoarthritis prevalence: A systematic review and meta-analysis. Phys Ther Sport 2023;61:1-10.",
+   "pmid": "36809693",
+   "doi": "10.1016/j.ptsp.2023.02.003",
+   "url": ""
+  },
+  {
+   "s": "S24",
+   "short": "Dhillon 2023 跑步與膝關節退化性關節炎系統性回顧",
+   "citation": "Dhillon J, et al. Effects of Running on the Development of Knee Osteoarthritis: An Updated Systematic Review at Short-Term Follow-up. Orthop J Sports Med 2023;11(3):23259671231152900.",
+   "pmid": "36875337",
+   "doi": "10.1177/23259671231152900",
+   "url": ""
+  },
+  {
+   "s": "S28",
+   "short": "Wandel 2010 葡萄糖胺與軟骨素網絡統合分析",
+   "citation": "Wandel S, et al. Effects of glucosamine, chondroitin, or placebo in patients with osteoarthritis of hip or knee: network meta-analysis. BMJ 2010;341:c4675.",
+   "pmid": "20847017",
+   "doi": "10.1136/bmj.c4675",
+   "url": ""
+  }
+ ],
+ "reviewer_notes": [
+  "TOP 1 - ACR 2026 update (S3) NOT cited: it exists only as a non-peer-reviewed summary (BRIEF rule 2). Where it would change this page: (a) OA-2.1 and OA-M2 quote the ACR 2019 'strong' exercise recommendation, which also covers hand OA; S3 keeps 'strong' for knee and hip but makes hand exercise conditional (low certainty). The text names only knee and hip, and hand exercise (OA-5.1) rests on EULAR 2018. (b) OA-6.1 cites ACR 2019 'strong' cane use as supporting evidence; S3 makes canes a good practice statement ('advise use of canes and other mobility aids as appropriate' for knee/hip OA with walking limits). The label is NICE/EULAR, so the wording stands. (c) OA-6.T, knee braces: ACR 2019 strong (tibiofemoral) / conditional (patellofemoral) becomes conditional for both in S3; the tip already says braces suit only some people. (d) OA-6.5, TENS: ACR 2019 strong against becomes conditional against; the label is NICE. (e) OA-5.3, thumb splint: ACR 2019 strong for first CMC becomes conditional for first CMC and finger-joint OA; S3 would allow adding finger-joint orthoses. (f) OA-M1: S3 strongly recommends against glucosamine, chondroitin and combination products for knee, hip and hand OA; it would allow adding chondroitin, which is a change of direction for hand OA. (g) Massage: S3 conditionally recommends massage for knee/hip OA (2019: conditional against); massage was left out. (h) Items new in S3 and absent here: arthritis gloves for hand OA (conditional); GLP-1 receptor agonists for knee OA with obesity, with diet and exercise (prescribing; out of scope). (i) Tai chi (2019 strong, S3 conditional, very low certainty) appears only as a EULAR example in OA-2.2, with no ACR label. (j) Self-management programmes (2019 strong, S3 good practice statement): OA-1.4 uses EULAR 2023 instead. (k) Physical/occupational therapy referral: S3's good practice statement names triggers (limited function, pain flare, fatigue limiting exercise or daily activities; occupational therapy for upper-limb daily-activity limits and social or work roles); OA-2.4 uses NICE and ACR 2019 narrative. Unchanged in S3 (same direction and strength class): weight loss strong (OA-4.1); heat/cold and paraffin conditional (OA-6.2, OA-5.4); wedged insoles conditional against (OA-6.4); CBT conditional (OA-1.T); fish oil and vitamin D conditional against (OA-M3); yoga conditional for knee OA (OA-2.2). Re-check every ACR row when the full 2026 manuscript is published.",
+  "TOP 2 - Dropped 'against' (fixed after the fact-check). The ACR 2019 PMC text drops 'against' from negative headings. The five affected evidence quotes (OA-6.4 wedged insoles; OA-6.5 TENS; OA-M1 glucosamine; OA-M3 fish oil and vitamin D) now print the heading wording of the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233), 'recommended against', which the independent fact-check confirmed in two WebFetch reads. The surrounding sentences match the PMC text of S2 word for word, and the AAFP summary agrees on all five directions. No person has yet viewed the typeset PDF, so please spot-check these five headings.",
+  "TOP 3 - Conflicts (BRIEF rule 5). Written as common ground: (a) Knee braces: ACR 2019 recommends them for selected patients; NICE 1.3.11 says do not routinely offer braces, insoles, tape, splints or supports unless the joint is unstable or loading is abnormal, and exercise alone is ineffective or unsuitable. OA-6.T says that knee sleeves or braces are not for everyone and can be discussed if the knee is unstable, walking is clearly affected and exercise alone is not working (NICE's conditions, added after the fact-check). (b) Thumb splints: EULAR 2018 ('should be considered', GoR A) and ACR 2019 strong, against NICE 'not routinely'. OA-5.3 says to discuss with the care team whether to use one. (c) Canes: ACR 2019 strong, while EULAR 2023 calls the cane trials contradictory. OA-6.1 says 'consider' (NICE, EULAR). (d) Supervision: ACR 2019 and Singapore say supervised exercise works better, but the Cochrane 2024 meta-regression found no link with the number of consultations. OA-2.4 suggests considering supervised sessions (NICE) and does not claim they are better. (e) Adverse events: EULAR calls them uncommon and mild, while Cochrane 2024 found exercise 'may increase adverse events' compared with no treatment (low certainty; type not reported). OA-3.T says only that reported problems were mostly brief and mild, not that they are rare. (f) Size of benefit: guidelines recommend exercise firmly, while Cochrane rates the average benefit as of uncertain clinical importance (knee) or unlikely to be clinically meaningful (hip, vs usual care). The page claims no effect size beyond NICE 1.3.3. Left out because sources conflict: acupuncture (ACR and Singapore conditional for; NICE do not offer); massage and manual therapy (ACR 2019 against, ACR 2026 for; NICE only alongside exercise); kinesiotaping (ACR conditional; NICE not routinely); chondroitin (hand OA: ACR 2019 conditional for and EULAR 2018 'may be used', vs ACR 2026 strong against); aquatic exercise (OARSI does not recommend it for hip OA; EULAR 2023 lists it as an option for hip or knee OA), so water exercise is not named; collagen (S31 vs S32); occupational walking, standing and lifting (S27 vs S25).",
+  "TOP 4 - Remaining checks. The independent fact-check verified 52 quotes in the originals (PMC full text or PubMed abstracts). It matched the other 23 (NICE S6 ×13, EULAR hand S9 ×5, EULAR 2025 S10 ×5) word for word via WebFetch, on renderings different from those the evidence team used; no person has viewed those, so a character check against the PDFs is still advised. NICE NG226: the PMID is still unverified (36745715 does not resolve), so pmid is blank; the fact-check confirmed the URL and the dates. Quotes added after the fact-check come from its report, and their strength fields say so: NICE 1.1.2 and the 'atypical features' definition (OA-1.1, OA-S2; their c fields read 'verify_oa:…' because they are not in the evidence file); the Singapore Recommendation 2 caveat (OA-4.5); the EULAR thumb-orthosis duration sentence (OA-5.3); the end of the EULAR assistive-device sentence (OA-5.2); the S22 conclusion (OA-M4, also re-read in PubMed); and the NICE 1.3.5 bullet markers (OA-4.3). S18 now carries its article number, e004963, which the fact-check took from the journal page.",
+  "TOP 5 - Myths. OA-M1 (glucosamine) follows ACR 2019 and NICE. A Southeast Asian ESCEO working-group view (S35, Low) still supports patented crystalline glucosamine sulfate, and Cochrane 2005 (S30) found benefit only with the Rotta preparation; neither was used (lower tier or older). National Health Insurance questions are outside the evidence file. OA-M3 adds an EDITORIAL safety phrase so that readers taking prescribed vitamin D do not stop it; the ACR rows concern vitamin D only as an OA treatment. OA-M4 (running) rests only on Tier 2 observational reviews (Medium). After the fact-check it also says competitive runners had a higher proportion than recreational runners: S22 found 13.3% vs 3.5%, an odds-ratio difference of P<.001, and no significant difference between competitive runners and sedentary controls. S22's conclusion links both a sedentary lifestyle and 'long exposure to high-volume and/or high-intensity running' with hip/knee OA, and causation is not established. S23 (controls ran <8 km per week; high risk of bias) found no difference; S24 is short-term, level 4 evidence. Drop OA-M4 if you prefer myths based only on guidelines. 'Stairs cause knee OA' was not written because no source addresses everyday stair use.",
+  "Population restrictions applied: EULAR 2023 statements are for hip or knee OA (OA-1.3, 2.1-2.3, 6.1, 6.3); EULAR 2018 for hand OA (card 5). NICE 1.1.1 diagnosis without imaging applies to people aged 45 or over with activity-related joint pain and no morning stiffness, or stiffness of 30 minutes or less (OA-1.1). ACR weight loss is for knee/hip OA with overweight or obesity (OA-4.1); NICE weight statements are for any OA with overweight or obesity (OA-4.2, 4.3; OA-4.3 now says so explicitly). Singapore ACE gradual weight loss is for knee OA and is now limited to people with overweight or obesity who need to lose weight (OA-4.5); Singapore says some patients, e.g. bedbound or underweight ones, may not need these strategies. Yoga is named only for knee OA (ACR 2019: no recommendation for hip OA for lack of data, although EULAR's neuromotor footnote lists yoga for hip or knee OA). Braces are knee only. TENS is for all OA (NICE 1.3.9; ACR covers knee/hip). Heat or cold covers knee, hip and hand (ACR). EULAR 2025 statements cover inflammatory arthritis and OA. Card 2 is about knee and hip; hand exercise is in card 5.",
+  "OA-1.1 now states NICE 1.1.1's limits (45 or over; activity-related joint pain; no morning stiffness, or stiffness of 30 minutes or less) and NICE 1.1.2 (imaging may be needed when features are atypical), with 1.2.2 kept as a third citation. The clause 'management is guided by symptoms and function' (also 1.2.2) moved to OA-1.2 to keep OA-1.1 within 70 characters. Delete or reword OA-1.1 if it clashes with local practice, where X-rays are common.",
+  "Medication-adjacent: OA-1.5 is NICE 1.4.1 (medicines alongside non-drug treatment and to support exercise) plus the EDITORIAL phrase 「用藥請和醫師討論」. Not printed because they are prescribing advice rather than patient behaviour: NICE's 'lowest effective dose for the shortest possible time', and ACR/EULAR 'topical NSAIDs before oral NSAIDs' (knee and hand only; ACR did not assess hip). Add either if you want it.",
+  "EDITORIAL phrases (5): 「用藥請和醫師討論」 (OA-1.5); 「使用時注意溫度，避免燙傷或凍傷」 (OA-6.2; no source gives heat/cold safety advice or says when to choose heat versus cold); 「使用時注意溫度，避免燙傷」 (OA-5.4, added at the fact-check's suggestion); 「醫師因其他原因開立的維生素D，請照醫囑使用」 (OA-M3); 「請盡快就醫」 (OA-S2; NICE gives no time frame). Each shows the 含編輯加註 badge. Delete any you do not want.",
+  "Also left out: the EULAR 2025 '24-hour rule' (some studies lowered exercise intensity when extra pain lasted more than 24 hours). It describes what studies did, not a recommendation, so it could only be a tip worded 「有些研究的做法是…」. Also out: the other NICE 'do not offer' electrotherapies (ultrasound, interferential, laser, pulsed short-wave, NMES), because ACR's thermal evidence included ultrasound and diathermy; arthritis gloves (S3 only; ACR 2019 has one 'may offer benefit' sentence); work advice (EULAR 2023 Rec 7, LoE 5, GoR D), for space; pacing for hip/knee (EULAR 2023 removed it for lack of evidence; it stays for hand OA in OA-5.2); occupational kneeling, squatting and heavy lifting (Tier 2 risk data in people without OA; conflict on walking and standing); collagen, turmeric and 'joint drinks' (conflicting or no sources); injections and GLP-1 RA (out of scope); 'malignancy', which NICE also lists among atypical features, is not named in OA-S2, to avoid alarm (add it if you wish); Taiwan-specific statements (no Taiwanese OA guideline was found).",
+  "Label conventions: ACR 2019 = the Kolasinski 2019 ACR/AF guideline. ACR quotes are from the Arthritis Care & Research co-publication (S2), whose PMC text has no stray characters; the five corrected 'against' headings use the typeset Arthritis & Rheumatology wording, as TOP 2 explains. NICE NG226 prints no grades: 'offer/consider/advise/explain' is labelled 建議 and 'do not offer' 不建議. OA-S2 is labelled NICE 2022・指引說明 because the atypical-features list is a definition, not a graded recommendation. OA-6.T keeps NICE 2022・建議: the fact-check called it acceptable, and its alternative, 「NICE 2022・不建議常規使用」, is outside the BRIEF label vocabulary. EULAR guidelines carry the year in their titles (2018 hand, 2023 hip/knee, 2025 physical activity), as the site does for EULAR 2021. Singapore ACE rationale text is labelled 新加坡 ACE 2026・指引說明, and ACR and EULAR narrative text 指引說明. OA-3.T and OA-5.2 now carry second labels (新加坡 ACE 2026・指引說明; 系統性回顧 2025・研究顯示) for the clauses that only those sources support. OA-1.T combines a conditional recommendation (CBT) with ACR narrative (mood, stress, insomnia) under ACR 2019・建議. S10 is the same paper as the common page's common:S2 but keeps this evidence file's ID.",
+  "Not repeated from the common page: activity amounts; 'exercise is safe and never too late' (EULAR 2021); general healthy-weight and planned weight-loss statements (EULAR 2021); sitting less. Card 4 uses only OA-specific weight sources (ACR 2019, NICE, EULAR 2023, Singapore ACE). The intro makes no factual claim.",
+  "Quotes come from the evidence file's quote cells, except those added from the fact-check report (listed in TOP 4), whose strength fields say so. Sentences that appear only in the evidence file's Notes column are still not used: EULAR 2023 on combined treatments having larger effects; EULAR 2023 calling exercise the option with the strongest evidence base; ACR 2019 saying trial results apply to most people with painful OA. OARSI 2019 (S5, abstract only) is cited only as a second source in OA-1.2. Hong Kong 2025 (S14, abstract only; 28 respondents in 2024) was not cited.",
+  "查核後修改（2026-10-10）：依獨立查核報告（verify_oa.md）修改。【重大】OA-4.5 限定為「體重過重或肥胖而需要減重的人」，並加引新加坡 ACE 指引的原句（臥床或體重過輕的人不一定需要這些策略）與 ACR 減重族群的原文；OA-6.4、OA-6.5、OA-M1、OA-M3 的五句 ACR 2019 標題，改用查核在正式排版共同刊登版（Arthritis Rheumatol 2020;72(2):220-233）確認的原文「recommended against」，強度欄已註明。【引文格式】OA-6.5（TENS）、OA-M3（魚油）、OA-2.2（瑜伽）補上省略號；OA-M1 的 S28 與 OA-M4 的 S23 改為和 PubMed 摘要相同的句序；OA-4.3 的 NICE 引文補回條列符號；OA-3.1、OA-4.2、OA-M1（NICE）引文句尾補上省略號；OA-5.2 的 EULAR 引文補成完整句子。【次要】OA-1.1 加入 NICE 1.1.1 的年齡與典型症狀條件，以及 1.1.2（症狀不典型時可能需要影像檢查）；原句「治療依症狀和身體功能安排」移到 OA-1.2。OA-4.3 改為「體重過重或肥胖的人」。OA-5.3 改為「建議持續使用一段較長的時間（研究中至少使用3個月）」，並加引原句。OA-5.4 加上編輯加註「使用時注意溫度，避免燙傷」。OA-6.T 改為「護膝或膝關節支架」，並加入 NICE 的條件「單靠運動效果不好時」。OA-M4 加入「競技跑者的比例則比休閒跑者高」，並加引 S22 的結論。OA-3.T 加上標籤「新加坡 ACE 2026・指引說明」，OA-5.2 加上標籤「系統性回顧 2025・研究顯示」。S18 補上文章編號 e004963。新增 OA-S2：NICE 定義的不典型表現（最近受傷、早上關節僵硬很久、症狀或變形快速惡化、關節又熱又腫、懷疑感染）；「請盡快就醫」為編輯加註；未列出 NICE 也提到的惡性腫瘤。【未採用】OA-6.T 標籤改為「NICE 2022・不建議常規使用」（不在 BRIEF 的標籤用語內，查核也認為原標籤可接受）；OA-2.T 刪除引文中的「*/**」（這是原文的註記符號，刪除會更動原文）。卡片 id 與既有 sid 均未更動。"
+ ]
+}

@@ -1,0 +1,1064 @@
+{
+ "slug": "infection",
+ "name": "治療期間防感染",
+ "intro": "使用類固醇、免疫抑制劑、生物製劑等藥物治療風濕病時，某些感染可能更容易發生或更嚴重。這頁整理治療前篩檢、治療中追蹤和生病時的應對。",
+ "cards": [
+  {
+   "id": "infection-screening",
+   "title": "治療前先篩檢",
+   "summary": "開始治療前，先討論感染風險、做好篩檢。",
+   "illustration": "A patient and a doctor talking across a clinic desk, and in the background a nurse taking a blood sample from another seated patient; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "開始治療前，和醫師討論感染的風險；治療期間也要定期重新評估。",
+     "strength_label": "EULAR 2022・基本原則",
+     "evidence": [
+      {
+       "c": "C10",
+       "s": "S1",
+       "quote": "The risk of chronic and opportunistic infections should be considered and discussed with all patients with AIIRD prior to treatment with csDMARDs, tsDMARDs, bDMARDs, immunosuppressants and/or glucocorticoids and reassessed periodically.",
+       "strength": "LoE NA; GoR NA; LoA 9.5 (1.0)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-1.1"
+    },
+    {
+     "text": "醫師會考慮年齡、其他疾病（如肺病）、合併用藥，及是否到感染病流行地區旅行或居住，來決定篩檢和預防。",
+     "strength_label": "EULAR 2022・基本原則",
+     "evidence": [
+      {
+       "c": "C11",
+       "s": "S1",
+       "quote": "Individual risk factors should be considered in the decision for screening and prophylaxis of chronic and opportunistic infections and reassessed periodically. … These include, but are not limited to, age, comorbidities (eg, lung disease), cotreatment with other medications and travelling/living in endemic areas.",
+       "strength": "LoE NA; GoR NA; LoA 9.8 (0.7)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-1.2"
+    },
+    {
+     "text": "慢性 B 型、C 型肝炎常常沒有症狀，因此篩檢對找出感染者很重要。",
+     "strength_label": "BSR 2025・指引說明",
+     "evidence": [
+      {
+       "c": "C33",
+       "s": "S6",
+       "quote": "Chronic infection with HBV and HCV is often asymptomatic, underscoring the importance of screening to identify affected individuals.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-1.3"
+    },
+    {
+     "text": "依用藥和個人情況，醫師也可能安排 C 型肝炎和愛滋病毒（HIV）檢驗。",
+     "strength_label": "EULAR 2022・建議強度 C/D",
+     "evidence": [
+      {
+       "c": "C48",
+       "s": "S1",
+       "quote": "Screening for chronic hepatitis C should be considered in patients prior to starting csDMARDs, bDMARDs, tsDMARDs*, immunosuppressants and glucocorticoids* (according to dose and duration). Screening is recommended for patients with elevated alanine aminotransferase or those with known risk factors.",
+       "strength": "LoE 2b; 5*; GoR C; D*; LoA 9.0 (1.3)",
+       "confidence": "High"
+      },
+      {
+       "c": "C50",
+       "s": "S1",
+       "quote": "Screening for HIV is recommended prior to treatment with bDMARDs and should be considered prior to treatment with csDMARDs, tsDMARDs, immunosuppressants and glucocorticoids (according to dose and duration).",
+       "strength": "LoE 5; GoR D; LoA 8.9 (1.6)",
+       "confidence": "High"
+      },
+      {
+       "c": "C44",
+       "s": "S6",
+       "quote": "All adults starting csDMARD (except HCQ/Mepacrine) should be screened for chronic infection with hepatitis B virus, hepatitis C virus or human immunodeficiency virus.",
+       "strength": "GRADE 1B; SoA 97%",
+       "confidence": "High"
+      },
+      {
+       "c": "C52",
+       "s": "S4",
+       "quote": "HIV testing in high-risk populations.",
+       "strength": "Each LoE/SoR 2b/B; final vote 100%; LoA 9.9 ± 0.3 (IV.4), 9.6 ± 1.0 (IV.5), 9.9 ± 0.3 (IV.6)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-1.4"
+    },
+    {
+     "text": "如果驗出 C 型肝炎病毒，會轉介評估抗病毒治療；現在已有可以治癒 C 型肝炎的抗病毒藥。",
+     "strength_label": "EULAR 2022・指引說明；ACR 2021・指引說明",
+     "evidence": [
+      {
+       "c": "C49",
+       "s": "S1",
+       "quote": "Patients with detectable HCV-RNA should be referred for consideration of antiviral treatment.",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C49",
+       "s": "S3",
+       "quote": "The panel did not vote on specific recommendations for patients with hepatitis C because curative antiviral therapy is now widely available.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-1.5"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "infection-tb",
+   "title": "結核病與潛伏結核",
+   "summary": "用生物製劑前先驗潛伏結核；陽性時把治療完整做完。",
+   "illustration": "On one side, a patient standing at a chest X-ray machine; on the other, a friendly community health worker visiting a patient at home and handing over a plain, unlabeled medicine pouch; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "台灣結核病比歐美常見得多；疾管署指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。",
+     "strength_label": "TRA 2020・指引說明；疾管署・指引說明",
+     "evidence": [
+      {
+       "c": "C7",
+       "s": "S12",
+       "quote": "The incidence and prevalence of tuberculosis in Taiwan are both considerably higher than that seen in the USA or Europe.",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C8",
+       "s": "S14",
+       "quote": "免疫風濕病人因為疾病本身造成正常免疫力失調，加上使用類固醇或免疫抑制劑治療以緩解症狀及改善生活品質，致該類病人結核病發生及死亡風險較一般民眾高出許多。",
+       "strength": "National guideline text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-2.1"
+    },
+    {
+     "text": "用生物製劑或口服標靶藥物前，要先篩檢潛伏結核；風險較高的人，用其他抗風濕藥物或類固醇前也可能需要。",
+     "strength_label": "EULAR 2022・建議強度 B/D；BSR 2019・強烈建議（1B）",
+     "evidence": [
+      {
+       "c": "C15",
+       "s": "S1",
+       "quote": "Screening for latent tuberculosis is recommended in patients prior to starting bDMARDs or tsDMARDs*. Screening should also be considered in patients with increased risk for latent tuberculosis prior to starting csDMARDs, immunosuppressants* and/or glucocorticoids (according to dose and duration).",
+       "strength": "LoE 2b; 5*; GoR B; D*; LoA 9.5 (0.9). Asterisked parts (tsDMARDs, immunosuppressants) are LoE 5 / GoR D.",
+       "confidence": "High"
+      },
+      {
+       "c": "C15",
+       "s": "S5",
+       "quote": "All patients require screening for tuberculosis (TB) before starting a biologic (grade 1B, SOA 98%).",
+       "strength": "1B, SOA 98%",
+       "confidence": "High"
+      },
+      {
+       "c": "C52",
+       "s": "S4",
+       "quote": "Tuberculosis screening as per national recommendations.",
+       "strength": "Each LoE/SoR 2b/B; final vote 100%; LoA 9.9 ± 0.3 (IV.4), 9.6 ± 1.0 (IV.5), 9.9 ± 0.3 (IV.6)",
+       "confidence": "High"
+      },
+      {
+       "c": "C22",
+       "s": "S6",
+       "quote": "In patients with increased risk for latent tuberculosis, test for latent tuberculosis prior to initiating csDMARD therapy (GRADE 1B, SoA 97%).",
+       "strength": "GRADE 1B; SoA 97%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-2.2"
+    },
+    {
+     "text": "結核病篩檢通常包括胸部 X 光和抽血檢驗（IGRA）；有條件時，優先用抽血檢驗，而不是皮膚測試。",
+     "strength_label": "EULAR 2022・建議強度 B/D",
+     "evidence": [
+      {
+       "c": "C17",
+       "s": "S1",
+       "quote": "Screening for latent tuberculosis should follow national and/or international guidelines and would typically include a chest X-ray* and Interferon-gamma release assay over tuberculin skin test where available.",
+       "strength": "LoE 2b; 5*; GoR B; D*; LoA 9.5 (0.8). Asterisk on \"chest X-ray\" (LoE 5 / GoR D)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-2.3"
+    },
+    {
+     "text": "潛伏結核檢驗陽性時，通常要先開始潛伏結核治療，再用生物製劑；治療完整做完，才能提供約 9 成的保護。",
+     "strength_label": "BSR 2019・建議（2C）；疾管署・指引說明",
+     "evidence": [
+      {
+       "c": "C21",
+       "s": "S5",
+       "quote": "Immunocompromised patients screened for latent TB with an IGRA alone or together with a TST and found to have a positive result in either test should be considered for treatment prior to starting biologic therapy (grade 2C, SOA 96%).",
+       "strength": "2C; SOA 96%",
+       "confidence": "High"
+      },
+      {
+       "c": "C26",
+       "s": "S14",
+       "quote": "病人在接受 TNF- alpha blocker 藥品治療前，應先接受完整結核病檢驗評估，潛伏結核感染者須至少先接受 4 週以上潛伏結核感染治療，方能開始 TNF-alpha blocker 藥品之治療",
+       "strength": "National guideline text",
+       "confidence": "High"
+      },
+      {
+       "c": "C27",
+       "s": "S14",
+       "quote": "LTBI 感染者完成治療才能提供完整(約 9 成)的保護發病效果",
+       "strength": "National guideline text",
+       "confidence": "High"
+      },
+      {
+       "c": "C27",
+       "s": "S15",
+       "quote": "研究顯示，LTBI檢驗陽性者接受治療，有高達9成以上的保護力，避免發病成為結核病",
+       "strength": "Agency statement (\"研究顯示\")",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-2.4"
+    },
+    {
+     "text": "接受潛伏結核治療時，建議參加「都治」計畫：由關懷員送藥、留意副作用，幫助治療成功、避免抗藥性。",
+     "strength_label": "疾管署・建議",
+     "evidence": [
+      {
+       "c": "C28",
+       "s": "S14",
+       "quote": "但建議所有接受 LTBI 治療者參加都治計畫，藉由關懷員送藥關懷服務及副作用監測，以確保治療成功及避免抗藥性產生；",
+       "strength": "National guideline text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-2.5"
+    }
+   ],
+   "tip": {
+    "text": "免疫力較低時，潛伏結核檢驗可能出現偽陰性；有風險因子或日後出現風險因子時，醫師可能考慮定期再篩檢。",
+    "strength_label": "疾管署・指引說明；EULAR 2022・指引說明",
+    "evidence": [
+     {
+      "c": "C20",
+      "s": "S14",
+      "quote": "另提醒免疫低下病人結核病發病風險高，LTBI 檢驗可能出現偽陰性情形，潛伏結核感染治療期間需監測結核病症狀，如有懷疑可驗痰及胸部 X 光檢查。",
+      "strength": "National guideline text",
+      "confidence": "High"
+     },
+     {
+      "c": "C20",
+      "s": "S5",
+      "quote": "For patients on immunosuppressive therapy with a normal CXR, a TST is not helpful, as immunosuppression hinders interpretation (grade 2C, SOA 98%).",
+      "strength": "2C, SOA 98%",
+      "confidence": "High"
+     },
+     {
+      "c": "C30",
+      "s": "S1",
+      "quote": "Therefore, periodic rescreening could be considered, especially if risk factors exist or develop over time.",
+      "strength": "Narrative",
+      "confidence": "High"
+     }
+    ],
+    "sid": "IF-2.T"
+   }
+  },
+  {
+   "id": "infection-hbv",
+   "title": "B 型肝炎追蹤",
+   "summary": "依檢查結果用抗病毒藥預防，或定期抽血追蹤。",
+   "illustration": "A doctor and a patient looking together at a simple drawing of a liver on a screen, with plain blood sample tubes in a rack on the desk; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "開始免疫抑制治療前，都應檢查 B 型肝炎表面抗原、表面抗體和核心抗體；類固醇則依劑量和使用時間決定。",
+     "strength_label": "EULAR 2022・建議強度 C；APASL 2021・建議",
+     "evidence": [
+      {
+       "c": "C31",
+       "s": "S1",
+       "quote": "All patients being considered for treatment with csDMARDs, bDMARDs, tsDMARDs*, immunosuppressants* and glucocorticoids (according to dose and duration) should be screened for HBV.",
+       "strength": "LoE 2a; 2b*; GoR C; C*; LoA 9.1 (1.3)",
+       "confidence": "High"
+      },
+      {
+       "c": "C31",
+       "s": "S8",
+       "quote": "All patients planned to receive immunosuppressive therapy should be screened. … Screening should include HBsAg, anti-HBs and anti-HBc.",
+       "strength": "GRADE grade not in accessible text",
+       "confidence": "High"
+      },
+      {
+       "c": "C70",
+       "s": "S25",
+       "quote": "HBsAg and anti-HBc (total or immunoglobulin G) testing should be performed in all persons prior to initiation of any immunosuppressive, cytotoxic, or immunomodulatory therapy.",
+       "strength": "Ungraded consensus guidance statement",
+       "confidence": "High (statements)"
+      }
+     ],
+     "sid": "IF-3.1"
+    },
+    {
+     "text": "免疫抑制治療可能讓 B 型肝炎再活化（再度活躍），已痊癒者也可能。類固醇看劑量：帶原者持續用較高劑量風險中到高，低劑量或已痊癒者風險較低。",
+     "strength_label": "BSR 2025・指引說明；APASL 2021・指引說明",
+     "evidence": [
+      {
+       "c": "C36",
+       "s": "S6",
+       "quote": "Immunosuppressive therapy can enhance HBV replication in chronic infection and reactivate latent HBV in those previously considered recovered.",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C72",
+       "s": "S8",
+       "quote": "Steroid (high dose) ≥ 20 mg/day for ≥ 4 weeks … Steroid (median dose): 10–20 mg/day for ≥ 4 weeks … Steroid (low dose < 10 mg/day) … Steroid (high dose) ≥ 20 mg/day",
+       "strength": "APASL Table 4, 'Risk stratification of HBV reactivation among HBsAg-positive patients and HBsAg-negative/anti-HBc-positive patients' (risk table; GRADE grade not shown). In order: High (>10%), HBsAg(+) column; Moderate (1–10%), HBsAg(+); Low (<1%), HBsAg(+); Low (<1%), HBsAg(−)/anti-HBc(+) column. Verbatim as read in the original (PMC8382940) by the independent verifier (verify_infection.md, IF-3.2). The verifier inferred the anti-HBc(+) column of the last row from the flattened table; the drafter's own PubMed full-text read on 2026-10-10 shows the same layout (each item in that column is the HBsAg(+) entry one risk level higher). Doses are kept in the quote only; the page prints none.",
+       "confidence": "High (HBsAg-positive rows); Medium (anti-HBc-positive column inferred)"
+      },
+      {
+       "c": "C36",
+       "s": "S8",
+       "quote": "… prolonged corticosteroid therapy has been associated with a moderate to high risk of HBVr",
+       "strength": "Narrative. Qualified by APASL Table 4 (previous evidence item).",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-3.2"
+    },
+    {
+     "text": "B 型肝炎帶原者（表面抗原陽性）通常會轉介肝膽腸胃科，用抗病毒藥物預防再活化。",
+     "strength_label": "EULAR 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C37",
+       "s": "S1",
+       "quote": "Evidence suggests that HBV carriers (HBsAg-positive) would benefit from prophylactic treatment, and thus it is advised that they should be referred to hepatologist for antiviral prophylactic treatment.",
+       "strength": "Narrative (advice)",
+       "confidence": "High"
+      },
+      {
+       "c": "C39",
+       "s": "S3",
+       "quote": "Prophylactic antiviral therapy is strongly recommended over frequent monitoring alone for patients initiating any bDMARD or tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen positive",
+       "strength": "Strong (certainty of evidence not in accessible text)",
+       "confidence": "High"
+      },
+      {
+       "c": "C71",
+       "s": "S25",
+       "quote": "HBsAg-positive, anti-HBc–positive patients should initiate anti-HBV prophylaxis before immunosuppressive or cytotoxic therapy.",
+       "strength": "Ungraded consensus guidance statements (see C70)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-3.3"
+    },
+    {
+     "text": "曾感染過 B 型肝炎（核心抗體陽性、表面抗原陰性）的人，再活化風險較低，通常定期抽血追蹤；部分用藥則可能需要抗病毒藥。",
+     "strength_label": "EULAR 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C38",
+       "s": "S1",
+       "quote": "For patients who have resolved-HBV (anti-HBcorepositive and HBsAg-negative), risk for HBV reactivation is lower. … regular (eg, every 3–6 months) monitoring of LFT and HBV-DNA levels over universal prophylaxis is advised. … Special attention should be given to patients considered as high-risk for HBV reactivation. … These are mainly patients treated with rituximab; some investigators as well as rheumatology and/or hepatology societies have suggested that these patients should be referred to a hepatologist for consideration of prophylactic treatment irrespective of HBV-DNA levels.",
+       "strength": "Narrative (advice)",
+       "confidence": "High"
+      },
+      {
+       "c": "C39",
+       "s": "S3",
+       "quote": "Frequent monitoring alone of viral load and liver enzymes is conditionally recommended over prophylactic antiviral therapy for patients initiating a bDMARD other than rituximab or a tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen negative",
+       "strength": "Conditional (certainty of evidence not in accessible text)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-3.4"
+    },
+    {
+     "text": "抗病毒藥在免疫抑制治療結束後，還要繼續吃一段時間；請不要自行停用，何時停藥由醫師評估，停藥後也要繼續抽血追蹤。",
+     "strength_label": "AASLD 2018・專家共識；APASL 2021・指引說明",
+     "evidence": [
+      {
+       "c": "C71",
+       "s": "S25",
+       "quote": "Once started, anti-HBV prophylaxis should continue during immunosuppressive therapy and for at least 6 months (or for at least 12 months for patients receiving anti-CD20 therapies) after completion of immunosuppressive therapy. … Patients should be monitored for up to 12 months after cessation of anti-HBV therapy.",
+       "strength": "Ungraded consensus guidance statements (see C70)",
+       "confidence": "High"
+      },
+      {
+       "c": "C42",
+       "s": "S8",
+       "quote": "… under the guidance of a hepatologist, termination of NUCs would be considered 6 months after the completion of IST …",
+       "strength": "Grade not shown",
+       "confidence": "High"
+      },
+      {
+       "c": "C42",
+       "s": "S1",
+       "quote": "There are no data to support a recommendation about the timing of anti-viral treatment, but it is reasonable to start ideally before or at least simultaneously with the treatment administered for AIIRD and continuing for least 6–12 months after discontinuation of antirheumatic treatment … Given the lack of data, the TF did not make a specific recommendation related to this.",
+       "strength": "Explicitly no recommendation",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "「請不要自行停用」 is EDITORIAL (added after the 2026-10-10 fact-check, verify_infection.md IF-3.5). No source states this patient instruction; the sources support it in substance: every source continues antivirals after immunosuppression ends (AASLD 'should continue … for at least 6 months'; APASL: stop 'under the guidance of a hepatologist'; EULAR 'reasonable' 6–12 months). 「通常」 was dropped because no source supports stopping antivirals when immunosuppression stops.",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "IF-3.5"
+    }
+   ],
+   "tip": {
+    "text": "B 型肝炎三項都陰性的人，可和醫師討論接種 B 型肝炎疫苗；台灣屬於 B 型肝炎流行地區，同住家人或性伴侶是帶原者、醫療人員等風險較高者更要注意。",
+    "strength_label": "EULAR 2019・建議；TRA 2020・指引說明",
+    "evidence": [
+     {
+      "c": "C34",
+      "s": "S18",
+      "quote": "Hepatitis A and hepatitis B vaccines should be administered to AIIRD patients at risk … Patients at risk include HBV-seronegative patients that travel to or are residents in endemic countries … patients at increased risk of exposure to HBV (eg, medical personnel, household contacts or sexual partners of known persons with chronic HBV infection, intravenous drug users, men who have sex with men).",
+      "strength": "Strength not found in accessible text (the independent verifier could not access the grade either: Table 2 not rendered, PDF fetch failed)",
+      "confidence": "Medium"
+     },
+     {
+      "c": "C73",
+      "s": "S12",
+      "quote": "The endemic presence of tuberculosisand hepatitis Bin Taiwan is a critical issue.",
+      "strength": "Narrative. Verbatim as read in the original (PMC7004149) by the independent verifier (verify_infection.md, IF-3.T); the glued words 'tuberculosisand' and 'hepatitis Bin' are stripped citation markers in the PMC extraction, not dropped words.",
+      "confidence": "High"
+     },
+     {
+      "c": "C35",
+      "s": "S8",
+      "quote": "Hepatitis B reactivation related to the use of immunosuppressive therapy remains a major cause of liver-related morbidity and mortality in hepatitis B endemic Asia-Pacific region.",
+      "strength": "Narrative",
+      "confidence": "High"
+     }
+    ],
+    "sid": "IF-3.T"
+   }
+  },
+  {
+   "id": "infection-steroid",
+   "title": "使用類固醇時",
+   "summary": "醫師會盡量用最低有效劑量；別自行停藥，生病時先問醫師。",
+   "illustration": "An adult at home sitting at a table with a plain, unlabeled weekly pill organizer and a thermometer, talking on the phone with a nurse; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "ACR 類風濕性關節炎指引指出：觀察性研究發現，類固醇劑量越高、用得越久，和嚴重感染風險越高有關；醫師會盡量用最低有效劑量、最短時間。",
+     "strength_label": "ACR 2021・指引說明",
+     "evidence": [
+      {
+       "c": "C4",
+       "s": "S3",
+       "quote": "This conditional recommendation is made based on observational studies suggesting a strong association between dose and duration of glucocorticoids with the risk of serious infection (–). … Treatment with glucocorticoids should be limited to the lowest effective dose for the shortest duration possible.",
+       "strength": "Rationale for a conditional recommendation; text statement",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-4.1"
+    },
+    {
+     "text": "不要漏吃或自行突然停用類固醇；口服劑量高於身體自然分泌量時，藥量突然不足可能引起需緊急處理的腎上腺危象。",
+     "strength_label": "ESE/ES 2024・指引說明",
+     "evidence": [
+      {
+       "c": "C65",
+       "s": "S17",
+       "quote": "Adrenal crisis (also known as acute adrenal insufficiency or Addisonian crisis) can occur in patients taking oral supraphysiologic doses of glucocorticoids, if drug availability suddenly decreases (eg, missed doses, gastroenteritis). It is a life-threatening emergency that must be promptly recognized and treated.",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "「不要漏吃或自行突然停用類固醇」 is the patient behaviour inferred from 'missed doses' as a trigger of adrenal crisis (evidence file C65 takeaway, marked inference), combined with the editorial safety phrase 「不要自行停藥」; 'oral supraphysiologic doses' is rendered 「口服劑量高於身體自然分泌量時」",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "IF-4.2"
+    },
+    {
+     "text": "長期用或剛停用類固醇的人，發燒或感染需用抗生素時，可能需要暫時補充類固醇，以免腎上腺功能不足（不是治療感染）；請事先問醫師，感染也要就醫。",
+     "strength_label": "ESE/ES 2024・良好實務建議",
+     "evidence": [
+      {
+       "c": "C64",
+       "s": "S17",
+       "quote": "R 3.1—We recommend that patients with current or recent glucocorticoid use who did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency should receive stress dose coverage when they are exposed to stress. (Good clinical practice) … who are under minor stress (eg, fever, infection requiring antibiotics, physical trauma, significant emotional stress) not leading to hemodynamic instability and with no evidence of oral glucocorticoid malabsorption (vomiting, diarrhea) or are undergoing a surgical procedure under local anesthesia will require coverage with stress dose of oral glucocorticoids",
+       "strength": "Good clinical practice",
+       "confidence": "High"
+      },
+      {
+       "c": "C65",
+       "s": "S17",
+       "quote": "Adrenal crisis is characterized by the inability of the adrenal cortex to produce enough cortisol to respond appropriately to stressors such as infections, trauma, and surgery ().",
+       "strength": "Narrative",
+       "confidence": "High"
+      },
+      {
+       "c": "C74",
+       "s": "S17",
+       "quote": "… short-term glucocorticoid therapy of <3-4 weeks … low concern for HPA axis suppression",
+       "strength": "R 2.1 (part). Verbatim as read in the original (PMC11180513) by the independent verifier (verify_infection.md, IF-4.3); basis for 「長期」.",
+       "confidence": "High"
+      },
+      {
+       "c": "C75",
+       "s": "S17",
+       "quote": "If the patient is already taking hydrocortisone ≥40 mg daily … there is typically no need to increase the dose unless there are signs of hemodynamic instability",
+       "strength": "Table 8 (minor stress). Verbatim as read in the original (PMC11180513) by the independent verifier (verify_infection.md, IF-4.3); cut to leave out a stretch whose punctuation looks flattened in the verifier's copy. Basis for 「可能需要」; no dose is printed on the page.",
+       "confidence": "High"
+      },
+      {
+       "c": "C65",
+       "s": "S17",
+       "quote": "R 1.2—We recommend that clinicians who implement treatment with glucocorticoids educate patients about various endocrine aspects of glucocorticoid therapy. (Good clinical practice)",
+       "strength": "R 1.2 good clinical practice",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "「（不是治療感染）」 and 「感染也要就醫」 are EDITORIAL clarifiers proposed by the independent verifier (verify_infection.md, IF-4.3), so readers do not take extra steroid as treatment for the infection. 'Did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency' (R 3.1) is still not spelled out; 「可能需要」 and 「請事先問醫師」 cover it.",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "IF-4.3"
+    },
+    {
+     "text": "使用高劑量類固醇時，尤其合併免疫抑制劑，醫師可能會評估是否用藥預防肺囊蟲肺炎。",
+     "strength_label": "EULAR 2022・建議強度 B/D",
+     "evidence": [
+      {
+       "c": "C53",
+       "s": "S1",
+       "quote": "Prophylaxis against PCP should be considered in patients with AIIRD in whom high doses of glucocorticoids are used, especially in combination with immunosuppressants* and depending on the risk–benefit ratio.",
+       "strength": "LoE 2b; 5*; GoR B; D*; LoA 9.2 (1.1). Asterisk on \"immunosuppressants\"",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-4.4"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "infection-zoster",
+   "title": "皮蛇與水痘",
+   "summary": "免疫力低時較易得皮蛇；沒水痘免疫力者接觸病人後盡快告訴醫師。",
+   "illustration": "A doctor talking with an adult patient and pointing to a simple drawing of a band-shaped skin rash on one side of a person's torso; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "一般人一生約 2 到 3 成會得帶狀疱疹（皮蛇），年長者和免疫力較低者風險更高；打疫苗預防最有效，但治療期間活性減毒疫苗建議延後（見共通照護頁）。",
+     "strength_label": "IDST 2024・指引說明；ACR 2022・建議",
+     "evidence": [
+      {
+       "c": "C55",
+       "s": "S19",
+       "quote": "The lifetime risk of HZ is estimated to be 20%-30% in the general population, with an increased risk in the elderly and immunocompromised populations. The most effective strategy to prevent HZ and its complications is by vaccination.",
+       "strength": "Narrative (abstract)",
+       "confidence": "Medium"
+      },
+      {
+       "c": "common:C77",
+       "s": "common:S10",
+       "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression.",
+       "strength": "Conditional; \"Very low\" (Table 7). One generic point cited from the common page (BRIEF: cite common topics 'only when a disease card needs one generic point'); same quote and wording (「延後」) as common.json CM-5.2. The direction ('deferring') is confirmed in common.md C77 (ACR-hosted manuscript plus the intact Discussion sentence).",
+       "confidence": "High"
+      },
+      {
+       "c": "C76",
+       "s": "S5",
+       "quote": "Live attenuated vaccines, such as the herpes zoster vaccine, oral polio or rabies vaccine, should be avoided (grade 2C, SOA 99%).",
+       "strength": "2C, SOA 99% (patients receiving biologic therapy). Verbatim as read in the original (academic.oup.com executive summary) by the independent verifier (verify_infection.md, IF-5.1); supporting only, the page follows ACR's 「延後」.",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-5.1"
+    },
+    {
+     "text": "使用 JAK 抑制劑（一種口服標靶藥物）時，帶狀疱疹比使用生物製劑時更常見。",
+     "strength_label": "國際共識 2024・建議強度 B",
+     "evidence": [
+      {
+       "c": "C77",
+       "s": "S4",
+       "quote": "Serious infections (similar to biological disease-modifying antirheumatic drugs), opportunistic infections including TB, herpes zoster (increased rates compared with biological disease-modifying antirheumatic drugs) may occur …",
+       "strength": "LoE/SoR 2b/B; final vote 100%; LoA 9.7 ± 0.7. Table 1 item VI.1 wording verbatim as read in the publisher PDF (UNIGE repository) by the independent verifier (verify_infection.md, IF-5.2): no 'and' before 'herpes zoster'. This replaces the evidence file's C5 quote, which carried an 'and' from a MATCH pass; meaning unchanged.",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-5.2"
+    },
+    {
+     "text": "沒得過水痘或帶狀疱疹、也沒打過相關疫苗的成人，開始傳統抗風濕藥物前，建議檢查水痘免疫力。",
+     "strength_label": "BSR 2025・強烈建議（1B）",
+     "evidence": [
+      {
+       "c": "C57",
+       "s": "S6",
+       "quote": "Screen for varicella immunity in all children and in adults with no prior history of chickenpox, shingles or VZV vaccination who are commencing csDMARDs. … (GRADE 1B, SoA 99%)",
+       "strength": "GRADE 1B; SoA 99%",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-5.3"
+    },
+    {
+     "text": "對水痘沒有免疫力或不確定的人，接觸水痘或帶狀疱疹病人後，請盡快告訴醫療團隊，醫師可能會提供預防性治療。",
+     "strength_label": "EULAR 2022・建議強度 D",
+     "evidence": [
+      {
+       "c": "C56",
+       "s": "S1",
+       "quote": "All patients commencing csDMARDs, bDMARDs, tsDMARDs, immunosuppressants and/or glucocorticoids (according to dose and duration) who are non-immune to VZV should be informed about post-exposure prophylaxis following contact with VZV. … Mainly based on published expert opinion the TF agreed that those identified as non-immune or where there is doubt about their immunity status, should be informed in advance about post-exposure prophylaxis and offered prophylaxis after contact with a person with chickenpox or shingles, according to local guidelines.",
+       "strength": "LoE 5; GoR D; LoA 8.9 (1.5)",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "「盡快」 is EDITORIAL (added after the 2026-10-10 fact-check, verify_infection.md IF-5.4): no source read gives a time window for post-exposure prophylaxis.",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "IF-5.4"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "infection-sick",
+   "title": "生病時與日常防護",
+   "summary": "學會辨認感染，生病時盡快聯絡醫療團隊，並詢問飲食衛生建議。",
+   "illustration": "An adult preparing food on a clean kitchen counter, and the same adult talking on the phone with a nurse; flat, friendly style; no text, no brands.",
+   "points": [
+    {
+     "text": "請醫療團隊教您辨認感染的徵兆，並事先問清楚生病時要怎麼就醫。",
+     "strength_label": "EULAR 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C59",
+       "s": "S1",
+       "quote": "… people living with AIIRD, who should also be educated to identify promptly signs and symptoms of infections and how to seek relevant medical attention.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-6.1"
+    },
+    {
+     "text": "感染時，治療有時需要暫停；例如嚴重感染時，醫師通常會先暫停生物製劑，等感染好了再恢復。",
+     "strength_label": "BSR 2019・強烈建議（1A）",
+     "evidence": [
+      {
+       "c": "C62",
+       "s": "S5",
+       "quote": "All biologics should be discontinued in the presence of serious infection, but can be recommenced once the infection has resolved (grade 1 A, SOA 99%).",
+       "strength": "1A, SOA 99%",
+       "confidence": "High"
+      },
+      {
+       "c": "C66",
+       "s": "S2",
+       "quote": "Furthermore, treatment of AIIRD may need to be put on hold when infections occur.",
+       "strength": "Tier 2 narrative",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "IF-6.2"
+    },
+    {
+     "text": "用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可請醫療團隊提供飲食與環境衛生建議，減少李斯特菌、沙門氏菌等感染。",
+     "strength_label": "EULAR 2022・專家共識",
+     "evidence": [
+      {
+       "c": "C67",
+       "s": "S1",
+       "quote": "On the other hand, TF members agreed, as has been shown, that people living with AIIRD benefit when provided with general dietary and environmental advice to reduce their risk of infection from specific pathogens (eg, Listeria spp, Salmonella spp) while receiving treatment with bDMARDs, tsDMARDs, immunosuppressants and high-doses of glucocorticoids.",
+       "strength": "Task-force agreement in the Discussion (not a numbered recommendation; no LoE/GoR)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "IF-6.3"
+    }
+   ],
+   "tip": {
+    "text": "生病時請盡快聯絡醫療團隊；藥物要不要暫停或調整，由醫師決定；類固醇不可自行突然停用。",
+    "strength_label": "編輯加註・安全提醒",
+    "evidence": [
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "Editorial safety tip, revised after the 2026-10-10 fact-check (verify_infection.md IF-6.T): prompt contact first; drug changes decided by the doctor; the absolute 'do not stop' kept only for glucocorticoids. No source gives patients a rule for pausing drugs during a non-serious infection (evidence file M11, Section E4).",
+      "confidence": "EDITORIAL"
+     },
+     {
+      "c": "C59",
+      "s": "S1",
+      "quote": "… people living with AIIRD, who should also be educated to identify promptly signs and symptoms of infections and how to seek relevant medical attention.",
+      "strength": "Narrative",
+      "confidence": "High"
+     },
+     {
+      "c": "C65",
+      "s": "S17",
+      "quote": "Adrenal crisis (also known as acute adrenal insufficiency or Addisonian crisis) can occur in patients taking oral supraphysiologic doses of glucocorticoids, if drug availability suddenly decreases (eg, missed doses, gastroenteritis). It is a life-threatening emergency that must be promptly recognized and treated.",
+      "strength": "Narrative",
+      "confidence": "High"
+     }
+    ],
+    "sid": "IF-6.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "有 B 型肝炎，就不能使用生物製劑。",
+   "fact": "不一定。經醫師評估風險和好處，配合適當的抗病毒藥物，並和肝膽腸胃科醫師密切合作，使用生物製劑可能是安全的。",
+   "strength_label": "BSR 2019・強烈建議（1C）",
+   "evidence": [
+    {
+     "c": "C43",
+     "s": "S5",
+     "quote": "In patients who are HBV positive, a risk–benefit assessment should be undertaken, as biologics may be safe if appropriate anti-viral treatment is given, working closely with a hepatologist (grade 1C, SOA 99%).",
+     "strength": "1C; SOA 99%",
+     "confidence": "High"
+    },
+    {
+     "c": "C37",
+     "s": "S1",
+     "quote": "Evidence suggests that HBV carriers (HBsAg-positive) would benefit from prophylactic treatment, and thus it is advised that they should be referred to hepatologist for antiviral prophylactic treatment.",
+     "strength": "Narrative (advice)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "IF-M1"
+  },
+  {
+   "belief": "驗出潛伏結核，就是得了肺結核，會傳染給家人。",
+   "fact": "潛伏結核是感染了結核菌、但還沒發病，沒有症狀，也還不會傳染。完整接受治療，可提供約 9 成的保護，避免日後發病。",
+   "strength_label": "疾管署・指引說明",
+   "evidence": [
+    {
+     "c": "C29",
+     "s": "S15",
+     "quote": "疾管署說明，LTBI是人體感染結核菌尚未發病成結核病的狀態，沒有症狀也還不會傳染。",
+     "strength": "Agency statement",
+     "confidence": "High"
+    },
+    {
+     "c": "C27",
+     "s": "S14",
+     "quote": "LTBI 感染者完成治療才能提供完整(約 9 成)的保護發病效果",
+     "strength": "National guideline text",
+     "confidence": "High"
+    }
+   ],
+   "sid": "IF-M2"
+  },
+  {
+   "belief": "只有生物製劑會增加感染風險，類固醇和傳統抗風濕藥物不用擔心。",
+   "fact": "不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。",
+   "strength_label": "EULAR 2022・指引說明；疾管署・指引說明",
+   "evidence": [
+    {
+     "c": "C16",
+     "s": "S1",
+     "quote": "On the other hand, there is some evidence that patients with AIIRD under treatment with csDMARDs and/or glucocorticoids have also increased risk for latent TB reactivation.",
+     "strength": "Narrative",
+     "confidence": "High"
+    },
+    {
+     "c": "C8",
+     "s": "S14",
+     "quote": "免疫風濕病人因為疾病本身造成正常免疫力失調，加上使用類固醇或免疫抑制劑治療以緩解症狀及改善生活品質，致該類病人結核病發生及死亡風險較一般民眾高出許多。",
+     "strength": "National guideline text",
+     "confidence": "High"
+    }
+   ],
+   "sid": "IF-M3"
+  },
+  {
+   "belief": "風濕科的藥停了，B 型肝炎的抗病毒藥也可以跟著停。",
+   "fact": "不應該跟著停。免疫抑制治療停止後，B 型肝炎仍可能再活化，抗病毒藥還要繼續一段時間；請不要自行停用，何時停藥由醫師評估，停藥後也要繼續抽血追蹤。",
+   "strength_label": "AASLD 2018・專家共識；APASL 2021・指引說明",
+   "evidence": [
+    {
+     "c": "C35",
+     "s": "S8",
+     "quote": "The second phase occurred during immune reconstitution on withdrawal of the IST …",
+     "strength": "Narrative",
+     "confidence": "High"
+    },
+    {
+     "c": "C71",
+     "s": "S25",
+     "quote": "Once started, anti-HBV prophylaxis should continue during immunosuppressive therapy and for at least 6 months (or for at least 12 months for patients receiving anti-CD20 therapies) after completion of immunosuppressive therapy. … Patients should be monitored for up to 12 months after cessation of anti-HBV therapy.",
+     "strength": "Ungraded consensus guidance statements (see C70)",
+     "confidence": "High"
+    },
+    {
+     "c": "C42",
+     "s": "S8",
+     "quote": "… under the guidance of a hepatologist, termination of NUCs would be considered 6 months after the completion of IST …",
+     "strength": "Grade not shown",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "「請不要自行停用」 is EDITORIAL (added after the 2026-10-10 fact-check, verify_infection.md IF-M4); 「不應該跟著停」 rests on AASLD 'should continue … for at least 6 months … after completion of immunosuppressive therapy', with APASL and EULAR also continuing antivirals after immunosuppression ends.",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "IF-M4"
+  }
+ ],
+ "seek_care": [
+  {
+   "text": "使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。",
+   "strength_label": "BSR 2019・建議（2C）",
+   "evidence": [
+    {
+     "c": "C58",
+     "s": "S5",
+     "quote": "Shingles should be treated conventionally (grade 2C, SOA 94%).",
+     "strength": "2C; SOA 94%",
+     "confidence": "High"
+    },
+    {
+     "c": "C77",
+     "s": "S4",
+     "quote": "Serious infections (similar to biological disease-modifying antirheumatic drugs), opportunistic infections including TB, herpes zoster (increased rates compared with biological disease-modifying antirheumatic drugs) may occur …",
+     "strength": "LoE/SoR 2b/B; final vote 100%; LoA 9.7 ± 0.7. Table 1 item VI.1, verbatim as read in the publisher PDF by the independent verifier (verify_infection.md, IF-5.2); shows why JAK-inhibitor users are named.",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "「盡快」 and the JAK-inhibitor / other-immunosuppressant clause are EDITORIAL (added after the 2026-10-10 fact-check, verify_infection.md IF-S1). BSR's 'treated conventionally' (2C) is stated only for patients on biologics, so 「治療方式和一般人相同」 stays in the biologic clause.",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "IF-S1"
+  },
+  {
+   "text": "使用類固醇期間或剛停藥不久，如果有嘔吐或腹瀉、藥吃不下或吃了吐掉，請盡快就醫。",
+   "strength_label": "ESE/ES 2024・良好實務建議",
+   "evidence": [
+    {
+     "c": "C78",
+     "s": "S17",
+     "quote": "We suggest that in patients with current or recent glucocorticoid use who did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency and present with hemodynamic instability, vomiting, or diarrhea, the diagnosis of adrenal crisis should be considered irrespective of the glucocorticoid type, mode of administration, and dose; patients with suspected adrenal crisis should be treated with parenteral glucocorticoids and fluid resuscitation. (Good clinical practice)",
+     "strength": "R 3.2, good clinical practice. Verbatim as read in the original (PMC11180513) by the independent verifier (verify_infection.md, IF-S2). Covers current or recent use 'irrespective of the glucocorticoid type, mode of administration, and dose'.",
+     "confidence": "High"
+    },
+    {
+     "c": "C79",
+     "s": "S17",
+     "quote": "In patients with suspected reduced absorption (persistent vomiting or diarrhea), nil by mouth, or unable to take tablets, give stress-dose glucocorticoids I.V. or I.M.",
+     "strength": "Table 8. Verbatim as read in the original (PMC11180513) by the independent verifier (verify_infection.md, IF-S2).",
+     "confidence": "High"
+    },
+    {
+     "c": "C80",
+     "s": "S17",
+     "quote": "… or when there are signs of hemodynamic instability or prolonged vomiting or diarrhea.",
+     "strength": "R 3.1B (part). Verbatim as read in the original (PMC11180513) by the independent verifier (verify_infection.md, IF-S2).",
+     "confidence": "High"
+    },
+    {
+     "c": "C65",
+     "s": "S17",
+     "quote": "Adrenal crisis (also known as acute adrenal insufficiency or Addisonian crisis) can occur in patients taking oral supraphysiologic doses of glucocorticoids, if drug availability suddenly decreases (eg, missed doses, gastroenteritis). It is a life-threatening emergency that must be promptly recognized and treated.",
+     "strength": "Narrative",
+     "confidence": "High"
+    }
+   ],
+   "sid": "IF-S2"
+  },
+  {
+   "text": "治療期間如果發燒或出現其他感染徵兆，請盡快聯絡醫療團隊或就醫。",
+   "strength_label": "EULAR 2022・指引說明",
+   "evidence": [
+    {
+     "c": "C59",
+     "s": "S1",
+     "quote": "… people living with AIIRD, who should also be educated to identify promptly signs and symptoms of infections and how to seek relevant medical attention.",
+     "strength": "Narrative (text under overarching principle A). Also confirmed in the original (publisher PDF) by the independent verifier (verify_infection.md, IF-6.1 and P-1).",
+     "confidence": "High"
+    },
+    {
+     "c": "C61",
+     "s": "S5",
+     "quote": "Patients should have rapid access to specialist health care for consideration of early treatment (grade 1B, SOA 99%).",
+     "strength": "1B; SOA 99% (executive summary, 'Opportunistic infection', patients receiving biologic therapy; a service standard). Also read in the original by the independent verifier (verify_infection.md, P-1).",
+     "confidence": "High"
+    },
+    {
+     "c": "C60",
+     "s": "S5",
+     "quote": "Patients should have direct access to their specialist centre [e.g. via an advice line (Helpline)] for advice within one working day (grade 1C, SOA 98%).",
+     "strength": "1C; SOA 98% (executive summary, 'Generic recommendations' (iv); a UK service standard). Also read in the original by the independent verifier (verify_infection.md, P-1). The one-working-day figure is not printed.",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Added after the 2026-10-10 fact-check (verify_infection.md P-1, page-level omission). 「發燒」 is an EDITORIAL example: no accessible source lists infection symptoms for patients (evidence file Section E3).",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "IF-S3"
+  }
+ ],
+ "sources": [
+  {
+   "s": "S1",
+   "short": "EULAR 2022 慢性與伺機性感染篩檢及預防建議",
+   "citation": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2023;82(6):742–753.",
+   "pmid": "36328476",
+   "doi": "10.1136/ard-2022-223335",
+   "url": ""
+  },
+  {
+   "s": "S2",
+   "short": "EULAR 2022 感染篩檢建議的系統性文獻回顧",
+   "citation": "Fragoulis GE et al. Systematic literature review informing the 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. RMD Open 2022;8(2):e002726.",
+   "pmid": "36323488",
+   "doi": "10.1136/rmdopen-2022-002726",
+   "url": ""
+  },
+  {
+   "s": "S3",
+   "short": "ACR 2021 類風濕性關節炎治療指引",
+   "citation": "Fraenkel L et al. 2021 American College of Rheumatology Guideline for the Treatment of Rheumatoid Arthritis. Arthritis Care Res 2021;73(7):924–939; co-published in Arthritis Rheumatol 2021;73(7):1108–1123 (PMID 34101376; doi 10.1002/art.41752).",
+   "pmid": "34101387",
+   "doi": "10.1002/acr.24596",
+   "url": ""
+  },
+  {
+   "s": "S4",
+   "short": "國際共識 2024 JAK 抑制劑治療共識",
+   "citation": "Nash P et al. Expert consensus statement on the treatment of immune-mediated inflammatory diseases with Janus kinase inhibitors: 2024 update. Ann Rheum Dis 2025;84(5):664–679.",
+   "pmid": "40037995",
+   "doi": "10.1016/j.ard.2025.01.032",
+   "url": ""
+  },
+  {
+   "s": "S5",
+   "short": "BSR 2019 生物製劑安全指引（執行摘要）",
+   "citation": "Holroyd CR et al. The British Society for Rheumatology biologic DMARD safety guidelines in inflammatory arthritis — Executive summary. Rheumatology (Oxford) 2019;58(2):220–226.",
+   "pmid": "30137623",
+   "doi": "10.1093/rheumatology/key207",
+   "url": ""
+  },
+  {
+   "s": "S6",
+   "short": "BSR 2025 傳統抗風濕藥物處方與監測指引",
+   "citation": "Bechman K et al. The 2025 British Society for Rheumatology guideline for the prescription and monitoring of conventional synthetic disease-modifying anti-rheumatic drugs. Rheumatology (Oxford) 2026;65(2):keaf522.",
+   "pmid": "41235543",
+   "doi": "10.1093/rheumatology/keaf522",
+   "url": ""
+  },
+  {
+   "s": "S8",
+   "short": "APASL 2021 免疫抑制治療相關 B 型肝炎再活化指引",
+   "citation": "Lau G et al. APASL clinical practice guideline on hepatitis B reactivation related to the use of immunosuppressive therapy. Hepatol Int 2021;15(5):1031–1048. Correction: Hepatol Int 2022;16(2):486–487.",
+   "pmid": "34427860",
+   "doi": "10.1007/s12072-021-10239-x",
+   "url": ""
+  },
+  {
+   "s": "S12",
+   "short": "TRA 2020 中軸型脊椎關節炎共識",
+   "citation": "Wei JC et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7–23.",
+   "pmid": "31777200",
+   "doi": "10.1111/1756-185X.13752",
+   "url": ""
+  },
+  {
+   "s": "S14",
+   "short": "疾管署 潛伏結核感染診斷與治療（指引第十章）",
+   "citation": "衛生福利部疾病管制署. 第十章 潛伏結核感染(LTBI)診斷與治療 (pp. 119–146). Taiwan CDC-hosted guideline chapter; book title and edition not printed in the accessible pages.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.cdc.gov.tw/Uploads/13d8a1a5-59e2-492a-b29d-64252ba66637.pdf"
+  },
+  {
+   "s": "S15",
+   "short": "疾管署 2024 潛伏結核檢驗與治療新聞稿",
+   "citation": "衛生福利部疾病管制署. 替代治療者潛伏結核感染(LTBI)檢驗與治療照護正式啟動. 衛生福利部新聞稿, 2024-07-15 (updated 2024-07-16).",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.mohw.gov.tw/cp-16-79312-1.html"
+  },
+  {
+   "s": "S17",
+   "short": "ESE/ES 2024 類固醇引起腎上腺功能不全指引",
+   "citation": "Beuschlein F et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109(7):1657–1683; co-published in Eur J Endocrinol 2024;190(5):G25–G51 (PMID 38714321; doi 10.1093/ejendo/lvae029).",
+   "pmid": "38724043",
+   "doi": "10.1210/clinem/dgae250",
+   "url": ""
+  },
+  {
+   "s": "S18",
+   "short": "EULAR 2019 自體免疫風濕病疫苗建議",
+   "citation": "Furer V et al. 2019 update of EULAR recommendations for vaccination in adult patients with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2020;79(1):39–52.",
+   "pmid": "31413005",
+   "doi": "10.1136/annrheumdis-2019-215882",
+   "url": ""
+  },
+  {
+   "s": "S19",
+   "short": "IDST 2024 台灣成人帶狀疱疹疫苗建議",
+   "citation": "Lin KY et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669–684.",
+   "pmid": "38987064",
+   "doi": "10.1016/j.jmii.2024.06.001",
+   "url": ""
+  },
+  {
+   "s": "S25",
+   "short": "AASLD 2018 B 型肝炎指引更新",
+   "citation": "Terrault NA et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology 2018;67(4):1560–1599.",
+   "pmid": "29405329",
+   "doi": "10.1002/hep.29800",
+   "url": ""
+  },
+  {
+   "s": "common:S10",
+   "short": "ACR 2022 風濕病疫苗指引",
+   "citation": "Bass AR et al. 2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases. Arthritis Care Res 2023;75(3):449–464; co-published in Arthritis Rheumatol 2023;75(3):333–348 (PMID 36597810; doi 10.1002/art.42386).",
+   "pmid": "36597813",
+   "doi": "10.1002/acr.25045",
+   "url": ""
+  }
+ ],
+ "reviewer_notes": [
+  "HEPATITIS B, STOPPING ANTIVIRALS: no source read says 'do not stop antiviral prophylaxis on your own' (evidence file Section E1). After the fact-check, IF-3.5 and IF-M4 carry 「請不要自行停用」 as EDITORIAL. Everything else is sourced: antivirals continue for a while after immunosuppressive therapy ends (AASLD 2018: during IST and for at least 6 months after, at least 12 months after anti-CD20 therapy; EULAR 2022: 'reasonable' for at least 6–12 months, possibly longer with rituximab, but the task force explicitly made no recommendation; APASL 2021: consider stopping 6 months after IST for specified groups). Stopping happens 'under the guidance of a hepatologist' (APASL), and monitoring continues for up to 12 months after antivirals stop (AASLD). Because no source supports stopping antivirals when immunosuppression stops, 「通常」 was removed from IF-3.5, and IF-M4 now opens 「不應該跟著停」 (AASLD 'should continue'). No durations are printed, because they are clinician-level and differ between societies.",
+  "STEROIDS (IF-4.2, IF-4.3, IF-S2) rest on an endocrinology guideline (ESE/ES 2024), which covers anyone on systemic glucocorticoids, not on a rheumatology guideline. IF-4.2: the adrenal-crisis statement covers 'oral supraphysiologic doses', rendered 「口服劑量高於身體自然分泌量時」; 「不要漏吃或自行突然停用類固醇」 is an inference plus the editorial no-self-stopping phrase (the verifier judged it safe). IF-4.3 (revised after the fact-check): it now names 「長期使用或最近才停用類固醇的人」 (R 3.1 'current or recent' use; R 2.1: under 3–4 weeks is 'low concern for HPA axis suppression'), says why (「以免腎上腺功能不足」, from the adrenal-crisis definition, C65), and keeps 「可能需要」 because Table 8 says patients already on higher doses 'typically' need no increase. 「（不是治療感染）」 and 「感染也要就醫」 are EDITORIAL clarifiers. R 3.1's condition 'did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency' is still not spelled out. No stress-dose amounts or thresholds are printed. Please confirm you want patients told that a temporary steroid increase may be needed. IF-S2 (revised) is now directly sourced: R 3.2 (good clinical practice) says to consider adrenal crisis in current or recent users with vomiting or diarrhoea 'irrespective of the glucocorticoid type, mode of administration, and dose', and Table 8 calls for parenteral steroids when patients cannot take tablets. The ESE steroid emergency card is not mentioned, because no Taiwanese equivalent was checked.",
+  "CONFLICTS ON SCREENING SCOPE, written as common ground (BRIEF rule 5). HIV: EULAR 2022 recommends it before bDMARDs and says consider it before others (GoR D); BSR 2025 says all adults starting a csDMARD except HCQ/mepacrine (1B); JAKi 2024 says high-risk populations. IF-1.4 therefore says only 「醫師也可能安排」. HBV: BSR 2025 exempts HCQ/mepacrine and EULAR Rec 4 states no exemption, so IF-3.1 says 「開始免疫抑制治療前」 rather than 'any antirheumatic drug', and keeps EULAR's 'glucocorticoids (according to dose and duration)'. TB before csDMARDs, immunosuppressants or glucocorticoids applies only to people at increased risk (EULAR 'considered'; BSR 2025 1B), hence 「也可能需要」 in IF-2.2. APLAR 2024 Statement 12 (screen for TB, HBV and HCV before any DMARD; strong, GRADE A) was not used because it is an RA recommendation and this page serves all rheumatic diseases. It could be added scoped to RA.",
+  "TAIWAN CDC CHAPTER (S14): the book title and edition are not printed (probably a post-2022 edition). In this drafting session, two WebFetch reads confirmed that §10.3.5 is headed 「接受抗腫瘤壞死因子治療的病人」. That section holds the immune-rheumatic TB-risk sentence (IF-2.1, IF-M3), the TNF timing rule and the 都治 sentence. The 都治 sentence reads 「建議所有接受 LTBI 治療者參加都治計畫」, so IF-2.5 says 「接受潛伏結核治療時」, although strictly it sits in the anti-TNF section. The same sentence opens by saying this group is not a CDC-subsidised group (IGRA and co-payment). That seems at odds with §10.2.1, which lists anti-TNF users as a policy target group; the conflict is unresolved, and no cost or subsidy statement is printed. The rule of at least 4 weeks of LTBI treatment before a TNF blocker is not printed either (clinician-level timing); IF-2.4 says only 「通常要先開始潛伏結核治療，再用生物製劑」. Protection: S14 says 「約 9 成」 and S15 says 「9成以上」; the page uses 「約 9 成」. Both URLs were opened with the www. prefix on 2026-10-10. The independent fact-check confirmed these locations (§10.3.5, pp. 132–133; §10.2.5, p. 129) and the subsidy inconsistency; you may want to confirm current 都治 access for this group.",
+  "RESOLVED HBV, MONITORING VERSUS PROPHYLAXIS: monitoring intervals differ (EULAR 'eg, every 3–6 months'; AGA 2025 1–3 months, abstract only; APASL 12 weeks in some groups; TRA 2012 via S12 monthly for 3 months, then every 3 months; ACR 'frequent'), so IF-3.4 says 「定期」. Who gets prophylaxis also differs. ACR conditionally prefers monitoring alone for non-rituximab b/tsDMARDs. TRA 2012 'recommended' prophylaxis but described treating only after HBV DNA or HBsAg turns positive, because of cost. APASL decides by drug risk group. All agree that rituximab is high risk. IF-3.4's 「部分用藥則可能需要抗病毒藥」 stands in for rituximab/anti-CD20, which BRIEF rule 7 does not let me name. IF-3.3 carries EULAR's narrative label; the strong ACR recommendation (RA, HBsAg-positive patients starting any b/tsDMARD) and AASLD are cited as evidence but kept out of the label because of their populations.",
+  "DRUG CLASS NAMES: 「口服標靶藥物」 stands for tsDMARDs (IF-2.2, IF-6.3). 「JAK 抑制劑」 is named in IF-5.2, because the higher zoster rate (JAKi 2024 consensus VI.1, 2b/B) applies to JAK inhibitors, not to all targeted drugs, and (after the fact-check) in IF-S1. Please confirm that patients will recognise both terms. 「傳統抗風濕藥物」 means csDMARDs (IF-5.3, IF-M3); IF-2.2's 「其他抗風濕藥物」 covers EULAR's csDMARDs and immunosuppressants. 「免疫抑制劑」 follows EULAR's 'immunosuppressants'. Methotrexate users may read it as covering them, which matters only for IF-6.3 (S1's food advice does not cover people on csDMARDs alone).",
+  "POPULATIONS: S3 (ACR 2021) is an RA guideline, so IF-4.1 names it (「ACR 類風濕性關節炎指引指出」). After the fact-check it reads 「觀察性研究發現…有關」 and makes the doctor the actor (「醫師會盡量…」). The two S3 sentences come from different sections (previous serious infection; glucocorticoids in DMARD-naive patients) and are joined with 「；」 without claiming a causal link. S5 (BSR 2019) covers inflammatory arthritis on biologics: IF-6.2 and the first clause of IF-S1 are scoped to biologics, and IF-S1's JAK/other-drug clause is EDITORIAL. IF-M1 (biologics may be safe with antivirals and a hepatologist, 1C) is not scoped by disease; S1's AIIRD-wide advice to refer carriers for antiviral prophylaxis is cited alongside it (the verifier judged this acceptable). Accept it or add 「發炎性關節炎」. IF-5.3 (varicella immunity) uses BSR 2025's csDMARD population, adults with no history of chickenpox, shingles or 'VZV vaccination', rendered 「沒打過相關疫苗」 (i.e. chickenpox or shingles vaccines). IF-3.T (revised after the fact-check) now speaks to everyone whose three hepatitis B markers are negative. EULAR 2019 Rec 4 counts 'HBV-seronegative patients that … are residents in endemic countries' as at risk, and TRA 2020 states 'The endemic presence of … hepatitis B… in Taiwan' (the verifier's PMC read; the glued words are stripped citation markers). This replaces the evidence file's caution (Section E18) that Taiwan's endemic status was only the researcher's inference.",
+  "INFERENCES AND EDITORIAL WORDING after the fact-check. EDITORIAL elements: 「請不要自行停用」 (IF-3.5, IF-M4); 「盡快」 (IF-5.4, IF-S1; no source gives a time window); IF-S1's JAK/other-drug clause; IF-4.3's 「（不是治療感染）」 and 「感染也要就醫」; the 「發燒」 example in IF-S3; tip IF-6.T (contact the team promptly; the doctor decides drug changes; glucocorticoids never stopped abruptly, which S17 supports); and 「不要漏吃或自行突然停用類固醇」 in IF-4.2. Inferences kept: IF-5.4 「請盡快告訴醫療團隊」 (S1: non-immune patients should be informed in advance and offered prophylaxis after contact); IF-S1 「請…就醫」 (from 'shingles should be treated conventionally'); IF-6.1 turns S1's education statement into a patient request. NOT kept: 'tell your doctor your hepatitis B status' (Section E2) and 'take preventive medicines as prescribed' (C41, C53). IF-S2 is no longer an inference (S17 R 3.2 and Table 8). IF-6.T no longer says 「不要自行停藥」 for all drugs; only the glucocorticoid clause is absolute.",
+  "LEFT OUT: a list of infection warning symptoms. No accessible source lists them for patients (the same gap as on the SLE page). After the fact-check, IF-S3 tells patients on treatment to contact the team promptly with 「發燒或出現其他感染徵兆」: fever is an EDITORIAL example; S1 says patients should be educated to identify signs of infection promptly and how to seek medical attention, and BSR 2019 says patients should have rapid access to specialist care (1B) and direct access to their specialist centre (1C). Also left out: the UK one-working-day helpline promise (C60 is cited only as evidence for IF-S3); the 2012 TRA consensus details via S12 (secondary, possibly outdated); near-universal BCG in Taiwan causing false-positive skin tests (C18/C19, Medium), which could be added to IF-2.3 as the reason for preferring IGRA; the anti-HBs myth (M13: AASLD says anti-HBs 'does not prevent HBV reactivation', APASL says 'some protection'; vaccine-only anti-HBs is not addressed); resuming or restarting interrupted LTBI treatment after re-evaluation (S14 C27; optional); Pneumocystis dose thresholds; COVID-19 (not researched); NHI reimbursement rules (not checked); 'raw eggs and poultry' (one study's leaflet with a glued word in S2; no guideline lists foods); the WHO 2020 TB recommendation (2024 edition not verified); and the Low-confidence Taiwan figures (C6, C46, C47).",
+  "STRENGTH LABELS: APASL grades are not in the accessible text, so APASL narrative and Table 4 are 「指引說明」, and IF-3.1's marker list ('Screening should include…') is 「建議」. Neither the writer nor the verifier could access the EULAR 2019 Rec 4 grade, so IF-3.T stays 「建議」 ('should be administered'). AASLD 2018 guidance is ungraded expert-panel consensus → 「專家共識」. EULAR 2022 food advice is a task-force agreement in the Discussion → 「專家共識」. EULAR overarching principles → 「基本原則」. Statements whose asterisked parts carry GoR D are shown as 「B/D」 or 「C/D」 (gout-page convention). The JAKi 2024 consensus uses Oxford grades → 「國際共識 2024・建議強度 B」. Taiwan CDC chapter text → 「疾管署・指引說明」, or 「疾管署・建議」 where the text itself says 建議 (都治). S15 is a press release, labelled 疾管署・指引說明 for lack of a better category. ESE/ES 'Good clinical practice' → 「良好實務建議」 (IF-4.3; after the fact-check also IF-S2, R 3.2). IF-5.1's added live-vaccine clause carries 「ACR 2022・建議」 (conditional; common:C77). IF-S3 → 「EULAR 2022・指引說明」 (narrative); the BSR 1B and 1C service statements are supporting evidence, not the label. IF-3.T adds 「TRA 2020・指引說明」 for Taiwan's endemic status.",
+  "VERIFICATION STATUS: the independent fact-check (/home/claude/newpages/verify/verify_infection.md, 2026-10-10) confirmed 56 of the 57 distinct evidence quotes verbatim in the original publications. Its sources were PMC full text, the PubMed abstract (S19) and publisher pages or PDFs, and every WebFetch quote had an independent second read. The one partial match (S4 VI.1 'and') is fixed: IF-5.2 and IF-S1 now quote the Table 1 wording the verifier read. Quotes added after the fact-check come from the verifier's report, marked 'verify:<row>' in the c field with the original named in the strength field, or from the evidence files (C59, C60, C61, C65, C35 and common:C77). The APASL Table 4 column layout was also checked by the drafter in PubMed full text on 2026-10-10. The EULAR 2019 Rec 4 grade remains inaccessible. S19 (IDST) is abstract only (Medium). The S1 C38/C42 quotes keep the source's own typography ('anti-HBcorepositive', 'for least'). The intro rests on C2 (S1 introduction), which the verifier also confirmed.",
+  "COMMON-PAGE OVERLAP: the common page's vaccine content is not repeated, with one exception that BRIEF allows ('cite them only when a disease card needs one generic point'). After the fact-check, IF-5.1 adds 「但治療期間活性減毒疫苗建議延後」 (common:C77, ACR 2022, the same wording as common.json CM-5.2), because the card calls vaccination the most effective prevention and the live zoster vaccine is deferred during immunosuppression. Otherwise this page adds only: the hepatitis B vaccine (IF-3.T, EULAR 2019 Rec 4), zoster risk (IF-5.1), JAKi zoster risk (IF-5.2), the varicella immunity check (IF-5.3) and post-exposure advice (IF-5.4). Glucocorticoid bone health is not touched.",
+  "查核後修改（2026-10-10）：依獨立查核報告（verify_infection.md：1 項 Major、1 項頁面層級缺漏、11 項 Minor）修改。IF-3.2（Major）：類固醇與 B 型肝炎再活化改依 APASL 表 4：帶原者持續用較高劑量為中到高度風險，低劑量或曾感染已痊癒者為低度風險；網站不列劑量。表 4 核心抗體陽性欄原由查核者從扁平化表格推定，撰稿者已用 PubMed 全文（PMC8382940）確認排列一致。同一指引也提到，單純核心抗體陽性者用類固醇，一年內表面抗原再轉陽約 1.8%，且任何劑量、超過 7 天的類固醇都會增加肝炎發作風險，所以「風險低」不等於沒有風險，請斟酌。新增 IF-S3（頁面層級缺漏）：「治療期間如果發燒或出現其他感染徵兆，請盡快聯絡醫療團隊或就醫。」依據 EULAR 2022（C59）與 BSR 2019（C61 1B、C60 1C）；「發燒」是編輯加註的舉例。IF-3.5、IF-M4：刪去「通常」，加「請不要自行停用」（編輯加註）；IF-M4 改以「不應該跟著停」開頭。IF-3.T：改為 B 型肝炎三項都陰性的人可和醫師討論接種疫苗，並加入「台灣屬於 B 型肝炎流行地區」（TRA 2020）。IF-4.1：改為「觀察性研究發現…有關」，主詞改為醫師。IF-4.3：限定長期使用或最近才停用的人，說明加量是為了避免腎上腺功能不足、不是治療感染，並提醒感染也要就醫。IF-5.1：加「但治療期間活性減毒疫苗建議延後」（common:C77）。IF-5.2：引文改用表 1 原文（沒有 \"and\"）。IF-5.4：加「盡快」。IF-6.2：改為「醫師通常會先暫停生物製劑」。IF-6.T：改為先盡快聯絡醫療團隊、用藥調整由醫師決定，只有類固醇保留「不可自行突然停用」。IF-S1：加「盡快」，並涵蓋 JAK 抑制劑等其他免疫抑制藥物使用者。IF-S2：改為「使用類固醇期間或剛停藥不久…嘔吐或腹瀉…」，依據改為 ESE/ES R 3.2、R 3.1B 與表 8，強度標示改為「良好實務建議」。卡片摘要配合修改：皮蛇與水痘卡加「盡快」，生病時卡加「生病時盡快聯絡醫療團隊」。與查核建議不同之處：IF-3.2 依協調者指示，除帶原者較高劑量外也寫出低劑量與已痊癒者風險低，並以「持續」代替「長期」（表 4 的條件是持續至少數週）；IF-4.3、IF-5.1 的建議句超過 70 字，已濃縮；IF-3.T 把「感染風險較高的人」縮為「風險較高者」以符合字數；IF-S2 寫成「如果有嘔吐或腹瀉、藥吃不下或吃了吐掉」，以明確表示只要有其中一項；IF-M4 用「請不要自行停用」（與 IF-3.5 一致），而非「請不要自行停藥」；IF-5.1 依 ACR 2022 寫「延後」（與共通頁一致），未採 BSR 的「避免」，也未寫「接種時機請和醫師討論」（共通頁已有）；IF-6.T 未保留對所有藥物的「不要自己停藥或加藥」（依指示只對類固醇保留絕對語氣；「加藥」也和 IF-4.3 的暫時加量衝突）；IF-S3 未加「不要拖延」（與「盡快」重複），並以「治療期間」代替「使用這些藥物期間」。引文：查核者已在原始文獻確認 57 則引文中的 56 則；查核後新增的引文來自查核報告（c 欄標為 verify:列號，strength 欄註明原始出處）或證據檔，已重新逐字核對。"
+ ]
+}

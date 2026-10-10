@@ -1,0 +1,1230 @@
+{
+ "slug": "osteoporosis",
+ "name": "骨質疏鬆症",
+ "intro": "這頁整理停經後女性與50歲以上男性的骨骼保健：認識警訊、飲食、運動、防跌倒與治療。長期用類固醇，或想看活動量與菸酒建議，請見共通照護頁。",
+ "cards": [
+  {
+   "id": "osteoporosis-fracture",
+   "title": "骨折是警訊",
+   "summary": "超過50歲輕微外力就骨折，要想到骨質疏鬆。",
+   "illustration": "An older adult with a wrist in a simple cast talking with a doctor at a desk, with a bone density scanner in the background; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "超過50歲的人，輕微外力就骨折（例如從站立的高度跌倒），應考慮可能是骨質疏鬆。",
+     "strength_label": "澳洲骨鬆指引 2024・建議強度 A",
+     "evidence": [
+      {
+       "c": "C4",
+       "s": "S5",
+       "quote": "All individuals over the age of 50 years who sustain a fracture following minimal trauma (such as a fall from standing height, or less) should be considered to have a presumptive diagnosis of osteoporosis.",
+       "strength": "Rec 1: Grade A (NHMRC)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-1.1"
+    },
+    {
+     "text": "這樣的骨折不只是運氣不好。骨折後再骨折的風險會升高，剛骨折後最高；請盡早和醫師討論評估與治療。",
+     "strength_label": "NOGG 2024、BHOF 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C4",
+       "s": "S3",
+       "quote": "Clinicians may find it challenging to convince a patient that tripping and breaking a bone is not bad luck, or a particularly hard fall, it is osteoporosis and it will lead to additional fractures if untreated, particularly in the short term.",
+       "strength": "Not graded (narrative)",
+       "confidence": "High"
+      },
+      {
+       "c": "C84",
+       "s": "S1",
+       "quote": "Start treatment promptly following a fragility fracture, because the risk of re-fracture is highest immediately after a fracture and the risk remains elevated.",
+       "strength": "Summary of main recommendations, item 10 (ungraded list)",
+       "confidence": "High"
+      },
+      {
+       "c": "C84",
+       "s": "S4",
+       "quote": "We recommend that postmenopausal females and males aged ≥ 50 yr presenting with a recent fracture have access to a Fracture Liaison Service to improve identification and treatment initiation for osteoporosis.",
+       "strength": "Rec 3.8: Strong recommendation; high-certainty evidence",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-1.2"
+    },
+    {
+     "text": "65歲以上女性、70歲以上男性，可和醫師討論是否做骨密度檢查。",
+     "strength_label": "BHOF 2022、台灣骨鬆學會 2021・指引說明",
+     "evidence": [
+      {
+       "c": "C70",
+       "s": "S3",
+       "quote": "Perform BMD testing in the following: … –Women aged ≥ 65 years and men aged ≥ 70 years.",
+       "strength": "Not graded",
+       "confidence": "High"
+      },
+      {
+       "c": "C71",
+       "s": "S26",
+       "quote": "65歲以上的婦女或70歲以上男性。",
+       "strength": "Not graded (TOA 2021; may be superseded by the 2025 edition). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OP-1.3"
+    },
+    {
+     "text": "停經後女性和50歲以上男性，如果有骨折風險因子或成年後曾骨折，也可和醫師討論是否做骨密度檢查。",
+     "strength_label": "BHOF 2022、台灣骨鬆學會 2021・指引說明",
+     "evidence": [
+      {
+       "c": "C70",
+       "s": "S3",
+       "quote": "Perform BMD testing in the following: … –Postmenopausal women and men aged 50–69 years, based on risk profile. … –Postmenopausal women and men aged ≥ 50 years with history of adult-age fracture.",
+       "strength": "Not graded",
+       "confidence": "High"
+      },
+      {
+       "c": "C71",
+       "s": "S26",
+       "quote": "65歲以前且具有危險因子的停經婦女。 … 50至70歲並具有骨折高風險因子的男性。 … 脆弱性骨折者 (指在低衝擊力下就發生骨折)。",
+       "strength": "Not graded (TOA 2021; may be superseded by the 2025 edition). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OP-1.4"
+    }
+   ],
+   "tip": null
+  },
+  {
+   "id": "osteoporosis-calcium-vitamin-d",
+   "title": "鈣與維生素D",
+   "summary": "鈣質優先從食物攝取，維生素D依需要補充。",
+   "illustration": "A kitchen table with a glass of milk, a slice of cheese, a block of tofu, a bowl of dark leafy greens, a small dish of dried small fish and a spoonful of black sesame seeds, next to a plain unlabeled supplement bottle; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "每天吃足夠的鈣，優先從食物攝取；飲食吃不夠時，再用補充品補足。",
+     "strength_label": "NOGG 2024・強烈建議",
+     "evidence": [
+      {
+       "c": "C7",
+       "s": "S1",
+       "quote": "An adequate intake of calcium (minimum 700 mg daily) preferably achieved through dietary intake or otherwise by supplementation (Strong recommendation).",
+       "strength": "Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C11",
+       "s": "S4",
+       "quote": "2.1. For people who meet the recommended dietary allowance for calcium with a variety of calcium-rich foods, we suggest no supplementation to prevent fractures.",
+       "strength": "Rec 2.1: Conditional recommendation; moderate-to-high-certainty evidence",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-2.1"
+    },
+    {
+     "text": "每天的鈣（食物加補充品）：50到70歲男性1,000毫克；51歲以上女性、71歲以上男性1,200毫克；超過建議量，未證實對骨骼有額外好處。",
+     "strength_label": "BHOF 2022、加拿大骨鬆指引 2023・指引說明",
+     "evidence": [
+      {
+       "c": "C9",
+       "s": "S3",
+       "quote": "Recommend a diet with adequate total calcium intake (1000 mg/day for men aged 50–70 years; 1200 mg/day for women ≥ 51 years and men ≥ 71 years), incorporating calcium supplements if intake is insufficient.",
+       "strength": "Synopsis; not graded in accessible text",
+       "confidence": "High"
+      },
+      {
+       "c": "C11",
+       "s": "S4",
+       "quote": "Health Canada’s recommended dietary allowance for calcium is 1000 mg/d (males aged 51–70 yr) and 1200 mg/d (females > 50 yr and males > 70 yr).",
+       "strength": "Remark to Rec 2.1 (conditional recommendation)",
+       "confidence": "High"
+      },
+      {
+       "c": "C86",
+       "s": "S3",
+       "quote": "There is no evidence that calcium intakes in excess of recommended amounts confer additional bone benefit.",
+       "strength": "Not graded; source of the closing clause 「超過建議量，未證實對骨骼有額外好處」. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-2.2 and \"Additional source text\"); the verifier read it in the original publication",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-2.2"
+    },
+    {
+     "text": "多選含鈣食物：每天1.5到2杯乳品（每杯240毫升），再搭配起司、傳統豆腐、深綠色蔬菜、小魚干、黑芝麻等。",
+     "strength_label": "國健署 2018／2014、BHOF 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C87",
+       "s": "V1",
+       "quote": "不再強調乳品需選用低脂或脫脂為佳的說法，將「低脂乳品類」名稱改成「乳品類」 … 全脂與低脂乳品好處相同，建議每日攝取1.5-2杯乳品類，增進鈣質攝取，保持骨質健康。",
+       "strength": "National agency press release 2018-03-13 (2018 每日飲食指南), read twice by the verifier; source of 「乳品」 without 「低脂」 and of 1.5–2 cups. A March 2026 draft 9th edition lowers dairy to 1 cup a day; whether it has been finalised is unconfirmed (see reviewer notes). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1B and row OP-2.3); the verifier read it in the original publication",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C15",
+       "s": "S29",
+       "quote": "我國每日飲食指南建議每人每日應攝取1.5-2杯低脂乳品，每杯240 c.c.的低脂乳品約含240 mg的鈣質。",
+       "strength": "National agency statement (HPA press release 2014-01-23). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree. Used only for the cup volume (240 c.c. = 240 毫升); its 「低脂」 wording was dropped by the 2018 guide",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C15",
+       "s": "S29",
+       "quote": "攝取高鈣食物: 包括起司、黑芝麻、小魚干、傳統豆腐、深綠色蔬菜等",
+       "strength": "National agency statement (HPA press release 2014-01-23). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C10",
+       "s": "S3",
+       "quote": "A balanced diet rich in low-fat dairy products, select dark greens, fish with bone, fruits, vegetables, and fortified foods (like the nondairy supplemented beverages including orange juice, or soy and almond milk) provides calcium as well as numerous nutrients needed for good health.",
+       "strength": "Not graded; supports dairy, dark greens and fish with bone as calcium sources (the page does not say low-fat)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-2.3"
+    },
+    {
+     "text": "維生素D不足或有不足風險的人（例如長期待在家裡、住在照護機構），建議和醫師討論後，每天至少補充800國際單位。",
+     "strength_label": "NOGG 2024・強烈建議",
+     "evidence": [
+      {
+       "c": "C17",
+       "s": "S1",
+       "quote": "To consume vitamin D from foods or be prescribed vitamin D supplements of at least 800 IU/day if they have identified vitamin D insufficiency or risk factors for vitamin D insufficiency. Those who are either housebound or living in residential or nursing care are more likely to require calcium and vitamin D supplementation to achieve recommended levels of intake (Strong recommendation).",
+       "strength": "Strong (\"be prescribed\" is the basis for 「和醫師討論後」)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-2.4"
+    },
+    {
+     "text": "需要補充維生素D時，以每天補充為原則；不建議例行性地久久吃一次大劑量，有報告指出和骨折、跌倒增加有關。醫師開立的治療劑量，請依醫囑。",
+     "strength_label": "美國內分泌學會 2024・建議；NOGG 2024・指引說明",
+     "evidence": [
+      {
+       "c": "C22",
+       "s": "S8",
+       "quote": "For nonpregnant people older than 50 years for whom vitamin D is indicated, the panel suggests supplementation via daily administration of vitamin D, rather than intermittent use of high doses.",
+       "strength": "\"suggests\" (conditional, GRADE); abstract only",
+       "confidence": "Medium"
+      },
+      {
+       "c": "C18",
+       "s": "S1",
+       "quote": "Routine intermittent administration of large doses of vitamin D, e.g. ≥ 60,000 IU, is not advised, based on reports of an associated increased risk of fracture and falls [,]; (Evidence level Ia).",
+       "strength": "Narrative; Evidence level Ia (\"Routine\" is rendered 「例行性地」)",
+       "confidence": "High"
+      },
+      {
+       "c": "C88",
+       "s": "S1",
+       "quote": "Treat vitamin D deficiency and insufficiency prior to initiation of parenteral anti-osteoporosis drug treatment … treated with vitamin D (e.g., 100,000 to 300,000 IU orally as a loading dose in divided doses) before zoledronate treatment is initiated",
+       "strength": "Rec 17 and narrative; context for the editorial clause: NOGG itself treats deficiency, including an oral loading dose. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-2.5); the verifier read it in the original publication",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial safety phrase 「醫師開立的治療劑量，請依醫囑」; added after the fact-check so that patients do not refuse a dose prescribed to treat deficiency",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "OP-2.5"
+    }
+   ],
+   "tip": {
+    "text": "飲食中要吃足夠的蛋白質，它是骨骼和肌肉的重要成分。",
+    "strength_label": "NOGG 2024・指引說明",
+    "evidence": [
+     {
+      "c": "C27",
+      "s": "S1",
+      "quote": "Protein is an important constituent of bone and muscle tissue, and good dietary intake is necessary to maintain the health of the musculoskeletal system.",
+      "strength": "Narrative statement (the evidence levels in this row attach to the later sentences)",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OP-2.T"
+   }
+  },
+  {
+   "id": "osteoporosis-exercise",
+   "title": "運動顧骨本",
+   "summary": "負重、肌力和平衡訓練都要做，並依能力調整。",
+   "illustration": "An older adult lifting light hand weights at home, and another older adult practising standing up from a sturdy chair; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "規律做負重運動（例如走路、爬樓梯、跳舞、太極拳）和肌力訓練，並依自己的需要和能力調整。",
+     "strength_label": "NOGG 2024・強烈建議",
+     "evidence": [
+      {
+       "c": "C32",
+       "s": "S1",
+       "quote": "A combination of regular weight-bearing and muscle strengthening exercise, tailored according to the individual patient’s needs and ability (Strong recommendation).",
+       "strength": "Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C38",
+       "s": "S3",
+       "quote": "Weight-bearing exercises (in which bones and muscles work against gravity with feet and legs bearing body weight) include walking, jogging, tai chi, stair climbing, dancing, and tennis.",
+       "strength": "Not graded (source of the examples; jogging and tennis left out, see reviewer notes)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-3.1"
+    },
+    {
+     "text": "做平衡和功能性訓練（例如從椅子上站起來再坐下、爬樓梯），降低跌倒風險。",
+     "strength_label": "加拿大骨鬆指引 2023・強烈建議",
+     "evidence": [
+      {
+       "c": "C33",
+       "s": "S4",
+       "quote": "1.1. We recommend balance and functional training ≥ twice weekly to reduce the risk of falls. … Functional exercises improve ability to perform everyday tasks, or do activities for fun or fitness (e.g., chair stands for sit-to-stand ability, stair-climbing to train for hiking).",
+       "strength": "Rec 1.1: Strong recommendation; moderate-certainty evidence",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-3.2"
+    },
+    {
+     "text": "肌力訓練要循序漸進增加強度，並練到腹部和背部肌肉；練腹部時，仰臥起坐這類反覆彎腰的動作要小心。",
+     "strength_label": "加拿大骨鬆指引 2023・建議；NOGG 2024・指引說明",
+     "evidence": [
+      {
+       "c": "C34",
+       "s": "S4",
+       "quote": "1.2. We suggest progressive resistance training ≥ twice weekly, including exercises targeting abdominal and back extensor muscles. … Increase volume (e.g., sets, reps, weight), frequency or difficulty to achieve progressive overload.",
+       "strength": "Rec 1.2: Conditional recommendation; low-certainty evidence",
+       "confidence": "High"
+      },
+      {
+       "c": "C37",
+       "s": "S16",
+       "quote": "All muscle groups should be targeted, including back muscles to promote bone strength in the spine. [C]",
+       "strength": "[C] expert consensus",
+       "confidence": "High"
+      },
+      {
+       "c": "C44",
+       "s": "S1",
+       "quote": "In people with osteoporosis, repetitive forced spinal forward flexion exercises should be undertaken with care as this specific movement may be associated with an increased risk of new vertebral fractures []; (Evidence level Ia).",
+       "strength": "Narrative; Evidence level Ia (source of the added caution, as in OP-4.1)",
+       "confidence": "High"
+      },
+      {
+       "c": "C45",
+       "s": "S21",
+       "quote": "Activities that involved spinal flexion (certain yoga moves and sit-ups) were associated with a greater risk of vertebral fractures but these events were rare.",
+       "strength": "Systematic review (Tier 2), abstract only; source of the sit-up example",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OP-3.3"
+    },
+    {
+     "text": "散步、瑜伽等活動，能安全進行（必要時調整動作）就可以做；但要加在平衡、功能性和肌力訓練之外，而不是取代它們。",
+     "strength_label": "加拿大骨鬆指引 2023・建議",
+     "evidence": [
+      {
+       "c": "C35",
+       "s": "S4",
+       "quote": "1.3. We suggest that people who want to participate in other activities (e.g., walking, impact exercise, yoga, Pilates) for enjoyment or other benefits be encouraged to do them, if they can be done safely or modified for safety. Other activities should be encouraged in addition to, but not instead of, balance, functional and resistance training.",
+       "strength": "Rec 1.3: Conditional recommendation; very low-certainty evidence (\"or modified for safety\" is rendered 「必要時調整動作」)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-3.4"
+    },
+    {
+     "text": "開始新的運動計畫前，尤其是跑步、舉重，先請醫療人員評估，以免受傷。",
+     "strength_label": "BHOF 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C38",
+       "s": "S3",
+       "quote": "To avoid injury, patients should be evaluated before initiating a new exercise program, particularly one involving compressive or contractile stressors (such as running or weightlifting).",
+       "strength": "Not graded",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-3.5"
+    }
+   ],
+   "tip": {
+    "text": "停止運動後，預防跌倒等好處會消失；運動課程結束後，也要繼續做適合的活動。",
+    "strength_label": "世界跌倒指引 2022・指引說明",
+    "evidence": [
+     {
+      "c": "C43",
+      "s": "S11",
+      "quote": "Benefits of exercise are lost on cessation so opportunities to continue with appropriate activity at the end of the programme are important.",
+      "strength": "Narrative (context: falls-prevention exercise programmes, hence 「預防跌倒等好處」); no grade",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OP-3.T"
+   }
+  },
+  {
+   "id": "osteoporosis-spine",
+   "title": "保護脊椎",
+   "summary": "彎腰時背挺直；脊椎骨折後不要久躺，逐步運動。",
+   "illustration": "An older adult lifting a small box from the floor by bending at the hips and knees with a straight upper back, holding the box close to the body; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "反覆、用力向前彎腰的動作（例如仰臥起坐、某些前彎的瑜伽動作）要小心，必要時調整或避免。",
+     "strength_label": "NOGG 2024・指引說明；英國骨鬆運動共識 2022・專家共識",
+     "evidence": [
+      {
+       "c": "C44",
+       "s": "S1",
+       "quote": "In people with osteoporosis, repetitive forced spinal forward flexion exercises should be undertaken with care as this specific movement may be associated with an increased risk of new vertebral fractures []; (Evidence level Ia).",
+       "strength": "Narrative; Evidence level Ia",
+       "confidence": "High"
+      },
+      {
+       "c": "C46",
+       "s": "S16",
+       "quote": "Movements or exercise that involve sustained, repeated or end-range flexion should be modified or avoided. [C]",
+       "strength": "[C] expert consensus",
+       "confidence": "High"
+      },
+      {
+       "c": "C45",
+       "s": "S21",
+       "quote": "Activities that involved spinal flexion (certain yoga moves and sit-ups) were associated with a greater risk of vertebral fractures but these events were rare.",
+       "strength": "Systematic review (Tier 2), abstract only; source of the examples",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OP-4.1"
+    },
+    {
+     "text": "彎腰或搬東西時，從髖部和膝蓋彎曲、保持上背挺直，東西靠近身體；可請物理治療師或職能治療師教您安全的做法。",
+     "strength_label": "英國骨鬆運動共識 2022・專家共識；BHOF 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C46",
+       "s": "S16",
+       "quote": "‘Think straight’—a straight upper back (and keeping the neck in line with the spine) is the key principle for all movements that involve bending and lifting. … Safe lifting techniques are recommended rather than instructions such as ‘don’t lift’ or ‘only lift up to a specific weight’. … The ‘hip hinge’ is a simple technique for safe bending that facilitates this and can be practised and integrated into all day-to-day movements.",
+       "strength": "Box 3, \"For all people with osteoporosis\": [C] expert consensus",
+       "confidence": "High"
+      },
+      {
+       "c": "C47",
+       "s": "S3",
+       "quote": "– Modification: Bend with knee and hips not spine, stand close to load when bending, hold load close to body. … Rather than blanket restrictions (e.g., no bending, no lifting > 10 lb). BHOF recommends guidance on spine-sparing techniques (e.g., hip hinge) by trained occupational and/or physical therapy professionals who have experience working with older individuals.",
+       "strength": "Not graded",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-4.2"
+    },
+    {
+     "text": "脊椎骨折後，避免長時間臥床不動；醫師建議臥床時，每天仍要分幾次坐起來、走動，每次30到60分鐘。",
+     "strength_label": "BHOF 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C51",
+       "s": "S3",
+       "quote": "If bed rest is recommended, a few 30- to 60-min periods each day of sitting upright and walking around are valuable to avoid stiffness and prevent loss of bone and muscle tissue. Prolonged inactivity should be avoided.",
+       "strength": "Not graded (\"If bed rest is recommended\" is rendered 「醫師建議臥床時」; the preceding bracing clause, which conflicts with NOGG, is not quoted or used)",
+       "confidence": "High"
+      },
+      {
+       "c": "C53",
+       "s": "S7",
+       "quote": "Immobilised patients when confined to bed may lose as much bone in a week than they would otherwise lose in a year.",
+       "strength": "Narrative (supporting reason; grammar as printed)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-4.3"
+    },
+    {
+     "text": "脊椎骨折後，在物理治療師指導下，循序漸進做背部肌肉的強化運動。",
+     "strength_label": "NOGG 2024・強烈建議",
+     "evidence": [
+      {
+       "c": "C49",
+       "s": "S1",
+       "quote": "It is recommended that exercise programmes following vertebral fracture include progressive muscle strengthening activity, including back extensor muscle strengthening and/or endurance exercise (Strong recommendation).",
+       "strength": "Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C49",
+       "s": "S1",
+       "quote": "Physiotherapist supervised exercise following vertebral fracture improves pain and physical performance []; (Evidence level Ib).",
+       "strength": "Narrative; Evidence level Ib",
+       "confidence": "High"
+      },
+      {
+       "c": "C50",
+       "s": "S16",
+       "quote": "Daily exercises to strengthen back muscles (with a focus on endurance by exercising at low intensity), reduce muscle spasm, relieve pain, improve flexibility, and promote best possible posture are recommended with a referral to a physiotherapist for tailored advice.",
+       "strength": "[C] expert consensus",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-4.4"
+    },
+    {
+     "text": "曾有脊椎骨折或多次輕微外傷骨折的人，衝擊性運動（例如慢跑、跳躍）一般以快走的程度為上限；想加強運動前，先請醫療人員評估。",
+     "strength_label": "英國骨鬆運動共識 2022・專家共識；NOGG 2024・指引說明",
+     "evidence": [
+      {
+       "c": "C37",
+       "s": "S16",
+       "quote": "Impact exercise on most days at a level up to brisk walking is recommended, aiming for 150 minutes over the week (20 min per day). This a precautionary measure because of theoretical (unproved) risks of further vertebral fracture in this group. [C]",
+       "strength": "[C] expert consensus. Population (people with vertebral fractures or multiple low-trauma fractures) comes from the Box 1 sub-heading, whose dropped words the evidence file confirmed and the fact-check verified in the abstract",
+       "confidence": "High"
+      },
+      {
+       "c": "C89",
+       "s": "S16",
+       "quote": "People with vertebral fracture or multiple low trauma fractures should usually exercise only up to an impact equivalent to brisk walking.",
+       "strength": "Abstract; confirms the population and is the source of 「一般」 (\"usually\"). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-4.5); the verifier read it in the original publication",
+       "confidence": "High"
+      },
+      {
+       "c": "C37",
+       "s": "S16",
+       "quote": "Moderate impact exercise is recommended on most days to promote bone strength (eg, stamping, jogging, low-level jumping, hopping) to include at least 50 impacts per session (jogs, hops etc). [C]",
+       "strength": "[C] expert consensus. Quoted only for its examples of impact exercise (慢跑、跳躍); this sentence is SSS advice for people WITHOUT vertebral fractures",
+       "confidence": "High"
+      },
+      {
+       "c": "C44",
+       "s": "S1",
+       "quote": "People at risk of falls, or with vertebral fractures, may need more specific advice and assessment before increasing exercise intensity [].",
+       "strength": "Narrative (no grade)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-4.5"
+    }
+   ],
+   "tip": {
+    "text": "脊椎骨折後如果還在痛，背部肌肉的運動可以先躺著做。",
+    "strength_label": "NOGG 2024・建議",
+    "evidence": [
+     {
+      "c": "C49",
+      "s": "S1",
+      "quote": "When a patient is in pain, it may be advisable to initially perform exercise for back extensors in an unloaded position (Conditional recommendation).",
+      "strength": "Conditional",
+      "confidence": "High"
+     },
+     {
+      "c": "C49",
+      "s": "S1",
+      "quote": "In the presence of pain, it may be advisable to initially perform exercise for back extensors in an unloaded position, such as supine []; (Evidence level Ia).",
+      "strength": "Narrative; Evidence level Ia",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OP-4.T"
+   }
+  },
+  {
+   "id": "osteoporosis-falls",
+   "title": "預防跌倒",
+   "summary": "做平衡運動、改善居家環境，並檢視用藥和視力。",
+   "illustration": "A tidy, well-lit home hallway with a handrail and a clear floor, and an older adult practising standing up from a chair; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "骨質疏鬆或曾因輕微外力骨折的人，請醫療人員評估跌倒風險；有風險的人，建議參加改善平衡或綜合性的運動課程。",
+     "strength_label": "NOGG 2024・強烈建議",
+     "evidence": [
+      {
+       "c": "C55",
+       "s": "S1",
+       "quote": "A falls assessment should be undertaken in all patients with osteoporosis and fragility fractures; those at risk should be offered exercise programmes to improve balance and/or that contain a combined exercise protocol (Strong recommendation).",
+       "strength": "Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C90",
+       "s": "S1",
+       "quote": "Assess falls risk in patients with osteoporosis and/or fragility fractures",
+       "strength": "Summary of main recommendations; shows that the population is \"and/or\", hence 「或」. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-5.1); the verifier read it in the original publication",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-5.1"
+    },
+    {
+     "text": "長者預防跌倒的運動，要有平衡和功能性訓練（例如從椅子站起、跨步），每週3次以上，逐步加強至少12週；做得更久，效果更好。",
+     "strength_label": "世界跌倒指引 2022・強烈建議（1A）",
+     "evidence": [
+      {
+       "c": "C56",
+       "s": "S11",
+       "quote": "We recommend exercise programmes for fall prevention for community-dwelling older adults which include balance challenging and functional exercises (e.g. sit-to-stand, stepping), with sessions three times or more weekly which are individualised, progressed in intensity for at least 12 weeks and continued longer for greater effect.",
+       "strength": "WG 4: 1A",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-5.2"
+    },
+    {
+     "text": "改善居家環境：地面防滑、移開雜物、照明充足、加裝扶手；最好請職能治療師等受過訓練的人員到家評估。",
+     "strength_label": "世界跌倒指引 2022・強烈建議（1B）；ESCEO/IOF 2019・指引說明",
+     "evidence": [
+      {
+       "c": "C59",
+       "s": "S11",
+       "quote": "We recommend modifications of an older adult's physical home environment for fall hazards that consider their capacities and behaviours in this context, should be provided by a trained clinician, as part of a multidomain falls prevention intervention.",
+       "strength": "WG 10: 1B (clinician-delivered home modification within a multidomain intervention)",
+       "confidence": "High"
+      },
+      {
+       "c": "C55",
+       "s": "S1",
+       "quote": "Home safety interventions (best delivered by an occupational therapist) have been shown to reduce the risk of falls in people living in the community []; (Evidence level Ia).",
+       "strength": "Narrative; Evidence level Ia (source of 「最好請職能治療師」)",
+       "confidence": "High"
+      },
+      {
+       "c": "C59",
+       "s": "S7",
+       "quote": "Modifiable factors such as correcting decreased visual acuity, reducing consumption of medication that alters alertness and balance, and improving the home environment (slippery floors, obstacles, insufficient lighting, handrails) are important measures aimed at preventing falls [].",
+       "strength": "Narrative, ungraded (source of the four listed items)",
+       "confidence": "High"
+      },
+      {
+       "c": "C59",
+       "s": "S3",
+       "quote": "In community-dwelling patients, refer for at-home fall hazard evaluation and remediation.",
+       "strength": "Synopsis; not graded",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-5.3"
+    },
+    {
+     "text": "請醫師檢視用藥，特別是會讓人想睡、影響平衡的藥，或同時吃很多種藥時。",
+     "strength_label": "世界跌倒指引 2022・強烈建議（1B）",
+     "evidence": [
+      {
+       "c": "C58",
+       "s": "S11",
+       "quote": "We recommend that medication review and appropriate deprescribing of FRIDs should be part of multidomain falls prevention interventions.",
+       "strength": "WG 2: 1B",
+       "confidence": "High"
+      },
+      {
+       "c": "C58",
+       "s": "S3",
+       "quote": "Identify and address modifiable risk factors associated with falls, such as sedating medications, polypharmacy, hypotension, gait or vision disorders, and out-of-date prescription glasses.",
+       "strength": "Synopsis; not graded",
+       "confidence": "High"
+      },
+      {
+       "c": "C59",
+       "s": "S7",
+       "quote": "reducing consumption of medication that alters alertness and balance",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-5.4"
+    },
+    {
+     "text": "處理視力問題：需要時接受白內障手術；常外出活動的人，在戶外改戴非多焦點、看得清楚的眼鏡；剛換新眼鏡時，跌倒風險可能短暫增加，走路要小心。",
+     "strength_label": "世界跌倒指引 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C60",
+       "s": "S11",
+       "quote": "Evidence from randomised controlled trials and prospective studies indicates cataract surgery for the first eye, [] and both eyes [] and achieving optimal safe functional vision by active older adults avoiding the wearing of multifocal glasses when outside [] are effective fall prevention strategies.",
+       "strength": "Narrative; the recommendation \"Management of impaired vision should be considered as part of the multifactorial approach\" has no grade in the text read",
+       "confidence": "High"
+      },
+      {
+       "c": "C60",
+       "s": "S11",
+       "quote": "it is recommended that optometrists counsel their clients about likely short-term increased fall risk when dispensing new prescription glasses.",
+       "strength": "Narrative",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-5.5"
+    }
+   ],
+   "tip": {
+    "text": "獨居的人，隨身帶手機或緊急呼叫裝置，跌倒爬不起來時才能求救。",
+    "strength_label": "世界跌倒指引 2022・指引說明",
+    "evidence": [
+     {
+      "c": "C62",
+      "s": "S11",
+      "quote": "Pendent or wrist alarms, telehealth falls detectors, cord alarms or mobile telephones are also important in enabling people to call for help if they cannot get up if they live alone (see section on technology) [].",
+      "strength": "Narrative",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OP-5.T"
+   }
+  },
+  {
+   "id": "osteoporosis-treatment",
+   "title": "配合治療",
+   "summary": "骨鬆常需長期治療，停藥前先和醫師討論，也要照顧牙齒。",
+   "illustration": "An older adult talking with a doctor in a clinic, with a wall calendar showing one circled day and a toothbrush in a cup on a shelf; flat, friendly style, no text, no brands.",
+   "points": [
+    {
+     "text": "骨質疏鬆是長期疾病，目前無法根治，常需要長期治療；骨密度進步，也不代表已經痊癒。",
+     "strength_label": "NOGG 2024、BHOF 2022・指引說明",
+     "evidence": [
+      {
+       "c": "C74",
+       "s": "S1",
+       "quote": "Remember long-term treatment is often required because osteoporosis is a long-term condition for which there is currently no cure.",
+       "strength": "Summary of main recommendations, item 16; not graded",
+       "confidence": "High"
+      },
+      {
+       "c": "C74",
+       "s": "S3",
+       "quote": "All antifracture therapeutics treat but do not cure the disease. … The diagnosis of osteoporosis persists even if subsequent DXA T-scores are above - 2.5.",
+       "strength": "Abstract; not graded",
+       "confidence": "High"
+      },
+      {
+       "c": "M13",
+       "s": "S3",
+       "quote": "However, in a person with a history of osteoporosis, a T-score in the osteopenic or normal range does not change their diagnosis.",
+       "strength": "Not graded",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-6.1"
+    },
+    {
+     "text": "骨鬆藥的效果，要持續用藥才能維持；有疑問或出現難以接受的副作用時，請盡快和醫師討論，不要因為擔心就自行停藥；出現嚴重不適時，請立即就醫。",
+     "strength_label": "BHOF 2022・指引說明；NOGG 2024・強烈建議",
+     "evidence": [
+      {
+       "c": "C74",
+       "s": "S3",
+       "quote": "Therapeutic benefits can be maintained only with treatment.",
+       "strength": "Not graded",
+       "confidence": "High"
+      },
+      {
+       "c": "C76",
+       "s": "S1",
+       "quote": "Patients recommended drug treatment for osteoporosis should be offered tailored information about osteoporosis and its treatments, and further medication reviews to support adherence and to discuss alternative treatments if unacceptable adverse events arise or adherence is difficult (Strong recommendation).",
+       "strength": "Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial safety phrase 「請盡快」「不要因為擔心就自行停藥」「出現嚴重不適時，請立即就醫」; wording softened after the fact-check so that it does not forbid stopping and seeking care for severe symptoms",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "OP-6.2"
+    },
+    {
+     "text": "使用每半年打一次的骨鬆皮下注射針劑（denosumab）時，不要自行停藥或延後打針；需要停藥時，請醫師安排接續治療，以免脊椎骨折風險增加。",
+     "strength_label": "NOGG 2024・強烈建議",
+     "evidence": [
+      {
+       "c": "C75",
+       "s": "S1",
+       "quote": "Before starting denosumab, ensure that a long-term personalised osteoporosis management plan is in place and that both the patient and the primary care practitioner are made aware that denosumab treatment should not be stopped or delayed without discussion with a healthcare professional (Strong recommendation).",
+       "strength": "Rec 7: Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C75",
+       "s": "S1",
+       "quote": "Avoid unplanned cessation of denosumab because it can lead to increased vertebral fracture risk; hence, it must not be stopped without considering an alternative therapy (Strong recommendation).",
+       "strength": "Rec 8: Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C75",
+       "s": "S4",
+       "quote": "It is important to communicate the need for commitment to long-term therapy and the need to transition to alternative antiresorptive therapy if discontinuing denosumab.",
+       "strength": "Rec 4.5 remark (conditional recommendation)",
+       "confidence": "High"
+      },
+      {
+       "c": "C75",
+       "s": "S5",
+       "quote": "Denosumab therapy should not be interrupted.",
+       "strength": "Rec 26: Grade C",
+       "confidence": "High"
+      },
+      {
+       "c": "C91",
+       "s": "S1",
+       "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
+       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+       "confidence": "High"
+      },
+      {
+       "c": "C92",
+       "s": "S26",
+       "quote": "Denosumab 每半年",
+       "strength": "TOA 2021 drug table; a single WebFetch read by the verifier. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "OP-6.3"
+    },
+    {
+     "text": "使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑期間，保持口腔清潔、定期看牙醫；牙齒鬆動、口腔疼痛或腫脹時，請告訴醫師或牙醫師。",
+     "strength_label": "NOGG 2024・強烈建議；加拿大骨鬆指引 2023・良好實務建議",
+     "evidence": [
+      {
+       "c": "C79",
+       "s": "S1",
+       "quote": "During bisphosphonate or denosumab therapy, encourage all patients to maintain good oral hygiene, receive routine dental check-ups, and report any oral symptoms such as dental mobility, pain, or swelling (Strong recommendation).",
+       "strength": "Rec 9: Strong",
+       "confidence": "High"
+      },
+      {
+       "c": "C81",
+       "s": "S4",
+       "quote": "oral cavity lesions should be evaluated by a dentist.",
+       "strength": "GPS 6.6: Good practice statement (source of 「或牙醫師」)",
+       "confidence": "High"
+      },
+      {
+       "c": "C79",
+       "s": "S18",
+       "quote": "To reduce the risk of MRONJ, patients should be informed about its potential occurrence during anti-resorptive therapy and advised to maintain good oral hygiene to prevent infections or inflammation that may necessitate tooth extraction or other jaw surgeries associated with the onset of MRONJ.",
+       "strength": "Regional consensus (AFOS)",
+       "confidence": "High"
+      },
+      {
+       "c": "C91",
+       "s": "S1",
+       "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
+       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-6.4"
+    },
+    {
+     "text": "洗牙、補牙、做假牙，不需要延後骨鬆治療；拔牙等侵入性治療宜盡量減少，有需要時，請先讓醫師和牙醫師一起評估、安排時間，多數人仍可安全進行。",
+     "strength_label": "亞太顎骨壞死共識 2026・專家共識；NOGG 2024・建議",
+     "evidence": [
+      {
+       "c": "C80",
+       "s": "S18",
+       "quote": "Nonsurgical procedures, such as dental cleaning, filling, or prosthesis fitting, do not require the postponement of osteoporosis therapy.",
+       "strength": "Regional consensus (AFOS)",
+       "confidence": "High"
+      },
+      {
+       "c": "C80",
+       "s": "S1",
+       "quote": "During bisphosphonate or denosumab treatment, although ideally patients should minimise invasive dental procedures where possible, if indicated they can be carried out safely and successfully in most patients.",
+       "strength": "Rec 11: Conditional",
+       "confidence": "High"
+      },
+      {
+       "c": "C93",
+       "s": "S1",
+       "quote": "Clinical judgment of the treating physician should guide the management plan of each patient based on individual benefit/risk assessment, ensuring patients continue to access routine dental care",
+       "strength": "Rec 11 (Conditional), later part; source of 「請先讓醫師…評估」. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-6.5); the verifier read it in the original publication",
+       "confidence": "High"
+      },
+      {
+       "c": "C94",
+       "s": "S5",
+       "quote": "Invasive dental procedures in patients on denosumab should be performed just before the next six‐monthly injection",
+       "strength": "Rec 45 (Grade C); shows that extraction timing is planned (sources differ on the timing, so no timing is printed). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-6.5); the verifier read it in the original publication",
+       "confidence": "High"
+      },
+      {
+       "c": "C95",
+       "s": "S18",
+       "quote": "should ideally be performed 3–4 months after the last injection",
+       "strength": "Regional consensus (AFOS), denosumab extraction timing; differs from RACGP, so no timing is printed. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-6.5); the verifier read it in the original publication",
+       "confidence": "High"
+      }
+     ],
+     "sid": "OP-6.5"
+    }
+   ],
+   "tip": {
+    "text": "使用骨鬆藥物時，如果飲食中的鈣不夠，或有維生素D不足的風險，建議另外補充。",
+    "strength_label": "NOGG 2024・強烈建議",
+    "evidence": [
+     {
+      "c": "C77",
+      "s": "S1",
+      "quote": "Offer calcium and/or vitamin D supplementation as an adjunct to anti-osteoporosis drug treatment, if dietary calcium is low and/or vitamin D insufficiency is a risk, respectively (Strong recommendation).",
+      "strength": "Rec 16: Strong",
+      "confidence": "High"
+     },
+     {
+      "c": "C77",
+      "s": "S4",
+      "quote": "For people initiating pharmacotherapy, it is good practice to individualize intake of calcium and vitamin D.",
+      "strength": "GPS 2.4: Good practice statement",
+      "confidence": "High"
+     }
+    ],
+    "sid": "OP-6.T"
+   }
+  }
+ ],
+ "myths": [
+  {
+   "belief": "沒有症狀，就代表骨頭沒問題。",
+   "fact": "骨質流失本身沒有症狀，常到骨折才發現。約三分之二的脊椎骨折沒有明顯症狀，但不論有沒有症狀，都代表之後更容易再骨折。",
+   "strength_label": "澳洲骨鬆指引 2024、BHOF 2022・指引說明",
+   "evidence": [
+    {
+     "c": "M2",
+     "s": "S5",
+     "quote": "Deterioration of skeletal tissue proceeds with no symptoms until a symptomatic fracture occurs. The condition is therefore under‐recognised and affected individuals are undertreated.",
+     "strength": "Background (introduction)",
+     "confidence": "High"
+    },
+    {
+     "c": "C3",
+     "s": "S3",
+     "quote": "Two thirds of vertebral fractures are subclinical “silent” fractures.",
+     "strength": "Narrative",
+     "confidence": "High"
+    },
+    {
+     "c": "C3",
+     "s": "S3",
+     "quote": "Vertebral fractures, whether clinically apparent or silent, are associated with a 5-fold increased risk for additional vertebral fractures and a 2- to 3-fold increased risk for fractures at other sites.",
+     "strength": "Narrative",
+     "confidence": "High"
+    },
+    {
+     "c": "M2",
+     "s": "S1",
+     "quote": "Moderate or severe vertebral fractures, even when asymptomatic, are strong risk factors for subsequent fracture at the spine and other skeletal sites [,,]; (Evidence level Ia).",
+     "strength": "Evidence level Ia",
+     "confidence": "High"
+    }
+   ],
+   "sid": "OP-M1"
+  },
+  {
+   "belief": "只有女性才會骨質疏鬆。",
+   "fact": "男性也會。英國指引估計，在英國約每5位男性就有1位一生中會因輕微外力骨折；男性常沒被檢查和治療，骨折後的結果往往也比女性差。",
+   "strength_label": "NOGG 2024、加拿大骨鬆指引 2023・指引說明",
+   "evidence": [
+    {
+     "c": "C1",
+     "s": "S1",
+     "quote": "In adults, approximately one in two women and one in five men will sustain one or more fragility fractures (a low trauma fracture sustained from a fall from standing height or less) in their lifetime [].",
+     "strength": "Background statement (not graded). A UK estimate according to the evidence file and the fact-check (the next sentence in NOGG begins \"In the UK\"), hence 「在英國」",
+     "confidence": "High"
+    },
+    {
+     "c": "M3",
+     "s": "S4",
+     "quote": "Although osteoporosis is often considered a disease of older females, males are remarkably underevaluated and undertreated for the condition despite suffering worse outcomes following fracture",
+     "strength": "Background (introduction)",
+     "confidence": "High"
+    },
+    {
+     "c": "C5",
+     "s": "S3",
+     "quote": "Hip fractures are associated with 8.4–36% excess mortality at 1 year, with higher mortality in men than in women [,].",
+     "strength": "Background",
+     "confidence": "High"
+    },
+    {
+     "c": "M3",
+     "s": "S17",
+     "quote": "Historically, osteoporosis was considered primarily a woman’s disease, leading to a lack of awareness and underdiagnosis in men. However, current research demonstrates that men are at substantial risk for osteoporotic fractures, especially as they age.",
+     "strength": "Regional consensus (not graded); the fact-check found this sentence in the Discussion",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "OP-M2"
+  },
+  {
+   "belief": "多吃鈣片，就能預防或治療骨質疏鬆。",
+   "fact": "單靠鈣片不能降低骨折風險；鈣加維生素D，降低骨折的效果也有限。對骨鬆患者，它們也不是第一線治療。",
+   "strength_label": "ESCEO/IOF 2019、澳洲骨鬆指引 2024・指引說明",
+   "evidence": [
+    {
+     "c": "M4",
+     "s": "S7",
+     "quote": "Overall, it can be concluded that (1) calcium and vitamin D supplementation may lead to a modest reduction in fracture risk, although population-level intervention has not been shown to be an effective public health strategy; (2) supplementation with calcium alone does not reduce fracture risk",
+     "strength": "Narrative conclusion (\"modest reduction\" is rendered 「效果也有限」)",
+     "confidence": "High"
+    },
+    {
+     "c": "M4",
+     "s": "S5",
+     "quote": "In healthy non‐institutionalised individuals, the relative reduction in fracture risk with calcium and/or vitamin D supplementation alone is small and, thus, these should not be considered for routine use in healthy people or as first line treatment for people with osteoporosis.",
+     "strength": "Narrative (source of 「不是第一線治療」)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "OP-M3"
+  },
+  {
+   "belief": "骨質疏鬆就不能運動，以免骨折。",
+   "fact": "一般來說，骨鬆的人可以安全運動，發生嚴重不良事件的風險很低。因為怕骨折而不敢動，反而會傷害骨骼、肌肉和整體健康。",
+   "strength_label": "NOGG 2024、BHOF 2022・指引說明",
+   "evidence": [
+    {
+     "c": "M5",
+     "s": "S1",
+     "quote": "in general, people with osteoporosis can safely participate in exercise because the risk of serious adverse events is very low []; (Evidence level Ia).",
+     "strength": "Evidence level Ia",
+     "confidence": "High"
+    },
+    {
+     "c": "M5",
+     "s": "S3",
+     "quote": "The fear of fracture can be a powerful incentive to avoid physical activity, causing predictable harm to bone, muscle, and general health.",
+     "strength": "Not graded",
+     "confidence": "High"
+    },
+    {
+     "c": "M5",
+     "s": "S16",
+     "quote": "Exercise is therefore unlikely to cause a fracture (and specifically a vertebral fracture)",
+     "strength": "Narrative",
+     "confidence": "High"
+    },
+    {
+     "c": "M5",
+     "s": "S21",
+     "quote": "Patients with osteoporosis/osteopenia can safely participate in structured exercise programmes, whether at home or in supervised facilities.",
+     "strength": "Systematic review (Tier 2), abstract only",
+     "confidence": "Medium"
+    }
+   ],
+   "sid": "OP-M4"
+  }
+ ],
+ "seek_care": [
+  {
+   "text": "停經後女性和50歲以上男性，身高變矮4公分以上、背變駝，或有骨鬆風險又突然背痛（尤其是中上背），請告訴醫師，可能是脊椎骨折。",
+   "strength_label": "NOGG 2024・強烈建議",
+   "evidence": [
+    {
+     "c": "C83",
+     "s": "S1",
+     "quote": "Primary care clinicians should always have in mind the possibility of vertebral fracture in postmenopausal women and men aged ≥ 50 years who present with acute onset back pain, especially thoracic pain, if they have risk factors for osteoporosis (Strong recommendation).",
+     "strength": "Strong",
+     "confidence": "High"
+    },
+    {
+     "c": "C83",
+     "s": "S1",
+     "quote": "Vertebral fracture assessment (VFA) is indicated in postmenopausal women and men age ≥ 50 years if there is a history of ≥ 4 cm height loss, kyphosis, recent or current long-term oral glucocorticoid therapy, a BMD-score ≤  − 2.5 at either the spine or hip, or in cases of acute onset back pain with risk factors for osteoporosis (Strong recommendation).",
+     "strength": "Strong (\"BMD-score\" as extracted; the T was dropped)",
+     "confidence": "High"
+    }
+   ],
+   "sid": "OP-S1"
+  },
+  {
+   "text": "使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑（denosumab）期間，出現原因不明的大腿、鼠蹊部或髖部疼痛，請告訴醫師。",
+   "strength_label": "NOGG 2024・強烈建議",
+   "evidence": [
+    {
+     "c": "C81",
+     "s": "S1",
+     "quote": "During bisphosphonate or denosumab therapy, advise patients to report any unexplained thigh, groin, or hip pain, and if such symptoms develop, the femur should be imaged (by full length femur X-ray, isotope scanning or MRI) (Strong recommendation).",
+     "strength": "Rec 12: Strong",
+     "confidence": "High"
+    },
+    {
+     "c": "C81",
+     "s": "S4",
+     "quote": "Unexplained thigh or groin pain should be evaluated.",
+     "strength": "GPS 6.6: Good practice statement",
+     "confidence": "High"
+    },
+    {
+     "c": "C91",
+     "s": "S1",
+     "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
+     "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+     "confidence": "High"
+    }
+   ],
+   "sid": "OP-S2"
+  },
+  {
+   "text": "跌倒過，或因為擔心跌倒而減少活動時，請告訴醫師。",
+   "strength_label": "世界跌倒指引 2022・強烈建議（1A）；英國骨鬆運動共識 2022・專家共識",
+   "evidence": [
+    {
+     "c": "C63",
+     "s": "S11",
+     "quote": "We recommend clinicians should routinely ask about falls in their interactions with older adults",
+     "strength": "WG 11: 1A",
+     "confidence": "High"
+    },
+    {
+     "c": "C63",
+     "s": "S16",
+     "quote": "People who fall repeatedly or have started to avoid activity as a result of concern about falling, should be referred to a local falls service. [C]",
+     "strength": "[C] expert consensus",
+     "confidence": "High"
+    }
+   ],
+   "sid": "OP-S3"
+  }
+ ],
+ "sources": [
+  {
+   "s": "S1",
+   "short": "NOGG 2024 英國骨質疏鬆症指引",
+   "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+   "pmid": "40921943",
+   "doi": "10.1007/s11657-025-01588-3",
+   "url": null
+  },
+  {
+   "s": "S3",
+   "short": "BHOF 2022 美國骨質疏鬆症臨床指南",
+   "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+   "pmid": "35478046",
+   "doi": "10.1007/s00198-021-05900-y",
+   "url": null
+  },
+  {
+   "s": "S4",
+   "short": "加拿大骨鬆指引 2023（Osteoporosis Canada）",
+   "citation": "Morin SN, et al. Clinical practice guideline for management of osteoporosis and fracture prevention in Canada: 2023 update. CMAJ 2023;195(39):E1333-E1348.",
+   "pmid": "37816527",
+   "doi": "10.1503/cmaj.221647",
+   "url": null
+  },
+  {
+   "s": "S5",
+   "short": "澳洲骨鬆指引 2024（RACGP 與 Healthy Bones Australia）",
+   "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+   "pmid": "40134107",
+   "doi": "10.5694/mja2.52637",
+   "url": null
+  },
+  {
+   "s": "S7",
+   "short": "ESCEO/IOF 2019 歐洲停經後骨質疏鬆症指引",
+   "citation": "Kanis JA, et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2019;30(1):3-44.",
+   "pmid": "30324412",
+   "doi": "10.1007/s00198-018-4704-5",
+   "url": null
+  },
+  {
+   "s": "S8",
+   "short": "美國內分泌學會 2024 維生素D預防疾病指引",
+   "citation": "Demay MB, et al. Vitamin D for the Prevention of Disease: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab 2024;109(8):1907-1947.",
+   "pmid": "38828931",
+   "doi": "10.1210/clinem/dgae290",
+   "url": null
+  },
+  {
+   "s": "S11",
+   "short": "世界跌倒預防與處置指引 2022",
+   "citation": "Montero-Odasso M, et al. World guidelines for falls prevention and management for older adults: a global initiative. Age Ageing 2022;51(9):afac205.",
+   "pmid": "36178003",
+   "doi": "10.1093/ageing/afac205",
+   "url": null
+  },
+  {
+   "s": "S16",
+   "short": "英國骨鬆運動共識 2022（Strong, Steady and Straight）",
+   "citation": "Brooke-Wavell K, et al. Strong, steady and straight: UK consensus statement on physical activity and exercise for osteoporosis. Br J Sports Med 2022;56(15):837-846.",
+   "pmid": "35577538",
+   "doi": "10.1136/bjsports-2021-104634",
+   "url": null
+  },
+  {
+   "s": "S17",
+   "short": "亞太男性骨質疏鬆症共識 2025",
+   "citation": "Huang CF, et al. Asia–Pacific consensus for the management of osteoporosis in men. Osteoporos Int 2025;36(7):1105-1114.",
+   "pmid": "40464984",
+   "doi": "10.1007/s00198-025-07559-1",
+   "url": null
+  },
+  {
+   "s": "S18",
+   "short": "亞太骨鬆患者藥物相關顎骨壞死共識 2026",
+   "citation": "Taguchi A, et al. Asia-Pacific consensus statement on medication-related osteonecrosis of the jaw in patients with osteoporosis. Osteoporos Sarcopenia 2026;12(1):1-17.",
+   "pmid": "41969602",
+   "doi": "10.1016/j.afos.2026.02.001",
+   "url": null
+  },
+  {
+   "s": "S21",
+   "short": "Kunutsor 2018 骨鬆運動安全性系統性回顧",
+   "citation": "Kunutsor SK, et al. Adverse events and safety issues associated with physical activity and exercise for adults with osteoporosis and osteopenia: a systematic review of observational studies and an updated review of interventional studies. J Frailty Sarcopenia Falls 2018;3(4):155-178.",
+   "pmid": "32300705",
+   "doi": "10.22540/JFSF-03-155",
+   "url": null
+  },
+  {
+   "s": "S26",
+   "short": "台灣骨鬆學會 2021 成人骨質疏鬆症防治共識及指引",
+   "citation": "中華民國骨質疏鬆症學會. 2021 台灣成人骨質疏鬆症防治之共識及指引. 黃兆山 主編. 2021年10月. ISBN 978-986-88615-6-5.",
+   "pmid": null,
+   "doi": null,
+   "url": "https://cghdpt.cgmh.org.tw/files/downloads/603d060e-ec7a-4d2c-8f62-de214c0e4c9a.pdf"
+  },
+  {
+   "s": "S29",
+   "short": "衛福部國健署 2014「聰明補鈣，堅固骨本」新聞稿",
+   "citation": "衛生福利部（資料來源：國民健康署）.「聰明補鈣，堅固骨本」近100%兒童與青少年及8成以上成人鈣攝取不足. 新聞稿, 2014-01-23.",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.mohw.gov.tw/cp-16-22557-1.html"
+  },
+  {
+   "s": "V1",
+   "short": "衛福部國健署 2018「每日飲食指南」新聞稿",
+   "citation": "衛生福利部（國民健康署）. 國健署公布107年最新版「每日飲食指南」 提倡均衡飲食更健康. 新聞稿, 2018-03-13.",
+   "pmid": null,
+   "doi": null,
+   "url": "https://www.mohw.gov.tw/cp-16-40152-1.html"
+  }
+ ],
+ "reviewer_notes": [
+  "查核後修改（2026-10-10）：依獨立查核報告（verify_osteoporosis.md：88 則引文全部對照原文無誤；Major 1 項、Minor 13 項、Critical 0 項）修改如下。卡片 id 與既有 sid 均未變動，也沒有新增項目。OP-2.3（Major）：改依國健署 2018 年版每日飲食指南，刪去「低脂」，寫「每天1.5到2杯乳品」；標示改為「國健署 2018／2014」，新增來源 V1。國健署 2026 年 3 月公布的第 9 版草案把乳品下修為每天 1 杯，是否已定案尚未確認，發布前請查核。OP-2.2：句末加「超過建議量，未證實對骨骼有額外好處」（BHOF）。OP-2.4：加「和醫師討論後」。OP-2.5：加「例行性地」，並加編輯加註「醫師開立的治療劑量，請依醫囑」。OP-3.3：加「練腹部時，仰臥起坐這類反覆彎腰的動作要小心」。OP-3.4：加「（必要時調整動作）」。OP-3.T：改為「預防跌倒等好處」。OP-4.3：改為「醫師建議臥床時」。OP-4.5：加「（例如慢跑、跳躍）」與「一般」。OP-5.3：改為「最好請職能治療師等受過訓練的人員到家評估」，標示加上 ESCEO/IOF 2019。OP-5.5：改寫多焦點眼鏡（戶外改戴非多焦點、看得清楚的眼鏡）與新眼鏡（走路要小心）的說法。OP-6.2：編輯加註改為「請盡快和醫師討論，不要因為擔心就自行停藥；出現嚴重不適時，請立即就醫」。OP-6.3、OP-6.4、OP-S2：denosumab 改稱「每半年打一次的骨鬆皮下注射針劑」（OP-6.3、OP-S2 括號保留 denosumab），雙磷酸鹽類改稱「雙磷酸鹽類骨鬆藥」；OP-6.4 改為「請告訴醫師或牙醫師」，標示加上加拿大骨鬆指引的良好實務建議。OP-6.5：加「請先讓醫師和牙醫師一起評估、安排時間」。OP-M2：加「在英國」。OP-M3：改寫為「單靠鈣片不能降低骨折風險；鈣加維生素D，降低骨折的效果也有限。對骨鬆患者，它們也不是第一線治療。」，避免前後矛盾。第 6 張卡的摘要改為「停藥前先和醫師討論」。OP-5.1 文字不變，補上 NOGG 摘要「and/or」的原文作為「或」的依據。不在證據檔中的新引文標為 VERIFY（說明見「QUOTE VERIFICATION」一則）；未採用的查核建議與理由見下一則。",
+  "FACT-CHECK SUGGESTIONS NOT APPLIED, with reasons. (1) OP-2.3: the verifier's fallback (drop the cup count) is not used yet, because the 2018 guide is the latest edition anyone could confirm; it becomes necessary if the 9th edition has been finalised (wording in the OP-2.3 note). (2) OP-2.5: NOGG's example 「（例如60,000國際單位以上）」 is left out to stay within 70 characters; the text keeps 「例行性地」 and adds the prescribed-dose clause instead. (3) OP-3.2: the optional 「每週至少2次」 is not added, so the page neither repeats nor contradicts the common page's activity amounts. (4) OP-5.3: the qualifier 「跌倒風險較高的人」 is not added, because neither the evidence file nor the fact-check report gives a verbatim WFG sentence for it (the evidence file has only a paraphrase in its notes). The text uses NOGG's verbatim 'best delivered by an occupational therapist' (最好請職能治療師…) instead, and the label now also names ESCEO/IOF for the four self-help items. (5) OP-6.4: the class descriptor 「（有口服和靜脈注射兩種）」 is not added. The intravenous form has no verbatim quote in the evidence file or the report (the report paraphrases 'IV zoledronate'; the evidence file names zoledronate only in a Low-rated claims study), and the point would exceed 70 characters. 「雙磷酸鹽類骨鬆藥」 (TOA's term plus 骨鬆藥) is used instead. (6) OP-M3: the clause 「對沒有住在照護機構的健康成人，不建議常規補充」 is not added. It is RACGP's position, but Osteoporosis Canada Rec 2.2 follows Health Canada, which advises adults over 50 to take a 400 IU vitamin D supplement daily, so the sources conflict (BRIEF rule 5). The revised fact keeps only the common ground. (7) OP-4.5: the suggested 「跑步」 is written 「慢跑」, matching SSS's 'jogging'. (8) OP-5.5: the wording is shorter than the suggestion, to stay within 70 characters; the meaning is the same. (9) OP-3.T: reworded in place rather than moved to the falls card, which already has a tip, so that sids stay stable. (10) OP-1.3 and OP-1.4: a comparison with TOA 2025 is still impossible (robots.txt).",
+  "QUOTE VERIFICATION. The independent fact-check verified all 88 evidence quotes of the first draft against the original publications, with no mismatches: 76 by programmatic match to PMC full text, 5 by reading PMC full text (S5 ×4, S17 ×1), 3 against PubMed abstracts (S8 ×1, S21 ×2), and 4 Taiwanese quotes by an independent verbatim WebFetch read (S26 ×2, S29 ×2). Each Taiwanese quote therefore has two independent reads that agree, and its strength field now says so. Quotes added after the fact-check that are not in the evidence file have c = \"VERIFY\". They are copied verbatim from verify_osteoporosis.md, where the verifier read them in the original, and each strength field names the report section. They are: the MOHW 2018 food-guide release (source V1, read twice; OP-2.3); BHOF 'There is no evidence that calcium intakes in excess of recommended amounts confer additional bone benefit' (OP-2.2); NOGG's vitamin D treatment and loading-dose text (OP-2.5); the SSS abstract sentence on brisk walking (OP-4.5); NOGG's summary wording 'osteoporosis and/or fragility fractures' (OP-5.1); NOGG 'subcutaneous injection ... once every 6 months' (dose cut out) and the TOA 2021 drug table 「Denosumab 每半年」, a single read by the verifier (OP-6.3, OP-6.4, OP-S2); and NOGG Rec 11's 'Clinical judgment of the treating physician ...', RACGP Rec 45 and AFOS on extraction timing (OP-6.5). The validator checks every VERIFY fragment against the report and every other fragment against the evidence-file quote cell. V1's title is as given in the fact-check report.",
+  "BONE-BROTH MYTH LEFT OUT (BRIEF rule 1). The only source is S24 (Hsu 2017), a Taiwanese laboratory study of broth foods: Tier 3, rated Low, with an internal unit inconsistency ('low tenths of milligram per serving' vs '<5% of the daily recommended levels' vs 'slightly higher than or compatible with' USDA values of '8 ... mg per cup'). No guideline read mentions broth (keyword search of nine full texts: 0 hits), so there is no High/Medium claim for it to sit beside. If you want it anyway, use only the robust S24 message and no mg figure, e.g. 「研究分析自製和市售的大骨湯，每份所含的鈣通常不到每日建議量的5%。」 labelled 「實驗室研究 2017・研究顯示」.",
+  "CALCIUM AMOUNT (OP-2.2) AND TAIWANESE REFERENCE INTAKES (physician's decision). The page prints the BHOF figures, which Osteoporosis Canada's RDA matches (1,000 mg for men 50–70 [Canada: 51–70]; 1,200 mg for women ≥51 and men ≥71). They sit inside the common page's 1,000–1,200 mg range (ACR 2022), but they differ from the Taiwanese figures in both directions. (a) TOA 2021, re-read verbatim by the fact-check: 「50 歲以上成人每日至少需攝取飲食鈣量 1200 毫克(包括鈣片補充劑量)和維生素 D 800 至 1000 國際單位」. The page's 1,000 mg for men 50–70 is therefore lower than TOA 2021. (b) HPA 2014 adult DRI: 「成人則為1000 mg」. The page's 1,200 mg for women ≥51 is therefore higher. The HPA DRI page was robots-blocked, so the current DRI edition (and whether it has a separate band for people over 50) was not checked. Other targets: NOGG minimum 700 mg; ESCEO/IOF 800–1,000 mg; AACE 1,200 mg (women ≥50); Asia-Pacific men 1,000–1,200 mg; RACGP 1,300 mg (women >50, men >70). Please compare with TOA 2025 (unreadable here) and the current DRI, and align OP-2.2 with the Taiwanese figures if you prefer. After the fact-check, OP-2.2 ends with BHOF's caveat, verified by the verifier: 'There is no evidence that calcium intakes in excess of recommended amounts confer additional bone benefit' (「超過建議量，未證實對骨骼有額外好處」). TOA 2021's statement that more than 1,200–1,500 mg a day gives no further benefit agrees with it; TOA's added claim of more kidney stones and cardiovascular disease is still not printed, because the cardiovascular part conflicts with NOGG, BHOF, ESCEO/IOF and RACGP.",
+  "VITAMIN D (OP-2.4, OP-2.5), conflict. General daily amounts differ: BHOF and TOA 2021 800–1,000 IU; AACE 1,000–2,000 IU; Osteoporosis Canada follows Health Canada (RDA 600/800 IU; a 400 IU supplement for adults over 50); ESCEO/IOF RNI 800 IU; Endocrine Society 2024 (abstract only) suggests against empiric supplementation above the DRI in healthy adults under 75. The page prints only NOGG's Strong recommendation (at least 800 IU a day for people with insufficiency or risk factors), which no other source contradicts for that group. After the fact-check, OP-2.4 adds 「和醫師討論後」 to reflect NOGG's 'be prescribed'. OP-2.5 now renders NOGG's 'Routine' as 「例行性地」 and adds the editorial clause 「醫師開立的治療劑量，請依醫囑」, because NOGG itself treats deficiency, including an oral loading dose before zoledronate (verified by the fact-check). NOGG's example of a large dose (≥60,000 IU) is still left out for length. No blood-level target is printed (AACE and RACGP targets differ).",
+  "DRUG NAMES (physician decision needed). At the coordinator's request, OP-6.3, OP-6.4 and OP-S2 now describe denosumab as 「每半年打一次的骨鬆皮下注射針劑」. Support: NOGG 'Denosumab is given as a subcutaneous injection of 60 mg once every 6 months' and the TOA 2021 drug table 「Denosumab 每半年」, both verified by the fact-check. The dose is not printed and is cut out of the quote. 「（denosumab）」 is kept in parentheses in OP-6.3 (the stop-or-delay warning) and OP-S2 (a seek-care item shown outside the card): Taiwanese drug labels and the TOA guideline write the generic name in English, and a patient may not remember the interval, especially soon after starting. OP-6.4 follows OP-6.3 in the same card and leaves the name out to stay within 70 characters. Please confirm that the six-monthly subcutaneous descriptor fits no other osteoporosis product used in your clinic, and decide whether to keep the INN. The bisphosphonate class is written 「雙磷酸鹽類骨鬆藥」 (TOA's term plus 骨鬆藥). No brand names are used. The fact-check found the stop-or-delay wording exactly as strong as NOGG Recs 7–8, and noted that a reader not on denosumab who applies it to themselves comes to no harm.",
+  "TAIWANESE SOURCES. TOA 2025 (S28) still cannot be read (robots.txt; neither the writers nor the fact-check circumvented it), and the English 2022 update (S25) was read only as an abstract. TOA 2021 (S26): the fact-check re-read the BMD-testing list and the calcium/vitamin D sentence verbatim and confirmed the citation (cover and copyright page). HPA 2014 (S29): quotes confirmed verbatim, but the 2014 release is superseded for dairy by the 2018 每日飲食指南, and a 2026 draft revision is pending (see the OP-2.3 note). Before publication, please check OP-1.3, OP-1.4, OP-2.2 and OP-2.3 against TOA 2025 and the current 每日飲食指南 and DRI.",
+  "BMD TESTING (OP-1.3, OP-1.4), conflict. BHOF and TOA 2021 list women ≥65, men ≥70, and younger postmenopausal women and men aged 50–69/70 with risk factors or a previous (adult-age or fragility) fracture. USPSTF 2025 (abstract) recommends screening women ≥65 and younger postmenopausal women at increased risk (B), but finds the evidence insufficient for men (an I statement, not a recommendation against). RACGP prefers case finding to population screening, and Osteoporosis Canada's targeted approach delays most testing until 70. Common ground used: readers 「可和醫師討論是否做骨密度檢查」; the page does not say everyone in these groups must be tested. The fact-check rated both points OK and called the softening a justified understatement. Labelled 指引說明 because neither BHOF nor TOA grades these items. National Health Insurance reimbursement rules are not in the evidence file and are not mentioned.",
+  "LEFT OUT BECAUSE SOURCES CONFLICT (BRIEF rule 5). (a) Calcium supplements and kidney stones: USPSTF/Kahwati, NOGG, RACGP and ESCEO/IOF say supplements (especially with vitamin D) may modestly increase stones; the Ma 2024 umbrella review says supplements, dietary calcium and vitamin D 'made no difference or even reduced the risk'. The kidney-stone myth was not used for this reason. (b) Calcium and cardiovascular risk (TOA 2021 vs NOGG, BHOF, ESCEO/IOF and RACGP). (c) Back braces after a spine fracture (NOGG: routine bracing 'cannot be recommended'; BHOF: acute treatment includes 'bracing (for 2 to 6 weeks)'). OP-4.3 quotes only the BHOF sentences that follow the bracing clause. (d) Impact and jumping exercise for readers without spine fractures (RACGP Grade B: at least 50 moderate impacts most days; Osteoporosis Canada: impact only if appropriate, safety uncertain at high fracture risk; BHOF lists jumping rope and running among potentially injurious activities yet lists jogging and tennis as weight-bearing; HPA 2014 recommends jumping rope for the general population). Only the SSS precaution for people with spine fractures is printed (OP-4.5). OP-3.1's weight-bearing examples leave out jogging and tennis and match the glossary entry 負重運動 (走路、太極拳、爬樓梯、跳舞).",
+  "LEFT OUT FOR THIN SUPPORT OR SPACE (optional; wording ready). (a) Caffeine and salt: only TOA 2021 (「減少含咖啡因飲品與避免攝取過多鹽份」) and HPA 2014 say this; none of the international guidelines read mention caffeine, and the evidence base was not reviewed. Possible point: 「減少含咖啡因的飲料，也避免吃太鹹。」(台灣骨鬆學會 2021・指引說明). (b) Vegetarian and vegan diets: NOGG observational data (IIa/IIb) with 'inconsistencies in the evidence base'; a sensitive topic in Taiwan. Possible tip: 「研究發現，吃素的人脊椎和髖部骨密度較低，吃全素的人髖部骨折風險較高，部分與鈣和蛋白質的攝取量有關。」(NOGG 2024・研究顯示). (c) Sunlight: RACGP Rec 14 is calibrated for Australia, HPA 2014 gives no duration, and a sun message without limits could clash with the common UV-index card and with SLE photoprotection. (d) Vitamin D does not prevent falls unless the person is at risk of deficiency (WFG key message, High). (e) Footwear: WFG lists it only as an assessment item, and no source says what to wear. (f) Hip protectors (ESCEO/IOF: uncertain, mainly in nursing homes). (g) Practising how to get up from the floor (WFG narrative).",
+  "COMMON-PAGE TOPICS. Smoking, alcohol, weekly activity amounts and glucocorticoid bone care are not repeated; the intro points readers to the common page with a navigation sentence only (no factual claim). If you want one bone-specific point: NOGG gives Strong recommendations for 'Advice about smoking cessation' and 'Advice to restrict alcohol intake to ≤ 2 units/day' (AACE R15 and R16 are similar), and notes that the hip-fracture benefit of stopping smoking appeared only after 5 years (women). A 'unit' is not defined in the texts read, BHOF uses more than 2 drinks a day for women or 3 for men, and TOA 2021 says 戒酒, so no alcohol number should be printed without a definition.",
+  "EXERCISE AMOUNTS. Card 3 names exercise types without weekly frequencies, so it neither repeats nor contradicts the common page's WHO amounts (Osteoporosis Canada: balance/functional and resistance training at least twice weekly; SSS: muscle strengthening 2–3 days a week; BHOF Table 14: weight-bearing activity 30 min on most days). The falls card keeps the World Falls Guidelines programme (3 or more sessions a week for at least 12 weeks, 1A); this agrees with the common page's CM-1.3 (age 65+, at least 3 days a week of balance and strength activity). Add Osteoporosis Canada's 「每週至少2次」 to OP-3.2 and OP-3.3 if you prefer (the fact-check listed it as optional).",
+  "STRENGTH LABELS. RACGP uses NHMRC grades A–D, shown like EULAR grades (建議強度 A). World Falls Guidelines codes are shown like BSR codes (強烈建議（1A）). Osteoporosis Canada's GRADE strong and conditional ratings are shown as 強烈建議 and 建議, and its good practice statements as 良好實務建議. The Endocrine Society's 'suggests' is shown as 建議. SSS [C] statements and the AFOS consensus are shown as 專家共識. NOGG narrative sentences that carry only an evidence level (e.g. Ia), and all ungraded BHOF, ESCEO/IOF, TOA and HPA text, are shown as 指引說明, even where the quote says 'recommend' or 'should'; the MOHW 2018 food-guide release (V1) is also 指引說明, and OP-2.3's label 「國健署 2018／2014」 shows that the dairy amount comes from 2018 and the food list and cup size from 2014. NOGG's grading appendix was not in the extracted text. Years follow each guideline's own title (NOGG 2024 and RACGP 2024 were published in 2025). The fact-check found no label errors.",
+  "POPULATION CHOICES. OP-5.1: the fact-check confirmed 「或」, because NOGG's own summary says 'Assess falls risk in patients with osteoporosis and/or fragility fractures'; that sentence is now in the evidence. OP-5.2 is limited to older adults (長者), as WFG states. OP-1.1 says 「超過50歲」 for RACGP's 'over the age of 50 years'. OP-S1 applies NOGG's 'if they have risk factors for osteoporosis' condition to sudden back pain only, not to height loss or kyphosis. OP-M3 no longer contains a population clause (see the 'not applied' note). OP-2.4 treats being housebound or living in residential or nursing care as examples of vitamin D risk, following the order of NOGG's two sentences.",
+  "EDITORIAL. After the fact-check there are two editorial items. OP-6.2: 「請盡快」「不要因為擔心就自行停藥」「出現嚴重不適時，請立即就醫」. This replaces the absolute 「不要自行停藥」, which the fact-check noted could clash with cases where stopping and seeking care is right (e.g. painful swallowing on oral bisphosphonates, general knowledge not in the evidence). OP-2.5: 「醫師開立的治療劑量，請依醫囑」. OP-6.5's 「請先讓醫師和牙醫師一起評估、安排時間」 is not editorial. It rests on NOGG Rec 11 ('Clinical judgment of the treating physician should guide the management plan of each patient ...') and on RACGP and AFOS statements that extraction timing on denosumab is planned; they disagree on the timing, so none is printed. Instructions for taking oral bisphosphonate tablets (empty stomach, plain water, stay upright) are still left out as drug-specific; the evidence file says details differ between drugs and the product leaflet should govern.",
+  "EXERCISE AFTER A SPINE FRACTURE (OP-4.4, OP-4.T, OP-4.5). NOGG (Strong; Conditional for starting lying down) and SSS ([C]) recommend guided back-strengthening exercise. The Cochrane review (Gibbs 2019, S20) found too little evidence on new fractures, falls or adverse events, and only a small, not clinically important gain in physical performance. The page therefore claims no benefit such as pain relief. OP-4.5 (impact up to brisk walking) is SSS consensus, which SSS calls a precaution against theoretical, unproved risks. Its population is confirmed by the SSS abstract, verified by the fact-check: 'People with vertebral fracture or multiple low trauma fractures should usually exercise only up to an impact equivalent to brisk walking.' After the fact-check the point adds 「一般」 for 'usually' and the examples 「慢跑、跳躍」, taken from SSS's list of moderate-impact exercise ('stamping, jogging, low-level jumping, hopping'), which is SSS's advice for people without spine fractures and is quoted only to explain the term. Its second clause uses NOGG's narrative that people with vertebral fractures 'may need more specific advice and assessment before increasing exercise intensity'. 衝擊性運動 has no glossary entry yet.",
+  "MYTH OP-M2. After the fact-check the fact says 「英國指引估計，在英國約每5位男性就有1位…」, so that the NOGG figure (about 1 in 2 women and 1 in 5 men will have a fragility fracture in their lifetime) is not read as a Taiwanese figure. The fact-check, reading the original, calls it a UK estimate, and the evidence file notes 'UK-based estimate'. However, the NOGG sentence itself begins 'In adults,' and its reference was stripped in the PMC text. If the cited reference turns out not to be UK data, remove 「在英國」. The evidence file has no verified Taiwanese figure (the Asia-Pacific men's consensus gives a 1.3% prevalence for Taiwanese men, which the file marks as unverified). 'Worse outcomes than women after a fracture' rests on Osteoporosis Canada (general statement) and BHOF (higher 1-year mortality after hip fracture in men than in women). The fact-check found the S17 sentence in the Discussion, not the Introduction; the evidence strength field now says so.",
+  "SUPERSEDED OR RETIRED SOURCES. The protocol addendum named NOGG 2022; NOGG 2024 (S1) replaces it and is cited throughout. The Endocrine Society 2012 'Osteoporosis in Men' guideline was retired on 16 October 2025 (per a single WebFetch summary) and is not used. The USPSTF 2018 calcium/vitamin D statement is being updated and is not used on the page. The HPA 2014 press release (S29) is superseded for dairy by the 2018 每日飲食指南 (V1); S29 is still cited for the food list and the cup size.",
+  "OP-2.3 DAIRY (fact-check Major). The point now follows the 2018 national food guide, MOHW press release 2018-03-13 (https://www.mohw.gov.tw/cp-16-40152-1.html; source V1; title as given in the fact-check report), read twice by the verifier: 「不再強調乳品需選用低脂或脫脂為佳的說法，將「低脂乳品類」名稱改成「乳品類」」 and 「全脂與低脂乳品好處相同，建議每日攝取1.5-2杯乳品類，增進鈣質攝取，保持骨質健康。」 These quotes are not in the evidence file. 「低脂」 was removed. The cup size (每杯240毫升) still rests on the 2014 HPA release (S29, verified verbatim), which defines a cup as 240 c.c.; the 2018 quotes do not give a cup size. UNCONFIRMED: in March 2026 the 國健署 published a draft 9th-edition 每日飲食指南 that lowers dairy to 1 cup (about 240 mL) a day (CommonHealth 2026-03-13: 「目前為草案」; CNA 2026-04-01: the comment period had closed, and the aim was to go live within 2026; individual advice for 長者 is planned). Neither the writers nor the fact-check could confirm whether it has been finalised. Before publishing, please check. If it has been finalised, use its figure, or drop the count: 「多選含鈣食物，例如乳品（每杯240毫升）、起司、傳統豆腐、深綠色蔬菜、小魚干、黑芝麻等。」 BHOF's 'low-fat dairy products' (C10) is kept only as support for dairy as a calcium source; the page does not say low-fat.",
+  "INTEGRATION. src/build.py does not yet list this page (ORDER, TABS, NOTES). If the glossary is applied to this page, the existing entries 負重運動, 骨質疏鬆, 物理治療 and 職能治療 already match the wording used here."
+ ]
+}
