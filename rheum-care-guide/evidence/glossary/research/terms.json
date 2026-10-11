@@ -1830,7 +1830,7 @@
   "added": "2026-10-11"
  },
  {
-  "cat": "drug",
+  "cat": "diet",
   "id": "glucosamine",
   "term": "葡萄糖胺",
   "aliases": [
@@ -2019,9 +2019,9 @@
  {
   "cat": "test",
   "id": "false-results",
-  "term": "假陽性與假陰性",
+  "term": "偽陽性與偽陰性",
   "aliases": [
-   "假陽性",
+   "偽陽性",
    "偽陰性"
   ],
   "appears": [

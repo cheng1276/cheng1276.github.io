@@ -1087,9 +1087,9 @@
 - [repeat] LB-3.4 (text) 「抗CCP抗體」: 類風濕因子或抗CCP抗體陰性，也不能排除類風濕性關節炎：研究中，每種抗體都有3成以上的患者是陰性。
 - [repeat] LB-S2 (text) 「抗CCP抗體」: 關節持續腫脹，應請專科醫師評估；如果手腳小關節腫、不只一個關節腫，或症狀已3個月以上還沒看醫師，即使類風濕因子或抗CCP抗體陰性，也應盡快評估。
 
-## false-results — 假陽性與假陰性（偽陽性、偽陰性）  (aliases: 假陽性 / 偽陰性; scope: card; links: 2; occurrences: 3)
-- [LINK] LB-4.3 (text) 「假陽性」: 檢查結果不會改變處理方式，或生病機會低到假陽性比真陽性更可能時，就不建議檢查。
-- [repeat] LB-4.4 (text) 「假陽性」: 沒有方向、範圍很廣的檢查，可能增加假陽性，帶來不必要的追加檢查和擔心。
+## false-results — 偽陽性與偽陰性  (aliases: 偽陽性 / 偽陰性; scope: card; links: 2; occurrences: 3)
+- [LINK] LB-4.3 (text) 「偽陽性」: 檢查結果不會改變處理方式，或生病機會低到偽陽性比真陽性更可能時，就不建議檢查。
+- [repeat] LB-4.4 (text) 「偽陽性」: 沒有方向、範圍很廣的檢查，可能增加偽陽性，帶來不必要的追加檢查和擔心。
 - [LINK] IF-2.T (text) 「偽陰性」: 免疫力較低時，潛伏結核檢驗可能出現偽陰性；有風險因子或日後出現風險因子時，醫師可能考慮定期再篩檢。
 
 ## classification-criteria — 分類標準  (aliases: 分類標準; scope: page; links: 1; occurrences: 7)

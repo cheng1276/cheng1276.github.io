@@ -263,6 +263,36 @@ POST = {
 }
 
 
+# Physician decisions, 2026-10-11 (after reading the verified drafts).
+DECISIONS = {
+    'false-results': {
+        'term': '偽陽性與偽陰性',
+        'aliases': ['偽陽性', '偽陰性'],
+        'def': '偽陽性是其實沒有這種病或狀況，檢查卻呈陽性；偽陰性則是其實有，檢查卻呈陰性。',
+        'note': '偽陽性可能帶來不必要的追加檢查和擔心；偽陰性可能漏掉真正有病或受感染的人。',
+    },
+    'adrenal': {
+        'def': '腎上腺功能不足是腎上腺做不出足夠的皮質醇（身體自己的類固醇）；長期用類固醇會壓抑身體自己製造。腎上腺危象是它的急性發作，會危及生命，必須緊急治療。',
+    },
+    'glucosamine': {
+        'cat': 'diet',
+    },
+    'rf': {
+    },
+    'denosumab': {
+    },
+    'onj': {
+    },
+}
+for _tid, _fix in DECISIONS.items():
+    _cur = POST.setdefault(_tid, {})
+    for _k, _v in _fix.items():
+        if _k == 'rn_append' and _cur.get('rn_append'):
+            _cur['rn_append'] = _cur['rn_append'] + ' ' + _v
+        else:
+            _cur[_k] = _v
+
+
 def _evidence_index():
     idx = {}
     for f in sorted(glob.glob(str(HERE / 'research' / 'research_*.json'))) + sorted(glob.glob(str(HERE / 'research' / 'new_*.json'))):

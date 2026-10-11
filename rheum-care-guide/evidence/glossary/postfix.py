@@ -356,7 +356,7 @@ def apply(e, src_lookup, post=None, src=None):
     p = post.get(e['id'])
     if not p:
         return e
-    for k in ('def', 'example', 'note', 'term', 'aliases', 'label', 'confidence', 'en', 'aka', 'exclude_pages'):
+    for k in ('def', 'example', 'note', 'term', 'aliases', 'label', 'confidence', 'en', 'aka', 'exclude_pages', 'cat'):
         if k in p:
             e[k] = p[k]
     if p.get('drop_pmids'):
