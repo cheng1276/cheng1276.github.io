@@ -286,10 +286,16 @@ DECISIONS = {
     'onj': {
     },
     'zoster': {
-        'def': '帶狀疱疹（皮蛇）是得過水痘後，潛伏在體內的水痘帶狀疱疹病毒重新活化，引起的疼痛水泡疹，通常長在身體一側的局部區域。',
-        # Undo POST's add_ev: one of its two quotes duplicated a researched row (kept; it supports 得過水痘後),
-        # the other only supported the vaccine clause.
-        'add_ev': [],
+        # The verification report's no-vaccine alternative (verify_n3_infection.md).
+        'def': '帶狀疱疹（皮蛇）通常發生在得過水痘的人：潛伏在體內的水痘帶狀疱疹病毒重新活化，引起疼痛的水泡疹，多半長在身體一側的局部區域。',
+        'supports_replace': [('def: 得過水痘後（病毒潛伏）才會發生',
+                              'def：沒得過水痘、也沒打過水痘疫苗的人不會得（「通常發生在得過水痘的人」的依據之一）'),
+                             ('def: 通常長在身體一側', 'def: 多半長在身體一側')],
+        # Replaces POST's add_ev: its first quote duplicates the researched row relabelled above; the second is kept with a new label.
+        'add_ev': [
+            ev('Children and adolescents who have received live-attenuated varicella vaccines are at lower risk for herpes zoster than are those who experienced varicella',
+               '35051134', 'Special Populations', 'def（「通常」：打過水痘疫苗的人也可能得，但風險比得過水痘的人低）'),
+        ],
     },
 }
 for _tid, _fix in DECISIONS.items():

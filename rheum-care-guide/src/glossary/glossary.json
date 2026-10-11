@@ -14805,7 +14805,7 @@
     "帶狀疱疹",
     "皮蛇"
    ],
-   "def": "帶狀疱疹（皮蛇）是得過水痘後，潛伏在體內的水痘帶狀疱疹病毒重新活化，引起的疼痛水泡疹，通常長在身體一側的局部區域。",
+   "def": "帶狀疱疹（皮蛇）通常發生在得過水痘的人：潛伏在體內的水痘帶狀疱疹病毒重新活化，引起疼痛的水泡疹，多半長在身體一側的局部區域。",
    "example": "",
    "note": "年長者和免疫力較低的人比較容易得；得過的人也可能再得。",
    "label": "IDST 2024・定義",
@@ -14863,7 +14863,7 @@
      "pmid": "35051134",
      "doi": "10.15585/mmwr.mm7103a2",
      "pmcid": "PMC8774159",
-     "supports": "def: 得過水痘後（病毒潛伏）才會發生"
+     "supports": "def：沒得過水痘、也沒打過水痘疫苗的人不會得（「通常發生在得過水痘的人」的依據之一）"
     },
     {
      "quote": "Herpes zoster (HZ) is a skin disease caused by the reactivation of latent varicella-zoster virus (VZV) in the body, clinically characterized by a unilateral vesicular rash distributed along the affected dermatomes.",
@@ -14872,7 +14872,7 @@
      "pmid": "42595507",
      "doi": "10.3760/cma.j.cn112137-20260513-01282",
      "pmcid": "",
-     "supports": "def: 通常長在身體一側"
+     "supports": "def: 多半長在身體一側"
     },
     {
      "quote": "The lifetime risk of HZ is estimated to be 20%-30% in the general population, with an increased risk in the elderly and immunocompromised populations.",
@@ -14900,6 +14900,15 @@
      "doi": "10.1016/j.jmii.2024.06.001",
      "pmcid": "",
      "supports": "site usage CM-5.2: 「活性的帶狀疱疹（皮蛇）疫苗」 is one of two vaccine types (vaccines are covered by the rzv and live-vaccine entries)"
+    },
+    {
+     "quote": "Children and adolescents who have received live-attenuated varicella vaccines are at lower risk for herpes zoster than are those who experienced varicella",
+     "location": "Special Populations",
+     "access": "PMC full text",
+     "pmid": "35051134",
+     "doi": "10.15585/mmwr.mm7103a2",
+     "pmcid": "PMC8774159",
+     "supports": "def（「通常」：打過水痘疫苗的人也可能得，但風險比得過水痘的人低）"
     }
    ],
    "aka": "herpes zoster (HZ); shingles",
