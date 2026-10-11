@@ -22,9 +22,10 @@ GLOSSARY = HERE / 'glossary' / 'glossary.json'
 TEMPLATE = HERE / 'template.html'
 SITE_URL = 'https://cheng1276.github.io/rheum-care-guide/'
 
-ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren']
+ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren',
+         'oa', 'osteoporosis', 'labs', 'infection']  # the last four went live on 2026-10-11
 # Pages drafted for physician review; shown only in a review build with --drafts.
-DRAFT_ORDER = ['oa', 'osteoporosis', 'labs', 'infection']
+DRAFT_ORDER = []
 TABS = {'common': '共通照護', 'gout': '痛風', 'urticaria': '慢性蕁麻疹', 'ra': '類風濕性關節炎',
         'axspa': '僵直性脊椎炎', 'sle': '紅斑性狼瘡', 'sjogren': '乾燥症',
         'oa': '退化性關節炎', 'osteoporosis': '骨質疏鬆症', 'labs': '健檢報告異常', 'infection': '治療期間防感染'}
@@ -118,7 +119,10 @@ def build_data(review, drafts=None):
         data['diseases'][slug] = {'name': d['name'], 'tab': TABS[slug], 'intro': d['intro'], 'cards': cards,
                                   'myths': myths, 'seek': seek, 'sources': sources,
                                   'notes': NOTES.get(slug, []) if review else []}
-    data['meta'] = {'statements': n_stmt, 'quotes': 348}
+    # Quotes checked by the independent verification reports (evidence/verification/verify_*.md):
+    # 95 common+gout, 98 RA+axSpA, 74 SLE, 81 urticaria+Sjogren (first seven pages) = 348;
+    # 75 OA, 88 osteoporosis, 43 labs, 57 infection (pages added 2026-10-11) = 263.
+    data['meta'] = {'statements': n_stmt, 'quotes': 348 + 263}
     data['glossary'] = glossary_data(review)
     return data, n_stmt
 

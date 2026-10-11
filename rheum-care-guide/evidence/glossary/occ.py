@@ -18,8 +18,9 @@ import sys
 HERE = pathlib.Path(__file__).resolve().parent
 CONTENT = HERE.parent.parent / 'src' / 'content'
 GLOSSARY = HERE.parent.parent / 'src' / 'glossary' / 'glossary.json'
-ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren']
-DRAFTS = ['oa', 'osteoporosis', 'labs', 'infection']  # keep in step with DRAFT_ORDER in src/build.py
+ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren',
+         'oa', 'osteoporosis', 'labs', 'infection']  # keep in step with ORDER in src/build.py
+DRAFTS = []  # keep in step with DRAFT_ORDER in src/build.py
 LATIN = re.compile(r'[A-Za-z0-9]')
 
 
