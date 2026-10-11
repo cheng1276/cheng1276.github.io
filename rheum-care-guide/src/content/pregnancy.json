@@ -193,7 +193,7 @@
      "sid": "PG-2.4"
     },
     {
-     "text": "有抗磷脂抗體，或紅斑性狼瘡中度以上活躍（含腎炎）時，指引建議子宮內避孕器或單純黃體素口服避孕藥；適合哪一種，由醫師依血栓風險和您一起決定。",
+     "text": "有抗磷脂抗體或紅斑性狼瘡中度以上活躍（含腎炎）時，指引建議子宮內避孕器或單純黃體素口服避孕藥（台灣目前沒有）；由醫師依血栓風險和您一起決定。",
      "strength_label": "ACR 2020・強烈建議",
      "evidence": [
       {
@@ -223,6 +223,13 @@
        "quote": "…Effective contraceptive measures should be discussed with the patient by weighing the individual risk factors, including general (hypertension, obesity, tobacco use, family history of hormonal-dependent cancers)and disease-related risk factors, particularly disease activity and thrombotic risk (emphasis on antiphospholipid antibodies (aPLs)).",
        "strength": "Table 1 item 2, LoA 9.9 (0.4); LoE/GoR not accessible",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "「（台灣目前沒有）」 is an editorial note on availability, added at the reviewing physician's request (2026-10-12): no progestin-only pill is marketed in Taiwan. The guidelines do not address availability; re-check if such a pill is licensed in Taiwan.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "PG-2.5"
