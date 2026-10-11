@@ -115,7 +115,7 @@
      "sid": "CM-1.4"
     },
     {
-     "text": "運動是安全的，任何時候開始都不嫌晚。這項歐洲建議涵蓋痛風、類風濕性關節炎、中軸型脊椎關節炎、紅斑性狼瘡等，未包括乾燥症和蕁麻疹。",
+     "text": "運動是安全的，任何時候開始都不嫌晚。這項歐洲建議涵蓋痛風、類風濕性關節炎、中軸型脊椎關節炎、紅斑性狼瘡、退化性關節炎等，未包括乾燥症和蕁麻疹。",
      "strength_label": "EULAR 2021・建議強度 A",
      "evidence": [
       {
@@ -130,6 +130,13 @@
        "s": "S2",
        "quote": "General PA recommendations including the 4 domains (cardiorespiratory fitness, muscular fitness, flexibility, and neuromotor performance) are applicable (feasible and safe) for people with IA and OA.",
        "strength": "LoA 9.6",
+       "confidence": "High"
+      },
+      {
+       "c": "C94",
+       "s": "S1",
+       "quote": "Six lifestyle exposures (exercise, diet, weight, alcohol, smoking, work participation) and seven RMDs (osteoarthritis, rheumatoid arthritis, axial spondyloarthritis, psoriatic arthritis, systemic lupus erythematosus, systemic sclerosis, gout) were considered.",
+       "strength": "Scope statement (abstract); supports the list of diseases covered",
        "confidence": "High"
       }
      ],
