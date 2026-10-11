@@ -1,0 +1,809 @@
+{
+ "group": "n1b_bone",
+ "entries": [
+  {
+   "id": "bmd",
+   "cat": "test",
+   "term": "骨密度檢查",
+   "en": "bone mineral density (BMD) test",
+   "aliases": [
+    "骨密度檢查",
+    "骨密度"
+   ],
+   "aka": "bone mineral density (BMD); BMD testing; dual-energy X-ray absorptiometry (DXA)",
+   "def": "骨密度指骨頭的礦物質含量。骨密度檢查多用低輻射的雙能量X光（DXA），通常測腰椎和髖部，幫助醫師判斷骨鬆和骨折風險、追蹤治療。",
+   "example": "",
+   "note": "骨密度愈低，骨折風險愈高，但醫師還會綜合病史和檢查判斷；骨密度進步也不代表骨鬆已痊癒。",
+   "label": "BHOF 2022、NOGG 2024・說明",
+   "evidence": [
+    {
+     "quote": "Areal BMD by DXA is expressed in absolute terms of grams of mineral per square centimeter scanned",
+     "location": "Section \"Bone mineral density (BMD) measurement and classification\" (sentence continues with \"(g/cm)\", whose superscript was lost in extraction; quote stops before it)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：骨密度＝骨頭的礦物質含量（每平方公分的礦物質公克數）"
+    },
+    {
+     "quote": "By DXA, BMD is expressed as the amount of mineralized tissue in the area scanned",
+     "location": "Glossary, entry on bone mineral density (term labels are not present in the PMC extraction; entry identified by its content)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：骨密度＝掃描範圍內已礦化組織的量"
+    },
+    {
+     "quote": "Bone mineral density can be reliably measured by scanning the skeleton using dual‐energy x‐ray absorptiometry (DXA).",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "def：骨密度可用雙能量X光（DXA）掃描骨骼來測量"
+    },
+    {
+     "quote": "DXA measurement of hip and lumbar spine is the preferred method for establishing and/or confirming a diagnosis of osteoporosis, predicting future fracture risk, and monitoring patients.",
+     "location": "Section \"Bone mineral density (BMD) measurement and classification\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：DXA 測髖部和腰椎是首選方法；用來協助確立診斷、預估骨折風險、追蹤治療"
+    },
+    {
+     "quote": "Measure BMD by dual‐energy x‐ray absorptiometry (DXA) scanning on at least two skeletal sites, including the lumbar spine and hip, unless these sites are unsuitable (eg, hip prosthesis).",
+     "location": "Box 1, Recommendation 4 (Grade A)",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "def：通常測腰椎和髖部（至少兩個部位）"
+    },
+    {
+     "quote": "DXA scans are associated with exposure to trivial amounts of radiation.",
+     "location": "Section \"Bone mineral density (BMD) measurement and classification\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：低輻射（trivial amounts of radiation）"
+    },
+    {
+     "quote": "The risk of fracture increases progressively with decreasing bone mineral density (BMD).",
+     "location": "Section \"Measurement of bone mineral density\"",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "note：骨密度愈低，骨折風險愈高"
+    },
+    {
+     "quote": "BMD is now viewed as one, albeit very important, risk factor to be considered when assessing fracture risk, which is now viewed as the principal necessity.",
+     "location": "Section \"Background\"",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "note：骨密度只是評估骨折風險的重要因素之一"
+    },
+    {
+     "quote": "BHOF recommends a multimodal, comprehensive approach to diagnosis of osteoporosis: detailed assessment of individual fracture risk, personal and family history, physical examination, and in patients with suggestive presentations (such as height loss, back pain, and/or fractures), focused studies to rule out secondary causes of bone fragility and vertebral imaging to detect prevalent fractures.",
+     "location": "Section \"Diagnostic considerations\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note：醫師會綜合骨折風險、病史、身體檢查等判斷，不只看骨密度"
+    },
+    {
+     "quote": "Even if normal BMD is achieved, osteoporosis and elevated risk for fracture are still present. The diagnosis of osteoporosis persists even if subsequent DXA T-scores are above - 2.5.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note：骨密度進步（即使回到正常）也不代表骨鬆已痊癒（OP-6.1）"
+    },
+    {
+     "quote": "Women aged ≥ 65 years and men aged ≥ 70 years.",
+     "location": "Synopsis, \"Diagnostic assessment recommendations\": \"Perform BMD testing in the following\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "site usage OP-1.3（65歲以上女性、70歲以上男性）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BHOF 2022 美國骨質疏鬆症臨床指南（Bone Health and Osteoporosis Foundation；美國的骨骼健康與骨質疏鬆基金會）",
+     "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    },
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引（National Osteoporosis Guideline Group；英國的骨質疏鬆指引小組）",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    },
+    {
+     "short": "澳洲骨鬆指引 2024（Royal Australian College of General Practitioners 與 Healthy Bones Australia；澳洲的家庭醫師學會與骨骼健康組織）",
+     "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "fragility-fracture",
+   "cat": "condition",
+   "term": "輕微外力骨折（脆弱性骨折）",
+   "en": "fragility fracture",
+   "aliases": [
+    "輕微外力就骨折",
+    "輕微外力骨折"
+   ],
+   "aka": "fragility fracture; low-trauma (minimal-trauma) fracture",
+   "def": "從站立高度或更低處跌倒這類輕微外力，就造成的骨折；一般認為這種力量不足以讓正常骨頭骨折，通常發生在骨骼強度變差的人身上。",
+   "example": "常見於脊椎、髖部、手腕附近的前臂骨、肩部附近的上臂骨和骨盆",
+   "note": "超過50歲的人發生這種骨折，應考慮可能是骨質疏鬆。",
+   "label": "NOGG 2024、加拿大骨鬆指引 2023・定義",
+   "evidence": [
+    {
+     "quote": "In adults, approximately one in two women and one in five men will sustain one or more fragility fractures (a low trauma fracture sustained from a fall from standing height or less) in their lifetime",
+     "location": "Section \"Background\" (followed by a stripped citation \"[]\")",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def：從站立高度或更低處跌倒造成的低外力骨折；site usage OP-M2（約每5位男性有1位）"
+    },
+    {
+     "quote": "Osteoporotic (fragility) fractures usually follow falls from a standing height, or less, in individuals with decreased bone strength, and involve low or minimal trauma.",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "def：通常在骨骼強度變差的人身上，從站立高度或更低處跌倒、輕微外力造成"
+    },
+    {
+     "quote": "Often referred to as fragility or osteoporosis-related fractures, they occur as a result of a fall from standing height or when the force applied to the bone is judged to be insufficient to fracture normal bone.",
+     "location": "Introduction (after \"Scope\"); paragraph begins \"In adults older than 40 years, osteoporosis can result in fractures.\"",
+     "access": "PMC full text",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647",
+     "pmcid": "PMC10610956",
+     "supports": "def：一般認為這種力量不足以讓正常骨頭骨折"
+    },
+    {
+     "quote": "Common sites of fragility fracture include the vertebral bodies, hip, distal radius, proximal humerus, and pelvis.",
+     "location": "Section \"Background\"",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "example：脊椎（椎體）、髖部、手腕附近的前臂骨（distal radius）、肩部附近的上臂骨（proximal humerus）、骨盆"
+    },
+    {
+     "quote": "All individuals over the age of 50 years who sustain a fracture following minimal trauma (such as a fall from standing height, or less) should be considered to have a presumptive diagnosis of osteoporosis.",
+     "location": "Box 1, Recommendation 1 (Grade A)",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "note；site usage OP-1.1 與卡片摘要"
+    }
+   ],
+   "sources": [
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引（National Osteoporosis Guideline Group；英國的骨質疏鬆指引小組）",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    },
+    {
+     "short": "澳洲骨鬆指引 2024（Royal Australian College of General Practitioners 與 Healthy Bones Australia；澳洲的家庭醫師學會與骨骼健康組織）",
+     "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637"
+    },
+    {
+     "short": "加拿大骨鬆指引 2023（Osteoporosis Canada 2023 Guideline Update Group；加拿大骨質疏鬆組織的指引小組）",
+     "citation": "Morin SN, et al. Clinical practice guideline for management of osteoporosis and fracture prevention in Canada: 2023 update. CMAJ 2023;195(39):E1333-E1348.",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "fracture-risk-factors",
+   "cat": "condition",
+   "term": "骨折風險因子",
+   "en": "risk factors for fracture",
+   "aliases": [
+    "骨折風險因子"
+   ],
+   "aka": "fracture risk factors; clinical risk factors for (fragility) fracture",
+   "def": "和骨質疏鬆骨折風險較高有關的因素。醫師會依這些因素評估骨折風險，幫助決定是否需要做骨密度檢查。",
+   "example": "父母曾髖部骨折、體重過輕、抽菸、喝酒過量、使用類固醇、類風濕性關節炎、曾跌倒",
+   "note": "",
+   "label": "BHOF 2022・定義",
+   "evidence": [
+    {
+     "quote": "For osteoporotic fractures, risk factors include low BMD, parental history of hip fracture, low body weight, previous fracture, smoking, excess alcohol intake, glucocorticoid use, secondary causes of osteoporosis (e.g., rheumatoid arthritis), and history of falls. These readily accessible and commonplace factors are associated with the risk of hip fracture and, in most cases, with that of vertebral and other types of fracture as well.",
+     "location": "Glossary, entry on risk factors (term labels are not present in the PMC extraction; entry identified by its content)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def（和骨質疏鬆骨折風險有關的因素）；example（父母髖部骨折、體重過輕、抽菸、喝酒過量、使用類固醇、類風濕性關節炎、跌倒史）"
+    },
+    {
+     "quote": "A FRAX assessment should be performed in any postmenopausal woman or man age ≥ 50 years, with a clinical risk factor for fragility fracture to guide BMD measurement and prompt timely referral and/or drug treatment where indicated (Strong recommendation).",
+     "location": "Section \"Fracture risk assessment and case finding\", Recommendations (Strong recommendation)",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def：有臨床風險因子時評估骨折風險，以決定是否測骨密度"
+    },
+    {
+     "quote": "Conduct a clinical risk factor assessment in postmenopausal women and men over the age of 50 years with one or more major risk factors for minimal trauma fracture to guide bone mineral density (BMD) measurement and prompt timely referral and/or drug treatment.",
+     "location": "Box 1, Recommendation 2 (Grade A)",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "def：依風險因子評估，以決定是否測骨密度"
+    },
+    {
+     "quote": "Postmenopausal women and men aged 50–69 years, based on risk profile.",
+     "location": "Synopsis, \"Diagnostic assessment recommendations\": \"Perform BMD testing in the following\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "site usage OP-1.4（依風險狀況決定是否做骨密度檢查）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BHOF 2022 美國骨質疏鬆症臨床指南（Bone Health and Osteoporosis Foundation；美國的骨骼健康與骨質疏鬆基金會）",
+     "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    },
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引（National Osteoporosis Guideline Group；英國的骨質疏鬆指引小組）",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    },
+    {
+     "short": "澳洲骨鬆指引 2024（Royal Australian College of General Practitioners 與 Healthy Bones Australia；澳洲的家庭醫師學會與骨骼健康組織）",
+     "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "vertebral-fracture",
+   "cat": "condition",
+   "term": "脊椎骨折",
+   "en": "vertebral (spinal) fracture",
+   "aliases": [
+    "脊椎骨折"
+   ],
+   "aka": "vertebral fracture; spinal fracture; vertebral compression fracture",
+   "def": "指脊椎的骨頭（椎骨）完全或部分斷裂。骨質疏鬆引起的脊椎骨折，椎骨常變形、高度變矮，嚴重時塌陷，一般稱為壓迫性骨折。",
+   "example": "",
+   "note": "約三分之二沒有明顯症狀，也可能背痛、身高變矮或背變駝；不論有無症狀，之後都較易再骨折。",
+   "label": "BHOF 2022、NOGG 2024・說明",
+   "evidence": [
+    {
+     "quote": "Breakage of a bone, either complete or incomplete whether from trauma, repetitive stress, or bone insufficiency.",
+     "location": "Glossary, entry on fracture (term labels are not present in the PMC extraction; entry identified by its content)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：骨折＝骨頭完全或部分斷裂"
+    },
+    {
+     "quote": "Vertebral compression fractures are the most common type of osteoporotic fracture.",
+     "location": "Glossary, entry on fracture",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：骨鬆骨折最常見的是脊椎壓迫性骨折（壓迫性骨折這個名稱）"
+    },
+    {
+     "quote": "Caution regarding diagnosis and treatment should be exercised if only a single mild vertebral deformity (height loss) is detected, especially in a patient under the age of 60 years.",
+     "location": "Box 1, Recommendation 3 (Grade B)",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "def：脊椎骨折表現為椎骨變形（高度變矮）"
+    },
+    {
+     "quote": "According to Genant’s SQ criterion, each vertebral body from T4 to L4 is classified as normal (grade 0), mild (grade 1, approximately 20–25% depression in height and a reduction in area 10–20%), moderate (grade 2, approximately 25–40% depression in height and a reduction in area 20–40%), or severe (grade 3, more than 40% reduction in height and area) fracture.",
+     "location": "Section \"OLVF grading\" (Genant semi-quantitative criteria)",
+     "access": "PMC full text",
+     "pmid": "38662094",
+     "doi": "10.1007/s00256-024-04678-4",
+     "pmcid": "PMC11493813",
+     "supports": "def：依椎體高度減少的程度判定骨折輕重（高度變矮）"
+    },
+    {
+     "quote": "For severe grade deformities or collapsed vertebrae, OVF diagnosis can be made with a relatively high degree of certainty.",
+     "location": "Section \"OLVF diagnosis\"",
+     "access": "PMC full text",
+     "pmid": "38662094",
+     "doi": "10.1007/s00256-024-04678-4",
+     "pmcid": "PMC11493813",
+     "supports": "def：嚴重時椎骨塌陷（collapsed vertebrae）"
+    },
+    {
+     "quote": "Two thirds of vertebral fractures are subclinical “silent” fractures.",
+     "location": "Section \"Vertebral fracture rehabilitation\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note：約三分之二沒有明顯症狀（OP-M1）"
+    },
+    {
+     "quote": "The typical symptomatic vertebral compression fracture is characterized by intense back pain lasting more than a couple of days that gets better when the patient lies down.",
+     "location": "Section \"Vertebral fracture rehabilitation\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note：背痛"
+    },
+    {
+     "quote": "Vertebral fractures can cause acute and chronic pain, height loss, spinal deformity and altered body shape, functional impairment, and reduced health-related quality of life",
+     "location": "Section \"Management of symptomatic osteoporotic vertebral fractures\" (followed by a stripped citation and \"(Evidence level Ia)\")",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "note：疼痛、身高變矮、脊椎變形與體態改變（OP-S1）"
+    },
+    {
+     "quote": "Pain and postural changes associated with multiple vertebral compression fractures (kyphosis) can limit mobility and independent function, resulting in significantly diminished quality of life",
+     "location": "Section \"Vertebral fractures\" (Medical impact)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note：背變駝（kyphosis）"
+    },
+    {
+     "quote": "Vertebral fractures, whether clinically apparent or silent, are associated with a 5-fold increased risk for additional vertebral fractures and a 2- to 3-fold increased risk for fractures at other sites.",
+     "location": "Section \"Vertebral fractures\" (Medical impact)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note：不論有無症狀，之後較易再骨折（OP-M1）"
+    },
+    {
+     "quote": "Considering that bicycles and motorcycles are often used for transportation in Taiwan, the risk of osteoporosis and spinal fracture needs to be addressed as early as possible in axSpA patients, to prevent complications or even permanent disability arising as the result of an accident or fall while riding a bicycle or motorcycle.",
+     "location": "Text accompanying Recommendation 9",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "site usage AS-3.T（台灣騎機車、腳踏車，及早討論骨鬆與脊椎骨折風險）"
+    },
+    {
+     "quote": "AS patients often have fragile and osteoporotic spines that can develop spinal fractures or dislocations from only mild trauma, and therefore contact sports, cervical traction, and spinal manipulation should be avoided.",
+     "location": "Text accompanying Recommendation 4",
+     "access": "PMC full text",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752",
+     "pmcid": "PMC7004149",
+     "supports": "site usage AS-3.T：中軸型脊椎關節炎的脊椎輕微外傷就可能骨折（def 第一句為一般定義，涵蓋這類骨折）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BHOF 2022 美國骨質疏鬆症臨床指南（Bone Health and Osteoporosis Foundation；美國的骨骼健康與骨質疏鬆基金會）",
+     "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    },
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引（National Osteoporosis Guideline Group；英國的骨質疏鬆指引小組）",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    },
+    {
+     "short": "澳洲骨鬆指引 2024（Royal Australian College of General Practitioners 與 Healthy Bones Australia；澳洲的家庭醫師學會與骨骼健康組織）",
+     "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637"
+    },
+    {
+     "short": "ESSR 2024 骨鬆脊椎骨折X光診斷暫行共識（ESSR 骨質疏鬆與代謝小組委員會的專家群）",
+     "citation": "Wáng YXJ, et al. Radiological diagnosis of prevalent osteoporotic vertebral fracture on radiographs: an interim consensus from a group of experts of the ESSR osteoporosis and metabolism subcommittee. Skeletal Radiol 2024;53(12):2563-2574.",
+     "pmid": "38662094",
+     "doi": "10.1007/s00256-024-04678-4"
+    },
+    {
+     "short": "台灣 TRA 2020 中軸型脊椎關節炎共識（Taiwan Rheumatology Association；台灣的風濕病醫學會）",
+     "citation": "Wei JC, et al. Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis. Int J Rheum Dis 2020;23(1):7-23.",
+     "pmid": "31777200",
+     "doi": "10.1111/1756-185X.13752"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok"
+  },
+  {
+   "id": "bisphosphonate",
+   "cat": "drug",
+   "term": "雙磷酸鹽類藥物",
+   "en": "bisphosphonates",
+   "aliases": [
+    "雙磷酸鹽類骨鬆藥",
+    "雙磷酸鹽"
+   ],
+   "aka": "bisphosphonates (antiresorptive agents)",
+   "def": "一類治療骨質疏鬆的藥物，能減少骨頭被分解、降低骨折風險；有口服的，也有靜脈注射的。",
+   "example": "口服的 alendronate，或靜脈注射的 zoledronate",
+   "note": "",
+   "label": "BHOF 2022、NOGG 2024・定義",
+   "evidence": [
+    {
+     "quote": "Bisphosphonates are a class of potent antiresorptive agents.",
+     "location": "Section \"US FDA-approved drugs for osteoporosis\" > \"Bisphosphonates (alendronate, ibandronate, risedronate, zoledronic acid)\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：一類（強效的）抗骨吸收藥物"
+    },
+    {
+     "quote": "Anti-resorptive drugs primarily inhibit osteoclastic bone resorption with later secondary effects on bone formation.",
+     "location": "Section \"Overview of treatment options\"",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def：抗骨吸收藥主要作用是抑制骨吸收（減少骨頭被分解）"
+    },
+    {
+     "quote": "Also called bone turnover, remodeling is the process by which the skeleton repairs damage and maintains serum calcium levels through the ongoing lifelong dual processes of bone resorption (breakdown) and formation.",
+     "location": "Glossary, entry on remodeling (term labels are not present in the PMC extraction; the sentence names its own term)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：骨吸收（resorption）＝骨頭被分解（breakdown）"
+    },
+    {
+     "quote": "Bisphosphonate therapy is recommended for reducing the risk of vertebral and non‐vertebral fractures in postmenopausal women and men over the age of 50 years at high risk of fracture (those with osteoporosis by BMD criteria, or prior minimal trauma fracture).",
+     "location": "Box 1, Recommendation 22 (Grade A women, C men)",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "def：降低脊椎和非脊椎骨折的風險"
+    },
+    {
+     "quote": "In other patients for whom treatment is indicated, offer antiresorptive therapy with oral bisphosphonates (alendronate or risedronate) or intravenous zoledronate, or in postmenopausal women age ≤ 60 years, hormone replacement therapy.",
+     "location": "Summary of main recommendations, item 12",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def：有口服和靜脈注射的；example（口服 alendronate、risedronate；靜脈注射 zoledronate）"
+    },
+    {
+     "quote": "zoledronate–zoledronic acid (a potent intravenous bisphosphonate)",
+     "location": "Section \"Transition of bone protective agents\"",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "def：zoledronate 是靜脈注射的雙磷酸鹽"
+    },
+    {
+     "quote": "During bisphosphonate or denosumab therapy, encourage all patients to maintain good oral hygiene, receive routine dental check-ups, and report any oral symptoms such as dental mobility, pain, or swelling (Strong recommendation).",
+     "location": "Section \"Rare adverse effects of long-term bisphosphonate and denosumab treatment\", Recommendation 9 (Strong)",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "site usage OP-6.4"
+    },
+    {
+     "quote": "During bisphosphonate or denosumab therapy, advise patients to report any unexplained thigh, groin, or hip pain, and if such symptoms develop, the femur should be imaged (by full length femur X-ray, isotope scanning or MRI) (Strong recommendation).",
+     "location": "Section \"Rare adverse effects of long-term bisphosphonate and denosumab treatment\", Recommendation 12 (Strong)",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "site usage OP-S2"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BHOF 2022 美國骨質疏鬆症臨床指南（Bone Health and Osteoporosis Foundation；美國的骨骼健康與骨質疏鬆基金會）",
+     "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    },
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引（National Osteoporosis Guideline Group；英國的骨質疏鬆指引小組）",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    },
+    {
+     "short": "澳洲骨鬆指引 2024（Royal Australian College of General Practitioners 與 Healthy Bones Australia；澳洲的家庭醫師學會與骨骼健康組織）",
+     "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "denosumab",
+   "cat": "drug",
+   "term": "denosumab（骨鬆皮下注射針劑）",
+   "en": "denosumab",
+   "aliases": [
+    "骨鬆皮下注射針劑",
+    "denosumab"
+   ],
+   "aka": "denosumab (RANKL inhibitor; monoclonal antibody)",
+   "def": "一種治療骨質疏鬆的抗體藥物（藥名 denosumab），每半年皮下注射一次，能減少骨頭被分解、提高骨密度。",
+   "example": "",
+   "note": "不要自行停藥或延後打針；需要停藥時，請醫師安排接續治療，以免脊椎骨折風險增加。",
+   "label": "BHOF 2022、NOGG 2024・定義",
+   "evidence": [
+    {
+     "quote": "Denosumab is a fully human monoclonal antibody against RANKL approved by the FDA for treatment of men and women at high risk for fracture (which is defined as a history of osteoporotic fracture and/or multiple risk factors for fracture).",
+     "location": "Section \"RANKL inhibitor (denosumab)\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：一種（全人類）單株抗體，用來治療骨折風險高的骨鬆患者"
+    },
+    {
+     "quote": "Denosumab is a fully humanised monoclonal antibody against the Receptor Activator of Nuclear factor Kappa B Ligand (RANKL), a major regulator of osteoclast development and activity.",
+     "location": "Section \"Anti-resorptive drugs: denosumab\"",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def：單株抗體（NOGG 寫 fully humanised）"
+    },
+    {
+     "quote": "Denosumab is given as a subcutaneous injection of 60 mg once every 6 months.",
+     "location": "Section \"Anti-resorptive drugs: denosumab\" (non-breaking spaces as in source; the dose is not used in the Chinese text)",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def：每6個月（每半年）皮下注射一次"
+    },
+    {
+     "quote": "Denosumab is administered as 60 mg subcutaneous injection by a health professional every 6 months.",
+     "location": "Section \"RANKL inhibitor (denosumab)\" > \"Drug administration\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：由醫療人員每6個月皮下注射"
+    },
+    {
+     "quote": "Suppressing RANKL blocks osteoclast formation, leading to less bone resorption and higher bone density.",
+     "location": "Section \"RANKL inhibitor (denosumab)\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：減少骨吸收（骨頭被分解）、提高骨密度"
+    },
+    {
+     "quote": "Before starting denosumab, ensure that a long-term personalised osteoporosis management plan is in place and that both the patient and the primary care practitioner are made aware that denosumab treatment should not be stopped or delayed without discussion with a healthcare professional (Strong recommendation).",
+     "location": "Section \"Pharmacological treatment options\", Recommendation 7 (Strong)",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "note：不要自行停藥或延後（未與醫療人員討論前）"
+    },
+    {
+     "quote": "Avoid unplanned cessation of denosumab because it can lead to increased vertebral fracture risk; hence, it must not be stopped without considering an alternative therapy (Strong recommendation).",
+     "location": "Section \"Pharmacological treatment options\", Recommendation 8 (Strong)",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "note：停藥須考慮接續治療，否則脊椎骨折風險增加（OP-6.3）"
+    },
+    {
+     "quote": "Do not stop denosumab treatment without a plan for subsequent anti-resorptive therapy, where renal function permits.",
+     "location": "Summary of main recommendations, item 19",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "note：停藥前要有接續的抗骨吸收治療計畫"
+    },
+    {
+     "quote": "Although the advent of denosumab has been a major advance in the treatment of osteoporosis, its discontinuation, or even delaying the injection by more than four months can be associated with rebound bone resorption and vertebral fractures",
+     "location": "Section \"Transition of bone protective agents\" (followed by stripped citations \".,\")",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "note：停藥或延後打針超過四個月，可能出現骨流失反彈與脊椎骨折"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BHOF 2022 美國骨質疏鬆症臨床指南（Bone Health and Osteoporosis Foundation；美國的骨骼健康與骨質疏鬆基金會）",
+     "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    },
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引（National Osteoporosis Guideline Group；英國的骨質疏鬆指引小組）",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    },
+    {
+     "short": "澳洲骨鬆指引 2024（Royal Australian College of General Practitioners 與 Healthy Bones Australia；澳洲的家庭醫師學會與骨骼健康組織）",
+     "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "onj",
+   "cat": "condition",
+   "term": "顎骨壞死",
+   "en": "osteonecrosis of the jaw (ONJ)",
+   "aliases": [
+    "顎骨壞死"
+   ],
+   "aka": "osteonecrosis of the jaw (ONJ); medication-related osteonecrosis of the jaw (MRONJ)",
+   "def": "指使用雙磷酸鹽類骨鬆藥或骨鬆皮下注射針劑（denosumab）的人，顎骨露出來，經適當治療超過8週仍未癒合，且顎部沒做過放射線治療。",
+   "example": "",
+   "note": "骨鬆治療引起的很少見；保持口腔清潔、定期看牙醫有助降低風險；洗牙、補牙、做假牙不必延後骨鬆治療。",
+   "label": "亞太顎骨壞死共識 2026・定義",
+   "evidence": [
+    {
+     "quote": "The basic diagnostic criteria for MRONJ typically include the following: (1) a history of treatment with antiresorptive agents (BPs or denosumab); (2) exposed bone in the maxillofacial region that persists for more than 8 weeks without healing despite appropriate treatment; and (3) no history of radiation therapy to the jaws.",
+     "location": "Section 3.1.1 \"Definition\"",
+     "access": "PMC full text",
+     "pmid": "41969602",
+     "doi": "10.1016/j.afos.2026.02.001",
+     "pmcid": "PMC13069298",
+     "supports": "def：用過抗骨吸收藥（雙磷酸鹽類或 denosumab）；顎顏面部骨頭外露、經適當治療超過8週不癒合；顎部未曾放射線治療"
+    },
+    {
+     "quote": "People using bisphosphonates and denosumab are at low but increased risk for ONJ, a condition in which bone is persistently exposed (usually following an extraction), and AFF, in which a femur breaks spontaneously, often with no warning.",
+     "location": "Box \"Possible adverse events associated with antiresorptive therapies: ONJ and AFF\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def：骨頭持續外露（白話說明）"
+    },
+    {
+     "quote": "MRONJ is a rare but clinically significant adverse event associated with the treatment of osteoporosis.",
+     "location": "Section 1 \"Introduction\"",
+     "access": "PMC full text",
+     "pmid": "41969602",
+     "doi": "10.1016/j.afos.2026.02.001",
+     "pmcid": "PMC13069298",
+     "supports": "note：骨鬆治療引起的顎骨壞死很少見"
+    },
+    {
+     "quote": "MRONJ is a rare complication of osteoporosis therapy and most patients will not be at increased risk of MRONJ.",
+     "location": "Box 1, Recommendation 45 (Grade C)",
+     "access": "PMC full text",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637",
+     "pmcid": "PMC12088310",
+     "supports": "note：很少見，多數人風險不會增加"
+    },
+    {
+     "quote": "The annual incidence and incidence rate of MRONJ associated with low-dose antiresorptive therapy in patients with osteoporosis ranged from 0.025% to 0.136% and 21 to 283 cases per 100,000 person-years, respectively.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "41969602",
+     "doi": "10.1016/j.afos.2026.02.001",
+     "pmcid": "PMC13069298",
+     "supports": "note（比例）：骨鬆患者使用低劑量抗骨吸收藥，每年發生率約0.025%至0.136%（每10萬人年21至283例）"
+    },
+    {
+     "quote": "To reduce the risk of MRONJ, patients should be informed about its potential occurrence during anti-resorptive therapy and advised to maintain good oral hygiene to prevent infections or inflammation that may necessitate tooth extraction or other jaw surgeries associated with the onset of MRONJ.",
+     "location": "Section 3.5.2 \"Prevention strategy\"",
+     "access": "PMC full text",
+     "pmid": "41969602",
+     "doi": "10.1016/j.afos.2026.02.001",
+     "pmcid": "PMC13069298",
+     "supports": "note：保持口腔清潔以降低風險（OP-6.4）"
+    },
+    {
+     "quote": "The American Dental Association (ADA) reports that sound oral hygiene practices and regular dental care may be the optimal method for lowering risk of drug-related ONJ.",
+     "location": "Box \"Possible adverse events associated with antiresorptive therapies: ONJ and AFF\"",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note：口腔衛生與定期牙科照護有助降低風險"
+    },
+    {
+     "quote": "Following the completion of dental infection management, patients should maintain good oral hygiene, attend dental checkups every 3–6 months, be referred for dental care when appropriate, and be regularly monitored for early signs of MRONJ.",
+     "location": "Section 3.5.2 \"Prevention strategy\"",
+     "access": "PMC full text",
+     "pmid": "41969602",
+     "doi": "10.1016/j.afos.2026.02.001",
+     "pmcid": "PMC13069298",
+     "supports": "note：定期看牙醫（OP-6.4）"
+    },
+    {
+     "quote": "Nonsurgical procedures, such as dental cleaning, filling, or prosthesis fitting, do not require the postponement of osteoporosis therapy.",
+     "location": "Section 3.5.2 \"Prevention strategy\"",
+     "access": "PMC full text",
+     "pmid": "41969602",
+     "doi": "10.1016/j.afos.2026.02.001",
+     "pmcid": "PMC13069298",
+     "supports": "note：洗牙、補牙、做假牙不必延後骨鬆治療（OP-6.5）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "亞太骨鬆患者藥物相關顎骨壞死共識 2026（Asian Federation of Osteoporosis Societies；亞洲各國骨質疏鬆學會的聯盟）",
+     "citation": "Taguchi A, et al. Asia-Pacific consensus statement on medication-related osteonecrosis of the jaw in patients with osteoporosis. Osteoporos Sarcopenia 2026;12(1):1-17.",
+     "pmid": "41969602",
+     "doi": "10.1016/j.afos.2026.02.001"
+    },
+    {
+     "short": "澳洲骨鬆指引 2024（Royal Australian College of General Practitioners 與 Healthy Bones Australia；澳洲的家庭醫師學會與骨骼健康組織）",
+     "citation": "Wong P, et al. 2024 Royal Australian College of General Practitioners and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age. Med J Aust 2025;222(9):472-480.",
+     "pmid": "40134107",
+     "doi": "10.5694/mja2.52637"
+    },
+    {
+     "short": "BHOF 2022 美國骨質疏鬆症臨床指南（Bone Health and Osteoporosis Foundation；美國的骨骼健康與骨質疏鬆基金會）",
+     "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  }
+ ]
+}

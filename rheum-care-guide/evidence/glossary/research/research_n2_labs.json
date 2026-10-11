@@ -1,0 +1,1055 @@
+{
+ "group": "n2_labs",
+ "entries": [
+  {
+   "id": "ana",
+   "cat": "test",
+   "term": "抗核抗體（ANA）",
+   "en": "antinuclear antibodies (ANA)",
+   "aliases": [
+    "抗核抗體",
+    "ANA"
+   ],
+   "aka": "antinuclear antibodies (ANA); tested mainly by indirect immunofluorescence on HEp-2 cells (HEp-2 IIFA); result reported as titre and pattern",
+   "def": "抗核抗體是會和自己細胞核等成分結合的抗體。常用螢光染色法檢驗，報告可能列出稀釋倍數（力價，如1:160）和型態。",
+   "example": "例如1:160，表示血清稀釋到160倍時仍看得到螢光。",
+   "note": "健康的人也可能陽性；倍數和型態通常只是線索，是否生病要由醫師合併症狀判斷。",
+   "label": "ICAP 2019 與檢驗建議 2021・定義",
+   "evidence": [
+    {
+     "quote": "Antinuclear antibodies comprise a diverse group of autoantibodies directed against multiple intra-cellular antigens at various cellular compartments including nuclear constituents (chromatin, nucleoli, and nucleoplasm), components of the nuclear envelope, mitotic spindle apparatus, and cytosol ().",
+     "location": "Introduction, paragraph 1",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "def：抗核抗體是（自體）抗體，針對細胞核等多種細胞內成分（「會和自己細胞核等成分結合」）"
+    },
+    {
+     "quote": "Antinuclear antibodies (ANAs) are a diverse group of autoantibodies that recognize nuclear macromolecules and their complexes.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "28541299",
+     "doi": "10.1038/nrrheum.2017.74",
+     "pmcid": "",
+     "supports": "def：抗核抗體＝會和細胞核成分結合的自體抗體"
+    },
+    {
+     "quote": "The most common autoantibodies are antinuclear antibodies (ANA), which are traditionally assessed by indirect immunofluorescence and include antibodies to both nuclear and cytoplasmic components ().",
+     "location": "Introduction, paragraph 1",
+     "access": "PMC full text",
+     "pmid": "22237992",
+     "doi": "10.1002/art.34380",
+     "pmcid": "PMC3330150",
+     "supports": "def：包括針對細胞核與細胞質成分的抗體；傳統上以（間接免疫）螢光法檢驗"
+    },
+    {
+     "quote": "The indirect immunofluorescence assay (IIFA) on HEp-2 cells is widely used for detection of antinuclear antibodies (ANA).",
+     "location": "Abstract, first sentence (identical in PubMed abstract and PMC text)",
+     "access": "abstract",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def：「常用螢光染色法檢驗」（HEp-2 細胞間接免疫螢光法）"
+    },
+    {
+     "quote": "However, the HEp-2 IIFA test has much more to offer: besides the titre or fluorescence intensity, it also provides fluorescence pattern(s).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def：結果包括力價（稀釋倍數）和螢光型態"
+    },
+    {
+     "quote": "Notably, the roles of IIFA as a reference method, and the importance of defining nuclear and cytoplasmic staining, were emphasised, while the need to incorporate alternative automated methods was acknowledged.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24126457",
+     "doi": "10.1136/annrheumdis-2013-203863",
+     "pmcid": "",
+     "supports": "def：螢光法是參考方法，但也有其他（自動化）方法，所以寫「常用」"
+    },
+    {
+     "quote": "These alternative platforms differ in their antigen profiles, sensitivity and specificity, raising uncertainties regarding standardisation and interpretation of incongruent results.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24126457",
+     "doi": "10.1136/annrheumdis-2013-203863",
+     "pmcid": "",
+     "supports": "def「常用」；與 LB-1.4（不同檢驗方法結果不一定一致）相符"
+    },
+    {
+     "quote": "According to the International recommendations for the assessment of ANA, a sample found to be positive on ANA IIF screening should be further diluted in twofold dilutions up to the highest dilution (titre) to which the fluorescence can be seen as a result of autoantibody reactivity ().",
+     "location": "2. Analytical issues – ANA screen assay",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "example：力價＝仍看得到螢光的最高稀釋倍數（1:160＝稀釋到160倍仍看得到螢光）"
+    },
+    {
+     "quote": "It is recommended that the results of the ANA IIF screen assay are reported as a titre and not simply as positive or negative (,).",
+     "location": "3. Postanalytical issues – Units of measurement",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "def：報告可能列出稀釋倍數（力價）"
+    },
+    {
+     "quote": "Along with the titre, a report on a positive ANA result should be accompanied with a description of fluorescence pattern according to ICAP AC-nomenclature (in the Appendix) since distinctive pattern profiles have been associated with CTD but also with ANA positive healthy individuals.",
+     "location": "2. Analytical issues – ANA screen assay",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "def：報告可能列出型態；note：型態也見於健康的人"
+    },
+    {
+     "quote": "Based on titration or appropriate evaluation of the fluorescence intensity, the antibody level can be determined and this information has general concordance with the clinical relevance of the test result.",
+     "location": "Introduction, paragraph 2",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "example/def：稀釋倍數反映抗體的量（與 LB-1.2「數值越高」相符）"
+    },
+    {
+     "quote": "The sera were analyzed at 4 dilutions: 1:40, 1:80, 1:160, and 1:320.",
+     "location": "Abstract (Methods)",
+     "access": "abstract",
+     "pmid": "9324014",
+     "doi": "10.1002/art.1780400909",
+     "pmcid": "",
+     "supports": "example：稀釋倍數以 1:40、1:160 等形式表示"
+    },
+    {
+     "quote": "It is well known that a positive ANA can be found not just in patients with autoimmune disease but also in healthy individuals.",
+     "location": "2. Analytical issues – ANA screen assay",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "note：健康的人也可能陽性"
+    },
+    {
+     "quote": "Second, even apparently healthy individuals may have autoantibodies as detected by the HEp-2 IIFA.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "note：健康的人也可能陽性"
+    },
+    {
+     "quote": "Conversely, a high positive cutoff at 1:160 serum dilution (high specificity, low sensitivity) would be useful to confirm the presence of disease in only a portion of cases, but would be likely to exclude 95% of normal individuals.",
+     "location": "Abstract (Results)",
+     "access": "abstract",
+     "pmid": "9324014",
+     "doi": "10.1002/art.1780400909",
+     "pmcid": "",
+     "supports": "note：倍數較高（1:160）時仍有少數健康人陽性，所以倍數只是線索（與 LB-1.1「1:160以上約5%」一致）"
+    },
+    {
+     "quote": "It should be kept in mind that despite the high correlation with specific autoantibodies, observed IIF patterns are used only as a guide to specific tests (exception is centromere pattern), either as a further step in the algorithm () or simply as a recommendation on the report.",
+     "location": "2. Analytical issues – ANA screen assay",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "note：型態「通常」只是線索（著絲點型例外）；與 LB-1.3 相符"
+    },
+    {
+     "quote": "Altogether, it is evident that, with the exception of the centromere pattern (AC-3), all patterns are to be confirmed by antigen-specific immunoassay for a solid association with the respective autoimmune diseases.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "note：除著絲點型外，型態都需再驗特定抗體確認（LB-1.3）"
+    },
+    {
+     "quote": "Such understanding not only necessitates insight into the sensitivity and specificity of each assay, but also into the importance of the disease context and antibody level.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "33154583",
+     "doi": "10.1038/s41584-020-00522-w",
+     "pmcid": "",
+     "supports": "note：解讀要看臨床情境（症狀）和抗體量"
+    },
+    {
+     "quote": "Diagnosis of SLE remains the purview of an appropriately trained physician evaluating an individual patient ().",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930",
+     "pmcid": "PMC6827566",
+     "supports": "note：是否生病由醫師評估個人狀況（與 LB-2.4、LB-M1 相符）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "克羅埃西亞檢驗醫學會 2021 ANA 檢驗國家建議",
+     "citation": "Tešija Kuna A et al. Assessment of antinuclear antibodies (ANA): National recommendations on behalf of the Croatian society of medical biochemistry and laboratory medicine. Biochem Med (Zagreb) 2021;31(2):020502.",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502"
+    },
+    {
+     "short": "ICAP 2019 抗核抗體型態國際共識",
+     "citation": "Damoiseaux J et al. Clinical relevance of HEp-2 indirect immunofluorescent patterns: the International Consensus on ANA patterns (ICAP) perspective. Ann Rheum Dis 2019;78(7):879-889.",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436"
+    },
+    {
+     "short": "Pisetsky 2017 抗核抗體檢驗綜論",
+     "citation": "Pisetsky DS. Antinuclear antibody testing - misunderstood or misbegotten? Nat Rev Rheumatol 2017;13(8):495-502.",
+     "pmid": "28541299",
+     "doi": "10.1038/nrrheum.2017.74"
+    },
+    {
+     "short": "Satoh 2012 美國抗核抗體盛行率研究",
+     "citation": "Satoh M et al. Prevalence and sociodemographic correlates of antinuclear antibodies in the United States. Arthritis Rheum 2012;64(7):2319-27.",
+     "pmid": "22237992",
+     "doi": "10.1002/art.34380"
+    },
+    {
+     "short": "EASI/IUIS 2014 抗核抗體檢測國際建議",
+     "citation": "Agmon-Levin N et al. International recommendations for the assessment of autoantibodies to cellular antigens referred to as anti-nuclear antibodies. Ann Rheum Dis 2014;73(1):17-23.",
+     "pmid": "24126457",
+     "doi": "10.1136/annrheumdis-2013-203863"
+    },
+    {
+     "short": "Tan 1997 健康者抗核抗體範圍研究",
+     "citation": "Tan EM et al. Range of antinuclear antibodies in \"healthy\" individuals. Arthritis Rheum 1997;40(9):1601-11.",
+     "pmid": "9324014",
+     "doi": "10.1002/art.1780400909"
+    },
+    {
+     "short": "Bossuyt 2020 抗核抗體檢驗解讀綜論",
+     "citation": "Bossuyt X et al. Understanding and interpreting antinuclear antibody tests in systemic rheumatic diseases. Nat Rev Rheumatol 2020;16(12):715-726.",
+     "pmid": "33154583",
+     "doi": "10.1038/s41584-020-00522-w"
+    },
+    {
+     "short": "EULAR/ACR 2019 紅斑性狼瘡分類標準",
+     "citation": "Aringer M et al. 2019 European League Against Rheumatism/American College of Rheumatology Classification Criteria for Systemic Lupus Erythematosus. Arthritis Rheumatol 2019;71(9):1400-1412.",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930"
+    }
+   ],
+   "confidence": "High (PMC full text and abstracts; Tier 1–2: ICAP 2019 consensus, EASI/IUIS 2014 recommendations, Croatian national laboratory recommendations 2021; supported by a Nat Rev Rheumatol review)",
+   "status": "ok"
+  },
+  {
+   "id": "rf",
+   "cat": "test",
+   "term": "類風濕因子（RF）",
+   "en": "rheumatoid factor (RF)",
+   "aliases": [
+    "類風濕因子",
+    "RF"
+   ],
+   "aka": "rheumatoid factor (RF); antibodies directed against the Fc region of IgG (IgM RF is the isotype most often detected)",
+   "def": "類風濕因子是一種會和IgG抗體的一部分結合的抗體，因和類風濕性關節炎有關而得名，是診斷這個病的參考指標之一。",
+   "example": "例如C型肝炎感染者，也常驗出類風濕因子。",
+   "note": "其他自體免疫疾病、感染和部分健康的人也可能陽性；類風濕性關節炎病人也可能陰性。",
+   "label": "綜論 2013・定義",
+   "evidence": [
+    {
+     "quote": "Rheumatoid factors are antibodies directed against the Fc region of immunoglobulin G.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598",
+     "pmcid": "PMC3845430",
+     "supports": "def：會和 IgG 抗體一部分（Fc 區）結合的抗體"
+    },
+    {
+     "quote": "Rheumatoid factor is an autoantibody targeting the Fc region of IgG antibodies.",
+     "location": "Introduction, paragraph 2",
+     "access": "PMC full text",
+     "pmid": "22956589",
+     "doi": "10.1136/bmj.e5244",
+     "pmcid": "PMC3435445",
+     "supports": "def：同上（第二個來源；並稱之為自體抗體）"
+    },
+    {
+     "quote": "In 1948, Rose described these antibodies in patients with rheumatoid arthritis (RA) [], and in 1952 they were finally christened RFs because of their association with RA [].",
+     "location": "1. Introduction",
+     "access": "PMC full text",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598",
+     "pmcid": "PMC3845430",
+     "supports": "def：因和類風濕性關節炎有關而得名"
+    },
+    {
+     "quote": "Rheumatoid factor (RF) and autoantibodies against cyclic citrullinated peptide (CCP) are markers that might help physicians diagnose rheumatoid arthritis.",
+     "location": "Abstract (Background), first sentence",
+     "access": "abstract",
+     "pmid": "17548411",
+     "doi": "10.7326/0003-4819-146-11-200706050-00008",
+     "pmcid": "",
+     "supports": "def：醫師診斷類風濕性關節炎時參考的指標之一"
+    },
+    {
+     "quote": "First detected in patients with rheumatoid arthritis 70 years ago, they can also be found in patients with other autoimmune and nonautoimmune conditions, as well as in healthy subjects.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598",
+     "pmcid": "PMC3845430",
+     "supports": "note：其他自體免疫與非自體免疫疾病、部分健康的人也可能陽性（LB-3.1）"
+    },
+    {
+     "quote": "Infections and chronic diseases may be characterised by the presence of serum RFs, but unlike those detected in RA patients, the RFs produced during infections are usually transient and not detrimental.",
+     "location": "3. Rheumatoid Factors in Nonrheumatic Conditions",
+     "access": "PMC full text",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598",
+     "pmcid": "PMC3845430",
+     "supports": "note：感染時也可能出現類風濕因子"
+    },
+    {
+     "quote": "RFs can be found in 40–50% of patients with HCV infection, but their frequency can reach 76% [].",
+     "location": "3. Rheumatoid Factors in Nonrheumatic Conditions",
+     "access": "PMC full text",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598",
+     "pmcid": "PMC3845430",
+     "supports": "example：C 型肝炎感染者常驗出類風濕因子"
+    },
+    {
+     "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
+     "location": "Abstract (Data synthesis)",
+     "access": "abstract",
+     "pmid": "17548411",
+     "doi": "10.7326/0003-4819-146-11-200706050-00008",
+     "pmcid": "",
+     "supports": "note：IgM RF 敏感度 69%（約 3 成病人陰性，LB-3.4）、特異度 85%（沒有這個病的人也可能陽性，LB-3.1）"
+    },
+    {
+     "quote": "RF testing in RA patients has a sensitivity of 60% to 90% and a specificity of 85% [,].",
+     "location": "6. RFs and Rheumatoid Arthritis",
+     "access": "PMC full text",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598",
+     "pmcid": "PMC3845430",
+     "supports": "note：類風濕性關節炎病人也可能陰性"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Ingegnoli 2013 類風濕因子綜論",
+     "citation": "Ingegnoli F et al. Rheumatoid factors: clinical applications. Dis Markers 2013;35(6):727-34.",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598"
+    },
+    {
+     "short": "Nielsen 2012 BMJ 類風濕因子世代研究",
+     "citation": "Nielsen SF et al. Elevated rheumatoid factor and long term risk of rheumatoid arthritis: a prospective cohort study. BMJ 2012;345:e5244.",
+     "pmid": "22956589",
+     "doi": "10.1136/bmj.e5244"
+    },
+    {
+     "short": "Nishimura 2007 抗CCP抗體與類風濕因子統合分析",
+     "citation": "Nishimura K et al. Meta-analysis: diagnostic accuracy of anti-cyclic citrullinated peptide antibody and rheumatoid factor for rheumatoid arthritis. Ann Intern Med 2007;146(11):797-808.",
+     "pmid": "17548411",
+     "doi": "10.7326/0003-4819-146-11-200706050-00008"
+    }
+   ],
+   "confidence": "Medium (definition from a Tier-3 review and a BMJ cohort introduction, both PMC full text and in agreement; diagnostic accuracy from a Tier-2 meta-analysis abstract)",
+   "status": "ok"
+  },
+  {
+   "id": "anti-ccp",
+   "cat": "test",
+   "term": "抗CCP抗體（抗環瓜胺酸胜肽抗體）",
+   "en": "anti-cyclic citrullinated peptide (anti-CCP) antibodies",
+   "aliases": [
+    "抗CCP抗體",
+    "抗CCP"
+   ],
+   "aka": "anti-cyclic citrullinated peptide (anti-CCP) antibody; one way of detecting anti-citrullinated protein/peptide antibodies (ACPA)",
+   "def": "抗CCP抗體是一種自體抗體（針對自身成分的抗體），屬於抗瓜胺酸化蛋白抗體（ACPA），是診斷類風濕性關節炎的參考指標之一。",
+   "example": "",
+   "note": "沒有類風濕性關節炎的人，陽性機會比類風濕因子低；但病人也可能陰性。",
+   "label": "統合分析 2007・定義",
+   "evidence": [
+    {
+     "quote": "Rheumatoid factor (RF) and autoantibodies against cyclic citrullinated peptide (CCP) are markers that might help physicians diagnose rheumatoid arthritis.",
+     "location": "Abstract (Background), first sentence",
+     "access": "abstract",
+     "pmid": "17548411",
+     "doi": "10.7326/0003-4819-146-11-200706050-00008",
+     "pmcid": "",
+     "supports": "def：抗 CCP 抗體是自體抗體；是醫師診斷類風濕性關節炎時參考的指標之一"
+    },
+    {
+     "quote": "The presence of autoantibodies is the consequence of breakdown of tolerance and, although they are an important serological feature of autoimmune diseases, their presence is not exclusive of these conditions. Antibodies against self-antigens are also found in cancer, during massive tissue damage and even in healthy subjects.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "19963079",
+     "doi": "10.1016/j.autrev.2009.12.002",
+     "pmcid": "",
+     "supports": "def：括號說明「自體抗體＝針對自身成分（self-antigens）的抗體」"
+    },
+    {
+     "quote": "Anti-citrullinated peptide antibodies (ACPA) have been suggested for early diagnosis.",
+     "location": "Abstract (Background)",
+     "access": "abstract",
+     "pmid": "20368651",
+     "doi": "10.7326/0003-4819-152-7-201004060-00010",
+     "pmcid": "",
+     "supports": "def：ACPA 這一類抗體（抗瓜胺酸化胜肽／蛋白抗體）"
+    },
+    {
+     "quote": "In cohort studies that investigated second-generation anti-cyclic citrullinated peptide antibodies (anti-CCP2) in patients with early rheumatoid arthritis (<2 years), summary sensitivity and specificity were 57% (95% CI, 51% to 63%) and 96% (CI, 93% to 97%), respectively.",
+     "location": "Abstract (Data synthesis)",
+     "access": "abstract",
+     "pmid": "20368651",
+     "doi": "10.7326/0003-4819-152-7-201004060-00010",
+     "pmcid": "",
+     "supports": "def：抗 CCP 抗體列在 ACPA 之下評估；note：早期病人敏感度 57%（病人也可能陰性）"
+    },
+    {
+     "quote": "The detection of ACPA was performed by measuring anti-CCP2 (by EliA-cyclic citrullinated peptide (CCP) test) on the Phadia-250 analyser.",
+     "location": "Materials and methods – ACPA measurement",
+     "access": "PMC full text",
+     "pmid": "28043998",
+     "doi": "10.1136/annrheumdis-2016-209991",
+     "pmcid": "PMC5530344",
+     "supports": "def：以抗 CCP 檢驗偵測 ACPA（抗 CCP 屬於 ACPA）"
+    },
+    {
+     "quote": "A meta-analysis [] has shown that the pooled sensitivities of ACPA and RF are similar, but ACPA positivity is more specific for RA than IgM RF, IgG RF, or IgA RF positivity [] and more specific for early RA than IgM RF [].",
+     "location": "6.1. The Role of RFs in the Diagnosis of Rheumatoid Arthritis",
+     "access": "PMC full text",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598",
+     "pmcid": "PMC3845430",
+     "supports": "note：ACPA 陽性比類風濕因子更專一（沒有這個病的人較少陽性）"
+    },
+    {
+     "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
+     "location": "Abstract (Data synthesis)",
+     "access": "abstract",
+     "pmid": "17548411",
+     "doi": "10.7326/0003-4819-146-11-200706050-00008",
+     "pmcid": "",
+     "supports": "note：特異度 95% 對 85%（LB-3.2）；敏感度 67%（約 3 成病人陰性，LB-3.4）"
+    },
+    {
+     "quote": "Anti-CCP antibodies are more specific than RF for diagnosing rheumatoid arthritis",
+     "location": "Abstract (Conclusion; quoted up to the point before the glued word 'erosivedisease')",
+     "access": "abstract",
+     "pmid": "17548411",
+     "doi": "10.7326/0003-4819-146-11-200706050-00008",
+     "pmcid": "",
+     "supports": "note：沒有這個病的人，抗 CCP 陽性的機會比類風濕因子低"
+    },
+    {
+     "quote": "Anti-CCP2 had greater specificity than rheumatoid factor (96% vs. 86%), with similar sensitivity.",
+     "location": "Abstract (Data synthesis)",
+     "access": "abstract",
+     "pmid": "20368651",
+     "doi": "10.7326/0003-4819-152-7-201004060-00010",
+     "pmcid": "",
+     "supports": "note：同上（第二篇系統性回顧）"
+    },
+    {
+     "quote": "The superior specificity of anti-citrullinated protein antibody tests has somewhat diminished interest in rheumatoid factor at time of diagnosis of rheumatoid arthritis, but not necessarily when it comes to prediction of long term risk.",
+     "location": "Discussion – Implications for clinicians and future work",
+     "access": "PMC full text",
+     "pmid": "22956589",
+     "doi": "10.1136/bmj.e5244",
+     "pmcid": "PMC3435445",
+     "supports": "note：ACPA 檢驗的特異度較類風濕因子高"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Nishimura 2007 抗CCP抗體與類風濕因子統合分析",
+     "citation": "Nishimura K et al. Meta-analysis: diagnostic accuracy of anti-cyclic citrullinated peptide antibody and rheumatoid factor for rheumatoid arthritis. Ann Intern Med 2007;146(11):797-808.",
+     "pmid": "17548411",
+     "doi": "10.7326/0003-4819-146-11-200706050-00008"
+    },
+    {
+     "short": "Whiting 2010 抗瓜胺酸化胜肽抗體系統性回顧",
+     "citation": "Whiting PF et al. Systematic review: accuracy of anti-citrullinated Peptide antibodies for diagnosing rheumatoid arthritis. Ann Intern Med 2010;152(7):456-64; W155-66.",
+     "pmid": "20368651",
+     "doi": "10.7326/0003-4819-152-7-201004060-00010"
+    },
+    {
+     "short": "van Zanten 2017 荷蘭族群 ACPA 研究",
+     "citation": "van Zanten A et al. Presence of anticitrullinated protein antibodies in a large population-based cohort from the Netherlands. Ann Rheum Dis 2017;76(7):1184-1190.",
+     "pmid": "28043998",
+     "doi": "10.1136/annrheumdis-2016-209991"
+    },
+    {
+     "short": "Ingegnoli 2013 類風濕因子綜論",
+     "citation": "Ingegnoli F et al. Rheumatoid factors: clinical applications. Dis Markers 2013;35(6):727-34.",
+     "pmid": "24324289",
+     "doi": "10.1155/2013/726598"
+    },
+    {
+     "short": "Nielsen 2012 BMJ 類風濕因子世代研究",
+     "citation": "Nielsen SF et al. Elevated rheumatoid factor and long term risk of rheumatoid arthritis: a prospective cohort study. BMJ 2012;345:e5244.",
+     "pmid": "22956589",
+     "doi": "10.1136/bmj.e5244"
+    },
+    {
+     "short": "Lleo 2010 自體免疫定義綜論",
+     "citation": "Lleo A et al. Definition of human autoimmunity--autoantibodies versus autoimmune disease. Autoimmun Rev 2010;9(5):A259-66.",
+     "pmid": "19963079",
+     "doi": "10.1016/j.autrev.2009.12.002"
+    }
+   ],
+   "confidence": "High (Tier-2 meta-analysis and systematic review abstracts; PMC full text of a population study and a review)",
+   "status": "ok"
+  },
+  {
+   "id": "false-results",
+   "cat": "test",
+   "term": "假陽性與假陰性（偽陽性、偽陰性）",
+   "en": "false-positive and false-negative results",
+   "aliases": [
+    "假陽性",
+    "偽陰性"
+   ],
+   "aka": "false positive (FP); false negative (FN)",
+   "def": "假陽性是其實沒有這種病或狀況，檢查卻呈陽性；假陰性（偽陰性）則是其實有，檢查卻呈陰性。",
+   "example": "例如免疫力受抑制時，潛伏結核檢驗可能出現偽陰性。",
+   "note": "假陽性可能帶來不必要的追加檢查和擔心；假陰性可能漏掉真正有病或受感染的人。",
+   "label": "診斷檢查綜論・定義",
+   "evidence": [
+    {
+     "quote": "Values above the cut-off are not always indicative of a disease since subjects without disease can also sometimes have elevated values. Such elevated values of certain parameter of interest are called false positive values (FP). On the other hand, values below the cut-off are mainly found in subjects without disease. However, some subjects with the disease can have them too. Those values are false negative values (FN).",
+     "location": "Sensitivity and specificity",
+     "access": "PMC full text",
+     "pmid": "27683318",
+     "doi": "",
+     "pmcid": "PMC4975285",
+     "supports": "def：沒有病卻陽性＝假陽性；有病卻陰性＝假陰性"
+    },
+    {
+     "quote": "false positive (FP) –subjects without the disease with the value of a parameter of interest above the cut-off … false negative (FN) –subjects with the disease with the value of a parameter of interest below the cut-off",
+     "location": "Sensitivity and specificity (list of the four subgroups)",
+     "access": "PMC full text",
+     "pmid": "27683318",
+     "doi": "",
+     "pmcid": "PMC4975285",
+     "supports": "def：同上（定義清單）"
+    },
+    {
+     "quote": "Diagnostic accuracy of any diagnostic procedure or a test gives us an answer to the following question: \"How well this test discriminates between certain two conditions of interest (health and disease; two stages of a disease etc.)?\".",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "27683318",
+     "doi": "",
+     "pmcid": "PMC4975285",
+     "supports": "def：「病或狀況」（不限於疾病，也可指感染等狀況）"
+    },
+    {
+     "quote": "Consequently, few individuals are incorrectly labeled as having a disease (false positives), but a proportion of individuals with the disease diagnosis may be “missed”, i.e., labeled as not having the disease based on the classification criteria (false negatives).",
+     "location": "Classification criteria",
+     "access": "PMC full text",
+     "pmid": "25776731",
+     "doi": "10.1002/acr.22583",
+     "pmcid": "PMC4482786",
+     "supports": "def：假陽性＝被錯誤判定為有病；假陰性＝有病卻被判定為沒病；note：可能漏掉病人"
+    },
+    {
+     "quote": "Under these circumstances, it would be highly undesirable if a screening test indicated that people did not have a condition when in fact they did.",
+     "location": "Assessing Desirable Predictive Values and Consequences for Sensitivity and Specificity",
+     "access": "PMC full text",
+     "pmid": "29209603",
+     "doi": "10.3389/fpubh.2017.00307",
+     "pmcid": "PMC5701930",
+     "supports": "def：假陰性＝其實有某種狀況，檢查卻顯示沒有"
+    },
+    {
+     "quote": "This suggestion follows from several principles regarding use of diagnostic tests, including that tests should not be performed if results will not change management or if the pretest probability of disease is low enough to raise the likelihood of a false-positive test higher than the likelihood of a true-positive result.",
+     "location": "Final Top 5 items, item 1 discussion",
+     "access": "PMC full text",
+     "pmid": "23436818",
+     "doi": "10.1002/acr.21930",
+     "pmcid": "PMC4106486",
+     "supports": "site usage：LB-4.3「生病機會低到假陽性比真陽性更可能」"
+    },
+    {
+     "quote": "However, newer testing may complicate patient care if it results in undirected or very broad testing that increases false-positive results, leading to unnecessary followup tests and patient concern.",
+     "location": "Final Top 5 items, item 1 discussion",
+     "access": "PMC full text",
+     "pmid": "23436818",
+     "doi": "10.1002/acr.21930",
+     "pmcid": "PMC4106486",
+     "supports": "note：假陽性可能帶來不必要的追加檢查和擔心（LB-4.4）"
+    },
+    {
+     "quote": "Regardless of the test used, it is important to remember that in the face of immune-suppression, both IGRA and TST can be falsely negative and are thus only diagnostic aids - they will need to be interpreted with other clinical and risk factor data.",
+     "location": "Abstract (Summary)",
+     "access": "abstract",
+     "pmid": "21519268",
+     "doi": "10.1097/BOR.0b013e3283474d62",
+     "pmcid": "",
+     "supports": "example：免疫力受抑制時，潛伏結核檢驗（IGRA、皮膚測試）可能偽陰性（IF-2.T）；note：可能漏掉受感染的人"
+    },
+    {
+     "quote": "T cell hyporesponsiveness due to immunosuppression caused by illness or drugs, referred to as anergy, may produce false-negative tuberculin skin test (TST) and interferon-γ release assay (IGRA) results.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21459944",
+     "doi": "10.3899/jrheum.100623",
+     "pmcid": "",
+     "supports": "example：同上（疾病或藥物造成的免疫抑制）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Šimundić 2009 診斷準確度基本定義",
+     "citation": "Šimundić AM. Measures of Diagnostic Accuracy: Basic Definitions. EJIFCC 2009;19(4):203-11.",
+     "pmid": "27683318",
+     "doi": ""
+    },
+    {
+     "short": "ACR 分類與反應標準小組 2015（診斷標準與分類標準之別）",
+     "citation": "Aggarwal R et al. Distinctions between diagnostic and classification criteria? Arthritis Care Res (Hoboken) 2015;67(7):891-7.",
+     "pmid": "25776731",
+     "doi": "10.1002/acr.22583"
+    },
+    {
+     "short": "Trevethan 2017 敏感度、特異度與預測值綜論",
+     "citation": "Trevethan R. Sensitivity, Specificity, and Predictive Values: Foundations, Pliabilities, and Pitfalls in Research and Practice. Front Public Health 2017;5:307.",
+     "pmid": "29209603",
+     "doi": "10.3389/fpubh.2017.00307"
+    },
+    {
+     "short": "ACR 2013 明智選擇（Choosing Wisely）五項清單",
+     "citation": "Yazdany J et al. Choosing wisely: the American College of Rheumatology's Top 5 list of things physicians and patients should question. Arthritis Care Res (Hoboken) 2013;65(3):329-39.",
+     "pmid": "23436818",
+     "doi": "10.1002/acr.21930"
+    },
+    {
+     "short": "Smith 2011 免疫疾病潛伏結核檢驗綜論",
+     "citation": "Smith R et al. Interferon-γ release assays for diagnosis of latent tuberculosis infection: evidence in immune-mediated inflammatory disorders. Curr Opin Rheumatol 2011;23(4):377-84.",
+     "pmid": "21519268",
+     "doi": "10.1097/BOR.0b013e3283474d62"
+    },
+    {
+     "short": "Keystone 2011 TNF 抑制劑病人潛伏結核診斷綜論",
+     "citation": "Keystone EC et al. Challenges in diagnosing latent tuberculosis infection in patients treated with tumor necrosis factor antagonists. J Rheumatol 2011;38(7):1234-43.",
+     "pmid": "21459944",
+     "doi": "10.3899/jrheum.100623"
+    }
+   ],
+   "confidence": "Medium–High (definitions from a PubMed-indexed methods review and an ACR subcommittee article, PMC full text; example from two rheumatology review abstracts; no Tier-1 glossary definition found)",
+   "status": "ok"
+  },
+  {
+   "id": "classification-criteria",
+   "cat": "evidence",
+   "term": "分類標準",
+   "en": "classification criteria",
+   "aliases": [
+    "分類標準"
+   ],
+   "aka": "classification criteria (as distinct from diagnostic criteria); entry criterion",
+   "def": "分類標準是一套統一的條件，主要用來在研究中挑出特徵相近的病人，方便比較研究結果；它不是設計來診斷個別病人的。",
+   "example": "如紅斑性狼瘡：抗核抗體陽性是入門條件，再依臨床表現和檢驗計分，滿10分才歸類。",
+   "note": "符合標準不等於確診，不符合也不代表沒病；是否生病要由醫師評估個人狀況。",
+   "label": "ACR 2015・定義",
+   "evidence": [
+    {
+     "quote": "Classification criteria are standardized definitions that are primarily intended to create well-defined, relatively homogenous cohorts for clinical research; they are not intended to capture the entire universe of possible patients, but rather to capture the majority of patients with key shared features of the condition.",
+     "location": "Classification criteria",
+     "access": "PMC full text",
+     "pmid": "25776731",
+     "doi": "10.1002/acr.22583",
+     "pmcid": "PMC4482786",
+     "supports": "def：統一的定義，主要用來在研究中挑出特徵相近的病人；note：本來就不涵蓋所有病人"
+    },
+    {
+     "quote": "Validated classification criteria are considered critical to the interpretation of study findings and comparisons of results between studies.",
+     "location": "Classification criteria",
+     "access": "PMC full text",
+     "pmid": "25776731",
+     "doi": "10.1002/acr.22583",
+     "pmcid": "PMC4482786",
+     "supports": "def：方便比較研究結果"
+    },
+    {
+     "quote": "Classification criteria are essential for the identification of relatively homogeneous groups of patients for inclusion in research studies and trials (;).",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930",
+     "pmcid": "PMC6827566",
+     "supports": "def：為研究與試驗挑出相近的病人（EULAR/ACR 2019 原文）"
+    },
+    {
+     "quote": "Classification criteria serve the purpose of enabling standardised assembly of a relatively homogeneous group of individuals with the disease of interest for enrolment into such studies.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "26359487",
+     "doi": "10.1136/annrheumdis-2015-208237",
+     "pmcid": "PMC4602275",
+     "supports": "def：同上（ACR/EULAR 2015 痛風分類標準原文）"
+    },
+    {
+     "quote": "However, it is important to stress that classification criteria are not designed for diagnosis or treatment decisions ().",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930",
+     "pmcid": "PMC6827566",
+     "supports": "def：不是設計來診斷（或決定治療）的（LB-2.4）"
+    },
+    {
+     "quote": "It should be recognised that classification criteria are not intended for use in making a diagnosis in a clinical setting.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "26359487",
+     "doi": "10.1136/annrheumdis-2015-208237",
+     "pmcid": "PMC4602275",
+     "supports": "def：不是設計來在臨床上診斷個別病人"
+    },
+    {
+     "quote": "Because of this possibility of misclassification, meeting classification criteria is not equivalent to carrying a given diagnosis. Only physicians considering features of an individual patient, beyond those represented in the classification criteria, in addition to extraneous factors (such as local prevalence of conditions that are on the differential diagnosis) can establish a diagnosis for an individual patient.",
+     "location": "The Continuum of Diagnosis and Classification",
+     "access": "PMC full text",
+     "pmid": "25776731",
+     "doi": "10.1002/acr.22583",
+     "pmcid": "PMC4482786",
+     "supports": "note：符合標準不等於確診；由醫師評估個人狀況才能診斷"
+    },
+    {
+     "quote": "Consequently, few individuals are incorrectly labeled as having a disease (false positives), but a proportion of individuals with the disease diagnosis may be “missed”, i.e., labeled as not having the disease based on the classification criteria (false negatives).",
+     "location": "Classification criteria",
+     "access": "PMC full text",
+     "pmid": "25776731",
+     "doi": "10.1002/acr.22583",
+     "pmcid": "PMC4482786",
+     "supports": "note：不符合標準也不代表沒病（部分病人會被漏掉）"
+    },
+    {
+     "quote": "Diagnosis of SLE remains the purview of an appropriately trained physician evaluating an individual patient ().",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930",
+     "pmcid": "PMC6827566",
+     "supports": "note：是否生病由（受過適當訓練的）醫師評估個人狀況（LB-2.4）"
+    },
+    {
+     "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; followed by additive weighted criteria grouped in 7 clinical (constitutional, hematologic, neuropsychiatric, mucocutaneous, serosal, musculoskeletal, renal) and 3 immunological (antiphospholipid antibodies, complement proteins, SLE-specific antibodies) domains, and weighted from 2 to 10. Patients accumulating ≥10 points are classified.",
+     "location": "Abstract (Results; PMC author-manuscript version)",
+     "access": "PMC full text",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930",
+     "pmcid": "PMC6827566",
+     "supports": "example：抗核抗體陽性是入門條件，再依臨床表現和免疫檢驗計分，累積 10 分以上才歸類（LB-2.1、LB-2.2）"
+    },
+    {
+     "quote": "The entry criteria were intended to be used to identify the relevant patient population to whom the classification criteria would be applied.",
+     "location": "Results – Entry, sufficient and exclusion criteria",
+     "access": "PMC full text",
+     "pmid": "26359487",
+     "doi": "10.1136/annrheumdis-2015-208237",
+     "pmcid": "PMC4602275",
+     "supports": "example：入門條件＝先界定可以套用分類標準的人"
+    },
+    {
+     "quote": "ANAs at a titer of 1:80 have sufficiently high sensitivity to be considered as an entry criterion for SLE classification criteria, i.e., formally test other classification criteria for SLE only if ANAs of at least 1:80 have been found.",
+     "location": "Abstract (Conclusion)",
+     "access": "abstract",
+     "pmid": "28544593",
+     "doi": "10.1002/acr.23292",
+     "pmcid": "",
+     "supports": "example：入門條件符合後，才往下評估其他條件"
+    },
+    {
+     "quote": "In the new criteria set, classification as 'definite RA' is based on the confirmed presence of synovitis in at least one joint, absence of an alternative diagnosis better explaining the synovitis, and achievement of a total score of 6 or greater (of a possible 10) from the individual scores in four domains: number and site of involved joints (range 0-5), serological abnormality (range 0-3), elevated acute-phase response (range 0-1) and symptom duration (two levels; range 0-1).",
+     "location": "Abstract (Results)",
+     "access": "abstract",
+     "pmid": "20699241",
+     "doi": "10.1136/ard.2010.138461",
+     "pmcid": "",
+     "supports": "fit：類風濕性關節炎分類標準需要至少 1 個關節確認有滑膜炎、且沒有其他更好的解釋（LB-3.3、LB-M2）"
+    },
+    {
+     "quote": "The concept that all criteria are only to be counted if SLE is thought to be the most likely cause of the manifestation (i.e. no other more likely cause exists) is central to these new EULAR/ACR criteria, and is explicitly stated as an overarching principle.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930",
+     "pmcid": "PMC6827566",
+     "supports": "fit：LB-2.3（沒有其他更可能的原因才算分）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR 分類與反應標準小組 2015（診斷標準與分類標準之別）",
+     "citation": "Aggarwal R et al. Distinctions between diagnostic and classification criteria? Arthritis Care Res (Hoboken) 2015;67(7):891-7.",
+     "pmid": "25776731",
+     "doi": "10.1002/acr.22583"
+    },
+    {
+     "short": "EULAR/ACR 2019 紅斑性狼瘡分類標準",
+     "citation": "Aringer M et al. 2019 European League Against Rheumatism/American College of Rheumatology Classification Criteria for Systemic Lupus Erythematosus. Arthritis Rheumatol 2019;71(9):1400-1412.",
+     "pmid": "31385462",
+     "doi": "10.1002/art.40930"
+    },
+    {
+     "short": "ACR/EULAR 2015 痛風分類標準",
+     "citation": "Neogi T et al. 2015 Gout classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Ann Rheum Dis 2015;74(10):1789-98.",
+     "pmid": "26359487",
+     "doi": "10.1136/annrheumdis-2015-208237"
+    },
+    {
+     "short": "Leuchten 2018 抗核抗體與狼瘡分類系統性回顧",
+     "citation": "Leuchten N et al. Performance of Antinuclear Antibodies for Classifying Systemic Lupus Erythematosus: A Systematic Literature Review and Meta-Regression of Diagnostic Data. Arthritis Care Res (Hoboken) 2018;70(3):428-438.",
+     "pmid": "28544593",
+     "doi": "10.1002/acr.23292"
+    },
+    {
+     "short": "ACR/EULAR 2010 類風濕性關節炎分類標準",
+     "citation": "Aletaha D et al. 2010 rheumatoid arthritis classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Ann Rheum Dis 2010;69(9):1580-8.",
+     "pmid": "20699241",
+     "doi": "10.1136/ard.2010.138461"
+    }
+   ],
+   "confidence": "High (PMC full text of the EULAR/ACR 2019 SLE and ACR/EULAR 2015 gout criteria papers and of the ACR subcommittee article; abstracts of the 2010 RA criteria and the ANA meta-regression)",
+   "status": "ok"
+  },
+  {
+   "id": "ctd",
+   "cat": "condition",
+   "term": "結締組織疾病",
+   "en": "connective tissue diseases (CTD)",
+   "aliases": [
+    "結締組織疾病"
+   ],
+   "aka": "connective tissue diseases (CTD); a subgroup of systemic autoimmune rheumatic diseases (SARD); some authors use the two terms interchangeably",
+   "def": "結締組織疾病是全身性自體免疫風濕病中的一群疾病。",
+   "example": "例如紅斑性狼瘡、乾燥症、硬皮症（全身性硬化症）和發炎性肌炎。",
+   "note": "這類疾病常驗得到抗核抗體；不過健康的人也可能陽性。",
+   "label": "檢驗建議 2021・定義",
+   "evidence": [
+    {
+     "quote": "Antinuclear antibodies are a hallmark of the subgroup of systemic inflammatory autoimmune rheumatic diseases (SARD) named connective tissue diseases (CTD) which includes: systemic lupus erythematosus (SLE), primary Sjögren syndrome (SjS), Systemic sclerosis (scleroderma, SSc), idiopathic inflammatory myopathies (IIMs), mixed connective tissue disease (MCTD) and overlap syndromes (–).",
+     "location": "Introduction, paragraph 3",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "def：全身性自體免疫風濕病中的一群；example：紅斑性狼瘡、乾燥症、全身性硬化症（硬皮症）、發炎性肌病變；note：抗核抗體是其特徵"
+    },
+    {
+     "quote": "Antinuclear antibodies (ANA) represent a family of autoantibodies targeting ubiquitous cellular constituents and are a hallmark of systemic inflammatory autoimmune rheumatic diseases named connective tissue diseases (CTD).",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "def／note：同上（摘要版）"
+    },
+    {
+     "quote": "Although some are idiopathic (e.g., idiopathic pulmonary fibrosis, idiopathic interstitial pneumonias, and sarcoidosis), the great majority have an underlying etiology, such as systemic autoimmune rheumatic disease (SARD, also called Connective Tissue Diseases or CTD), inhalational exposure to organic matter, medications, and rarely, genetic disorders.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38631369",
+     "doi": "10.1055/s-0044-1785674",
+     "pmcid": "",
+     "supports": "def：結締組織疾病與全身性自體免疫風濕病（SARD）密切對應，有些文獻當作同義詞"
+    },
+    {
+     "quote": "The term 'undifferentiated connective tissue disease' (UCTD) is generally used to describe clinical entities characterised by clinical and serological manifestations of systemic autoimmune diseases but not fulfilling the criteria for defined connective tissue diseases (CTDs).",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "30886731",
+     "doi": "10.1136/rmdopen-2018-000786",
+     "pmcid": "PMC6397427",
+     "supports": "def：結締組織疾病屬於全身性自體免疫疾病"
+    },
+    {
+     "quote": "Autoantibodies to cellular constituents are the serologic hallmarks of autoimmunity and are frequently seen in systemic autoimmune diseases, including systemic lupus erythematosus (SLE), scleroderma, and polymyositis/dermatomyositis ().",
+     "location": "Introduction, first sentence",
+     "access": "PMC full text",
+     "pmid": "22237992",
+     "doi": "10.1002/art.34380",
+     "pmcid": "PMC3330150",
+     "supports": "note：這類疾病常驗得到（抗核抗體等）自體抗體；example：硬皮症、肌炎"
+    },
+    {
+     "quote": "It is well known that a positive ANA can be found not just in patients with autoimmune disease but also in healthy individuals.",
+     "location": "2. Analytical issues – ANA screen assay",
+     "access": "PMC full text",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502",
+     "pmcid": "PMC8047791",
+     "supports": "note：健康的人也可能陽性"
+    },
+    {
+     "quote": "ILD can be present in most types of CTD, including rheumatoid arthritis, scleroderma, systemic lupus erythematosus, polymyositis or dermatomyositis, Sjögren's syndrome, and mixed connective tissue disease.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "26912511",
+     "doi": "10.1136/bmj.h6819",
+     "pmcid": "PMC6887350",
+     "supports": "reviewer_notes：有些（肺部疾病）文獻把類風濕性關節炎也算在結締組織疾病內"
+    }
+   ],
+   "sources": [
+    {
+     "short": "克羅埃西亞檢驗醫學會 2021 ANA 檢驗國家建議",
+     "citation": "Tešija Kuna A et al. Assessment of antinuclear antibodies (ANA): National recommendations on behalf of the Croatian society of medical biochemistry and laboratory medicine. Biochem Med (Zagreb) 2021;31(2):020502.",
+     "pmid": "33927550",
+     "doi": "10.11613/BM.2021.020502"
+    },
+    {
+     "short": "Zamora 2024 結締組織疾病相關間質性肺病綜論",
+     "citation": "Zamora AC et al. Diagnostic Approach to Interstitial Lung Diseases Associated with Connective Tissue Diseases. Semin Respir Crit Care Med 2024;45(3):287-304.",
+     "pmid": "38631369",
+     "doi": "10.1055/s-0044-1785674"
+    },
+    {
+     "short": "Antunes 2019 未分化結締組織疾病綜論（ERN ReCONNET）",
+     "citation": "Antunes M et al. Undifferentiated connective tissue disease: state of the art on clinical practice guidelines. RMD Open 2019;4(Suppl 1):e000786.",
+     "pmid": "30886731",
+     "doi": "10.1136/rmdopen-2018-000786"
+    },
+    {
+     "short": "Satoh 2012 美國抗核抗體盛行率研究",
+     "citation": "Satoh M et al. Prevalence and sociodemographic correlates of antinuclear antibodies in the United States. Arthritis Rheum 2012;64(7):2319-27.",
+     "pmid": "22237992",
+     "doi": "10.1002/art.34380"
+    },
+    {
+     "short": "Mathai 2016 BMJ 結締組織疾病間質性肺病綜論",
+     "citation": "Mathai SC, Danoff SK. Management of interstitial lung disease associated with connective tissue disease. BMJ 2016;352:h6819.",
+     "pmid": "26912511",
+     "doi": "10.1136/bmj.h6819"
+    }
+   ],
+   "confidence": "Medium–High (explicit definition with a disease list in Tier-2 national laboratory recommendations, PMC full text; supporting review abstracts; usage varies across the literature)",
+   "status": "ok"
+  },
+  {
+   "id": "tophus",
+   "cat": "condition",
+   "term": "痛風石",
+   "en": "tophus (plural: tophi)",
+   "aliases": [
+    "痛風石"
+   ],
+   "aka": "tophus (plural tophi); subcutaneous tophus",
+   "def": "痛風石是指尿酸結晶在組織中堆積，並引起周圍組織反應；在皮膚下、身體檢查時看得到或摸得到的，稱為皮下痛風石。",
+   "example": "常見於耳朵、手肘、手指腹，是皮膚下像粉筆般的結節。",
+   "note": "皮下痛風石和痛風發作一樣，都是臨床上看得出來的痛風表現。",
+   "label": "G-CAN 2019・定義",
+   "evidence": [
+    {
+     "quote": "In this consensus statement, we recommend the label ‘tophus’ when referring generally to MSU deposition and its host tissue response.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607",
+     "pmcid": "PMC6252290",
+     "supports": "def：痛風石＝尿酸（MSU）結晶堆積加上周圍（宿主）組織反應"
+    },
+    {
+     "quote": "The label ‘tophus’ (Latin: ‘stone’) is inextricably linked to the clinical manifestations of monosodium urate (MSU) crystal deposition [,].",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607",
+     "pmcid": "PMC6252290",
+     "supports": "def：痛風石和尿酸鈉（MSU）結晶堆積密切相關；名稱原意為「石」"
+    },
+    {
+     "quote": "The label ‘subcutaneous tophus’ should be used for tophi evident on physical examination; the use of ‘subcutaneous’ is intended to add specificity while recognizing that tophi may in fact occur in other clinically-evident anatomical locations (e.g., intradermal).",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607",
+     "pmcid": "PMC6252290",
+     "supports": "def：身體檢查時看得到或摸得到的痛風石，稱為皮下痛風石"
+    },
+    {
+     "quote": "The tophus is defined as a draining or chalk-like subcutaneous nodule under transparent skin, often with overlying vascularity. Typical locations are the ear (A), the elbow (olecranon bursa) (B) and the finger pulps (C and D).",
+     "location": "Figure 2 legend",
+     "access": "PMC full text",
+     "pmid": "26359487",
+     "doi": "10.1136/annrheumdis-2015-208237",
+     "pmcid": "PMC4602275",
+     "supports": "example：皮膚下像粉筆般的結節；常見於耳朵、手肘、手指腹"
+    },
+    {
+     "quote": "There was consensus agreement that the label 'gout' should be restricted to current or prior clinically evident disease caused by monosodium urate crystal deposition (gout flare, chronic gouty arthritis or subcutaneous tophus).",
+     "location": "Abstract (Results; PubMed version)",
+     "access": "abstract",
+     "pmid": "31501138",
+     "doi": "10.1136/annrheumdis-2019-215933",
+     "pmcid": "PMC7288724",
+     "supports": "note：皮下痛風石和痛風發作一樣，屬於臨床上看得出來的痛風表現"
+    },
+    {
+     "quote": "Recommendations in this guideline apply to patients with gout, except for a single recommendation regarding the use of ULT in individuals with asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi.",
+     "location": "Methods (scope of the recommendations)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "fit：LB-5.1 與 uric-acid 詞條補充（沒有痛風發作、也沒有皮下痛風石＝無症狀高尿酸血症）"
+    },
+    {
+     "quote": "Patients with evidence of monosodium urate monohydrate (MSU) deposition on advanced imaging may still be considered asymptomatic if they have not had a prior gout flare or subcutaneous tophi.",
+     "location": "Methods (scope of the recommendations)",
+     "access": "PMC full text",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180",
+     "pmcid": "PMC10563586",
+     "supports": "reviewer_notes：只在影像上看到結晶、沒有發作也沒有皮下痛風石，仍算無症狀"
+    },
+    {
+     "quote": "When referring to crystal deposits detectable by imaging, the label ‘imaging evidence of monosodium urate crystal deposition’ should be used.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607",
+     "pmcid": "PMC6252290",
+     "supports": "reviewer_notes：影像上才看得到的結晶堆積另有名稱，不稱為皮下痛風石"
+    }
+   ],
+   "sources": [
+    {
+     "short": "G-CAN 2019 痛風基本要素命名共識",
+     "citation": "Bursill D et al. Gout, Hyperuricemia, and Crystal-Associated Disease Network Consensus Statement Regarding Labels and Definitions for Disease Elements in Gout. Arthritis Care Res (Hoboken) 2019;71(3):427-434.",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607"
+    },
+    {
+     "short": "G-CAN 2019 痛風疾病狀態命名共識",
+     "citation": "Bursill D et al. Gout, Hyperuricaemia and Crystal-Associated Disease Network (G-CAN) consensus statement regarding labels and definitions of disease states of gout. Ann Rheum Dis 2019;78(11):1592-1600.",
+     "pmid": "31501138",
+     "doi": "10.1136/annrheumdis-2019-215933"
+    },
+    {
+     "short": "ACR/EULAR 2015 痛風分類標準",
+     "citation": "Neogi T et al. 2015 Gout classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Ann Rheum Dis 2015;74(10):1789-98.",
+     "pmid": "26359487",
+     "doi": "10.1136/annrheumdis-2015-208237"
+    },
+    {
+     "short": "ACR 2020 痛風治療指引",
+     "citation": "FitzGerald JD et al. 2020 American College of Rheumatology Guideline for the Management of Gout. Arthritis Care Res (Hoboken) 2020;72(6):744-760.",
+     "pmid": "32391934",
+     "doi": "10.1002/acr.24180"
+    }
+   ],
+   "confidence": "High (G-CAN consensus statements and ACR/EULAR 2015 criteria in PMC full text; ACR 2020 guideline PMC full text; G-CAN disease-states abstract)",
+   "status": "ok"
+  }
+ ]
+}

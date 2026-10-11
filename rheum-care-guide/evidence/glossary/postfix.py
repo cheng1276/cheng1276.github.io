@@ -349,9 +349,11 @@ POST = {
 }
 
 
-def apply(e, src_lookup):
-    """Apply POST fixes to a merged entry dict in place."""
-    p = POST.get(e['id'])
+def apply(e, src_lookup, post=None, src=None):
+    """Apply POST fixes (or another fix table with the same format) to a merged entry dict in place."""
+    post = POST if post is None else post
+    src = SRC if src is None else src
+    p = post.get(e['id'])
     if not p:
         return e
     for k in ('def', 'example', 'note', 'term', 'aliases', 'label', 'confidence', 'en', 'aka', 'exclude_pages'):
@@ -387,13 +389,20 @@ def apply(e, src_lookup):
                 x['location'] = new
                 n += 1
         assert n, (e['id'], 'no WebFetch Table 1 row')
+    for pre, loc in p.get('loc_by_prefix', {}).items():
+        n = 0
+        for x in e['evidence']:
+            if x['quote'].startswith(pre):
+                x['location'] = loc
+                n += 1
+        assert n, (e['id'], 'no evidence row starts with', pre)
     for x in p.get('add_ev', []):
         if p.get('dedupe') and any(y['quote'].strip() == x['quote'].strip() for y in e['evidence']):
             continue
         e['evidence'].append(dict(x))
         pm = str(x['pmid'])
         if not any(str(s.get('pmid')) == pm for s in e['sources']):
-            s = SRC.get(pm) or src_lookup.get(pm)
+            s = src.get(pm) or src_lookup.get(pm)
             assert s, (e['id'], 'no source record for', pm)
             e['sources'].append({k: s.get(k) for k in ('short', 'citation', 'pmid', 'doi')})
     for pm, short in p.get('src_short', {}).items():

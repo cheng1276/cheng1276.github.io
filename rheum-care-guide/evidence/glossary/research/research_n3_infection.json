@@ -1,0 +1,1182 @@
+{
+ "group": "n3_infection",
+ "entries": [
+  {
+   "id": "ltbi",
+   "cat": "condition",
+   "term": "潛伏結核",
+   "en": "latent tuberculosis infection (LTBI)",
+   "aliases": [
+    "潛伏結核"
+   ],
+   "aka": "latent tuberculosis infection (LTBI); latent TB",
+   "def": "潛伏結核是感染了結核菌、但還沒發病：沒有症狀，也還不會傳染。日後仍可能發病（再活化）成為結核病；接受治療可以預防發病。",
+   "example": "",
+   "note": "治療要按時、完整做完，才能得到預防發病的好處。",
+   "label": "WHO 2015・定義",
+   "evidence": [
+    {
+     "quote": "Latent tuberculosis infection (LTBI) is characterised by the presence of immune responses to previously acquired Mycobacterium tuberculosis infection without clinical evidence of active tuberculosis (TB).",
+     "location": "Abstract (PubMed; the PMC copy drops the italic organism name)",
+     "access": "abstract",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015",
+     "pmcid": "PMC4664608",
+     "supports": "def: 感染了結核菌、但還沒發病"
+    },
+    {
+     "quote": "The vast majority of infected persons have no signs or symptoms of TB disease and are not infectious, but they are at risk for developing active TB disease and becoming infectious [].",
+     "location": "Introduction, first paragraph ('[]' = stripped citation)",
+     "access": "PMC full text",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015",
+     "pmcid": "PMC4664608",
+     "supports": "def: 沒有症狀，也還不會傳染；日後仍可能發病"
+    },
+    {
+     "quote": "The lifetime risk of reactivation TB for a person with documented LTBI is estimated to be 5–15%, with the majority developing TB disease within the first 5 years after initial infection [].",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015",
+     "pmcid": "PMC4664608",
+     "supports": "def: 發病（再活化）成為結核病 (the percentage is not printed)"
+    },
+    {
+     "quote": "The reactivation of TB can be averted by preventive treatment.",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015",
+     "pmcid": "PMC4664608",
+     "supports": "def: 接受治療可以預防發病"
+    },
+    {
+     "quote": "Adherence to the full course and completion of LTBI treatment are important determinants of clinical benefit to the individual as well as to the success of the programme.",
+     "location": "Results, 'Adherence and completion of preventive treatment'",
+     "access": "PMC full text",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015",
+     "pmcid": "PMC4664608",
+     "supports": "note: 治療要按時、完整做完，才能得到好處"
+    },
+    {
+     "quote": "Individuals infected with Mycobacterium tuberculosis (Mtb) may develop symptoms and signs of disease (tuberculosis disease) or may have no clinical evidence of disease (latent tuberculosis infection [LTBI]).",
+     "location": "Abstract (background); the same sentence opens the PMC executive summary, where the organism name is dropped",
+     "access": "abstract",
+     "pmid": "28052967",
+     "doi": "10.1093/cid/ciw778",
+     "pmcid": "PMC5504475",
+     "supports": "def: 感染結核菌但沒有發病"
+    },
+    {
+     "quote": "In the US, tuberculosis remains an important preventable disease, including active tuberculosis, which may be infectious, and latent tuberculosis infection (LTBI), which is asymptomatic and not infectious but can later progress to active disease.",
+     "location": "Abstract (importance)",
+     "access": "abstract",
+     "pmid": "37129649",
+     "doi": "10.1001/jama.2023.4899",
+     "pmcid": "",
+     "supports": "def: 沒有症狀、還不會傳染、日後可能發病"
+    },
+    {
+     "quote": "Treatment of LTBI is effective in preventing progression to TB disease ().",
+     "location": "Introduction ('()' = stripped citation)",
+     "access": "PMC full text",
+     "pmid": "32053584",
+     "doi": "10.15585/mmwr.rr6901a1",
+     "pmcid": "PMC7041302",
+     "supports": "def: 接受治療可以預防發病"
+    }
+   ],
+   "sources": [
+    {
+     "short": "WHO（世界衛生組織）2015 潛伏結核感染管理指引摘要論文",
+     "citation": "Getahun H et al. Management of latent Mycobacterium tuberculosis infection: WHO guidelines for low tuberculosis burden countries. Eur Respir J 2015;46(6):1563-76.",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015"
+    },
+    {
+     "short": "ATS/IDSA/CDC（美國的胸腔醫學會、感染症醫學會與疾病管制與預防中心）2017 結核病診斷指引",
+     "citation": "Lewinsohn DM et al. Official American Thoracic Society/Infectious Diseases Society of America/Centers for Disease Control and Prevention Clinical Practice Guidelines: Diagnosis of Tuberculosis in Adults and Children. Clin Infect Dis 2017;64(2):111-115.",
+     "pmid": "28052967",
+     "doi": "10.1093/cid/ciw778"
+    },
+    {
+     "short": "USPSTF（美國的預防服務工作小組）2023 成人潛伏結核篩檢建議",
+     "citation": "US Preventive Services Task Force; Mangione CM et al. Screening for Latent Tuberculosis Infection in Adults: US Preventive Services Task Force Recommendation Statement. JAMA 2023;329(17):1487-1494.",
+     "pmid": "37129649",
+     "doi": "10.1001/jama.2023.4899"
+    },
+    {
+     "short": "NTCA/CDC（美國的結核病防治主管協會與疾病管制與預防中心）2020 潛伏結核治療指引",
+     "citation": "Sterling TR et al. Guidelines for the Treatment of Latent Tuberculosis Infection: Recommendations from the National Tuberculosis Controllers Association and CDC, 2020. MMWR Recomm Rep 2020;69(1):1-11.",
+     "pmid": "32053584",
+     "doi": "10.15585/mmwr.rr6901a1"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "igra",
+   "cat": "test",
+   "term": "潛伏結核檢驗（IGRA 與皮膚測試）",
+   "en": "interferon-gamma release assay (IGRA) and tuberculin skin test (TST)",
+   "aliases": [
+    "IGRA",
+    "皮膚測試"
+   ],
+   "aka": "interferon-gamma release assay (IGRA); tuberculin skin test (TST)",
+   "def": "IGRA（抽血）和皮膚測試（結核菌素皮膚測試）都是看身體對結核菌有沒有免疫反應，可顯示是否感染過結核菌，但無法分辨是潛伏結核還是已經發病。",
+   "example": "",
+   "note": "皮膚測試較易受類固醇等藥物影響；免疫力較低時兩者都可能偽陰性，醫師會配合症狀和胸部 X 光判斷。",
+   "label": "ATS/IDSA/CDC 2017・指引說明",
+   "evidence": [
+    {
+     "quote": "While both IGRA and TST testing provide evidence for infection with Mtb, they cannot distinguish active from latent TB.",
+     "location": "Executive summary, after the LTBI testing recommendations",
+     "access": "PMC full text",
+     "pmid": "28052967",
+     "doi": "10.1093/cid/ciw778",
+     "pmcid": "PMC5504475",
+     "supports": "def: 可顯示是否感染過結核菌，但無法分辨是潛伏結核還是已經發病"
+    },
+    {
+     "quote": "Therefore, the diagnosis of active TB must be excluded prior to embarking on treatment for LTBI. This is typically done by determining whether or not symptoms suggestive of TB disease are present, performing a chest radiograph and, if radiographic signs of active TB (eg, airspace opacities, pleural effusions, cavities, or changes on serial radiographs) are seen, then sampling is performed and the patient managed accordingly.",
+     "location": "Executive summary, sentences immediately after the previous quote",
+     "access": "PMC full text",
+     "pmid": "28052967",
+     "doi": "10.1093/cid/ciw778",
+     "pmcid": "PMC5504475",
+     "supports": "note: 醫師會配合症狀和胸部 X 光判斷"
+    },
+    {
+     "quote": "They represent indirect markers of Mycobacterium tuberculosis exposure and indicate a cellular immune response to M. tuberculosis.",
+     "location": "Abstract (PubMed; 'They' = the TST and the IGRA; the PMC copy drops the italic organism names)",
+     "access": "abstract",
+     "pmid": "24396134",
+     "doi": "10.1128/CMR.00034-13",
+     "pmcid": "PMC3910908",
+     "supports": "def: 都是看身體對結核菌有沒有免疫反應"
+    },
+    {
+     "quote": "Neither test can accurately differentiate between LTBI and active TB, distinguish reactivation from reinfection, or resolve the various stages within the spectrum of M. tuberculosis infection.",
+     "location": "Abstract (PubMed)",
+     "access": "abstract",
+     "pmid": "24396134",
+     "doi": "10.1128/CMR.00034-13",
+     "pmcid": "PMC3910908",
+     "supports": "def: 無法分辨是潛伏結核還是已經發病"
+    },
+    {
+     "quote": "Both TST and IGRA have reduced sensitivity in immunocompromised patients and have low predictive value for progression to active TB.",
+     "location": "Abstract (PubMed)",
+     "access": "abstract",
+     "pmid": "24396134",
+     "doi": "10.1128/CMR.00034-13",
+     "pmcid": "PMC3910908",
+     "supports": "note: 免疫力較低時兩者都可能偽陰性 (reduced sensitivity = more false-negative results)"
+    },
+    {
+     "quote": "Interferon-γ release assays (IGRAs) are blood tests that measure ex vivo T-lymphocyte release of interferon-γ after stimulation by antigens specific for M tuberculosis.",
+     "location": "Abstract (technical report; paediatric population)",
+     "access": "abstract",
+     "pmid": "25422024",
+     "doi": "10.1542/peds.2014-2983",
+     "pmcid": "",
+     "supports": "def: IGRA 是抽血檢驗，看免疫細胞對結核菌抗原的反應"
+    },
+    {
+     "quote": "Unfortunately, neither method distinguishes between TB infection and TB disease.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25422024",
+     "doi": "10.1542/peds.2014-2983",
+     "pmcid": "",
+     "supports": "def: 無法分辨是潛伏結核還是已經發病"
+    },
+    {
+     "quote": "Either commercial interferon-gamma release assays or Mantoux tuberculin skin testing could be used to test for LTBI.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015",
+     "pmcid": "PMC4664608",
+     "supports": "def: 兩者都是用來檢查潛伏結核（感染）的檢驗"
+    },
+    {
+     "quote": "Interferon gamma release assay should be preferred over tuberculin skin test, where available.",
+     "location": "Abstract (PubMed)",
+     "access": "abstract",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335",
+     "pmcid": "",
+     "supports": "site usage IF-2.3: 有條件時優先用抽血檢驗"
+    },
+    {
+     "quote": "For tuberculosis, tuberculin skin test (TST) is affected by treatment with glucocorticoids and conventional synthetic disease modifying anti-rheumatic drugs (DMARDs) and its performance is inferior to interferon gamma release assay (IGRA).",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726",
+     "pmcid": "PMC9639159",
+     "supports": "note: 皮膚測試較易受類固醇等藥物影響"
+    },
+    {
+     "quote": "In TB, IGRA seems to perform better than TST and appears to be less affected by factors such as previous vaccination with BCG or concurrent treatment with glucocorticoids.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726",
+     "pmcid": "PMC9639159",
+     "supports": "note: 皮膚測試「較」易受類固醇影響 (comparison with IGRA)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ATS/IDSA/CDC（美國的胸腔醫學會、感染症醫學會與疾病管制與預防中心）2017 結核病診斷指引",
+     "citation": "Lewinsohn DM et al. Official American Thoracic Society/Infectious Diseases Society of America/Centers for Disease Control and Prevention Clinical Practice Guidelines: Diagnosis of Tuberculosis in Adults and Children. Clin Infect Dis 2017;64(2):111-115.",
+     "pmid": "28052967",
+     "doi": "10.1093/cid/ciw778"
+    },
+    {
+     "short": "Pai 2014 IGRA 綜論（Clin Microbiol Rev）",
+     "citation": "Pai M et al. Gamma interferon release assays for detection of Mycobacterium tuberculosis infection. Clin Microbiol Rev 2014;27(1):3-20.",
+     "pmid": "24396134",
+     "doi": "10.1128/CMR.00034-13"
+    },
+    {
+     "short": "Starke 2014 兒童 IGRA 技術報告（Pediatrics）",
+     "citation": "Starke JR et al. Interferon-γ release assays for diagnosis of tuberculosis infection and disease in children. Pediatrics 2014;134(6):e1763-73.",
+     "pmid": "25422024",
+     "doi": "10.1542/peds.2014-2983"
+    },
+    {
+     "short": "WHO（世界衛生組織）2015 潛伏結核感染管理指引摘要論文",
+     "citation": "Getahun H et al. Management of latent Mycobacterium tuberculosis infection: WHO guidelines for low tuberculosis burden countries. Eur Respir J 2015;46(6):1563-76.",
+     "pmid": "26405286",
+     "doi": "10.1183/13993003.01245-2015"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2022 慢性與伺機性感染篩檢及預防建議",
+     "citation": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2023;82(6):742-753.",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335"
+    },
+    {
+     "short": "EULAR 2022 感染篩檢建議之系統性文獻回顧",
+     "citation": "Fragoulis GE et al. Systematic literature review informing the 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. RMD Open 2022;8(2):e002726.",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "hbv-serology",
+   "cat": "test",
+   "term": "B 型肝炎表面抗原、表面抗體與核心抗體",
+   "en": "hepatitis B surface antigen (HBsAg), surface antibody (anti-HBs) and core antibody (anti-HBc)",
+   "aliases": [
+    "表面抗原",
+    "表面抗體",
+    "核心抗體"
+   ],
+   "aka": "hepatitis B surface antigen (HBsAg); antibody to hepatitis B surface antigen (anti-HBs); antibody to hepatitis B core antigen (anti-HBc, anti-HBcore)",
+   "def": "三項 B 型肝炎抽血檢查：表面抗原陽性表示目前感染（帶原者屬於這類）；表面抗體陽性表示打過疫苗有免疫力，或曾感染已痊癒；核心抗體陽性表示正在或曾經感染，打疫苗不會使它陽性。",
+   "example": "三項都陰性：沒感染過也沒有免疫力，可和醫師討論打疫苗。",
+   "note": "曾感染過的人即使有表面抗體，仍可能再活化，需依醫師安排追蹤。",
+   "label": "AASLD 2018・指引說明",
+   "evidence": [
+    {
+     "quote": "3.1 Screening should include HBsAg, anti-HBs and anti-HBc.",
+     "location": "Recommendations, 3 'What will be screened?'",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def: 三項抽血檢查 (site source for IF-3.1)"
+    },
+    {
+     "quote": "The three main serologic markers used to determine HBV infection status are hepatitis B surface antigen (HBsAg), antibody to hepatitis B surface antigen (anti-HBs), and antibody to hepatitis B core antigen (anti-HBc) ().",
+     "location": "'Interpretation of Screening Tests' ('()' = stripped citation)",
+     "access": "PMC full text",
+     "pmid": "36893044",
+     "doi": "10.15585/mmwr.rr7201a1",
+     "pmcid": "PMC9997714",
+     "supports": "def: 三項抽血檢查用來判斷 B 型肝炎感染狀態"
+    },
+    {
+     "quote": "Chronic vs acute infection is defined by the presence of HBsAg for at least 6 months.",
+     "location": "Section 1A 'Screening'",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def: 表面抗原陽性表示目前感染 (persistent positivity = chronic infection; the 6-month figure is not printed)"
+    },
+    {
+     "quote": "1.1.1. Exacerbation of chronic HBV infection (HBsAg +)",
+     "location": "Recommendations, 1.1 'Reactivation of HBV' (heading of the definition for HBsAg-positive patients)",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def: 表面抗原陽性 = 慢性感染（帶原者）; site IF-3.3"
+    },
+    {
+     "quote": "Evidence suggests that HBV carriers (HBsAg-positive) would benefit from prophylactic treatment, and thus it is advised that",
+     "location": "Text under Recommendation 4 (sentence continues; WebFetch returns short segments only)",
+     "access": "WebFetch",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335",
+     "pmcid": "",
+     "supports": "def: 帶原者 = 表面抗原陽性 (site source for IF-3.3)"
+    },
+    {
+     "quote": "Alternatively, antibody to hepatitis B core antigen (anti-HBc) can be utilized for screening as long as those who test positive are further tested for both HBsAg and anti-HBs to differentiate current infection from previous HBV exposure.",
+     "location": "Section 1A 'Screening'",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def: 核心抗體陽性表示正在或曾經感染; 表面抗原區分「目前感染」"
+    },
+    {
+     "quote": "HBV vaccination does not lead to anti-HBc positivity.",
+     "location": "Section 1A 'Screening' (sentence after the previous quote)",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def: 打疫苗不會使核心抗體陽性"
+    },
+    {
+     "quote": "1.1.2. Reactivation of past HBV infection (HBsAg negative, anti-HBc positive) after the start of immunosuppressive therapy",
+     "location": "Recommendations, 1.1 'Reactivation of HBV'",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def: 核心抗體陽性、表面抗原陰性 = 曾經感染 (site IF-3.4)"
+    },
+    {
+     "quote": "Resolved infection / Negative / Positive / Positive / Negative / Counsel about HBV infection reactivation risk",
+     "location": "Table 1 'Interpretation of screening test results for hepatitis B virus infection and recommended actions'; columns: Clinical state / HBsAg / Anti-HBs / Total anti-HBc / IgM anti-HBc / Action ('/' marks cell breaks in the extracted table)",
+     "access": "PMC full text",
+     "pmid": "36893044",
+     "doi": "10.15585/mmwr.rr7201a1",
+     "pmcid": "PMC9997714",
+     "supports": "def: 表面抗體陽性（加核心抗體陽性）= 曾感染已痊癒; note: 仍有再活化風險"
+    },
+    {
+     "quote": "Immune (immunity inferred from receipt of previous vaccination) / Negative / Positive / Negative / Negative / Reassure if history of HepB vaccine series completion; if partially vaccinated, complete vaccine series per ACIP recommendations",
+     "location": "Table 1 (same table and column order as above)",
+     "access": "PMC full text",
+     "pmid": "36893044",
+     "doi": "10.15585/mmwr.rr7201a1",
+     "pmcid": "PMC9997714",
+     "supports": "def: 表面抗體陽性（核心抗體陰性）= 打過疫苗有免疫力"
+    },
+    {
+     "quote": "Chronic infection / Positive / Negative / Positive / Negative / Link to HBV infection care",
+     "location": "Table 1 (same table and column order as above)",
+     "access": "PMC full text",
+     "pmid": "36893044",
+     "doi": "10.15585/mmwr.rr7201a1",
+     "pmcid": "PMC9997714",
+     "supports": "def: 表面抗原陽性 = 目前（慢性）感染"
+    },
+    {
+     "quote": "Susceptible, never infected / Negative / Negative** / Negative / Negative / Offer HepB vaccine per ACIP recommendations",
+     "location": "Table 1 (same table and column order as above; ** footnote: anti-HBs may wane among vaccine responders)",
+     "access": "PMC full text",
+     "pmid": "36893044",
+     "doi": "10.15585/mmwr.rr7201a1",
+     "pmcid": "PMC9997714",
+     "supports": "example: 三項都陰性＝沒感染過也沒有免疫力，可討論打疫苗 (site IF-3.T)"
+    },
+    {
+     "quote": "Anti-HBs–negative screened persons should be vaccinated.",
+     "location": "'Guidance Statements on Screening for Hepatitis B Infection'",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "example: 可和醫師討論打疫苗"
+    },
+    {
+     "quote": "In keeping with this, resolution of HBV infection with loss of HBsAg with or without the development of anti-HBs has been demonstrated to require CD4 helper T cells for the efficient development of virus-specific adaptive CD8 T cell responses and B-cell antibody production [].",
+     "location": "'Immunopathogenesis of hepatitis due to HBV reactivation'",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def: 曾感染痊癒後表面抗原消失，可能產生表面抗體"
+    },
+    {
+     "quote": "The presence of anti-HBs does not prevent HBV reactivation, but anti-HBs may be useful for detecting prior infection in HBsAg negative, anti-HBc positive patients, and in surveillance as the loss of anti-HBs may be a predictor of HBV reactivation (–).",
+     "location": "Section 6D.2 'Screening Recommendations in the Setting of Immunosuppressive or Cytotoxic Drugs' ('(–)' = stripped citations)",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "note: 曾感染過的人即使有表面抗體，仍可能再活化"
+    },
+    {
+     "quote": "Anti-HBcore positive patients are at low risk for reactivation but should be monitored periodically with liver function tests and/or HBV-viral load.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726",
+     "pmcid": "PMC9639159",
+     "supports": "note: 需依醫師安排追蹤"
+    }
+   ],
+   "sources": [
+    {
+     "short": "AASLD（美國的肝臟醫學會）2018 B 型肝炎指引更新",
+     "citation": "Terrault NA et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology 2018;67(4):1560-1599.",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800"
+    },
+    {
+     "short": "APASL（亞太的肝臟醫學會）2021 免疫抑制治療相關 B 型肝炎再活化指引",
+     "citation": "Lau G et al. APASL clinical practice guideline on hepatitis B reactivation related to the use of immunosuppressive therapy. Hepatol Int 2021;15(5):1031-1048.",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x"
+    },
+    {
+     "short": "美國 CDC（疾病管制與預防中心）2023 B 型肝炎篩檢與檢驗建議",
+     "citation": "Conners EE et al. Screening and Testing for Hepatitis B Virus Infection: CDC Recommendations - United States, 2023. MMWR Recomm Rep 2023;72(1):1-25.",
+     "pmid": "36893044",
+     "doi": "10.15585/mmwr.rr7201a1"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2022 慢性與伺機性感染篩檢及預防建議",
+     "citation": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2023;82(6):742-753.",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335"
+    },
+    {
+     "short": "EULAR 2022 感染篩檢建議之系統性文獻回顧",
+     "citation": "Fragoulis GE et al. Systematic literature review informing the 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. RMD Open 2022;8(2):e002726.",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "hbv-reactivation",
+   "cat": "condition",
+   "term": "B 型肝炎再活化",
+   "en": "hepatitis B virus (HBV) reactivation",
+   "aliases": [
+    "B 型肝炎再活化"
+   ],
+   "aka": "hepatitis B virus reactivation (HBVr); HBV reactivation",
+   "def": "B 型肝炎再活化是指在免疫抑制治療期間，身體壓不住 B 型肝炎病毒，病毒又明顯增加；帶原者和已痊癒的人都可能發生，之後可能引起肝炎發作。",
+   "example": "",
+   "note": "帶原者的風險比已痊癒者高；嚴重時可能造成黃疸或肝衰竭。",
+   "label": "AASLD 2018・定義",
+   "evidence": [
+    {
+     "quote": "HBV reactivation reflects the loss of HBV immune control in HBsAg-positive, anti-HBc–positive or HBsAg-negative, anti-HBc–positive patients receiving immunosuppressive therapy for a concomitant medical condition.",
+     "location": "Section 6D.1 'Definitions for HBV Reactivation and Associated Outcomes'",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def: 免疫抑制治療期間身體壓不住病毒；帶原者和已痊癒的人都可能發生"
+    },
+    {
+     "quote": "The criteria for HBV reactivation (–) include the following: (i) a rise in HBV DNA compared to baseline (or an absolute level of HBV DNA when a baseline is unavailable) and (ii) reverse seroconversion (seroreversion) from HBsAg negative to HBsAg positive for HBsAg-negative and anti-HBc–positive patients.",
+     "location": "Section 6D.1 ('(–)' = stripped citations)",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def: 病毒又明顯增加 (numeric criteria in 6D.1 not printed)"
+    },
+    {
+     "quote": "Following HBV reactivation, a hepatitis flare demonstrated by ALT elevation can occur.",
+     "location": "Section 6D.1",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def: 之後可能引起肝炎發作"
+    },
+    {
+     "quote": "The initial phase is characterized by enhanced viral replication accompanied by markedly increase hepatic expression of viral antigen.",
+     "location": "'Immunopathogenesis of hepatitis due to HBV reactivation' (grammar as printed)",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def: 病毒又明顯增加"
+    },
+    {
+     "quote": "It is the persistence of these low levels of cccDNA in hepatocytes which are thought to explain the long-term risk of HBVr with potent IST that exists even in individuals who have cleared the HBV infection, with serological clearance of hepatitis B surface antigen (HBsAg) [].",
+     "location": "'Immunopathogenesis of hepatitis due to HBV reactivation'",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def: 已痊癒的人也可能發生 (site IF-3.2)"
+    },
+    {
+     "quote": "The risk of HBVr is 5 to 8 times higher among those patients who are HBsAg-positive as compared to those who were HBsAg negative but anti-HBc positive.",
+     "location": "'Risk stratification'",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "note: 帶原者的風險比已痊癒者高 (the multiple is not printed)"
+    },
+    {
+     "quote": "The immune response to the markedly enhanced hepatic expression of HBV antigen leads to liver injury, manifested as hepatitis, icteric hepatitis and fulminant acute-on-chronic hepatic failure",
+     "location": "'Immunopathogenesis of hepatitis due to HBV reactivation' (sentence ends with a figure reference whose number was dropped in extraction; quoted up to 'failure')",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "note: 嚴重時可能造成黃疸或肝衰竭"
+    },
+    {
+     "quote": "Hepatitis B reactivation related to the use of immunosuppressive therapy remains a major cause of liver-related morbidity and mortality in hepatitis B endemic Asia-Pacific region.",
+     "location": "Abstract (background)",
+     "access": "abstract",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "context: why reactivation matters in Taiwan's region"
+    }
+   ],
+   "sources": [
+    {
+     "short": "AASLD（美國的肝臟醫學會）2018 B 型肝炎指引更新",
+     "citation": "Terrault NA et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology 2018;67(4):1560-1599.",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800"
+    },
+    {
+     "short": "APASL（亞太的肝臟醫學會）2021 免疫抑制治療相關 B 型肝炎再活化指引",
+     "citation": "Lau G et al. APASL clinical practice guideline on hepatitis B reactivation related to the use of immunosuppressive therapy. Hepatol Int 2021;15(5):1031-1048.",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "tsdmard",
+   "cat": "drug",
+   "term": "口服標靶藥物（JAK 抑制劑）",
+   "en": "targeted synthetic DMARDs (tsDMARDs), such as JAK inhibitors",
+   "aliases": [
+    "口服標靶藥物",
+    "JAK 抑制劑"
+   ],
+   "aka": "targeted synthetic disease-modifying antirheumatic drugs (tsDMARDs); Janus kinase inhibitors (JAKi)",
+   "def": "口服標靶藥物指「標靶合成」抗風濕藥物（tsDMARDs），是針對身體裡特定分子設計的藥。JAK 抑制劑是其中一類，是用吃的小分子藥物。",
+   "example": "例如 tofacitinib、baricitinib、upadacitinib",
+   "note": "嚴重感染風險和生物製劑相近；用藥前也要篩檢潛伏結核。",
+   "label": "DMARD 命名 2014・分類",
+   "evidence": [
+    {
+     "quote": "tsDMARDs would then constitute only those that were specifically developed to target a particular molecular structure (such as tofacitinib, fostamatinib, baricitinib or apremilast, or agents not focused primarily on rheumatic diseases, such as imatinib or ibrutinib), while csDMARDs would comprise the traditional drugs (such as methotrexate, sulfasalazine, leflunomide, hydroxychloroquine, gold salts and others).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317",
+     "pmcid": "",
+     "supports": "def: 標靶合成抗風濕藥物是針對特定分子設計的藥 (same source as the existing dmard entry)"
+    },
+    {
+     "quote": "The task force agreed on 5 overarching principles and reduced the number of recommendations to 9 concerning use of conventional synthetic DMARDs (methotrexate [MTX], leflunomide, sulfasalazine); glucocorticoids (GCs); biological (b)DMARDs (tumour necrosis factor inhibitors [adalimumab, certolizumab pegol, etanercept, golimumab, infliximab], abatacept, rituximab, tocilizumab, sarilumab, including biosimilars) and targeted synthetic [ts]DMARDs (namely the Janus kinase inhibitors [JAKi] tofacitinib, baricitinib, filgotinib, upadacitinib).",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "41826212",
+     "doi": "10.1016/j.ard.2026.01.023",
+     "pmcid": "",
+     "supports": "def: JAK 抑制劑屬於標靶合成抗風濕藥物; example: generic names"
+    },
+    {
+     "quote": "This will likely change with the advent of Janus kinase (JAK)-inhibitors (JAKi), a new class of targeted synthetic DMARDs (tsDMARDs) that interfere with signal transduction pathways of a variety of cytokines and thereby have the potential to mediate immune modulatory benefits across a broad range of pathologies and their clinical phenotypes.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "33158881",
+     "doi": "10.1136/annrheumdis-2020-218398",
+     "pmcid": "PMC7788060",
+     "supports": "def: JAK 抑制劑是標靶合成抗風濕藥物中的一類"
+    },
+    {
+     "quote": "JAKi reversibly inhibit kinase signalling for varying periods of the dosing cycle. They are oral small molecules that act intracellularly and prevent the phosphorylation of JAKs.",
+     "location": "Introduction (mode of action)",
+     "access": "PMC full text",
+     "pmid": "33158881",
+     "doi": "10.1136/annrheumdis-2020-218398",
+     "pmcid": "PMC7788060",
+     "supports": "def: 用吃的小分子藥物"
+    },
+    {
+     "quote": "Serious infections (similar to bDMARDs), opportunistic infections including TB, Herpes zoster* (increased rates compared to bDMARDs); the risk of infectious events can be lowered with reduction or elimination of concomitant glucocorticoid use.",
+     "location": "Table 1, item V.1 (adverse events)",
+     "access": "PMC full text",
+     "pmid": "33158881",
+     "doi": "10.1136/annrheumdis-2020-218398",
+     "pmcid": "PMC7788060",
+     "supports": "note: 嚴重感染風險和生物製劑相近 (zoster comparison already on the site, IF-5.2)"
+    },
+    {
+     "quote": "In addition to biologic/targeted synthetic disease-modifying antirheumatic drugs (DMARDs) for which screening for latent tuberculosis (TB) should be performed, screening could be considered also before conventional synthetic DMARDs, glucocorticoids and immunosuppressants.",
+     "location": "Abstract (results)",
+     "access": "abstract",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335",
+     "pmcid": "",
+     "supports": "note: 用藥前也要篩檢潛伏結核 (site IF-2.2)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "DMARD 新命名提案 2014（Smolen 等）",
+     "citation": "Smolen JS et al. Proposal for a new nomenclature of disease-modifying antirheumatic drugs. Ann Rheum Dis 2014;73(1):3-5.",
+     "pmid": "24072562",
+     "doi": "10.1136/annrheumdis-2013-204317"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2025 類風濕性關節炎用藥建議",
+     "citation": "Smolen JS et al. EULAR recommendations for the management of rheumatoid arthritis with synthetic and biologic disease-modifying antirheumatic drugs: 2025 update. Ann Rheum Dis 2026;85(6):991-1009.",
+     "pmid": "41826212",
+     "doi": "10.1016/j.ard.2026.01.023"
+    },
+    {
+     "short": "JAK 抑制劑國際共識 2021（Nash 等；2024 年已更新）",
+     "citation": "Nash P et al. Points to consider for the treatment of immune-mediated inflammatory diseases with Janus kinase inhibitors: a consensus statement. Ann Rheum Dis 2021;80(1):71-87.",
+     "pmid": "33158881",
+     "doi": "10.1136/annrheumdis-2020-218398"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2022 慢性與伺機性感染篩檢及預防建議",
+     "citation": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2023;82(6):742-753.",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "adrenal",
+   "cat": "condition",
+   "term": "腎上腺功能不足與腎上腺危象",
+   "en": "adrenal insufficiency and adrenal crisis",
+   "aliases": [
+    "腎上腺功能不足",
+    "腎上腺危象"
+   ],
+   "aka": "glucocorticoid-induced adrenal insufficiency; adrenal crisis (acute adrenal insufficiency, Addisonian crisis); HPA axis suppression",
+   "def": "腎上腺功能不足是腎上腺做不出足夠的皮質醇（身體自己的類固醇）；長期用類固醇會壓抑身體自己製造。腎上腺危象是它的急性發作，少見但會危及生命，必須緊急治療。",
+   "example": "可能誘因：漏吃藥、腸胃炎，或感染、外傷、手術等壓力",
+   "note": "使用類固醇期間或剛停藥，若嘔吐、腹瀉或吃不下藥，請盡快就醫。",
+   "label": "ESE/ES 2024・指引說明",
+   "evidence": [
+    {
+     "quote": "Suppression of the hypothalamic-pituitary-adrenal (HPA) axis is an inevitable effect of chronic exogenous glucocorticoid therapy and recovery of adrenal function varies greatly amongst individuals.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def: 長期用類固醇會壓抑身體自己製造"
+    },
+    {
+     "quote": "With regards to glucocorticoid therapy, immunosuppressive and anti-inflammatory doses considerably exceed the equivalent of endogenous cortisol production and, therefore, invariably result in HPA axis suppression.",
+     "location": "'Pathophysiology of Glucocorticoid-induced Adrenal Insufficiency'",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def: 皮質醇是身體自己製造的類固醇；治療劑量會壓抑自身製造"
+    },
+    {
+     "quote": "Prior studies have shown that adrenal insufficiency may last even up to 2-4 years after glucocorticoid cessation, owing to slow recovery of adrenal cortisol production (,,).",
+     "location": "Rationale for R 2.11 ('(,,)' = stripped citations)",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def: 腎上腺功能不足 = 腎上腺製造皮質醇不足 (also fits IF-4.3 「剛停用」)"
+    },
+    {
+     "quote": "Glucocorticoid-induced adrenal insufficiency necessitates careful education and management, and in the rare cases of adrenal crisis, prompt diagnosis and therapy ().",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def: 腎上腺危象少見，需要緊急診斷與治療"
+    },
+    {
+     "quote": "Adrenal crisis (also known as acute adrenal insufficiency or Addisonian crisis) can occur in patients taking oral supraphysiologic doses of glucocorticoids, if drug availability suddenly decreases (eg, missed doses, gastroenteritis). It is a life-threatening emergency that must be promptly recognized and treated.",
+     "location": "Rationale under the adrenal crisis recommendations (section 3)",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def: 腎上腺危象是急性發作、會危及生命、必須緊急治療; example: 漏吃藥、腸胃炎 (site IF-4.2)"
+    },
+    {
+     "quote": "Adrenal crisis is characterized by the inability of the adrenal cortex to produce enough cortisol to respond appropriately to stressors such as infections, trauma, and surgery ().",
+     "location": "Rationale under the adrenal crisis recommendations",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def: 腎上腺做不出足夠的皮質醇; example: 感染、外傷、手術等壓力"
+    },
+    {
+     "quote": "Patients with glucocorticoid-induced adrenal insufficiency may be asymptomatic at baseline conditions but can develop symptoms—from mild to life-threatening adrenal crisis—when exposed to potential triggers",
+     "location": "Table 5, general remarks (sentence continues with a table cross-reference; quoted up to 'triggers')",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def: 腎上腺危象是腎上腺功能不足遇到誘因時的嚴重發作"
+    },
+    {
+     "quote": "R 3.2—We suggest that in patients with current or recent glucocorticoid use who did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency and present with hemodynamic instability, vomiting, or diarrhea, the diagnosis of adrenal crisis should be considered irrespective of the glucocorticoid type, mode of administration, and dose; patients with suspected adrenal crisis should be treated with parenteral glucocorticoids and fluid resuscitation. (Good clinical practice)",
+     "location": "Summary of recommendations, R 3.2",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "note: 使用類固醇期間或剛停藥，嘔吐、腹瀉時請盡快就醫 (site IF-S2)"
+    },
+    {
+     "quote": "In patients with suspected reduced absorption (persistent vomiting or diarrhea), nil by mouth, or unable to take tablets, give stress-dose glucocorticoids I.V. or I.M.",
+     "location": "Table 8 (stress dosing), one cell; in the PMC extraction the cell boundaries run into the neighbouring cells, but the quoted words are intact (doses in the table are not used)",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "note: 吃不下藥時需要醫療處置"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ESE/ES 2024 類固醇引起腎上腺功能不全指引（歐洲的內分泌學會與美國的內分泌學會）",
+     "citation": "Beuschlein F et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109(7):1657-1683.",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "pjp",
+   "cat": "condition",
+   "term": "肺囊蟲肺炎",
+   "en": "Pneumocystis jirovecii pneumonia (PJP/PCP)",
+   "aliases": [
+    "肺囊蟲肺炎"
+   ],
+   "aka": "Pneumocystis jirovecii pneumonia (PJP); Pneumocystis pneumonia (PCP)",
+   "def": "肺囊蟲肺炎是由肺囊蟲（Pneumocystis jirovecii）引起的肺炎；肺囊蟲名稱有「蟲」，其實是一種真菌。主要發生在免疫力較低的人，可能致命。",
+   "example": "",
+   "note": "使用高劑量類固醇（尤其合併免疫抑制劑）會增加風險，醫師可能評估是否用藥預防。",
+   "label": "美國移植學會 2019・定義",
+   "evidence": [
+    {
+     "quote": "These updated guidelines from the Infectious Diseases Community of Practice of the American Society of Transplantation review the diagnosis, prevention, and management of Pneumocystis jiroveci fungal infection transplant recipients.",
+     "location": "Abstract, first sentence (wording as printed, including the missing 'in')",
+     "access": "abstract",
+     "pmid": "31077616",
+     "doi": "10.1111/ctr.13587",
+     "pmcid": "",
+     "supports": "def: 肺囊蟲是一種真菌"
+    },
+    {
+     "quote": "Pneumocystis jirovecii infection (PJP) is a common cause of pneumonia in patients with cancer-related immunosuppression.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "25482745",
+     "doi": "10.1111/imj.12599",
+     "pmcid": "",
+     "supports": "def: 主要發生在免疫力較低的人"
+    },
+    {
+     "quote": "Pneumocystis jirovecii (P. jirovecii) causes a potentially fatal pneumonia in immunocompromised individuals (Pneumocystis pneumonia or PcP), particularly in HIV-infected patients and those treated with immunosuppressive drugs, such as transplant patients and those with systemic autoimmune diseases.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "30853123",
+     "doi": "10.1016/j.medcli.2019.01.010",
+     "pmcid": "",
+     "supports": "def: 免疫力較低的人（包括用免疫抑制藥物的自體免疫病人）可能發生、可能致命"
+    },
+    {
+     "quote": "However, prophylaxis in patients with various AIIRD receiving prednisolone more than 15–30 mg/day for more than 2–4 weeks, has been found to reduce episodes of PCP and associated mortality().",
+     "location": "Results, 'Pneumocystis jirovecii' ('()' = stripped citation; doses are not printed)",
+     "access": "PMC full text",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726",
+     "pmcid": "PMC9639159",
+     "supports": "def: 可能致命 (PCP-associated mortality)"
+    },
+    {
+     "quote": "Finally, treatment with glucocorticoids (although the exact dose/duration of treatment is not well defined) appears to be a significant risk factor for PCP development and therefore prophylaxis with TMP/SMX is a reasonable approach for these patients.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726",
+     "pmcid": "PMC9639159",
+     "supports": "note: 類固醇會增加風險；可考慮用藥預防"
+    },
+    {
+     "quote": "Absolute peripheral lymphopenia, high doses of corticosteroids, combination with other immunosuppressive agents, and concomitant lung disease are strong predictors for the development of PJP and thus should warrant primary prophylaxis.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "32502592",
+     "doi": "10.1016/j.chest.2020.05.558",
+     "pmcid": "",
+     "supports": "note: 高劑量類固醇、合併其他免疫抑制藥物會增加風險"
+    },
+    {
+     "quote": "The combined use of glucocorticoid with other immunosuppressants increased the risk of PCP in AIID patients and resulted in poorer prognoses.",
+     "location": "Abstract (conclusions)",
+     "access": "abstract",
+     "pmid": "36149536",
+     "doi": "10.1007/s10067-022-06381-y",
+     "pmcid": "",
+     "supports": "note: 尤其合併免疫抑制劑"
+    },
+    {
+     "quote": "Prophylaxis against PCP should be considered in patients with AIIRD in whom high doses of glucocorticoids are used, especially in combination with immunosuppressants* and depending on the risk–benefit ratio.",
+     "location": "Table 1, Recommendation 8 (read as two WebFetch segments; consistent with evidence file C53)",
+     "access": "WebFetch",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335",
+     "pmcid": "",
+     "supports": "note: 醫師可能評估是否用藥預防 (site source for IF-4.4)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "AST（美國的移植學會）2019 器官移植肺囊蟲指引",
+     "citation": "Fishman JA, Gans H. Pneumocystis jiroveci in solid organ transplantation: Guidelines from the American Society of Transplantation Infectious Diseases Community of Practice. Clin Transplant 2019;33(9):e13587.",
+     "pmid": "31077616",
+     "doi": "10.1111/ctr.13587"
+    },
+    {
+     "short": "2014 血液與實體腫瘤病人肺囊蟲肺炎共識指引（Intern Med J）",
+     "citation": "Cooley L et al. Consensus guidelines for diagnosis, prophylaxis and management of Pneumocystis jirovecii pneumonia in patients with haematological and solid malignancies, 2014. Intern Med J 2014;44(12b):1350-63.",
+     "pmid": "25482745",
+     "doi": "10.1111/imj.12599"
+    },
+    {
+     "short": "Braga 2019 自體免疫病肺囊蟲肺炎預防綜論",
+     "citation": "Braga BP et al. Pneumocystis jirovecii pneumonia prophylaxis in immunocompromised patients with systemic autoimmune diseases. Med Clin (Barc) 2019;152(12):502-507.",
+     "pmid": "30853123",
+     "doi": "10.1016/j.medcli.2019.01.010"
+    },
+    {
+     "short": "EULAR 2022 感染篩檢建議之系統性文獻回顧",
+     "citation": "Fragoulis GE et al. Systematic literature review informing the 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. RMD Open 2022;8(2):e002726.",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726"
+    },
+    {
+     "short": "Ghembaza 2020 自體免疫與發炎性疾病肺囊蟲肺炎綜論（Chest）",
+     "citation": "Ghembaza A et al. Risk Factors and Prevention of Pneumocystis jirovecii Pneumonia in Patients With Autoimmune and Inflammatory Diseases. Chest 2020;158(6):2323-2332.",
+     "pmid": "32502592",
+     "doi": "10.1016/j.chest.2020.05.558"
+    },
+    {
+     "short": "Wang 2022 類固醇合併免疫抑制劑與肺囊蟲肺炎統合分析",
+     "citation": "Wang H et al. Combine use of glucocorticoid with other immunosuppressants is a risk factor for Pneumocystis jirovecii pneumonia in autoimmune inflammatory disease patients: a meta-analysis. Clin Rheumatol 2023;42(1):269-276.",
+     "pmid": "36149536",
+     "doi": "10.1007/s10067-022-06381-y"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2022 慢性與伺機性感染篩檢及預防建議",
+     "citation": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2023;82(6):742-753.",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "zoster",
+   "cat": "condition",
+   "term": "帶狀疱疹（皮蛇）",
+   "en": "herpes zoster (shingles)",
+   "aliases": [
+    "帶狀疱疹",
+    "皮蛇"
+   ],
+   "aka": "herpes zoster (HZ); shingles",
+   "def": "帶狀疱疹（皮蛇）是得過水痘後，潛伏在體內的水痘帶狀疱疹病毒重新活化，引起的疼痛水泡疹，通常長在身體一側的局部區域。",
+   "example": "",
+   "note": "年長者和免疫力較低的人比較容易得；得過的人也可能再得。",
+   "label": "IDST 2024・定義",
+   "evidence": [
+    {
+     "quote": "Herpes zoster (HZ) is a painful, vesicular, cutaneous eruption from reactivation of varicella zoster virus (VZV), which can lead to potentially debilitating complications.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "def: 水痘帶狀疱疹病毒重新活化引起的疼痛水泡疹 (same quote as the existing rzv entry)"
+    },
+    {
+     "quote": "Herpes zoster is a localized, usually painful, cutaneous eruption resulting from reactivation of latent varicella zoster virus (VZV).",
+     "location": "Introduction, second paragraph",
+     "access": "PMC full text",
+     "pmid": "29370152",
+     "doi": "10.15585/mmwr.mm6703a5",
+     "pmcid": "PMC5812314",
+     "supports": "def: 潛伏在體內的病毒重新活化；局部的疼痛皮疹"
+    },
+    {
+     "quote": "Persons who have neither experienced varicella nor received varicella vaccine are not at risk for herpes zoster.",
+     "location": "'Special Populations'",
+     "access": "PMC full text",
+     "pmid": "35051134",
+     "doi": "10.15585/mmwr.mm7103a2",
+     "pmcid": "PMC8774159",
+     "supports": "def: 得過水痘後（病毒潛伏）才會發生"
+    },
+    {
+     "quote": "Herpes zoster (HZ) is a skin disease caused by the reactivation of latent varicella-zoster virus (VZV) in the body, clinically characterized by a unilateral vesicular rash distributed along the affected dermatomes.",
+     "location": "English abstract, first sentence",
+     "access": "abstract",
+     "pmid": "42595507",
+     "doi": "10.3760/cma.j.cn112137-20260513-01282",
+     "pmcid": "",
+     "supports": "def: 通常長在身體一側"
+    },
+    {
+     "quote": "The lifetime risk of HZ is estimated to be 20%-30% in the general population, with an increased risk in the elderly and immunocompromised populations.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "note: 年長者和免疫力較低的人比較容易得 (percentages already on the site, IF-5.1)"
+    },
+    {
+     "quote": "Herpes zoster can recur.",
+     "location": "'Special Populations'",
+     "access": "PMC full text",
+     "pmid": "35051134",
+     "doi": "10.15585/mmwr.mm7103a2",
+     "pmcid": "PMC8774159",
+     "supports": "note: 得過的人也可能再得"
+    },
+    {
+     "quote": "Two types of HZ vaccines, zoster vaccine live and recombinant zoster vaccine, have been approved for use.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "site usage CM-5.2: 「活性的帶狀疱疹（皮蛇）疫苗」 is one of two vaccine types (vaccines are covered by the rzv and live-vaccine entries)"
+    }
+   ],
+   "sources": [
+    {
+     "short": "IDST（台灣的感染症醫學會）2024 成人帶狀疱疹疫苗建議",
+     "citation": "Lin KY et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669-684.",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001"
+    },
+    {
+     "short": "ACIP（美國的免疫接種諮詢委員會）2018 帶狀疱疹疫苗建議",
+     "citation": "Dooling KL et al. Recommendations of the Advisory Committee on Immunization Practices for Use of Herpes Zoster Vaccines. MMWR Morb Mortal Wkly Rep 2018;67(3):103-108.",
+     "pmid": "29370152",
+     "doi": "10.15585/mmwr.mm6703a5"
+    },
+    {
+     "short": "ACIP（美國的免疫接種諮詢委員會）2022 免疫低下成人重組帶狀疱疹疫苗建議",
+     "citation": "Anderson TC et al. Use of Recombinant Zoster Vaccine in Immunocompromised Adults Aged ≥19 Years: Recommendations of the Advisory Committee on Immunization Practices - United States, 2022. MMWR Morb Mortal Wkly Rep 2022;71(3):80-84.",
+     "pmid": "35051134",
+     "doi": "10.15585/mmwr.mm7103a2"
+    },
+    {
+     "short": "2026 中國帶狀疱疹疫苗接種專家共識（中華醫學雜誌；英文摘要）",
+     "citation": "[Expert consensus on vaccination for herpes zoster (2026 edition)]. Zhonghua Yi Xue Za Zhi 2026;106(30):3130-3141. (Group authorship; Chinese-language article with English abstract.)",
+     "pmid": "42595507",
+     "doi": "10.3760/cma.j.cn112137-20260513-01282"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "foodborne",
+   "cat": "condition",
+   "term": "李斯特菌與沙門氏菌",
+   "en": "Listeria monocytogenes and Salmonella",
+   "aliases": [
+    "李斯特菌",
+    "沙門氏菌"
+   ],
+   "aka": "Listeria monocytogenes (listeriosis); Salmonella (salmonellosis)",
+   "def": "李斯特菌和沙門氏菌都是可能經由受污染的食物傳染的病菌。免疫力較低（例如使用類固醇等藥物）時，比較容易感染，也可能比較嚴重。",
+   "example": "",
+   "note": "飲食與環境衛生建議可能減少這類感染（以專家意見為主），可請醫療團隊提供。",
+   "label": "研究綜論・定義",
+   "evidence": [
+    {
+     "quote": "Listeria monocytogenes is a Gram-positive facultative intracellular pathogen that can cause severe invasive infections upon ingestion with contaminated food.",
+     "location": "Abstract (PubMed; the PMC copy drops the italic organism name)",
+     "access": "abstract",
+     "pmid": "36475874",
+     "doi": "10.1128/cmr.00060-19",
+     "pmcid": "PMC10035648",
+     "supports": "def: 李斯特菌是可能經由受污染的食物傳染的病菌"
+    },
+    {
+     "quote": "Invasive listeriosis is life-threatening and a main cause of foodborne illness leading to hospital admissions in Western countries.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "36475874",
+     "doi": "10.1128/cmr.00060-19",
+     "pmcid": "PMC10035648",
+     "supports": "def: 可能比較嚴重 (not printed: 'life-threatening')"
+    },
+    {
+     "quote": "To evaluate progress toward prevention of enteric infections in the United States, the Foodborne Diseases Active Surveillance Network (FoodNet) conducts surveillance for laboratory-diagnosed infections caused by eight pathogens transmitted commonly through food at 10 U.S. sites.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "37384552",
+     "doi": "10.15585/mmwr.mm7226a1",
+     "pmcid": "PMC10328488",
+     "supports": "def: 經由食物傳染的病菌 (read with the next quote)"
+    },
+    {
+     "quote": "During 2022, annual incidences of illnesses caused by the pathogens Campylobacter, Salmonella, Shigella, and Listeria were similar to average annual incidences during 2016-2018; however, incidences of Shiga toxin-producing Escherichia coli (STEC), Yersinia, Vibrio, and Cyclospora illnesses were higher.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "37384552",
+     "doi": "10.15585/mmwr.mm7226a1",
+     "pmcid": "PMC10328488",
+     "supports": "def: 沙門氏菌和李斯特菌屬於常經由食物傳播的病原"
+    },
+    {
+     "quote": "Salmonella / Eggs 10%–80%; poultry up to 40%; produce up to 20%; poultry, pork, beef and lamb each up to 20%",
+     "location": "Table 7 'Main foods associated with foodborne disease from food attribution studies in the UK, Canada, Denmark, the Netherlands, USA and the EU.' (columns: Pathogen / Foods; '/' marks the cell break)",
+     "access": "PMC full text",
+     "pmid": "26308030",
+     "doi": "10.3390/ijerph120810117",
+     "pmcid": "PMC4555333",
+     "supports": "def: 沙門氏菌經由食物傳染 (foods not printed; see reviewer_notes)"
+    },
+    {
+     "quote": "Foodborne pathogens are more likely to cause infection and to result in serious consequences in vulnerable people than in healthy adults.",
+     "location": "Abstract, first sentence",
+     "access": "abstract",
+     "pmid": "26308030",
+     "doi": "10.3390/ijerph120810117",
+     "pmcid": "PMC4555333",
+     "supports": "def: 免疫力較低時比較容易感染，也可能比較嚴重"
+    },
+    {
+     "quote": "People who are particularly susceptible to foodborne disease include the very young, the elderly, and the immune compromised.",
+     "location": "Section 3 'Groups of Vulnerable People'",
+     "access": "PMC full text",
+     "pmid": "26308030",
+     "doi": "10.3390/ijerph120810117",
+     "pmcid": "PMC4555333",
+     "supports": "def: 免疫力較低的人比較容易感染"
+    },
+    {
+     "quote": "Host factors that lead to increased susceptibility to foodborne infection and increased severity of illness. / Treatment with corticosteroids / Treatment with inhibitors of tumour necrosis factor e.g. for rheumatoid arthritis, Crohn’s disease",
+     "location": "Table 4 (title, then two of its rows under 'Secondary immune deficiencies'; '/' marks line breaks in the extracted table)",
+     "access": "PMC full text",
+     "pmid": "26308030",
+     "doi": "10.3390/ijerph120810117",
+     "pmcid": "PMC4555333",
+     "supports": "def: 例如使用類固醇等藥物"
+    },
+    {
+     "quote": "In developed countries, such as the United Kingdom and the United States, between 15% and 20% of the population show greater susceptibility than the general population to foodborne disease. This proportion includes people with primary immunodeficiency, patients treated with radiation or with immunosuppressive drugs for cancer and diseases of the immune system, those with acquired immune-deficiency syndrome and diabetics, people suffering from liver or kidney disease or with excessive iron in the blood, pregnant women, infants, and the elderly.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "21561383",
+     "doi": "10.1089/fpd.2011.0860",
+     "pmcid": "PMC3159107",
+     "supports": "def: 使用免疫抑制藥物的人比較容易受食源性感染"
+    },
+    {
+     "quote": "On the other hand, TF members agreed, as has been shown, that people living with AIIRD benefit when provided with general dietary and environmental advice to reduce their risk of infection from specific pathogens (eg, Listeria spp, Salmonella spp) while receiving treatment with bDMARDs, tsDMARDs, immunosuppressants and high-doses of glucocorticoids.",
+     "location": "Discussion (assembled from three WebFetch segments; the superscript reference number after 'shown,' is omitted; consistent with evidence file C67)",
+     "access": "WebFetch",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335",
+     "pmcid": "",
+     "supports": "note: 飲食與環境衛生建議可能減少這類感染 (site source for IF-6.3)"
+    },
+    {
+     "quote": "There are several expert opinions, supported by a small number of studies suggesting that life-style and environmental advice could reduce the incidence of certain pathogens like listeria.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726",
+     "pmcid": "PMC9639159",
+     "supports": "note: （以專家意見為主）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Koopmans 2022 李斯特菌症綜論（Clin Microbiol Rev）",
+     "citation": "Koopmans MM et al. Human Listeriosis. Clin Microbiol Rev 2023;36(1):e0006019.",
+     "pmid": "36475874",
+     "doi": "10.1128/cmr.00060-19"
+    },
+    {
+     "short": "Lund 2015 易感族群食品微生物安全綜論",
+     "citation": "Lund BM. Microbiological Food Safety for Vulnerable People. Int J Environ Res Public Health 2015;12(8):10117-32.",
+     "pmid": "26308030",
+     "doi": "10.3390/ijerph120810117"
+    },
+    {
+     "short": "Lund 2011 易感族群食源性疾病綜論",
+     "citation": "Lund BM, O'Brien SJ. The occurrence and prevention of foodborne disease in vulnerable people. Foodborne Pathog Dis 2011;8(9):961-73.",
+     "pmid": "21561383",
+     "doi": "10.1089/fpd.2011.0860"
+    },
+    {
+     "short": "美國 CDC FoodNet 2022 年常經食物傳播病原監測報告（MMWR 2023）",
+     "citation": "Delahoy MJ et al. Preliminary Incidence and Trends of Infections Caused by Pathogens Transmitted Commonly Through Food - Foodborne Diseases Active Surveillance Network, 10 U.S. Sites, 2022. MMWR Morb Mortal Wkly Rep 2023;72(26):701-706.",
+     "pmid": "37384552",
+     "doi": "10.15585/mmwr.mm7226a1"
+    },
+    {
+     "short": "EULAR（歐洲的風濕病學會聯盟）2022 慢性與伺機性感染篩檢及預防建議",
+     "citation": "Fragoulis GE et al. 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. Ann Rheum Dis 2023;82(6):742-753.",
+     "pmid": "36328476",
+     "doi": "10.1136/ard-2022-223335"
+    },
+    {
+     "short": "EULAR 2022 感染篩檢建議之系統性文獻回顧",
+     "citation": "Fragoulis GE et al. Systematic literature review informing the 2022 EULAR recommendations for screening and prophylaxis of chronic and opportunistic infections in adults with autoimmune inflammatory rheumatic diseases. RMD Open 2022;8(2):e002726.",
+     "pmid": "36323488",
+     "doi": "10.1136/rmdopen-2022-002726"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok"
+  }
+ ]
+}

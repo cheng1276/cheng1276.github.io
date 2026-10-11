@@ -22,7 +22,7 @@
 ## light-intensity — 輕度活動  (aliases: 輕度活動; scope: card; links: 1; occurrences: 1)
 - [LINK] CM-1.4 (text) 「輕度活動」: 減少久坐。用任何強度的活動取代坐著，即使是輕度活動，也對健康有益。
 
-## muscle-strengthening — 肌力訓練（阻力訓練）  (aliases: 肌力訓練 / 阻力訓練; scope: card; links: 4; occurrences: 7)
+## muscle-strengthening — 肌力訓練（阻力訓練）  (aliases: 肌力訓練 / 阻力訓練; scope: card; links: 5; occurrences: 10)
 - [LINK] CM-1.2 (text) 「肌力訓練」: 每週至少2天做肌力訓練，強度中等以上，並練到全身主要肌群。
 - [repeat] CM-1.3 (text) 「肌力訓練」: 65歲以上：做為每週活動量的一部分，每週至少3天做結合平衡和肌力訓練的多元活動，強度中等以上，以增進身體功能、預防跌倒。
 - [LINK] CM-4.4 (text) 「阻力訓練」: 規律做負重運動或阻力訓練，均衡飲食，並把體重維持在建議範圍。
@@ -30,12 +30,17 @@
 - [repeat] RA-1.3 (text) 「肌力訓練」: 請物理治療師或合格的運動專業人員安排、指導肌力訓練，以避免傷害。
 - [repeat] RA-1.T (text) 「肌力訓練」: 目標：每週至少 150 分鐘中等強度以上的有氧運動，加上每週 2 次肌力訓練；可依自己的能力調整。
 - [LINK] SL-3.3 (text) 「肌力訓練」: 病情不活躍或輕微、醫師也沒有特別限制時，可逐步做到每週 150–300 分鐘中等強度運動，加上每週至少 2 天肌力訓練。
+- [LINK] OP-3.1 (text) 「肌力訓練」: 規律做負重運動（例如走路、爬樓梯、跳舞、太極拳）和肌力訓練，並依自己的需要和能力調整。
+- [repeat] OP-3.3 (text) 「肌力訓練」: 肌力訓練要循序漸進增加強度，並練到腹部和背部肌肉；練腹部時，仰臥起坐這類反覆彎腰的動作要小心。
+- [repeat] OP-3.4 (text) 「肌力訓練」: 散步、瑜伽等活動，能安全進行（必要時調整動作）就可以做；但要加在平衡、功能性和肌力訓練之外，而不是取代它們。
 
 ## major-muscle-groups — 全身主要肌群  (aliases: 全身主要肌群; scope: card; links: 1; occurrences: 1)
 - [LINK] CM-1.2 (text) 「全身主要肌群」: 每週至少2天做肌力訓練，強度中等以上，並練到全身主要肌群。
 
-## weight-bearing — 負重運動  (aliases: 負重運動; scope: card; links: 1; occurrences: 1)
+## weight-bearing — 負重運動  (aliases: 負重運動; scope: card; links: 2; occurrences: 3)
 - [LINK] CM-4.4 (text) 「負重運動」: 規律做負重運動或阻力訓練，均衡飲食，並把體重維持在建議範圍。
+- [excluded] OA-M2 (fact) 「負重運動」: 美國 ACR 指引強烈建議膝、髖關節退化的人規律運動。研究回顧也發現，膝關節負重運動看來不會傷害軟骨，但證據品質低。
+- [LINK] OP-3.1 (text) 「負重運動」: 規律做負重運動（例如走路、爬樓梯、跳舞、太極拳）和肌力訓練，並依自己的需要和能力調整。
 
 ## multicomponent — 多元活動（有氧、肌力與平衡）  (aliases: 多元活動; scope: card; links: 1; occurrences: 1)
 - [LINK] CM-1.3 (text) 「多元活動」: 65歲以上：做為每週活動量的一部分，每週至少3天做結合平衡和肌力訓練的多元活動，強度中等以上，以增進身體功能、預防跌倒。
@@ -50,9 +55,10 @@
 ## aquatic — 水中運動  (aliases: 水中運動; scope: card; links: 1; occurrences: 1)
 - [LINK] RA-1.2 (text) 「水中運動」: 選擇有氧運動、水中運動、肌力訓練，或瑜伽、太極拳、氣功等身心運動。
 
-## range-of-motion — 關節活動度運動  (aliases: 關節活動度運動 / 頸胸腰椎活動度; scope: card; links: 2; occurrences: 2)
+## range-of-motion — 關節活動度運動  (aliases: 關節活動度運動 / 頸胸腰椎活動度; scope: card; links: 3; occurrences: 3)
 - [LINK] RA-1.5 (text) 「關節活動度運動」: 發作時可能無法做激烈運動，但散步或關節活動度運動，或許仍做得到。
 - [LINK] AS-1.2 (text) 「頸胸腰椎活動度」: 請物理治療師設計個人化運動計畫，包括伸展、肌力、姿勢、深呼吸、脊椎伸展、頸胸腰椎活動度與有氧運動。
+- [LINK] OA-3.4 (text) 「關節活動度運動」: 關節疼痛發作時，可能做不了高強度活動，但散步或關節活動度運動，或許還做得到。
 
 ## passive-therapy — 被動治療與主動運動  (aliases: 被動治療 / 主動運動; scope: card; links: 1; occurrences: 3)
 - [LINK] AS-M2 (belief) 「被動治療」: 按摩、熱療這類被動治療就夠了，不必運動。
@@ -65,7 +71,7 @@
 ## perceived-exertion — 自覺費力程度  (aliases: 評估自己有多費力; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-3.T (text) 「評估自己有多費力」: 中等強度大約是：用 0–10 分評估自己有多費力時，約 5–6 分。
 
-## physical-therapy — 物理治療  (aliases: 物理治療師 / 物理治療; scope: page; links: 2; occurrences: 11)
+## physical-therapy — 物理治療  (aliases: 物理治療師 / 物理治療; scope: page; links: 4; occurrences: 13)
 - [LINK] RA-1.3 (text) 「物理治療師」: 請物理治療師或合格的運動專業人員安排、指導肌力訓練，以避免傷害。
 - [repeat] RA-2.1 (text) 「物理治療師」: 手部受影響時，可做手部治療運動，最好由有經驗的手部治療師（多為受過進階訓練的職能或物理治療師）評估。
 - [repeat] RA-2.2 (text) 「物理治療師」: 向職能或物理治療師學習關節保護技巧，例如改變做事方式以避免疼痛、休息、改用其他肌群。
@@ -77,12 +83,17 @@
 - [repeat] AS-1.3 (text) 「物理治療師」: 先由物理治療師教會動作，之後也建議在家自己做背部運動。
 - [repeat] AS-1.4 (text) 「物理治療」: 有人指導時較能持之以恆；如果很難自己持續運動，可和醫師討論物理治療。
 - [repeat] AS-M3 (fact) 「物理治療師」: 目前研究還無法斷定哪一種運動最好，可請物理治療師依個人情況設計運動計畫。
+- [LINK] OA-2.4 (text) 「物理治療」: 可以考慮在專業人員指導下運動；多數人在病程中某些時候，轉介物理治療或職能治療可能有幫助。
+- [LINK] OP-4.2 (text) 「物理治療師」: 彎腰或搬東西時，從髖部和膝蓋彎曲、保持上背挺直，東西靠近身體；可請物理治療師或職能治療師教您安全的做法。
 
-## occupational-therapy — 職能治療  (aliases: 職能治療師 / 職能治療 / 職能; scope: page; links: 1; occurrences: 4)
+## occupational-therapy — 職能治療  (aliases: 職能治療師 / 職能治療 / 職能; scope: page; links: 3; occurrences: 7)
 - [LINK] RA-2.1 (text) 「職能」: 手部受影響時，可做手部治療運動，最好由有經驗的手部治療師（多為受過進階訓練的職能或物理治療師）評估。
 - [repeat] RA-2.2 (text) 「職能」: 向職能或物理治療師學習關節保護技巧，例如改變做事方式以避免疼痛、休息、改用其他肌群。
 - [repeat] RA-2.3 (text) 「職能」: 手、腕、膝或足踝受影響時，可使用副木、護具或矯具，並請職能或物理治療師協助挑選和調整。
 - [repeat] RA-2.5 (text) 「職能治療」: 及早和醫師討論轉介職能治療或物理治療；治療內容可依您的需要調整。
+- [LINK] OA-2.4 (text) 「職能治療」: 可以考慮在專業人員指導下運動；多數人在病程中某些時候，轉介物理治療或職能治療可能有幫助。
+- [LINK] OP-4.2 (text) 「職能治療師」: 彎腰或搬東西時，從髖部和膝蓋彎曲、保持上背挺直，東西靠近身體；可請物理治療師或職能治療師教您安全的做法。
+- [repeat] OP-5.3 (text) 「職能治療師」: 改善居家環境：地面防滑、移開雜物、照明充足、加裝扶手；最好請職能治療師等受過訓練的人員到家評估。
 
 ## hand-therapist — 手部治療師  (aliases: 手部治療師; scope: card; links: 1; occurrences: 1)
 - [LINK] RA-2.1 (text) 「手部治療師」: 手部受影響時，可做手部治療運動，最好由有經驗的手部治療師（多為受過進階訓練的職能或物理治療師）評估。
@@ -93,12 +104,19 @@
 - [repeat] ra-hands (summary) 「關節保護」: 手部運動、關節保護與輔具，可請治療師指導。
 - [repeat] RA-2.2 (text) 「關節保護技巧」: 向職能或物理治療師學習關節保護技巧，例如改變做事方式以避免疼痛、休息、改用其他肌群。
 
-## orthoses — 副木、護具與矯具  (aliases: 副木; scope: card; links: 1; occurrences: 1)
+## orthoses — 副木、護具與矯具  (aliases: 副木; scope: card; links: 2; occurrences: 3)
 - [LINK] RA-2.3 (text) 「副木」: 手、腕、膝或足踝受影響時，可使用副木、護具或矯具，並請職能或物理治療師協助挑選和調整。
+- [LINK] oa-hand (summary) 「副木」: 做手部運動、善用輔具，大拇指根部退化可考慮副木。
+- [repeat] OA-5.3 (text) 「副木」: 大拇指根部退化，可和醫療人員討論是否用副木緩解症狀；如果使用，建議持續使用一段較長的時間（研究中至少使用3個月）。
 
-## assistive-devices — 輔具  (aliases: 輔具; scope: card; links: 1; occurrences: 2)
+## assistive-devices — 輔具  (aliases: 輔具; scope: card; links: 4; occurrences: 7)
 - [LINK] ra-hands (summary) 「輔具」: 手部運動、關節保護與輔具，可請治療師指導。
 - [repeat] RA-2.4 (text) 「輔具」: 需要時使用輔具，例如拐杖、助行器、長柄或加粗握把的用具；家中也可加裝扶手。
+- [LINK] oa-intro (intro) 「輔具」: 這頁依據國際指引，整理膝、髖和手部退化性關節炎的運動、體重管理、輔具與日常照護，並說明常見迷思。
+- [LINK] oa-hand (summary) 「輔具」: 做手部運動、善用輔具，大拇指根部退化可考慮副木。
+- [repeat] OA-5.2 (text) 「輔具」: 學習符合人體工學的做事方法、調整活動步調，並善用輔具；輔具有助改善手部功能。
+- [repeat] OA-5.2 (text) 「輔具」: 學習符合人體工學的做事方法、調整活動步調，並善用輔具；輔具有助改善手部功能。
+- [LINK] oa-aids (title) 「輔具」: 輔具與其他療法
 
 ## activity-pacing — 活動節奏與節省體力  (aliases: 安排活動節奏 / 活動節奏 / 節省體力 / 調整步調; scope: card; links: 2; occurrences: 4)
 - [LINK] ra-fatigue-work (summary) 「活動節奏」: 調配活動節奏，善用自我管理、心理與工作支持。
@@ -106,9 +124,12 @@
 - [repeat] RA-5.1 (text) 「節省體力」: 安排活動節奏、節省體力，在活動與休息間取得平衡，可能有助維持身體功能和處理疲倦。
 - [LINK] SJ-4.2 (text) 「調整步調」: 安排活動時，先規劃、排出優先順序，並調整步調。
 
-## self-management — 自我管理課程  (aliases: 自我管理課程 / 自我管理; scope: card; links: 1; occurrences: 2)
+## self-management — 自我管理課程  (aliases: 自我管理課程 / 自我管理; scope: card; links: 2; occurrences: 5)
 - [LINK] ra-fatigue-work (summary) 「自我管理」: 調配活動節奏，善用自我管理、心理與工作支持。
 - [repeat] RA-5.3 (text) 「自我管理課程」: 參加標準化的自我管理課程，可能有助改善身體功能和疼痛。
+- [LINK] oa-basics (title) 「自我管理」: 認識與自我管理
+- [repeat] oa-basics (summary) 「自我管理」: 學會自我管理；運動和需要時的體重管理是核心治療。
+- [repeat] OA-1.4 (text) 「自我管理」: 向醫療團隊學習這個病的知識和自我管理方法，之後回診時也可以持續複習。
 
 ## vocational-rehab — 職業重建  (aliases: 職業重建; scope: card; links: 1; occurrences: 1)
 - [LINK] RA-5.5 (text) 「職業重建」: 有工作或想工作的人，可尋求職業重建服務，並評估、調整工作環境。
@@ -136,10 +157,27 @@
 - [LINK] gout-food (summary) 「高普林食物」: 限制高普林食物和大餐，以均衡飲食為主。
 - [repeat] GT-2.1 (text) 「高普林食物」: 限制高普林食物，不論病情輕重。
 
-## uric-acid — 尿酸與高尿酸血症  (aliases: 高尿酸血症 / 血中尿酸 / 尿酸; scope: card; links: 3; occurrences: 3)
+## uric-acid — 尿酸與高尿酸血症  (aliases: 高尿酸血症 / 血中尿酸 / 尿酸; scope: card; links: 7; occurrences: 20)
 - [LINK] GT-2.5 (text) 「血中尿酸」: 飲食調整可能只讓血中尿酸小幅改變，但有些飲食因素可能誘發發作。
 - [LINK] GT-5.1 (text) 「高尿酸血症」: 痛風或高尿酸血症，和心血管疾病、慢性腎臟病、尿路結石、糖尿病等多種疾病有關。
 - [LINK] GT-M3 (fact) 「尿酸」: ACR 指引不建議為痛風額外補充維生素C；小型試驗中，痛風患者服用後尿酸變化沒有臨床意義。
+- [LINK] labs-intro (intro) 「尿酸」: 健檢報告出現抗核抗體、類風濕因子、抗CCP抗體陽性或尿酸偏高時，這頁說明它們的意思；是否生病，要由醫師合併症狀與檢查判斷。
+- [LINK] labs-urate (title) 「尿酸」: 尿酸高但沒有痛風
+- [repeat] labs-urate (summary) 「尿酸」: 尿酸高是痛風的危險因子，但不等於痛風。
+- [repeat] LB-5.1 (text) 「血中尿酸」: 血中尿酸偏高，但從沒有痛風發作，也沒有痛風石，稱為無症狀高尿酸血症。
+- [repeat] LB-5.1 (text) 「高尿酸血症」: 血中尿酸偏高，但從沒有痛風發作，也沒有痛風石，稱為無症狀高尿酸血症。
+- [repeat] LB-5.2 (text) 「尿酸」: 尿酸高是發生痛風的重要危險因子，但不能只憑尿酸高就診斷痛風。
+- [repeat] LB-5.2 (text) 「尿酸」: 尿酸高是發生痛風的重要危險因子，但不能只憑尿酸高就診斷痛風。
+- [repeat] LB-5.3 (text) 「尿酸」: 國外研究顯示，尿酸超過9 mg/dL的人，5年內約2成發生痛風；超過10 mg/dL的人，15年內約一半。
+- [LINK] labs-urate-treatment (title) 「尿酸」: 尿酸高要吃藥嗎？
+- [repeat] LB-6.1 (text) 「尿酸」: 沒有痛風的高尿酸要不要吃降尿酸藥，各國指引看法不同，並不是每個人都需要。
+- [repeat] LB-6.2 (text) 「尿酸」: 調整生活型態（例如飲食和運動）是處理高尿酸和痛風的基礎。
+- [repeat] LB-6.3 (text) 「尿酸」: 多數情況下，高尿酸可以在基層醫療（如家庭醫師）處理；一般治療效果不好時，可能需要轉介專科。
+- [LINK] LB-M3 (belief) 「尿酸」: 尿酸高就是痛風。
+- [repeat] LB-M3 (fact) 「尿酸」: 不是。尿酸高是痛風的重要危險因子，但不能只憑它診斷痛風；國外研究中，尿酸超過9 mg/dL的人，5年內約2成發生痛風。
+- [repeat] LB-M3 (fact) 「尿酸」: 不是。尿酸高是痛風的重要危險因子，但不能只憑它診斷痛風；國外研究中，尿酸超過9 mg/dL的人，5年內約2成發生痛風。
+- [repeat] LB-M4 (belief) 「尿酸」: 尿酸高，就一定要吃降尿酸藥。
+- [repeat] LB-M4 (fact) 「尿酸」: 不一定。沒有痛風的高尿酸要不要用藥，各國指引看法不同，並不是每個人都需要；已在用藥的人請先和醫師討論，不要自行停藥。
 
 ## hfcs — 高果糖玉米糖漿  (aliases: 高果糖玉米糖漿 / 高果糖糖漿; scope: card; links: 1; occurrences: 2)
 - [LINK] GT-1.4 (text) 「高果糖玉米糖漿」: 限制高果糖玉米糖漿的攝取（台灣食品標示常寫作「高果糖糖漿」）。
@@ -171,8 +209,9 @@
 ## elemental-calcium — 元素鈣  (aliases: 元素鈣; scope: card; links: 1; occurrences: 1)
 - [LINK] CM-4.2 (text) 「元素鈣」: 成人每天的鈣，飲食加補充品合計，建議攝取到1,000至1,200毫克（以元素鈣計）。
 
-## iu — 國際單位（IU）  (aliases: 國際單位; scope: card; links: 1; occurrences: 1)
+## iu — 國際單位（IU）  (aliases: 國際單位; scope: card; links: 2; occurrences: 2)
 - [LINK] CM-4.3 (text) 「國際單位」: 維生素D通常每天需要600到800國際單位，或更多；並應抽血追蹤濃度。
+- [LINK] OP-2.4 (text) 「國際單位」: 維生素D不足或有不足風險的人（例如長期待在家裡、住在照護機構），建議和醫師討論後，每天至少補充800國際單位。
 
 ## bmi — BMI（身體質量指數）  (aliases: BMI; scope: card; links: 1; occurrences: 1)
 - [LINK] GT-3.T (text) 「BMI」: 觀察研究發現，BMI 下降超過 5% 的人，比體重大致不變的人更不容易再次發作。
@@ -185,25 +224,64 @@
 - [repeat] UR-3.4 (text) 「飲食試驗」: 飲食試驗只限醫師評估過的部分病人，通常只做2到3週，不應延誤有效治療。
 - [LINK] UR-M3 (fact) 「飲食試驗」: 食物過敏很少是原因，不需要自行長期忌口（確定食物過敏者除外，很少見）；若醫師建議做飲食試驗，通常只做2到3週。
 
-## oral-glucocorticoid — 口服類固醇  (aliases: 口服類固醇 / 類固醇; scope: card; links: 3; occurrences: 6)
+## oral-glucocorticoid — 口服類固醇  (aliases: 口服類固醇 / 類固醇; scope: card; links: 11; occurrences: 24)
 - [LINK] common-bone (title) 「類固醇」: 類固醇與骨骼保健
 - [repeat] common-bone (summary) 「口服類固醇」: 長期口服類固醇，要補足鈣與維生素D、調整生活習慣。
 - [repeat] CM-4.1 (text) 「口服類固醇」: 開始或持續長期口服類固醇（超過3個月）的成人，建議從飲食和補充品補足鈣和維生素D，並調整生活習慣。
 - [repeat] CM-4.T (text) 「口服類固醇」: 口服類固醇3個月以上的人，也要盡量降低跌倒的風險。
 - [LINK] CM-5.1 (text) 「類固醇」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
 - [LINK] SL-5.5 (text) 「類固醇」: 狼瘡本身和類固醇等治療可能增加骨質疏鬆風險；每年請醫師評估骨骼健康，包括飲食、運動、生活習慣和用藥。
+- [LINK] osteoporosis-intro (intro) 「類固醇」: 這頁整理停經後女性與50歲以上男性的骨骼保健：認識警訊、飲食、運動、防跌倒與治療。長期用類固醇，或想看活動量與菸酒建議，請見共通照護頁。
+- [LINK] infection-intro (intro) 「類固醇」: 使用類固醇、免疫抑制劑、生物製劑等藥物治療風濕病時，某些感染可能更容易發生或更嚴重。這頁整理治療前篩檢、治療中追蹤和生病時的應對。
+- [LINK] IF-2.1 (text) 「類固醇」: 台灣結核病比歐美常見得多；疾管署指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
+- [repeat] IF-2.2 (text) 「類固醇」: 用生物製劑或口服標靶藥物前，要先篩檢潛伏結核；風險較高的人，用其他抗風濕藥物或類固醇前也可能需要。
+- [LINK] IF-3.1 (text) 「類固醇」: 開始免疫抑制治療前，都應檢查 B 型肝炎表面抗原、表面抗體和核心抗體；類固醇則依劑量和使用時間決定。
+- [repeat] IF-3.2 (text) 「類固醇」: 免疫抑制治療可能讓 B 型肝炎再活化（再度活躍），已痊癒者也可能。類固醇看劑量：帶原者持續用較高劑量風險中到高，低劑量或已痊癒者風險較低。
+- [LINK] infection-steroid (title) 「類固醇」: 使用類固醇時
+- [repeat] IF-4.1 (text) 「類固醇」: ACR 類風濕性關節炎指引指出：觀察性研究發現，類固醇劑量越高、用得越久，和嚴重感染風險越高有關；醫師會盡量用最低有效劑量、最短時間。
+- [repeat] IF-4.2 (text) 「類固醇」: 不要漏吃或自行突然停用類固醇；口服劑量高於身體自然分泌量時，藥量突然不足可能引起需緊急處理的腎上腺危象。
+- [repeat] IF-4.3 (text) 「類固醇」: 長期用或剛停用類固醇的人，發燒或感染需用抗生素時，可能需要暫時補充類固醇，以免腎上腺功能不足（不是治療感染）；請事先問醫師，感染也要就醫。
+- [repeat] IF-4.3 (text) 「類固醇」: 長期用或剛停用類固醇的人，發燒或感染需用抗生素時，可能需要暫時補充類固醇，以免腎上腺功能不足（不是治療感染）；請事先問醫師，感染也要就醫。
+- [repeat] IF-4.4 (text) 「類固醇」: 使用高劑量類固醇時，尤其合併免疫抑制劑，醫師可能會評估是否用藥預防肺囊蟲肺炎。
+- [LINK] IF-6.3 (text) 「類固醇」: 用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可請醫療團隊提供飲食與環境衛生建議，減少李斯特菌、沙門氏菌等感染。
+- [repeat] IF-6.T (text) 「類固醇」: 生病時請盡快就醫；藥物要不要暫停或調整，由醫師決定；類固醇不可自行突然停用。
+- [LINK] IF-M3 (belief) 「類固醇」: 只有生物製劑會增加感染風險，類固醇和傳統抗風濕藥物不用擔心。
+- [repeat] IF-M3 (fact) 「類固醇」: 不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
+- [repeat] IF-M3 (fact) 「類固醇」: 不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
+- [LINK] IF-S2 (text) 「類固醇」: 使用類固醇期間或剛停藥不久，如果有嘔吐或腹瀉、藥吃不下或吃了吐掉，請盡快就醫。
 
-## dmard — 抗風濕藥物（疾病調節型抗風濕藥物）  (aliases: 抗風濕藥物; scope: card; links: 1; occurrences: 1)
+## dmard — 抗風濕藥物（疾病調節型抗風濕藥物）  (aliases: 抗風濕藥物; scope: card; links: 4; occurrences: 5)
 - [LINK] CM-5.1 (text) 「抗風濕藥物」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
+- [LINK] IF-2.2 (text) 「抗風濕藥物」: 用生物製劑或口服標靶藥物前，要先篩檢潛伏結核；風險較高的人，用其他抗風濕藥物或類固醇前也可能需要。
+- [LINK] IF-5.3 (text) 「抗風濕藥物」: 沒得過水痘或帶狀疱疹、也沒打過相關疫苗的成人，開始傳統抗風濕藥物前，建議檢查水痘免疫力。
+- [LINK] IF-M3 (belief) 「抗風濕藥物」: 只有生物製劑會增加感染風險，類固醇和傳統抗風濕藥物不用擔心。
+- [repeat] IF-M3 (fact) 「抗風濕藥物」: 不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
 
-## immunosuppressant — 免疫抑制藥物  (aliases: 免疫抑制藥物 / 免疫抑制治療; scope: card; links: 1; occurrences: 4)
+## immunosuppressant — 免疫抑制藥物  (aliases: 免疫抑制藥物 / 免疫抑制治療; scope: card; links: 4; occurrences: 9)
 - [LINK] CM-5.1 (text) 「免疫抑制治療」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
 - [repeat] CM-5.2 (text) 「免疫抑制藥物」: 風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種，包括活性的帶狀疱疹（皮蛇）疫苗；流感疫苗請選非活性的。接種前請先問風濕科醫師。
 - [repeat] CM-5.4 (text) 「免疫抑制藥物」: 正在使用免疫抑制藥物的風濕病患者，即使未滿65歲，也強烈建議接種肺炎鏈球菌疫苗。
 - [repeat] CM-5.5 (text) 「免疫抑制藥物」: 超過18歲、正在使用免疫抑制藥物的風濕病患者，強烈建議接種重組帶狀疱疹（皮蛇）疫苗。
+- [LINK] IF-3.1 (text) 「免疫抑制治療」: 開始免疫抑制治療前，都應檢查 B 型肝炎表面抗原、表面抗體和核心抗體；類固醇則依劑量和使用時間決定。
+- [repeat] IF-3.2 (text) 「免疫抑制治療」: 免疫抑制治療可能讓 B 型肝炎再活化（再度活躍），已痊癒者也可能。類固醇看劑量：帶原者持續用較高劑量風險中到高，低劑量或已痊癒者風險較低。
+- [repeat] IF-3.5 (text) 「免疫抑制治療」: 抗病毒藥在免疫抑制治療結束後，還要繼續吃一段時間；請不要自行停用，何時停藥由醫師評估，停藥後也要繼續抽血追蹤。
+- [LINK] IF-M4 (fact) 「免疫抑制治療」: 不應該跟著停。免疫抑制治療停止後，B 型肝炎仍可能再活化，抗病毒藥還要繼續一段時間；請不要自行停用，何時停藥由醫師評估，停藥後也要繼續抽血追蹤。
+- [LINK] IF-S1 (text) 「免疫抑制藥物」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
 
-## biologic — 生物製劑  (aliases: 生物製劑; scope: card; links: 1; occurrences: 1)
+## biologic — 生物製劑  (aliases: 生物製劑; scope: card; links: 7; occurrences: 13)
 - [LINK] SL-2.2 (text) 「生物製劑」: 抽菸可能干擾抗瘧疾藥物（如 hydroxychloroquine）和部分生物製劑的療效。
+- [LINK] infection-intro (intro) 「生物製劑」: 使用類固醇、免疫抑制劑、生物製劑等藥物治療風濕病時，某些感染可能更容易發生或更嚴重。這頁整理治療前篩檢、治療中追蹤和生病時的應對。
+- [LINK] infection-tb (summary) 「生物製劑」: 用生物製劑前先驗潛伏結核；陽性時把治療完整做完。
+- [repeat] IF-2.2 (text) 「生物製劑」: 用生物製劑或口服標靶藥物前，要先篩檢潛伏結核；風險較高的人，用其他抗風濕藥物或類固醇前也可能需要。
+- [repeat] IF-2.4 (text) 「生物製劑」: 潛伏結核檢驗陽性時，通常要先開始潛伏結核治療，再用生物製劑；治療完整做完，才能提供約 9 成的保護。
+- [LINK] IF-5.2 (text) 「生物製劑」: 使用 JAK 抑制劑（一種口服標靶藥物）時，帶狀疱疹比使用生物製劑時更常見。
+- [LINK] IF-6.2 (text) 「生物製劑」: 感染時，治療有時需要暫停；例如嚴重感染時，醫師通常會先暫停生物製劑，等感染好了再恢復。
+- [repeat] IF-6.3 (text) 「生物製劑」: 用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可請醫療團隊提供飲食與環境衛生建議，減少李斯特菌、沙門氏菌等感染。
+- [LINK] IF-M1 (belief) 「生物製劑」: 有 B 型肝炎，就不能使用生物製劑。
+- [repeat] IF-M1 (fact) 「生物製劑」: 不一定。經醫師評估風險和好處，配合適當的抗病毒藥物，並和肝膽腸胃科醫師密切合作，使用生物製劑可能是安全的。
+- [repeat] IF-M3 (belief) 「生物製劑」: 只有生物製劑會增加感染風險，類固醇和傳統抗風濕藥物不用擔心。
+- [repeat] IF-M3 (fact) 「生物製劑」: 不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
+- [LINK] IF-S1 (text) 「生物製劑」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
 
 ## antimalarial — 抗瘧疾藥物（hydroxychloroquine）  (aliases: 抗瘧疾藥物 / hydroxychloroquine; scope: card; links: 1; occurrences: 3)
 - [LINK] SL-2.2 (text) 「抗瘧疾藥物」: 抽菸可能干擾抗瘧疾藥物（如 hydroxychloroquine）和部分生物製劑的療效。
@@ -231,9 +309,12 @@
 - [repeat] UR-M2 (fact) 「較不會嗜睡的抗組織胺」: 國際指引指出，自發型蕁麻疹應每天規則吃較不會嗜睡的抗組織胺來預防，而非發作才吃。
 - [LINK] SJ-3.2 (text) 「抗組織胺」: 可能造成口乾的藥，包括部分降血壓藥、利尿劑、抗組織胺（過敏藥）、止吐藥和肌肉鬆弛劑。
 
-## ult — 降尿酸藥  (aliases: 降尿酸藥; scope: card; links: 1; occurrences: 2)
+## ult — 降尿酸藥  (aliases: 降尿酸藥; scope: card; links: 1; occurrences: 5)
 - [LINK] gout-flare (summary) 「降尿酸藥」: 冰敷、休息抬高、及早治療，原本的降尿酸藥照常吃。
 - [repeat] GT-4.4 (text) 「降尿酸藥」: 發作期間，原本在吃的降尿酸藥要繼續吃，不要因為發作而停藥。
+- [excluded] LB-6.1 (text) 「降尿酸藥」: 沒有痛風的高尿酸要不要吃降尿酸藥，各國指引看法不同，並不是每個人都需要。
+- [excluded] LB-6.T (text) 「降尿酸藥」: 要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人，不要自行停藥。
+- [excluded] LB-M4 (belief) 「降尿酸藥」: 尿酸高，就一定要吃降尿酸藥。
 
 ## flare-medicine — 痛風發作時用的藥  (aliases: 發作時用的藥; scope: card; links: 1; occurrences: 1)
 - [LINK] GT-4.T (text) 「發作時用的藥」: 如果您能認出發作的早期徵兆，可以和醫師討論在家備好發作時用的藥。
@@ -242,9 +323,10 @@
 - [LINK] common-vaccine (summary) 「非活性疫苗」: 治療期間可打非活性疫苗；活性疫苗先問醫師。
 - [repeat] CM-5.1 (text) 「非活性疫苗」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
 
-## live-vaccine — 活性減毒疫苗  (aliases: 活性減毒疫苗 / 活性疫苗; scope: card; links: 1; occurrences: 2)
+## live-vaccine — 活性減毒疫苗  (aliases: 活性減毒疫苗 / 活性疫苗; scope: card; links: 2; occurrences: 3)
 - [LINK] common-vaccine (summary) 「活性疫苗」: 治療期間可打非活性疫苗；活性疫苗先問醫師。
 - [repeat] CM-5.2 (text) 「活性減毒疫苗」: 風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種，包括活性的帶狀疱疹（皮蛇）疫苗；流感疫苗請選非活性的。接種前請先問風濕科醫師。
+- [LINK] IF-5.1 (text) 「活性減毒疫苗」: 一般人一生約 2 到 3 成會得帶狀疱疹（皮蛇），年長者和免疫力較低者風險更高；打疫苗預防最有效，但治療期間活性減毒疫苗建議延後（見共通照護頁）。
 
 ## rzv — 重組帶狀疱疹疫苗  (aliases: 重組帶狀疱疹（皮蛇）疫苗 / 重組帶狀疱疹; scope: card; links: 1; occurrences: 1)
 - [LINK] CM-5.5 (text) 「重組帶狀疱疹（皮蛇）疫苗」: 超過18歲、正在使用免疫抑制藥物的風濕病患者，強烈建議接種重組帶狀疱疹（皮蛇）疫苗。
@@ -295,11 +377,12 @@
 ## photosensitivity — 光敏感  (aliases: 對光敏感; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-M3 (fact) 「對光敏感」: 曬太陽後，皮膚病灶可能隔幾週才出現，所以不容易察覺自己對光敏感；仍建議做好防曬。
 
-## autoimmune — 自體免疫  (aliases: 自體免疫風濕病 / 自體免疫; scope: page; links: 2; occurrences: 4)
+## autoimmune — 自體免疫  (aliases: 自體免疫風濕病 / 自體免疫; scope: page; links: 3; occurrences: 5)
 - [LINK] CM-5.1 (text) 「自體免疫風濕病」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
 - [repeat] CM-5.3 (text) 「自體免疫風濕病」: 多數自體免疫風濕病患者，都應積極考慮接種流感疫苗和肺炎鏈球菌疫苗。
 - [LINK] UR-3.1 (text) 「自體免疫」: 慢性蕁麻疹主要和自體免疫有關；自發型很少是食物過敏造成。
 - [repeat] UR-M1 (fact) 「自體免疫」: 食物過敏很少是慢性自發型蕁麻疹的原因；慢性蕁麻疹主要和自體免疫有關。
+- [LINK] LB-1.2 (text) 「自體免疫風濕病」: 抗核抗體數值越高（如1:160高於1:40），和自體免疫風濕病關聯越強。
 
 ## csu-cindu — 自發型與誘發型蕁麻疹  (aliases: 自發型 / 誘發型; scope: page; links: 1; occurrences: 15)
 - [LINK] urticaria-intro (intro) 「自發型」: 慢性蕁麻疹分成自發型，和由冷、熱、皮膚受壓等引起的誘發型。這頁整理日常照護重點。
@@ -365,12 +448,20 @@
 - [repeat] AS-3.3 (text) 「脊椎已融合」: 跌倒或受傷後，請找醫療人員檢查，尤其是疼痛加劇時，並告知醫師您有僵直性脊椎炎。脊椎已融合的人，輕微外傷也較容易骨折；懷疑骨折時，可能需要磁振造影（核磁共振）或電腦斷層檢查。
 - [repeat] AS-3.4 (text) 「脊椎大範圍融合」: 有骨質疏鬆、脊椎大範圍融合或平衡不穩的人，可請醫療團隊評估跌倒風險並提供建議。
 
-## osteoporosis — 骨質疏鬆  (aliases: 骨質疏鬆; scope: card; links: 3; occurrences: 5)
+## osteoporosis — 骨質疏鬆  (aliases: 骨質疏鬆; scope: card; links: 8; occurrences: 13)
 - [LINK] CM-4.6 (text) 「骨質疏鬆」: 及早和醫師討論骨質疏鬆與骨折風險。
 - [LINK] AS-3.2 (text) 「骨質疏鬆」: 脊椎已融合（黏在一起）或有嚴重脊椎骨質疏鬆的人，更不要接受整脊等脊椎扳動手法。
 - [repeat] AS-3.4 (text) 「骨質疏鬆」: 有骨質疏鬆、脊椎大範圍融合或平衡不穩的人，可請醫療團隊評估跌倒風險並提供建議。
 - [repeat] AS-3.T (text) 「骨質疏鬆」: 台灣常以機車、腳踏車代步，宜及早和醫師討論骨質疏鬆與脊椎骨折的風險。
 - [LINK] SL-5.5 (text) 「骨質疏鬆」: 狼瘡本身和類固醇等治療可能增加骨質疏鬆風險；每年請醫師評估骨骼健康，包括飲食、運動、生活習慣和用藥。
+- [LINK] OA-4.5 (text) 「骨質疏鬆」: 膝關節退化、且體重過重或肥胖而需要減重的人，宜逐步、持續地減重；快速減重曾被發現與關節不穩、肌少症和骨質疏鬆等風險有關。
+- [LINK] osteoporosis-fracture (summary) 「骨質疏鬆」: 超過50歲輕微外力就骨折，要想到骨質疏鬆。
+- [repeat] OP-1.1 (text) 「骨質疏鬆」: 超過50歲的人，輕微外力就骨折（例如從站立的高度跌倒），應考慮可能是骨質疏鬆。
+- [LINK] OP-5.1 (text) 「骨質疏鬆」: 骨質疏鬆或曾因輕微外力骨折的人，請醫療人員評估跌倒風險；有風險的人，建議參加改善平衡或綜合性的運動課程。
+- [LINK] OP-6.1 (text) 「骨質疏鬆」: 骨質疏鬆是長期疾病，目前無法根治，常需要長期治療；骨密度進步，也不代表已經痊癒。
+- [LINK] OP-M2 (belief) 「骨質疏鬆」: 只有女性才會骨質疏鬆。
+- [repeat] OP-M3 (belief) 「骨質疏鬆」: 多吃鈣片，就能預防或治療骨質疏鬆。
+- [repeat] OP-M4 (belief) 「骨質疏鬆」: 骨質疏鬆就不能運動，以免骨折。
 
 ## raynaud — 雷諾氏現象  (aliases: 雷諾氏現象; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-3.5 (text) 「雷諾氏現象」: 有雷諾氏現象的人，戶外活動時要穿足保暖衣物、戴手套，並避免直接碰觸冰冷表面。
@@ -433,7 +524,7 @@
 ## aas — 血管性水腫活動分數（AAS）  (aliases: AAS; scope: card; links: 1; occurrences: 1)
 - [LINK] UR-5.T (text) 「AAS」: 自發型會腫脹（血管性水腫）的人，也要記錄血管性水腫活動分數（AAS）。
 
-## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 5; occurrences: 11)
+## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 9; occurrences: 38)
 - [LINK] CM-M1 (fact) 「指引」: WHO 2020年指引已取消「至少連續10分鐘」的規定；任何長度的活動都與健康改善有關。
 - [LINK] gout-intro (intro) 「指引」: 這頁整理國內外指引中，痛風患者在飲料、飲食、體重與運動、發作照護和定期檢查上可以做的事。生活習慣能輔助治療，但不能取代治療。
 - [repeat] GT-1.5 (text) 「指引」: 果汁也要留意：指引把柳橙汁、蘋果汁列為可以改變的危險因子。
@@ -445,10 +536,41 @@
 - [repeat] UR-M4 (fact) 「指引」: 指引不建議做大量又昂貴的全面篩檢；多數病人目前無法去除根本原因，治療目標是完全控制症狀。
 - [LINK] ra-intro (intro) 「國際指引」: 這頁依據國際指引，整理類風濕性關節炎在運動、關節保護、飲食與體重、菸酒，以及疲倦與工作上的生活照護建議。
 - [LINK] axspa-intro (intro) 「指引」: 這頁依據國際與台灣指引，整理僵直性脊椎炎的生活照護重點：規律運動、戒菸、保護脊椎、留意眼睛警訊，以及何時該就醫。
+- [LINK] oa-intro (intro) 「國際指引」: 這頁依據國際指引，整理膝、髖和手部退化性關節炎的運動、體重管理、輔具與日常照護，並說明常見迷思。
+- [repeat] OA-M1 (fact) 「指引」: 美國 ACR 指引強烈不建議用葡萄糖胺治療膝、髖或手部退化性關節炎，英國 NICE 也不建議。最可靠的研究顯示，它比起安慰劑沒有明顯好處。
+- [repeat] OA-M2 (fact) 「指引」: 美國 ACR 指引強烈建議膝、髖關節退化的人規律運動。研究回顧也發現，膝關節負重運動看來不會傷害軟骨，但證據品質低。
+- [repeat] OA-M3 (fact) 「指引」: 美國 ACR 指引不建議用魚油或維生素D補充品治療膝、髖或手部退化性關節炎。醫師因其他原因指示的維生素D，請照醫囑使用。
+- [LINK] OP-1.1 (label) 「指引」: 澳洲骨鬆指引 2024・建議強度 A
+- [repeat] OP-2.2 (label) 「指引」: BHOF 2022、加拿大骨鬆指引 2023・指引說明
+- [repeat] OP-3.2 (label) 「指引」: 加拿大骨鬆指引 2023・強烈建議
+- [repeat] OP-3.3 (label) 「指引」: 加拿大骨鬆指引 2023・建議；NOGG 2024・指引說明
+- [repeat] OP-3.4 (label) 「指引」: 加拿大骨鬆指引 2023・建議
+- [repeat] OP-3.T (label) 「指引」: 世界跌倒指引 2022・指引說明
+- [repeat] OP-5.2 (label) 「指引」: 世界跌倒指引 2022・強烈建議（1A）
+- [repeat] OP-5.3 (label) 「指引」: 世界跌倒指引 2022・強烈建議（1B）；ESCEO/IOF 2019・指引說明
+- [repeat] OP-5.4 (label) 「指引」: 世界跌倒指引 2022・強烈建議（1B）
+- [repeat] OP-5.5 (label) 「指引」: 世界跌倒指引 2022・指引說明
+- [repeat] OP-5.T (label) 「指引」: 世界跌倒指引 2022・指引說明
+- [repeat] OP-6.4 (label) 「指引」: NOGG 2024・強烈建議；加拿大骨鬆指引 2023・良好實務建議
+- [repeat] OP-M1 (label) 「指引」: 澳洲骨鬆指引 2024、BHOF 2022・指引說明
+- [repeat] OP-M2 (fact) 「指引」: 男性也會。英國指引估計，在英國約每5位男性就有1位一生中會因輕微外力骨折；男性常沒被檢查和治療，骨折後的結果往往也比女性差。
+- [repeat] OP-M2 (label) 「指引」: NOGG 2024、加拿大骨鬆指引 2023・指引說明
+- [repeat] OP-M3 (label) 「指引」: ESCEO/IOF 2019、澳洲骨鬆指引 2024・指引說明
+- [repeat] OP-S3 (label) 「指引」: 世界跌倒指引 2022・強烈建議（1A）；英國骨鬆運動共識 2022・專家共識
+- [LINK] LB-5.T (text) 「指引」: 「偏高」沒有全球統一的數字：美國指引以6.8 mg/dL為界，國際專家共識則沒有訂出單一數字。
+- [repeat] LB-6.1 (text) 「指引」: 沒有痛風的高尿酸要不要吃降尿酸藥，各國指引看法不同，並不是每個人都需要。
+- [repeat] LB-6.1 (label) 「指引」: ACR 2020・不建議；中國指引 2024・指引說明
+- [repeat] LB-M4 (fact) 「指引」: 不一定。沒有痛風的高尿酸要不要用藥，各國指引看法不同，並不是每個人都需要；已在用藥的人請先和醫師討論，不要自行停藥。
+- [repeat] LB-M4 (label) 「指引」: ACR 2020・不建議；中國指引 2024・指引說明
+- [LINK] IF-4.1 (text) 「指引」: ACR 類風濕性關節炎指引指出：觀察性研究發現，類固醇劑量越高、用得越久，和嚴重感染風險越高有關；醫師會盡量用最低有效劑量、最短時間。
 
-## systematic-review — 系統性回顧（研究回顧）  (aliases: 研究回顧 / 系統性回顧; scope: card; links: 1; occurrences: 2)
+## systematic-review — 系統性回顧（研究回顧）  (aliases: 研究回顧 / 系統性回顧; scope: card; links: 3; occurrences: 6)
 - [LINK] SJ-M1 (fact) 「研究回顧」: 針灸能否改善乾燥症的口乾，目前證據不足：研究回顧中的針灸研究，對象是放射治療後口乾的人，效果和假針灸沒有差別（證據品質低）；乾燥症病人的試驗結果則不一致。
 - [repeat] SJ-M3 (fact) 「研究回顧」: 研究回顧（5 項研究、共 240 名女性）發現，DHEA 改善疲倦的效果和安慰劑沒有差別。
+- [LINK] OA-5.2 (label) 「系統性回顧」: EULAR 2018・建議強度 A；系統性回顧 2025・研究顯示
+- [LINK] OA-M2 (fact) 「研究回顧」: 美國 ACR 指引強烈建議膝、髖關節退化的人規律運動。研究回顧也發現，膝關節負重運動看來不會傷害軟骨，但證據品質低。
+- [repeat] OA-M2 (label) 「系統性回顧」: ACR 2019・強烈建議；系統性回顧 2019・研究顯示
+- [repeat] OA-M4 (label) 「系統性回顧」: 系統性回顧 2017、2023・研究顯示
 
 ## meta-analysis — 統合分析  (aliases: 統合分析; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-2.3 (label) 「統合分析」: 統合分析 2015・研究顯示
@@ -456,29 +578,51 @@
 ## rct — 隨機對照試驗  (aliases: 小型試驗 / 隨機對照試驗; scope: card; links: 1; occurrences: 1)
 - [LINK] GT-M3 (fact) 「小型試驗」: ACR 指引不建議為痛風額外補充維生素C；小型試驗中，痛風患者服用後尿酸變化沒有臨床意義。
 
-## observational — 觀察性研究  (aliases: 觀察性研究 / 觀察研究; scope: card; links: 2; occurrences: 2)
+## observational — 觀察性研究  (aliases: 觀察性研究 / 觀察研究; scope: card; links: 4; occurrences: 4)
 - [LINK] GT-3.T (text) 「觀察研究」: 觀察研究發現，BMI 下降超過 5% 的人，比體重大致不變的人更不容易再次發作。
 - [LINK] GT-M4 (fact) 「觀察性研究」: 觀察性研究發現，吃櫻桃和較少發作有關；但 ACR 指引認為證據確定性低，沒有提出建議。
+- [LINK] OA-M4 (fact) 「觀察研究」: 觀察研究中，休閒跑者的髖、膝關節退化比例，並沒有比不跑步的人高；競技跑者的比例則比休閒跑者高。不過這類研究無法確定因果關係。
+- [LINK] IF-4.1 (text) 「觀察性研究」: ACR 類風濕性關節炎指引指出：觀察性研究發現，類固醇劑量越高、用得越久，和嚴重感染風險越高有關；醫師會盡量用最低有效劑量、最短時間。
 
-## placebo — 安慰劑  (aliases: 安慰劑; scope: card; links: 1; occurrences: 1)
+## placebo — 安慰劑  (aliases: 安慰劑; scope: card; links: 2; occurrences: 2)
 - [LINK] SJ-M3 (fact) 「安慰劑」: 研究回顧（5 項研究、共 240 名女性）發現，DHEA 改善疲倦的效果和安慰劑沒有差別。
+- [LINK] OA-M1 (fact) 「安慰劑」: 美國 ACR 指引強烈不建議用葡萄糖胺治療膝、髖或手部退化性關節炎，英國 NICE 也不建議。最可靠的研究顯示，它比起安慰劑沒有明顯好處。
 
-## certainty — 證據確定性  (aliases: 證據確定性 / 證據品質 / 證據的確定性; scope: card; links: 3; occurrences: 3)
+## certainty — 證據確定性  (aliases: 證據確定性 / 證據品質 / 證據的確定性; scope: card; links: 4; occurrences: 4)
 - [LINK] GT-M4 (fact) 「證據確定性」: 觀察性研究發現，吃櫻桃和較少發作有關；但 ACR 指引認為證據確定性低，沒有提出建議。
 - [LINK] SL-M4 (fact) 「證據的確定性」: 特定飲食計畫或魚油補充品能否改善疾病活性，目前證據的確定性都偏低；建議均衡飲食。
 - [LINK] SJ-M1 (fact) 「證據品質」: 針灸能否改善乾燥症的口乾，目前證據不足：研究回顧中的針灸研究，對象是放射治療後口乾的人，效果和假針灸沒有差別（證據品質低）；乾燥症病人的試驗結果則不一致。
+- [LINK] OA-M2 (fact) 「證據品質」: 美國 ACR 指引強烈建議膝、髖關節退化的人規律運動。研究回顧也發現，膝關節負重運動看來不會傷害軟骨，但證據品質低。
 
 ## clinical-significance — 臨床意義  (aliases: 臨床意義; scope: card; links: 2; occurrences: 2)
 - [LINK] GT-M3 (fact) 「臨床意義」: ACR 指引不建議為痛風額外補充維生素C；小型試驗中，痛風患者服用後尿酸變化沒有臨床意義。
 - [LINK] RA-M3 (fact) 「臨床意義」: 吃特定食物不太可能大幅改善病情；證據較可靠的魚油、益生菌研究，不是沒有效果，就是效果可能不具臨床意義。
 
-## expert-consensus — 專家共識  (aliases: 專家共識; scope: card; links: 2; occurrences: 2)
+## expert-consensus — 專家共識  (aliases: 專家共識; scope: card; links: 11; occurrences: 19)
 - [LINK] GT-5.1 (label) 「專家共識」: 台灣共識 2018・專家共識
 - [LINK] SL-M2 (label) 「專家共識」: 國際共識 2024・專家共識
+- [LINK] OP-4.1 (label) 「專家共識」: NOGG 2024・指引說明；英國骨鬆運動共識 2022・專家共識
+- [repeat] OP-4.2 (label) 「專家共識」: 英國骨鬆運動共識 2022・專家共識；BHOF 2022・指引說明
+- [LINK] OP-6.5 (label) 「專家共識」: 亞太顎骨壞死共識 2026・專家共識；NOGG 2024・建議
+- [LINK] OP-S3 (label) 「專家共識」: 世界跌倒指引 2022・強烈建議（1A）；英國骨鬆運動共識 2022・專家共識
+- [LINK] LB-1.1 (label) 「專家共識」: CRA 2015・指引說明；ICAP 2019・專家共識
+- [repeat] LB-1.2 (label) 「專家共識」: ICAP 2019・專家共識
+- [repeat] LB-1.3 (label) 「專家共識」: ICAP 2019・專家共識
+- [repeat] LB-1.4 (label) 「專家共識」: EASI/IUIS 2014・專家共識；ICAP 2019・專家共識
+- [repeat] LB-1.4 (label) 「專家共識」: EASI/IUIS 2014・專家共識；ICAP 2019・專家共識
+- [repeat] LB-1.T (label) 「專家共識」: ICAP 2019・專家共識
+- [LINK] LB-5.2 (label) 「專家共識」: EULAR 2018・指引說明；G-CAN 2019・專家共識
+- [repeat] LB-5.T (text) 「專家共識」: 「偏高」沒有全球統一的數字：美國指引以6.8 mg/dL為界，國際專家共識則沒有訂出單一數字。
+- [repeat] LB-5.T (label) 「專家共識」: ACR 2020・指引說明；G-CAN 2019・專家共識
+- [LINK] LB-M1 (label) 「專家共識」: CRA 2015・指引說明；ICAP 2019・專家共識；EULAR/ACR 2019・指引說明
+- [LINK] IF-3.5 (label) 「專家共識」: AASLD 2018・專家共識；APASL 2021・指引說明
+- [LINK] IF-6.3 (label) 「專家共識」: EULAR 2022・專家共識
+- [LINK] IF-M4 (label) 「專家共識」: AASLD 2018・專家共識；APASL 2021・指引說明
 
-## cbt — 認知行為治療  (aliases: 認知行為治療; scope: card; links: 2; occurrences: 2)
+## cbt — 認知行為治療  (aliases: 認知行為治療; scope: card; links: 3; occurrences: 3)
 - [LINK] RA-5.4 (text) 「認知行為治療」: 可考慮認知行為治療或身心療法，可能有助改善憂鬱、焦慮、疲倦和睡眠。
 - [LINK] SL-4.3 (text) 「認知行為治療」: 認知行為治療、團體治療、心理衛教或心理諮商等心理社會介入，可能有助改善生活品質、焦慮和憂鬱情緒。
+- [LINK] OA-1.T (text) 「認知行為治療」: 可以考慮認知行為治療；改善心情、減輕壓力和處理失眠，也可能有助整體健康和治療效果。
 
 ## psychosocial — 心理社會介入  (aliases: 心理社會介入; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-4.3 (text) 「心理社會介入」: 認知行為治療、團體治療、心理衛教或心理諮商等心理社會介入，可能有助改善生活品質、焦慮和憂鬱情緒。
@@ -487,7 +631,7 @@
 - [LINK] RA-M1 (belief) 「輔助療法」: 只要調整生活習慣或採用輔助療法，就可以取代類風濕性關節炎的藥物。
 - [repeat] RA-M1 (fact) 「輔助療法」: 生活調整是用來搭配藥物治療，不能取代藥物；輔助療法也不應取代正規治療。用藥調整請和醫師討論。
 
-## org-acr — ACR  (aliases: ACR; scope: page; links: 5; occurrences: 50)
+## org-acr — ACR  (aliases: ACR; scope: page; links: 8; occurrences: 90)
 - [LINK] CM-4.1 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.2 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.3 (label) 「ACR」: ACR 2022・建議
@@ -538,8 +682,48 @@
 - [repeat] AS-4.4 (label) 「ACR」: ACR 2015・強烈建議
 - [repeat] AS-M2 (label) 「ACR」: ACR 2015・建議
 - [LINK] SL-6.3 (label) 「ACR」: ACR 2020・基本原則
+- [LINK] OA-1.T (label) 「ACR」: ACR 2019・建議
+- [repeat] OA-2.1 (label) 「ACR」: ACR 2019・強烈建議；EULAR 2023・建議強度 A
+- [repeat] OA-2.3 (label) 「ACR」: ACR 2019・指引說明；EULAR 2023・建議強度 A
+- [repeat] OA-2.4 (label) 「ACR」: NICE 2022・建議；ACR 2019・指引說明
+- [repeat] OA-3.5 (label) 「ACR」: ACR 2019・指引說明
+- [repeat] OA-4.1 (label) 「ACR」: ACR 2019・強烈建議
+- [repeat] OA-4.4 (label) 「ACR」: EULAR 2023・指引說明；ACR 2019・指引說明
+- [repeat] OA-4.T (label) 「ACR」: ACR 2019・指引說明
+- [repeat] OA-5.4 (label) 「ACR」: ACR 2019・建議
+- [repeat] OA-6.2 (label) 「ACR」: ACR 2019・建議
+- [repeat] OA-6.3 (label) 「ACR」: EULAR 2023・指引說明；ACR 2019・指引說明
+- [repeat] OA-6.4 (label) 「ACR」: ACR 2019・不建議
+- [repeat] OA-M1 (fact) 「ACR」: 美國 ACR 指引強烈不建議用葡萄糖胺治療膝、髖或手部退化性關節炎，英國 NICE 也不建議。最可靠的研究顯示，它比起安慰劑沒有明顯好處。
+- [repeat] OA-M1 (label) 「ACR」: ACR 2019・強烈不建議；NICE 2022・不建議
+- [repeat] OA-M2 (fact) 「ACR」: 美國 ACR 指引強烈建議膝、髖關節退化的人規律運動。研究回顧也發現，膝關節負重運動看來不會傷害軟骨，但證據品質低。
+- [repeat] OA-M2 (label) 「ACR」: ACR 2019・強烈建議；系統性回顧 2019・研究顯示
+- [repeat] OA-M3 (fact) 「ACR」: 美國 ACR 指引不建議用魚油或維生素D補充品治療膝、髖或手部退化性關節炎。醫師因其他原因指示的維生素D，請照醫囑使用。
+- [repeat] OA-M3 (label) 「ACR」: ACR 2019・不建議
+- [LINK] LB-2.1 (label) 「ACR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-2.2 (label) 「ACR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-2.3 (label) 「ACR」: EULAR/ACR 2019・基本原則
+- [repeat] LB-2.4 (label) 「ACR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-2.T (label) 「ACR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-3.3 (label) 「ACR」: ACR/EULAR 2010・指引說明
+- [repeat] LB-3.T (label) 「ACR」: ACR/EULAR 2010・指引說明
+- [repeat] LB-4.2 (label) 「ACR」: ACR 2013・強烈不建議（1C）
+- [repeat] LB-4.3 (label) 「ACR」: ACR 2013・指引說明
+- [repeat] LB-4.4 (label) 「ACR」: ACR 2013・指引說明
+- [repeat] LB-5.1 (label) 「ACR」: ACR 2020・指引說明
+- [repeat] LB-5.3 (label) 「ACR」: ACR 2020・指引說明；EULAR 2018・指引說明
+- [repeat] LB-5.T (label) 「ACR」: ACR 2020・指引說明；G-CAN 2019・專家共識
+- [repeat] LB-6.1 (label) 「ACR」: ACR 2020・不建議；中國指引 2024・指引說明
+- [repeat] LB-M1 (label) 「ACR」: CRA 2015・指引說明；ICAP 2019・專家共識；EULAR/ACR 2019・指引說明
+- [repeat] LB-M2 (label) 「ACR」: ACR/EULAR 2010・指引說明；Nishimura 2007・研究顯示
+- [repeat] LB-M3 (label) 「ACR」: EULAR 2018・指引說明；ACR 2020・指引說明
+- [repeat] LB-M4 (label) 「ACR」: ACR 2020・不建議；中國指引 2024・指引說明
+- [LINK] IF-1.5 (label) 「ACR」: EULAR 2022・指引說明；ACR 2021・指引說明
+- [repeat] IF-4.1 (text) 「ACR」: ACR 類風濕性關節炎指引指出：觀察性研究發現，類固醇劑量越高、用得越久，和嚴重感染風險越高有關；醫師會盡量用最低有效劑量、最短時間。
+- [repeat] IF-4.1 (label) 「ACR」: ACR 2021・指引說明
+- [repeat] IF-5.1 (label) 「ACR」: IDST 2024・指引說明；ACR 2022・建議
 
-## org-eular — EULAR  (aliases: EULAR; scope: page; links: 6; occurrences: 54)
+## org-eular — EULAR  (aliases: EULAR; scope: page; links: 9; occurrences: 102)
 - [LINK] CM-1.5 (label) 「EULAR」: EULAR 2021・建議強度 A
 - [repeat] CM-2.1 (label) 「EULAR」: EULAR 2021・建議強度 B
 - [repeat] CM-2.2 (label) 「EULAR」: EULAR 2021・建議強度 B
@@ -594,8 +778,56 @@
 - [repeat] SJ-2.3 (label) 「EULAR」: EULAR 2020・指引說明
 - [repeat] SJ-2.4 (label) 「EULAR」: BSR 2025・建議（2C）；EULAR 2020・指引說明
 - [repeat] SJ-4.4 (label) 「EULAR」: EULAR 2020・指引說明
+- [LINK] OA-1.3 (label) 「EULAR」: EULAR 2023・建議強度 A
+- [repeat] OA-1.4 (label) 「EULAR」: EULAR 2023・建議強度 A；EULAR 2018・基本原則
+- [repeat] OA-1.4 (label) 「EULAR」: EULAR 2023・建議強度 A；EULAR 2018・基本原則
+- [repeat] OA-2.1 (label) 「EULAR」: ACR 2019・強烈建議；EULAR 2023・建議強度 A
+- [repeat] OA-2.2 (label) 「EULAR」: EULAR 2023・建議強度 A
+- [repeat] OA-2.3 (label) 「EULAR」: ACR 2019・指引說明；EULAR 2023・建議強度 A
+- [repeat] OA-2.5 (label) 「EULAR」: NICE 2022・建議；EULAR 2023・指引說明
+- [repeat] OA-2.T (label) 「EULAR」: EULAR 2025・建議強度 A
+- [repeat] OA-3.2 (label) 「EULAR」: EULAR 2025・指引說明
+- [repeat] OA-3.3 (label) 「EULAR」: EULAR 2025・指引說明
+- [repeat] OA-3.4 (label) 「EULAR」: EULAR 2025・指引說明
+- [repeat] OA-3.T (label) 「EULAR」: EULAR 2025・指引說明；新加坡 ACE 2026・指引說明
+- [repeat] OA-4.4 (label) 「EULAR」: EULAR 2023・指引說明；ACR 2019・指引說明
+- [repeat] OA-5.1 (label) 「EULAR」: EULAR 2018・建議強度 A
+- [repeat] OA-5.2 (label) 「EULAR」: EULAR 2018・建議強度 A；系統性回顧 2025・研究顯示
+- [repeat] OA-5.3 (label) 「EULAR」: EULAR 2018・建議強度 A
+- [repeat] OA-6.1 (label) 「EULAR」: NICE 2022・建議；EULAR 2023・建議強度 A
+- [repeat] OA-6.3 (label) 「EULAR」: EULAR 2023・指引說明；ACR 2019・指引說明
+- [LINK] LB-2.1 (label) 「EULAR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-2.2 (label) 「EULAR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-2.3 (label) 「EULAR」: EULAR/ACR 2019・基本原則
+- [repeat] LB-2.4 (label) 「EULAR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-2.T (label) 「EULAR」: EULAR/ACR 2019・指引說明
+- [repeat] LB-3.3 (label) 「EULAR」: ACR/EULAR 2010・指引說明
+- [repeat] LB-3.T (label) 「EULAR」: ACR/EULAR 2010・指引說明
+- [repeat] LB-5.2 (label) 「EULAR」: EULAR 2018・指引說明；G-CAN 2019・專家共識
+- [repeat] LB-5.3 (label) 「EULAR」: ACR 2020・指引說明；EULAR 2018・指引說明
+- [repeat] LB-M1 (label) 「EULAR」: CRA 2015・指引說明；ICAP 2019・專家共識；EULAR/ACR 2019・指引說明
+- [repeat] LB-M2 (label) 「EULAR」: ACR/EULAR 2010・指引說明；Nishimura 2007・研究顯示
+- [repeat] LB-M3 (label) 「EULAR」: EULAR 2018・指引說明；ACR 2020・指引說明
+- [repeat] LB-S1 (label) 「EULAR」: EULAR 2016・建議強度 B
+- [LINK] IF-1.1 (label) 「EULAR」: EULAR 2022・基本原則
+- [repeat] IF-1.2 (label) 「EULAR」: EULAR 2022・基本原則
+- [repeat] IF-1.4 (label) 「EULAR」: EULAR 2022・建議強度 C/D
+- [repeat] IF-1.5 (label) 「EULAR」: EULAR 2022・指引說明；ACR 2021・指引說明
+- [repeat] IF-2.2 (label) 「EULAR」: EULAR 2022・建議強度 B/D；BSR 2019・強烈建議（1B）
+- [repeat] IF-2.3 (label) 「EULAR」: EULAR 2022・建議強度 B/D
+- [repeat] IF-2.T (label) 「EULAR」: 疾管署・指引說明；EULAR 2022・指引說明
+- [repeat] IF-3.1 (label) 「EULAR」: EULAR 2022・建議強度 C；APASL 2021・建議
+- [repeat] IF-3.3 (label) 「EULAR」: EULAR 2022・指引說明
+- [repeat] IF-3.4 (label) 「EULAR」: EULAR 2022・指引說明
+- [repeat] IF-3.T (label) 「EULAR」: EULAR 2019・建議；TRA 2020・指引說明
+- [repeat] IF-4.4 (label) 「EULAR」: EULAR 2022・建議強度 B/D
+- [repeat] IF-5.4 (label) 「EULAR」: EULAR 2022・建議強度 D
+- [repeat] IF-6.1 (label) 「EULAR」: EULAR 2022・指引說明
+- [repeat] IF-6.3 (label) 「EULAR」: EULAR 2022・專家共識
+- [repeat] IF-M3 (label) 「EULAR」: EULAR 2022・指引說明；疾管署・指引說明
+- [repeat] IF-S3 (label) 「EULAR」: EULAR 2022・指引說明
 
-## org-bsr — BSR  (aliases: BSR; scope: page; links: 4; occurrences: 37)
+## org-bsr — BSR  (aliases: BSR; scope: page; links: 5; occurrences: 45)
 - [LINK] GT-2.3 (label) 「BSR」: BSR 2017・建議
 - [repeat] GT-2.4 (label) 「BSR」: BSR 2017・建議
 - [repeat] GT-3.3 (label) 「BSR」: BSR 2017・建議
@@ -633,8 +865,16 @@
 - [repeat] SJ-M1 (label) 「BSR」: BSR 2025・指引說明；研究顯示
 - [repeat] SJ-S1 (label) 「BSR」: BSR 2025・強烈建議（1A）
 - [repeat] SJ-S2 (label) 「BSR」: BSR 2025・指引說明
+- [LINK] IF-1.3 (label) 「BSR」: BSR 2025・指引說明
+- [repeat] IF-2.2 (label) 「BSR」: EULAR 2022・建議強度 B/D；BSR 2019・強烈建議（1B）
+- [repeat] IF-2.4 (label) 「BSR」: BSR 2019・建議（2C）；疾管署・指引說明
+- [repeat] IF-3.2 (label) 「BSR」: BSR 2025・指引說明；APASL 2021・指引說明
+- [repeat] IF-5.3 (label) 「BSR」: BSR 2025・強烈建議（1B）
+- [repeat] IF-6.2 (label) 「BSR」: BSR 2019・強烈建議（1A）
+- [repeat] IF-M1 (label) 「BSR」: BSR 2019・強烈建議（1C）
+- [repeat] IF-S1 (label) 「BSR」: BSR 2019・建議（2C）
 
-## org-nice — NICE  (aliases: NICE; scope: page; links: 2; occurrences: 9)
+## org-nice — NICE  (aliases: NICE; scope: page; links: 4; occurrences: 25)
 - [LINK] GT-3.1 (label) 「NICE」: NICE 2022・建議
 - [LINK] AS-1.2 (label) 「NICE」: NICE 2017・建議
 - [repeat] AS-3.3 (label) 「NICE」: NICE 2017・建議
@@ -644,6 +884,22 @@
 - [repeat] AS-5.3 (label) 「NICE」: NICE 2017・建議
 - [repeat] AS-S1 (label) 「NICE」: NICE 2017・建議
 - [repeat] AS-S2 (label) 「NICE」: NICE 2017・建議
+- [LINK] OA-1.1 (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-1.2 (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-1.5 (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-2.4 (label) 「NICE」: NICE 2022・建議；ACR 2019・指引說明
+- [repeat] OA-2.5 (label) 「NICE」: NICE 2022・建議；EULAR 2023・指引說明
+- [repeat] OA-3.1 (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-4.2 (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-4.3 (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-6.1 (label) 「NICE」: NICE 2022・建議；EULAR 2023・建議強度 A
+- [repeat] OA-6.5 (label) 「NICE」: NICE 2022・不建議
+- [repeat] OA-6.T (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-M1 (fact) 「NICE」: 美國 ACR 指引強烈不建議用葡萄糖胺治療膝、髖或手部退化性關節炎，英國 NICE 也不建議。最可靠的研究顯示，它比起安慰劑沒有明顯好處。
+- [repeat] OA-M1 (label) 「NICE」: ACR 2019・強烈不建議；NICE 2022・不建議
+- [repeat] OA-S1 (label) 「NICE」: NICE 2022・建議
+- [repeat] OA-S2 (label) 「NICE」: NICE 2022・指引說明
+- [LINK] LB-S2 (label) 「NICE」: NICE NG100・建議
 
 ## org-asas — ASAS  (aliases: ASAS-EULAR; scope: page; links: 1; occurrences: 5)
 - [LINK] AS-1.1 (label) 「ASAS-EULAR」: ASAS-EULAR 2022・建議強度 B
@@ -710,12 +966,14 @@
 - [repeat] SJ-3.1 (label) 「TFOS」: Wolff 2017・研究顯示；TFOS DEWS III 2025・指引說明
 - [repeat] SJ-M2 (label) 「TFOS」: TFOS 2023・研究顯示
 
-## org-tra — TRA  (aliases: TRA; scope: page; links: 1; occurrences: 5)
+## org-tra — TRA  (aliases: TRA; scope: page; links: 2; occurrences: 7)
 - [LINK] AS-1.5 (label) 「TRA」: TRA 2020・指引說明
 - [repeat] AS-1.T (label) 「TRA」: TRA 2020・指引說明
 - [repeat] AS-2.3 (label) 「TRA」: TRA 2020・指引說明
 - [repeat] AS-3.1 (label) 「TRA」: TRA 2020・指引說明
 - [repeat] AS-3.T (label) 「TRA」: TRA 2020・指引說明
+- [LINK] IF-2.1 (label) 「TRA」: TRA 2020・指引說明；疾管署・指引說明
+- [repeat] IF-3.T (label) 「TRA」: EULAR 2019・建議；TRA 2020・指引說明
 
 ## org-aaaai — AAAAI／ACAAI  (aliases: AAAAI/ACAAI; scope: page; links: 1; occurrences: 4)
 - [LINK] UR-1.T (label) 「AAAAI/ACAAI」: AAAAI/ACAAI 2014、BSACI 2015・指引說明
@@ -732,8 +990,267 @@
 ## org-sf — Sjögren's Foundation  (aliases: Sjögren's Foundation; scope: page; links: 1; occurrences: 1)
 - [LINK] SJ-2.1 (label) 「Sjögren's Foundation」: Sjögren's Foundation 2016・強烈建議
 
-## good-practice — 良好實務建議  (aliases: 良好實務建議; scope: card; links: 1; occurrences: 1)
+## sarcopenia — 肌少症  (aliases: 肌少症; scope: card; links: 1; occurrences: 1)
+- [LINK] OA-4.5 (text) 「肌少症」: 膝關節退化、且體重過重或肥胖而需要減重的人，宜逐步、持續地減重；快速減重曾被發現與關節不穩、肌少症和骨質疏鬆等風險有關。
+
+## doms — 延遲性肌肉痠痛  (aliases: 延遲性肌肉痠痛; scope: card; links: 1; occurrences: 1)
+- [LINK] OA-3.2 (text) 「延遲性肌肉痠痛」: 運動後48到72小時內疼痛增加，可能是延遲性肌肉痠痛，屬正常反應，剛開始運動的人尤其如此。
+
+## tens — 經皮神經電刺激（TENS）  (aliases: 經皮神經電刺激 / TENS; scope: card; links: 1; occurrences: 3)
+- [LINK] oa-aids (summary) 「TENS」: 善用助行器和舒適的鞋子；楔形鞋墊和TENS不建議。
+- [repeat] OA-6.5 (text) 「經皮神經電刺激」: 不建議用經皮神經電刺激（TENS）處理退化性關節炎，因為沒有足夠證據顯示有好處。
+- [repeat] OA-6.5 (text) 「TENS」: 不建議用經皮神經電刺激（TENS）處理退化性關節炎，因為沒有足夠證據顯示有好處。
+
+## paraffin — 石蠟浴  (aliases: 石蠟浴; scope: card; links: 1; occurrences: 1)
+- [LINK] OA-5.4 (text) 「石蠟浴」: 手部關節可以考慮使用石蠟浴，這是一種手部熱療方式；使用時注意溫度，避免燙傷。
+
+## wedged-insoles — 楔形鞋墊  (aliases: 楔形鞋墊; scope: card; links: 1; occurrences: 2)
+- [LINK] oa-aids (summary) 「楔形鞋墊」: 善用助行器和舒適的鞋子；楔形鞋墊和TENS不建議。
+- [repeat] OA-6.4 (text) 「楔形鞋墊」: 不建議用楔形鞋墊（外側或內側墊高的鞋墊）來改善膝、髖關節退化。
+
+## glucosamine — 葡萄糖胺  (aliases: 葡萄糖胺; scope: card; links: 1; occurrences: 2)
+- [LINK] OA-M1 (belief) 「葡萄糖胺」: 吃葡萄糖胺可以治療退化性關節炎。
+- [repeat] OA-M1 (fact) 「葡萄糖胺」: 美國 ACR 指引強烈不建議用葡萄糖胺治療膝、髖或手部退化性關節炎，英國 NICE 也不建議。最可靠的研究顯示，它比起安慰劑沒有明顯好處。
+
+## balance-functional — 平衡與功能性訓練  (aliases: 平衡和功能性訓練 / 功能性訓練; scope: card; links: 2; occurrences: 2)
+- [LINK] OP-3.2 (text) 「平衡和功能性訓練」: 做平衡和功能性訓練（例如從椅子上站起來再坐下、爬樓梯），降低跌倒風險。
+- [LINK] OP-5.2 (text) 「平衡和功能性訓練」: 長者預防跌倒的運動，要有平衡和功能性訓練（例如從椅子站起、跨步），每週3次以上，逐步加強至少12週；做得更久，效果更好。
+
+## bmd — 骨密度檢查  (aliases: 骨密度檢查 / 骨密度; scope: card; links: 2; occurrences: 3)
+- [LINK] OP-1.3 (text) 「骨密度檢查」: 65歲以上女性、70歲以上男性，可和醫師討論是否做骨密度檢查。
+- [repeat] OP-1.4 (text) 「骨密度檢查」: 停經後女性和50歲以上男性，如果有骨折風險因子或成年後曾骨折，也可和醫師討論是否做骨密度檢查。
+- [LINK] OP-6.1 (text) 「骨密度」: 骨質疏鬆是長期疾病，目前無法根治，常需要長期治療；骨密度進步，也不代表已經痊癒。
+
+## fragility-fracture — 輕微外力骨折（脆弱性骨折）  (aliases: 輕微外力就骨折 / 輕微外力骨折; scope: card; links: 3; occurrences: 4)
+- [LINK] osteoporosis-fracture (summary) 「輕微外力就骨折」: 超過50歲輕微外力就骨折，要想到骨質疏鬆。
+- [repeat] OP-1.1 (text) 「輕微外力就骨折」: 超過50歲的人，輕微外力就骨折（例如從站立的高度跌倒），應考慮可能是骨質疏鬆。
+- [LINK] OP-5.1 (text) 「輕微外力骨折」: 骨質疏鬆或曾因輕微外力骨折的人，請醫療人員評估跌倒風險；有風險的人，建議參加改善平衡或綜合性的運動課程。
+- [LINK] OP-M2 (fact) 「輕微外力骨折」: 男性也會。英國指引估計，在英國約每5位男性就有1位一生中會因輕微外力骨折；男性常沒被檢查和治療，骨折後的結果往往也比女性差。
+
+## fracture-risk-factors — 骨折風險因子  (aliases: 骨折風險因子; scope: card; links: 1; occurrences: 1)
+- [LINK] OP-1.4 (text) 「骨折風險因子」: 停經後女性和50歲以上男性，如果有骨折風險因子或成年後曾骨折，也可和醫師討論是否做骨密度檢查。
+
+## vertebral-fracture — 脊椎骨折  (aliases: 脊椎骨折; scope: card; links: 4; occurrences: 4)
+- [LINK] AS-3.T (text) 「脊椎骨折」: 台灣常以機車、腳踏車代步，宜及早和醫師討論骨質疏鬆與脊椎骨折的風險。
+- [LINK] OP-6.3 (text) 「脊椎骨折」: 使用每半年打一次的骨鬆皮下注射針劑（denosumab）時，不要自行停藥或延後打針；需要停藥時，請醫師安排接續治療，以免脊椎骨折風險增加。
+- [LINK] OP-M1 (fact) 「脊椎骨折」: 骨質流失本身沒有症狀，常到骨折才發現。約三分之二的脊椎骨折沒有明顯症狀，但不論有沒有症狀，都代表之後更容易再骨折。
+- [LINK] OP-S1 (text) 「脊椎骨折」: 停經後女性和50歲以上男性，身高變矮4公分以上、背變駝，或有骨鬆風險又突然背痛（尤其是中上背），請告訴醫師，可能是脊椎骨折。
+
+## bisphosphonate — 雙磷酸鹽類藥物  (aliases: 雙磷酸鹽類骨鬆藥 / 雙磷酸鹽; scope: card; links: 2; occurrences: 2)
+- [LINK] OP-6.4 (text) 「雙磷酸鹽類骨鬆藥」: 使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑期間，保持口腔清潔、定期看牙醫；牙齒鬆動、口腔疼痛或腫脹時，請告訴醫師或牙醫師。
+- [LINK] OP-S2 (text) 「雙磷酸鹽類骨鬆藥」: 使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑（denosumab）期間，出現原因不明的大腿、鼠蹊部或髖部疼痛，請告訴醫師。
+
+## denosumab — 骨鬆皮下注射針劑（denosumab）  (aliases: 骨鬆皮下注射針劑 / denosumab; scope: card; links: 2; occurrences: 5)
+- [LINK] OP-6.3 (text) 「骨鬆皮下注射針劑」: 使用每半年打一次的骨鬆皮下注射針劑（denosumab）時，不要自行停藥或延後打針；需要停藥時，請醫師安排接續治療，以免脊椎骨折風險增加。
+- [repeat] OP-6.3 (text) 「denosumab」: 使用每半年打一次的骨鬆皮下注射針劑（denosumab）時，不要自行停藥或延後打針；需要停藥時，請醫師安排接續治療，以免脊椎骨折風險增加。
+- [repeat] OP-6.4 (text) 「骨鬆皮下注射針劑」: 使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑期間，保持口腔清潔、定期看牙醫；牙齒鬆動、口腔疼痛或腫脹時，請告訴醫師或牙醫師。
+- [LINK] OP-S2 (text) 「骨鬆皮下注射針劑」: 使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑（denosumab）期間，出現原因不明的大腿、鼠蹊部或髖部疼痛，請告訴醫師。
+- [repeat] OP-S2 (text) 「denosumab」: 使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑（denosumab）期間，出現原因不明的大腿、鼠蹊部或髖部疼痛，請告訴醫師。
+
+## onj — 顎骨壞死  (aliases: 顎骨壞死; scope: card; links: 1; occurrences: 1)
+- [LINK] OP-6.5 (label) 「顎骨壞死」: 亞太顎骨壞死共識 2026・專家共識；NOGG 2024・建議
+
+## ana — 抗核抗體（ANA）  (aliases: 抗核抗體 / ANA; scope: page; links: 1; occurrences: 18)
+- [LINK] labs-intro (intro) 「抗核抗體」: 健檢報告出現抗核抗體、類風濕因子、抗CCP抗體陽性或尿酸偏高時，這頁說明它們的意思；是否生病，要由醫師合併症狀與檢查判斷。
+- [repeat] labs-ana (title) 「抗核抗體」: 抗核抗體陽性
+- [repeat] LB-1.1 (text) 「抗核抗體」: 健康的人也可能驗出抗核抗體（ANA）陽性：1:40以上約20%、最多可達35%，1:160以上約5%。
+- [repeat] LB-1.1 (text) 「ANA」: 健康的人也可能驗出抗核抗體（ANA）陽性：1:40以上約20%、最多可達35%，1:160以上約5%。
+- [repeat] LB-1.2 (text) 「抗核抗體」: 抗核抗體數值越高（如1:160高於1:40），和自體免疫風濕病關聯越強。
+- [repeat] LB-1.3 (text) 「抗核抗體」: 單看報告上的抗核抗體型態，通常不能確定和哪一種疾病有關，要由醫師配合症狀判斷。
+- [repeat] LB-1.4 (text) 「抗核抗體」: 不同醫院或檢驗所的抗核抗體檢驗方法、陽性切點可能不同，結果不一定一致。
+- [repeat] LB-1.T (text) 「抗核抗體」: 沒有相關疾病表現、卻驗出抗核抗體陽性的情況越來越多，可能和真正有病的陽性一樣常見。
+- [repeat] labs-sle (title) 「抗核抗體」: 抗核抗體與紅斑性狼瘡
+- [repeat] labs-sle (summary) 「抗核抗體」: 抗核抗體陽性只是入門條件，不等於紅斑性狼瘡。
+- [repeat] LB-2.1 (text) 「抗核抗體」: 國際紅斑性狼瘡分類標準中，抗核抗體陽性（1:80以上）只是入門條件。
+- [repeat] LB-2.T (text) 「抗核抗體」: 抗核抗體被當成入門條件，考量之一是：紅斑性狼瘡患者幾乎都會陽性，但沒有這個病的人也可能陽性。
+- [repeat] labs-ana-screening (title) 「抗核抗體」: 抗核抗體不是篩檢工具
+- [repeat] labs-ana-screening (summary) 「抗核抗體」: 沒有特定症狀時，不建議用抗核抗體篩檢。
+- [repeat] LB-4.1 (text) 「抗核抗體」: 沒有紅斑性狼瘡或其他結締組織疾病的特定症狀或徵象時，不建議把抗核抗體當成篩檢。
+- [repeat] LB-4.2 (text) 「抗核抗體」: 醫師評估後不懷疑免疫疾病時，即使抗核抗體陽性，也不建議再加驗相關的特定抗體。
+- [repeat] LB-M1 (belief) 「抗核抗體」: 抗核抗體陽性，就是得了紅斑性狼瘡。
+- [repeat] LB-M1 (fact) 「抗核抗體」: 不一定。以1:40檢驗，健康的人約20%、最多35%會陽性；抗核抗體只是紅斑性狼瘡分類的入門條件，診斷要由醫師評估。
+
+## rf — 類風濕因子（RF）  (aliases: 類風濕因子 / RF; scope: page; links: 1; occurrences: 8)
+- [LINK] labs-intro (intro) 「類風濕因子」: 健檢報告出現抗核抗體、類風濕因子、抗CCP抗體陽性或尿酸偏高時，這頁說明它們的意思；是否生病，要由醫師合併症狀與檢查判斷。
+- [repeat] labs-rf-ccp (title) 「類風濕因子」: 類風濕因子與抗CCP
+- [repeat] LB-3.1 (text) 「類風濕因子」: 類風濕因子（RF）陽性，不一定是類風濕性關節炎；沒有這個病的人也可能驗出陽性。
+- [repeat] LB-3.1 (text) 「RF」: 類風濕因子（RF）陽性，不一定是類風濕性關節炎；沒有這個病的人也可能驗出陽性。
+- [repeat] LB-3.2 (text) 「類風濕因子」: 沒有類風濕性關節炎的人，抗CCP抗體陽性的機會比類風濕因子低。
+- [repeat] LB-3.4 (text) 「類風濕因子」: 類風濕因子或抗CCP抗體陰性，也不能排除類風濕性關節炎：研究中，每種抗體都有3成以上的患者是陰性。
+- [repeat] LB-M2 (belief) 「類風濕因子」: 類風濕因子陽性，就是得了類風濕性關節炎。
+- [repeat] LB-S2 (text) 「類風濕因子」: 關節持續腫脹，應請專科醫師評估；如果手腳小關節腫、不只一個關節腫，或症狀已3個月以上還沒看醫師，即使類風濕因子或抗CCP抗體陰性，也應盡快評估。
+
+## anti-ccp — 抗CCP抗體（抗環瓜胺酸胜肽抗體）  (aliases: 抗CCP抗體 / 抗CCP; scope: page; links: 1; occurrences: 5)
+- [LINK] labs-intro (intro) 「抗CCP抗體」: 健檢報告出現抗核抗體、類風濕因子、抗CCP抗體陽性或尿酸偏高時，這頁說明它們的意思；是否生病，要由醫師合併症狀與檢查判斷。
+- [repeat] labs-rf-ccp (title) 「抗CCP」: 類風濕因子與抗CCP
+- [repeat] LB-3.2 (text) 「抗CCP抗體」: 沒有類風濕性關節炎的人，抗CCP抗體陽性的機會比類風濕因子低。
+- [repeat] LB-3.4 (text) 「抗CCP抗體」: 類風濕因子或抗CCP抗體陰性，也不能排除類風濕性關節炎：研究中，每種抗體都有3成以上的患者是陰性。
+- [repeat] LB-S2 (text) 「抗CCP抗體」: 關節持續腫脹，應請專科醫師評估；如果手腳小關節腫、不只一個關節腫，或症狀已3個月以上還沒看醫師，即使類風濕因子或抗CCP抗體陰性，也應盡快評估。
+
+## false-results — 假陽性與假陰性（偽陽性、偽陰性）  (aliases: 假陽性 / 偽陰性; scope: card; links: 2; occurrences: 3)
+- [LINK] LB-4.3 (text) 「假陽性」: 檢查結果不會改變處理方式，或生病機會低到假陽性比真陽性更可能時，就不建議檢查。
+- [repeat] LB-4.4 (text) 「假陽性」: 沒有方向、範圍很廣的檢查，可能增加假陽性，帶來不必要的追加檢查和擔心。
+- [LINK] IF-2.T (text) 「偽陰性」: 免疫力較低時，潛伏結核檢驗可能出現偽陰性；有風險因子或日後出現風險因子時，醫師可能考慮定期再篩檢。
+
+## classification-criteria — 分類標準  (aliases: 分類標準; scope: page; links: 1; occurrences: 7)
+- [LINK] LB-2.1 (text) 「分類標準」: 國際紅斑性狼瘡分類標準中，抗核抗體陽性（1:80以上）只是入門條件。
+- [repeat] LB-2.3 (text) 「分類標準」: 在紅斑性狼瘡分類標準中，每一項表現都要在沒有其他更可能的原因時，才能算分。
+- [repeat] LB-2.4 (text) 「分類標準」: 分類標準不是設計來診斷或決定治療的；是否為紅斑性狼瘡，要由受過適當訓練的醫師評估個人狀況來判斷。
+- [repeat] labs-rf-ccp (summary) 「分類標準」: 陽性不等於類風濕性關節炎；分類標準要求關節腫脹。
+- [repeat] LB-3.3 (text) 「分類標準」: 類風濕性關節炎的分類標準，要先有至少1個關節腫脹（經專業評估），且沒有其他疾病更能解釋，才能套用。
+- [repeat] LB-3.T (text) 「分類標準」: 類風濕性關節炎的分類標準主要是為研究而訂，不是診斷標準。
+- [repeat] LB-M2 (fact) 「分類標準」: 不一定。沒有這個病的人也可能陽性；國際分類標準規定，至少要有1個關節腫脹才能套用，單靠抽血不行。
+
+## ctd — 結締組織疾病  (aliases: 結締組織疾病; scope: card; links: 1; occurrences: 1)
+- [LINK] LB-4.1 (text) 「結締組織疾病」: 沒有紅斑性狼瘡或其他結締組織疾病的特定症狀或徵象時，不建議把抗核抗體當成篩檢。
+
+## tophus — 痛風石  (aliases: 痛風石; scope: card; links: 1; occurrences: 1)
+- [LINK] LB-5.1 (text) 「痛風石」: 血中尿酸偏高，但從沒有痛風發作，也沒有痛風石，稱為無症狀高尿酸血症。
+
+## ltbi — 潛伏結核  (aliases: 潛伏結核; scope: page; links: 1; occurrences: 10)
+- [LINK] infection-tb (title) 「潛伏結核」: 結核病與潛伏結核
+- [repeat] infection-tb (summary) 「潛伏結核」: 用生物製劑前先驗潛伏結核；陽性時把治療完整做完。
+- [repeat] IF-2.2 (text) 「潛伏結核」: 用生物製劑或口服標靶藥物前，要先篩檢潛伏結核；風險較高的人，用其他抗風濕藥物或類固醇前也可能需要。
+- [repeat] IF-2.4 (text) 「潛伏結核」: 潛伏結核檢驗陽性時，通常要先開始潛伏結核治療，再用生物製劑；治療完整做完，才能提供約 9 成的保護。
+- [repeat] IF-2.4 (text) 「潛伏結核」: 潛伏結核檢驗陽性時，通常要先開始潛伏結核治療，再用生物製劑；治療完整做完，才能提供約 9 成的保護。
+- [repeat] IF-2.5 (text) 「潛伏結核」: 接受潛伏結核治療時，建議參加「都治」計畫：由關懷員送藥、留意副作用，幫助治療成功、避免抗藥性。
+- [repeat] IF-2.T (text) 「潛伏結核」: 免疫力較低時，潛伏結核檢驗可能出現偽陰性；有風險因子或日後出現風險因子時，醫師可能考慮定期再篩檢。
+- [repeat] IF-M2 (belief) 「潛伏結核」: 驗出潛伏結核，就是得了肺結核，會傳染給家人。
+- [repeat] IF-M2 (fact) 「潛伏結核」: 潛伏結核是感染了結核菌、但還沒發病，沒有症狀，也還不會傳染。完整接受治療，可提供約 9 成的保護，避免日後發病。
+- [repeat] IF-M3 (fact) 「潛伏結核」: 不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
+
+## igra — 潛伏結核檢驗（IGRA 與皮膚測試）  (aliases: IGRA / 皮膚測試; scope: card; links: 1; occurrences: 2)
+- [LINK] IF-2.3 (text) 「IGRA」: 結核病篩檢通常包括胸部 X 光和抽血檢驗（IGRA）；有條件時，優先用抽血檢驗，而不是皮膚測試。
+- [repeat] IF-2.3 (text) 「皮膚測試」: 結核病篩檢通常包括胸部 X 光和抽血檢驗（IGRA）；有條件時，優先用抽血檢驗，而不是皮膚測試。
+
+## hbv-serology — B 型肝炎表面抗原、表面抗體與核心抗體  (aliases: 表面抗原 / 表面抗體 / 核心抗體; scope: card; links: 1; occurrences: 6)
+- [LINK] IF-3.1 (text) 「表面抗原」: 開始免疫抑制治療前，都應檢查 B 型肝炎表面抗原、表面抗體和核心抗體；類固醇則依劑量和使用時間決定。
+- [repeat] IF-3.1 (text) 「表面抗體」: 開始免疫抑制治療前，都應檢查 B 型肝炎表面抗原、表面抗體和核心抗體；類固醇則依劑量和使用時間決定。
+- [repeat] IF-3.1 (text) 「核心抗體」: 開始免疫抑制治療前，都應檢查 B 型肝炎表面抗原、表面抗體和核心抗體；類固醇則依劑量和使用時間決定。
+- [repeat] IF-3.3 (text) 「表面抗原」: B 型肝炎帶原者（表面抗原陽性）通常會轉介肝膽腸胃科，用抗病毒藥物預防再活化。
+- [repeat] IF-3.4 (text) 「核心抗體」: 曾感染過 B 型肝炎（核心抗體陽性、表面抗原陰性）的人，再活化風險較低，通常定期抽血追蹤；部分用藥則可能需要抗病毒藥。
+- [repeat] IF-3.4 (text) 「表面抗原」: 曾感染過 B 型肝炎（核心抗體陽性、表面抗原陰性）的人，再活化風險較低，通常定期抽血追蹤；部分用藥則可能需要抗病毒藥。
+
+## hbv-reactivation — B 型肝炎再活化  (aliases: B 型肝炎再活化; scope: card; links: 1; occurrences: 1)
+- [LINK] IF-3.2 (text) 「B 型肝炎再活化」: 免疫抑制治療可能讓 B 型肝炎再活化（再度活躍），已痊癒者也可能。類固醇看劑量：帶原者持續用較高劑量風險中到高，低劑量或已痊癒者風險較低。
+
+## tsdmard — 口服標靶藥物（JAK 抑制劑）  (aliases: 口服標靶藥物 / JAK 抑制劑; scope: card; links: 4; occurrences: 5)
+- [LINK] IF-2.2 (text) 「口服標靶藥物」: 用生物製劑或口服標靶藥物前，要先篩檢潛伏結核；風險較高的人，用其他抗風濕藥物或類固醇前也可能需要。
+- [LINK] IF-5.2 (text) 「JAK 抑制劑」: 使用 JAK 抑制劑（一種口服標靶藥物）時，帶狀疱疹比使用生物製劑時更常見。
+- [repeat] IF-5.2 (text) 「口服標靶藥物」: 使用 JAK 抑制劑（一種口服標靶藥物）時，帶狀疱疹比使用生物製劑時更常見。
+- [LINK] IF-6.3 (text) 「口服標靶藥物」: 用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可請醫療團隊提供飲食與環境衛生建議，減少李斯特菌、沙門氏菌等感染。
+- [LINK] IF-S1 (text) 「JAK 抑制劑」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
+
+## adrenal — 腎上腺功能不足與腎上腺危象  (aliases: 腎上腺功能不足 / 腎上腺危象; scope: card; links: 1; occurrences: 2)
+- [LINK] IF-4.2 (text) 「腎上腺危象」: 不要漏吃或自行突然停用類固醇；口服劑量高於身體自然分泌量時，藥量突然不足可能引起需緊急處理的腎上腺危象。
+- [repeat] IF-4.3 (text) 「腎上腺功能不足」: 長期用或剛停用類固醇的人，發燒或感染需用抗生素時，可能需要暫時補充類固醇，以免腎上腺功能不足（不是治療感染）；請事先問醫師，感染也要就醫。
+
+## pjp — 肺囊蟲肺炎  (aliases: 肺囊蟲肺炎; scope: card; links: 1; occurrences: 1)
+- [LINK] IF-4.4 (text) 「肺囊蟲肺炎」: 使用高劑量類固醇時，尤其合併免疫抑制劑，醫師可能會評估是否用藥預防肺囊蟲肺炎。
+
+## zoster — 帶狀疱疹（皮蛇）  (aliases: 帶狀疱疹 / 皮蛇; scope: card; links: 3; occurrences: 12)
+- [LINK] CM-5.2 (text) 「帶狀疱疹」: 風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種，包括活性的帶狀疱疹（皮蛇）疫苗；流感疫苗請選非活性的。接種前請先問風濕科醫師。
+- [repeat] CM-5.2 (text) 「皮蛇」: 風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種，包括活性的帶狀疱疹（皮蛇）疫苗；流感疫苗請選非活性的。接種前請先問風濕科醫師。
+- [LINK] infection-zoster (title) 「皮蛇」: 皮蛇與水痘
+- [repeat] infection-zoster (summary) 「皮蛇」: 免疫力低時較易得皮蛇；沒水痘免疫力者接觸病人後盡快告訴醫師。
+- [repeat] IF-5.1 (text) 「帶狀疱疹」: 一般人一生約 2 到 3 成會得帶狀疱疹（皮蛇），年長者和免疫力較低者風險更高；打疫苗預防最有效，但治療期間活性減毒疫苗建議延後（見共通照護頁）。
+- [repeat] IF-5.1 (text) 「皮蛇」: 一般人一生約 2 到 3 成會得帶狀疱疹（皮蛇），年長者和免疫力較低者風險更高；打疫苗預防最有效，但治療期間活性減毒疫苗建議延後（見共通照護頁）。
+- [repeat] IF-5.2 (text) 「帶狀疱疹」: 使用 JAK 抑制劑（一種口服標靶藥物）時，帶狀疱疹比使用生物製劑時更常見。
+- [repeat] IF-5.3 (text) 「帶狀疱疹」: 沒得過水痘或帶狀疱疹、也沒打過相關疫苗的成人，開始傳統抗風濕藥物前，建議檢查水痘免疫力。
+- [repeat] IF-5.4 (text) 「帶狀疱疹」: 對水痘沒有免疫力或不確定的人，接觸水痘或帶狀疱疹病人後，請盡快告訴醫療團隊，醫師可能會提供預防性治療。
+- [LINK] IF-S1 (text) 「帶狀疱疹」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
+- [repeat] IF-S1 (text) 「皮蛇」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
+- [repeat] IF-S1 (text) 「皮蛇」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
+
+## foodborne — 李斯特菌與沙門氏菌  (aliases: 李斯特菌 / 沙門氏菌; scope: card; links: 1; occurrences: 2)
+- [LINK] IF-6.3 (text) 「李斯特菌」: 用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可請醫療團隊提供飲食與環境衛生建議，減少李斯特菌、沙門氏菌等感染。
+- [repeat] IF-6.3 (text) 「沙門氏菌」: 用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可請醫療團隊提供飲食與環境衛生建議，減少李斯特菌、沙門氏菌等感染。
+
+## org-nogg — NOGG  (aliases: NOGG; scope: page; links: 1; occurrences: 19)
+- [LINK] OP-1.2 (label) 「NOGG」: NOGG 2024、BHOF 2022・指引說明
+- [repeat] OP-2.1 (label) 「NOGG」: NOGG 2024・強烈建議
+- [repeat] OP-2.4 (label) 「NOGG」: NOGG 2024・強烈建議
+- [repeat] OP-2.5 (label) 「NOGG」: 美國內分泌學會 2024・建議；NOGG 2024・指引說明
+- [repeat] OP-2.T (label) 「NOGG」: NOGG 2024・指引說明
+- [repeat] OP-3.1 (label) 「NOGG」: NOGG 2024・強烈建議
+- [repeat] OP-3.3 (label) 「NOGG」: 加拿大骨鬆指引 2023・建議；NOGG 2024・指引說明
+- [repeat] OP-4.1 (label) 「NOGG」: NOGG 2024・指引說明；英國骨鬆運動共識 2022・專家共識
+- [repeat] OP-5.1 (label) 「NOGG」: NOGG 2024・強烈建議
+- [repeat] OP-6.1 (label) 「NOGG」: NOGG 2024、BHOF 2022・指引說明
+- [repeat] OP-6.2 (label) 「NOGG」: BHOF 2022・指引說明；NOGG 2024・強烈建議
+- [repeat] OP-6.3 (label) 「NOGG」: NOGG 2024・強烈建議
+- [repeat] OP-6.4 (label) 「NOGG」: NOGG 2024・強烈建議；加拿大骨鬆指引 2023・良好實務建議
+- [repeat] OP-6.5 (label) 「NOGG」: 亞太顎骨壞死共識 2026・專家共識；NOGG 2024・建議
+- [repeat] OP-6.T (label) 「NOGG」: NOGG 2024・強烈建議
+- [repeat] OP-M2 (label) 「NOGG」: NOGG 2024、加拿大骨鬆指引 2023・指引說明
+- [repeat] OP-M4 (label) 「NOGG」: NOGG 2024、BHOF 2022・指引說明
+- [repeat] OP-S1 (label) 「NOGG」: NOGG 2024・強烈建議
+- [repeat] OP-S2 (label) 「NOGG」: NOGG 2024・強烈建議
+
+## org-bhof — BHOF  (aliases: BHOF; scope: page; links: 1; occurrences: 11)
+- [LINK] OP-1.2 (label) 「BHOF」: NOGG 2024、BHOF 2022・指引說明
+- [repeat] OP-1.3 (label) 「BHOF」: BHOF 2022、台灣骨鬆學會 2021・指引說明
+- [repeat] OP-1.4 (label) 「BHOF」: BHOF 2022、台灣骨鬆學會 2021・指引說明
+- [repeat] OP-2.2 (label) 「BHOF」: BHOF 2022、加拿大骨鬆指引 2023・指引說明
+- [repeat] OP-2.3 (label) 「BHOF」: 國健署 2018／2014、BHOF 2022・指引說明
+- [repeat] OP-3.5 (label) 「BHOF」: BHOF 2022・指引說明
+- [repeat] OP-4.2 (label) 「BHOF」: 英國骨鬆運動共識 2022・專家共識；BHOF 2022・指引說明
+- [repeat] OP-6.1 (label) 「BHOF」: NOGG 2024、BHOF 2022・指引說明
+- [repeat] OP-6.2 (label) 「BHOF」: BHOF 2022・指引說明；NOGG 2024・強烈建議
+- [repeat] OP-M1 (label) 「BHOF」: 澳洲骨鬆指引 2024、BHOF 2022・指引說明
+- [repeat] OP-M4 (label) 「BHOF」: NOGG 2024、BHOF 2022・指引說明
+
+## org-esceo-iof — ESCEO／IOF  (aliases: ESCEO/IOF; scope: page; links: 1; occurrences: 2)
+- [LINK] OP-5.3 (label) 「ESCEO/IOF」: 世界跌倒指引 2022・強烈建議（1B）；ESCEO/IOF 2019・指引說明
+- [repeat] OP-M3 (label) 「ESCEO/IOF」: ESCEO/IOF 2019、澳洲骨鬆指引 2024・指引說明
+
+## org-cra — CRA  (aliases: CRA; scope: page; links: 1; occurrences: 3)
+- [LINK] LB-1.1 (label) 「CRA」: CRA 2015・指引說明；ICAP 2019・專家共識
+- [repeat] LB-4.1 (label) 「CRA」: CRA 2015・不建議
+- [repeat] LB-M1 (label) 「CRA」: CRA 2015・指引說明；ICAP 2019・專家共識；EULAR/ACR 2019・指引說明
+
+## org-icap — ICAP  (aliases: ICAP; scope: page; links: 1; occurrences: 6)
+- [LINK] LB-1.1 (label) 「ICAP」: CRA 2015・指引說明；ICAP 2019・專家共識
+- [repeat] LB-1.2 (label) 「ICAP」: ICAP 2019・專家共識
+- [repeat] LB-1.3 (label) 「ICAP」: ICAP 2019・專家共識
+- [repeat] LB-1.4 (label) 「ICAP」: EASI/IUIS 2014・專家共識；ICAP 2019・專家共識
+- [repeat] LB-1.T (label) 「ICAP」: ICAP 2019・專家共識
+- [repeat] LB-M1 (label) 「ICAP」: CRA 2015・指引說明；ICAP 2019・專家共識；EULAR/ACR 2019・指引說明
+
+## org-easi-iuis — EASI／IUIS  (aliases: EASI/IUIS; scope: page; links: 1; occurrences: 1)
+- [LINK] LB-1.4 (label) 「EASI/IUIS」: EASI/IUIS 2014・專家共識；ICAP 2019・專家共識
+
+## org-gcan — G-CAN  (aliases: G-CAN; scope: page; links: 1; occurrences: 2)
+- [LINK] LB-5.2 (label) 「G-CAN」: EULAR 2018・指引說明；G-CAN 2019・專家共識
+- [repeat] LB-5.T (label) 「G-CAN」: ACR 2020・指引說明；G-CAN 2019・專家共識
+
+## org-apasl — APASL  (aliases: APASL; scope: page; links: 1; occurrences: 4)
+- [LINK] IF-3.1 (label) 「APASL」: EULAR 2022・建議強度 C；APASL 2021・建議
+- [repeat] IF-3.2 (label) 「APASL」: BSR 2025・指引說明；APASL 2021・指引說明
+- [repeat] IF-3.5 (label) 「APASL」: AASLD 2018・專家共識；APASL 2021・指引說明
+- [repeat] IF-M4 (label) 「APASL」: AASLD 2018・專家共識；APASL 2021・指引說明
+
+## org-aasld — AASLD  (aliases: AASLD; scope: page; links: 1; occurrences: 2)
+- [LINK] IF-3.5 (label) 「AASLD」: AASLD 2018・專家共識；APASL 2021・指引說明
+- [repeat] IF-M4 (label) 「AASLD」: AASLD 2018・專家共識；APASL 2021・指引說明
+
+## org-ese-es — ESE／ES  (aliases: ESE/ES; scope: page; links: 1; occurrences: 3)
+- [LINK] IF-4.2 (label) 「ESE/ES」: ESE/ES 2024・指引說明
+- [repeat] IF-4.3 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
+- [repeat] IF-S2 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
+
+## org-idst — IDST  (aliases: IDST; scope: page; links: 1; occurrences: 1)
+- [LINK] IF-5.1 (label) 「IDST」: IDST 2024・指引說明；ACR 2022・建議
+
+## org-ace — ACE  (aliases: ACE; scope: page; links: 1; occurrences: 2)
+- [LINK] OA-3.T (label) 「ACE」: EULAR 2025・指引說明；新加坡 ACE 2026・指引說明
+- [repeat] OA-4.5 (label) 「ACE」: 新加坡 ACE 2026・指引說明
+
+## good-practice — 良好實務建議  (aliases: 良好實務建議; scope: card; links: 4; occurrences: 4)
 - [LINK] CM-1.T (label) 「良好實務建議」: WHO 2020・良好實務建議
+- [LINK] OP-6.4 (label) 「良好實務建議」: NOGG 2024・強烈建議；加拿大骨鬆指引 2023・良好實務建議
+- [LINK] IF-4.3 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議
+- [LINK] IF-S2 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議
 
 ## uva-rating — UVA 防護等級  (aliases: UVA 防護等級; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-1.2 (text) 「UVA 防護等級」: 選擇高係數、廣效（同時防 UVA 和 UVB）的防曬乳：SPF 30 以上，UVA 防護等級也要高。

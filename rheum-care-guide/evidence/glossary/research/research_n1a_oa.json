@@ -1,0 +1,879 @@
+{
+ "group": "n1a_oa",
+ "entries": [
+  {
+   "id": "sarcopenia",
+   "cat": "condition",
+   "term": "肌少症",
+   "en": "sarcopenia",
+   "aliases": [
+    "肌少症"
+   ],
+   "aka": "sarcopenia",
+   "def": "肌少症是全身骨骼肌的疾病：肌肉量減少、肌力也變差，會增加跌倒和骨折風險。年長者較常見，但也可能更早發生。",
+   "example": "可能的徵兆：跌倒、覺得無力、走路變慢、從椅子站起來有困難、體重減輕或肌肉變少",
+   "note": "除了老化，活動量太少、熱量或蛋白質攝取不足，以及某些疾病，也可能造成肌少症。",
+   "label": "GLIS 2024、EWGSOP2 2019・定義",
+   "evidence": [
+    {
+     "quote": "Sarcopenia is a generalised disease of skeletal muscle",
+     "location": "Table 2 (accepted Delphi statements), 'General aspects of sarcopenia', statement 1 (agreement 85.4%)",
+     "access": "PMC full text",
+     "pmid": "38520141",
+     "doi": "10.1093/ageing/afae052",
+     "pmcid": "PMC10960072",
+     "supports": "def（全身骨骼肌的疾病）"
+    },
+    {
+     "quote": "We agreed that the conceptual definition of sarcopenia comprises the concurrent combination of reduced muscle mass and muscle strength.",
+     "location": "Discussion, first sentence",
+     "access": "PMC full text",
+     "pmid": "38520141",
+     "doi": "10.1093/ageing/afae052",
+     "pmcid": "PMC10960072",
+     "supports": "def（肌肉量減少、肌力也變差）"
+    },
+    {
+     "quote": "Sarcopenia, the age-related loss of muscle mass and strength/function, is an important clinical condition.",
+     "location": "Abstract (Importance)",
+     "access": "abstract",
+     "pmid": "38520141",
+     "doi": "10.1093/ageing/afae052",
+     "pmcid": "PMC10960072",
+     "supports": "def（肌肉量與肌力流失；與年齡有關）"
+    },
+    {
+     "quote": "simplifying the diagnostic algorithm to require only concurrent low muscle mass and strength, with physical performance as an outcome measure",
+     "location": "Abstract (second of three key refinements)",
+     "access": "abstract",
+     "pmid": "41188603",
+     "doi": "10.1038/s43587-025-01004-y",
+     "pmcid": "",
+     "supports": "def（亞洲最新共識同樣以肌肉量少加上肌力差來定義）"
+    },
+    {
+     "quote": "expanding sarcopenia diagnosis to middle-aged adults (50‒64 years) with validated diagnostic thresholds",
+     "location": "Abstract (first of three key refinements; the dash in '50‒64' is printed as U+2012)",
+     "access": "abstract",
+     "pmid": "41188603",
+     "doi": "10.1038/s43587-025-01004-y",
+     "pmcid": "",
+     "supports": "def（也可能更早發生：亞洲共識把診斷擴及中年人）；reviewer_notes"
+    },
+    {
+     "quote": "sarcopenia is a muscle disease (muscle failure) rooted in adverse muscle changes that accrue across a lifetime; sarcopenia is common among adults of older age but can also occur earlier in life.",
+     "location": "Abstract (Recommendations); the same sentence appears in the 'Summary and call-to-action' section of the PMC full text",
+     "access": "abstract",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "def（年長者較常見，但也可能更早發生）"
+    },
+    {
+     "quote": "Sarcopenia is a progressive and generalised skeletal muscle disorder that is associated with increased likelihood of adverse outcomes including falls, fractures, physical disability and mortality.",
+     "location": "Section 'Sarcopenia: operational definition', first sentence",
+     "access": "PMC full text",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "def（全身骨骼肌；跌倒、骨折）"
+    },
+    {
+     "quote": "sarcopenia increases risk of falls and fractures",
+     "location": "Introduction, 'Health and healthcare costs of untreated sarcopenia' (citation brackets follow in the source)",
+     "access": "PMC full text",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "def（會增加跌倒和骨折風險）"
+    },
+    {
+     "quote": "Sarcopenia increases the risk of falls … Sarcopenia increases the risk of fractures",
+     "location": "Table 2 (accepted Delphi statements), 'Outcomes of sarcopenia', statements 13 (94.6%) and 14 (89.4%)",
+     "access": "PMC full text",
+     "pmid": "38520141",
+     "doi": "10.1093/ageing/afae052",
+     "pmcid": "PMC10960072",
+     "supports": "def（會增加跌倒和骨折風險）"
+    },
+    {
+     "quote": "In clinical practice, case-finding may start when a patient reports symptoms or signs of sarcopenia (i.e. falling, feeling weak, slow walking speed, difficulty rising from a chair or weight loss/muscle wasting).",
+     "location": "Section 'Finding sarcopenia cases'",
+     "access": "PMC full text",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "example（跌倒、覺得無力、走路變慢、從椅子站起來有困難、體重減輕或肌肉變少）"
+    },
+    {
+     "quote": "Sarcopenia is considered ‘primary’ (or age-related) when no other specific cause is evident, while sarcopenia is considered ‘secondary’ when causal factors other than (or in addition to) ageing are evident.",
+     "location": "Section 'Primary and secondary sarcopenia'",
+     "access": "PMC full text",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "note（除了老化，也有其他原因）"
+    },
+    {
+     "quote": "Sarcopenia can occur secondary to a systemic disease, especially one that may invoke inflammatory processes, e.g. malignancy or organ failure. Physical inactivity also contributes to development of sarcopenia, whether due to a sedentary lifestyle or to disease-related immobility or disability",
+     "location": "Section 'Primary and secondary sarcopenia' (citation brackets follow 'disability' in the source)",
+     "access": "PMC full text",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "note（某些疾病、活動量太少）"
+    },
+    {
+     "quote": "Further, sarcopenia can develop as a result of inadequate intake of energy or protein, which may be due to anorexia, malabsorption, limited access to healthy foods or limited ability to eat.",
+     "location": "Section 'Primary and secondary sarcopenia'",
+     "access": "PMC full text",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "note（熱量或蛋白質攝取不足）"
+    },
+    {
+     "quote": "Weight loss, another diagnostic criterion for frailty, is also a major etiologic factor for sarcopenia.",
+     "location": "Section 'Frailty'",
+     "access": "PMC full text",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169",
+     "pmcid": "PMC6322506",
+     "supports": "site usage OA-4.5（體重減輕與肌少症的關聯；只放在 reviewer_notes，不寫進病友文字）"
+    },
+    {
+     "quote": "Whereas gradual and sustained weight loss is associated with benefits for patients with knee OA, rapid weight loss has been associated with risks such as joint instability, sarcopenia and osteoporosis.",
+     "location": "Recommendation 2, 'Balance of benefits and harms' (citation brackets follow in the source)",
+     "access": "PMC full text",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
+     "pmcid": "PMC13405452",
+     "supports": "site usage OA-4.5（重新核對本站引文）"
+    },
+    {
+     "quote": "The Asian Working Group for Sarcopenia (AWGS) 2014 consensus defined sarcopenia as \"age-related loss of muscle mass, plus low muscle strength, and/or low physical performance\"",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "32033882",
+     "doi": "10.1016/j.jamda.2019.12.012",
+     "pmcid": "",
+     "supports": "reviewer_notes（AWGS 2014/2019 舊定義，已由 AWGS 2025 更新）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "GLIS 2024 肌少症全球概念定義（Global Leadership Initiative in Sarcopenia；各國肌少症學會代表組成的國際專家小組）",
+     "citation": "Kirk B et al. The Conceptual Definition of Sarcopenia: Delphi Consensus from the Global Leadership Initiative in Sarcopenia (GLIS). Age Ageing 2024;53(3):afae052.",
+     "pmid": "38520141",
+     "doi": "10.1093/ageing/afae052"
+    },
+    {
+     "short": "EWGSOP2 2019 歐洲肌少症共識（European Working Group on Sarcopenia in Older People；歐洲的老人肌少症工作小組）",
+     "citation": "Cruz-Jentoft AJ et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing 2019;48(1):16-31.",
+     "pmid": "30312372",
+     "doi": "10.1093/ageing/afy169"
+    },
+    {
+     "short": "AWGS 2025 亞洲肌少症共識更新（Asian Working Group for Sarcopenia；亞洲的肌少症工作小組）",
+     "citation": "Chen LK et al. A focus shift from sarcopenia to muscle health in the Asian Working Group for Sarcopenia 2025 Consensus Update. Nat Aging 2025;5(11):2164-2175.",
+     "pmid": "41188603",
+     "doi": "10.1038/s43587-025-01004-y"
+    },
+    {
+     "short": "AWGS 2019 亞洲肌少症共識（已由 2025 版更新）",
+     "citation": "Chen LK et al. Asian Working Group for Sarcopenia: 2019 Consensus Update on Sarcopenia Diagnosis and Treatment. J Am Med Dir Assoc 2020;21(3):300-307.e2.",
+     "pmid": "32033882",
+     "doi": "10.1016/j.jamda.2019.12.012"
+    },
+    {
+     "short": "新加坡 ACE 2026 膝關節退化性關節炎指引（證據轉建議說明）",
+     "citation": "Chan JLE et al. Evidence-to-Recommendation Framework for 2026 ACE Clinical Guideline on the management of knee osteoarthritis — a joint effort with patients. Singapore Med J 2026;67(6):336-344.",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  },
+  {
+   "id": "doms",
+   "cat": "exercise",
+   "term": "延遲性肌肉痠痛",
+   "en": "delayed-onset muscle soreness (DOMS)",
+   "aliases": [
+    "延遲性肌肉痠痛"
+   ],
+   "aka": "delayed-onset muscle soreness (DOMS)",
+   "def": "做了不習慣或較吃力的運動後，過幾個小時才出現的肌肉痠痛和僵硬，通常在運動後48到72小時最明顯。",
+   "example": "",
+   "note": "剛開始運動、停一陣子後重新開始，或第一次做某種運動時特別常見。",
+   "label": "研究回顧・定義",
+   "evidence": [
+    {
+     "quote": "Delayed onset muscle soreness (DOMS) is a frequent post-exercise phenomenon that typically manifests after strenuous and unaccustomed loading. Its symptoms, comprising pain and stiffness of the affected soft tissue, occur hours following activity, reaching maximal levels after one to three days",
+     "location": "1. Introduction, first two sentences (citation brackets follow 'days' in the source)",
+     "access": "PMC full text",
+     "pmid": "34502387",
+     "doi": "10.3390/ijms22179482",
+     "pmcid": "PMC8431437",
+     "supports": "def（不習慣或較吃力的運動後；過幾個小時才出現；痠痛和僵硬）"
+    },
+    {
+     "quote": "The manifestation of DOMS is caused by eccentric or unfamiliar forms of exercise. … The development of clinical symptoms is typically delayed (peak soreness at 48 - 72 h post-exercise) as a result of complex sequences of local and systemic physiological responses.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30537791",
+     "doi": "10.1055/a-0753-1884",
+     "pmcid": "",
+     "supports": "def（不習慣的運動；通常在運動後48到72小時最明顯，與本站 OA-3.2 一致）"
+    },
+    {
+     "quote": "Delayed-onset muscle soreness commonly arises from intense and unaccustomed physical exercise, leading to reduced muscle strength, increased pain and inflammation.",
+     "location": "Abstract (Background)",
+     "access": "abstract",
+     "pmid": "40120073",
+     "doi": "10.1007/s40279-025-02187-5",
+     "pmcid": "",
+     "supports": "def（較吃力、不習慣的運動）"
+    },
+    {
+     "quote": "Delayed-onset muscle soreness (DOMS) is quite a common consequence of unaccustomed strenuous exercise, especially exercise containing eccentric contraction (lengthening contraction, LC). Its typical sign is mechanical hyperalgesia (tenderness and movement related pain).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "26467448",
+     "doi": "10.1007/s12576-015-0397-0",
+     "pmcid": "PMC10716961",
+     "supports": "def（肌肉痠痛：按壓或活動時會痛）"
+    },
+    {
+     "quote": "DOMS is most prevalent at the beginning of the sporting season when athletes are returning to training following a period of reduced activity. DOMS is also common when athletes are first introduced to certain types of activities regardless of the time of year.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "12617692",
+     "doi": "10.2165/00007256-200333020-00005",
+     "pmcid": "",
+     "supports": "note（停一陣子後重新開始、第一次做某種運動時常見；研究對象為運動員）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Wilke 2021 延遲性肌肉痠痛回顧（Int J Mol Sci）",
+     "citation": "Wilke J, Behringer M. Is \"Delayed Onset Muscle Soreness\" a False Friend? The Potential Implication of the Fascial Connective Tissue in Post-Exercise Discomfort. Int J Mol Sci 2021;22(17):9482.",
+     "pmid": "34502387",
+     "doi": "10.3390/ijms22179482"
+    },
+    {
+     "short": "Hotfiel 2018 延遲性肌肉痠痛回顧（成因與診斷）",
+     "citation": "Hotfiel T et al. Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics. Sportverletz Sportschaden 2018;32(4):243-250.",
+     "pmid": "30537791",
+     "doi": "10.1055/a-0753-1884"
+    },
+    {
+     "short": "Wiecha 2025 延遲性肌肉痠痛物理治療傘狀回顧（Sports Med）",
+     "citation": "Wiecha S et al. Physical Therapies for Delayed-Onset Muscle Soreness: An Umbrella and Mapping Systematic Review with Meta-meta-analysis. Sports Med 2025;55(5):1183-1212.",
+     "pmid": "40120073",
+     "doi": "10.1007/s40279-025-02187-5"
+    },
+    {
+     "short": "Mizumura 2016 延遲性肌肉痠痛回顧（J Physiol Sci）",
+     "citation": "Mizumura K, Taguchi T. Delayed onset muscle soreness: Involvement of neurotrophic factors. J Physiol Sci 2016;66(1):43-52.",
+     "pmid": "26467448",
+     "doi": "10.1007/s12576-015-0397-0"
+    },
+    {
+     "short": "Cheung 2003 延遲性肌肉痠痛回顧（Sports Med）",
+     "citation": "Cheung K, Hume P, Maxwell L. Delayed onset muscle soreness: treatment strategies and performance factors. Sports Med 2003;33(2):145-164.",
+     "pmid": "12617692",
+     "doi": "10.2165/00007256-200333020-00005"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok"
+  },
+  {
+   "id": "tens",
+   "cat": "rehab",
+   "term": "經皮神經電刺激（TENS）",
+   "en": "transcutaneous electrical nerve stimulation (TENS)",
+   "aliases": [
+    "經皮神經電刺激",
+    "TENS"
+   ],
+   "aka": "transcutaneous electrical nerve stimulation (TENS); transcutaneous electrostimulation",
+   "def": "經皮神經電刺激（TENS）是用小型、通常以電池供電的機器，經由接在疼痛部位皮膚上的電極送出電流，目的是減輕疼痛。",
+   "example": "",
+   "note": "針對膝關節退化的研究，未能證實它能減輕疼痛。",
+   "label": "Cochrane 2019、2009・定義",
+   "evidence": [
+    {
+     "quote": "Transcutaneous electrical nerve stimulation (TENS) is the noninvasive, transcutaneous use of electrical stimulation to produce analgesia.",
+     "location": "Abstract (Background)",
+     "access": "abstract",
+     "pmid": "31830313",
+     "doi": "10.1002/14651858.CD011927.pub2",
+     "pmcid": "PMC6953309",
+     "supports": "def（經皮膚的電刺激，用來減輕疼痛）"
+    },
+    {
+     "quote": "Transcutaneous electrostimulation, such as TENS, is a kind of pain relief typically using electrical currents applied to the skin. Transcutaneous electrostimulation machines are typically small, battery‐operated machines with 2 electrodes attached.",
+     "location": "Plain language summary, 'What is osteoarthritis and what is transcutaneous electrostimulation?' (PMC record; 'battery‐operated' is printed with U+2010)",
+     "access": "abstract",
+     "pmid": "19821296",
+     "doi": "10.1002/14651858.CD002823.pub2",
+     "pmcid": "PMC7120411",
+     "supports": "def（小型、以電池供電的機器；電流施加在皮膚上）"
+    },
+    {
+     "quote": "Usually, you connect two electrodes from the machine to your skin on the painful area.",
+     "location": "Plain language summary (PMC record)",
+     "access": "abstract",
+     "pmid": "19821296",
+     "doi": "10.1002/14651858.CD002823.pub2",
+     "pmcid": "PMC7120411",
+     "supports": "def（接在疼痛部位皮膚上的電極）"
+    },
+    {
+     "quote": "In this update, we could not confirm that transcutaneous electrostimulation is effective for pain relief. The current systematic review is inconclusive, hampered by the inclusion of only small trials of questionable quality.",
+     "location": "Abstract (Authors' conclusions)",
+     "access": "abstract",
+     "pmid": "19821296",
+     "doi": "10.1002/14651858.CD002823.pub2",
+     "pmcid": "PMC7120411",
+     "supports": "note（膝關節退化：未能證實能減輕疼痛）"
+    },
+    {
+     "quote": "Studies examining the use of TENS have been of low quality with small size and variable controls, making comparisons across trials difficult. Studies have demonstrated a lack of benefit for knee OA.",
+     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), text under the TENS recommendation (the heading itself is not quoted because the PMC text drops 'against')",
+     "access": "PMC full text",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131",
+     "pmcid": "PMC11488261",
+     "supports": "note；site usage OA-6.5（本站「不建議」的方向一致）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Cochrane 2019 經皮神經電刺激治療慢性頸痛回顧",
+     "citation": "Martimbianco ALC et al. Transcutaneous electrical nerve stimulation (TENS) for chronic neck pain. Cochrane Database Syst Rev 2019;12(12):CD011927.",
+     "pmid": "31830313",
+     "doi": "10.1002/14651858.CD011927.pub2"
+    },
+    {
+     "short": "Cochrane 2009 膝關節退化性關節炎經皮電刺激回顧",
+     "citation": "Rutjes AW et al. Transcutaneous electrostimulation for osteoarthritis of the knee. Cochrane Database Syst Rev 2009;(4):CD002823.",
+     "pmid": "19821296",
+     "doi": "10.1002/14651858.CD002823.pub2"
+    },
+    {
+     "short": "ACR/AF 2019 退化性關節炎指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "Kolasinski SL et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken) 2020;72(2):149-162.",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok"
+  },
+  {
+   "id": "paraffin",
+   "cat": "rehab",
+   "term": "石蠟浴",
+   "en": "paraffin wax bath",
+   "aliases": [
+    "石蠟浴"
+   ],
+   "aka": "paraffin (wax) bath; paraffin bath therapy; paraffin therapy",
+   "def": "石蠟浴是一種手部熱療方式：把手反覆浸入加熱融化的石蠟，讓蠟在手上變硬成一層層，再包上保鮮膜和毛巾，熱敷一段時間後取下。",
+   "example": "",
+   "note": "石蠟太燙可能造成燙傷，使用前要讓石蠟降到合適的溫度。",
+   "label": "ACR 2019、研究文獻・說明",
+   "evidence": [
+    {
+     "quote": "Paraffin, an additional method of heat therapy for the hands, is conditionally recommended for patients with hand OA.",
+     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), physical approaches (no dropped word in this heading)",
+     "access": "PMC full text",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131",
+     "pmcid": "PMC11488261",
+     "supports": "def（一種手部熱療方式）；site usage OA-5.4"
+    },
+    {
+     "quote": "Paraffin therapy has a long history in China and is performed by melting and heating medical paraffin and applying it to the surface of the body",
+     "location": "Introduction (citation brackets follow in the source)",
+     "access": "PMC full text",
+     "pmid": "36104753",
+     "doi": "10.1186/s13020-022-00662-z",
+     "pmcid": "PMC9476693",
+     "supports": "def（加熱融化的石蠟）"
+    },
+    {
+     "quote": "Patients in the paraffin therapy group were treated with the dip-and-wrap method of paraffin bath therapy in the hospital twice per week for 8 weeks.",
+     "location": "Methods, 'Paraffin therapy' (non-breaking space in '8 weeks' written as an ordinary space)",
+     "access": "PMC full text",
+     "pmid": "25428566",
+     "doi": "10.1186/1471-2474-15-399",
+     "pmcid": "PMC4256823",
+     "supports": "def（浸入再包覆的方法）"
+    },
+    {
+     "quote": "The temperature of the paraffin bath was maintained at approximately 55°C",
+     "location": "Methods, 'Paraffin therapy' (the sentence continues with the device's brand name, not quoted)",
+     "access": "PMC full text",
+     "pmid": "25428566",
+     "doi": "10.1186/1471-2474-15-399",
+     "pmcid": "PMC4256823",
+     "supports": "def（加熱的石蠟；溫度數字不寫進病友文字）"
+    },
+    {
+     "quote": "Patients dipped their affected hands into the paraffin wax. Next, they waited for the paraffin wax to harden and then dipped their hands again into the paraffin wax. This step was repeated 5 times. When the last paraffin layer hardened, it was covered with plastic wrap and a towel. After 20 minutes of heating, the paraffin was removed",
+     "location": "Methods, 'Paraffin therapy' (non-breaking space in '20 minutes' written as an ordinary space; citation brackets follow 'removed' in the source)",
+     "access": "PMC full text",
+     "pmid": "25428566",
+     "doi": "10.1186/1471-2474-15-399",
+     "pmcid": "PMC4256823",
+     "supports": "def（反覆浸入、蠟變硬成一層層、包上保鮮膜和毛巾、熱敷一段時間後取下）"
+    },
+    {
+     "quote": "Paraffin therapy is a superficial heat physical agent that uses conduction to transfer heat.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "25428566",
+     "doi": "10.1186/1471-2474-15-399",
+     "pmcid": "PMC4256823",
+     "supports": "def（熱療）"
+    },
+    {
+     "quote": "Many articles mentioned that the most common adverse reaction caused by paraffin therapy burns. To reduce the occurrence of burns, paraffin should be cooled to the appropriate temperature before treating the patient",
+     "location": "Section 'Infection control measures' (follows the adverse-events paragraph; first sentence's grammar as printed; the second sentence continues)",
+     "access": "PMC full text",
+     "pmid": "36104753",
+     "doi": "10.1186/s13020-022-00662-z",
+     "pmcid": "PMC9476693",
+     "supports": "note（太燙可能燙傷；先降到合適溫度）；支持本站 OA-5.4 的提醒「使用時注意溫度，避免燙傷」"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ACR/AF 2019 退化性關節炎指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "Kolasinski SL et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken) 2020;72(2):149-162.",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131"
+    },
+    {
+     "short": "Yan 2022 石蠟療法文獻回顧（Chin Med）",
+     "citation": "Yan W et al. Traditional Chinese medicine paraffin therapy: an evidence-based overview from a modern medicine perspective. Chin Med 2022;17(1):106.",
+     "pmid": "36104753",
+     "doi": "10.1186/s13020-022-00662-z"
+    },
+    {
+     "short": "Chang 2014 台灣腕隧道症候群超音波與石蠟治療隨機試驗",
+     "citation": "Chang YW et al. Comparative effectiveness of ultrasound and paraffin therapy in patients with carpal tunnel syndrome: a randomized trial. BMC Musculoskelet Disord 2014;15:399.",
+     "pmid": "25428566",
+     "doi": "10.1186/1471-2474-15-399"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok"
+  },
+  {
+   "id": "wedged-insoles",
+   "cat": "rehab",
+   "term": "楔形鞋墊",
+   "en": "lateral and medial wedged insoles",
+   "aliases": [
+    "楔形鞋墊"
+   ],
+   "aka": "wedged insoles; lateral wedge insoles; medial wedge insoles",
+   "def": "楔形鞋墊是放在鞋內、一側比另一側厚的鞋墊：外側楔形鞋墊外緣較厚，內側楔形鞋墊則把內側墊高。",
+   "example": "",
+   "note": "設計用意是改變膝關節受力的位置，但研究並未證實它能減輕膝關節退化的疼痛。",
+   "label": "JAMA 2013、Cochrane 2015・說明",
+   "evidence": [
+    {
+     "quote": "Braces and orthoses are devices that you wear to support your knee joint. Orthoses are insoles that fit comfortably inside your shoes.",
+     "location": "Plain language summary, 'Background: What is osteoarthritis and what are braces and orthoses?' (PMC record)",
+     "access": "abstract",
+     "pmid": "25773267",
+     "doi": "10.1002/14651858.CD004020.pub3",
+     "pmcid": "PMC7173742",
+     "supports": "def（放在鞋內的鞋墊）"
+    },
+    {
+     "quote": "an orthosis (laterally or medially wedged insole, neutral insole, variable or constant stiffness shoe)",
+     "location": "Abstract (Main results)",
+     "access": "abstract",
+     "pmid": "25773267",
+     "doi": "10.1002/14651858.CD004020.pub3",
+     "pmcid": "PMC7173742",
+     "supports": "def（外側與內側楔形鞋墊屬於足部矯具）"
+    },
+    {
+     "quote": "The wedge is placed under the sole of the foot and angulated so that it is thicker over the lateral than the medial edge, transferring loading during weight bearing from the medial to the lateral knee compartment.",
+     "location": "Introduction, second paragraph",
+     "access": "PMC full text",
+     "pmid": "23989797",
+     "doi": "10.1001/jama.2013.243229",
+     "pmcid": "PMC4458141",
+     "supports": "def（外側楔形鞋墊外緣較厚）；note（改變膝關節受力的位置）"
+    },
+    {
+     "quote": "medial insole (insoles with 8-mm medial elevation at the rearfoot [n = 16]) and neutral insole (similar insole without elevation [n = 14])",
+     "location": "Abstract (Methods)",
+     "access": "abstract",
+     "pmid": "18438931",
+     "doi": "10.1002/art.23560",
+     "pmcid": "",
+     "supports": "def（內側楔形鞋墊把內側墊高；只用於描述，不用於療效）"
+    },
+    {
+     "quote": "Rodrigues and colleagues compared a medial-wedge insole with a neutral insole among patients with lateral knee OA. … The biomechanical goal of the intervention was to shift loading to the medial knee compartment.",
+     "location": "Commentary text (consecutive sentences; the PMC text prints 'OA.The' because a citation was removed between them)",
+     "access": "PMC full text",
+     "pmid": "18852715",
+     "doi": "10.1038/ncprheum0926",
+     "pmcid": "PMC3997051",
+     "supports": "note（內側楔形鞋墊同樣是為了改變膝關節受力）"
+    },
+    {
+     "quote": "These findings do not support the use of lateral wedges for this indication.",
+     "location": "Abstract (Conclusions and relevance)",
+     "access": "abstract",
+     "pmid": "23989797",
+     "doi": "10.1001/jama.2013.243229",
+     "pmcid": "PMC4458141",
+     "supports": "note（研究並未證實能減輕膝關節退化的疼痛）"
+    },
+    {
+     "quote": "Moderate‐quality evidence shows lack of an effect on improvement in pain, stiffness and function between patients treated with a laterally wedged insole and those treated with a neutral insole.",
+     "location": "Abstract (Authors' conclusions; PMC record prints 'Moderate‐quality' with U+2010)",
+     "access": "abstract",
+     "pmid": "25773267",
+     "doi": "10.1002/14651858.CD004020.pub3",
+     "pmcid": "PMC7173742",
+     "supports": "note"
+    },
+    {
+     "quote": "Summarised, most evidence did not support the use of any lateral wedged or other insoles to affect pain or function in knee OA.",
+     "location": "Text after Recommendation 6",
+     "access": "PMC full text",
+     "pmid": "38212040",
+     "doi": "10.1136/ard-2023-225041",
+     "pmcid": "PMC11103326",
+     "supports": "note；site usage OA-6.4"
+    },
+    {
+     "quote": "The currently available literature does not demonstrate clear efficacy of lateral or medial wedged insoles.",
+     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), text under the wedged-insole recommendation (heading not quoted: the PMC text drops 'against')",
+     "access": "PMC full text",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131",
+     "pmcid": "PMC11488261",
+     "supports": "note；site usage OA-6.4（外側與內側都沒有明確效果）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Parkes 2013 外側楔形鞋墊統合分析（JAMA）",
+     "citation": "Parkes MJ et al. Lateral wedge insoles as a conservative treatment for pain in patients with medial knee osteoarthritis: a meta-analysis. JAMA 2013;310(7):722-730.",
+     "pmid": "23989797",
+     "doi": "10.1001/jama.2013.243229"
+    },
+    {
+     "short": "Cochrane 2015 膝關節退化性關節炎護具與矯具回顧",
+     "citation": "Duivenvoorden T et al. Braces and orthoses for treating osteoarthritis of the knee. Cochrane Database Syst Rev 2015;(3):CD004020.",
+     "pmid": "25773267",
+     "doi": "10.1002/14651858.CD004020.pub3"
+    },
+    {
+     "short": "Rodrigues 2008 內側楔形鞋墊隨機試驗（只用於描述鞋墊）",
+     "citation": "Rodrigues PT et al. Effectiveness of medial-wedge insole treatment for valgus knee osteoarthritis. Arthritis Rheum 2008;59(5):603-608.",
+     "pmid": "18438931",
+     "doi": "10.1002/art.23560"
+    },
+    {
+     "short": "Katz 2008 楔形鞋墊評論（Nat Clin Pract Rheumatol）",
+     "citation": "Katz JN. Do wedged insoles improve outcomes in patients with knee osteoarthritis? Nat Clin Pract Rheumatol 2008;4(12):630-631.",
+     "pmid": "18852715",
+     "doi": "10.1038/ncprheum0926"
+    },
+    {
+     "short": "EULAR 2023 膝、髖退化性關節炎非藥物核心治療建議（European Alliance of Associations for Rheumatology；歐洲的風濕病醫學聯盟）",
+     "citation": "Moseng T et al. EULAR recommendations for the non-pharmacological core management of hip and knee osteoarthritis: 2023 update. Ann Rheum Dis 2024;83(6):730-740.",
+     "pmid": "38212040",
+     "doi": "10.1136/ard-2023-225041"
+    },
+    {
+     "short": "ACR/AF 2019 退化性關節炎指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "Kolasinski SL et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken) 2020;72(2):149-162.",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok"
+  },
+  {
+   "id": "glucosamine",
+   "cat": "drug",
+   "term": "葡萄糖胺",
+   "en": "glucosamine",
+   "aliases": [
+    "葡萄糖胺"
+   ],
+   "aka": "glucosamine (glucosamine sulphate, glucosamine hydrochloride)",
+   "def": "葡萄糖胺是一種胺基糖，人體本來就有，是構成軟骨的原料之一；市面上常見口服營養補充品，在歐洲則由醫療人員開處方。",
+   "example": "",
+   "note": "品質較好的研究顯示，它減輕關節疼痛的效果和安慰劑相比沒有明顯差別。",
+   "label": "BMJ 2010、ACR 2019・說明",
+   "evidence": [
+    {
+     "quote": "Glucosamine is an amino sugar that is a building block for the glycosaminoglycans that are part of the structure of cartilage.",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "20847017",
+     "doi": "10.1136/bmj.c4675",
+     "pmcid": "PMC2941572",
+     "supports": "def（胺基糖；構成軟骨的原料）"
+    },
+    {
+     "quote": "Throughout the world for the past 10 years, the cartilage constituents chondroitin and glucosamine have been increasingly recommended in guidelines, prescribed by general practitioners and rheumatologists, and used by patients as over the counter medications to modify the clinical and radiological course of the condition.",
+     "location": "Introduction, first paragraph",
+     "access": "PMC full text",
+     "pmid": "20847017",
+     "doi": "10.1136/bmj.c4675",
+     "pmcid": "PMC2941572",
+     "supports": "def（可由醫師開立，也可自行購買）"
+    },
+    {
+     "quote": "Glucosamine can be found naturally in the body and is used by the body as one of the building blocks of cartilage.",
+     "location": "Plain language summary, 'What is osteoarthritis and glucosamine?' (PMC record; see reviewer_notes on version)",
+     "access": "abstract",
+     "pmid": "15846645",
+     "doi": "10.1002/14651858.CD002946.pub2",
+     "pmcid": "PMC8459392",
+     "supports": "def（人體本來就有；構成軟骨的原料之一）"
+    },
+    {
+     "quote": "Glucosamine can also be taken as a pill as a supplement to the diet, or sometimes as an injection.",
+     "location": "Plain language summary (PMC record)",
+     "access": "abstract",
+     "pmid": "15846645",
+     "doi": "10.1002/14651858.CD002946.pub2",
+     "pmcid": "PMC8459392",
+     "supports": "def（口服補充品）"
+    },
+    {
+     "quote": "In Europe, glucosamine is prescribed by health care providers.  But in North America, people can buy glucosamine supplements without a prescription.",
+     "location": "Plain language summary (PMC record; two spaces between the sentences as printed)",
+     "access": "abstract",
+     "pmid": "15846645",
+     "doi": "10.1002/14651858.CD002946.pub2",
+     "pmcid": "PMC8459392",
+     "supports": "def（在歐洲由醫療人員開處方；北美可自行購買補充品）"
+    },
+    {
+     "quote": "Nonetheless, glucosamine remains among the most commonly used dietary supplements in the US",
+     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), pharmacologic approaches, text under the glucosamine recommendation (citation brackets follow 'US')",
+     "access": "PMC full text",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131",
+     "pmcid": "PMC11488261",
+     "supports": "def（常見的營養補充品）"
+    },
+    {
+     "quote": "The data that were deemed to have the lowest risk of bias fail to show any important benefits over placebo. … The weight of the evidence indicates a lack of efficacy and large placebo effects.",
+     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), text under the glucosamine recommendation (heading not quoted: the PMC text drops 'against')",
+     "access": "PMC full text",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131",
+     "pmcid": "PMC11488261",
+     "supports": "note；site usage OA-M1（最可靠的研究顯示比起安慰劑沒有明顯好處）"
+    },
+    {
+     "quote": "Compared with placebo, glucosamine, chondroitin, and their combination do not reduce joint pain or have an impact on narrowing of joint space.",
+     "location": "Abstract (Conclusions)",
+     "access": "abstract",
+     "pmid": "20847017",
+     "doi": "10.1136/bmj.c4675",
+     "pmcid": "PMC2941572",
+     "supports": "note（減輕關節疼痛的效果和安慰劑相比沒有明顯差別）"
+    },
+    {
+     "quote": "Our network meta-analysis of all 10 available large scale patient blind randomised trials in 3803 patients with knee or hip osteoarthritis showed no clinically relevant effect of chondroitin, glucosamine, or their combination on perceived joint pain.",
+     "location": "Discussion, 'Principal findings'",
+     "access": "PMC full text",
+     "pmid": "20847017",
+     "doi": "10.1136/bmj.c4675",
+     "pmcid": "PMC2941572",
+     "supports": "note（品質較好的大型試驗）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "Wandel 2010 葡萄糖胺與軟骨素網絡統合分析",
+     "citation": "Wandel S et al. Effects of glucosamine, chondroitin, or placebo in patients with osteoarthritis of hip or knee: network meta-analysis. BMJ 2010;341:c4675.",
+     "pmid": "20847017",
+     "doi": "10.1136/bmj.c4675"
+    },
+    {
+     "short": "Cochrane 葡萄糖胺治療退化性關節炎回顧（白話摘要）",
+     "citation": "Towheed TE et al. Glucosamine therapy for treating osteoarthritis. Cochrane Database Syst Rev 2005;(2):CD002946.",
+     "pmid": "15846645",
+     "doi": "10.1002/14651858.CD002946.pub2"
+    },
+    {
+     "short": "ACR/AF 2019 退化性關節炎指引（American College of Rheumatology；美國的風濕病醫學會）",
+     "citation": "Kolasinski SL et al. 2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee. Arthritis Care Res (Hoboken) 2020;72(2):149-162.",
+     "pmid": "31908149",
+     "doi": "10.1002/acr.24131"
+    }
+   ],
+   "confidence": "Medium",
+   "status": "ok"
+  },
+  {
+   "id": "balance-functional",
+   "cat": "exercise",
+   "term": "平衡與功能性訓練",
+   "en": "balance and functional training",
+   "aliases": [
+    "平衡和功能性訓練",
+    "功能性訓練"
+   ],
+   "aka": "balance and functional training; balance (challenging) and functional exercises",
+   "def": "平衡訓練是挑戰身體平衡、練習保持穩定的運動；功能性訓練是練習日常生活會用到的動作，讓您更能完成日常活動。",
+   "example": "從椅子上站起來、跨步、爬樓梯",
+   "note": "和肌力訓練不同類，但兩者常一起做，許多肌力動作也算功能性訓練；它也是「多元活動」的一部分。",
+   "label": "加拿大骨鬆指引 2023、世界跌倒指引 2022・說明",
+   "evidence": [
+    {
+     "quote": "1.1. We recommend balance and functional training ≥ twice weekly to reduce the risk of falls.",
+     "location": "Table 2, Recommendation 1.1 (strong recommendation per the site's evidence file)",
+     "access": "PMC full text",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647",
+     "pmcid": "PMC10610956",
+     "supports": "site usage OP-3.2"
+    },
+    {
+     "quote": "Balance exercises challenge aspects of balance",
+     "location": "Table 2, Recommendation 1.1, remark (the PMC text drops the list of examples that follows 'such as:')",
+     "access": "PMC full text",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647",
+     "pmcid": "PMC10610956",
+     "supports": "def（平衡訓練是挑戰身體平衡的運動）"
+    },
+    {
+     "quote": "Functional exercises improve ability to perform everyday tasks, or do activities for fun or fitness (e.g., chair stands for sit-to-stand ability, stair-climbing to train for hiking).",
+     "location": "Table 2, Recommendation 1.1, remark",
+     "access": "PMC full text",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647",
+     "pmcid": "PMC10610956",
+     "supports": "def（功能性訓練讓您更能完成日常活動）；example（從椅子上站起來、爬樓梯）"
+    },
+    {
+     "quote": "We recommend exercise programmes for fall prevention for community-dwelling older adults which include balance challenging and functional exercises (e.g. sit-to-stand, stepping)",
+     "location": "Table 5, WG 4 (grade 1A)",
+     "access": "PMC full text",
+     "pmid": "36178003",
+     "doi": "10.1093/ageing/afac205",
+     "pmcid": "PMC9523684",
+     "supports": "example（從椅子站起、跨步）；site usage OP-5.2"
+    },
+    {
+     "quote": "Fall prevention exercise should focus on maintaining balance during functional tasks needed for daily life.",
+     "location": "Exercise interventions, 'Recommendation details and justification' (PMC text has a non-breaking space after 'Fall')",
+     "access": "PMC full text",
+     "pmid": "36178003",
+     "doi": "10.1093/ageing/afac205",
+     "pmcid": "PMC9523684",
+     "supports": "def（練習保持穩定；日常生活的動作）"
+    },
+    {
+     "quote": "Effective fall prevention programmes include individualised exercises that enable or support daily tasks or similar movements.",
+     "location": "Exercise interventions, 'Recommendation details and justification'",
+     "access": "PMC full text",
+     "pmid": "36178003",
+     "doi": "10.1093/ageing/afac205",
+     "pmcid": "PMC9523684",
+     "supports": "def（練習日常生活會用到的動作）"
+    },
+    {
+     "quote": "Many resistance-training exercises would be considered functional exercises.",
+     "location": "Table 2, Recommendation 1.2, remark",
+     "access": "PMC full text",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647",
+     "pmcid": "PMC10610956",
+     "supports": "note（許多肌力動作也算功能性訓練）"
+    },
+    {
+     "quote": "When combined with functional and balance training in older adults, resistance training can reduce the number of falls and number of people who fall.",
+     "location": "Section on exercise evidence (before Table 2)",
+     "access": "PMC full text",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647",
+     "pmcid": "PMC10610956",
+     "supports": "note（兩者常一起做）"
+    },
+    {
+     "quote": "Exercise programmes that reduce falls primarily involve balance and functional exercises, while programmes that probably reduce falls include multiple exercise categories (typically balance and functional exercises plus resistance exercises). Tai Chi may also prevent falls but we are uncertain of the effect of resistance exercise (without balance and functional exercises), dance, or walking on the rate of falls.",
+     "location": "Abstract (Authors' conclusions)",
+     "access": "abstract",
+     "pmid": "30703272",
+     "doi": "10.1002/14651858.CD012424.pub2",
+     "pmcid": "PMC6360922",
+     "supports": "note（和肌力訓練不同類，但常一起做）"
+    },
+    {
+     "quote": "Multicomponent physical activity are activities that can be done at home or in a structured group or class setting and combine all types of exercise (aerobic, muscle strengthening and balance training) into a session, and this has been shown to be effective.",
+     "location": "Table 1 (Glossary of terms), row 'Multicomponent physical activity'",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "note（也是「多元活動」的一部分）"
+    },
+    {
+     "quote": "the recommendation regarding multicomponent physical activity that emphasises functional balance and strength training to enhance functional capacity and prevent falls now applies to all older adults rather than specifically those with poor mobility",
+     "location": "Discussion, 'What is new?'",
+     "access": "PMC full text",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955",
+     "pmcid": "PMC7719906",
+     "supports": "note（多元活動強調功能性平衡與肌力訓練）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "加拿大骨鬆指引 2023（Osteoporosis Canada 2023 Guideline Update Group；加拿大骨鬆學會的指引小組）",
+     "citation": "Morin SN et al. Clinical practice guideline for management of osteoporosis and fracture prevention in Canada: 2023 update. CMAJ 2023;195(39):E1333-E1348.",
+     "pmid": "37816527",
+     "doi": "10.1503/cmaj.221647"
+    },
+    {
+     "short": "世界跌倒預防與處置指引 2022（World Falls Guidelines Task Force；多國專家組成的國際工作小組）",
+     "citation": "Montero-Odasso M et al. World guidelines for falls prevention and management for older adults: a global initiative. Age Ageing 2022;51(9):afac205.",
+     "pmid": "36178003",
+     "doi": "10.1093/ageing/afac205"
+    },
+    {
+     "short": "Cochrane 2019 社區長者運動預防跌倒回顧",
+     "citation": "Sherrington C et al. Exercise for preventing falls in older people living in the community. Cochrane Database Syst Rev 2019;1(1):CD012424.",
+     "pmid": "30703272",
+     "doi": "10.1002/14651858.CD012424.pub2"
+    },
+    {
+     "short": "WHO 2020 身體活動與久坐行為指引（World Health Organization；世界衛生組織）",
+     "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451-1462.",
+     "pmid": "33239350",
+     "doi": "10.1136/bjsports-2020-102955"
+    }
+   ],
+   "confidence": "High (PMC full text or abstract, Tier 1–2)",
+   "status": "ok"
+  }
+ ]
+}

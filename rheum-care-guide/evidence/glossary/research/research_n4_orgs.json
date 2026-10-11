@@ -1,0 +1,1013 @@
+{
+ "group": "n4_orgs",
+ "entries": [
+  {
+   "id": "org-nogg",
+   "cat": "org",
+   "term": "NOGG",
+   "en": "National Osteoporosis Guideline Group",
+   "aliases": [
+    "NOGG"
+   ],
+   "aka": "National Osteoporosis Guideline Group (UK)",
+   "def": "英國的骨質疏鬆指引小組，2008年起發表英國的骨質疏鬆症預防與治療指引；網站引用的是它2024年的更新版。",
+   "example": "",
+   "note": "",
+   "label": "NOGG 2024・名稱",
+   "evidence": [
+    {
+     "quote": "The National Osteoporosis Guideline Group (NOGG) has updated the revised UK guideline for the assessment and management of osteoporosis and the prevention of fragility fractures in postmenopausal women, and men age 50 years and older.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "en；def（英國、骨質疏鬆指引）"
+    },
+    {
+     "quote": "The UK National Osteoporosis Guideline Group (NOGG) first produced a guideline on the prevention and treatment of osteoporosis in 2008, with updates in 2013, 2017 and 2021. This paper presents a minor update of the 2021 guideline",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def（2008年起發表預防與治療指引；2024年版是更新版）"
+    },
+    {
+     "quote": "The 2024 UK clinical guideline for the prevention and treatment of osteoporosis.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def（網站引用的2024年版）"
+    },
+    {
+     "quote": "This guideline was prepared in 2021 with the support of the societies listed to provide guidance on prevention and treatment of osteoporosis with the overarching aim of reducing fragility fracture risk, and updated in 2024",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "def（2024年更新）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    }
+   ],
+   "confidence": "High (PubMed abstract and title; PMC full text)",
+   "status": "ok"
+  },
+  {
+   "id": "org-bhof",
+   "cat": "org",
+   "term": "BHOF",
+   "en": "Bone Health and Osteoporosis Foundation",
+   "aliases": [
+    "BHOF"
+   ],
+   "aka": "Bone Health and Osteoporosis Foundation (formerly National Osteoporosis Foundation, NOF)",
+   "def": "美國的骨骼健康與骨質疏鬆基金會；網站引用它2022年寫給醫師的骨質疏鬆症預防與治療指南。",
+   "example": "",
+   "note": "2021年10月以前名為National Osteoporosis Foundation（NOF）。",
+   "label": "BHOF 2022・名稱",
+   "evidence": [
+    {
+     "quote": "The Bone Health and Osteoporosis Foundation (BHOF) - formerly the National Osteoporosis Foundation - first published the Clinician's Guide in 1999 to provide accurate information on osteoporosis prevention and treatment.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "en；def（指南）；note（舊名）"
+    },
+    {
+     "quote": "The Clinician's Guide offers concise recommendations regarding prevention, risk assessment, diagnosis, and treatment of osteoporosis in postmenopausal women and men aged 50 years and older.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def（寫給醫師的骨質疏鬆症預防與治療指南）"
+    },
+    {
+     "quote": "In October 2021, the National Osteoporosis Foundation (NOF) changed its name to the Bone Health and Osteoporosis Foundation (BHOF) to reflect the Foundation’s dual focus on preventing osteoporosis and fracture in addition to osteoporosis diagnosis and treatment across the lifespan.",
+     "location": "Glossary of terms (the entry heading is missing from the PMC extraction)",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "note（2021年10月改名）"
+    },
+    {
+     "quote": "BHOF previously estimated that more than 10.2 million Americans have osteoporosis",
+     "location": "Section 'Scope of the problem'",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def（美國；推論，見 reviewer_notes）"
+    },
+    {
+     "quote": "The BHOF does not advocate the use of drugs that are not approved by the FDA for prevention and/or treatment of osteoporosis.",
+     "location": "Section on pharmacologic therapy",
+     "access": "PMC full text",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def（美國；推論，見 reviewer_notes）"
+    },
+    {
+     "quote": "the National Osteoporosis Foundation of the USA",
+     "location": "Journal title field of the PubMed record (Osteoporosis international : a journal established as result of cooperation between the European Foundation for Osteoporosis and the National Osteoporosis Foundation of the USA)",
+     "access": "abstract",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y",
+     "pmcid": "PMC9546973",
+     "supports": "def（美國：舊名 NOF 屬美國；推論，見 reviewer_notes）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "BHOF 2022 美國骨質疏鬆症臨床指南",
+     "citation": "LeBoff MS, et al. The clinician's guide to prevention and treatment of osteoporosis. Osteoporos Int 2022;33(10):2049-2102.",
+     "pmid": "35478046",
+     "doi": "10.1007/s00198-021-05900-y"
+    }
+   ],
+   "confidence": "High for the name and former name (abstract; PMC full text); 「美國的」 is inferred (see reviewer_notes)",
+   "status": "ok"
+  },
+  {
+   "id": "org-esceo-iof",
+   "cat": "org",
+   "term": "ESCEO 與 IOF",
+   "en": "European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (ESCEO); International Osteoporosis Foundation (IOF)",
+   "aliases": [
+    "ESCEO/IOF"
+   ],
+   "aka": "ESCEO: European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (the cited 2019 paper prints older forms: 'European Society for Clinical and Economic Aspects of Osteoporosis and Osteoarthritis' in the abstract, 'European Society for Clinical and Economic Evaluation of Osteoporosis and Osteoarthritis (ESCEO)' in the introduction); IOF: International Osteoporosis Foundation (in 1997 'The European Foundation for Osteoporosis and Bone Disease')",
+   "def": "ESCEO是歐洲的骨質疏鬆、退化性關節炎與肌肉骨骼疾病學會，IOF是國際性的骨質疏鬆基金會；網站引用兩者2019年的歐洲停經後骨質疏鬆症指引。",
+   "example": "",
+   "note": "",
+   "label": "ESCEO/IOF 2019／2025・名稱",
+   "evidence": [
+    {
+     "quote": "a consensus paper from The European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (ESCEO), International Osteoporosis Foundation (IOF)",
+     "location": "Title (PubMed record; consensus paper from ESCEO, IOF and IFCC)",
+     "access": "abstract",
+     "pmid": "40152990",
+     "doi": "10.1007/s00198-025-07422-3",
+     "pmcid": "PMC12064614",
+     "supports": "en（兩個全名，出自兩者共同發表的共識）"
+    },
+    {
+     "quote": "This position paper has been endorsed by the International Osteoporosis Foundation and the European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (ESCEO).",
+     "location": "Abstract (NOGG 2024)",
+     "access": "abstract",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3",
+     "pmcid": "PMC12417299",
+     "supports": "en（同一組全名的另一出處）"
+    },
+    {
+     "quote": "The International Osteoporosis Foundation and European Society for Clinical and Economic Aspects of Osteoporosis and Osteoarthritis published guidance for the diagnosis and management of osteoporosis in 2013. This manuscript updates these in a European setting.",
+     "location": "Abstract (site-cited paper)",
+     "access": "abstract",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5",
+     "pmcid": "PMC7026233",
+     "supports": "def（網站引用兩者的歐洲指引，2019年更新）；aka（ESCEO 舊名）"
+    },
+    {
+     "quote": "European guidance for the diagnosis and management of osteoporosis in postmenopausal women.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5",
+     "pmcid": "PMC7026233",
+     "supports": "def（歐洲停經後骨質疏鬆症指引）"
+    },
+    {
+     "quote": "The recommendations in this guideline were endorsed by the Scientific Advisory Board of ESCEO and the Committee of Scientific Advisors and the Committee of National Societies of the IOF.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5",
+     "pmcid": "PMC7026233",
+     "supports": "def（兩者的指引）"
+    },
+    {
+     "quote": "by the IOF and European Society for Clinical and Economic Evaluation of Osteoporosis and Osteoarthritis (ESCEO)",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5",
+     "pmcid": "PMC7026233",
+     "supports": "aka；reviewer_notes（同一篇內 ESCEO 名稱寫法不一）"
+    },
+    {
+     "quote": "In 1997 The European Foundation for Osteoporosis and Bone Disease (subsequently the International Osteoporosis Foundation; IOF) published guidelines for the diagnosis and management of osteoporosis",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5",
+     "pmcid": "PMC7026233",
+     "supports": "aka（IOF 舊名）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ESCEO/IOF 2019 歐洲停經後骨質疏鬆症指引",
+     "citation": "Kanis JA, et al. European guidance for the diagnosis and management of osteoporosis in postmenopausal women. Osteoporos Int 2019;30(1):3-44.",
+     "pmid": "30324412",
+     "doi": "10.1007/s00198-018-4704-5"
+    },
+    {
+     "short": "ESCEO、IOF 與 IFCC 2025 骨代謝標記共識（名稱來源）",
+     "citation": "Bhattoa HP, et al. Update on the role of bone turnover markers in the diagnosis and management of osteoporosis: a consensus paper from The European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (ESCEO), International Osteoporosis Foundation (IOF), and International Federation of Clinical Chemistry and Laboratory Medicine (IFCC). Osteoporos Int 2025;36(4):579-608.",
+     "pmid": "40152990",
+     "doi": "10.1007/s00198-025-07422-3"
+    },
+    {
+     "short": "NOGG 2024 英國骨質疏鬆症指引",
+     "citation": "Gregson CL, et al. The 2024 UK clinical guideline for the prevention and treatment of osteoporosis. Arch Osteoporos 2025;20(1):119.",
+     "pmid": "40921943",
+     "doi": "10.1007/s11657-025-01588-3"
+    }
+   ],
+   "confidence": "High (PubMed titles and abstracts; PMC full text)",
+   "status": "ok"
+  },
+  {
+   "id": "org-cra",
+   "cat": "org",
+   "term": "CRA",
+   "en": "Canadian Rheumatology Association",
+   "aliases": [
+    "CRA"
+   ],
+   "aka": "Canadian Rheumatology Association",
+   "def": "加拿大的風濕病學會；網站引用它2015年的「明智選擇」清單：列出5項可能不必要、醫師和病人都應再想想的檢查或治療，其中一項與抗核抗體檢驗有關。",
+   "example": "",
+   "note": "",
+   "label": "CRA 2015・名稱",
+   "evidence": [
+    {
+     "quote": "Choosing wisely: the Canadian Rheumatology Association's list of 5 items physicians and patients should question.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "25641889",
+     "doi": "10.3899/jrheum.141140",
+     "pmcid": "",
+     "supports": "en；def（明智選擇清單、5項、醫師和病人應再想想）"
+    },
+    {
+     "quote": "Items with high content agreement and perceived relevance advanced to a survey of Canadian Rheumatology Association (CRA) members.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25641889",
+     "doi": "10.3899/jrheum.141140",
+     "pmcid": "",
+     "supports": "en"
+    },
+    {
+     "quote": "To develop a list of 5 tests or treatments used in rheumatology that have evidence indicating that they may be unnecessary and thus should be reevaluated by rheumatology healthcare providers and patients.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25641889",
+     "doi": "10.3899/jrheum.141140",
+     "pmcid": "",
+     "supports": "def（可能不必要的檢查或治療）"
+    },
+    {
+     "quote": "Five topics (antinuclear antibodies testing, HLA-B27 testing, bone density testing, bone scans, and bisphosphonate use) with high ratings on agreement and effect were chosen for literature review.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25641889",
+     "doi": "10.3899/jrheum.141140",
+     "pmcid": "",
+     "supports": "def（其中一項與抗核抗體檢驗有關）"
+    },
+    {
+     "quote": "Using the Delphi method, a committee of 16 rheumatologists from across Canada and an allied health professional generated a list of tests, procedures, or treatments in rheumatology that may be unnecessary, nonspecific, or insensitive.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25641889",
+     "doi": "10.3899/jrheum.141140",
+     "pmcid": "",
+     "supports": "def（加拿大）"
+    },
+    {
+     "quote": "In the member-wide survey, 172 rheumatologists responded (36% of those contacted).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "25641889",
+     "doi": "10.3899/jrheum.141140",
+     "pmcid": "",
+     "supports": "def（風濕病學會：會員是風濕科醫師）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "CRA 2015 加拿大風濕病學會明智選擇清單",
+     "citation": "Chow SL, et al. Choosing wisely: the Canadian Rheumatology Association's list of 5 items physicians and patients should question. J Rheumatol 2015;42(4):682-9.",
+     "pmid": "25641889",
+     "doi": "10.3899/jrheum.141140"
+    }
+   ],
+   "confidence": "High (PubMed title and abstract)",
+   "status": "ok"
+  },
+  {
+   "id": "org-icap",
+   "cat": "org",
+   "term": "ICAP",
+   "en": "International Consensus on ANA Patterns",
+   "aliases": [
+    "ICAP"
+   ],
+   "aka": "International Consensus on ANA Patterns (the title prints 'International Consensus on ANA patterns')",
+   "def": "國際專家組成的共識團體，2014年成立，統一抗核抗體（ANA）型態的名稱與定義；網站引用它2019年對各種型態臨床意義的專家共識。",
+   "example": "",
+   "note": "",
+   "label": "ICAP 2019・名稱",
+   "evidence": [
+    {
+     "quote": "The International Consensus on ANA Patterns (ICAP) initiative has previously reached consensus on the nomenclature and definitions of HEp-2 IIFA patterns. In the current paper, the ICAP consensus is presented on the clinical relevance of the 29 distinct HEp-2 IIFA patterns.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "en；def（統一型態的名稱與定義；2019年臨床意義共識）"
+    },
+    {
+     "quote": "However, the HEp-2 IIFA test has much more to offer: besides the titre or fluorescence intensity, it also provides fluorescence pattern(s).",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def（型態是抗核抗體檢驗提供的資訊）"
+    },
+    {
+     "quote": "To harmonise the names and descriptions of the distinct HEp-2 IIFA patterns, an ordered classification taxonomy was proposed.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def（統一型態的名稱）"
+    },
+    {
+     "quote": "This proposal was subsequently elaborated on by the International Consensus on ANA Patterns (ICAP), initiated in parallel to the 12th International Workshop on Autoantibodies and Autoimmunity (2014) held in Sao Paulo, Brazil.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def（國際、2014年）"
+    },
+    {
+     "quote": "This is exactly the reason why ICAP was initiated: the consensus on nomenclature and definitions of HEp-2 IIFA patterns allows to align pattern description across laboratories.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def（統一各檢驗室對型態的名稱與定義）"
+    },
+    {
+     "quote": "Because of the short history of ICAP, being founded in 2014, inclusion of older literature might have been hampered by potential differences in pattern nomenclature and definitions.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def（2014年成立）"
+    },
+    {
+     "quote": "The universal use of the ICAP nomenclature and pattern definitions, both in daily clinical practice as well as in the scientific literature, may enable systematic reviews in the future, and may well fine-tune current consensus based on expert opinions only.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "def（專家共識）"
+    },
+    {
+     "quote": "Although the current consensus on the clinical relevance of HEp-2 IIFA patterns has come across after extensive discussion and debate within the ICAP executive board as well as with the workshop participants, the information provided is not based on a systematic review or meta-analysis of the existing literature.",
+     "location": "Discussion",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "reviewer_notes（與網站「專家共識」標籤一致）"
+    },
+    {
+     "quote": "Clinical relevance of HEp-2 indirect immunofluorescent patterns: the International Consensus on ANA patterns (ICAP) perspective.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "aka（標題大小寫）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ICAP 2019 抗核抗體型態國際共識",
+     "citation": "Damoiseaux J, et al. Clinical relevance of HEp-2 indirect immunofluorescent patterns: the International Consensus on ANA patterns (ICAP) perspective. Ann Rheum Dis 2019;78(7):879-889.",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436"
+    }
+   ],
+   "confidence": "High (PubMed abstract; PMC full text)",
+   "status": "ok"
+  },
+  {
+   "id": "org-easi-iuis",
+   "cat": "org",
+   "term": "EASI 與 IUIS",
+   "en": "European Autoimmunity Standardisation Initiative (EASI); International Union of Immunological Societies (IUIS)",
+   "aliases": [
+    "EASI/IUIS"
+   ],
+   "aka": "European Autoimmunity Standardisation Initiative (also printed 'European Autoimmunity Standardization Initiative'; the cited 2014 abstract prints 'European autoimmunity standardization initiative'); International Union of Immunological Societies (the cited 2014 abstract and ICAP 2019 print 'International Union of Immunologic Societies')",
+   "def": "EASI是歐洲多國參與、推動自體抗體檢驗標準化的組織；IUIS是國際性的免疫學會聯盟。網站引用兩方專家2014年的抗核抗體檢驗國際建議。",
+   "example": "",
+   "note": "",
+   "label": "EASI/IUIS 2014・名稱",
+   "evidence": [
+    {
+     "quote": "Therefore, an international group of experts has created recommendations for ANA testing by different methods. Two groups of experts participated in this initiative. The European autoimmunity standardization initiative representing 15 European countries and the International Union of Immunologic Societies/World Health Organization/Arthritis Foundation/Centers for Disease Control and Prevention autoantibody standardising committee.",
+     "location": "Abstract (site-cited paper)",
+     "access": "abstract",
+     "pmid": "24126457",
+     "doi": "10.1136/annrheumdis-2013-203863",
+     "pmcid": "",
+     "supports": "def（兩方專家、歐洲多國、2014年國際建議）；aka（此篇的寫法）"
+    },
+    {
+     "quote": "International recommendations for the assessment of autoantibodies to cellular antigens referred to as anti-nuclear antibodies.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "24126457",
+     "doi": "10.1136/annrheumdis-2013-203863",
+     "pmcid": "",
+     "supports": "def（抗核抗體檢驗國際建議）"
+    },
+    {
+     "quote": "Accreditation in autoimmune diagnostic laboratories. A position paper of the European Autoimmunity Standardisation Initiative (EASI).",
+     "location": "Title (PubMed record; EASI position paper)",
+     "access": "abstract",
+     "pmid": "27666814",
+     "doi": "10.1016/j.autrev.2016.09.021",
+     "pmcid": "",
+     "supports": "en（EASI）"
+    },
+    {
+     "quote": "The European Autoimmunity Standardisation Initiative (EASI) was founded to facilitate both standardisation as well as harmonisation of autoantibody tests, but over the years the focus has drifted away from standardisation in favour of harmonisation.",
+     "location": "Abstract (viewpoint of the EASI president)",
+     "access": "abstract",
+     "pmid": "32127033",
+     "doi": "10.1186/s13317-020-0127-3",
+     "pmcid": "PMC7065346",
+     "supports": "en；def（推動自體抗體檢驗標準化）"
+    },
+    {
+     "quote": "The new additions were made after rigorous review of new genetic descriptions of IEIs by the International Union of Immunological Societies (IUIS) Expert Committee using criteria established to define IEI.",
+     "location": "Abstract (report of the IUIS Expert Committee)",
+     "access": "abstract",
+     "pmid": "41608114",
+     "doi": "10.70962/jhi.20250003",
+     "pmcid": "PMC12829761",
+     "supports": "en（IUIS）"
+    },
+    {
+     "quote": "Autoantibody Standardization Committee, International Union of Immunological Societies.",
+     "location": "Author affiliation (PubMed record)",
+     "access": "abstract",
+     "pmid": "29679532",
+     "doi": "10.1016/j.athoracsur.2018.03.037",
+     "pmcid": "",
+     "supports": "reviewer_notes（IUIS 設有自體抗體標準化委員會）"
+    },
+    {
+     "quote": "The importance of the level of autoantibodies is also recognised in the ACR guideline as well as by the recommendations issued by the European Autoimmunity Standardization Initiative (EASI) and the International Union of Immunologic Societies (IUIS) Autoantibody Standardization Subcommittee.",
+     "location": "Introduction (ICAP 2019)",
+     "access": "PMC full text",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436",
+     "pmcid": "PMC6585284",
+     "supports": "aka（另一種拼法）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "EASI/IUIS 2014 抗核抗體檢驗國際建議",
+     "citation": "Agmon-Levin N, et al. International recommendations for the assessment of autoantibodies to cellular antigens referred to as anti-nuclear antibodies. Ann Rheum Dis 73(1):17-23 (PubMed date 14 Oct 2013).",
+     "pmid": "24126457",
+     "doi": "10.1136/annrheumdis-2013-203863"
+    },
+    {
+     "short": "EASI 自體免疫檢驗室認證立場文件（名稱來源）",
+     "citation": "Bizzaro N, et al. Accreditation in autoimmune diagnostic laboratories. A position paper of the European Autoimmunity Standardisation Initiative (EASI). Autoimmun Rev 16(1):81-86 (PubMed date 22 Sep 2016).",
+     "pmid": "27666814",
+     "doi": "10.1016/j.autrev.2016.09.021"
+    },
+    {
+     "short": "EASI 主席 2020 標準化與一致化觀點",
+     "citation": "Damoiseaux J. The perspective on standardisation and harmonisation: the viewpoint of the EASI president. Auto Immun Highlights 2020;11(1):4.",
+     "pmid": "32127033",
+     "doi": "10.1186/s13317-020-0127-3"
+    },
+    {
+     "short": "IUIS 專家委員會 2025 先天免疫缺陷分類報告（名稱來源）",
+     "citation": "Poli MC, et al. Human inborn errors of immunity: 2024 update on the classification from the International Union of Immunological Societies Expert Committee. J Hum Immun 2025;1(1):e20250003.",
+     "pmid": "41608114",
+     "doi": "10.70962/jhi.20250003"
+    },
+    {
+     "short": "Chan 2018 讀者來函（作者所屬 IUIS 自體抗體標準化委員會）",
+     "citation": "Chan EKL, Andrade LEC. Clarification Needed Regarding Anti-Topoisomerase I as a Biomarker for Non-Small Cell Lung Cancer. Ann Thorac Surg 2018;106(3):935.",
+     "pmid": "29679532",
+     "doi": "10.1016/j.athoracsur.2018.03.037"
+    },
+    {
+     "short": "ICAP 2019 抗核抗體型態國際共識",
+     "citation": "Damoiseaux J, et al. Clinical relevance of HEp-2 indirect immunofluorescent patterns: the International Consensus on ANA patterns (ICAP) perspective. Ann Rheum Dis 2019;78(7):879-889.",
+     "pmid": "30862649",
+     "doi": "10.1136/annrheumdis-2018-214436"
+    }
+   ],
+   "confidence": "High for the names (PubMed titles/abstracts of each body's own publications); the cited 2014 paper is abstract-only",
+   "status": "ok"
+  },
+  {
+   "id": "org-gcan",
+   "cat": "org",
+   "term": "G-CAN",
+   "en": "Gout, Hyperuricemia and Crystal-Associated Disease Network",
+   "aliases": [
+    "G-CAN"
+   ],
+   "aka": "Gout, Hyperuricemia and Crystal-Associated Disease Network (also printed 'Gout, Hyperuricaemia and Crystal-Associated Disease Network' and 'Gout, Hyperuricemia, and Crystal-Associated Disease Network')",
+   "def": "國際性、跨領域的痛風、高尿酸血症與結晶沉積疾病研究合作網絡；網站引用它2019年對痛風與高尿酸相關名稱和定義的專家共識。",
+   "example": "",
+   "note": "",
+   "label": "G-CAN 2019・名稱",
+   "evidence": [
+    {
+     "quote": "The Gout, Hyperuricemia and Crystal-Associated Disease Network (G-CAN) is an international, multidisciplinary network for collaborative research, committed to advancing all aspects of the crystal deposition-associated disorders.",
+     "location": "Introduction (PMC version)",
+     "access": "PMC full text",
+     "pmid": "31501138",
+     "doi": "10.1136/annrheumdis-2019-215933",
+     "pmcid": "PMC7288724",
+     "supports": "en；def（國際、跨領域、研究合作網絡、結晶沉積疾病）"
+    },
+    {
+     "quote": "Gout, Hyperuricaemia and Crystal-Associated Disease Network (G-CAN) consensus statement regarding labels and definitions of disease states of gout.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "31501138",
+     "doi": "10.1136/annrheumdis-2019-215933",
+     "pmcid": "PMC7288724",
+     "supports": "def（2019年名稱與定義共識）；aka"
+    },
+    {
+     "quote": "Gout, Hyperuricemia, and Crystal-Associated Disease Network Consensus Statement Regarding Labels and Definitions for Disease Elements in Gout.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607",
+     "pmcid": "PMC6252290",
+     "supports": "def（2019年名稱與定義共識）；aka"
+    },
+    {
+     "quote": "The agreed labels were monosodium urate crystals, urate, hyperuric(a)emia, tophus, subcutaneous tophus, gout flare, intercritical gout, chronic gouty arthritis, imaging evidence of monosodium urate crystal deposition, gouty bone erosion, and podagra.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607",
+     "pmcid": "PMC6252290",
+     "supports": "def（包括高尿酸相關名稱）"
+    },
+    {
+     "quote": "Physicians and non-physician scientists with expertise in gout were identified through their membership of G-CAN and invited by email to participate in the first round of the survey.",
+     "location": "Methods (Delphi exercise)",
+     "access": "PMC full text",
+     "pmid": "31501138",
+     "doi": "10.1136/annrheumdis-2019-215933",
+     "pmcid": "PMC7288724",
+     "supports": "def（專家共識）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "G-CAN 2019 痛風疾病狀態命名共識",
+     "citation": "Bursill D, et al. Gout, Hyperuricaemia and Crystal-Associated Disease Network (G-CAN) consensus statement regarding labels and definitions of disease states of gout. Ann Rheum Dis 2019;78(11):1592-1600.",
+     "pmid": "31501138",
+     "doi": "10.1136/annrheumdis-2019-215933"
+    },
+    {
+     "short": "G-CAN 2019 痛風疾病要素命名共識",
+     "citation": "Bursill D, et al. Gout, Hyperuricemia, and Crystal-Associated Disease Network Consensus Statement Regarding Labels and Definitions for Disease Elements in Gout. Arthritis Care Res (Hoboken) 2019;71(3):427-434.",
+     "pmid": "29799677",
+     "doi": "10.1002/acr.23607"
+    }
+   ],
+   "confidence": "High (PMC full text; PubMed titles and abstracts)",
+   "status": "ok"
+  },
+  {
+   "id": "org-apasl",
+   "cat": "org",
+   "term": "APASL",
+   "en": "Asian Pacific Association for the Study of the Liver",
+   "aliases": [
+    "APASL"
+   ],
+   "aka": "Asian Pacific Association for the Study of the Liver (the cited 2021 guideline prints 'Asian-Pacific Association for the study of the liver')",
+   "def": "亞太地區跨國的肝臟研究學會；網站引用它2021年的指引：使用免疫抑制治療時，如何預防和處理 B 型肝炎再活化。",
+   "example": "",
+   "note": "",
+   "label": "APASL 2021・名稱",
+   "evidence": [
+    {
+     "quote": "Acute-on-chronic liver failure: consensus recommendations of the Asian Pacific Association for the Study of the Liver (APASL) 2014.",
+     "location": "Title (PubMed record; APASL consensus)",
+     "access": "abstract",
+     "pmid": "26202751",
+     "doi": "10.1007/s12072-014-9580-2",
+     "pmcid": "",
+     "supports": "en"
+    },
+    {
+     "quote": "the Asian Pacific Association for the Study of the Liver (APASL) was the first pan-national society to endorse and lead the process for redefining the disease",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "36070122",
+     "doi": "10.1007/s12072-022-10408-6",
+     "pmcid": "",
+     "supports": "en；def（跨國的學會）"
+    },
+    {
+     "quote": "APASL clinical practice guideline on hepatitis B reactivation related to the use of immunosuppressive therapy.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def（2021年指引主題）"
+    },
+    {
+     "quote": "This clinical practice guidelines aim to assist clinicians in all disciplines involved in the use of immunosuppressive therapy to effectively prevent and manage hepatitis B reactivation.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def（預防和處理 B 型肝炎再活化）"
+    },
+    {
+     "quote": "With the initiation by the steering committee of Asian-Pacific Association for the study of the liver (APASL), a panel of experts from 21 different administrative regions/countries in Asia-Pacific region was invited to form a working party which formulated this clinical practise guidance for HBVr in patients treated with IST.",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x",
+     "pmcid": "PMC8382940",
+     "supports": "def（亞太地區）；aka（此篇的寫法）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "APASL 2021 免疫抑制治療相關 B 型肝炎再活化指引",
+     "citation": "Lau G, et al. APASL clinical practice guideline on hepatitis B reactivation related to the use of immunosuppressive therapy. Hepatol Int 2021;15(5):1031-1048.",
+     "pmid": "34427860",
+     "doi": "10.1007/s12072-021-10239-x"
+    },
+    {
+     "short": "APASL 2014 慢性肝病急性惡化共識（名稱來源）",
+     "citation": "Sarin SK, et al. Acute-on-chronic liver failure: consensus recommendations of the Asian Pacific Association for the Study of the Liver (APASL) 2014. Hepatol Int 2014;8(4):453-71.",
+     "pmid": "26202751",
+     "doi": "10.1007/s12072-014-9580-2"
+    },
+    {
+     "short": "APASL 領導者 2022 文章（名稱來源）",
+     "citation": "Sarin SK, et al. MAFLD, patient-centred care, and APASL. Hepatol Int 2022;16(5):1032-1034.",
+     "pmid": "36070122",
+     "doi": "10.1007/s12072-022-10408-6"
+    }
+   ],
+   "confidence": "High (PubMed titles and abstracts; PMC full text)",
+   "status": "ok"
+  },
+  {
+   "id": "org-aasld",
+   "cat": "org",
+   "term": "AASLD",
+   "en": "American Association for the Study of Liver Diseases",
+   "aliases": [
+    "AASLD"
+   ],
+   "aka": "American Association for the Study of Liver Diseases",
+   "def": "美國的肝病研究學會；網站引用它2018年的 B 型肝炎指引更新，內容包括接受免疫抑制治療者的處理。",
+   "example": "",
+   "note": "",
+   "label": "AASLD 2016／2018・名稱",
+   "evidence": [
+    {
+     "quote": "This document presents official recommendations of the American Association for the Study of Liver Diseases (AASLD) on the treatment of chronic hepatitis B (CHB) virus (HBV) infection in adults and children.",
+     "location": "Guiding Principles (AASLD 2016 guideline)",
+     "access": "PMC full text",
+     "pmid": "26566064",
+     "doi": "10.1002/hep.28156",
+     "pmcid": "PMC5987259",
+     "supports": "en；def（美國的肝病研究學會）"
+    },
+    {
+     "quote": "Executive summary of the 2022 Practice Guidance on Wilson disease from the American Association for the Study of Liver Diseases.",
+     "location": "Title (PubMed record; AASLD practice guidance)",
+     "access": "abstract",
+     "pmid": "36152019",
+     "doi": "10.1002/hep.32805",
+     "pmcid": "",
+     "supports": "en（另一份 AASLD 文件）"
+    },
+    {
+     "quote": "Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance.",
+     "location": "Title (PubMed record; no abstract)",
+     "access": "abstract",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def（2018年 B 型肝炎指引更新）"
+    },
+    {
+     "quote": "The AASLD 2018 Hepatitis B Guidance provides a data-supported approach to screening, prevention, diagnosis, and clinical management of patients with hepatitis B.",
+     "location": "Purpose and Scope of the Guidance",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def"
+    },
+    {
+     "quote": "(v) treatment of hepatitis B in special populations, including persons with viral coinfections, acute hepatitis B, recipients of immunosuppressive therapy, and transplant recipients.",
+     "location": "Purpose and Scope of the Guidance",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "def（包括接受免疫抑制治療者）"
+    },
+    {
+     "quote": "This AASLD 2018 Hepatitis B Guidance is intended to complement the AASLD 2016 Practice Guidelines for Treatment of Chronic Hepatitis B",
+     "location": "Purpose and Scope of the Guidance",
+     "access": "PMC full text",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800",
+     "pmcid": "PMC5975958",
+     "supports": "reviewer_notes（2016 與 2018 的關係）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "AASLD 2018 B 型肝炎指引更新",
+     "citation": "Terrault NA, et al. Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance. Hepatology 2018;67(4):1560-1599.",
+     "pmid": "29405329",
+     "doi": "10.1002/hep.29800"
+    },
+    {
+     "short": "AASLD 2016 慢性 B 型肝炎治療指引（名稱來源）",
+     "citation": "Terrault NA, et al. AASLD guidelines for treatment of chronic hepatitis B. Hepatology 2016;63(1):261-83.",
+     "pmid": "26566064",
+     "doi": "10.1002/hep.28156"
+    },
+    {
+     "short": "AASLD 2022 威爾森氏症實務指引摘要（名稱來源）",
+     "citation": "Schilsky ML, et al. A multidisciplinary approach to the diagnosis and management of Wilson disease: Executive summary of the 2022 Practice Guidance on Wilson disease from the American Association for the Study of Liver Diseases. Hepatology 77(4):1428-1455 (PubMed date 7 Dec 2022).",
+     "pmid": "36152019",
+     "doi": "10.1002/hep.32805"
+    }
+   ],
+   "confidence": "High (PMC full text; PubMed titles)",
+   "status": "ok"
+  },
+  {
+   "id": "org-ese-es",
+   "cat": "org",
+   "term": "ESE 與 ES",
+   "en": "European Society of Endocrinology (ESE); Endocrine Society (ES)",
+   "aliases": [
+    "ESE/ES"
+   ],
+   "aka": "European Society of Endocrinology (ESE); The Endocrine Society (ES)",
+   "def": "ESE是歐洲的內分泌學會，ES是美國的內分泌學會；網站引用兩者2024年的聯合指引：類固醇引起的腎上腺功能不足如何診斷與治療。",
+   "example": "",
+   "note": "",
+   "label": "ESE/ES 2024・名稱",
+   "evidence": [
+    {
+     "quote": "European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "en；def（聯合指引的主題）"
+    },
+    {
+     "quote": "This joint clinical guideline was initiated and developed on behalf of The European Society of Endocrinology (ESE) and The Endocrine Society (ES).",
+     "location": "Methods, Guideline Working Group",
+     "access": "PMC full text",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "en；def"
+    },
+    {
+     "quote": "This first European Society of Endocrinology/Endocrine Society joint clinical practice guideline provides guidance on this clinically relevant condition to aid clinicians involved in the care of patients on chronic glucocorticoid therapy.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "def（兩者的聯合指引，給照顧長期使用類固醇病人的醫師）"
+    },
+    {
+     "quote": "Endocrine Society, Washington, DC 20036, USA.",
+     "location": "Author affiliation (PubMed record of an Endocrine Society guideline communication)",
+     "access": "abstract",
+     "pmid": "38828961",
+     "doi": "10.1210/clinem/dgae322",
+     "pmcid": "",
+     "supports": "def（ES 在美國）"
+    },
+    {
+     "quote": "European Society of Endocrinology, Bristol BS32 4QW, UK.",
+     "location": "Author affiliation (PubMed record)",
+     "access": "abstract",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250",
+     "pmcid": "PMC11180513",
+     "supports": "reviewer_notes（ESE 的地址）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "ESE/ES 2024 類固醇引起腎上腺功能不全指引",
+     "citation": "Beuschlein F, et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109(7):1657-1683.",
+     "pmid": "38724043",
+     "doi": "10.1210/clinem/dgae250"
+    },
+    {
+     "short": "ESE/ES 2024 同步刊登版",
+     "citation": "Beuschlein F, et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and therapy of glucocorticoid-induced adrenal insufficiency. Eur J Endocrinol 2024;190(5):G25-G51.",
+     "pmid": "38714321",
+     "doi": "10.1093/ejendo/lvae029"
+    },
+    {
+     "short": "Endocrine Society 2024 指引說明文章（作者所屬單位）",
+     "citation": "McCartney CR, et al. Vitamin D Insufficiency and Epistemic Humility: An Endocrine Society Guideline Communication. J Clin Endocrinol Metab 2024;109(8):1948-1954.",
+     "pmid": "38828961",
+     "doi": "10.1210/clinem/dgae322"
+    }
+   ],
+   "confidence": "High (PubMed title and abstract; PMC full text; affiliation for location)",
+   "status": "ok"
+  },
+  {
+   "id": "org-idst",
+   "cat": "org",
+   "term": "IDST",
+   "en": "Infectious Diseases Society of Taiwan",
+   "aliases": [
+    "IDST"
+   ],
+   "aka": "Infectious Diseases Society of Taiwan",
+   "def": "台灣的感染症醫學會；網站引用它指派的成人預防接種工作小組2024年制定的台灣成人帶狀疱疹（皮蛇）疫苗建議。",
+   "example": "",
+   "note": "",
+   "label": "IDST 2024・名稱",
+   "evidence": [
+    {
+     "quote": "The Working Group on Adult Immunization Practice was appointed by the Infectious Diseases Society of Taiwan (IDST) and recommendations were drafted after a full literature review, using the Grading of Recommendation, Assessment, Development and Evaluation (GRADE) system.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "en；def（指派的成人預防接種工作小組）"
+    },
+    {
+     "quote": "Recommendations and guidance for herpes zoster vaccination for adults in Taiwan.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "def（台灣成人帶狀疱疹疫苗建議）"
+    },
+    {
+     "quote": "The recommendations were reviewed and revised by expert review panels during a series of consensus meetings and endorsed by the IDST, Taiwan Association of Family Medicine, the Taiwanese Dermatological Association, the Taiwan Oncology Society, the Taiwan Society of Blood and Marrow Transplantation, the Transplantation Society of Taiwan, the Taiwan AIDS Society, and the Taiwan College of Rheumatology.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001",
+     "pmcid": "",
+     "supports": "reviewer_notes（多個台灣學會背書）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "IDST 2024 台灣成人帶狀疱疹疫苗建議",
+     "citation": "Lin KY, et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669-684.",
+     "pmid": "38987064",
+     "doi": "10.1016/j.jmii.2024.06.001"
+    }
+   ],
+   "confidence": "High (PubMed title and abstract; no PMC full text)",
+   "status": "ok"
+  },
+  {
+   "id": "org-ace",
+   "cat": "org",
+   "term": "ACE",
+   "en": "Agency for Care Effectiveness",
+   "aliases": [
+    "ACE"
+   ],
+   "aka": "Agency for Care Effectiveness (ACE), Ministry of Health, Singapore",
+   "def": "新加坡衛生部的一個機構，制定新加坡的臨床指引；網站引用的是說明它2026年膝關節退化性關節炎指引建議依據的論文。",
+   "example": "",
+   "note": "",
+   "label": "ACE 2026・名稱",
+   "evidence": [
+    {
+     "quote": "Knee osteoarthritis (OA) was identified as a priority in the 2023 Agency for Care Effectiveness (ACE) Clinical Guidelines (ACG) topic call to address the lack of updated national guidelines, support the appropriate delivery of evidence-based care in community settings and minimise the use of treatments lacking robust evidence.",
+     "location": "Introduction",
+     "access": "PMC full text",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
+     "pmcid": "PMC13405452",
+     "supports": "en；def（制定新加坡的臨床指引）"
+    },
+    {
+     "quote": "Evidence to Practice Division, Agency for Care Effectiveness, Ministry of Health, Singapore.",
+     "location": "Author affiliation (PubMed record)",
+     "access": "abstract",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
+     "pmcid": "PMC13405452",
+     "supports": "def（新加坡衛生部的機構）"
+    },
+    {
+     "quote": "Evidence-to-Recommendation Framework for 2026 ACE Clinical Guideline on the management of knee osteoarthritis - a joint effort with patients.",
+     "location": "Title (PubMed record)",
+     "access": "abstract",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
+     "pmcid": "PMC13405452",
+     "supports": "def（2026年膝關節退化性關節炎指引）"
+    },
+    {
+     "quote": "This Evidence-to-Recommendation (EtR) framework underpins the ACE Clinical Guideline (ACG) for the management of knee osteoarthritis (OA), providing rationale and justifications for its recommendations.",
+     "location": "Abstract",
+     "access": "abstract",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
+     "pmcid": "PMC13405452",
+     "supports": "def（說明指引建議依據的論文）"
+    },
+    {
+     "quote": "A multidisciplinary expert group (EG) comprising two orthopaedic surgeons, six primary care physicians, two pain medicine physicians, two pharmacists, one physiotherapist, one occupational therapist, two nurses and one traditional Chinese medicine physician was appointed to provide clinical expertise throughout guideline development.",
+     "location": "Methods",
+     "access": "PMC full text",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
+     "pmcid": "PMC13405452",
+     "supports": "def（制定指引）"
+    }
+   ],
+   "sources": [
+    {
+     "short": "新加坡 ACE 2026 膝關節退化性關節炎指引（證據轉建議說明）",
+     "citation": "Chan JLE, et al. Evidence-to-Recommendation Framework for 2026 ACE Clinical Guideline on the management of knee osteoarthritis - a joint effort with patients. Singapore Med J 2026;67(6):336-344.",
+     "pmid": "42054041",
+     "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139"
+    }
+   ],
+   "confidence": "High (PMC full text; PubMed record)",
+   "status": "ok"
+  }
+ ]
+}

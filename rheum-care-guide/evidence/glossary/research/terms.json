@@ -1765,5 +1765,633 @@
   "appears": [
    "SJ-2.1"
   ]
+ },
+ {
+  "cat": "condition",
+  "id": "sarcopenia",
+  "term": "肌少症",
+  "aliases": [
+   "肌少症"
+  ],
+  "appears": [
+   "OA-4.5"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "exercise",
+  "id": "doms",
+  "term": "延遲性肌肉痠痛",
+  "aliases": [
+   "延遲性肌肉痠痛"
+  ],
+  "appears": [
+   "OA-3.2"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "rehab",
+  "id": "tens",
+  "term": "經皮神經電刺激（TENS）",
+  "aliases": [
+   "經皮神經電刺激",
+   "TENS"
+  ],
+  "appears": [
+   "OA-6.5",
+   "oa-aids"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "rehab",
+  "id": "paraffin",
+  "term": "石蠟浴",
+  "aliases": [
+   "石蠟浴"
+  ],
+  "appears": [
+   "OA-5.4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "rehab",
+  "id": "wedged-insoles",
+  "term": "楔形鞋墊",
+  "aliases": [
+   "楔形鞋墊"
+  ],
+  "appears": [
+   "OA-6.4",
+   "oa-aids"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "drug",
+  "id": "glucosamine",
+  "term": "葡萄糖胺",
+  "aliases": [
+   "葡萄糖胺"
+  ],
+  "appears": [
+   "OA-M1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "exercise",
+  "id": "balance-functional",
+  "term": "平衡與功能性訓練",
+  "aliases": [
+   "平衡和功能性訓練",
+   "功能性訓練"
+  ],
+  "appears": [
+   "OP-3.2",
+   "OP-5.2"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "test",
+  "id": "bmd",
+  "term": "骨密度檢查",
+  "aliases": [
+   "骨密度檢查",
+   "骨密度"
+  ],
+  "appears": [
+   "OP-1.3",
+   "OP-1.4",
+   "OP-6.1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "fragility-fracture",
+  "term": "輕微外力骨折（脆弱性骨折）",
+  "aliases": [
+   "輕微外力就骨折",
+   "輕微外力骨折"
+  ],
+  "appears": [
+   "OP-1.1",
+   "OP-5.1",
+   "OP-M2",
+   "osteoporosis-fracture"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "fracture-risk-factors",
+  "term": "骨折風險因子",
+  "aliases": [
+   "骨折風險因子"
+  ],
+  "appears": [
+   "OP-1.4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "vertebral-fracture",
+  "term": "脊椎骨折",
+  "aliases": [
+   "脊椎骨折"
+  ],
+  "appears": [
+   "AS-3.T",
+   "OP-6.3",
+   "OP-M1",
+   "OP-S1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "drug",
+  "id": "bisphosphonate",
+  "term": "雙磷酸鹽類藥物",
+  "aliases": [
+   "雙磷酸鹽類骨鬆藥",
+   "雙磷酸鹽"
+  ],
+  "appears": [
+   "OP-6.4",
+   "OP-S2"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "drug",
+  "id": "denosumab",
+  "term": "denosumab（骨鬆皮下注射針劑）",
+  "aliases": [
+   "骨鬆皮下注射針劑",
+   "denosumab"
+  ],
+  "appears": [
+   "OP-6.3",
+   "OP-6.4",
+   "OP-S2"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "onj",
+  "term": "顎骨壞死",
+  "aliases": [
+   "顎骨壞死"
+  ],
+  "appears": [
+   "OP-6.5"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "test",
+  "id": "ana",
+  "term": "抗核抗體（ANA）",
+  "aliases": [
+   "抗核抗體",
+   "ANA"
+  ],
+  "appears": [
+   "LB-1.1",
+   "LB-1.2",
+   "LB-1.3",
+   "LB-1.4",
+   "LB-1.T",
+   "LB-2.1",
+   "LB-2.T",
+   "LB-4.1",
+   "LB-4.2",
+   "LB-M1",
+   "labs-ana",
+   "labs-ana-screening",
+   "labs-intro",
+   "labs-sle"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "test",
+  "id": "rf",
+  "term": "類風濕因子（RF）",
+  "aliases": [
+   "類風濕因子",
+   "RF"
+  ],
+  "appears": [
+   "LB-3.1",
+   "LB-3.2",
+   "LB-3.4",
+   "LB-M2",
+   "LB-S2",
+   "labs-intro",
+   "labs-rf-ccp"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "test",
+  "id": "anti-ccp",
+  "term": "抗CCP抗體",
+  "aliases": [
+   "抗CCP抗體",
+   "抗CCP"
+  ],
+  "appears": [
+   "LB-3.2",
+   "LB-3.4",
+   "LB-S2",
+   "labs-intro",
+   "labs-rf-ccp"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "test",
+  "id": "false-results",
+  "term": "假陽性與假陰性",
+  "aliases": [
+   "假陽性",
+   "偽陰性"
+  ],
+  "appears": [
+   "IF-2.T",
+   "LB-4.3",
+   "LB-4.4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "evidence",
+  "id": "classification-criteria",
+  "term": "分類標準",
+  "aliases": [
+   "分類標準"
+  ],
+  "appears": [
+   "LB-2.1",
+   "LB-2.3",
+   "LB-2.4",
+   "LB-3.3",
+   "LB-3.T",
+   "LB-M2",
+   "labs-rf-ccp"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "ctd",
+  "term": "結締組織疾病",
+  "aliases": [
+   "結締組織疾病"
+  ],
+  "appears": [
+   "LB-4.1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "tophus",
+  "term": "痛風石",
+  "aliases": [
+   "痛風石"
+  ],
+  "appears": [
+   "LB-5.1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "ltbi",
+  "term": "潛伏結核",
+  "aliases": [
+   "潛伏結核"
+  ],
+  "appears": [
+   "IF-2.2",
+   "IF-2.4",
+   "IF-2.5",
+   "IF-2.T",
+   "IF-M2",
+   "IF-M3",
+   "infection-tb"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "test",
+  "id": "igra",
+  "term": "潛伏結核檢驗（IGRA 與皮膚測試）",
+  "aliases": [
+   "IGRA",
+   "皮膚測試"
+  ],
+  "appears": [
+   "IF-2.3"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "test",
+  "id": "hbv-serology",
+  "term": "B 型肝炎表面抗原、表面抗體與核心抗體",
+  "aliases": [
+   "表面抗原",
+   "表面抗體",
+   "核心抗體"
+  ],
+  "appears": [
+   "IF-3.1",
+   "IF-3.3",
+   "IF-3.4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "hbv-reactivation",
+  "term": "B 型肝炎再活化",
+  "aliases": [
+   "B 型肝炎再活化"
+  ],
+  "appears": [
+   "IF-3.2"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "drug",
+  "id": "tsdmard",
+  "term": "口服標靶藥物（JAK 抑制劑）",
+  "aliases": [
+   "口服標靶藥物",
+   "JAK 抑制劑"
+  ],
+  "appears": [
+   "IF-2.2",
+   "IF-5.2",
+   "IF-6.3",
+   "IF-S1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "adrenal",
+  "term": "腎上腺功能不足與腎上腺危象",
+  "aliases": [
+   "腎上腺功能不足",
+   "腎上腺危象"
+  ],
+  "appears": [
+   "IF-4.2",
+   "IF-4.3"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "pjp",
+  "term": "肺囊蟲肺炎",
+  "aliases": [
+   "肺囊蟲肺炎"
+  ],
+  "appears": [
+   "IF-4.4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "zoster",
+  "term": "帶狀疱疹（皮蛇）",
+  "aliases": [
+   "帶狀疱疹",
+   "皮蛇"
+  ],
+  "appears": [
+   "CM-5.2",
+   "IF-5.1",
+   "IF-5.2",
+   "IF-5.3",
+   "IF-5.4",
+   "IF-S1",
+   "infection-zoster"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "condition",
+  "id": "foodborne",
+  "term": "李斯特菌與沙門氏菌",
+  "aliases": [
+   "李斯特菌",
+   "沙門氏菌"
+  ],
+  "appears": [
+   "IF-6.3"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-nogg",
+  "term": "NOGG",
+  "aliases": [
+   "NOGG"
+  ],
+  "appears": [
+   "OP-1.2",
+   "OP-2.1",
+   "OP-2.4",
+   "OP-2.5",
+   "OP-2.T",
+   "OP-3.1",
+   "OP-3.3",
+   "OP-4.1",
+   "OP-5.1",
+   "OP-6.1",
+   "OP-6.2",
+   "OP-6.3",
+   "OP-6.4",
+   "OP-6.5",
+   "OP-6.T",
+   "OP-M2",
+   "OP-M4",
+   "OP-S1",
+   "OP-S2"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-bhof",
+  "term": "BHOF",
+  "aliases": [
+   "BHOF"
+  ],
+  "appears": [
+   "OP-1.2",
+   "OP-1.3",
+   "OP-1.4",
+   "OP-2.2",
+   "OP-2.3",
+   "OP-3.5",
+   "OP-4.2",
+   "OP-6.1",
+   "OP-6.2",
+   "OP-M1",
+   "OP-M4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-esceo-iof",
+  "term": "ESCEO 與 IOF",
+  "aliases": [
+   "ESCEO/IOF"
+  ],
+  "appears": [
+   "OP-5.3",
+   "OP-M3"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-cra",
+  "term": "CRA",
+  "aliases": [
+   "CRA"
+  ],
+  "appears": [
+   "LB-1.1",
+   "LB-4.1",
+   "LB-M1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-icap",
+  "term": "ICAP",
+  "aliases": [
+   "ICAP"
+  ],
+  "appears": [
+   "LB-1.1",
+   "LB-1.2",
+   "LB-1.3",
+   "LB-1.4",
+   "LB-1.T",
+   "LB-M1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-easi-iuis",
+  "term": "EASI 與 IUIS",
+  "aliases": [
+   "EASI/IUIS"
+  ],
+  "appears": [
+   "LB-1.4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-gcan",
+  "term": "G-CAN",
+  "aliases": [
+   "G-CAN"
+  ],
+  "appears": [
+   "LB-5.2",
+   "LB-5.T"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-apasl",
+  "term": "APASL",
+  "aliases": [
+   "APASL"
+  ],
+  "appears": [
+   "IF-3.1",
+   "IF-3.2",
+   "IF-3.5",
+   "IF-M4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-aasld",
+  "term": "AASLD",
+  "aliases": [
+   "AASLD"
+  ],
+  "appears": [
+   "IF-3.5",
+   "IF-M4"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-ese-es",
+  "term": "ESE 與 ES",
+  "aliases": [
+   "ESE/ES"
+  ],
+  "appears": [
+   "IF-4.2",
+   "IF-4.3",
+   "IF-S2"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-idst",
+  "term": "IDST",
+  "aliases": [
+   "IDST"
+  ],
+  "appears": [
+   "IF-5.1"
+  ],
+  "added": "2026-10-11"
+ },
+ {
+  "cat": "org",
+  "id": "org-ace",
+  "term": "ACE",
+  "aliases": [
+   "ACE"
+  ],
+  "appears": [
+   "OA-3.T",
+   "OA-4.5"
+  ],
+  "added": "2026-10-11"
  }
 ]

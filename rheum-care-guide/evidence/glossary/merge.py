@@ -10,6 +10,7 @@ import pathlib
 import re
 
 import postfix
+import postfix_2026_10
 
 HERE = pathlib.Path(__file__).resolve().parent
 RESEARCH = HERE / 'research'
@@ -20,6 +21,7 @@ DROP = {'bed-cage', 'imaging'}
 CATS = [
     ('condition', '疾病與症狀'),
     ('allergy', '蕁麻疹與過敏'),
+    ('test', '檢查與檢驗'),
     ('drug', '藥物與疫苗'),
     ('exercise', '運動'),
     ('rehab', '復健與療法'),
@@ -36,7 +38,11 @@ ALLERGY = {'csu-cindu', 'cold-urticaria', 'pressure-urticaria', 'solar-urticaria
 # Terms that appear very often: link only the first occurrence on each page (default: first per card).
 PAGE_SCOPE = {'guideline', 'csu-cindu', 'physical-therapy', 'occupational-therapy', 'disease-activity', 'autoimmune',
               'org-acr', 'org-eular', 'org-bsr', 'org-nice', 'org-asas', 'org-who', 'org-galen', 'org-wao', 'org-tfos',
-              'org-tra', 'org-aaaai', 'org-bsaci', 'org-ects', 'org-sf'}
+              'org-tra', 'org-aaaai', 'org-bsaci', 'org-ects', 'org-sf',
+              # 2026-10 new pages
+              'ana', 'rf', 'anti-ccp', 'classification-criteria', 'ltbi',
+              'org-nogg', 'org-bhof', 'org-esceo-iof', 'org-cra', 'org-icap', 'org-easi-iuis', 'org-gcan',
+              'org-apasl', 'org-aasld', 'org-ese-es', 'org-idst', 'org-ace'}
 # Strings that are consumed by the matcher but never linked (label vocabulary explained in the legend).
 STOP = ['指引說明']
 EXCLUDE_PAGES = {'disease-activity': ['urticaria']}
@@ -206,6 +212,7 @@ def main():
             'group': e.get('_group', e.get('group', '')),
         }
         postfix.apply(entry, src_lookup)
+        postfix_2026_10.apply(entry, src_lookup)
         entry['example'] = clean_example(entry['example'])
         assert entry['def'], tid
         assert entry['cat'] in dict(CATS), (tid, entry['cat'])
@@ -219,7 +226,7 @@ def main():
         for a in e['aliases']:
             assert a not in seen, (a, seen.get(a), e['id'])
             seen[a] = e['id']
-    data = {'version': '2026-10-07', 'categories': [{'id': c, 'name': n} for c, n in CATS], 'stop': STOP,
+    data = {'version': '2026-10-11', 'categories': [{'id': c, 'name': n} for c, n in CATS], 'stop': STOP,
             'entries': out}
     OUT.parent.mkdir(parents=True, exist_ok=True)
     json.dump(data, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

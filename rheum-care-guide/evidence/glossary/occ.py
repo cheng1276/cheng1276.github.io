@@ -7,7 +7,8 @@ Rules
 - Linking: first occurrence per scope. Scope = card (or intro / myths / seek block), or the whole page for
   entries whose scope is 'page'.
 
-Usage (from the rheum-care-guide folder): python3 evidence/glossary/occ.py [--md out.md]
+Usage (from the rheum-care-guide folder): python3 evidence/glossary/occ.py [--drafts] [--md out.md]
+  --drafts  also scan the draft pages that are still in physician review (DRAFTS, as in src/build.py)
 """
 import json
 import pathlib
@@ -18,6 +19,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 CONTENT = HERE.parent.parent / 'src' / 'content'
 GLOSSARY = HERE.parent.parent / 'src' / 'glossary' / 'glossary.json'
 ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren']
+DRAFTS = ['oa', 'osteoporosis', 'labs', 'infection']  # keep in step with DRAFT_ORDER in src/build.py
 LATIN = re.compile(r'[A-Za-z0-9]')
 
 
@@ -110,6 +112,9 @@ def run():
 
 
 def main(argv):
+    global ORDER
+    if '--drafts' in argv:
+        ORDER = ORDER + DRAFTS
     g, occ = run()
     out = []
     for e in g['entries']:
