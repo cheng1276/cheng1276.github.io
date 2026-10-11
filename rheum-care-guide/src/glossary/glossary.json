@@ -14805,7 +14805,7 @@
     "帶狀疱疹",
     "皮蛇"
    ],
-   "def": "帶狀疱疹（皮蛇）是得過水痘（或打過水痘疫苗）後，潛伏在體內的水痘帶狀疱疹病毒重新活化，引起的疼痛水泡疹，通常長在身體一側的局部區域。",
+   "def": "帶狀疱疹（皮蛇）是得過水痘後，潛伏在體內的水痘帶狀疱疹病毒重新活化，引起的疼痛水泡疹，通常長在身體一側的局部區域。",
    "example": "",
    "note": "年長者和免疫力較低的人比較容易得；得過的人也可能再得。",
    "label": "IDST 2024・定義",
@@ -14900,15 +14900,6 @@
      "doi": "10.1016/j.jmii.2024.06.001",
      "pmcid": "",
      "supports": "site usage CM-5.2: 「活性的帶狀疱疹（皮蛇）疫苗」 is one of two vaccine types (vaccines are covered by the rzv and live-vaccine entries)"
-    },
-    {
-     "quote": "Children and adolescents who have received live-attenuated varicella vaccines are at lower risk for herpes zoster than are those who experienced varicella",
-     "location": "Special Populations",
-     "access": "PMC full text",
-     "pmid": "35051134",
-     "doi": "10.15585/mmwr.mm7103a2",
-     "pmcid": "PMC8774159",
-     "supports": "def（打過水痘疫苗的人也可能得，但風險較低）"
     }
    ],
    "aka": "herpes zoster (HZ); shingles",

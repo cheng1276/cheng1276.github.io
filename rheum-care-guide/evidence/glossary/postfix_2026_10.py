@@ -285,6 +285,12 @@ DECISIONS = {
     },
     'onj': {
     },
+    'zoster': {
+        'def': '帶狀疱疹（皮蛇）是得過水痘後，潛伏在體內的水痘帶狀疱疹病毒重新活化，引起的疼痛水泡疹，通常長在身體一側的局部區域。',
+        # Undo POST's add_ev: one of its two quotes duplicated a researched row (kept; it supports 得過水痘後),
+        # the other only supported the vaccine clause.
+        'add_ev': [],
+    },
 }
 for _tid, _fix in DECISIONS.items():
     _cur = POST.setdefault(_tid, {})
