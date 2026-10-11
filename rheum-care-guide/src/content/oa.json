@@ -842,7 +842,7 @@
   },
   {
    "belief": "吃魚油或維生素D，可以改善退化性關節炎。",
-   "fact": "美國 ACR 指引不建議用魚油或維生素D補充品治療膝、髖或手部退化性關節炎。醫師因其他原因開立的維生素D，請照醫囑使用。",
+   "fact": "美國 ACR 指引不建議用魚油或維生素D補充品治療膝、髖或手部退化性關節炎。醫師因其他原因指示的維生素D，請照醫囑使用。",
    "strength_label": "ACR 2019・不建議",
    "evidence": [
     {
@@ -863,7 +863,7 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial safety phrase 「醫師因其他原因開立的維生素D，請照醫囑使用」; not from a source; the ACR rows address vitamin D as a treatment for OA, not bone health or deficiency",
+     "strength": "Editorial safety phrase 「醫師因其他原因指示的維生素D，請照醫囑使用」; not from a source; the ACR rows address vitamin D as a treatment for OA, not bone health or deficiency",
      "confidence": "EDITORIAL"
     }
    ],

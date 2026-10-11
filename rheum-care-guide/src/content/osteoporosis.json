@@ -201,7 +201,7 @@
      "sid": "OP-2.4"
     },
     {
-     "text": "需要補充維生素D時，以每天補充為原則；不建議例行性地久久吃一次大劑量，有報告指出和骨折、跌倒增加有關。醫師開立的治療劑量，請依醫囑。",
+     "text": "需要補充維生素D時，以每天補充為原則；不建議例行性地久久吃一次大劑量，有報告指出和骨折、跌倒增加有關。醫師指示的治療劑量，請依醫囑。",
      "strength_label": "美國內分泌學會 2024・建議；NOGG 2024・指引說明",
      "evidence": [
       {
@@ -229,7 +229,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial safety phrase 「醫師開立的治療劑量，請依醫囑」; added after the fact-check so that patients do not refuse a dose prescribed to treat deficiency",
+       "strength": "Editorial safety phrase 「醫師指示的治療劑量，請依醫囑」; added after the fact-check so that patients do not refuse a dose prescribed to treat deficiency",
        "confidence": "EDITORIAL"
       }
      ],
