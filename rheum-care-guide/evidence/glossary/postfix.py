@@ -43,6 +43,13 @@ def ev(quote, pmid, location, supports, access='PMC full text', doi='', pmcid=''
 
 POST = {
     # ---------- g1 exercise ----------
+    'moderate-intensity': {
+        'add_ev': [ev('Some activities, such as swimming or riding a bicycle, can be either moderate or vigorous intensity, depending on the effort.',
+                      '30418471', 'Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity',
+                      'example（騎腳踏車）；note（依費力程度，可能是中等或高強度）',
+                      doi='10.1001/jama.2018.14854', pmcid='PMC9582631')],
+        'supports_replace': [('example（快走、打排球、用耙子整理庭院）', 'example（快走）')],
+    },
     'aerobic': {
         'drop_pmids': ['38580348', '3920711'],
     },

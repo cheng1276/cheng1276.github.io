@@ -12,3 +12,9 @@
 | 刪除「支被架」 | 同意 | 痛風發作照護 GT-4.2 不再提支被架 |
 
 仍待確認：WHO 2020 把「有動總比沒動好」標為 good practice statement 的出處（WHO 指引全書，非 PubMed 收錄）。
+
+## 2026 年 10 月 11 日：中等強度的例子
+
+| 項目 | 決定 | 網站上的結果 |
+|---|---|---|
+| 「中等強度」詞條的例子 | 「打排球」改為「騎腳踏車」 | 例子改為「快走、騎腳踏車」；補充加上「騎腳踏車依費力程度，可能是中等或高強度」，依據美國身體活動指引（Piercy 2018，PMID 30418471）："Some activities, such as swimming or riding a bicycle, can be either moderate or vigorous intensity, depending on the effort." |

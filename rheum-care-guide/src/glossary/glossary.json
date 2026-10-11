@@ -138,8 +138,8 @@
     "中等強度"
    ],
    "def": "活動時消耗的能量是安靜坐著時的3倍到未滿6倍；若用0–10分評估自己有多費力，約5–6分。",
-   "example": "快走、打排球",
-   "note": "簡單判斷：做中等強度活動時還能說話，但沒辦法唱歌。",
+   "example": "快走、騎腳踏車",
+   "note": "簡單判斷：做中等強度活動時還能說話，但沒辦法唱歌。騎腳踏車依費力程度，可能是中等或高強度。",
    "label": "WHO 2020・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -198,7 +198,7 @@
      "pmid": "30418471",
      "doi": "10.1001/jama.2018.14854",
      "pmcid": "PMC9582631",
-     "supports": "example（快走、打排球、用耙子整理庭院）"
+     "supports": "example（快走）"
     },
     {
      "quote": "Generally, a person doing moderate-intensity aerobic activity can talk, but not sing, during the activity.",
@@ -226,6 +226,15 @@
      "doi": "10.1136/rmdopen-2024-004171",
      "pmcid": "PMC11002419",
      "supports": "reviewer_notes（此處倍數與 WHO 原文不同）"
+    },
+    {
+     "quote": "Some activities, such as swimming or riding a bicycle, can be either moderate or vigorous intensity, depending on the effort.",
+     "location": "Key Concepts for the Physical Activity Guidelines > Physical Activity Intensity",
+     "access": "PMC full text",
+     "pmid": "30418471",
+     "doi": "10.1001/jama.2018.14854",
+     "pmcid": "PMC9582631",
+     "supports": "example（騎腳踏車）；note（依費力程度，可能是中等或高強度）"
     }
    ],
    "aka": "moderate-intensity physical activity (MPA)",
