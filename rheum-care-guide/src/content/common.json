@@ -141,6 +141,48 @@
       }
      ],
      "sid": "CM-1.5"
+    },
+    {
+     "text": "有心臟或肺部疾病（例如肺高壓），或病情正在發作時，開始運動或提高強度前，請先和醫師討論；運動時出現新的不適，請就醫。",
+     "strength_label": "WHO 2020・指引說明；狼瘡國際共識 2024・建議強度 A/D",
+     "evidence": [
+      {
+       "c": "C95",
+       "s": "S4",
+       "quote": "Physical activity is considered safe for adults living with the selected chronic conditions without contraindications, and the benefits generally outweigh the risks.",
+       "strength": "Narrative (guideline text): the safety statement holds for people without contraindications",
+       "confidence": "High"
+      },
+      {
+       "c": "C22",
+       "s": "S4",
+       "quote": "Pre-exercise medical clearance is generally unnecessary for individuals without contraindications prior to beginning light-intensity or moderate-intensity physical activity not exceeding the demands of brisk walking or everyday living. … Those who develop new symptoms when increasing their levels of activity should consult a healthcare provider.",
+       "strength": "Good-practice text; basis for 「運動時出現新的不適，請就醫」",
+       "confidence": "High"
+      },
+      {
+       "c": "C96",
+       "s": "S24",
+       "quote": "A medical evaluation should be performed before starting exercise in SLE in order to identify potential contraindications and allow for personalised adaptations following physical abilities, preferences and comorbidities with the aim of adherence to practice over the long term (1b/A) … In case of lupus flare, potential contraindication to physical activity and exercise should be reassessed (5/D)",
+       "strength": "Statement 10: 1b/A; Statement 4: 5/D (SLE-specific)",
+       "confidence": "High"
+      },
+      {
+       "c": "C97",
+       "s": "S25",
+       "quote": "patients with PAH should be encouraged to be active within symptom limits … be in a stable clinical condition before embarking on a supervised rehabilitation programme",
+       "strength": "Narrative; context for the example 「例如肺高壓」 (WebFetch single read, not machine-checked)",
+       "confidence": "Low"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "「心臟或肺部疾病（例如肺高壓）」 is a lay summary of 'contraindications' (WHO) and the active cardiac and pleural manifestations the SLE consensus names (myocarditis, pericarditis, pleuritis); the example 「肺高壓」 was added at the reviewing physician's request (2026-10-11) and is not named in the graded sources. 「病情正在發作時」 generalises the SLE flare statement (5/D) to the other diseases on this page.",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "CM-1.6"
     }
    ],
    "tip": {
@@ -820,6 +862,22 @@
    "citation": "Lin KY et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669–684.",
    "pmid": "38987064",
    "doi": "10.1016/j.jmii.2024.06.001",
+   "url": ""
+  },
+  {
+   "s": "S24",
+   "short": "2024 紅斑性狼瘡身體活動與運動國際共識",
+   "citation": "Blaess J, Geneton S, Goepfert T, et al. Recommendations for physical activity and exercise in persons living with SLE: consensus by an international task force. RMD Open 2024;10(2):e004171.",
+   "pmid": "38580348",
+   "doi": "10.1136/rmdopen-2024-004171",
+   "url": ""
+  },
+  {
+   "s": "S25",
+   "short": "ESC/ERS 2022 肺高壓指引",
+   "citation": "Humbert M, Kovacs G, Hoeper MM, et al. 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Respir J 2023;61(1):2200879 (co-published in Eur Heart J 2022;43(38):3618–3731).",
+   "pmid": "36028254",
+   "doi": "10.1183/13993003.00879-2022",
    "url": ""
   }
  ]

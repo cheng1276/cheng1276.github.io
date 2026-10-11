@@ -908,11 +908,12 @@
 - [repeat] AS-5.1 (label) 「ASAS-EULAR」: ASAS-EULAR 2022・建議強度 B
 - [repeat] AS-M3 (label) 「ASAS-EULAR」: ASAS-EULAR 2022・指引說明
 
-## org-who — WHO  (aliases: WHO; scope: page; links: 2; occurrences: 14)
+## org-who — WHO  (aliases: WHO; scope: page; links: 2; occurrences: 15)
 - [LINK] CM-1.1 (label) 「WHO」: WHO 2020・強烈建議
 - [repeat] CM-1.2 (label) 「WHO」: WHO 2020・強烈建議
 - [repeat] CM-1.3 (label) 「WHO」: WHO 2020・強烈建議
 - [repeat] CM-1.4 (label) 「WHO」: WHO 2020・強烈建議
+- [repeat] CM-1.6 (label) 「WHO」: WHO 2020・指引說明；狼瘡國際共識 2024・建議強度 A/D
 - [repeat] CM-1.T (label) 「WHO」: WHO 2020・良好實務建議
 - [repeat] CM-6.1 (label) 「WHO」: WHO 2022・指引說明
 - [repeat] CM-6.3 (label) 「WHO」: WHO 2002・指引說明
