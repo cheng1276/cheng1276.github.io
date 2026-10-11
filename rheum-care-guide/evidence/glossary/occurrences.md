@@ -224,11 +224,17 @@
 - [repeat] UR-3.4 (text) 「飲食試驗」: 飲食試驗只限醫師評估過的部分病人，通常只做2到3週，不應延誤有效治療。
 - [LINK] UR-M3 (fact) 「飲食試驗」: 食物過敏很少是原因，不需要自行長期忌口（確定食物過敏者除外，很少見）；若醫師建議做飲食試驗，通常只做2到3週。
 
-## oral-glucocorticoid — 口服類固醇  (aliases: 口服類固醇 / 類固醇; scope: card; links: 11; occurrences: 24)
+## oral-glucocorticoid — 口服類固醇  (aliases: 口服類固醇 / 類固醇; scope: card; links: 13; occurrences: 30)
+- [LINK] CM-8.6 (text) 「類固醇」: 類固醇能控制發炎，但劑量越高、用得越久，心血管風險可能越高；醫師會盡量用最低有效劑量，請不要自行減量或停藥。
 - [LINK] common-bone (title) 「類固醇」: 類固醇與骨骼保健
 - [repeat] common-bone (summary) 「口服類固醇」: 長期口服類固醇，要補足鈣與維生素D、調整生活習慣。
 - [repeat] CM-4.1 (text) 「口服類固醇」: 開始或持續長期口服類固醇（超過3個月）的成人，建議從飲食和補充品補足鈣和維生素D，並調整生活習慣。
 - [repeat] CM-4.T (text) 「口服類固醇」: 口服類固醇3個月以上的人，也要盡量降低跌倒的風險。
+- [LINK] common-steroid (title) 「類固醇」: 類固醇的其他提醒
+- [repeat] CM-7.1 (text) 「類固醇」: 長期使用類固醇，除了骨骼和感染方面的影響，也可能讓血糖、血壓升高、體重增加，並影響眼睛、皮膚、肌肉和情緒。
+- [repeat] CM-7.3 (text) 「類固醇」: 劑量較高、用得較久時，血糖可能高到出現口渴、尿多、疲倦，請就醫；已有糖尿病的人，開始用類固醇後要更仔細監測血糖。
+- [repeat] CM-7.4 (text) 「類固醇」: 類固醇可能讓眼壓升高，通常沒有症狀；已有青光眼，或有青光眼家族史、高度近視、糖尿病的人，請和醫師討論安排眼科檢查。
+- [repeat] CM-7.T (text) 「類固醇」: 開刀或生病就醫時，請主動告訴醫師您正在使用或最近停用類固醇；生病時的其他注意事項，請見「治療期間防感染」頁。
 - [LINK] CM-5.1 (text) 「類固醇」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
 - [LINK] SL-5.5 (text) 「類固醇」: 狼瘡本身和類固醇等治療可能增加骨質疏鬆風險；每年請醫師評估骨骼健康，包括飲食、運動、生活習慣和用藥。
 - [LINK] osteoporosis-intro (intro) 「類固醇」: 這頁整理停經後女性與50歲以上男性的骨骼保健：認識警訊、飲食、運動、防跌倒與治療。長期用類固醇，或想看活動量與菸酒建議，請見共通照護頁。
@@ -268,7 +274,7 @@
 - [LINK] IF-M4 (fact) 「免疫抑制治療」: 不應該跟著停。免疫抑制治療停止後，B 型肝炎仍可能再活化，抗病毒藥還要繼續一段時間；請不要自行停用，何時停藥由醫師評估，停藥後也要繼續抽血追蹤。
 - [LINK] IF-S1 (text) 「免疫抑制藥物」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
 
-## biologic — 生物製劑  (aliases: 生物製劑; scope: card; links: 7; occurrences: 13)
+## biologic — 生物製劑  (aliases: 生物製劑; scope: card; links: 8; occurrences: 15)
 - [LINK] SL-2.2 (text) 「生物製劑」: 抽菸可能干擾抗瘧疾藥物（如 hydroxychloroquine）和部分生物製劑的療效。
 - [LINK] infection-intro (intro) 「生物製劑」: 使用類固醇、免疫抑制劑、生物製劑等藥物治療風濕病時，某些感染可能更容易發生或更嚴重。這頁整理治療前篩檢、治療中追蹤和生病時的應對。
 - [LINK] infection-tb (summary) 「生物製劑」: 用生物製劑前先驗潛伏結核；陽性時把治療完整做完。
@@ -282,6 +288,8 @@
 - [repeat] IF-M3 (belief) 「生物製劑」: 只有生物製劑會增加感染風險，類固醇和傳統抗風濕藥物不用擔心。
 - [repeat] IF-M3 (fact) 「生物製劑」: 不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
 - [LINK] IF-S1 (text) 「生物製劑」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
+- [LINK] PG-6.3 (text) 「生物製劑」: 懷孕期間用過生物製劑的話，請在生產前就告訴寶寶的小兒科醫師：會通過胎盤的藥物，可能影響寶寶的疫苗接種時程。
+- [repeat] PG-6.5 (text) 「生物製劑」: 卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請先告訴小兒科醫師，時程可能要調整。
 
 ## antimalarial — 抗瘧疾藥物（hydroxychloroquine）  (aliases: 抗瘧疾藥物 / hydroxychloroquine; scope: card; links: 1; occurrences: 3)
 - [LINK] SL-2.2 (text) 「抗瘧疾藥物」: 抽菸可能干擾抗瘧疾藥物（如 hydroxychloroquine）和部分生物製劑的療效。
@@ -292,7 +300,9 @@
 - [LINK] RA-4.4 (text) 「methotrexate」: 少量飲酒不太可能讓病情變差，但這不適用於有肝病，或正在使用 methotrexate、leflunomide 等藥物的人，能不能喝酒請先和醫師討論。另外，中等量飲酒和類風濕性關節炎較容易發作、出現其他疾病有關。
 - [repeat] RA-4.4 (text) 「leflunomide」: 少量飲酒不太可能讓病情變差，但這不適用於有肝病，或正在使用 methotrexate、leflunomide 等藥物的人，能不能喝酒請先和醫師討論。另外，中等量飲酒和類風濕性關節炎較容易發作、出現其他疾病有關。
 
-## nsaid — 消炎止痛藥（NSAIDs）  (aliases: 消炎止痛藥 / NSAIDs; scope: card; links: 2; occurrences: 4)
+## nsaid — 消炎止痛藥（NSAIDs）  (aliases: 消炎止痛藥 / NSAIDs; scope: card; links: 3; occurrences: 6)
+- [LINK] CM-8.T (text) 「消炎止痛藥」: 已有心血管疾病或危險因子的人，使用消炎止痛藥（NSAIDs）要特別小心；是否適合使用，請和醫師討論。
+- [repeat] CM-8.T (text) 「NSAIDs」: 已有心血管疾病或危險因子的人，使用消炎止痛藥（NSAIDs）要特別小心；是否適合使用，請和醫師討論。
 - [LINK] UR-1.1 (text) 「消炎止痛藥」: 消炎止痛藥（NSAIDs）可能讓部分病人的蕁麻疹變嚴重。
 - [repeat] UR-1.1 (text) 「NSAIDs」: 消炎止痛藥（NSAIDs）可能讓部分病人的蕁麻疹變嚴重。
 - [repeat] UR-1.2 (text) 「消炎止痛藥」: 看診時告訴醫師您吃過的止痛藥（包括偶爾吃的）；曾因消炎止痛藥變嚴重，就避免這類藥。
@@ -323,10 +333,13 @@
 - [LINK] common-vaccine (summary) 「非活性疫苗」: 治療期間可打非活性疫苗；活性疫苗先問醫師。
 - [repeat] CM-5.1 (text) 「非活性疫苗」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
 
-## live-vaccine — 活性減毒疫苗  (aliases: 活性減毒疫苗 / 活性疫苗; scope: card; links: 2; occurrences: 3)
+## live-vaccine — 活性減毒疫苗  (aliases: 活性減毒疫苗 / 活性疫苗; scope: card; links: 3; occurrences: 6)
 - [LINK] common-vaccine (summary) 「活性疫苗」: 治療期間可打非活性疫苗；活性疫苗先問醫師。
 - [repeat] CM-5.2 (text) 「活性減毒疫苗」: 風濕病患者使用免疫抑制藥物期間，活性減毒疫苗建議延後接種，包括活性的帶狀疱疹（皮蛇）疫苗；流感疫苗請選非活性的。接種前請先問風濕科醫師。
 - [LINK] IF-5.1 (text) 「活性減毒疫苗」: 一般人一生約 2 到 3 成會得帶狀疱疹（皮蛇），年長者和免疫力較低者風險更高；打疫苗預防最有效，但治療期間活性減毒疫苗建議延後（見共通照護頁）。
+- [LINK] pregnancy-baby (summary) 「活性疫苗」: 哺乳用藥先問醫師；寶寶打活性疫苗前先告知媽媽孕期用藥。
+- [repeat] PG-6.4 (text) 「活性減毒疫苗」: 可能受影響的是活性減毒疫苗，例如輪狀病毒疫苗和卡介苗；要不要調整、怎麼調整，要看藥物、使用時間和疫苗種類，由醫師評估。
+- [repeat] PG-6.5 (text) 「活性疫苗」: 卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請先告訴小兒科醫師，時程可能要調整。
 
 ## rzv — 重組帶狀疱疹疫苗  (aliases: 重組帶狀疱疹（皮蛇）疫苗 / 重組帶狀疱疹; scope: card; links: 1; occurrences: 1)
 - [LINK] CM-5.5 (text) 「重組帶狀疱疹（皮蛇）疫苗」: 超過18歲、正在使用免疫抑制藥物的風濕病患者，強烈建議接種重組帶狀疱疹（皮蛇）疫苗。
@@ -433,8 +446,11 @@
 - [LINK] UR-S1 (text) 「咻咻聲」: 膨疹或腫脹，同時出現呼吸困難、呼吸有咻咻聲、吸氣時有尖銳高音（喘鳴）、舌頭或喉嚨腫脹、頭暈、昏倒或嘔吐，可能是嚴重過敏反應，請立刻撥打 119。
 - [repeat] UR-S1 (text) 「喘鳴」: 膨疹或腫脹，同時出現呼吸困難、呼吸有咻咻聲、吸氣時有尖銳高音（喘鳴）、舌頭或喉嚨腫脹、頭暈、昏倒或嘔吐，可能是嚴重過敏反應，請立刻撥打 119。
 
-## axspa — 中軸型脊椎關節炎  (aliases: 中軸型脊椎關節炎; scope: card; links: 1; occurrences: 1)
+## axspa — 中軸型脊椎關節炎  (aliases: 中軸型脊椎關節炎; scope: card; links: 3; occurrences: 4)
 - [LINK] CM-1.5 (text) 「中軸型脊椎關節炎」: 運動是安全的，任何時候開始都不嫌晚。這項歐洲建議涵蓋痛風、類風濕性關節炎、中軸型脊椎關節炎、紅斑性狼瘡、退化性關節炎、乾癬性關節炎和全身性硬化症。
+- [LINK] PG-4.1 (text) 「中軸型脊椎關節炎」: 台灣中軸型脊椎關節炎共識指出，許多患者正值生育年齡，也可能面臨家人期待生育的壓力；男女患者都有討論生育計畫的需要。
+- [repeat] PG-4.4 (text) 「中軸型脊椎關節炎」: 中軸型脊椎關節炎的發炎，和精子活動力降低、睪丸功能受損有關；想生育的男性，也可以和醫師討論病情控制。
+- [LINK] PG-M4 (fact) 「中軸型脊椎關節炎」: 不一定。研究顯示，類風濕性關節炎懷孕時 6 成改善，產後近一半發作；中軸型脊椎關節炎懷孕時傾向不變或變差。產後也是容易發作的時期。
 
 ## uveitis — 急性前葡萄膜炎（虹彩炎）  (aliases: 急性前葡萄膜炎 / 葡萄膜炎 / 虹彩炎; scope: card; links: 1; occurrences: 5)
 - [LINK] AS-4.1 (text) 「急性前葡萄膜炎」: 眼睛痛、眼睛紅、怕光或視力模糊，可能是急性前葡萄膜炎（虹彩炎），請當天就看眼科。
@@ -472,11 +488,13 @@
 ## cutaneous-lupus — 皮膚型狼瘡  (aliases: 皮膚型狼瘡; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-2.3 (text) 「皮膚型狼瘡」: 研究發現，抽菸者的皮膚型狼瘡用抗瘧疾藥物治療時，皮膚改善的機會明顯比不抽菸者低。
 
-## neonatal-lupus — 新生兒狼瘡  (aliases: 新生兒狼瘡; scope: card; links: 1; occurrences: 1)
+## neonatal-lupus — 新生兒狼瘡  (aliases: 新生兒狼瘡; scope: card; links: 2; occurrences: 2)
 - [LINK] SL-6.5 (text) 「新生兒狼瘡」: 計畫懷孕前要做孕前諮詢，並重新檢查與新生兒狼瘡有關的抗體。
+- [LINK] PG-5.T (text) 「新生兒狼瘡」: 抗 Ro/SSA、抗 La/SSB 抗體和新生兒狼瘡有關；寶寶發生先天性心臟傳導阻滯的風險低，但曾有孩子發生過的人再發風險較高，請告訴醫師。
 
-## disease-activity — 疾病活動度  (aliases: 疾病活動度 / 病情活動 / 疾病活性 / 病情活躍 / 病情不活躍; scope: page; links: 4; occurrences: 10)
+## disease-activity — 疾病活動度  (aliases: 疾病活動度 / 病情活動 / 疾病活性 / 病情活躍 / 病情不活躍; scope: page; links: 5; occurrences: 12)
 - [LINK] CM-2.2 (text) 「病情活動」: 抽菸對風濕病的症狀、身體功能、病情活動和病情進展都不利，也會讓其他疾病更容易出現。
+- [repeat] CM-8.5 (text) 「病情活動」: 發炎和病情活動也可能和心血管風險有關；按照治療計畫把病情控制穩定，也是保護心血管的一環。
 - [excluded] UR-4.2 (text) 「病情活躍」: 誘發型：病情活躍或控制不好時，通常建議每天吃；有些人可在接觸誘發因子前才吃。怎麼吃，依誘發因子能否預期，和醫師一起決定。
 - [LINK] RA-3.4 (text) 「疾病活動度」: 維持健康體重；在類風濕性關節炎，肥胖與疾病活動度較高、身體功能較差和治療反應較差有關。
 - [repeat] RA-4.1 (text) 「疾病活動度」: 戒菸：吸菸對症狀、身體功能、疾病活動度和病程進展都不利，也會增加其他疾病的發生。
@@ -486,11 +504,14 @@
 - [repeat] SL-6.4 (text) 「病情活躍」: 暫時不打算懷孕時，和醫師討論避孕方式，尤其在病情活躍或使用可能影響胎兒的藥物期間。
 - [repeat] SL-M2 (fact) 「疾病活性」: 運動不是狼瘡的禁忌；研究顯示運動可能不會明顯影響疾病活性。發作時則先請醫師評估。
 - [repeat] SL-M4 (fact) 「疾病活性」: 特定飲食計畫或魚油補充品能否改善疾病活性，目前證據的確定性都偏低；建議均衡飲食。
+- [LINK] PG-3.3 (text) 「病情活躍」: 懷孕期間病情活躍、需要治療時，指引建議開始或繼續使用適合懷孕的藥物；病情沒控制好，本身也對懷孕不利。
 
 ## comorbidity — 共病  (aliases: 共病; scope: card; links: 1; occurrences: 1)
 - [LINK] gout-checkup (title) 「共病」: 共病與定期檢查
 
-## cvd — 心血管疾病  (aliases: 心血管疾病; scope: card; links: 2; occurrences: 4)
+## cvd — 心血管疾病  (aliases: 心血管疾病; scope: card; links: 3; occurrences: 6)
+- [LINK] CM-8.1 (text) 「心血管疾病」: 類風濕性關節炎、紅斑性狼瘡、痛風、乾燥症等發炎性風濕病，心血管疾病風險比一般人高；僵直性脊椎炎和乾癬性關節炎也可能較高。
+- [repeat] CM-8.T (text) 「心血管疾病」: 已有心血管疾病或危險因子的人，使用消炎止痛藥（NSAIDs）要特別小心；是否適合使用，請和醫師討論。
 - [LINK] GT-5.1 (text) 「心血管疾病」: 痛風或高尿酸血症，和心血管疾病、慢性腎臟病、尿路結石、糖尿病等多種疾病有關。
 - [repeat] GT-5.T (text) 「心血管疾病」: 痛風患者常合併心血管疾病，因此調整生活習慣也是預防心血管疾病的一環。
 - [repeat] GT-5.T (text) 「心血管疾病」: 痛風患者常合併心血管疾病，因此調整生活習慣也是預防心血管疾病的一環。
@@ -524,8 +545,9 @@
 ## aas — 血管性水腫活動分數（AAS）  (aliases: AAS; scope: card; links: 1; occurrences: 1)
 - [LINK] UR-5.T (text) 「AAS」: 自發型會腫脹（血管性水腫）的人，也要記錄血管性水腫活動分數（AAS）。
 
-## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 9; occurrences: 38)
-- [LINK] CM-M1 (fact) 「指引」: WHO 2020年指引已取消「至少連續10分鐘」的規定；任何長度的活動都與健康改善有關。
+## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 10; occurrences: 47)
+- [LINK] CM-8.3 (text) 「指引」: 血壓、血脂、血糖偏高時，要和醫師配合，依治療指引控制好；也建議戒菸、健康飲食和規律活動（見本頁其他卡片）。
+- [repeat] CM-M1 (fact) 「指引」: WHO 2020年指引已取消「至少連續10分鐘」的規定；任何長度的活動都與健康改善有關。
 - [LINK] gout-intro (intro) 「指引」: 這頁整理國內外指引中，痛風患者在飲料、飲食、體重與運動、發作照護和定期檢查上可以做的事。生活習慣能輔助治療，但不能取代治療。
 - [repeat] GT-1.5 (text) 「指引」: 果汁也要留意：指引把柳橙汁、蘋果汁列為危險因子。
 - [repeat] GT-M1 (fact) 「指引」: 痛風受遺傳影響很大，ACR 指引刻意避免責怪患者；體重、某些藥物和腎臟病、高血壓等也有影響。
@@ -563,6 +585,14 @@
 - [repeat] LB-M4 (fact) 「指引」: 不一定。沒有痛風的高尿酸要不要用藥，各國指引看法不同，並不是每個人都需要；已在用藥的人請先和醫師討論，不要自行停藥。
 - [repeat] LB-M4 (label) 「指引」: ACR 2020・不建議；中國指引 2024・指引說明
 - [LINK] IF-4.1 (text) 「指引」: ACR 類風濕性關節炎指引指出：觀察性研究發現，類固醇劑量越高、用得越久，和嚴重感染風險越高有關；醫師會盡量用最低有效劑量、最短時間。
+- [LINK] PG-1.4 (text) 「指引」: 已確診中重度肺高壓的人，指引認為不宜懷孕（屬於懷孕禁忌）；請和醫師詳細討論。
+- [repeat] PG-2.5 (text) 「指引」: 有抗磷脂抗體，或紅斑性狼瘡中度以上活躍（含腎炎）時，指引建議子宮內避孕器或單純黃體素口服避孕藥；適合哪一種，由醫師依血栓風險和您一起決定。
+- [repeat] PG-2.T (text) 「指引」: 可以和醫師討論緊急避孕；指引指出，即使有紅斑性狼瘡或抗磷脂抗體，緊急避孕的風險也比意外懷孕低。
+- [repeat] PG-3.3 (text) 「指引」: 懷孕期間病情活躍、需要治療時，指引建議開始或繼續使用適合懷孕的藥物；病情沒控制好，本身也對懷孕不利。
+- [repeat] PG-4.2 (text) 「指引」: 爸爸使用風濕病藥物，目前沒有確切證據顯示會影響胎兒發育或懷孕結果；英國指引建議讓男性安心，但也指出證據有限。
+- [repeat] PG-6.T (text) 「指引」: 把母乳擠出來用奶瓶餵，在英國指引中也算「哺乳」；用藥的考量相同，一樣要和醫師討論。
+- [repeat] PG-M1 (fact) 「指引」: 不一定。以紅斑性狼瘡或抗磷脂症候群為例，多數女性能成功懷孕；指引也指出，醫療人員需從勸阻轉為支持懷孕。但已確診中重度肺高壓不宜懷孕。
+- [repeat] PG-M2 (fact) 「指引」: 不一定。不必要的停藥可能讓病情變差、增加發作；懷孕期間需要治療時，指引建議用適合懷孕的藥物。用藥調整請和醫師討論，不要自行停藥。
 
 ## systematic-review — 系統性回顧（研究回顧）  (aliases: 研究回顧 / 系統性回顧; scope: card; links: 3; occurrences: 6)
 - [LINK] SJ-M1 (fact) 「研究回顧」: 針灸能否改善乾燥症的口乾，目前證據不足：研究回顧中的針灸研究，對象是放射治療後口乾的人，效果和假針灸沒有差別（證據品質低）；乾燥症病人的試驗結果則不一致。
@@ -572,8 +602,10 @@
 - [repeat] OA-M2 (label) 「系統性回顧」: ACR 2019・強烈建議；系統性回顧 2019・研究顯示
 - [repeat] OA-M4 (label) 「系統性回顧」: 系統性回顧 2017、2023・研究顯示
 
-## meta-analysis — 統合分析  (aliases: 統合分析; scope: card; links: 1; occurrences: 1)
+## meta-analysis — 統合分析  (aliases: 統合分析; scope: card; links: 2; occurrences: 3)
 - [LINK] SL-2.3 (label) 「統合分析」: 統合分析 2015・研究顯示
+- [LINK] PG-M4 (label) 「統合分析」: 統合分析 2019・研究顯示；統合分析 2022・研究顯示；ACR 2020・指引說明
+- [repeat] PG-M4 (label) 「統合分析」: 統合分析 2019・研究顯示；統合分析 2022・研究顯示；ACR 2020・指引說明
 
 ## rct — 隨機對照試驗  (aliases: 小型試驗 / 隨機對照試驗; scope: card; links: 1; occurrences: 1)
 - [LINK] GT-M3 (fact) 「小型試驗」: ACR 指引不建議為痛風額外補充維生素C；小型試驗中，痛風患者服用後尿酸變化沒有臨床意義。
@@ -598,7 +630,9 @@
 - [LINK] GT-M3 (fact) 「臨床意義」: ACR 指引不建議為痛風額外補充維生素C；小型試驗中，痛風患者服用後尿酸變化沒有臨床意義。
 - [LINK] RA-M3 (fact) 「臨床意義」: 吃特定食物不太可能大幅改善病情；證據較可靠的魚油、益生菌研究，不是沒有效果，就是效果可能不具臨床意義。
 
-## expert-consensus — 專家共識  (aliases: 專家共識; scope: card; links: 11; occurrences: 19)
+## expert-consensus — 專家共識  (aliases: 專家共識; scope: card; links: 12; occurrences: 21)
+- [LINK] CM-8.2 (label) 「專家共識」: EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）
+- [repeat] CM-8.T (label) 「專家共識」: EULAR 2016・建議強度 C；台灣專家共識 2022・強烈建議
 - [LINK] GT-5.1 (label) 「專家共識」: 台灣共識 2018・專家共識
 - [LINK] SL-M2 (label) 「專家共識」: 國際共識 2024・專家共識
 - [LINK] OP-4.1 (label) 「專家共識」: NOGG 2024・指引說明；英國骨鬆運動共識 2022・專家共識
@@ -631,7 +665,7 @@
 - [LINK] RA-M1 (belief) 「輔助療法」: 只要調整生活習慣或採用輔助療法，就可以取代類風濕性關節炎的藥物。
 - [repeat] RA-M1 (fact) 「輔助療法」: 生活調整是用來搭配藥物治療，不能取代藥物；輔助療法也不應取代正規治療。用藥調整請和醫師討論。
 
-## org-acr — ACR  (aliases: ACR; scope: page; links: 8; occurrences: 90)
+## org-acr — ACR  (aliases: ACR; scope: page; links: 9; occurrences: 113)
 - [LINK] CM-4.1 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.2 (label) 「ACR」: ACR 2022・建議
 - [repeat] CM-4.3 (label) 「ACR」: ACR 2022・建議
@@ -722,8 +756,31 @@
 - [repeat] IF-4.1 (text) 「ACR」: ACR 類風濕性關節炎指引指出：觀察性研究發現，類固醇劑量越高、用得越久，和嚴重感染風險越高有關；醫師會盡量用最低有效劑量、最短時間。
 - [repeat] IF-4.1 (label) 「ACR」: ACR 2021・指引說明
 - [repeat] IF-5.1 (label) 「ACR」: IDST 2024・指引說明；ACR 2022・建議
+- [LINK] PG-1.2 (label) 「ACR」: ACR 2020・良好實務建議；BSR 2022・指引說明
+- [repeat] PG-1.3 (label) 「ACR」: ACR 2020・指引說明
+- [repeat] PG-1.5 (label) 「ACR」: ACR 2020・強烈建議；EULAR 2017・指引說明
+- [repeat] PG-1.T (label) 「ACR」: ACR 2020・指引說明
+- [repeat] PG-2.1 (label) 「ACR」: ACR 2020・基本原則；BSR 2022・指引說明
+- [repeat] PG-2.2 (label) 「ACR」: ACR 2020・強烈建議（子宮內避孕器與植入物部分：建議）
+- [repeat] PG-2.4 (label) 「ACR」: ACR 2020・強烈不建議
+- [repeat] PG-2.5 (label) 「ACR」: ACR 2020・強烈建議
+- [repeat] PG-2.T (label) 「ACR」: ACR 2020・強烈建議
+- [repeat] PG-3.1 (label) 「ACR」: BSR 2022・強烈建議（1A）；ACR 2020・強烈建議
+- [repeat] PG-3.3 (label) 「ACR」: ACR 2020・強烈建議
+- [repeat] PG-4.3 (label) 「ACR」: ACR 2020・強烈不建議（少數藥物）；BSR 2022・建議（2C）
+- [repeat] PG-5.1 (label) 「ACR」: BSR 2022・指引說明；ACR 2020・基本原則
+- [repeat] PG-5.3 (label) 「ACR」: ACR 2020・強烈建議
+- [repeat] PG-5.4 (label) 「ACR」: ACR 2020・強烈建議；BSR 2026・建議（2B／2D）
+- [repeat] PG-5.5 (label) 「ACR」: ACR 2020・指引說明；EULAR 2019・基本原則
+- [repeat] PG-6.1 (label) 「ACR」: ACR 2020・指引說明；BSR 2022・強烈建議（1A）
+- [repeat] PG-6.2 (label) 「ACR」: ACR 2020・指引說明
+- [repeat] PG-6.3 (label) 「ACR」: ACR 2022・指引說明
+- [repeat] PG-6.5 (label) 「ACR」: BSR 2022・指引說明；疾管署・建議；ACR 2022・指引說明
+- [repeat] PG-M2 (label) 「ACR」: BSR 2022・指引說明；ACR 2020・強烈建議
+- [repeat] PG-M3 (label) 「ACR」: ACR 2020・指引說明
+- [repeat] PG-M4 (label) 「ACR」: 統合分析 2019・研究顯示；統合分析 2022・研究顯示；ACR 2020・指引說明
 
-## org-eular — EULAR  (aliases: EULAR; scope: page; links: 9; occurrences: 102)
+## org-eular — EULAR  (aliases: EULAR; scope: page; links: 10; occurrences: 125)
 - [LINK] CM-1.5 (label) 「EULAR」: EULAR 2021・建議強度 A
 - [repeat] CM-2.1 (label) 「EULAR」: EULAR 2021・建議強度 B
 - [repeat] CM-2.2 (label) 「EULAR」: EULAR 2021・建議強度 B
@@ -734,6 +791,23 @@
 - [repeat] CM-3.4 (label) 「EULAR」: EULAR 2021・建議強度 B
 - [repeat] CM-3.5 (label) 「EULAR」: EULAR 2021・建議強度 D
 - [repeat] CM-3.T (label) 「EULAR」: EULAR 2021・建議強度 B
+- [repeat] CM-8.1 (label) 「EULAR」: EULAR 2016・基本原則；EULAR 2022・基本原則
+- [repeat] CM-8.1 (label) 「EULAR」: EULAR 2016・基本原則；EULAR 2022・基本原則
+- [repeat] CM-8.2 (label) 「EULAR」: EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）
+- [repeat] CM-8.3 (label) 「EULAR」: EULAR 2022・建議強度 D；EULAR 2016・建議強度 C
+- [repeat] CM-8.3 (label) 「EULAR」: EULAR 2022・建議強度 D；EULAR 2016・建議強度 C
+- [repeat] CM-8.4 (label) 「EULAR」: EULAR 2022・建議強度 C
+- [repeat] CM-8.5 (label) 「EULAR」: EULAR 2016・建議強度 B；EULAR 2022・建議強度 B
+- [repeat] CM-8.5 (label) 「EULAR」: EULAR 2016・建議強度 B；EULAR 2022・建議強度 B
+- [repeat] CM-8.6 (label) 「EULAR」: EULAR 2016・建議強度 C；EULAR 2022・建議強度 C
+- [repeat] CM-8.6 (label) 「EULAR」: EULAR 2016・建議強度 C；EULAR 2022・建議強度 C
+- [repeat] CM-8.T (label) 「EULAR」: EULAR 2016・建議強度 C；台灣專家共識 2022・強烈建議
+- [repeat] CM-7.1 (label) 「EULAR」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.2 (label) 「EULAR」: EULAR 2007・建議
+- [repeat] CM-7.3 (label) 「EULAR」: JBDS 2023・指引說明；EULAR 2010・建議
+- [repeat] CM-7.4 (label) 「EULAR」: EULAR 2010・建議；英國驗光師學會 2026・指引說明
+- [repeat] CM-7.5 (label) 「EULAR」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.T (label) 「EULAR」: EULAR 2007/2013・建議
 - [repeat] CM-5.1 (label) 「EULAR」: EULAR 2019・基本原則
 - [repeat] CM-5.3 (label) 「EULAR」: EULAR 2019・建議
 - [repeat] CM-5.T (label) 「EULAR」: EULAR 2019・基本原則
@@ -826,8 +900,15 @@
 - [repeat] IF-6.3 (label) 「EULAR」: EULAR 2022・專家共識
 - [repeat] IF-M3 (label) 「EULAR」: EULAR 2022・指引說明；疾管署・指引說明
 - [repeat] IF-S3 (label) 「EULAR」: EULAR 2022・指引說明
+- [LINK] PG-1.5 (label) 「EULAR」: ACR 2020・強烈建議；EULAR 2017・指引說明
+- [repeat] PG-2.3 (label) 「EULAR」: EULAR 2017・指引說明
+- [repeat] PG-5.2 (label) 「EULAR」: EULAR 2017・指引說明
+- [repeat] PG-5.5 (label) 「EULAR」: ACR 2020・指引說明；EULAR 2019・基本原則
+- [repeat] PG-5.T (label) 「EULAR」: EULAR 2017・指引說明
+- [repeat] PG-M1 (label) 「EULAR」: EULAR 2017・基本原則；BSR 2022・強烈建議（1C）
 
-## org-bsr — BSR  (aliases: BSR; scope: page; links: 5; occurrences: 45)
+## org-bsr — BSR  (aliases: BSR; scope: page; links: 7; occurrences: 64)
+- [LINK] CM-8.2 (label) 「BSR」: EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）
 - [LINK] GT-2.3 (label) 「BSR」: BSR 2017・建議
 - [repeat] GT-2.4 (label) 「BSR」: BSR 2017・建議
 - [repeat] GT-3.3 (label) 「BSR」: BSR 2017・建議
@@ -873,6 +954,24 @@
 - [repeat] IF-6.2 (label) 「BSR」: BSR 2019・強烈建議（1A）
 - [repeat] IF-M1 (label) 「BSR」: BSR 2019・強烈建議（1C）
 - [repeat] IF-S1 (label) 「BSR」: BSR 2019・建議（2C）
+- [LINK] PG-1.1 (label) 「BSR」: BSR 2022・強烈建議（1A）
+- [repeat] PG-1.2 (label) 「BSR」: ACR 2020・良好實務建議；BSR 2022・指引說明
+- [repeat] PG-1.4 (label) 「BSR」: BSR 2022・強烈建議（1C）
+- [repeat] PG-2.1 (label) 「BSR」: ACR 2020・基本原則；BSR 2022・指引說明
+- [repeat] PG-3.1 (label) 「BSR」: BSR 2022・強烈建議（1A）；ACR 2020・強烈建議
+- [repeat] PG-3.2 (label) 「BSR」: BSR 2022・指引說明
+- [repeat] PG-3.4 (label) 「BSR」: BSR 2022・強烈建議（1A）
+- [repeat] PG-3.5 (label) 「BSR」: BSR 2022・強烈建議（1A）
+- [repeat] PG-4.2 (label) 「BSR」: BSR 2022・建議（2C）
+- [repeat] PG-4.3 (label) 「BSR」: ACR 2020・強烈不建議（少數藥物）；BSR 2022・建議（2C）
+- [repeat] PG-5.1 (label) 「BSR」: BSR 2022・指引說明；ACR 2020・基本原則
+- [repeat] PG-5.4 (label) 「BSR」: ACR 2020・強烈建議；BSR 2026・建議（2B／2D）
+- [repeat] PG-6.1 (label) 「BSR」: ACR 2020・指引說明；BSR 2022・強烈建議（1A）
+- [repeat] PG-6.4 (label) 「BSR」: BSR 2022・強烈建議（1C）
+- [repeat] PG-6.5 (label) 「BSR」: BSR 2022・指引說明；疾管署・建議；ACR 2022・指引說明
+- [repeat] PG-6.T (label) 「BSR」: BSR 2022・指引說明
+- [repeat] PG-M1 (label) 「BSR」: EULAR 2017・基本原則；BSR 2022・強烈建議（1C）
+- [repeat] PG-M2 (label) 「BSR」: BSR 2022・指引說明；ACR 2020・強烈建議
 
 ## org-nice — NICE  (aliases: NICE; scope: page; links: 4; occurrences: 25)
 - [LINK] GT-3.1 (label) 「NICE」: NICE 2022・建議
@@ -967,7 +1066,7 @@
 - [repeat] SJ-3.1 (label) 「TFOS」: Wolff 2017・研究顯示；TFOS DEWS III 2025・指引說明
 - [repeat] SJ-M2 (label) 「TFOS」: TFOS 2023・研究顯示
 
-## org-tra — TRA  (aliases: TRA; scope: page; links: 2; occurrences: 7)
+## org-tra — TRA  (aliases: TRA; scope: page; links: 3; occurrences: 9)
 - [LINK] AS-1.5 (label) 「TRA」: TRA 2020・指引說明
 - [repeat] AS-1.T (label) 「TRA」: TRA 2020・指引說明
 - [repeat] AS-2.3 (label) 「TRA」: TRA 2020・指引說明
@@ -975,6 +1074,8 @@
 - [repeat] AS-3.T (label) 「TRA」: TRA 2020・指引說明
 - [LINK] IF-2.1 (label) 「TRA」: TRA 2020・指引說明；疾管署・指引說明
 - [repeat] IF-3.T (label) 「TRA」: EULAR 2019・建議；TRA 2020・指引說明
+- [LINK] PG-4.1 (label) 「TRA」: TRA 2020・指引說明
+- [repeat] PG-4.4 (label) 「TRA」: TRA 2020・指引說明
 
 ## org-aaaai — AAAAI／ACAAI  (aliases: AAAAI/ACAAI; scope: page; links: 1; occurrences: 4)
 - [LINK] UR-1.T (label) 「AAAAI/ACAAI」: AAAAI/ACAAI 2014、BSACI 2015・指引說明
@@ -1142,7 +1243,8 @@
 - [LINK] IF-6.3 (text) 「口服標靶藥物」: 用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可請醫療團隊提供飲食與環境衛生建議，減少李斯特菌、沙門氏菌等感染。
 - [LINK] IF-S1 (text) 「JAK 抑制劑」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
 
-## adrenal — 腎上腺功能不足與腎上腺危象  (aliases: 腎上腺功能不足 / 腎上腺危象; scope: card; links: 1; occurrences: 2)
+## adrenal — 腎上腺功能不足與腎上腺危象  (aliases: 腎上腺功能不足 / 腎上腺危象; scope: card; links: 2; occurrences: 3)
+- [LINK] CM-7.6 (text) 「腎上腺功能不足」: 減量期間疲倦、全身不舒服或肌肉關節痠痛，可能是減藥反應、腎上腺功能不足或病情復發；請盡早回診讓醫師判斷，不要自行加量，嚴重時請盡快就醫。
 - [LINK] IF-4.2 (text) 「腎上腺危象」: 不要漏吃或自行突然停用類固醇；口服劑量高於身體自然分泌量時，藥量突然不足可能引起需緊急處理的腎上腺危象。
 - [repeat] IF-4.3 (text) 「腎上腺功能不足」: 長期用或剛停用類固醇的人，發燒或感染需用抗生素時，可能需要暫時補充類固醇，以免腎上腺功能不足（不是治療感染）；請事先問醫師，感染也要就醫。
 
@@ -1235,7 +1337,10 @@
 - [LINK] IF-3.5 (label) 「AASLD」: AASLD 2018・專家共識；APASL 2021・指引說明
 - [repeat] IF-M4 (label) 「AASLD」: AASLD 2018・專家共識；APASL 2021・指引說明
 
-## org-ese-es — ESE／ES  (aliases: ESE/ES; scope: page; links: 1; occurrences: 3)
+## org-ese-es — ESE／ES  (aliases: ESE/ES; scope: page; links: 2; occurrences: 6)
+- [LINK] CM-7.1 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.5 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.6 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
 - [LINK] IF-4.2 (label) 「ESE/ES」: ESE/ES 2024・指引說明
 - [repeat] IF-4.3 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
 - [repeat] IF-S2 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
@@ -1247,11 +1352,15 @@
 - [LINK] OA-3.T (label) 「ACE」: EULAR 2025・指引說明；新加坡 ACE 2026・指引說明
 - [repeat] OA-4.5 (label) 「ACE」: 新加坡 ACE 2026・指引說明
 
-## good-practice — 良好實務建議  (aliases: 良好實務建議; scope: card; links: 4; occurrences: 4)
+## good-practice — 良好實務建議  (aliases: 良好實務建議; scope: card; links: 6; occurrences: 8)
 - [LINK] CM-1.T (label) 「良好實務建議」: WHO 2020・良好實務建議
+- [LINK] CM-7.1 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.5 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.6 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議
 - [LINK] OP-6.4 (label) 「良好實務建議」: NOGG 2024・強烈建議；加拿大骨鬆指引 2023・良好實務建議
 - [LINK] IF-4.3 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議
 - [LINK] IF-S2 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議
+- [LINK] PG-1.2 (label) 「良好實務建議」: ACR 2020・良好實務建議；BSR 2022・指引說明
 
 ## uva-rating — UVA 防護等級  (aliases: UVA 防護等級; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-1.2 (text) 「UVA 防護等級」: 選擇高係數、廣效（同時防 UVA 和 UVB）的防曬乳：SPF 30 以上，UVA 防護等級也要高。

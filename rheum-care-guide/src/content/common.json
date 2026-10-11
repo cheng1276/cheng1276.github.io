@@ -358,6 +358,336 @@
    }
   },
   {
+   "id": "common-heart",
+   "title": "心血管風險",
+   "summary": "許多風濕病的心血管風險較高；定期評估，控制病情和危險因子。",
+   "illustration": "A doctor measuring an adult patient's blood pressure with an arm cuff at a clinic desk, a simple wall calendar with one square circled, and a simple heart icon; flat, friendly style; no text, no numbers, no brands.",
+   "points": [
+    {
+     "text": "類風濕性關節炎、紅斑性狼瘡、痛風、乾燥症等發炎性風濕病，心血管疾病風險比一般人高；僵直性脊椎炎和乾癬性關節炎也可能較高。",
+     "strength_label": "EULAR 2016・基本原則；EULAR 2022・基本原則",
+     "evidence": [
+      {
+       "c": "cardio:C4",
+       "s": "cardio:S3",
+       "quote": "Clinicians should be aware of the higher risk for CVD in patients with RA compared with the general population. This may also apply to AS and PsA",
+       "strength": "First overarching principle (Table 1, read in the publisher PDF in the fact-check, prints no LoE/SoR/LoA for principles)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C105",
+       "s": "cardio:S1",
+       "quote": "Clinicians should be aware of increased CVR in patients with RMDs including gout, vasculitis, SSc, myositis, MCTD, SS, SLE and APS. …",
+       "strength": "Table 1, overarching principle A; LoA 9.92 (0.39); no LoE/GoR for principles",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C1",
+       "s": "cardio:S1",
+       "quote": "Patients with inflammatory rheumatic diseases have an increased risk of cardiovascular disease,[ref] in comparison to the general population, …",
+       "strength": "Introduction (background, not graded)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C2",
+       "s": "cardio:S1",
+       "quote": "Accumulating evidence has shown elevated cardiovascular morbidity and mortality in other rheumatic and musculoskeletal diseases (RMDs) including gout, vasculitis, systemic sclerosis (SSc), myositis, mixed connective tissue disease (MCTD), Sjögren's syndrome (SS), systemic lupus erythematosus (SLE) and the antiphospholipid syndrome (APS).[ref] … Estimations of the incidence of cardiovascular events vary among the different disease groups (Supplementary systematic literature review (SLR) report, section II).",
+       "strength": "Introduction (background)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-8.1"
+    },
+    {
+     "text": "確診後先評估一次心血管風險，之後定期評估，頻率依疾病、風險和治療變化而定：例如類風濕性關節炎至少每5年一次，紅斑性狼瘡至少每年一次。",
+     "strength_label": "EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）",
+     "evidence": [
+      {
+       "c": "cardio:C106",
+       "s": "cardio:S1",
+       "quote": "CVR factor screening should be performed regularly in all individuals with RMDs. … CVR assessment is recommended within 6 months of diagnosis and repeated based on individual patient characteristics and risk levels.",
+       "strength": "Table 1, overarching principle C; LoA 9.55 (0.84); no LoE/GoR for principles. Basis for 「確診後先評估一次」",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C32",
+       "s": "cardio:S5",
+       "quote": "1. The assessment of CVD risk is recommended in adult patients at the diagnosis of RA, at least once every 5 years, and at the time of major changes in DMARDs therapy. … However, patients with a high CVD risk or pre-existing CVD should have an annual assessment for this comorbidity.",
+       "strength": "Statement 1: SoR A (GRADE strong); QoE C; agreement 100% (Taiwan; RA)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C31",
+       "s": "cardio:S3",
+       "quote": "CVD risk assessment is recommended for all patients with RA, AS or PsA at least once every 5 years and should be reconsidered following major changes in antirheumatic therapy (changed, LOA 8.8 (1.1)). … However, if the risk is intermediate rescreening may be done sooner, especially if disease progression is more rapid.",
+       "strength": "Rec 2: LoE 3–4, SoR C, LoA 8.8 (1.1) (Table 1, publisher PDF). Second sentence: supporting text, confirmed by a second read in the fact-check",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C33",
+       "s": "cardio:S7",
+       "quote": "People with SLE are at increased risk of cardiovascular comorbidities, therefore assessment and management of modifiable risk factors (e.g. hypertension, dyslipidaemia, diabetes, high BMI and smoking) should take place at baseline and at least annually, using appropriate risk assessment tool where applicable (1B, 96.6%).",
+       "strength": "Rec 31: 1B; SoA 96.6% (83–100)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-8.2"
+    },
+    {
+     "text": "血壓、血脂、血糖偏高時，要和醫師配合，依治療指引控制好；也建議戒菸、健康飲食和規律活動（見本頁其他卡片）。",
+     "strength_label": "EULAR 2022・建議強度 D；EULAR 2016・建議強度 C",
+     "evidence": [
+      {
+       "c": "cardio:C47",
+       "s": "cardio:S1",
+       "quote": "In patients with gout, vasculitis, SSc, myositis, MCTD, and SS, blood pressure (BP) management should follow recommendations used in the general population.",
+       "strength": "Rec 3: LoE 5, GoR D",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C48",
+       "s": "cardio:S1",
+       "quote": "In patients with gout, vasculitis, SSc, myositis, MCTD, and SS, lipid management should follow recommendations used in the general population.",
+       "strength": "Rec 6: LoE 5, GoR D",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C106",
+       "s": "cardio:S1",
+       "quote": "… Risk management should include screening for and strict control of CVR factors (smoking cessation, management of blood pressure, lipids and diabetes). …",
+       "strength": "Table 1, overarching principle C; LoA 9.55 (0.84); names diabetes for every RMD in scope",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C52",
+       "s": "cardio:S1",
+       "quote": "In patients with APS, hypertension management should follow recommendations used in the general population. … In patients with SLE and/or APS, hyperlipidaemia treatment should follow recommendations used in the general population.",
+       "strength": "SLE/APS recs 2C and 3: LoE 5, GoR D (2C, once a single read, was confirmed in the fact-check)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C53",
+       "s": "cardio:S3",
+       "quote": "For the management of hypertension and hyperlipidaemia, there is no evidence that treatment thresholds should differ in patients with IJD compared with the general population.",
+       "strength": "Text under rec 8 (rec 8: LoE 3–4, SoR C–D, LoA 9.2 (1.3)); the full sentence was confirmed in the publisher PDF in the fact-check",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C54",
+       "s": "cardio:S5",
+       "quote": "3. The management for RA patients with hypertension or dyslipidemia should be carried out according to national guidelines as for diabetes mellitus patients.",
+       "strength": "Statement 3: SoR A (GRADE strong); QoE C; agreement 100% (Taiwan; RA). Differs from EULAR ('as in the general population'); only the common ground (follow the guidelines) is in the text",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C33",
+       "s": "cardio:S7",
+       "quote": "… assessment and management of modifiable risk factors (e.g. hypertension, dyslipidaemia, diabetes, high BMI and smoking) should take place at baseline and at least annually …",
+       "strength": "Rec 31: 1B (SLE); names diabetes",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C55",
+       "s": "cardio:S3",
+       "quote": "Lifestyle recommendations should emphasise the benefits of a healthy diet, regular exercise and smoking cessation (changed, LOA 9.8 (0.3)).",
+       "strength": "Rec 7: LoE 3, SoR C, LoA 9.8 (0.3) (RA, AS, PsA; Table 1, publisher PDF)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C59",
+       "s": "S1",
+       "quote": "People with RMDs who smoke should be made aware that continuing to smoke is likely to lead to worse symptom burden as well as increased risk of serious comorbidity, such as cardiovascular disease as outlined by a 2016 EULAR TF on cardiovascular disease risk management.",
+       "strength": "Text under Smoking 1 (Smoking 1: LoE 2a; SoR B; LoA 9.9 (0.2)). Same paper as common.json S1",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C60",
+       "s": "S1",
+       "quote": "Imbalances in energy intake and expenditure contribute to obesity increasing the risk of chronic diseases (eg, cardiovascular disease, type 2 diabetes mellitus) in the general population and also in people with RMDs.",
+       "strength": "Text under Diet 1 (Diet 1: LoE 5, SoR D). Same paper as common.json S1",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-8.3"
+    },
+    {
+     "text": "紅斑性狼瘡患者，建議考慮把血壓控制在低於130/80毫米汞柱。",
+     "strength_label": "EULAR 2022・建議強度 C",
+     "evidence": [
+      {
+       "c": "cardio:C49",
+       "s": "cardio:S1",
+       "quote": "In patients with SLE, lower levels of BP are associated with lower rates of cardiovascular events and a BP target of <130/80 mm Hg should be considered.",
+       "strength": "SLE rec 2A: LoE 2b, GoR C",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C51",
+       "s": "cardio:S8",
+       "quote": "… to control hypertension (target level below 130/80 mm Hg).[ref]",
+       "strength": "Supporting text under rec 13 (nephroprotection in lupus nephritis); verbatim once, context confirmed in a second read. Cut to leave out the drug class",
+       "confidence": "Medium"
+      }
+     ],
+     "sid": "CM-8.4"
+    },
+    {
+     "text": "發炎和病情活動也可能和心血管風險有關；按照治療計畫把病情控制穩定，也是保護心血管的一環。",
+     "strength_label": "EULAR 2016・建議強度 B；EULAR 2022・建議強度 B",
+     "evidence": [
+      {
+       "c": "cardio:C22",
+       "s": "cardio:S1",
+       "quote": "The higher CVR in patients with rheumatic diseases is not sufficiently explained by differences in the prevalence of traditional CVR factors,[ref] suggesting that specific treatment recommendations tailored to patients with these conditions are needed.",
+       "strength": "Introduction (background)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C69",
+       "s": "cardio:S3",
+       "quote": "Disease activity should be controlled optimally in order to lower CVD risk in all patients with RA, AS or PsA (unchanged, LOA 9.1 (1.3)).",
+       "strength": "Rec 1: LoE 2b-3, SoR B, LoA 9.1 (1.3) (Table 1, publisher PDF)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C105",
+       "s": "cardio:S1",
+       "quote": "… For all RMDs, reduction of disease activity is likely to lessen CVR.",
+       "strength": "Table 1, overarching principle A (second sentence); LoA 9.92 (0.39)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C24",
+       "s": "cardio:S3",
+       "quote": "New evidence still portrays an association between higher cumulative inflammatory burden and increased CVD risk in RA.",
+       "strength": "Text under rec 1; once a single read, confirmed in the fact-check",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C70",
+       "s": "cardio:S1",
+       "quote": "In patients with SLE, low disease activity should be maintained to also reduce CVR. … Available evidence indicates that higher disease activity may be associated with a higher risk of cardiovascular events.",
+       "strength": "SLE rec 5: LoE 2b, GoR B",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C72",
+       "s": "cardio:S1",
+       "quote": "In patients with ANCA-associated vasculitis, remission induction and remission maintenance will also reduce CVR.",
+       "strength": "Rec 10: LoE 2b, GoR D",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C74",
+       "s": "cardio:S5",
+       "quote": "Based on these observations, we recommend a tight control of disease activity in RA patients, particularly in those with CVD risk.",
+       "strength": "Supporting text for statement 4 (SoR A (GRADE strong); QoE B; agreement 100%) (Taiwan; RA)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C28",
+       "s": "cardio:S1",
+       "quote": "… patient education about CVR, treatment adherence and lifestyle changes (table 1).",
+       "strength": "Overarching principles; basis for 「按照治療計畫」",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-8.5"
+    },
+    {
+     "text": "類固醇能控制發炎，但劑量越高、用得越久，心血管風險可能越高；醫師會盡量用最低有效劑量，請不要自行減量或停藥。",
+     "strength_label": "EULAR 2016・建議強度 C；EULAR 2022・建議強度 C",
+     "evidence": [
+      {
+       "c": "cardio:C77",
+       "s": "cardio:S3",
+       "quote": "Corticosteroids rapidly and effectively reduce inflammation in RA, but they have also been associated with an increased CVD risk, although the literature shows conflicting results. … Since the 2009 recommendations, new studies have found a dose-dependent and duration-dependent increase in CVD risk associated with corticosteroid use in RA. … In other words, steroids may help to abrogate the harmful effect of inflammation on the cardiovascular system, but they will still carry their own adverse effects on CVD risk. … Altogether, from a CVD prevention point of view, the lowest effective dose of corticosteroids should be prescribed for the shortest possible duration in the treatment of active IJD.",
+       "strength": "Text supporting rec 10; all four sentences, including 'In other words…', were confirmed in the publisher PDF in the fact-check",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C76",
+       "s": "cardio:S3",
+       "quote": "Corticosteroids: for prolonged treatment, the glucocorticoid dosage should be kept to a minimum, and a glucocorticoid taper should be attempted in case of remission or low disease activity; the reasons to continue glucocorticoid therapy should be regularly checked (unchanged, LOA 9.5 (0.7)).",
+       "strength": "Rec 10: LoE 3–4, SoR C, LoA 9.5 (0.7) (Table 1, publisher PDF)",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C78",
+       "s": "cardio:S1",
+       "quote": "In patients with SLE, treatment with the lowest possible glucocorticoid dose is recommended to minimise any potential cardiovascular harm. … Most evidence suggests that higher glucocorticoid exposure (cumulative and mean daily dose) increases CVR in SLE.",
+       "strength": "SLE rec 6: LoE 2b, GoR C",
+       "confidence": "High"
+      },
+      {
+       "c": "cardio:C83",
+       "s": "cardio:S5",
+       "quote": "Considering the detrimental effects of nonsteroidal anti-inflammatory drugs (NSAIDs) and corticosteroids on CVD risks, we recommend using the lowest possible dose of corticosteroids and prescribing NSAIDs cautiously.",
+       "strength": "Abstract; supports statement 4 (SoR A (GRADE strong); QoE B; agreement 100%) (Taiwan; RA; statement 4 applies 'if in low disease activity', so it is not used for the label)",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C56",
+       "s": "steroid:S3",
+       "quote": "Your rheumatologist will review your individual benefits and risks regularly and will change dosage if needed. … It is important to remember that glucocorticoid therapy should not be stopped suddenly on your own.",
+       "strength": "Example patient card (Box 1, item 4); basis for 「請不要自行減量或停藥」",
+       "confidence": "Medium"
+      },
+      {
+       "c": "steroid:C60",
+       "s": "steroid:S4",
+       "quote": "… GC therapy should not be stopped without tapering.",
+       "strength": "Rec 4 text; strength not found in accessible text",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-8.6"
+    }
+   ],
+   "tip": {
+    "text": "已有心血管疾病或危險因子的人，使用消炎止痛藥（NSAIDs）要特別小心；是否適合使用，請和醫師討論。",
+    "strength_label": "EULAR 2016・建議強度 C；台灣專家共識 2022・強烈建議",
+    "evidence": [
+     {
+      "c": "cardio:C85",
+      "s": "cardio:S3",
+      "quote": "Prescription of NSAIDs in RA and PsA should be given with caution, especially for patients with documented CVD or in the presence of CVD risk factors (changed, LOA 8.9 (2.1)).",
+      "strength": "Rec 9: LoE 2a-3, SoR C, LoA 8.9 (2.1) (Table 1, publisher PDF)",
+      "confidence": "High"
+     },
+     {
+      "c": "cardio:C74",
+      "s": "cardio:S5",
+      "quote": "4. Adequate control of RA activity is recommended for all patients; if in low disease activity, use the lowest possible dose of corticosteroids and prescribe NSAIDs with caution.",
+      "strength": "Statement 4: SoR A (GRADE strong); QoE B; agreement 100% (Taiwan; RA)",
+      "confidence": "High"
+     },
+     {
+      "c": "cardio:C86",
+      "s": "cardio:S3",
+      "quote": "Hence, there is no evidence to be stricter with NSAID treatment in patients with RA than what is recommended in the national guidelines for patients with no RA.",
+      "strength": "Text under rec 9",
+      "confidence": "High"
+     },
+     {
+      "c": "cardio:C87",
+      "s": "cardio:S3",
+      "quote": "For patients with AS, NSAIDs are recommended as first-line drug treatment by the ASAS/EULAR group in the recommendations for the management of pain and stiffness in patients with AS, and an individual clinical evaluation regarding NSAIDs use in patients with AS with established CVD is therefore needed.",
+      "strength": "Text under rec 9; once a single read, the full sentence was confirmed in the publisher PDF",
+      "confidence": "High"
+     },
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "「是否適合使用，請和醫師討論」 is a neutral safety phrase. The sources address prescribers; S3 asks for an individual clinical evaluation in AS with established CVD (C87). The wording avoids implying that NSAIDs are banned (they are first-line in AS) or freely allowed (the urticaria page says NSAIDs can worsen urticaria, UR-1.1 and UR-1.2).",
+      "confidence": "EDITORIAL"
+     }
+    ],
+    "sid": "CM-8.T"
+   }
+  },
+  {
    "id": "common-bone",
    "title": "類固醇與骨骼保健",
    "summary": "長期口服類固醇，要補足鈣與維生素D、調整生活習慣。",
@@ -461,6 +791,308 @@
      }
     ],
     "sid": "CM-4.T"
+   }
+  },
+  {
+   "id": "common-steroid",
+   "title": "類固醇的其他提醒",
+   "summary": "留意血糖、血壓、體重和眼壓；劑量由醫師調整，不要自行更改。",
+   "illustration": "A nurse measuring an adult patient's blood pressure at a clinic desk while a doctor talks with the patient; a clinic weighing scale stands nearby; flat, friendly style; no text, no numbers, no brands.",
+   "points": [
+    {
+     "text": "長期使用類固醇，除了骨骼和感染方面的影響，也可能讓血糖、血壓升高、體重增加，並影響眼睛、皮膚、肌肉和情緒。",
+     "strength_label": "ESE/ES 2024・良好實務建議；EULAR 2013・建議",
+     "evidence": [
+      {
+       "c": "steroid:C15",
+       "s": "steroid:S6",
+       "quote": "All patients on long-term supraphysiologic glucocorticoid therapy … At the time of initiation … There are many sequelae of exogenous Cushing syndrome. Patients should be educated on the most common and clinically significant, including weight gain, sarcopenia, hyperglycemia, hypertension, bone demineralization.",
+       "strength": "Table 2 (topics to discuss when prescribing oral glucocorticoids), row 'Risk for developing exogenous Cushing syndrome'; supports R 1.2 (Good clinical practice)",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C12",
+       "s": "steroid:S4",
+       "quote": "All patients should have appropriate monitoring for clinically significant AEs. The treating physician should be aware of the possible occurrence of diabetes, hypertension, weight gain, infections, osteoporotic fractures, osteonecrosis, myopathy, eye problems, skin problems and neuropsychological AEs",
+       "strength": "Rec 9; strength not found in accessible text; text says \"based on expert opinion only\". Population: medium/high dose",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C17",
+       "s": "steroid:S3",
+       "quote": "The possible side-effects depend on the dose, the duration of use and the presence of other diseases and medication you may have. The sideeffects are usually mild on low doses. … Some patients may experience weight gain, skin thinning, bruising, flushing, cataract, or worsening of hypertension.",
+       "strength": "Example patient card for low-dose therapy (Box 1, item 2), not a graded recommendation",
+       "confidence": "Medium"
+      },
+      {
+       "c": "steroid:C32",
+       "s": "steroid:S2",
+       "quote": "For example, psychological symptoms are linked to GC therapy, but also to disease such as systemic lupus erythematosus (SLE).",
+       "strength": "Narrative (Discussion)",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-7.1"
+    },
+    {
+     "text": "定期回診時，醫師會依劑量、使用時間和個人風險，安排追蹤體重、血壓、水腫、心臟功能、血脂、血糖和眼壓。",
+     "strength_label": "EULAR 2007・建議",
+     "evidence": [
+      {
+       "c": "steroid:C44",
+       "s": "steroid:S1",
+       "quote": "During treatment, patients should be monitored for body weight, blood pressure, peripheral oedema, cardiac insufficiency, serum lipids, blood and/or urine glucose and ocular pressure depending on individual patient’s risk, glucocorticoid dose and duration. … There is no direct evidence from appropriately designed studies to support this proposition (category IV).",
+       "strength": "Rec 5; SoR 89 (81 to 97); evidence category IV (SoR scale definition not visible in the abbreviated article). Old (2007)",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C1",
+       "s": "steroid:S4",
+       "quote": "For several AEs it has been proven that the occurrence depends on dose and duration of GC treatment … so these factors should dictate what to monitor and how often.",
+       "strength": "Narrative under Rec 9 (strength not found in accessible text)",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C39",
+       "s": "steroid:S2",
+       "quote": "Standard care monitoring needs NOT be extended for patients on low-dose GC therapy, except for osteoporosis (follow national guidelines), and baseline assessments of ankle edema, fasting blood glucose and risk factors for glaucoma.",
+       "strength": "Abstract; consensus (\"Most recommendations had to be based on consensus.\"). Population: low dose as defined in S2; fewer extra checks at low dose",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-7.2"
+    },
+    {
+     "text": "劑量較高、用得較久時，血糖可能高到出現口渴、尿多、疲倦，請就醫；已有糖尿病的人，開始用類固醇後要更仔細監測血糖。",
+     "strength_label": "JBDS 2023・指引說明；EULAR 2010・建議",
+     "evidence": [
+      {
+       "c": "steroid:C25",
+       "s": "steroid:S13",
+       "quote": "Higher dose steroids for longer periods may result in significant symptomatic hyperglycaemia including fatigue, polyuria, and polydipsia with the potential for acute complications related to hyperglycaemia (9).",
+       "strength": "Narrative (Introduction); guideline written mainly for inpatient care",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C56",
+       "s": "steroid:S3",
+       "quote": "Contact your doctor if you are experiencing serious problems with glucocorticoid therapy.",
+       "strength": "Example patient card (Box 1, item 3); basis for 「請就醫」",
+       "confidence": "Medium"
+      },
+      {
+       "c": "steroid:C24",
+       "s": "steroid:S2",
+       "quote": "In case of overt diabetes before treatment, patients should be instructed to carefully monitor their blood glucose level after starting GC therapy.",
+       "strength": "Consensus recommendation (not graded in text). Population: low dose",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C14",
+       "s": "steroid:S4",
+       "quote": "Before starting medium/high-dose GC treatment, consider comorbidities predisposing to AEs. These include diabetes, glucose intolerance, … In case comorbidities are present, tight control (ie, more intensive monitoring and adjusting medication, if needed) is recommended.",
+       "strength": "Rec 6 and its text; strength not found in accessible text. Population: medium/high dose",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-7.3"
+    },
+    {
+     "text": "類固醇可能讓眼壓升高，通常沒有症狀；已有青光眼，或有青光眼家族史、高度近視、糖尿病的人，請和醫師討論安排眼科檢查。",
+     "strength_label": "EULAR 2010・建議；英國驗光師學會 2026・指引說明",
+     "evidence": [
+      {
+       "c": "steroid:C29",
+       "s": "steroid:S15",
+       "quote": "Some steroid medicines, including eye drops, tablets, injections and implants, can increase the pressure inside the eye. … Raised eye pressure usually causes no symptoms, so most people do not realise it is happening.",
+       "strength": "Professional-body guidance, public patient section only (strength not stated)",
+       "confidence": "Medium"
+      },
+      {
+       "c": "steroid:C17",
+       "s": "steroid:S3",
+       "quote": "… The most important are osteoporosis, worsening of diabetes and worsening of glaucoma. …",
+       "strength": "Example patient card (Box 1, item 2), not a graded recommendation; basis for 「已有青光眼」",
+       "confidence": "Medium"
+      },
+      {
+       "c": "steroid:C42",
+       "s": "steroid:S3",
+       "quote": "Assess the risk factors for glaucoma (family history, presence of high myopia or diabetes) and refer to an ophthalmologist in case these factors are present.",
+       "strength": "Box 2, restating the EULAR 2010 daily-practice recommendations (low dose); the referral clause, once a single read, was confirmed by the fact-check",
+       "confidence": "High (two reads; the risk factors and the eye evaluation are also in S2 Table 2, steroid:C91)"
+      },
+      {
+       "c": "steroid:C91",
+       "s": "steroid:S2",
+       "quote": "Questioning for risk factors: family history, high myopia, diabetes … Start (ophthalmologic evaluation in case of risk factors)",
+       "strength": "Table 2, intra-ocular pressure row, daily practice (low dose); consensus recommendation",
+       "confidence": "Medium"
+      },
+      {
+       "c": "steroid:C39",
+       "s": "steroid:S2",
+       "quote": "… and baseline assessments of ankle edema, fasting blood glucose and risk factors for glaucoma.",
+       "strength": "Abstract; consensus (low dose)",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C14",
+       "s": "steroid:S4",
+       "quote": "Before starting medium/high-dose GC treatment, consider comorbidities predisposing to AEs. These include … (risk factors of) glaucoma and osteoporosis.",
+       "strength": "Rec 6; strength not found in accessible text. Population: medium/high dose",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C13",
+       "s": "steroid:S1",
+       "quote": "When it is decided to start glucocorticoid treatment, comorbidities and risk factors for adverse effects should be evaluated and treated where indicated. These include … presence of cataract or glaucoma …",
+       "strength": "Rec 3; SoR 92 (87 to 96); evidence category IV; basis for 「已有青光眼」",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-7.4"
+    },
+    {
+     "text": "何時減量、減多快、何時停藥，由醫師依病情和副作用決定；請依照醫師指示，不要自行減量或突然停藥。",
+     "strength_label": "ESE/ES 2024・良好實務建議；EULAR 2013・建議",
+     "evidence": [
+      {
+       "c": "steroid:C67",
+       "s": "steroid:S6",
+       "quote": "R 2.2—Glucocorticoid taper for patients on long-term glucocorticoid therapy should only be attempted if the underlying disease for which glucocorticoids were prescribed is controlled, and glucocorticoids are no longer required. … When prescribing clinicians decide that glucocorticoid therapy is no longer required, they should educate their patient on methods to taper the dose, symptoms of adrenal insufficiency and appropriate responses, and proceed to wean the dose ().",
+       "strength": "R 2.2, Good clinical practice; the second sentence is from the rationale under R 1.1 (basis for 「何時停藥」). Cut to leave out R 2.2's dose example",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C32",
+       "s": "steroid:S6",
+       "quote": "In certain patients with glucocorticoid-induced complications, such as uncontrolled hypertension and hyperglycemia, glucocorticoid-induced psychosis, or herpetic keratitis, a more rapid glucocorticoid taper towards physiologic daily dose equivalent may be required.",
+       "strength": "Narrative (rationale under R 2.2); basis for 「依…副作用」",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C66",
+       "s": "steroid:S4",
+       "quote": "Keep the requirement for continuing GC treatment under constant review, and titrate the dose against therapeutic response, risk of undertreatment and development of AEs",
+       "strength": "Rec 8; strength not found in accessible text",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C69",
+       "s": "steroid:S11",
+       "quote": "Planned GC tapering should be supervised by a physician and adjusted as appropriate to response (2B) [98.7% (90–100)].",
+       "strength": "Rec 73 (lupus nephritis section): 2B; agreement 98.7%. Population: SLE",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C56",
+       "s": "steroid:S3",
+       "quote": "Your rheumatologist will review your individual benefits and risks regularly and will change dosage if needed. … It is important to remember that glucocorticoid therapy should not be stopped suddenly on your own.",
+       "strength": "Example patient card (Box 1, item 4), not a graded recommendation; basis for 「請依照醫師指示，不要自行減量」",
+       "confidence": "Medium"
+      },
+      {
+       "c": "steroid:C60",
+       "s": "steroid:S4",
+       "quote": "Risk of adrenal insufficiency is considered to be present if GC therapy is stopped suddenly in chronic users, and in acute situations such as acute illnesses and surgical interventions. … GC therapy should not be stopped without tapering.",
+       "strength": "Rec 4 and its text; strength not found in accessible text. Population: chronic medium/high-dose users",
+       "confidence": "High"
+      }
+     ],
+     "sid": "CM-7.5"
+    },
+    {
+     "text": "減量期間疲倦、全身不舒服或肌肉關節痠痛，可能是減藥反應、腎上腺功能不足或病情復發；請盡早回診讓醫師判斷，不要自行加量，嚴重時請盡快就醫。",
+     "strength_label": "ESE/ES 2024・良好實務建議",
+     "evidence": [
+      {
+       "c": "steroid:C73",
+       "s": "steroid:S6",
+       "quote": "Patients should be informed that glucocorticoid withdrawal symptoms are expected to occur during the glucocorticoid dose reduction and what the differences are between glucocorticoid withdrawal syndrome, adrenal insufficiency, and underlying disease flare. … Patients should be educated on symptoms of glucocorticoid withdrawal to avoid anxiety related to unexpected symptoms or reactive, unnecessary, or excessive increase in glucocorticoids.",
+       "strength": "Narrative under R 2.3 (Good clinical practice); confirmed in the PMC copy and the JCEM publisher PDF; basis for 「不要自行加量」",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C72",
+       "s": "steroid:S6",
+       "quote": "R 2.3—We recommend consideration of glucocorticoid withdrawal syndrome that may occur during glucocorticoid taper. When glucocorticoid withdrawal syndrome is severe, glucocorticoid dose can be temporarily increased to the most recent one that was tolerated, and the duration of glucocorticoid taper could be increased. (Good clinical practice) … The symptoms of glucocorticoid withdrawal have substantial overlap with symptoms of adrenal insufficiency and in some cases a disease flare, and can impede the tapering of glucocorticoids ().",
+       "strength": "R 2.3, Good clinical practice; rationale under Table 2 (any dose change is the clinician's decision)",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C74",
+       "s": "steroid:S6",
+       "quote": "General malaise, fatigue, nausea, muscle and joint pain, sleep disturbances, mood change … General malaise, fatigue, nausea, muscle and joint pain … Depending on condition (eg, joint pain in rheumatoid arthritis). Common overlapping symptoms (general malaise, fatigue)",
+       "strength": "Table 5, symptoms row: withdrawal syndrome / adrenal insufficiency / underlying condition; the cells were confirmed in the PMC copy and the JCEM publisher PDF in the fact-check",
+       "confidence": "High"
+      },
+      {
+       "c": "steroid:C76",
+       "s": "steroid:S6",
+       "quote": "Patients with glucocorticoid-induced adrenal insufficiency may be asymptomatic at baseline conditions but can develop symptoms—from mild to life-threatening adrenal crisis—when exposed to potential triggers … When present, symptoms of adrenal insufficiency are often non-specific and can overlap with those of the disease for which glucocorticoids are prescribed. Recurrence of underlying autoimmune diseases can occur during tapering of exogenous glucocorticoids.",
+       "strength": "Table 5 footnote (general remarks); confirmed in the PMC copy and the JCEM publisher PDF; basis for 「嚴重時請盡快就醫」",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "「請盡早回診讓醫師判斷」 is the patient action inferred from S6 (patients should be told the three possible causes and should avoid reactive dose increases; the evidence file marks 'your doctor needs to sort out which' as an inference, C74). 「盡早」 is an editorial timing word, because the symptoms overlap with adrenal insufficiency. 「嚴重時請盡快就醫」 (added after the fact-check) is also editorial: the Table 5 footnote says the symptoms range from mild to life-threatening adrenal crisis (C76). 「不要自行加量」 rests on C73. Vomiting or diarrhoea is covered by IF-S2 (seek care promptly).",
+       "confidence": "EDITORIAL"
+      }
+     ],
+     "sid": "CM-7.6"
+    }
+   ],
+   "tip": {
+    "text": "開刀或生病就醫時，請主動告訴醫師您正在使用或最近停用類固醇；生病時的其他注意事項，請見「治療期間防感染」頁。",
+    "strength_label": "EULAR 2007/2013・建議",
+    "evidence": [
+     {
+      "c": "steroid:C57",
+      "s": "steroid:S3",
+      "quote": "Always mention you are on glucocorticoid therapy. … If you need surgery inform the doctor about your glucocorticoid therapy. Extra glucocorticoids may be needed.",
+      "strength": "Example patient card (Box 1, items 5 'Acute illness' and 6 'Surgery'), not a graded recommendation",
+      "confidence": "Medium"
+     },
+     {
+      "c": "steroid:C57",
+      "s": "steroid:S1",
+      "quote": "All patients on glucocorticoid therapy for longer than 1 month, who will undergo surgery, need perioperative management with adequate glucocorticoid replacement to overcome potential adrenal insufficiency.",
+      "strength": "Rec 8; SoR 91 (84–99)",
+      "confidence": "High"
+     },
+     {
+      "c": "steroid:C60",
+      "s": "steroid:S4",
+      "quote": "Risk of adrenal insufficiency is considered to be present if GC therapy is stopped suddenly in chronic users, and in acute situations such as acute illnesses and surgical interventions. … Patients and their treatment teams, including the general practitioner, should be informed on the risk of adrenal insufficiency, and should know how to prevent it.",
+      "strength": "Rec 4 text; strength not found in accessible text",
+      "confidence": "High"
+     },
+     {
+      "c": "steroid:C77",
+      "s": "steroid:S6",
+      "quote": "Prior studies have shown that adrenal insufficiency may last even up to 2-4 years after glucocorticoid cessation, owing to slow recovery of adrenal cortisol production (,,).",
+      "strength": "Narrative (rationale under R 2.11); basis for 「最近停用」",
+      "confidence": "High"
+     },
+     {
+      "c": "steroid:C92",
+      "s": "steroid:S6",
+      "quote": "Potential adrenal insufficiency and the need for stress dosing should be considered even after discontinuation of glucocorticoid therapy and replacement, particularly in those patients that had not undergone biochemical testing to confirm recovery of the HPA-axis.",
+      "strength": "Narrative (rationale under R 3.1); basis for 「最近停用」",
+      "confidence": "High"
+     },
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "The cross-reference 「生病時的其他注意事項，請見「治療期間防感染」頁」 points to IF-4.2, IF-4.3 and IF-S2, as the drafting addendum allows; it adds no facts.",
+      "confidence": "EDITORIAL"
+     }
+    ],
+    "sid": "CM-7.T"
    }
   },
   {
@@ -871,6 +1503,110 @@
    "citation": "Humbert M, Kovacs G, Hoeper MM, et al. 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Respir J 2023;61(1):2200879 (co-published in Eur Heart J 2022;43(38):3618–3731).",
    "pmid": "36028254",
    "doi": "10.1183/13993003.00879-2022",
+   "url": ""
+  },
+  {
+   "s": "steroid:S1",
+   "short": "EULAR 2007 全身性類固醇治療建議",
+   "citation": "Hoes JN et al. EULAR evidence-based recommendations on the management of systemic glucocorticoid therapy in rheumatic diseases. Ann Rheum Dis 2007;66(12):1560–1567.",
+   "pmid": "17660219",
+   "doi": "10.1136/ard.2007.072157",
+   "url": ""
+  },
+  {
+   "s": "steroid:S2",
+   "short": "EULAR 2010 低劑量類固醇副作用監測建議",
+   "citation": "van der Goes MC et al. Monitoring adverse events of low-dose glucocorticoid therapy: EULAR recommendations for clinical trials and daily practice. Ann Rheum Dis 2010;69(11):1913–1919.",
+   "pmid": "20693273",
+   "doi": "10.1136/ard.2009.124958",
+   "url": ""
+  },
+  {
+   "s": "steroid:S3",
+   "short": "EULAR 工作小組成員 2011 類固醇副作用監測與病人資訊卡範例",
+   "citation": "van der Goes MC, Jacobs JWG, Bijlsma JWJ. Toward safer treatment with glucocorticoids: via patient and rheumatologist perspectives to recommendations on monitoring for adverse events. Clin Exp Rheumatol 2011;29(5 Suppl 68):S116–S120.",
+   "pmid": "22018196",
+   "doi": "",
+   "url": ""
+  },
+  {
+   "s": "steroid:S4",
+   "short": "EULAR 2013 中高劑量類固醇治療建議",
+   "citation": "Duru N et al. EULAR evidence-based and consensus-based recommendations on the management of medium to high-dose glucocorticoid therapy in rheumatic diseases. Ann Rheum Dis 2013;72(12):1905–1913.",
+   "pmid": "23873876",
+   "doi": "10.1136/annrheumdis-2013-203249",
+   "url": ""
+  },
+  {
+   "s": "steroid:S6",
+   "short": "ESE/ES 2024 類固醇引起腎上腺功能不足指引",
+   "citation": "Beuschlein F et al. European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency. J Clin Endocrinol Metab 2024;109(7):1657–1683; co-published in Eur J Endocrinol 2024;190(5):G25–G51 (PMID 38714321; doi 10.1093/ejendo/lvae029).",
+   "pmid": "38724043",
+   "doi": "10.1210/clinem/dgae250",
+   "url": ""
+  },
+  {
+   "s": "steroid:S11",
+   "short": "BSR 2026 紅斑性狼瘡指引",
+   "citation": "Md Yusof MY et al. The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+   "pmid": "42336388",
+   "doi": "10.1093/rheumatology/keag223",
+   "url": ""
+  },
+  {
+   "s": "steroid:S13",
+   "short": "JBDS 2023 類固醇與高血糖處置指引（英國）",
+   "citation": "Joint British Diabetes Societies for Inpatient Care (JBDS-IP). Management of Hyperglycaemia and Steroid (Glucocorticoid) Therapy (JBDS 08), 3rd edition, revised January 2023.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.diabetes.org.uk/sites/default/files/2023-03/JBDS%2008%20Steroids%20and%20DM%20Guideline%20with%20qr%20code.pdf"
+  },
+  {
+   "s": "steroid:S15",
+   "short": "英國驗光師學會 2026 類固醇相關高眼壓與青光眼指引",
+   "citation": "The College of Optometrists. Clinical Management Guidelines: Steroid-related ocular hypertension and glaucoma. Version 15 (revised 26 June 2026; published 8 September 2026; review due 14 June 2028).",
+   "pmid": "",
+   "doi": "",
+   "url": "https://www.college-optometrists.org/clinical-guidance/clinical-management-guidelines/glaucoma_steroid"
+  },
+  {
+   "s": "cardio:S1",
+   "short": "EULAR 2022 風濕病心血管風險管理建議",
+   "citation": "Drosos GC, Vedder D, Houben E, et al. EULAR recommendations for cardiovascular risk management in rheumatic and musculoskeletal diseases, including systemic lupus erythematosus and antiphospholipid syndrome. Ann Rheum Dis 2022;81(6):768–779.",
+   "pmid": "35110331",
+   "doi": "10.1136/annrheumdis-2021-221733",
+   "url": ""
+  },
+  {
+   "s": "cardio:S3",
+   "short": "EULAR 2016 發炎性關節炎心血管風險管理建議",
+   "citation": "Agca R, Heslinga SC, Rollefstad S, et al. EULAR recommendations for cardiovascular disease risk management in patients with rheumatoid arthritis and other forms of inflammatory joint disorders: 2015/2016 update. Ann Rheum Dis 2017;76(1):17–28.",
+   "pmid": "27697765",
+   "doi": "10.1136/annrheumdis-2016-209775",
+   "url": ""
+  },
+  {
+   "s": "cardio:S5",
+   "short": "台灣 2022 類風濕性關節炎共病專家共識",
+   "citation": "Yu KH, Chen HH, Cheng TT, et al. Consensus recommendations on managing the selected comorbidities including cardiovascular disease, osteoporosis, and interstitial lung disease in rheumatoid arthritis. Medicine (Baltimore) 2022;101(1):e28501.",
+   "pmid": "35029907",
+   "doi": "10.1097/MD.0000000000028501",
+   "url": ""
+  },
+  {
+   "s": "cardio:S7",
+   "short": "BSR 2026 紅斑性狼瘡指引（執行摘要）",
+   "citation": "Md Yusof MY, Smith EMD, Lythgoe H, et al. Executive Summary: The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus. Rheumatology (Oxford) 2026;65(6).",
+   "pmid": "42336387",
+   "doi": "10.1093/rheumatology/keag224",
+   "url": ""
+  },
+  {
+   "s": "cardio:S8",
+   "short": "EULAR 2023 紅斑性狼瘡治療建議",
+   "citation": "Fanouriakis A, Kostopoulou M, Andersen J, et al. EULAR recommendations for the management of systemic lupus erythematosus: 2023 update. Ann Rheum Dis 2024;83(1):15–29.",
+   "pmid": "37827694",
+   "doi": "10.1136/ard-2023-224762",
    "url": ""
   }
  ]

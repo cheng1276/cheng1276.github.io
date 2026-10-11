@@ -25,10 +25,11 @@ SITE_URL = 'https://cheng1276.github.io/rheum-care-guide/'
 ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren',
          'oa', 'osteoporosis', 'labs', 'infection']  # the last four went live on 2026-10-11
 # Pages drafted for physician review; shown only in a review build with --drafts.
-DRAFT_ORDER = []
+DRAFT_ORDER = ['pregnancy']  # second batch, in physician review (2026-10-11)
 TABS = {'common': '共通照護', 'gout': '痛風', 'urticaria': '慢性蕁麻疹', 'ra': '類風濕性關節炎',
         'axspa': '僵直性脊椎炎', 'sle': '紅斑性狼瘡', 'sjogren': '乾燥症',
-        'oa': '退化性關節炎', 'osteoporosis': '骨質疏鬆症', 'labs': '健檢報告異常', 'infection': '治療期間防感染'}
+        'oa': '退化性關節炎', 'osteoporosis': '骨質疏鬆症', 'labs': '健檢報告異常', 'infection': '治療期間防感染',
+        'pregnancy': '懷孕、哺乳與避孕'}
 
 # Items the physician still has to decide (shown only in the review copy).
 NOTES = {}  # notes for the reviewing physician are kept privately
