@@ -12994,7 +12994,7 @@
     "RF"
    ],
    "def": "類風濕因子是一種自體抗體，會和身體自己的抗體（IgG）的一部分結合；因和類風濕性關節炎有關而得名，是診斷這個病的參考指標之一。",
-   "example": "C型肝炎感染者，也可能驗出類風濕因子。",
+   "example": "",
    "note": "其他自體免疫疾病、感染和部分健康的人也可能陽性；類風濕性關節炎病人也可能陰性。",
    "label": "綜論 2013・定義",
    "scope": "page",
@@ -13073,15 +13073,6 @@
      "doi": "10.1155/2013/726598",
      "pmcid": "PMC3845430",
      "supports": "note：感染時也可能出現類風濕因子"
-    },
-    {
-     "quote": "RFs can be found in 40–50% of patients with HCV infection, but their frequency can reach 76% [].",
-     "location": "3. Rheumatoid Factors in Nonrheumatic Conditions",
-     "access": "PMC full text",
-     "pmid": "24324289",
-     "doi": "10.1155/2013/726598",
-     "pmcid": "PMC3845430",
-     "supports": "example：C 型肝炎感染者常驗出類風濕因子"
     },
     {
      "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",

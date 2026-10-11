@@ -278,6 +278,8 @@ DECISIONS = {
         'cat': 'diet',
     },
     'rf': {
+        'example': '',
+        'drop_quote_prefix': ['RFs can be found in 40'],
     },
     'denosumab': {
     },
