@@ -50,7 +50,8 @@ EXCLUDE_PAGES = {'disease-activity': ['urticaria']}
 # Field edits decided in the editorial review (None = clear the field).
 EDITS = {
     'aerobic': {'note': '又稱耐力運動，可提升心肺耐力。'},
-    'moderate-intensity': {'example': '快走、打排球'},
+    'moderate-intensity': {'example': '快走、騎腳踏車',
+                           'note': '簡單判斷：做中等強度活動時還能說話，但沒辦法唱歌。騎腳踏車依費力程度，可能是中等或高強度。'},
     'sedentary': {'note': '睡覺不算。目前證據還不足以訂出「坐多久算太久」。'},
     'passive-therapy': {'note': '物理治療的目標之一是教您學會自己運動，所以以主動運動為主，被動治療只能輔助、不能取代。'},
     'hand-therapist': {'note': None},

@@ -26,3 +26,9 @@
 | 葡萄糖胺的類別 | 改為「飲食與營養」 | 類別由「藥物與疫苗」改為「飲食與營養」 |
 
 修改紀錄在 `postfix_2026_10.py` 的 DECISIONS。
+
+## 2026 年 10 月 11 日：中等強度的例子
+
+| 項目 | 決定 | 網站上的結果 |
+|---|---|---|
+| 「中等強度」詞條的例子 | 「打排球」改為「騎腳踏車」 | 例子改為「快走、騎腳踏車」；補充加上「騎腳踏車依費力程度，可能是中等或高強度」，依據美國身體活動指引（Piercy 2018，PMID 30418471）："Some activities, such as swimming or riding a bicycle, can be either moderate or vigorous intensity, depending on the effort." |
