@@ -250,7 +250,7 @@
    "illustration": "A woman and a doctor sitting at a desk, looking together at a plain, unlabeled pill organizer; flat, friendly style; no text, no brands.",
    "points": [
     {
-     "text": "有些藥物不適合懷孕；需要時，醫師會在受孕前換成適合懷孕的藥，並觀察一段時間，確認新藥有效、身體也能適應。",
+     "text": "有些藥物不適合懷孕；需要時，指引建議在受孕前換成適合懷孕的藥，並觀察一段時間，確認新藥有效、身體也能適應。",
      "strength_label": "BSR 2022・強烈建議（1A）；ACR 2020・強烈建議",
      "evidence": [
       {
@@ -327,7 +327,7 @@
      "sid": "PG-3.3"
     },
     {
-     "text": "醫師會和您討論治療對媽媽和寶寶的好處與風險；改變用藥對寶寶的好處，也要和病情失控對寶寶的風險一起權衡。",
+     "text": "治療對媽媽和寶寶的好處與風險，可以請醫師說明、一起討論；改變用藥對寶寶的好處，也要和病情失控對寶寶的風險一起權衡。",
      "strength_label": "BSR 2022・強烈建議（1A）",
      "evidence": [
       {
@@ -412,28 +412,7 @@
      "sid": "PG-4.1"
     },
     {
-     "text": "爸爸使用風濕病藥物，目前沒有確切證據顯示會影響胎兒發育或懷孕結果；英國指引建議讓男性安心，但也指出證據有限。",
-     "strength_label": "BSR 2022・建議（2C）",
-     "evidence": [
-      {
-       "c": "C57",
-       "s": "S9",
-       "quote": "Some drugs may reduce male fertility, but paternal drug exposure in humans has not convincingly been associated with adverse foetal development or pregnancy outcome. Although the evidence is weak, men who take rheumatological medicines should be reassured about the safety of conceiving (GRADE 2C, SOA 98.4%).",
-       "strength": "GRADE 2C, SOA 98.4%",
-       "confidence": "High"
-      },
-      {
-       "c": "C58",
-       "s": "S10",
-       "quote": "Paternal drug exposure may reduce male fertility but has not been associated with adverse foetal development or pregnancy outcome. Although evidence is weak, we recommend that men are reassured about the safety of fathering a pregnancy whilst taking medicines to manage comorbidities as described in this guideline (GRADE 1C, SOA 98).",
-       "strength": "GRADE 1C, SOA 98 (medicines for comorbidities)",
-       "confidence": "High"
-      }
-     ],
-     "sid": "PG-4.2"
-    },
-    {
-     "text": "不過，少數藥物需要在計畫生育前先停用，有些藥物也可能降低男性生育力；計畫當爸爸前，請先和醫師討論用藥。",
+     "text": "計畫當爸爸前，請先和醫師討論用藥：少數藥物需要在計畫生育前先停用，有些藥物也可能降低男性生育力。",
      "strength_label": "ACR 2020・強烈不建議（少數藥物）；BSR 2022・建議（2C）",
      "evidence": [
       {
@@ -455,6 +434,27 @@
        "s": "S18",
        "quote": "…Family planning discussions can fill a key unmet need for both male and female patients.",
        "strength": "Supporting narrative under Overarching Principle 4",
+       "confidence": "High"
+      }
+     ],
+     "sid": "PG-4.2"
+    },
+    {
+     "text": "除了這些少數藥物，爸爸使用風濕病藥物，目前沒有確切證據顯示會影響胎兒發育或懷孕結果；英國指引建議讓男性安心，但也指出證據有限。",
+     "strength_label": "BSR 2022・建議（2C）",
+     "evidence": [
+      {
+       "c": "C57",
+       "s": "S9",
+       "quote": "Some drugs may reduce male fertility, but paternal drug exposure in humans has not convincingly been associated with adverse foetal development or pregnancy outcome. Although the evidence is weak, men who take rheumatological medicines should be reassured about the safety of conceiving (GRADE 2C, SOA 98.4%).",
+       "strength": "GRADE 2C, SOA 98.4%",
+       "confidence": "High"
+      },
+      {
+       "c": "C58",
+       "s": "S10",
+       "quote": "Paternal drug exposure may reduce male fertility but has not been associated with adverse foetal development or pregnancy outcome. Although evidence is weak, we recommend that men are reassured about the safety of fathering a pregnancy whilst taking medicines to manage comorbidities as described in this guideline (GRADE 1C, SOA 98).",
+       "strength": "GRADE 1C, SOA 98 (medicines for comorbidities)",
        "confidence": "High"
       }
      ],
@@ -494,11 +494,11 @@
   {
    "id": "pregnancy-care",
    "title": "孕期與產後追蹤",
-   "summary": "懷孕到產後，風濕科和婦產科一起追蹤。",
+   "summary": "懷孕到產後，最好風濕科和婦產科一起追蹤。",
    "illustration": "A pregnant woman lying on an exam bed during an ultrasound with a doctor beside her, and a second small scene of a new mother holding her baby while talking with a doctor; flat, friendly style; no text, no brands.",
    "points": [
     {
-     "text": "懷孕期間到產後數個月，由熟悉風濕病懷孕照護的醫師定期追蹤，並和婦產科醫師一起照顧。",
+     "text": "懷孕期間到產後數個月，最好由熟悉風濕病懷孕照護的醫師定期追蹤，並和婦產科醫師一起照顧。",
      "strength_label": "BSR 2022・指引說明；ACR 2020・基本原則",
      "evidence": [
       {
@@ -526,7 +526,7 @@
      "sid": "PG-5.1"
     },
     {
-     "text": "有紅斑性狼瘡或抗磷脂症候群的孕婦，會比照高風險妊娠追蹤，胎兒檢查的次數和方式依媽媽和胎兒狀況調整。",
+     "text": "有紅斑性狼瘡或抗磷脂症候群的孕婦，指引建議比照高風險妊娠追蹤，胎兒檢查的次數和方式依媽媽和胎兒狀況調整。",
      "strength_label": "EULAR 2017・指引說明",
      "evidence": [
       {
@@ -667,7 +667,7 @@
      "sid": "PG-6.1"
     },
     {
-     "text": "哺乳期間需要用藥時，醫師會權衡控制病情的好處，和寶寶經由母乳接觸藥物的風險。",
+     "text": "哺乳期間需要用藥時，要權衡控制病情的好處，和寶寶經由母乳接觸藥物的風險；請和醫師討論。",
      "strength_label": "ACR 2020・指引說明",
      "evidence": [
       {
@@ -681,14 +681,21 @@
      "sid": "PG-6.2"
     },
     {
-     "text": "懷孕期間用過生物製劑的話，請在生產前就告訴寶寶的小兒科醫師：會通過胎盤的藥物，可能影響寶寶的疫苗接種時程。",
-     "strength_label": "ACR 2022・指引說明",
+     "text": "懷孕期間用過生物製劑的話，請在生產前就告訴寶寶的小兒科醫師用了什麼藥、最後一次在什麼時候：會通過胎盤的藥物，可能影響寶寶的疫苗接種時程。",
+     "strength_label": "ACR 2022・指引說明；BSR 2022・強烈建議（1C）",
      "evidence": [
       {
        "c": "C89",
        "s": "S11",
        "quote": "After giving birth, most RMD patients turn to their general pediatrician rather than to their adult rheumatology provider for infant vaccination recommendations, and pediatricians may not be aware of the impact of in utero medication exposure on vaccine safety and immunogenicity. … Specifically, the pregnant patient should be educated as to the fact that medications that cross the placenta may affect vaccination schedules for their infants. A copy of the current vaccine guideline summary … may serve as a useful resource for the pregnant RMD patient to share with their pediatrician in advance of delivery.",
        "strength": "Statement (ungraded); a cut sentence names specific medicines",
+       "confidence": "High"
+      },
+      {
+       "c": "C90",
+       "s": "S9",
+       "quote": "Immunisation schedules in infants after in-utero exposure to biologic DMARDs will depend on timing of exposure, bioavailability and persistence of the drug, mechanism of action of the drug, and live vaccines (GRADE 1C, SOA 99.5%).",
+       "strength": "GRADE 1C, SOA 99.5%; basis for 「用了什麼藥、最後一次在什麼時候」 (the schedule depends on the drug and the timing of exposure)",
        "confidence": "High"
       }
      ],
@@ -716,7 +723,7 @@
      "sid": "PG-6.4"
     },
     {
-     "text": "卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請先告訴小兒科醫師，時程可能要調整。",
+     "text": "卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請務必先告訴小兒科醫師，時程可能要調整。",
      "strength_label": "BSR 2022・指引說明；疾管署・建議；ACR 2022・指引說明",
      "evidence": [
       {
@@ -842,7 +849,7 @@
   },
   {
    "belief": "吃藥就不能餵母乳。",
-   "fact": "不一定。哺乳的好處很多；醫師會權衡控制病情的好處，和寶寶經由母乳接觸藥物的風險。哪些藥可以在哺乳期間使用，請和醫師討論。",
+   "fact": "不一定。哺乳的好處很多；需要權衡控制病情的好處，和寶寶經由母乳接觸藥物的風險。哪些藥可以在哺乳期間使用，請和醫師討論。",
    "strength_label": "ACR 2020・指引說明",
    "evidence": [
     {

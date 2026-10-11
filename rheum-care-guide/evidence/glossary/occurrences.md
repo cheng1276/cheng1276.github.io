@@ -288,8 +288,8 @@
 - [repeat] IF-M3 (belief) 「生物製劑」: 只有生物製劑會增加感染風險，類固醇和傳統抗風濕藥物不用擔心。
 - [repeat] IF-M3 (fact) 「生物製劑」: 不只生物製劑。有些證據顯示，使用類固醇或傳統抗風濕藥物，潛伏結核再活化的風險也會增加；疾管署也指出，免疫風濕病人因疾病本身和類固醇、免疫抑制劑治療，結核病風險比一般人高出許多。
 - [LINK] IF-S1 (text) 「生物製劑」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
-- [LINK] PG-6.3 (text) 「生物製劑」: 懷孕期間用過生物製劑的話，請在生產前就告訴寶寶的小兒科醫師：會通過胎盤的藥物，可能影響寶寶的疫苗接種時程。
-- [repeat] PG-6.5 (text) 「生物製劑」: 卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請先告訴小兒科醫師，時程可能要調整。
+- [LINK] PG-6.3 (text) 「生物製劑」: 懷孕期間用過生物製劑的話，請在生產前就告訴寶寶的小兒科醫師用了什麼藥、最後一次在什麼時候：會通過胎盤的藥物，可能影響寶寶的疫苗接種時程。
+- [repeat] PG-6.5 (text) 「生物製劑」: 卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請務必先告訴小兒科醫師，時程可能要調整。
 
 ## antimalarial — 抗瘧疾藥物（hydroxychloroquine）  (aliases: 抗瘧疾藥物 / hydroxychloroquine; scope: card; links: 1; occurrences: 3)
 - [LINK] SL-2.2 (text) 「抗瘧疾藥物」: 抽菸可能干擾抗瘧疾藥物（如 hydroxychloroquine）和部分生物製劑的療效。
@@ -339,7 +339,7 @@
 - [LINK] IF-5.1 (text) 「活性減毒疫苗」: 一般人一生約 2 到 3 成會得帶狀疱疹（皮蛇），年長者和免疫力較低者風險更高；打疫苗預防最有效，但治療期間活性減毒疫苗建議延後（見共通照護頁）。
 - [LINK] pregnancy-baby (summary) 「活性疫苗」: 哺乳用藥先問醫師；寶寶打活性疫苗前先告知媽媽孕期用藥。
 - [repeat] PG-6.4 (text) 「活性減毒疫苗」: 可能受影響的是活性減毒疫苗，例如輪狀病毒疫苗和卡介苗；要不要調整、怎麼調整，要看藥物、使用時間和疫苗種類，由醫師評估。
-- [repeat] PG-6.5 (text) 「活性疫苗」: 卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請先告訴小兒科醫師，時程可能要調整。
+- [repeat] PG-6.5 (text) 「活性疫苗」: 卡介苗是最需要留意的活性疫苗。台灣建議出生滿 5 到 8 個月接種；媽媽孕期用過生物製劑的話，接種前請務必先告訴小兒科醫師，時程可能要調整。
 
 ## rzv — 重組帶狀疱疹疫苗  (aliases: 重組帶狀疱疹（皮蛇）疫苗 / 重組帶狀疱疹; scope: card; links: 1; occurrences: 1)
 - [LINK] CM-5.5 (text) 「重組帶狀疱疹（皮蛇）疫苗」: 超過18歲、正在使用免疫抑制藥物的風濕病患者，強烈建議接種重組帶狀疱疹（皮蛇）疫苗。
@@ -545,7 +545,7 @@
 ## aas — 血管性水腫活動分數（AAS）  (aliases: AAS; scope: card; links: 1; occurrences: 1)
 - [LINK] UR-5.T (text) 「AAS」: 自發型會腫脹（血管性水腫）的人，也要記錄血管性水腫活動分數（AAS）。
 
-## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 10; occurrences: 47)
+## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 10; occurrences: 49)
 - [LINK] CM-8.3 (text) 「指引」: 血壓、血脂、血糖偏高時，要和醫師配合，依治療指引控制好；也建議戒菸、健康飲食和規律活動（見本頁其他卡片）。
 - [repeat] CM-M1 (fact) 「指引」: WHO 2020年指引已取消「至少連續10分鐘」的規定；任何長度的活動都與健康改善有關。
 - [LINK] gout-intro (intro) 「指引」: 這頁整理國內外指引中，痛風患者在飲料、飲食、體重與運動、發作照護和定期檢查上可以做的事。生活習慣能輔助治療，但不能取代治療。
@@ -588,8 +588,10 @@
 - [LINK] PG-1.4 (text) 「指引」: 已確診中重度肺高壓的人，指引認為不宜懷孕（屬於懷孕禁忌）；請和醫師詳細討論。
 - [repeat] PG-2.5 (text) 「指引」: 有抗磷脂抗體，或紅斑性狼瘡中度以上活躍（含腎炎）時，指引建議子宮內避孕器或單純黃體素口服避孕藥；適合哪一種，由醫師依血栓風險和您一起決定。
 - [repeat] PG-2.T (text) 「指引」: 可以和醫師討論緊急避孕；指引指出，即使有紅斑性狼瘡或抗磷脂抗體，緊急避孕的風險也比意外懷孕低。
+- [repeat] PG-3.1 (text) 「指引」: 有些藥物不適合懷孕；需要時，指引建議在受孕前換成適合懷孕的藥，並觀察一段時間，確認新藥有效、身體也能適應。
 - [repeat] PG-3.3 (text) 「指引」: 懷孕期間病情活躍、需要治療時，指引建議開始或繼續使用適合懷孕的藥物；病情沒控制好，本身也對懷孕不利。
-- [repeat] PG-4.2 (text) 「指引」: 爸爸使用風濕病藥物，目前沒有確切證據顯示會影響胎兒發育或懷孕結果；英國指引建議讓男性安心，但也指出證據有限。
+- [repeat] PG-4.3 (text) 「指引」: 除了這些少數藥物，爸爸使用風濕病藥物，目前沒有確切證據顯示會影響胎兒發育或懷孕結果；英國指引建議讓男性安心，但也指出證據有限。
+- [repeat] PG-5.2 (text) 「指引」: 有紅斑性狼瘡或抗磷脂症候群的孕婦，指引建議比照高風險妊娠追蹤，胎兒檢查的次數和方式依媽媽和胎兒狀況調整。
 - [repeat] PG-6.T (text) 「指引」: 把母乳擠出來用奶瓶餵，在英國指引中也算「哺乳」；用藥的考量相同，一樣要和醫師討論。
 - [repeat] PG-M1 (fact) 「指引」: 不一定。以紅斑性狼瘡或抗磷脂症候群為例，多數女性能成功懷孕；指引也指出，醫療人員需從勸阻轉為支持懷孕。但已確診中重度肺高壓不宜懷孕。
 - [repeat] PG-M2 (fact) 「指引」: 不一定。不必要的停藥可能讓病情變差、增加發作；懷孕期間需要治療時，指引建議用適合懷孕的藥物。用藥調整請和醫師討論，不要自行停藥。
@@ -767,14 +769,14 @@
 - [repeat] PG-2.T (label) 「ACR」: ACR 2020・強烈建議
 - [repeat] PG-3.1 (label) 「ACR」: BSR 2022・強烈建議（1A）；ACR 2020・強烈建議
 - [repeat] PG-3.3 (label) 「ACR」: ACR 2020・強烈建議
-- [repeat] PG-4.3 (label) 「ACR」: ACR 2020・強烈不建議（少數藥物）；BSR 2022・建議（2C）
+- [repeat] PG-4.2 (label) 「ACR」: ACR 2020・強烈不建議（少數藥物）；BSR 2022・建議（2C）
 - [repeat] PG-5.1 (label) 「ACR」: BSR 2022・指引說明；ACR 2020・基本原則
 - [repeat] PG-5.3 (label) 「ACR」: ACR 2020・強烈建議
 - [repeat] PG-5.4 (label) 「ACR」: ACR 2020・強烈建議；BSR 2026・建議（2B／2D）
 - [repeat] PG-5.5 (label) 「ACR」: ACR 2020・指引說明；EULAR 2019・基本原則
 - [repeat] PG-6.1 (label) 「ACR」: ACR 2020・指引說明；BSR 2022・強烈建議（1A）
 - [repeat] PG-6.2 (label) 「ACR」: ACR 2020・指引說明
-- [repeat] PG-6.3 (label) 「ACR」: ACR 2022・指引說明
+- [repeat] PG-6.3 (label) 「ACR」: ACR 2022・指引說明；BSR 2022・強烈建議（1C）
 - [repeat] PG-6.5 (label) 「ACR」: BSR 2022・指引說明；疾管署・建議；ACR 2022・指引說明
 - [repeat] PG-M2 (label) 「ACR」: BSR 2022・指引說明；ACR 2020・強烈建議
 - [repeat] PG-M3 (label) 「ACR」: ACR 2020・指引說明
@@ -907,7 +909,7 @@
 - [repeat] PG-5.T (label) 「EULAR」: EULAR 2017・指引說明
 - [repeat] PG-M1 (label) 「EULAR」: EULAR 2017・基本原則；BSR 2022・強烈建議（1C）
 
-## org-bsr — BSR  (aliases: BSR; scope: page; links: 7; occurrences: 64)
+## org-bsr — BSR  (aliases: BSR; scope: page; links: 7; occurrences: 65)
 - [LINK] CM-8.2 (label) 「BSR」: EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）
 - [LINK] GT-2.3 (label) 「BSR」: BSR 2017・建議
 - [repeat] GT-2.4 (label) 「BSR」: BSR 2017・建議
@@ -962,11 +964,12 @@
 - [repeat] PG-3.2 (label) 「BSR」: BSR 2022・指引說明
 - [repeat] PG-3.4 (label) 「BSR」: BSR 2022・強烈建議（1A）
 - [repeat] PG-3.5 (label) 「BSR」: BSR 2022・強烈建議（1A）
-- [repeat] PG-4.2 (label) 「BSR」: BSR 2022・建議（2C）
-- [repeat] PG-4.3 (label) 「BSR」: ACR 2020・強烈不建議（少數藥物）；BSR 2022・建議（2C）
+- [repeat] PG-4.2 (label) 「BSR」: ACR 2020・強烈不建議（少數藥物）；BSR 2022・建議（2C）
+- [repeat] PG-4.3 (label) 「BSR」: BSR 2022・建議（2C）
 - [repeat] PG-5.1 (label) 「BSR」: BSR 2022・指引說明；ACR 2020・基本原則
 - [repeat] PG-5.4 (label) 「BSR」: ACR 2020・強烈建議；BSR 2026・建議（2B／2D）
 - [repeat] PG-6.1 (label) 「BSR」: ACR 2020・指引說明；BSR 2022・強烈建議（1A）
+- [repeat] PG-6.3 (label) 「BSR」: ACR 2022・指引說明；BSR 2022・強烈建議（1C）
 - [repeat] PG-6.4 (label) 「BSR」: BSR 2022・強烈建議（1C）
 - [repeat] PG-6.5 (label) 「BSR」: BSR 2022・指引說明；疾管署・建議；ACR 2022・指引說明
 - [repeat] PG-6.T (label) 「BSR」: BSR 2022・指引說明
