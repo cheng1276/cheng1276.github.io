@@ -1,0 +1,287 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><style>
+:root{
+  /* Layout: a clinic handout binder. Seven colour-coded index tabs stay pinned at the top;
+     each disease is a single column of care cards: drawn pictogram tile, plain steps,
+     and a small citation line under every step. */
+  --paper:#f3f5f4;
+  --sheet:#ffffff;
+  --ink:#18211f;
+  --ink-2:#4c5a57;
+  --ink-3:#66736f;
+  --rule:#d6dfdc;
+  --brand:#0c6a5e;
+  --brand-wash:#e0efea;
+  --urgent:#a3241c;
+  --urgent-wash:#fae7e4;
+  --tip:#7a5200;
+  --tip-wash:#fbf0d9;
+  --no:#c0392b;
+  --shadow:0 1px 2px rgb(24 40 36 / .05),0 8px 24px rgb(24 40 36 / .07);
+  --f-display:"Huninn","PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  --f-body:"PingFang TC","Noto Sans TC","Noto Sans CJK TC","Microsoft JhengHei","Heiti TC",system-ui,sans-serif;
+  --f-latin:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --t-xs:.8125rem;
+  --t-sm:.9375rem;
+  --t-base:1.125rem;
+  --t-card:1.375rem;
+  --t-h2:1.875rem;
+  --t-h1:2.5rem;
+  /* disease hues (light) */
+  --common:#0c6a5e; --common-ink:#0a4f46; --common-soft:#a9d6cb; --common-wash:#e0efea;
+  --gout:#b35f00; --gout-ink:#7a4100; --gout-soft:#f2c992; --gout-wash:#fbeedd;
+  --oa:#66751a; --oa-ink:#46520f; --oa-soft:#d3dd9f; --oa-wash:#f1f5dd;
+  --osteoporosis:#7a6656; --osteoporosis-ink:#55463a; --osteoporosis-soft:#dccdc0; --osteoporosis-wash:#f4eee8;
+  --urticaria:#b8395b; --urticaria-ink:#82243e; --urticaria-soft:#efb6c5; --urticaria-wash:#fae6ec;
+  --ra:#2f5fb8; --ra-ink:#1f4285; --ra-soft:#b0c6ee; --ra-wash:#e6edfa;
+  --axspa:#3d7f2a; --axspa-ink:#2a5a1c; --axspa-soft:#b7d9a8; --axspa-wash:#e7f2e1;
+  --sle:#6c4cb8; --sle-ink:#4b3189; --sle-soft:#cbbbef; --sle-wash:#efe9fa;
+  --sjogren:#0a7d9c; --sjogren-ink:#075a71; --sjogren-soft:#9fd6e6; --sjogren-wash:#dff1f6;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#101715; --sheet:#19211f; --ink:#e4ebe9; --ink-2:#a8b5b1; --ink-3:#8c9a96; --rule:#2c3835;
+    --brand:#5cc7b1; --brand-wash:#16302b; --urgent:#ff9d93; --urgent-wash:#3a1916; --tip:#f1c56c; --tip-wash:#30270f; --no:#ff7b6b;
+    --shadow:0 1px 2px rgb(0 0 0 / .4),0 8px 24px rgb(0 0 0 / .3);
+    --common:#5cc7b1; --common-ink:#b4e6db; --common-soft:#2f6157; --common-wash:#15302a;
+    --gout:#f0a64a; --gout-ink:#f8d6a8; --gout-soft:#6b4a1f; --gout-wash:#2e2214;
+    --urticaria:#f08aa6; --urticaria-ink:#f9cbd8; --urticaria-soft:#6a3042; --urticaria-wash:#2f1820;
+    --ra:#8aaaf0; --ra-ink:#cad8f8; --ra-soft:#33476f; --ra-wash:#172033;
+    --axspa:#93cf7a; --axspa-ink:#cde9c1; --axspa-soft:#36592b; --axspa-wash:#182a14;
+    --sle:#b6a0f2; --sle-ink:#ddd2fa; --sle-soft:#463a70; --sle-wash:#211b35;
+    --sjogren:#62c7e2; --sjogren-ink:#b8e6f3; --sjogren-soft:#245562; --sjogren-wash:#12272d;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101715; --sheet:#19211f; --ink:#e4ebe9; --ink-2:#a8b5b1; --ink-3:#8c9a96; --rule:#2c3835;
+  --brand:#5cc7b1; --brand-wash:#16302b; --urgent:#ff9d93; --urgent-wash:#3a1916; --tip:#f1c56c; --tip-wash:#30270f; --no:#ff7b6b;
+  --shadow:0 1px 2px rgb(0 0 0 / .4),0 8px 24px rgb(0 0 0 / .3);
+  --common:#5cc7b1; --common-ink:#b4e6db; --common-soft:#2f6157; --common-wash:#15302a;
+  --gout:#f0a64a; --gout-ink:#f8d6a8; --gout-soft:#6b4a1f; --gout-wash:#2e2214;
+  --urticaria:#f08aa6; --urticaria-ink:#f9cbd8; --urticaria-soft:#6a3042; --urticaria-wash:#2f1820;
+  --ra:#8aaaf0; --ra-ink:#cad8f8; --ra-soft:#33476f; --ra-wash:#172033;
+  --axspa:#93cf7a; --axspa-ink:#cde9c1; --axspa-soft:#36592b; --axspa-wash:#182a14;
+  --sle:#b6a0f2; --sle-ink:#ddd2fa; --sle-soft:#463a70; --sle-wash:#211b35;
+  --sjogren:#62c7e2; --sjogren-ink:#b8e6f3; --sjogren-soft:#245562; --sjogren-wash:#12272d;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--f-body);font-size:var(--t-base);line-height:1.7;
+  padding-inline:16px;padding-block:0 3rem;-webkit-text-size-adjust:100%;
+}
+h1,h2,h3{margin:0;font-weight:400;line-height:1.3;text-wrap:balance}
+h1,h2,h3{font-family:var(--f-display)}
+p{margin:0}
+a{color:var(--brand);text-underline-offset:3px}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.wrap{max-width:46rem;margin-inline:auto}
+
+/* disease hue binding */
+[data-d="common"]{--hue:var(--common);--hue-ink:var(--common-ink);--hue-soft:var(--common-soft);--hue-wash:var(--common-wash)}
+[data-d="gout"]{--hue:var(--gout);--hue-ink:var(--gout-ink);--hue-soft:var(--gout-soft);--hue-wash:var(--gout-wash)}
+[data-d="urticaria"]{--hue:var(--urticaria);--hue-ink:var(--urticaria-ink);--hue-soft:var(--urticaria-soft);--hue-wash:var(--urticaria-wash)}
+[data-d="ra"]{--hue:var(--ra);--hue-ink:var(--ra-ink);--hue-soft:var(--ra-soft);--hue-wash:var(--ra-wash)}
+[data-d="axspa"]{--hue:var(--axspa);--hue-ink:var(--axspa-ink);--hue-soft:var(--axspa-soft);--hue-wash:var(--axspa-wash)}
+[data-d="sle"]{--hue:var(--sle);--hue-ink:var(--sle-ink);--hue-soft:var(--sle-soft);--hue-wash:var(--sle-wash)}
+[data-d="sjogren"]{--hue:var(--sjogren);--hue-ink:var(--sjogren-ink);--hue-soft:var(--sjogren-soft);--hue-wash:var(--sjogren-wash)}
+[data-d="oa"]{--hue:var(--oa);--hue-ink:var(--oa-ink);--hue-soft:var(--oa-soft);--hue-wash:var(--oa-wash)}
+[data-d="osteoporosis"]{--hue:var(--osteoporosis);--hue-ink:var(--osteoporosis-ink);--hue-soft:var(--osteoporosis-soft);--hue-wash:var(--osteoporosis-wash)}
+
+/* ---------- header ---------- */
+.top{padding-block:2rem 1.25rem;display:grid;gap:.875rem}
+.eyebrow{font-size:var(--t-sm);color:var(--brand);letter-spacing:.06em}
+h1{font-size:var(--t-h1)}
+.lead{color:var(--ink);max-width:34em}
+.facts{display:flex;flex-wrap:wrap;gap:.375rem 1.25rem;font-size:var(--t-sm);color:var(--ink-2)}
+.facts b{font-family:var(--f-latin);font-variant-numeric:tabular-nums;color:var(--ink);font-weight:700;margin-right:.15em}
+.legend{border:1px solid var(--rule);border-radius:10px;background:var(--sheet)}
+.legend summary{cursor:pointer;padding:.75rem 1rem;min-height:3rem;display:flex;align-items:center;font-size:var(--t-sm);font-weight:600}
+.legend-body{padding:0 1rem 1rem;display:grid;gap:.5rem;font-size:var(--t-sm);color:var(--ink-2)}
+.legend dl{margin:0;display:grid;gap:.375rem}
+.legend dl div{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:.75rem}
+.legend dt{color:var(--ink);font-weight:600}
+.legend dd{margin:0;min-width:0}
+
+/* ---------- tabs ---------- */
+.tabs{
+  position:sticky;top:env(safe-area-inset-top,0px);z-index:5;
+  margin-inline:-16px;padding:.5rem 16px;background:var(--paper);
+  border-bottom:1px solid var(--rule);
+}
+.tablist{display:flex;gap:.375rem;overflow-x:auto;scrollbar-width:thin;max-width:46rem;margin-inline:auto;padding-bottom:2px}
+.tab{
+  flex:none;display:inline-flex;align-items:center;gap:.5rem;min-height:2.75rem;padding:.375rem .875rem;
+  border:1.5px solid var(--rule);border-radius:999px;background:var(--sheet);cursor:pointer;
+  font-family:var(--f-display);font-size:1rem;white-space:nowrap;color:var(--ink);
+}
+.tab::before{content:"";width:.7rem;height:.7rem;border-radius:50%;background:var(--hue)}
+.tab[aria-selected="true"]{background:var(--hue-wash);border-color:var(--hue);color:var(--hue-ink)}
+
+/* ---------- disease panel ---------- */
+.panel{padding-block:1.75rem 0;display:grid;gap:1.5rem}
+.p-head{display:grid;gap:.625rem}
+.p-kicker{font-size:var(--t-sm);color:var(--hue-ink);letter-spacing:.04em}
+.p-head h2{font-size:var(--t-h2);color:var(--ink)}
+.p-intro{color:var(--ink-2);max-width:36em}
+.jump{display:flex;flex-wrap:wrap;gap:.375rem}
+.jump button{border:0;background:var(--hue-wash);color:var(--hue-ink);border-radius:999px;padding:.3rem .75rem;min-height:2.25rem;font-size:var(--t-sm);cursor:pointer}
+
+.card{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;box-shadow:var(--shadow);padding:1.25rem 1.125rem;display:grid;gap:1rem;min-width:0;scroll-margin-top:5rem}
+.c-head{display:grid;grid-template-columns:5.25rem minmax(0,1fr);gap:1rem;align-items:center}
+.pic{width:5.25rem;height:5.25rem;border-radius:18px;background:var(--hue-wash);display:grid;place-items:center}
+.pic svg{width:4.25rem;height:4.25rem;display:block}
+.pic .k{fill:none;stroke:var(--hue-ink);stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+.pic .kb{fill:none;stroke:var(--hue);stroke-width:7;stroke-linecap:round}
+.pic .kw{fill:none;stroke:var(--sheet);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.pic .w{fill:var(--sheet);stroke:var(--hue-ink);stroke-width:3.2;stroke-linejoin:round}
+.pic .ts{fill:var(--hue-soft);stroke:var(--hue-ink);stroke-width:3.2;stroke-linejoin:round}
+.pic .a{fill:var(--hue)}
+.pic .t{fill:var(--hue-soft)}
+.pic .wf{fill:var(--sheet)}
+.pic .kf{fill:var(--hue-ink)}
+.pic .n{fill:none;stroke:var(--no);stroke-width:4.5;stroke-linecap:round}
+.pic .nf{fill:var(--no)}
+.c-title{font-size:var(--t-card);color:var(--ink)}
+.c-sum{color:var(--ink-2);font-size:var(--t-sm);margin-top:.25rem}
+.pts{list-style:none;margin:0;padding:0;display:grid;gap:.875rem}
+.pt{display:grid;grid-template-columns:1.375rem minmax(0,1fr);gap:.5rem;align-items:start}
+.pt::before{content:"";width:.6rem;height:.6rem;border-radius:50%;background:var(--hue);margin:.68em 0 0 .3rem}
+.pt-body{display:grid;gap:.2rem;min-width:0}
+.cite{font-size:var(--t-xs);color:var(--ink-3);letter-spacing:.02em}
+.tip{background:var(--tip-wash);border-radius:10px;padding:.75rem .875rem;display:grid;gap:.25rem}
+.tip-l{font-size:var(--t-xs);font-weight:700;color:var(--tip);letter-spacing:.08em}
+.tip p{font-size:1.0625rem}
+
+.myths{display:grid;gap:.75rem}
+.sec-h{font-size:1.375rem;display:flex;align-items:center;gap:.5rem}
+.myth{border-left:4px solid var(--hue);background:var(--sheet);border-radius:0 12px 12px 0;padding:.875rem 1rem;display:grid;gap:.5rem;min-width:0}
+.m-row{display:grid;grid-template-columns:4.25rem minmax(0,1fr);gap:.625rem;align-items:baseline}
+.m-tag{font-size:var(--t-xs);font-weight:700;letter-spacing:.06em;color:var(--ink-3)}
+.m-tag.fact{color:var(--hue-ink)}
+.m-belief{color:var(--ink-2)}
+.seek{background:var(--urgent-wash);border-radius:14px;padding:1rem 1.125rem;display:grid;gap:.625rem}
+.seek h3{color:var(--urgent);font-size:1.25rem;display:flex;align-items:center;gap:.5rem}
+.seek h3::before{content:"!";flex:none;display:grid;place-items:center;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--urgent);color:var(--urgent-wash);font-family:var(--f-latin);font-size:.95rem;font-weight:700}
+.seek ul{list-style:none;margin:0;padding:0;display:grid;gap:.625rem}
+.seek li{display:grid;gap:.15rem}
+.seek .cite{color:var(--ink-2)}
+
+.refs{display:grid;gap:.625rem}
+.refs ol{margin:0;padding-left:1.4em;display:grid;gap:.5rem;font-size:var(--t-sm);color:var(--ink-2)}
+.refs li{overflow-wrap:anywhere}
+.refs .r-short{color:var(--ink);font-weight:600}
+.refs .r-links{display:inline-flex;gap:.75rem;margin-left:.25rem;font-family:var(--f-latin);font-size:var(--t-xs)}
+
+/* review mode */
+.ev,.notes{display:none}
+.review .ev{display:grid;gap:.375rem;margin-top:.375rem;padding:.5rem .625rem;border-radius:8px;background:var(--paper);font-size:var(--t-xs);color:var(--ink-2)}
+.review .notes{display:grid;gap:.5rem;padding:1rem 1.125rem;border:1.5px dashed var(--hue);border-radius:12px;background:var(--sheet);font-size:var(--t-sm)}
+.notes h3{font-size:1.125rem;color:var(--hue-ink)}
+.notes ul{margin:0;padding-left:1.2em;display:grid;gap:.375rem}
+.ev-i{display:grid;gap:.1rem;min-width:0}
+.ev-id{font-family:var(--f-latin);font-weight:600;color:var(--ink)}
+.ev-q{font-family:var(--f-latin);overflow-wrap:anywhere;line-height:1.5}
+.ev-ed{color:var(--tip);font-weight:600}
+.badge-ed{display:none}
+.review .badge-ed{display:inline-block;margin-left:.375rem;padding:0 .4rem;border-radius:4px;background:var(--tip-wash);color:var(--tip);font-size:var(--t-xs)}
+
+/* footer */
+.foot{margin-top:2.5rem;padding-block:1.75rem 1rem;border-top:1px solid var(--rule);display:grid;gap:1rem;font-size:var(--t-sm);color:var(--ink-2)}
+.foot h2{font-size:1.25rem;color:var(--ink)}
+.foot section{display:grid;gap:.5rem}
+.foot ul{margin:0;padding-left:1.2em;display:grid;gap:.3rem}
+.emerg{background:var(--urgent-wash);color:var(--urgent);border-radius:10px;padding:.75rem .875rem;font-weight:600}
+.switch{display:flex;align-items:center;gap:.75rem;cursor:pointer;min-height:3rem;width:fit-content}
+.switch input{width:1.25rem;height:1.25rem;accent-color:var(--brand)}
+.meta{font-size:var(--t-xs);color:var(--ink-3)}
+
+@media (min-width:640px){
+  .card{padding:1.5rem 1.5rem}
+  .c-head{grid-template-columns:6rem minmax(0,1fr)}
+  .pic{width:6rem;height:6rem;border-radius:20px}
+  .pic svg{width:4.75rem;height:4.75rem}
+}
+@media (prefers-reduced-motion:no-preference){
+  .tab,.jump button{transition:background-color .15s ease,border-color .15s ease}
+}
+
+html,body{margin:0;width:1200px;height:630px;overflow:hidden}
+body{padding:0;background:var(--paper);font-family:"Noto Sans CJK TC","Noto Sans TC",sans-serif}
+.og{box-sizing:border-box;width:1200px;height:630px;padding:44px 72px;display:grid;grid-template-columns:1fr 360px;gap:48px;align-items:center}
+.og-e{font-size:30px;color:var(--brand);letter-spacing:.08em}
+.og-t{font-size:104px;line-height:1.15;margin:14px 0 18px;color:var(--ink);font-weight:500}
+.og-s{font-size:30px;color:var(--ink-2);line-height:1.5}
+.og-pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.og-pill{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;border-radius:999px;background:var(--sheet);border:2px solid var(--rule);font-size:24px;color:var(--ink)}
+.og-pill::before{content:"";width:14px;height:14px;border-radius:50%;background:var(--hue)}
+.og-x{font-size:24px;color:var(--ink-2);margin-top:18px}
+.og-grid{display:grid;grid-template-columns:repeat(3,108px);gap:18px}
+.og-grid .pic{width:108px;height:108px;border-radius:24px}
+.og-grid .pic svg{width:84px;height:84px}
+</style></head><body><div class="og">
+<div><div class="og-e">風濕免疫科門診衛教</div><div class="og-t">生活照護圖解</div>
+<div class="og-s">每一則建議都附上臨床指引出處與建議強度</div>
+<div class="og-pills">
+<span class="og-pill" data-d="gout">痛風</span><span class="og-pill" data-d="urticaria">慢性蕁麻疹</span><span class="og-pill" data-d="ra">類風濕性關節炎</span><span class="og-pill" data-d="axspa">僵直性脊椎炎</span><span class="og-pill" data-d="sle">紅斑性狼瘡</span><span class="og-pill" data-d="sjogren">乾燥症</span><span class="og-pill" data-d="oa">退化性關節炎</span><span class="og-pill" data-d="osteoporosis">骨質疏鬆症</span>
+</div>
+<div class="og-x">也說明：看懂健檢報告、治療期間防感染</div></div>
+<div class="og-grid" id="g"></div></div>
+<script>const WALK = '<circle class="a" cx="40" cy="16" r="7"/><path class="k" d="M40 25 L38 49 M39 31 L28 42 M39 31 L51 39 M38 49 L29 67 L25 77 M38 49 L48 63 L54 75"/>';
+  const NOSMOKE = '<circle class="wf" cx="48" cy="48" r="32"/><rect class="w" x="20" y="43" width="42" height="10" rx="2"/><rect class="a" x="62" y="43" width="11" height="10" rx="2"/><path class="k" d="M30 40 q-4 -4 0 -8 q4 -4 0 -8"/><circle class="n" cx="48" cy="48" r="32"/><path class="n" d="M25.4 25.4 L70.6 70.6"/>';
+  const PLATE = (cx, cy, r) => `<circle class="w" cx="${cx}" cy="${cy}" r="${r}"/><circle class="k" cx="${cx}" cy="${cy}" r="${Math.round(r * 0.64)}"/>`;
+  const LEAF = (x, y) => `<path class="a" d="M${x} ${y} c3 -9 12 -13 18 -11 c-1 8 -9 14 -18 11z"/><path class="kw" style="stroke-width:2" d="M${x + 2} ${y - 1} L${x + 14} ${y - 8}"/>`;
+  const HEART = (x, y) => `<path class="a" d="M${x} ${y} l-7 -7 c-4 -4 1 -10 5 -6 l2 2 l2 -2 c4 -4 9 2 5 6z"/>`;
+  const SUN = (cx, cy, r) => {
+    const rays = [0, 45, 90, 135, 180, 225, 270, 315].map((a) => {
+      const t = a * Math.PI / 180, r1 = r + 4, r2 = r + 9;
+      return `M${(cx + r1 * Math.cos(t)).toFixed(1)} ${(cy + r1 * Math.sin(t)).toFixed(1)} L${(cx + r2 * Math.cos(t)).toFixed(1)} ${(cy + r2 * Math.sin(t)).toFixed(1)}`;
+    }).join(' ');
+    return `<circle class="a" cx="${cx}" cy="${cy}" r="${r}"/><path class="k" d="${rays}"/>`;
+  };
+  const GLASS = (x, y, w, h) => `<path class="w" d="M${x} ${y} h${w} l-${w * 0.14} ${h} h-${w * 0.72} z"/><path class="t" d="M${x + w * 0.1} ${y + h * 0.32} h${w * 0.8} l-${w * 0.09} ${h * 0.6} h-${w * 0.62} z"/>`;
+  const ICONS = {
+    'common-activity': WALK + '<path class="k" d="M62 80 H84"/><rect class="a" x="59" y="73" width="7" height="14" rx="2"/><rect class="a" x="80" y="73" width="7" height="14" rx="2"/>',
+    'common-smoking': NOSMOKE,
+    'common-diet': PLATE(40, 42, 25) + LEAF(32, 42) + '<rect class="w" x="56" y="62" width="32" height="22" rx="5"/><path class="k" d="M64 74 a8 8 0 0 1 16 0 M72 74 L76 69"/>',
+    'common-bone': '<g transform="rotate(-28 40 40)"><circle class="w" cx="20" cy="33" r="7"/><circle class="w" cx="20" cy="47" r="7"/><circle class="w" cx="60" cy="33" r="7"/><circle class="w" cx="60" cy="47" r="7"/><rect class="wf" x="19" y="34.6" width="42" height="10.8"/><path class="k" d="M25 34 H55 M25 46 H55"/></g>' + GLASS(62, 46, 24, 38),
+    'common-vaccine': '<g transform="rotate(-40 46 46)"><rect class="w" x="24" y="38" width="40" height="16" rx="3"/><rect class="t" x="27.5" y="41.5" width="20" height="9" rx="1.5"/><path class="k" d="M64 46 H76 M76 37 V55 M24 46 H10 M35 38 v5 M43 38 v5 M51 38 v5"/></g><path class="a" d="M72 58 l13 5 v9 c0 8 -6 12 -13 15 c-7 -3 -13 -7 -13 -15 v-9 z"/><path class="kw" d="M66 72 l4 4 l8 -8"/>',
+    'common-uv': SUN(26, 26, 10) + [10, 16, 22, 28, 34].map((h, i) => `<rect class="a" x="${40 + i * 10}" y="${86 - h}" width="8" height="${h}" rx="2" style="opacity:${(0.35 + i * 0.16).toFixed(2)}"/>`).join(''),
+    'gout-drinks': '<rect class="w" x="12" y="40" width="28" height="42" rx="3"/><path class="t" d="M15.5 50 h21 v29 h-21z"/><path class="k" d="M40 49 h6 a6 6 0 0 1 6 6 v10 a6 6 0 0 1 -6 6 h-6"/><path class="w" d="M56 42 h28 l-4 40 h-20 z"/><path class="t" d="M58.8 54 h22.4 l-2.6 25 h-17.2z"/><path class="k" d="M74 42 L81 24"/><circle class="a" cx="46" cy="22" r="11"/><path class="kw" d="M40 22 H52"/>',
+    'gout-food': '<circle class="w" cx="42" cy="50" r="30"/><path class="k" d="M42 22 V78 M42 50 H70"/>' + LEAF(20, 42) + LEAF(22, 60) + '<ellipse class="t" cx="52" cy="38" rx="4" ry="2.6"/><ellipse class="t" cx="60" cy="33" rx="4" ry="2.6"/><ellipse class="t" cx="61" cy="42" rx="4" ry="2.6"/><circle class="t" cx="53" cy="61" r="3.6"/><circle class="t" cx="61" cy="58" r="3.6"/><circle class="t" cx="58" cy="67" r="3.6"/>' + GLASS(76, 52, 16, 30),
+    'gout-weight': '<rect class="w" x="10" y="50" width="42" height="34" rx="7"/><path class="k" d="M21 64 a10 10 0 0 1 20 0 M31 64 L35 58"/><path class="k" d="M56 26 H64 V38 H72 V50 H80 V62 H88"/><path class="k" d="M58 70 L84 70 M78 64 L84 70 L78 76"/>',
+    'gout-flare': '<rect class="t" x="8" y="62" width="62" height="18" rx="9"/><path class="w" d="M2 48 H48 C56 48 60 44 66 42 C74 40 82 44 82 51 C82 57 76 61 66 61 H2 Z"/><circle class="a" cx="72" cy="50" r="7" style="opacity:.35"/><rect class="a" x="54" y="20" width="24" height="16" rx="4"/><path class="kw" d="M66 23 v10 M61.7 25.5 l8.6 5 M61.7 30.5 l8.6 -5"/>',
+    'gout-checkup': '<rect class="w" x="22" y="16" width="52" height="68" rx="6"/><rect class="a" x="36" y="10" width="24" height="12" rx="4"/>' + HEART(38, 52) + '<path class="t" d="M60 32 c-8 0 -10 10 -6 16 c3 5 2 6 0 8 c4 4 12 2 13 -8 c1 -10 -2 -16 -7 -16z"/><path class="k" d="M32 68 H64 M32 75 H54"/>',
+    'urticaria-triggers': '<g transform="rotate(-35 30 62)"><rect class="w" x="12" y="54" width="36" height="16" rx="8"/><path class="a" d="M30 54 h10 a8 8 0 0 1 0 16 h-10z"/></g><path class="w" d="M50 36 a10 10 0 0 1 19 -4 a8 8 0 0 1 13 7 a7 7 0 0 1 -2 14 h-28 a8 8 0 0 1 -2 -17z"/><path class="a" d="M66 46 l-5 9 h6 l-4 9 l10 -12 h-6 l4 -6z"/><circle class="t" cx="72" cy="76" r="8"/><path class="k" d="M72 63 v4 M72 85 v4 M59 76 h4 M81 76 h4 M63 67 l3 3 M78 82 l3 3 M81 67 l-3 3 M63 85 l3 -3"/>',
+    'urticaria-inducible': '<path class="k" d="M24 10 V42 M10 18 L38 34 M10 34 L38 18 M19 12 l5 4 l5 -4 M19 40 l5 -4 l5 4"/>' + SUN(72, 24, 8) + '<rect class="w" x="26" y="58" width="44" height="28" rx="5"/><path class="kb" d="M38 58 C38 44 58 44 58 58"/>',
+    'urticaria-diet': PLATE(40, 54, 28) + LEAF(32, 54) + '<path class="k" d="M80 20 L76 86 M88 20 L83 86"/><circle class="a" cx="64" cy="22" r="12"/><path class="kw" d="M58 22 l4 4 l8 -8"/>',
+    'urticaria-antihistamines': '<rect class="w" x="7" y="46" width="82" height="26" rx="5"/><path class="k" d="M18.7 46 v26 M30.4 46 v26 M42.1 46 v26 M53.9 46 v26 M65.6 46 v26 M77.3 46 v26"/>' + [12.9, 24.6, 36.3, 48].map((x) => `<circle class="a" cx="${x}" cy="59" r="3.6"/><path class="k" d="M${x - 4} 32 l3 3 l5 -6"/>`).join(''),
+    'urticaria-diary': '<rect class="w" x="28" y="8" width="40" height="80" rx="7"/><rect class="t" x="33" y="18" width="30" height="54" rx="2"/><circle class="a" cx="48" cy="13" r="2"/>' + [[36, 18], [42, 30], [48, 12], [54, 24]].map(([x, h]) => `<rect class="a" x="${x}" y="${68 - h}" width="4.5" height="${h}" rx="1"/>`).join('') + '<path class="k" d="M42 80 H54"/>',
+    'ra-exercise': '<circle class="a" cx="46" cy="15" r="7"/><path class="k" d="M46 24 L46 50 M46 32 L27 29 M46 32 L65 27 M46 50 L35 64 L37 76 M46 50 L58 61 L66 69"/><path class="k" d="M6 86 q8 -6 16 0 t16 0 t16 0 t16 0 t16 0"/>',
+    'ra-hands': '<rect class="w" x="34" y="16" width="8.5" height="30" rx="4.2"/><rect class="w" x="43.5" y="11" width="8.5" height="35" rx="4.2"/><rect class="w" x="53" y="13" width="8.5" height="33" rx="4.2"/><rect class="w" x="62.5" y="19" width="8" height="27" rx="4"/><rect class="w" x="20" y="38" width="9" height="24" rx="4.5" transform="rotate(-35 24.5 50)"/><rect class="w" x="31" y="38" width="40" height="30" rx="10"/><rect class="a" x="31" y="64" width="40" height="18" rx="4"/><path class="kw" d="M31 70 H71 M31 76 H71"/>',
+    'ra-diet': '<path class="w" d="M18 86 V52 q0 -9 7 -13 V26 h9 v13 q7 4 7 13 V86 z"/><path class="t" d="M21.2 60 h16.6 v23 h-16.6z"/><path class="w" d="M46 66 q15 -15 31 0 q-16 15 -31 0 z"/><path class="w" d="M77 66 l11 -9 v18 z"/><circle class="kf" cx="54" cy="64" r="2"/><path class="a" d="M50 38 q14 -20 32 -6 q-15 16 -32 6z"/><path class="kw" d="M53 37 q13 -4 25 -6"/>',
+    'ra-smoking-alcohol': '<g transform="translate(-4 14) scale(.6)">' + NOSMOKE + '</g><path class="w" d="M58 16 h26 q0 24 -13 26 q-13 -2 -13 -26z"/><path class="t" d="M59.6 25 h22.8 q-1.6 14 -11.4 15 q-9.8 -1 -11.4 -15z"/><path class="k" d="M71 42 V72 M60 76 H82"/>',
+    'ra-fatigue-work': '<circle class="a" cx="40" cy="30" r="7"/><path class="k" d="M40 38 L43 54 H60 M60 54 L62 72 M30 34 V58 H66 M34 58 V82 M62 58 V82"/><rect class="w" x="62" y="12" width="24" height="13" rx="2"/><rect class="a" x="64.5" y="14.5" width="6.5" height="8" rx="1"/><rect class="a" x="86.5" y="16" width="3" height="5" rx="1"/>',
+    'axspa-exercise': '<circle class="a" cx="48" cy="15" r="7"/><path class="k" d="M48 24 Q44 39 48 54 M47 31 L32 19 M49 31 L64 19 M48 54 L40 80 M48 54 L56 80 M24 85 H72"/><path class="k" d="M74 52 a18 18 0 0 0 -4 -22 M70 30 l1 7 M70 30 l7 1"/>',
+    'axspa-smoking': NOSMOKE,
+    'axspa-spine': '<path class="t" d="M48 6 l32 11 v23 c0 23 -15 37 -32 46 c-17 -9 -32 -23 -32 -46 v-23 z"/>' + [16, 27, 38, 49, 60, 71].map((y) => `<rect class="w" x="36" y="${y}" width="24" height="8" rx="3"/>`).join(''),
+    'axspa-eye': '<path class="w" d="M8 50 q40 -34 80 0 q-40 34 -80 0z"/><circle class="a" cx="48" cy="50" r="13"/><circle class="kf" cx="48" cy="50" r="5"/><path class="nf" d="M78 6 l13 22 h-26 z"/><path class="kw" d="M78 13 v7 M78 24 v.5"/>',
+    'axspa-support': '<path class="w" d="M10 80 q14 -26 30 0z"/><path class="w" d="M56 80 q14 -26 30 0z"/><path class="w" d="M30 84 q18 -32 36 0z"/><circle class="t" cx="25" cy="46" r="8"/><circle class="t" cx="71" cy="46" r="8"/><circle class="a" cx="48" cy="40" r="9"/><path class="w" d="M58 6 h26 a6 6 0 0 1 6 6 v9 a6 6 0 0 1 -6 6 h-15 l-7 6 v-6 h-4 a6 6 0 0 1 -6 -6 v-9 a6 6 0 0 1 6 -6z"/><circle class="a" cx="64" cy="16.5" r="2.3"/><circle class="a" cx="71" cy="16.5" r="2.3"/><circle class="a" cx="78" cy="16.5" r="2.3"/>',
+    'sle-sun': SUN(74, 20, 8) + '<ellipse class="t" cx="38" cy="62" rx="32" ry="9"/><path class="w" d="M22 60 q2 -24 16 -24 q14 0 16 24z"/><path class="a" d="M23 53 h30 l.6 7 h-31.2z"/><g transform="rotate(24 76 70)"><rect class="w" x="68" y="54" width="16" height="32" rx="3"/><rect class="a" x="70" y="48" width="12" height="7" rx="2"/></g>',
+    'sle-smoking': NOSMOKE,
+    'sle-exercise': WALK + '<path class="a" d="M64 62 v-10 a7 7 0 0 1 14 0 v13 a7 7 0 0 1 -7 7 h0 a7 7 0 0 1 -7 -7z"/><path class="a" d="M64 63 l-5 -4 a3.5 3.5 0 0 1 5 -5"/><rect class="w" x="63" y="70" width="16" height="7" rx="2"/><path class="k" d="M80 12 V30 M72 16.5 L88 25.5 M72 25.5 L88 16.5"/>',
+    'sle-fatigue-mood': '<rect class="t" x="6" y="56" width="64" height="20" rx="6"/><rect class="t" x="6" y="44" width="13" height="32" rx="5"/><circle class="a" cx="27" cy="47" r="7"/><rect class="w" x="34" y="44" width="34" height="13" rx="6"/><circle class="w" cx="76" cy="24" r="14"/>' + HEART(76, 31),
+    'sle-diet-checkup': PLATE(32, 58, 24) + LEAF(25, 57) + '<circle class="w" cx="72" cy="28" r="16"/><path class="k" d="M62 32 a10 10 0 0 1 20 0 M72 32 L78 24 M72 44 q0 18 -10 26"/><rect class="t" x="56" y="70" width="12" height="14" rx="3"/>',
+    'sle-pregnancy': '<rect class="w" x="14" y="20" width="68" height="62" rx="6"/><path class="a" d="M14 26 a6 6 0 0 1 6 -6 h56 a6 6 0 0 1 6 6 v8 h-68z"/><path class="k" d="M30 13 V27 M66 13 V27"/>' + [0, 1, 2, 3].map((c) => [0, 1, 2].map((r) => (c === 3 && r === 2) ? '' : `<rect class="t" x="${22 + c * 14}" y="${42 + r * 12}" width="8" height="7" rx="1.5"/>`).join('')).join('') + HEART(68, 75),
+    'sjogren-eyes': '<path class="ts" d="M48 6 q13 17 13 25 a13 13 0 0 1 -26 0 q0 -8 13 -25z"/><path class="w" d="M8 62 q40 -30 80 0 q-40 30 -80 0z"/><circle class="a" cx="48" cy="62" r="11"/><circle class="kf" cx="48" cy="62" r="4.5"/>',
+    'sjogren-mouth': '<path class="w" d="M16 30 c0 -10 10 -14 18 -10 c4 2 8 2 12 0 c8 -4 18 0 18 10 c0 12 -6 18 -8 30 c-1 8 -3 18 -8 18 c-5 0 -5 -14 -9 -14 c-4 0 -4 14 -9 14 c-5 0 -7 -10 -8 -18 c-2 -12 -6 -18 -6 -30z"/><path class="k" d="M24 30 c1 -5 6 -7 10 -5"/>' + GLASS(70, 40, 20, 44),
+    'sjogren-medicines': '<rect class="w" x="14" y="36" width="36" height="48" rx="5"/><rect class="a" x="11" y="26" width="42" height="12" rx="3"/><rect class="t" x="21" y="50" width="22" height="18" rx="2"/><g transform="rotate(-30 70 70)"><rect class="w" x="56" y="64" width="28" height="12" rx="6"/><path class="a" d="M70 64 h8 a6 6 0 0 1 0 12 h-8z"/></g><path class="w" d="M58 6 h26 a6 6 0 0 1 6 6 v10 a6 6 0 0 1 -6 6 h-15 l-7 6 v-6 h-4 a6 6 0 0 1 -6 -6 v-10 a6 6 0 0 1 6 -6z"/><circle class="a" cx="64" cy="17" r="2.3"/><circle class="a" cx="71" cy="17" r="2.3"/><circle class="a" cx="78" cy="17" r="2.3"/>',
+    'sjogren-fatigue': WALK + '<circle class="w" cx="74" cy="24" r="14"/><path class="k" d="M74 15 V24 L80 28"/>'
+  };
+  
+const pick=[['gout','gout-food'],['urticaria','urticaria-diary'],['ra','ra-hands'],['axspa','axspa-spine'],['sle','sle-sun'],['sjogren','sjogren-eyes'],['common','common-activity'],['sle','sle-pregnancy'],['gout','gout-flare']];
+document.getElementById('g').innerHTML=pick.map(([d,id])=>`<div class="pic" data-d="${d}"><svg viewBox="0 0 96 96">${ICONS[id]}</svg></div>`).join('');
+</script></body></html>

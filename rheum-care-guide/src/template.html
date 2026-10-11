@@ -342,7 +342,7 @@ h1{font-size:var(--t-h1)}
   </header>
 </div>
 
-<nav class="tabs" aria-label="選擇疾病">
+<nav class="tabs" aria-label="選擇頁面">
   <div class="tablist" role="tablist" id="tablist"></div>
 </nav>
 
@@ -399,7 +399,7 @@ h1{font-size:var(--t-h1)}
   G.cats.forEach((c) => { CATN[c.id] = c.name; });
   const TABS = ORDER.concat(['glossary']);
   const TOPICS = ['labs', 'infection'];
-  const KICKER = { common: '六種疾病都適用', labs: '看懂檢查報告', infection: '治療期間的照護' };
+  const KICKER = { common: '各疾病都可參考', labs: '看懂檢查報告', infection: '治療期間的照護' };
   const valid = (s) => s === 'glossary' || Object.prototype.hasOwnProperty.call(D, s);
   const $ = (id) => document.getElementById(id);
   const esc = (t) => String(t == null ? '' : t).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -835,7 +835,7 @@ h1{font-size:var(--t-h1)}
     const totals = ORDER.reduce((a, s) => { a.cards += D[s].cards.length; return a; }, { cards: 0 });
     const srcSet = new Set();
     ORDER.forEach((s) => D[s].sources.forEach((x) => srcSet.add((x.doi || x.url || x.citation).toLowerCase())));
-    $('facts').innerHTML = `<span><b>${ORDER.filter((x) => x !== 'common' && !TOPICS.includes(x)).length}</b>種常見疾病＋共通照護${ORDER.some((x) => TOPICS.includes(x)) ? `＋<b>${ORDER.filter((x) => TOPICS.includes(x)).length}</b>個主題` : ''}</span><span><b>${totals.cards}</b>張照護卡</span><span><b>${DATA.meta.statements}</b>則建議</span><span><b>${srcSet.size}</b>份指引與研究</span><span><b>${G.meta.n}</b>個名詞解釋</span>`;
+    $('facts').innerHTML = `<span><b>${ORDER.filter((x) => x !== 'common' && !TOPICS.includes(x)).length}</b>種常見疾病${ORDER.some((x) => TOPICS.includes(x)) ? `＋<b>${ORDER.filter((x) => TOPICS.includes(x)).length}</b>個主題` : ''}＋共通照護</span><span><b>${totals.cards}</b>張照護卡</span><span><b>${DATA.meta.statements}</b>則建議</span><span><b>${srcSet.size}</b>份指引與研究</span><span><b>${G.meta.n}</b>個名詞解釋</span>`;
     $('nStmt').textContent = DATA.meta.statements;
     $('nQuote').textContent = DATA.meta.quotes;
     $('gN').textContent = G.meta.n;

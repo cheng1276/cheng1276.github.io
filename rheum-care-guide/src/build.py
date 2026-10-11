@@ -36,8 +36,8 @@ URL_FIX = {
     ('gout', 'S12'): 'https://mymahtas2.moh.gov.my/files/e-CPG_Management_of_Gout_(Second_Edition)%20(3).pdf',
 }
 
-DESCRIPTION = ('痛風、慢性蕁麻疹、類風濕性關節炎、僵直性脊椎炎、紅斑性狼瘡、乾燥症與共通照護的生活照護建議，'
-               '每則都附臨床指引出處與建議強度。')
+DESCRIPTION = ('痛風、類風濕性關節炎、紅斑性狼瘡、退化性關節炎、骨質疏鬆症等風濕免疫科常見疾病的生活照護，'
+               '以及看懂健檢報告、治療期間防感染；每則都附臨床指引出處與建議強度。')
 
 FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E"
            "%3Crect width='64' height='64' rx='14' fill='%230c6a5e'/%3E"

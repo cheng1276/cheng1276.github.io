@@ -1,6 +1,6 @@
 # 共通照護（common）
 
-簡介：健康的生活習慣可以搭配治療，但不能取代治療。這頁整理六種疾病都可參考的基本生活照護。
+簡介：健康的生活習慣可以搭配治療，但不能取代治療。這頁整理各疾病都可參考的基本生活照護。
 
 | 編號 | 位置 | 網站文字 | 強度標示 | 依據（C-ID / S-ID：原文） |
 |---|---|---|---|---|
@@ -55,3 +55,4 @@
 - **S12** WHO 2022 紫外線指數問答 — World Health Organization. Radiation: The ultraviolet (UV) index – Questions and answers. 20 June 2022. PMID: —; DOI: —; URL: https://www.who.int/news-room/questions-and-answers/item/radiation-the-ultraviolet-(uv)-index
 - **S13** 中央氣象署 紫外線觀測頁 — 交通部中央氣象署（Central Weather Administration, Taiwan）. 紫外線觀測. Accessed 2026-10-06. PMID: —; DOI: —; URL: https://www.cwa.gov.tw/V8/C/W/OBS_UVI.html
 - **S17** EULAR 2024 狼瘡與全身性硬化症非藥物建議 — Parodis I et al. EULAR recommendations for the non-pharmacological management of systemic lupus erythematosus and systemic sclerosis. Ann Rheum Dis 2024;83(6):720–729. PMID: 37433575; DOI: 10.1136/ard-2023-224416; URL: —
+- **S21** IDST 2024 台灣成人帶狀疱疹疫苗建議 — Lin KY et al. Recommendations and guidance for herpes zoster vaccination for adults in Taiwan. J Microbiol Immunol Infect 2024;57(5):669–684. PMID: 38987064; DOI: 10.1016/j.jmii.2024.06.001; URL: —
