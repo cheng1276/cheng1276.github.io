@@ -420,7 +420,7 @@
      "sid": "CM-4.4"
     },
     {
-     "text": "戒菸，並限制飲酒；這不是鼓勵喝酒，能不能喝請和醫師討論。",
+     "text": "戒菸，並限制飲酒。",
      "strength_label": "ACR 2022・建議",
      "evidence": [
       {
@@ -429,13 +429,6 @@
        "quote": "Lifestyle modifications include smoking cessation, limiting alcohol to ≤2 servings a day, eating a balanced diet, maintaining weight in the recommended range, and performing regular weight-bearing or resistance training exercises.",
        "strength": "Part of the conditional recommendation (low/very low certainty)",
        "confidence": "High"
-      },
-      {
-       "c": "EDITORIAL",
-       "s": "",
-       "quote": "",
-       "strength": "Editorial safety phrase 「這不是鼓勵喝酒，能不能喝請和醫師討論」; ACR's \"≤2 servings a day\" ceiling is not printed because \"serving\" is undefined",
-       "confidence": "EDITORIAL"
       }
      ],
      "sid": "CM-4.5"
