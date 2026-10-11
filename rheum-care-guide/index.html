@@ -275,7 +275,8 @@ h1{font-size:var(--t-h1)}
 .foot h2{font-size:1.25rem;color:var(--ink)}
 .foot section{display:grid;gap:.5rem}
 .foot ul{margin:0;padding-left:1.2em;display:grid;gap:.3rem}
-.emerg{background:var(--urgent-wash);color:var(--urgent);border-radius:10px;padding:.75rem .875rem;font-weight:600}
+.notice{background:var(--urgent-wash);color:var(--urgent);border-radius:10px;padding:.75rem .875rem;font-weight:600}
+.foot .notice h2{color:inherit}
 .switch{display:flex;align-items:center;gap:.75rem;cursor:pointer;min-height:3rem;width:fit-content}
 .switch input{width:1.25rem;height:1.25rem;accent-color:var(--brand)}
 .meta{font-size:var(--t-xs);color:var(--ink-3)}
@@ -355,8 +356,8 @@ h1{font-size:var(--t-h1)}
   <main id="panel" class="panel" role="tabpanel" aria-live="polite"></main>
 
   <footer class="foot">
-    <p class="emerg">緊急狀況請不要等回診：呼吸困難、胸痛、意識不清，或舌頭、喉嚨腫起來，請直接撥打 119 或到急診。</p>
-    <section>
+    <p>緊急狀況請不要等回診：呼吸困難、胸痛、意識不清，或舌頭、喉嚨腫起來，請直接撥打 119 或到急診。</p>
+    <section class="notice">
       <h2>使用前請先了解</h2>
       <ul>
         <li>這裡提供一般衛教資訊，不能取代醫師診療，也不提供個別的診斷或用藥建議。</li>
