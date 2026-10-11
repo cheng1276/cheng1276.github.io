@@ -637,7 +637,7 @@
   {
    "id": "infection-sick",
    "title": "生病時與日常防護",
-   "summary": "學會辨認感染，生病時盡快聯絡醫療團隊，並詢問飲食衛生建議。",
+   "summary": "學會辨認感染，生病時盡快就醫，並詢問飲食衛生建議。",
    "illustration": "An adult preparing food on a clean kitchen counter, and the same adult talking on the phone with a nurse; flat, friendly style; no text, no brands.",
    "points": [
     {
@@ -691,7 +691,7 @@
     }
    ],
    "tip": {
-    "text": "生病時請盡快聯絡醫療團隊；藥物要不要暫停或調整，由醫師決定；類固醇不可自行突然停用。",
+    "text": "生病時請盡快就醫；藥物要不要暫停或調整，由醫師決定；類固醇不可自行突然停用。",
     "strength_label": "編輯加註・安全提醒",
     "evidence": [
      {
