@@ -210,6 +210,8 @@ POST = {
     'antihistamine': {
         'term': '抗組織胺',
         'aliases': ['較不會嗜睡的抗組織胺', '抗組織胺'],
+        'example': '第二代例如 cetirizine、desloratadine',
+        'supports_replace': [('example: cetirizine、loratadine', 'example: cetirizine、desloratadine')],
     },
     'ult': {'access_fix': {'0': 'PMC abstract'}},
     'flare-medicine': {'def': '痛風發作時用來壓下關節發炎和疼痛的藥，第一線是 colchicine（秋水仙素）、消炎止痛藥（NSAIDs）或類固醇；發作後及早使用效果較好。',

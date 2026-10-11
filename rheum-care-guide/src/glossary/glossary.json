@@ -4187,7 +4187,7 @@
     "抗組織胺"
    ],
    "def": "抗組織胺是常用來治療蕁麻疹和過敏性鼻炎的抗過敏藥。舊的第一代容易讓人想睡；新的第二代很少或不會讓人想睡，是蕁麻疹的第一線用藥。",
-   "example": "第二代例如 cetirizine、loratadine",
+   "example": "第二代例如 cetirizine、desloratadine",
    "note": "全身性（口服）抗組織胺是研究列出可能造成口乾的藥物類別之一。",
    "label": "GALEN 2026・指引說明",
    "scope": "card",
@@ -4268,7 +4268,7 @@
      "pmid": "41649409",
      "doi": "10.1111/all.70210",
      "pmcid": "PMC13466004",
-     "supports": "example: cetirizine、loratadine"
+     "supports": "example: cetirizine、desloratadine"
     },
     {
      "quote": "Nonsedating 2nd generation H‐antihistamines, for example, should be used daily, to prevent the occurrence of wheals and angioedema, rather than on demand.",
