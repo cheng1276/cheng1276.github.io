@@ -374,7 +374,7 @@
   {
    "id": "osteoporosis-spine",
    "title": "保護脊椎",
-   "summary": "彎腰時背挺直；脊椎骨折後不要久躺，逐步運動。",
+   "summary": "彎腰或搬東西時保持上背挺直，反覆用力前彎要小心。",
    "illustration": "An older adult lifting a small box from the floor by bending at the hips and knees with a straight upper back, holding the box close to the body; flat, friendly style, no text, no brands.",
    "points": [
     {
@@ -425,113 +425,9 @@
       }
      ],
      "sid": "OP-4.2"
-    },
-    {
-     "text": "脊椎骨折後，避免長時間臥床不動；醫師建議臥床時，每天仍要分幾次坐起來、走動，每次30到60分鐘。",
-     "strength_label": "BHOF 2022・指引說明",
-     "evidence": [
-      {
-       "c": "C51",
-       "s": "S3",
-       "quote": "If bed rest is recommended, a few 30- to 60-min periods each day of sitting upright and walking around are valuable to avoid stiffness and prevent loss of bone and muscle tissue. Prolonged inactivity should be avoided.",
-       "strength": "Not graded (\"If bed rest is recommended\" is rendered 「醫師建議臥床時」; the preceding bracing clause, which conflicts with NOGG, is not quoted or used)",
-       "confidence": "High"
-      },
-      {
-       "c": "C53",
-       "s": "S7",
-       "quote": "Immobilised patients when confined to bed may lose as much bone in a week than they would otherwise lose in a year.",
-       "strength": "Narrative (supporting reason; grammar as printed)",
-       "confidence": "High"
-      }
-     ],
-     "sid": "OP-4.3"
-    },
-    {
-     "text": "脊椎骨折後，在物理治療師指導下，循序漸進做背部肌肉的強化運動。",
-     "strength_label": "NOGG 2024・強烈建議",
-     "evidence": [
-      {
-       "c": "C49",
-       "s": "S1",
-       "quote": "It is recommended that exercise programmes following vertebral fracture include progressive muscle strengthening activity, including back extensor muscle strengthening and/or endurance exercise (Strong recommendation).",
-       "strength": "Strong",
-       "confidence": "High"
-      },
-      {
-       "c": "C49",
-       "s": "S1",
-       "quote": "Physiotherapist supervised exercise following vertebral fracture improves pain and physical performance []; (Evidence level Ib).",
-       "strength": "Narrative; Evidence level Ib",
-       "confidence": "High"
-      },
-      {
-       "c": "C50",
-       "s": "S16",
-       "quote": "Daily exercises to strengthen back muscles (with a focus on endurance by exercising at low intensity), reduce muscle spasm, relieve pain, improve flexibility, and promote best possible posture are recommended with a referral to a physiotherapist for tailored advice.",
-       "strength": "[C] expert consensus",
-       "confidence": "High"
-      }
-     ],
-     "sid": "OP-4.4"
-    },
-    {
-     "text": "曾有脊椎骨折或多次輕微外傷骨折的人，衝擊性運動（例如慢跑、跳躍）一般以快走的程度為上限；想加強運動前，先請醫療人員評估。",
-     "strength_label": "英國骨鬆運動共識 2022・專家共識；NOGG 2024・指引說明",
-     "evidence": [
-      {
-       "c": "C37",
-       "s": "S16",
-       "quote": "Impact exercise on most days at a level up to brisk walking is recommended, aiming for 150 minutes over the week (20 min per day). This a precautionary measure because of theoretical (unproved) risks of further vertebral fracture in this group. [C]",
-       "strength": "[C] expert consensus. Population (people with vertebral fractures or multiple low-trauma fractures) comes from the Box 1 sub-heading, whose dropped words the evidence file confirmed and the fact-check verified in the abstract",
-       "confidence": "High"
-      },
-      {
-       "c": "C89",
-       "s": "S16",
-       "quote": "People with vertebral fracture or multiple low trauma fractures should usually exercise only up to an impact equivalent to brisk walking.",
-       "strength": "Abstract; confirms the population and is the source of 「一般」 (\"usually\"). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-4.5); the verifier read it in the original publication",
-       "confidence": "High"
-      },
-      {
-       "c": "C37",
-       "s": "S16",
-       "quote": "Moderate impact exercise is recommended on most days to promote bone strength (eg, stamping, jogging, low-level jumping, hopping) to include at least 50 impacts per session (jogs, hops etc). [C]",
-       "strength": "[C] expert consensus. Quoted only for its examples of impact exercise (慢跑、跳躍); this sentence is SSS advice for people WITHOUT vertebral fractures",
-       "confidence": "High"
-      },
-      {
-       "c": "C44",
-       "s": "S1",
-       "quote": "People at risk of falls, or with vertebral fractures, may need more specific advice and assessment before increasing exercise intensity [].",
-       "strength": "Narrative (no grade)",
-       "confidence": "High"
-      }
-     ],
-     "sid": "OP-4.5"
     }
    ],
-   "tip": {
-    "text": "脊椎骨折後如果還在痛，背部肌肉的運動可以先躺著做。",
-    "strength_label": "NOGG 2024・建議",
-    "evidence": [
-     {
-      "c": "C49",
-      "s": "S1",
-      "quote": "When a patient is in pain, it may be advisable to initially perform exercise for back extensors in an unloaded position (Conditional recommendation).",
-      "strength": "Conditional",
-      "confidence": "High"
-     },
-     {
-      "c": "C49",
-      "s": "S1",
-      "quote": "In the presence of pain, it may be advisable to initially perform exercise for back extensors in an unloaded position, such as supine []; (Evidence level Ia).",
-      "strength": "Narrative; Evidence level Ia",
-      "confidence": "High"
-     }
-    ],
-    "sid": "OP-4.T"
-   }
+   "tip": null
   },
   {
    "id": "osteoporosis-falls",
