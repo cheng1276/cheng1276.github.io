@@ -7,7 +7,7 @@ silently.
 Why these changes: drug-allergy exception for urate-lowering drugs (Taiwan Ministry of Health and Welfare
 allopurinol notice, 2014-12-16); emergency lines that name 119; sentences that promised what a reader's
 doctor "will" do (「醫師會…」), now attributed to the guideline or framed as a discussion; and small wording
-fixes. Safety phrases with no quoted source (for example 「請立刻撥打 119」, 「請當天就看眼科」) are editorial,
+fixes; and (requested later the same day) 「醫療團隊」 replaced by 「醫師」. Safety phrases with no quoted source (for example 「請立刻撥打 119」, 「請當天就看眼科」) are editorial,
 as on the disease pages.
 """
 import re
@@ -97,8 +97,10 @@ CHANGES = {
                  '指引的「不建議」只針對治療類風濕性關節炎；有些人可能因其他疾病、宗教或個人選擇而採用。'),
     },
     'flare-plan': {
+        'def': ('發作計畫是和醫療團隊討論後，依您的需要、偏好和生活情況擬定的「病情發作時怎麼辦」計畫。',
+                '發作計畫是和醫師討論後，依您的需要、偏好和生活情況擬定的「病情發作時怎麼辦」計畫。'),
         'example': ('內容可包括聯絡誰、自我照護、疼痛與疲倦處理，以及醫療團隊說明的可能藥物調整',
-                    '內容可包括怎麼就醫、自我照護、疼痛與疲倦處理，以及醫療團隊說明的可能藥物調整'),
+                    '內容可包括怎麼就醫、自我照護、疼痛與疲倦處理，以及醫師說明的可能藥物調整'),
     },
     'onj': {
         'note': ('骨鬆治療引起的很少見；保持口腔清潔、定期看牙醫有助降低風險；洗牙、補牙、做假牙不必延後骨鬆治療。',
@@ -134,6 +136,8 @@ SUPPORTS = {
                   'example: belimumab、rituximab (biologics in SLE; 歐洲狼瘡指引列出的)')],
     'non-live-vaccine': [('note: 疫苗反應變弱但通常不會完全沒效', 'note: 疫苗反應變弱但通常不會完全沒效；rituximab 除外（影響較大）')],
     'ltbi': [('def: 接受治療可以預防發病', 'def: 完整接受治療可以大幅降低發病機會')],
+    'flare-plan': [('def: 和醫療團隊討論 (confirmed verbatim on a second pass; matches research/axspa.md C60)',
+                    'def: 和醫師討論 (NICE: a plan discussed with the person; matches research/axspa.md C60)')],
     'special-diets': [('note：指引只針對治療 RA；有人可能因其他疾病而有需要。',
                        'note：指引只針對治療 RA；有人可能因其他疾病、宗教或個人選擇而採用。')],
 }
