@@ -68,6 +68,7 @@ Prepared under /home/claude/cheng1276.github.io/rheum-care-guide/evidence/resear
 | S48 | Badve SV et al. Effects of Allopurinol on the Progression of Chronic Kidney Disease (CKD-FIX). N Engl J Med 2020;382(26):2504-2513 | — | RCT (n=369 randomised); Tier 3 | 32579811 | 10.1056/NEJMoa1915833 | None | Abstract only | CKD stage 3–4, no history of gout. |
 | S49 | Doria A et al. Serum Urate Lowering with Allopurinol and Kidney Function in Type 1 Diabetes (PERL). N Engl J Med 2020;382(26):2493-2503 | — | RCT (n=530); Tier 3 | 32579810 | 10.1056/NEJMoa1916624 | PMC7375708 | Full text (PMC) | Type 1 diabetes with early-to-moderate diabetic kidney disease. |
 | S50 | Chuang SY et al. Trends in hyperuricemia and gout prevalence: Nutrition and Health Survey in Taiwan from 1993-1996 to 2005-2008. Asia Pac J Clin Nutr 2011;20(2):301-8 | Nutrition and Health Survey in Taiwan (NAHSIT) | National survey analysis; Tier 3 | 21669599 | None listed | None | Abstract only | Taiwan-specific. Definition of hyperuricaemia not stated in the abstract. |
+| S51 | Ministry of Health and Welfare (衛生福利部), Taiwan. 使用Allopurinol(異嘌呤醇)藥品注意罕見嚴重皮膚不良反應風險. News release, 16 December 2014 | 衛生福利部 (Taiwan Ministry of Health and Welfare) | Government drug-safety notice (news release); Taiwan-specific | Not indexed | None | None | Full text (https://mohw.gov.tw/cp-16-21302-1.html), read 2026-10-12 | Names allopurinol only. Added in the legal and dispute-risk review (2026-10-12). |
 
 ---
 
@@ -361,3 +362,11 @@ These quotes were not in the original evidence file. The independent fact-checke
 | C-ID | Topic | Claim | Plain-language takeaway | S-ID | Verbatim quote | Location | Strength / level as stated | Confidence | Notes |
 |---|---|---|---|---|---|---|---|---|---|
 | C72 | 尿酸高要吃藥嗎？ | Supports LB-6.2 (added after the independent fact-check) | — | S44 | Finally, lifestyle modification is a cornerstone in the management of hyperuricemia and gout, and relevant patient education regarding diet and exercise should be espoused when treating these patients. | See Notes | Consensus document text (Discussion; not a numbered statement). This sentence is NOT in the evidence file: it is quoted from the independent fact-check (verify_labs.md, 2026-10-10), which read it verbatim in PMC10345000 | High (verified in PMC full text by the fact-check) | Added 2026-10-11 from /home/claude/newpages/verify/verify_labs.md: quote read in the original by the independent fact-checker (location and access as recorded in the strength/notes text); previous temporary ID FACT-CHECK. |
+
+### B-LR. Quotes added after the legal and dispute-risk review (2026-10-12)
+
+These quotes were not in the original evidence file. They were read in the original publications during the legal and dispute-risk review, and the reviewing physician approved the wording that uses them on 2026-10-12.
+
+| C-ID | Topic | Claim | Plain-language takeaway | S-ID | Verbatim quote | Location | Strength / level as stated | Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| C73 | Allopurinol skin reactions (Taiwan) | Taiwan MOHW: during allopurinol treatment, stop the drug at once and return to the prescriber if sore throat, mouth sores, itchy eyes or a skin rash appear. | Rash, mouth sores, sore throat or itchy eyes while taking allopurinol: stop it and see a doctor at once. | S51 | 「使用含該成分藥品，於治療期間如出現喉嚨痛、嘴巴破、眼睛癢、皮膚紅疹等徵兆，應立即停藥並回診原處方醫師」 | News release text | Government drug-safety notice; not a graded recommendation | High (official page) | Supports LB-6.T and LB-M4. The notice names allopurinol only; the site applies it to all urate-lowering drugs as an editorial choice (marked 編輯加註). |

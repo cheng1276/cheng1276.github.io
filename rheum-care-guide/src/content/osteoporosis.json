@@ -66,7 +66,7 @@
        "c": "C71",
        "s": "S26",
        "quote": "65歲以上的婦女或70歲以上男性。",
-       "strength": "Not graded (TOA 2021; may be superseded by the 2025 edition). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree",
+       "strength": "Not graded (TOA 2021)",
        "confidence": "Medium"
       }
      ],
@@ -87,7 +87,7 @@
        "c": "C71",
        "s": "S26",
        "quote": "65歲以前且具有危險因子的停經婦女。 … 50至70歲並具有骨折高風險因子的男性。 … 脆弱性骨折者 (指在低衝擊力下就發生骨折)。",
-       "strength": "Not graded (TOA 2021; may be superseded by the 2025 edition). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree",
+       "strength": "Not graded (TOA 2021)",
        "confidence": "Medium"
       }
      ],
@@ -103,7 +103,7 @@
    "illustration": "A kitchen table with a glass of milk, a slice of cheese, a block of tofu, a bowl of dark leafy greens, a small dish of dried small fish and a spoonful of black sesame seeds, next to a plain unlabeled supplement bottle; flat, friendly style, no text, no brands.",
    "points": [
     {
-     "text": "每天吃足夠的鈣，優先從食物攝取；飲食吃不夠時，再用補充品補足。",
+     "text": "每天吃足夠的鈣，優先從食物攝取；飲食吃不夠時，可和醫師討論是否用補充品補足。",
      "strength_label": "NOGG 2024・強烈建議",
      "evidence": [
       {
@@ -119,12 +119,19 @@
        "quote": "2.1. For people who meet the recommended dietary allowance for calcium with a variety of calcium-rich foods, we suggest no supplementation to prevent fractures.",
        "strength": "Rec 2.1: Conditional recommendation; moderate-to-high-certainty evidence",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「可和醫師討論是否用補充品補足」.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "OP-2.1"
     },
     {
-     "text": "每天的鈣（食物加補充品）：50到70歲男性1,000毫克；51歲以上女性、71歲以上男性1,200毫克；超過建議量，未證實對骨骼有額外好處。",
+     "text": "美加建議每天的鈣（含補充品）：50到70歲男性1,000毫克；51歲以上女性、71歲以上男性1,200毫克；超過建議量，未證實對骨骼更有益。",
      "strength_label": "BHOF 2022、加拿大骨鬆指引 2023・指引說明",
      "evidence": [
       {
@@ -145,35 +152,35 @@
        "c": "C86",
        "s": "S3",
        "quote": "There is no evidence that calcium intakes in excess of recommended amounts confer additional bone benefit.",
-       "strength": "Not graded; source of the closing clause 「超過建議量，未證實對骨骼有額外好處」. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-2.2 and \"Additional source text\"); the verifier read it in the original publication",
+       "strength": "Not graded; source of the closing clause 「超過建議量，未證實對骨骼更有益」",
        "confidence": "High"
       }
      ],
      "sid": "OP-2.2"
     },
     {
-     "text": "多選含鈣食物：每天1.5到2杯乳品（每杯240毫升），再搭配起司、傳統豆腐、深綠色蔬菜、小魚干、黑芝麻等。",
+     "text": "多選含鈣食物，例如乳品（每杯240毫升）、起司、傳統豆腐、深綠色蔬菜、小魚干、黑芝麻等。",
      "strength_label": "國健署 2018／2014、BHOF 2022・指引說明",
      "evidence": [
       {
        "c": "C87",
        "s": "V1",
        "quote": "不再強調乳品需選用低脂或脫脂為佳的說法，將「低脂乳品類」名稱改成「乳品類」 … 全脂與低脂乳品好處相同，建議每日攝取1.5-2杯乳品類，增進鈣質攝取，保持骨質健康。",
-       "strength": "National agency press release 2018-03-13 (2018 每日飲食指南), read twice by the verifier; source of 「乳品」 without 「低脂」 and of 1.5–2 cups. A March 2026 draft 9th edition lowers dairy to 1 cup a day; whether it has been finalised is unconfirmed (see reviewer notes). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1B and row OP-2.3); the verifier read it in the original publication",
+       "strength": "National agency press release 2018-03-13 (2018 每日飲食指南); source of 「乳品」 without 「低脂」.",
        "confidence": "Medium"
       },
       {
        "c": "C15",
        "s": "S29",
        "quote": "我國每日飲食指南建議每人每日應攝取1.5-2杯低脂乳品，每杯240 c.c.的低脂乳品約含240 mg的鈣質。",
-       "strength": "National agency statement (HPA press release 2014-01-23). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree. Used only for the cup volume (240 c.c. = 240 毫升); its 「低脂」 wording was dropped by the 2018 guide",
+       "strength": "National agency statement (HPA press release 2014-01-23). Used only for the cup volume (240 c.c. = 240 毫升); its 「低脂」 wording was dropped by the 2018 guide",
        "confidence": "Medium"
       },
       {
        "c": "C15",
        "s": "S29",
        "quote": "攝取高鈣食物: 包括起司、黑芝麻、小魚干、傳統豆腐、深綠色蔬菜等",
-       "strength": "National agency statement (HPA press release 2014-01-23). Verbatim confirmed by the fact-check: the writers' read and the verifier's independent WebFetch read agree",
+       "strength": "National agency statement (HPA press release 2014-01-23)",
        "confidence": "Medium"
       },
       {
@@ -187,7 +194,7 @@
      "sid": "OP-2.3"
     },
     {
-     "text": "維生素D不足或有不足風險的人（例如長期待在家裡、住在照護機構），建議和醫師討論後，每天至少補充800國際單位。",
+     "text": "維生素D不足或有不足風險的人（例如長期待在家裡、住在照護機構），建議和醫師討論後，依醫囑每天補充至少800國際單位。",
      "strength_label": "NOGG 2024・強烈建議",
      "evidence": [
       {
@@ -196,6 +203,13 @@
        "quote": "To consume vitamin D from foods or be prescribed vitamin D supplements of at least 800 IU/day if they have identified vitamin D insufficiency or risk factors for vitamin D insufficiency. Those who are either housebound or living in residential or nursing care are more likely to require calcium and vitamin D supplementation to achieve recommended levels of intake (Strong recommendation).",
        "strength": "Strong (\"be prescribed\" is the basis for 「和醫師討論後」)",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「依醫囑」 (NOGG: vitamin D should \"be prescribed\").",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "OP-2.4"
@@ -222,14 +236,14 @@
        "c": "C88",
        "s": "S1",
        "quote": "Treat vitamin D deficiency and insufficiency prior to initiation of parenteral anti-osteoporosis drug treatment … treated with vitamin D (e.g., 100,000 to 300,000 IU orally as a loading dose in divided doses) before zoledronate treatment is initiated",
-       "strength": "Rec 17 and narrative; context for the editorial clause: NOGG itself treats deficiency, including an oral loading dose. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-2.5); the verifier read it in the original publication",
+       "strength": "Rec 17 and narrative; context for the editorial clause: NOGG itself treats deficiency, including an oral loading dose",
        "confidence": "High"
       },
       {
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial safety phrase 「醫師指示的治療劑量，請依醫囑」; added after the fact-check so that patients do not refuse a dose prescribed to treat deficiency",
+       "strength": "Editorial safety phrase 「醫師指示的治療劑量，請依醫囑」, so that patients do not refuse a dose prescribed to treat deficiency",
        "confidence": "EDITORIAL"
       }
      ],
@@ -272,7 +286,7 @@
        "c": "C38",
        "s": "S3",
        "quote": "Weight-bearing exercises (in which bones and muscles work against gravity with feet and legs bearing body weight) include walking, jogging, tai chi, stair climbing, dancing, and tennis.",
-       "strength": "Not graded (source of the examples; jogging and tennis left out, see reviewer notes)",
+       "strength": "Not graded (source of the examples)",
        "confidence": "High"
       }
      ],
@@ -450,7 +464,7 @@
        "c": "C90",
        "s": "S1",
        "quote": "Assess falls risk in patients with osteoporosis and/or fragility fractures",
-       "strength": "Summary of main recommendations; shows that the population is \"and/or\", hence 「或」. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-5.1); the verifier read it in the original publication",
+       "strength": "Summary of main recommendations; shows that the population is \"and/or\", hence 「或」",
        "confidence": "High"
       }
      ],
@@ -605,7 +619,7 @@
      "sid": "OP-6.1"
     },
     {
-     "text": "骨鬆藥的效果，要持續用藥才能維持；有疑問或出現難以接受的副作用時，請盡快和醫師討論，不要因為擔心就自行停藥；出現嚴重不適時，請立即就醫。",
+     "text": "骨鬆藥要依醫師規劃持續使用，效果才能維持；有疑問或副作用難以接受時，請盡快和醫師討論，不要因為擔心就自行停藥；出現嚴重不適時，請立即就醫。",
      "strength_label": "BHOF 2022・指引說明；NOGG 2024・強烈建議",
      "evidence": [
       {
@@ -626,14 +640,14 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial safety phrase 「請盡快」「不要因為擔心就自行停藥」「出現嚴重不適時，請立即就醫」; wording softened after the fact-check so that it does not forbid stopping and seeking care for severe symptoms",
+       "strength": "Editorial safety phrase 「請盡快」「不要因為擔心就自行停藥」「出現嚴重不適時，請立即就醫」, worded so that it does not forbid stopping and seeking care for severe symptoms. Editorial: 「依醫師規劃」 (doctors sometimes plan a pause in bisphosphonate treatment).",
        "confidence": "EDITORIAL"
       }
      ],
      "sid": "OP-6.2"
     },
     {
-     "text": "使用每半年打一次的骨鬆皮下注射針劑（denosumab）時，不要自行停藥或延後打針；需要停藥時，請醫師安排接續治療，以免脊椎骨折風險增加。",
+     "text": "使用每半年打一次的骨鬆皮下注射針劑（denosumab）時，不要自行停藥或延後打針；停藥前請和醫師討論接續治療，以免脊椎骨折風險增加。",
      "strength_label": "NOGG 2024・強烈建議",
      "evidence": [
       {
@@ -668,14 +682,14 @@
        "c": "C91",
        "s": "S1",
        "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
-       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …)",
        "confidence": "High"
       },
       {
        "c": "C92",
        "s": "S26",
        "quote": "Denosumab 每半年",
-       "strength": "TOA 2021 drug table; a single WebFetch read by the verifier. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+       "strength": "TOA 2021 drug table",
        "confidence": "Medium"
       }
      ],
@@ -710,14 +724,14 @@
        "c": "C91",
        "s": "S1",
        "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
-       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …)",
        "confidence": "High"
       }
      ],
      "sid": "OP-6.4"
     },
     {
-     "text": "洗牙、補牙、做假牙，不需要延後骨鬆治療；拔牙等侵入性治療宜盡量減少，有需要時，請先讓醫師和牙醫師一起評估、安排時間，多數人仍可安全進行。",
+     "text": "洗牙、補牙、做假牙，不需要延後骨鬆治療；拔牙、植牙等侵入性治療宜盡量減少，有需要時，請先讓醫師和牙醫師一起評估、安排時間，多數人可安全進行。",
      "strength_label": "亞太顎骨壞死共識 2026・專家共識；NOGG 2024・建議",
      "evidence": [
       {
@@ -738,29 +752,36 @@
        "c": "C93",
        "s": "S1",
        "quote": "Clinical judgment of the treating physician should guide the management plan of each patient based on individual benefit/risk assessment, ensuring patients continue to access routine dental care",
-       "strength": "Rec 11 (Conditional), later part; source of 「請先讓醫師…評估」. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-6.5); the verifier read it in the original publication",
+       "strength": "Rec 11 (Conditional), later part; source of 「請先讓醫師…評估」",
        "confidence": "High"
       },
       {
        "c": "C94",
        "s": "S5",
        "quote": "Invasive dental procedures in patients on denosumab should be performed just before the next six‐monthly injection",
-       "strength": "Rec 45 (Grade C); shows that extraction timing is planned (sources differ on the timing, so no timing is printed). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-6.5); the verifier read it in the original publication",
+       "strength": "Rec 45 (Grade C); shows that extraction timing is planned (sources differ on the timing, so no timing is printed)",
        "confidence": "High"
       },
       {
        "c": "C95",
        "s": "S18",
        "quote": "should ideally be performed 3–4 months after the last injection",
-       "strength": "Regional consensus (AFOS), denosumab extraction timing; differs from RACGP, so no timing is printed. Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (row OP-6.5); the verifier read it in the original publication",
+       "strength": "Regional consensus (AFOS), denosumab extraction timing; differs from RACGP, so no timing is printed",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「植牙」 added as an example of an invasive dental procedure.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "OP-6.5"
     }
    ],
    "tip": {
-    "text": "使用骨鬆藥物時，如果飲食中的鈣不夠，或有維生素D不足的風險，建議另外補充。",
+    "text": "使用骨鬆藥物時，如果飲食中的鈣不夠，或有維生素D不足的風險，請和醫師討論是否另外補充，並依醫囑服用。",
     "strength_label": "NOGG 2024・強烈建議",
     "evidence": [
      {
@@ -776,6 +797,13 @@
       "quote": "For people initiating pharmacotherapy, it is good practice to individualize intake of calcium and vitamin D.",
       "strength": "GPS 2.4: Good practice statement",
       "confidence": "High"
+     },
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "Editorial: 「請和醫師討論是否另外補充，並依醫囑服用」; NOGG says \"Offer … supplementation\".",
+      "confidence": "EDITORIAL"
      }
     ],
     "sid": "OP-6.T"
@@ -828,7 +856,7 @@
      "c": "C1",
      "s": "S1",
      "quote": "In adults, approximately one in two women and one in five men will sustain one or more fragility fractures (a low trauma fracture sustained from a fall from standing height or less) in their lifetime [].",
-     "strength": "Background statement (not graded). A UK estimate according to the evidence file and the fact-check (the next sentence in NOGG begins \"In the UK\"), hence 「在英國」",
+     "strength": "Background statement (not graded). A UK estimate (the next sentence in NOGG begins \"In the UK\"), hence 「在英國」",
      "confidence": "High"
     },
     {
@@ -849,7 +877,7 @@
      "c": "M3",
      "s": "S17",
      "quote": "Historically, osteoporosis was considered primarily a woman’s disease, leading to a lack of awareness and underdiagnosis in men. However, current research demonstrates that men are at substantial risk for osteoporotic fractures, especially as they age.",
-     "strength": "Regional consensus (not graded); the fact-check found this sentence in the Discussion",
+     "strength": "Regional consensus (not graded); Discussion",
      "confidence": "Medium"
     }
    ],
@@ -857,7 +885,7 @@
   },
   {
    "belief": "多吃鈣片，就能預防或治療骨質疏鬆。",
-   "fact": "單靠鈣片不能降低骨折風險；鈣加維生素D，降低骨折的效果也有限。對骨鬆患者，它們也不是第一線治療。",
+   "fact": "單靠鈣片不能降低骨折風險；鈣加維生素D，降低骨折的效果也有限，對骨鬆患者也不是第一線治療。醫師指示的鈣片或維生素D，請照醫囑使用。",
    "strength_label": "ESCEO/IOF 2019、澳洲骨鬆指引 2024・指引說明",
    "evidence": [
     {
@@ -873,13 +901,20 @@
      "quote": "In healthy non‐institutionalised individuals, the relative reduction in fracture risk with calcium and/or vitamin D supplementation alone is small and, thus, these should not be considered for routine use in healthy people or as first line treatment for people with osteoporosis.",
      "strength": "Narrative (source of 「不是第一線治療」)",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「醫師指示的鈣片或維生素D，請照醫囑使用」 (same protective phrase as OA-M3 and RA-3.3).",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "OP-M3"
   },
   {
    "belief": "骨質疏鬆就不能運動，以免骨折。",
-   "fact": "一般來說，骨鬆的人可以安全運動，發生嚴重不良事件的風險很低。因為怕骨折而不敢動，反而會傷害骨骼、肌肉和整體健康。",
+   "fact": "一般來說，骨鬆的人可以安全運動，嚴重不良事件的風險很低；怕骨折不敢動，反而傷害骨骼、肌肉和整體健康。脊椎骨折過的人，加強運動前先和醫師討論。",
    "strength_label": "NOGG 2024、BHOF 2022・指引說明",
    "evidence": [
     {
@@ -909,6 +944,13 @@
      "quote": "Patients with osteoporosis/osteopenia can safely participate in structured exercise programmes, whether at home or in supervised facilities.",
      "strength": "Systematic review (Tier 2), abstract only",
      "confidence": "Medium"
+    },
+    {
+     "c": "C44",
+     "s": "S1",
+     "quote": "People at risk of falls, or with vertebral fractures, may need more specific advice and assessment before increasing exercise intensity [].",
+     "strength": "Narrative (no evidence level stated for this sentence)",
+     "confidence": "High"
     }
    ],
    "sid": "OP-M4"
@@ -937,7 +979,7 @@
    "sid": "OP-S1"
   },
   {
-   "text": "使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑（denosumab）期間，出現原因不明的大腿、鼠蹊部或髖部疼痛，請告訴醫師。",
+   "text": "使用雙磷酸鹽類骨鬆藥，或每半年打一次的骨鬆皮下注射針劑（denosumab）期間，出現原因不明的大腿、鼠蹊部或髖部疼痛，請盡快就醫。",
    "strength_label": "NOGG 2024・強烈建議",
    "evidence": [
     {
@@ -958,14 +1000,21 @@
      "c": "C91",
      "s": "S1",
      "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
-     "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …). Not in the evidence file: copied verbatim from the fact-check report /home/claude/newpages/verify/verify_osteoporosis.md (section 1C and row OP-6.3); the verifier read it in the original publication",
+     "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …)",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「請盡快就醫」 (matches the section heading; not from a source).",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "OP-S2"
   },
   {
-   "text": "跌倒過，或因為擔心跌倒而減少活動時，請告訴醫師。",
+   "text": "跌倒過，或因為擔心跌倒而減少活動時，請告訴醫師；跌倒後劇痛或無法站立、走路，請撥打 119 或到急診。",
    "strength_label": "世界跌倒指引 2022・強烈建議（1A）；英國骨鬆運動共識 2022・專家共識",
    "evidence": [
     {
@@ -981,6 +1030,13 @@
      "quote": "People who fall repeatedly or have started to avoid activity as a result of concern about falling, should be referred to a local falls service. [C]",
      "strength": "[C] expert consensus",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety line: 「跌倒後劇痛或無法站立、走路，請撥打 119 或到急診」.",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "OP-S3"

@@ -59,8 +59,6 @@ POST = {
         'add_ev': [ev('During the application, patients dipped their hands into the paraffin bath for 10 times. Their hands were covered with a towel and waited for 20 minutes to preserve the heat. For the treatment, a standard paraffin boiler of 28 L with an automatic thermostat and a temperature of 53°C was used.',
                       '34527924', 'Patients and Methods', 'def（反覆浸入、專用機器加熱、毛巾包住保溫）')],
     },
-    'wedged-insoles': {
-    },
     'glucosamine': {
         'def': '葡萄糖胺是人體本來就有的物質，是構成軟骨的原料之一；可做成口服的營養補充品。',
         'note': '品質較好的研究顯示，和安慰劑相比，它沒有明顯減輕關節疼痛，也沒有減緩X光上關節退化的進展。',
@@ -280,10 +278,6 @@ DECISIONS = {
     'rf': {
         'example': '',
         'drop_quote_prefix': ['RFs can be found in 40'],
-    },
-    'denosumab': {
-    },
-    'onj': {
     },
     'zoster': {
         # The verification report's no-vaccine alternative (verify_n3_infection.md).

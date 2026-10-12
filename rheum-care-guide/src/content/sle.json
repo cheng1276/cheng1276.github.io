@@ -561,7 +561,7 @@
      "sid": "SL-5.3"
     },
     {
-     "text": "狼瘡患者的心血管疾病風險較高；至少每年評估血壓、血脂、血糖、體重和抽菸等風險。",
+     "text": "狼瘡患者的心血管疾病風險較高；建議至少每年評估血壓、血脂、血糖、體重和抽菸等風險。",
      "strength_label": "BSR 2026・強烈建議（1B）",
      "evidence": [
       {
@@ -604,7 +604,7 @@
     }
    ],
    "tip": {
-    "text": "每次回診量血壓、驗尿和量體重，都是例行的追蹤項目。",
+    "text": "指引建議每次回診量血壓、驗尿和量體重；追蹤項目可以和醫師討論。",
     "strength_label": "BSR 2026・建議（2C）",
     "evidence": [
      {
@@ -620,6 +620,13 @@
       "quote": "Body weight should be checked at each visit…(2C, 97.0%).",
       "strength": "2C; SoA 97.0%",
       "confidence": "High"
+     },
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "Editorial: 「追蹤項目可以和醫師討論」 (invites discussion; not from a source).",
+      "confidence": "EDITORIAL"
      }
     ],
     "sid": "SL-5.T"
@@ -632,7 +639,7 @@
    "illustration": "A woman and her partner talking with a doctor at a desk, with a plain calendar on the wall suggesting planning ahead; no text, no brands.",
    "points": [
     {
-     "text": "確診後盡早和醫師討論生育計畫；多數女性能有成功的懷孕，也有方法降低風險。",
+     "text": "確診後盡早和醫師討論生育計畫；多數女性能有成功的懷孕，但需要事先規劃、降低風險。",
      "strength_label": "EULAR 2017・基本原則",
      "evidence": [
       {
@@ -764,7 +771,7 @@
   },
   {
    "belief": "運動會讓狼瘡變嚴重，最好少動。",
-   "fact": "運動不是狼瘡的禁忌；研究顯示運動可能不會明顯影響疾病活性。發作時則先請醫師評估。",
+   "fact": "運動不是狼瘡的禁忌，研究顯示可能不會明顯影響疾病活性；開始運動前和發作時，請先讓醫師評估。",
    "strength_label": "國際共識 2024・專家共識",
    "evidence": [
     {
@@ -793,6 +800,13 @@
      "s": "S09",
      "quote": "In case of lupus flare, potential contraindication to physical activity and exercise should be reassessed (5/D)",
      "strength": "5/D; LoA 9.91 (0.43)",
+     "confidence": "Medium"
+    },
+    {
+     "c": "C78",
+     "s": "S09",
+     "quote": "A medical evaluation should be performed before starting exercise in SLE in order to identify potential contraindications and allow for personalised adaptations…(1b/A)",
+     "strength": "1b/A; LoA 9.32 (2.15)",
      "confidence": "Medium"
     }
    ],
@@ -859,7 +873,7 @@
  ],
  "seek_care": [
   {
-   "text": "覺得狼瘡發作，或可能出現藥物副作用時，請及早聯絡您的醫療團隊。",
+   "text": "覺得狼瘡發作，或可能出現藥物副作用時，請盡快就醫，不要等到下次回診。",
    "strength_label": "BSR 2026・指引說明",
    "evidence": [
     {
@@ -868,6 +882,13 @@
      "quote": "People with SLE with disease flares or possible drug-related side effects should be able to receive timely advice (ideally within 1–2 working days) of contacting their hospital service (1C) [98.4% (86–100)].",
      "strength": "1C; SoA 98.4%",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「請盡快就醫，不要等到下次回診」 renders BSR's \"timely advice\" for Taiwan; no fixed time frame.",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "SL-S1"
@@ -908,11 +929,46 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial safety line added after independent fact-check (SL-S1)",
+     "strength": "Editorial safety line",
      "confidence": "EDITORIAL"
     }
    ],
    "sid": "SL-S4"
+  },
+  {
+   "text": "發現懷孕時，請盡快就醫（不要等到下次回診），和醫師討論用藥；不要自行停藥。",
+   "strength_label": "編輯加註・安全提醒",
+   "evidence": [
+    {
+     "c": "C145",
+     "s": "S06",
+     "quote": "Women with SLE and/or APS should be counselled about contraception, especially for the prevention of unwanted pregnancies during high disease activity periods and intake of teratogenic drugs.",
+     "strength": "Table 1 item 2, LoA 9.9 (0.4); LoE/GoR not accessible",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety line: some medicines need review as soon as pregnancy is confirmed, and stopping medicines without advice can bring on a flare.",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "SL-S5"
+  },
+  {
+   "text": "心情低落到有傷害自己的念頭時，請立即求助：撥打 1925 安心專線（24 小時免付費），或撥打 119。",
+   "strength_label": "編輯加註・安全提醒",
+   "evidence": [
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety line. Taiwan Ministry of Health and Welfare: 「民眾只要以市話或手機撥打「1925」，安心專線將持續提供全年無休、24小時免付費之心理諮詢服務。」 (https://mohw.gov.tw/cp-16-50587-1.html, 2019-12-19)",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "SL-S6"
   }
  ],
  "sources": [

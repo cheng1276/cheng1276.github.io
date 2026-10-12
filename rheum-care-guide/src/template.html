@@ -315,7 +315,7 @@ h1{font-size:var(--t-h1)}
 
 <div class="wrap">
   <header class="top">
-    <p class="eyebrow">風濕免疫科門診衛教</p>
+    <p class="eyebrow">風濕免疫科衛教</p>
     <h1>生活照護圖解</h1>
     <p class="lead">把國際與台灣臨床指引裡的生活照護建議，整理成病友看得懂的做法。每一則建議下方的小字，標出它來自哪一份指引、建議有多強。</p>
     <p class="hint">內文中<span class="term-demo" data-d="common">有虛線底線的詞</span>，點一下就能看白話解釋；全部名詞也可以在<button type="button" class="linkish" data-goto-tab="glossary">名詞小辭典</button>查詢。</p>
@@ -325,7 +325,7 @@ h1{font-size:var(--t-h1)}
       <div class="legend-body">
         <p>格式是「指引或研究・建議強度」，例如「ACR 2020・建議」表示美國風濕病醫學會 2020 年指引的建議。</p>
         <dl>
-          <div><dt>強烈建議</dt><dd>指引認為好處明顯大於壞處，多數人都適用。</dd></div>
+          <div><dt>強烈建議</dt><dd>指引認為好處明顯大於壞處，多數人都適用；是否適合自己，仍請和醫師討論。</dd></div>
           <div><dt>建議</dt><dd>指引有條件地建議，適不適合可依個人情況和醫師討論。</dd></div>
           <div><dt>不建議</dt><dd>指引建議不要這樣做；「強烈不建議」表示理由更充分。</dd></div>
           <div><dt>建議強度 A–D</dt><dd>歐洲風濕病聯盟（EULAR）等使用的分級，A 的證據最強，D 主要依據專家意見。</dd></div>
@@ -350,13 +350,14 @@ h1{font-size:var(--t-h1)}
   <main id="panel" class="panel" role="tabpanel" aria-live="polite"></main>
 
   <footer class="foot">
-    <p class="emerg">緊急狀況請不要等回診：呼吸困難、胸痛、意識不清，或舌頭、喉嚨腫起來，請直接撥打 119 或到急診。</p>
+    <p class="emerg">緊急狀況請不要等回診：呼吸困難、胸痛、意識不清、快昏倒，或舌頭、喉嚨腫起來，請直接撥打 119 或到急診。</p>
     <section>
       <h2>使用前請先了解</h2>
       <ul>
         <li>這裡提供一般衛教資訊，不能取代醫師診療，也不提供個別的診斷或用藥建議。</li>
-        <li>用藥調整請和醫師討論，不要自行停藥。</li>
+        <li>用藥調整請和醫師討論，不要自行停藥；出現疑似藥物過敏（例如起紅疹、嘴巴破）或其他急症時，請立即就醫，並告知正在用的藥。</li>
         <li>不同指引的建議有時不一致；遇到這種情況，網站只寫各指引都同意的部分，或請您和醫師討論。</li>
+        <li>本網站不是台南市立醫院的官方網站；不提供掛號、門診資訊或個別醫療諮詢，也不回覆個人病情或用藥問題，請直接詢問您的醫師。</li>
       </ul>
     </section>
     <section>
@@ -364,13 +365,13 @@ h1{font-size:var(--t-h1)}
       <ul>
         <li>文獻檢索：PubMed，以及各學會指引的原文。</li>
         <li>優先採用最新的臨床指引（如 ACR、EULAR、ASAS、BSR、NICE、WHO、國際蕁麻疹指引與台灣共識）；指引沒寫到的細節，才採用系統性回顧或重要研究。</li>
-        <li>每一句都對應到原文引述。另一套獨立查核流程逐句比對了 <span id="nStmt"></span> 則網站文字與約 <span id="nQuote"></span> 則引述，未發現事實錯誤；不夠精確或遺漏注意事項之處已修正。</li>
+        <li>每則建議都附上原文引述；少數為了安全或配合台灣情況加上的提醒，標為「編輯加註」。另一套獨立的 AI 查核流程逐句比對了 <span id="nStmt"></span> 則網站文字與約 <span id="nQuote"></span> 則引述；查到的錯誤、不夠精確或遺漏注意事項之處都已修正，但仍可能有疏漏。</li>
         <li>名詞小辭典的 <span id="gN"></span> 個白話解釋，都依據 PubMed 收錄的指引或文獻；另一組獨立查核逐條核對了解釋與 <span id="gQ"></span> 則原文引述，不夠精確之處已修正。</li>
-        <li>內容由 AI 協助檢索、整理與查核。</li>
+        <li>內容由 AI 協助檢索、撰寫初稿與查核，並經審閱醫師審閱。</li>
       </ul>
     </section>
     <label class="switch" for="reviewToggle"><input type="checkbox" id="reviewToggle"> 審閱模式：顯示每則建議與名詞解釋的英文原文依據</label>
-    <p class="meta" id="metaLine">審閱醫師：台南市立醫院 免疫風濕科 鄭傑夫醫師・審閱完成：2026 年 10 月 8 日（新增四頁：10 月 11 日）・最後更新：2026 年 10 月 11 日・試用版，歡迎回饋</p>
+    <p class="meta" id="metaLine">審閱醫師：台南市立醫院 免疫風濕科 鄭傑夫醫師・審閱完成：2026 年 10 月 8 日（新增四頁：10 月 11 日）・最後更新：2026 年 10 月 12 日・試用版，歡迎對網站內容提供意見</p>
   </footer>
 </div>
 
@@ -573,7 +574,7 @@ h1{font-size:var(--t-h1)}
       if (c.tip) { add(c.tip.t, c.id, c.title); add(c.tip.l, c.id, c.title); }
     });
     d.myths.forEach((m) => { add(m.b, 'myths', '常見迷思'); add(m.f, 'myths', '常見迷思'); add(m.l, 'myths', '常見迷思'); });
-    const seekName = slug === 'common' ? '什麼時候要問醫師' : '何時就醫';
+    const seekName = slug === 'common' ? '什麼時候要就醫' : '何時就醫';
     d.seek.forEach((x) => { add(x.t, 'seek', seekName); add(x.l, 'seek', seekName); });
   });
 
@@ -608,7 +609,7 @@ h1{font-size:var(--t-h1)}
           <div class="m-row"><span class="m-tag fact">指引怎麼說</span><div class="pt-body"><p>${f}</p>${cite(m, 'myths')}</div></div>
         </div>`; }).join('')}
       </section>` : '';
-    const seekTitle = slug === 'common' ? '什麼時候要問醫師' : '這些情況請盡快就醫';
+    const seekTitle = slug === 'common' ? '什麼時候要就醫' : '這些情況請盡快就醫';
     const seek = d.seek.length ? `
       <section class="seek" aria-labelledby="seek-h">
         <h3 id="seek-h">${seekTitle}</h3>

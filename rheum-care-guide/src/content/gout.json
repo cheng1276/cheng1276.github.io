@@ -17,14 +17,14 @@
        "c": "C13",
        "s": "S1",
        "quote": "Limiting alcohol intake is conditionally recommended for patients with gout, regardless of disease activity.",
-       "strength": "Conditional. Certainty of evidence: Low (S2 Table 7, via WebFetch)",
+       "strength": "Conditional. Certainty of evidence: Low (S2 Table 7)",
        "confidence": "High"
       },
       {
        "c": "C13",
        "s": "S2",
        "quote": "For patients with gout, regardless of disease activity, we conditionally recommend limiting alcohol intake.",
-       "strength": "Conditional. Certainty of evidence: Low (S2 Table 7, via WebFetch)",
+       "strength": "Conditional. Certainty of evidence: Low (S2 Table 7)",
        "confidence": "High"
       },
       {
@@ -87,14 +87,14 @@
        "c": "C42",
        "s": "S1",
        "quote": "Limiting high-fructose corn syrup intake is conditionally recommended for patients with gout, regardless of disease activity. … However, there were no data focused on patients with existing gout.",
-       "strength": "Conditional; certainty Very low (S2 Table 7 via WebFetch)",
+       "strength": "Conditional; certainty Very low (S2 Table 7)",
        "confidence": "High"
       },
       {
        "c": "C42",
        "s": "S2",
        "quote": "For patients with gout, regardless of disease activity, we conditionally recommend limiting high- fructose corn syrup.",
-       "strength": "Conditional; certainty Very low (S2 Table 7 via WebFetch)",
+       "strength": "Conditional; certainty Very low (S2 Table 7)",
        "confidence": "High"
       },
       {
@@ -108,7 +108,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial localisation: Taiwanese label term 「高果糖糖漿」; please confirm",
+       "strength": "Editorial localisation: Taiwanese label term 「高果糖糖漿」",
        "confidence": "EDITORIAL"
       }
      ],
@@ -130,7 +130,7 @@
     }
    ],
    "tip": {
-    "text": "研究發現，24小時內喝了1份多到2份酒，發作風險就比沒喝酒時高約4成，而且喝越多風險越高。",
+    "text": "研究發現，24小時內喝了1份多到2份酒，發作風險就比沒喝酒時高約4成，而且喝越多風險越高；喝得少也不代表安全。",
     "strength_label": "ACR 2020・指引說明",
     "evidence": [
      {
@@ -139,6 +139,20 @@
       "quote": "In a case-crossover study, consuming >1–2 alcoholic beverage servings in the prior 24 hours was associated with a 40% higher risk of gout flare than periods without alcohol consumption, with a dose-response relationship…",
       "strength": "Supporting evidence (narrative)",
       "confidence": "High"
+     },
+     {
+      "c": "C13",
+      "s": "S1",
+      "quote": "Limiting alcohol intake is conditionally recommended for patients with gout, regardless of disease activity.",
+      "strength": "Conditional. Certainty of evidence: Low (S2 Table 7)",
+      "confidence": "High"
+     },
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "Editorial: 「喝得少也不代表安全」. In the same study up to one drink was not significantly associated with flares, which does not show it is safe; ACR conditionally recommends limiting alcohol regardless of disease activity (C13).",
+      "confidence": "EDITORIAL"
      }
     ],
     "sid": "GT-1.T"
@@ -158,14 +172,14 @@
        "c": "C24",
        "s": "S1",
        "quote": "Limiting purine intake is conditionally recommended for patients with gout, regardless of disease activity.",
-       "strength": "Conditional; certainty Low (S2 Table 7 via WebFetch)",
+       "strength": "Conditional; certainty Low (S2 Table 7)",
        "confidence": "High"
       },
       {
        "c": "C24",
        "s": "S2",
        "quote": "For patients with gout, regardless of disease activity, we conditionally recommend limiting purine intake.",
-       "strength": "Conditional; certainty Low (S2 Table 7 via WebFetch)",
+       "strength": "Conditional; certainty Low (S2 Table 7)",
        "confidence": "High"
       },
       {
@@ -279,7 +293,7 @@
      "sid": "GT-3.1"
     },
     {
-     "text": "體重過重或肥胖的人，建議參加減重計畫，不限特定方案。",
+     "text": "體重過重或肥胖的人，建議參加減重計畫（指引沒有指定哪一種），以逐步減重為原則。",
      "strength_label": "ACR 2020・建議",
      "evidence": [
       {
@@ -287,6 +301,13 @@
        "s": "S1",
        "quote": "Using a weight loss program (no specific program endorsed) is conditionally recommended for those patients with gout who are overweight/obese, regardless of disease activity.",
        "strength": "Conditional; certainty Very low (S2 Table 7). S1 text: \"the certainty of the evidence was rated as very low for both SU and flares.\"",
+       "confidence": "High"
+      },
+      {
+       "c": "C71",
+       "s": "S4",
+       "quote": "In overweight patients, dietary modification to achieve a gradual reduction in body weight and subsequent maintenance should be encouraged.",
+       "strength": "LoE III; SOR 92%",
        "confidence": "High"
       }
      ],
@@ -307,7 +328,7 @@
      "sid": "GT-3.3"
     },
     {
-     "text": "養成規律運動的習慣。",
+     "text": "養成規律運動的習慣；有心臟或肺部疾病的人，開始運動前請先和醫師討論。",
      "strength_label": "EULAR 2016・基本原則",
      "evidence": [
       {
@@ -316,6 +337,20 @@
        "quote": "Regular exercise should be advised.",
        "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
        "confidence": "High"
+      },
+      {
+       "c": "common:C95",
+       "s": "common:S4",
+       "quote": "Physical activity is considered safe for adults living with the selected chronic conditions without contraindications, and the benefits generally outweigh the risks.",
+       "strength": "Narrative (guideline text): the safety statement holds for people without contraindications",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「有心臟或肺部疾病的人，開始運動前請先和醫師討論」 is the same caution as the common page (CM-1.6); WHO 2020 calls activity safe for people without contraindications.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "GT-3.4"
@@ -339,25 +374,25 @@
   {
    "id": "gout-flare",
    "title": "發作時的居家照護",
-   "summary": "冰敷、休息抬高、及早治療，原本的降尿酸藥照常吃。",
+   "summary": "冰敷、休息抬高、及早治療；降尿酸藥不因發作而停。",
    "illustration": "A simple flat illustration of a person resting on a sofa with one foot raised on a cushion, an ice pack on the sore foot joint, a frame keeping the blanket off the foot, and a pill box on the side table; no text, no brands.",
    "points": [
     {
-     "text": "冰敷疼痛的關節，搭配醫師開的藥一起使用，可能有助減輕疼痛。",
+     "text": "冰敷疼痛的關節（用毛巾隔開，避免凍傷），搭配醫師開的藥一起使用，可能有助減輕疼痛。",
      "strength_label": "ACR 2020・建議",
      "evidence": [
       {
        "c": "C87",
        "s": "S1",
        "quote": "Using topical ice as an adjuvant treatment over no adjuvant treatment is conditionally recommended for patients experiencing a gout flare.",
-       "strength": "Conditional; certainty Low (S2 via WebFetch)",
+       "strength": "Conditional; certainty Low (S2)",
        "confidence": "High"
       },
       {
        "c": "C87",
        "s": "S2",
        "quote": "For patients experiencing a gout flare, we conditionally recommend using topical ice as an adjuvant treatment over no adjuvant treatment.",
-       "strength": "Conditional; certainty Low (S2 via WebFetch)",
+       "strength": "Conditional; certainty Low (S2)",
        "confidence": "High"
       },
       {
@@ -366,6 +401,13 @@
        "quote": "Advise people with gout that applying ice packs to the affected joint (cold therapy) in addition to taking prescribed medicine may help alleviate pain.",
        "strength": "No formal grade",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「用毛巾隔開，避免凍傷」 (safety phrase; not from a source).",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "GT-4.1"
@@ -406,8 +448,8 @@
      "sid": "GT-4.3"
     },
     {
-     "text": "發作期間，原本在吃的降尿酸藥要繼續吃，不要因為發作而停藥。",
-     "strength_label": "BSR 2017・建議",
+     "text": "發作期間，原本在吃的降尿酸藥要繼續吃，不要因為發作而停藥；但如果身上起紅疹、嘴巴破、喉嚨痛或眼睛癢，請立即停藥並就醫。",
+     "strength_label": "BSR 2017・建議；衛福部 2014・指引說明",
      "evidence": [
       {
        "c": "C94",
@@ -422,6 +464,20 @@
        "quote": "Do not stop ULT during attack",
        "strength": "Algorithm; no grade",
        "confidence": "High"
+      },
+      {
+       "c": "C112",
+       "s": "S38",
+       "quote": "使用含該成分藥品，於治療期間如出現喉嚨痛、嘴巴破、眼睛癢、皮膚紅疹等徵兆，應立即停藥並回診原處方醫師",
+       "strength": "Government drug-safety notice on allopurinol; not a graded recommendation",
+       "confidence": "High (official page)"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: the exception (rash, mouth sores, sore throat or itchy eyes: stop the drug and see a doctor at once) follows the Taiwan Ministry of Health and Welfare allopurinol notice; applying it to all urate-lowering drugs is an editorial choice.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "GT-4.4"
@@ -484,7 +540,7 @@
      "sid": "GT-5.2"
     },
     {
-     "text": "曾有尿路結石的痛風患者，每天喝超過2公升的水，避免脫水；喝水量請和醫師確認。",
+     "text": "曾有尿路結石的痛風患者，建議每天喝超過2公升的水、避免脫水；有心臟或腎臟病需要限水的人，喝水量請先和醫師確認。",
      "strength_label": "BSR 2017・建議",
      "evidence": [
       {
@@ -498,7 +554,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial neutral safety phrase (「喝水量請和醫師確認」); not from a source",
+       "strength": "Editorial neutral safety phrase 「喝水量請先和醫師確認」; not from a source. 「有心臟或腎臟病需要限水的人」 is an editorial caution for people who must restrict fluids.",
        "confidence": ""
       }
      ],
@@ -524,7 +580,7 @@
  "myths": [
   {
    "belief": "痛風是吃出來的，是自己的錯。",
-   "fact": "痛風受遺傳影響很大，ACR 指引刻意避免責怪患者；體重、某些藥物和腎臟病、高血壓等也有影響。",
+   "fact": "痛風受遺傳影響很大，ACR 指引刻意避免責怪患者；體重、某些藥物和腎臟病、高血壓等也有影響，但藥物請勿自行停用。",
    "strength_label": "ACR 2020・指引說明",
    "evidence": [
     {
@@ -540,6 +596,13 @@
      "quote": "any risk factors for gout they have, including genetics, excess body weight or obesity, medicines they are taking, and comorbidities such as chronic kidney disease (CKD) or hypertension",
      "strength": "No formal grade in accessible text",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「但藥物請勿自行停用」 (safety phrase, as in the footer; not from a source).",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "GT-M1"
@@ -590,7 +653,7 @@
   },
   {
    "belief": "吃櫻桃就能治好痛風。",
-   "fact": "觀察性研究發現，吃櫻桃和較少發作有關；但 ACR 指引認為證據確定性低，沒有提出建議。",
+   "fact": "ACR 指引認為證據確定性低，沒有提出建議；觀察性研究雖發現吃櫻桃和較少發作有關，但不能取代治療。",
    "strength_label": "ACR 2020・指引說明",
    "evidence": [
     {
@@ -606,12 +669,69 @@
      "quote": "In contrast, according to epidemiological studies, consumption of coffee, and cherries is negatively associated with gout, and eating cherries may reduce the frequency of acute gout flares.",
      "strength": "Narrative; no recommendation",
      "confidence": "High"
+    },
+    {
+     "c": "C09",
+     "s": "S6",
+     "quote": "Lifestyle improvements complement medical treatment and do not replace it",
+     "strength": "Overarching principle (no LoE/grade stated)",
+     "confidence": "High"
     }
    ],
    "sid": "GT-M4"
   }
  ],
- "seek_care": [],
+ "seek_care": [
+  {
+   "text": "關節紅腫熱痛，又發燒或全身不舒服，可能不只是痛風發作（例如關節感染），請立即就醫。",
+   "strength_label": "NICE 2022・建議",
+   "evidence": [
+    {
+     "c": "C110",
+     "s": "S5",
+     "quote": "Assess the possibility of septic arthritis, calcium pyrophosphate crystal deposition and inflammatory arthritis in people presenting with a painful, red, swollen joint.",
+     "strength": "No formal grade",
+     "confidence": "High"
+    },
+    {
+     "c": "C111",
+     "s": "S5",
+     "quote": "If septic arthritis is suspected, refer immediately according to the local care pathway.",
+     "strength": "No formal grade",
+     "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「發燒或全身不舒服」 is an example added for patients; 「請立即就醫」 renders NICE's \"refer immediately\".",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "GT-S1"
+  },
+  {
+   "text": "吃降尿酸藥期間，如果身上起紅疹、嘴巴破、喉嚨痛或眼睛癢，請立即停藥並就醫。",
+   "strength_label": "衛福部 2014・指引說明",
+   "evidence": [
+    {
+     "c": "C112",
+     "s": "S38",
+     "quote": "使用含該成分藥品，於治療期間如出現喉嚨痛、嘴巴破、眼睛癢、皮膚紅疹等徵兆，應立即停藥並回診原處方醫師",
+     "strength": "Government drug-safety notice on allopurinol; not a graded recommendation",
+     "confidence": "High (official page)"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: the notice names allopurinol; applying it to all urate-lowering drugs is an editorial choice.",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "GT-S2"
+  }
+ ],
  "sources": [
   {
    "s": "S1",
@@ -684,6 +804,22 @@
    "pmid": "24440541",
    "doi": "10.1016/j.amjmed.2013.12.019",
    "url": null
+  },
+  {
+   "s": "S38",
+   "short": "衛福部 2014 allopurinol 皮膚不良反應提醒",
+   "citation": "Ministry of Health and Welfare (衛生福利部), Taiwan. 使用Allopurinol(異嘌呤醇)藥品注意罕見嚴重皮膚不良反應風險. News release, 16 December 2014.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://mohw.gov.tw/cp-16-21302-1.html"
+  },
+  {
+   "s": "common:S4",
+   "short": "WHO 2020 身體活動指引摘要論文",
+   "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451–1462.",
+   "pmid": "33239350",
+   "doi": "10.1136/bjsports-2020-102955",
+   "url": ""
   }
  ]
 }

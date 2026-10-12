@@ -115,7 +115,7 @@
      "sid": "CM-1.4"
     },
     {
-     "text": "運動是安全的，任何時候開始都不嫌晚。這項歐洲建議涵蓋痛風、類風濕性關節炎、中軸型脊椎關節炎、紅斑性狼瘡、退化性關節炎、乾癬性關節炎和全身性硬化症。",
+     "text": "運動通常是安全的，任何時候開始都不嫌晚。歐洲建議涵蓋痛風、類風濕性關節炎、中軸型脊椎關節炎、紅斑性狼瘡、退化性關節炎、乾癬性關節炎和全身性硬化症。",
      "strength_label": "EULAR 2021・建議強度 A",
      "evidence": [
       {
@@ -171,14 +171,14 @@
        "c": "C97",
        "s": "S25",
        "quote": "patients with PAH should be encouraged to be active within symptom limits … be in a stable clinical condition before embarking on a supervised rehabilitation programme",
-       "strength": "Narrative; context for the example 「例如肺高壓」 (WebFetch single read, not machine-checked)",
+       "strength": "Narrative; context for the example 「例如肺高壓」",
        "confidence": "Low"
       },
       {
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "「心臟或肺部疾病（例如肺高壓）」 is a lay summary of 'contraindications' (WHO) and the active cardiac and pleural manifestations the SLE consensus names (myocarditis, pericarditis, pleuritis); the example 「肺高壓」 was added at the reviewing physician's request (2026-10-11) and is not named in the graded sources. 「病情正在發作時」 generalises the SLE flare statement (5/D) to the other diseases on this page.",
+       "strength": "「心臟或肺部疾病（例如肺高壓）」 is a lay summary of 'contraindications' (WHO) and the active cardiac and pleural manifestations the SLE consensus names (myocarditis, pericarditis, pleuritis); the example 「肺高壓」 is editorial. 「病情正在發作時」 generalises the SLE flare statement (5/D) to the other diseases on this page.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -336,7 +336,7 @@
     }
    ],
    "tip": {
-    "text": "痛風或類風濕性關節炎患者要知道：中等量飲酒與病情發作風險增加有關。",
+    "text": "痛風或類風濕性關節炎患者要知道：即使是中等量飲酒，也和病情發作風險增加有關。",
     "strength_label": "EULAR 2021・建議強度 B",
     "evidence": [
      {
@@ -364,15 +364,22 @@
    "illustration": "An adult doing a simple resistance exercise with light hand weights, next to a balanced meal plate and a plain, unlabeled supplement bottle; flat, friendly style; no text, no brands.",
    "points": [
     {
-     "text": "開始或持續長期口服類固醇（超過3個月）的成人，建議從飲食和補充品補足鈣和維生素D，並調整生活習慣。",
+     "text": "開始或持續長期口服類固醇（超過3個月）的成人，建議從飲食和醫師指示的補充品補足鈣和維生素D，並調整生活習慣。",
      "strength_label": "ACR 2022・建議",
      "evidence": [
       {
        "c": "C54",
        "s": "S6",
        "quote": "For adults and children beginning or continuing chronic GC at a dose of ≥2.5 mg/day for >3 months, we conditionally recommended optimizing age appropriate dietary and supplemental calcium and vitamin D, in addition to lifestyle modifications … For adults and children beginning or continuing chronic GC treatment at low, moderate, high, or very high risk of fracture, we conditionally recommend optimizing dietary and supplemental calcium and vitamin D in addition to lifestyle modifications.",
-       "strength": "Conditional; certainty of evidence \"Low or very low\" (Table 2; another read gave \"Low to very low\")",
+       "strength": "Conditional; certainty of evidence \"Low or very low\" (Table 2)",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「醫師指示的」 (supplements are taken as the doctor advises).",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "CM-4.1"
@@ -392,7 +399,7 @@
      "sid": "CM-4.2"
     },
     {
-     "text": "維生素D通常每天需要600到800國際單位，或更多；並應抽血追蹤濃度。",
+     "text": "維生素D通常每天需要600到800國際單位，有時更多；補充量和是否抽血追蹤，請依醫師指示。",
      "strength_label": "ACR 2022・建議",
      "evidence": [
       {
@@ -401,6 +408,13 @@
        "quote": "Serum vitamin D levels should be monitored, and vitamin D supplemented … 600 to 800 IU daily or more is typically required.",
        "strength": "Part of the conditional recommendation (low/very low certainty)",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「補充量和是否抽血追蹤，請依醫師指示」. ACR addresses clinicians: serum levels should be monitored and more than 600 to 800 IU may be needed.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "CM-4.3"
@@ -547,7 +561,7 @@
      "sid": "CM-5.4"
     },
     {
-     "text": "超過18歲、正在使用免疫抑制藥物的風濕病患者，強烈建議接種重組帶狀疱疹（皮蛇）疫苗。",
+     "text": "超過18歲、正在使用免疫抑制藥物的風濕病患者，強烈建議接種重組帶狀疱疹（皮蛇）疫苗；這是非活性疫苗。",
      "strength_label": "ACR 2022・強烈建議",
      "evidence": [
       {
@@ -556,13 +570,20 @@
        "quote": "For patients with RMD age >18 years who are taking immunosuppressive medication, administering the recombinant VZV vaccine is strongly recommended.",
        "strength": "Strong; \"Very low (indirect evidence only)\" (Table 7)",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「這是非活性疫苗」. Taiwan CDC herpes zoster vaccine page (updated 2023-06-14): 「目前取得我國藥品許可證之帶狀疱疹疫苗，為非活性基因重組帶狀疱疹疫苗。」 (https://www.cdc.gov.tw/Category/Page/WzNj0ONng_AdPtlJc4XDhA)",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "CM-5.5"
     }
    ],
    "tip": {
-    "text": "每年請風濕科團隊檢視一次疫苗紀錄，並和醫師一起決定接種時機。",
+    "text": "可以每年請風濕科醫師檢視一次疫苗紀錄，並一起決定接種時機。",
     "strength_label": "EULAR 2019・基本原則",
     "evidence": [
      {
@@ -674,7 +695,7 @@
      "sid": "CM-6.4"
     },
     {
-     "text": "紅斑性狼瘡患者，建議做好防曬，以預防病情發作。",
+     "text": "紅斑性狼瘡患者，建議做好防曬，以預防病情發作；不要只看紫外線指數高低。",
      "strength_label": "EULAR 2024・建議強度 C",
      "evidence": [
       {
@@ -683,6 +704,13 @@
        "quote": "In people with SLE, photoprotection should be advised for the prevention of flares (LoE: 4) … Photoprotection and psychosocial interventions are important for SLE patients",
        "strength": "LoE 4; LoA 9.6; SoR not found",
        "confidence": "Medium"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「不要只看紫外線指數高低」; no UV-index threshold for photosensitive patients was found in the sources.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "CM-6.5"
@@ -738,7 +766,7 @@
  ],
  "seek_care": [
   {
-   "text": "增加活動量時如果出現新的症狀，請諮詢醫療人員。",
+   "text": "增加活動量時出現新的症狀，請就醫；運動時胸痛、呼吸困難或快昏倒，請立即停下，撥打 119 或到急診。",
    "strength_label": "WHO 2020・指引說明",
    "evidence": [
     {
@@ -747,6 +775,13 @@
      "quote": "Those who develop new symptoms when increasing their levels of activity should consult a healthcare provider.",
      "strength": "Good-practice text",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial emergency line: 「運動時胸痛、呼吸困難或快昏倒，請立即停下，撥打 119 或到急診」 (same wording as the page footer).",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "CM-S1"

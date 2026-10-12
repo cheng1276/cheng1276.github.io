@@ -125,8 +125,7 @@ POST = {
         'def': '高果糖玉米糖漿是由果糖和葡萄糖組成的液體甜味劑，用來取代一般砂糖（蔗糖），例如加在含糖飲料裡。',
         'supports_replace': [('def：常加在含糖飲料裡；note：果糖是植物中常見的單醣，也是 HFCS 的主要成分。', 'def：例如加在含糖飲料裡。')],
     },
-    'alcohol-serving': {'note': '各國對「一份酒」的定義不同，這裡是該美國研究採用的份量。',
-                        },
+    'alcohol-serving': {'note': '各國對「一份酒」的定義不同，這裡是該美國研究採用的份量。'},
     'special-diets': {
         'def': '生酮：大幅少吃醣類。無麩質：不吃小麥、黑麥、大麥等含麩質穀類。純素：不吃任何動物性食物，包括蛋和奶。間歇性斷食：反覆斷食，每次最長48小時。',
         'drop_quote_prefix': ['TRE was finally defined'],
@@ -242,8 +241,7 @@ POST = {
                       '19963079', 'Abstract', 'note（健康的人也可能有自體抗體）', access='abstract', doi='10.1016/j.autrev.2009.12.002')],
     },
     'solar-urticaria': {'def': '日光性蕁麻疹是誘發型蕁麻疹的一種：皮膚照到光線後幾分鐘內，就冒出會癢的紅斑和膨疹；引發的光線多為紫外線A（UV-A）或可見光。'},
-    'stridor-wheeze': {'def': '咻咻聲是呼吸時像吹口哨的聲音，多在吐氣時出現，因為支氣管收縮；喘鳴在這裡指吸氣時發出的尖銳高音，因為上呼吸道阻塞。',
-                       },
+    'stridor-wheeze': {'def': '咻咻聲是呼吸時像吹口哨的聲音，多在吐氣時出現，因為支氣管收縮；喘鳴在這裡指吸氣時發出的尖銳高音，因為上呼吸道阻塞。'},
     'angioedema': {
         'note': '可和膨疹一起或單獨出現；只有腫脹時請醫師找原因。喉嚨腫脹可能危及生命。',
         'add_ev': [ev('Angioedema of the upper airway can be life threatening.', '23282382', 'Definition and Classification',

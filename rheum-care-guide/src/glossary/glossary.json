@@ -1,5 +1,5 @@
 {
- "version": "2026-10-11",
+ "version": "2026-10-12",
  "categories": [
   {
    "id": "condition",
@@ -121,8 +121,8 @@
     },
     {
      "quote": "Exercise intended to improve cardiorespiratory fitness and muscular endurance. Examples include walking, biking or cycling, running, hiking, aerobics, rowing, swimming, using an elliptical.",
-     "location": "Table 1 (definitions of the interventions; table title in WebFetch read 2: \"Integrative Management of Rheumatoid Arthritis Interventions\"), row \"Aerobic exercise\"; not present in the get_full_text_article extraction, read twice via WebFetch with identical wording",
-     "access": "WebFetch",
+     "location": "Table 1 (definitions of the interventions), row \"Aerobic exercise\" (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -476,8 +476,8 @@
     },
     {
      "quote": "Exercise intended to increase muscular strength. Examples include free weights, weight machines, resistance bands, Pilates.",
-     "location": "Table 1 (definitions of the interventions; table title in WebFetch read 2: \"Integrative Management of Rheumatoid Arthritis Interventions\"), row \"Resistance exercise\"; not present in the get_full_text_article extraction, read twice via WebFetch with identical wording",
-     "access": "WebFetch",
+     "location": "Table 1 (definitions of the interventions), row \"Resistance exercise\" (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -793,8 +793,8 @@
    "evidence": [
     {
      "quote": "Exercise that combines movement, mental focus, and controlled breathing. Examples include yoga, Tai Chi, Qigong.",
-     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); not in the PMC extraction; WebFetch: PMC page ×2 (drafters) and CDC Stacks author manuscript p.19 ×2 (verifier), identical wording",
-     "access": "WebFetch",
+     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); PMC page and CDC Stacks author manuscript p.19",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -802,8 +802,8 @@
     },
     {
      "quote": "Practices engaging both mind and body functions. Examples include biofeedback, goal setting, meditation, mindfulness, breathing exercises, progressive muscle relaxation, guided imagery.",
-     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); not in the PMC extraction; WebFetch: PMC page ×2 (drafters) and CDC Stacks author manuscript p.19 ×2 (verifier), identical wording",
-     "access": "WebFetch",
+     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); PMC page and CDC Stacks author manuscript p.19",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -878,8 +878,8 @@
    "evidence": [
     {
      "quote": "Exercise performed in water, containing elements of both aerobic and resistance exercise. Examples include swimming, water aerobics, water walking or jogging.",
-     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); not in the PMC extraction; WebFetch: PMC page ×2 (drafters) and CDC Stacks author manuscript p.19 ×2 (verifier), identical wording",
-     "access": "WebFetch",
+     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); PMC page and CDC Stacks author manuscript p.19",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -946,8 +946,8 @@
    "evidence": [
     {
      "quote": "Third, flexibility refers to an individual’s range of motion around a joint, or group of joints.",
-     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC extraction reads \"Third,refers to an individual’s range of motion around a joint, or group of joints.\" (italic word dropped); \"flexibility\" restored from two WebFetch reads of the PMC page",
-     "access": "WebFetch",
+     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC text extraction reads \"Third,refers to an individual’s range of motion around a joint, or group of joints.\" (italic word dropped); \"flexibility\" restored as on the PMC page",
+     "access": "Web page or PDF",
      "pmid": "32686505",
      "doi": "10.1161/CIR.0000000000000866",
      "pmcid": "PMC7524041",
@@ -1078,8 +1078,8 @@
     },
     {
      "quote": "CRF, also known as cardiorespiratory endurance, cardiovascular fitness, aerobic capacity, and aerobic fitness among others, refers to the capacity of the body’s circulatory and respiratory systems to supply oxygen to skeletal muscle mitochondria for energy production during physical activity.",
-     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC extraction drops the italic subject \"CRF\" (\"components., also known as …\"); restored from two WebFetch reads of the PMC page",
-     "access": "WebFetch",
+     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC text extraction drops the italic subject \"CRF\" (\"components., also known as …\"); restored as on the PMC page",
+     "access": "Web page or PDF",
      "pmid": "32686505",
      "doi": "10.1161/CIR.0000000000000866",
      "pmcid": "PMC7524041",
@@ -1267,8 +1267,8 @@
     },
     {
      "quote": "Evaluation and treatment by a physical therapist. Components of PT services will vary and should include exercise.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1276,8 +1276,8 @@
     },
     {
      "quote": "May also include functional training and physical activity, energy conservation, workplace accommodations, mobility and gait training, manual therapy, self-management education, electrotherapy, application of orthoses, instruction in assistive devices, pain-management including thermal therapy.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1286,7 +1286,7 @@
     {
      "quote": "Refer people with axial spondyloarthritis to a specialist physiotherapist to start an individualised, structured exercise programme, which should include: stretching, strengthening and postural exercises; deep breathing; spinal extension; range of motion exercises for the lumbar, thoracic and cervical sections of the spine; aerobic exercise.",
      "location": "Recommendation 1.5.1 (nice.org.uk/guidance/ng65/chapter/Recommendations)",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "28350428",
      "doi": "",
      "pmcid": "",
@@ -1372,8 +1372,8 @@
     },
     {
      "quote": "Evaluation and treatment by Occupational Therapist with the goal of increasing physical function and participation.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1381,8 +1381,8 @@
     },
     {
      "quote": "Components of OT services vary and may include arthritis education, ADL evaluation and training, joint protection, activity pacing, work simplification and fatigue management, exercise (particularly for the hand and arm), splinting/orthotics, provision of assistive/adaptive devices, environmental adaptations, work and leisure counselling/rehabilitation, work-site assessment, sexual advice, relaxation, and pain and stress management training.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1483,8 +1483,8 @@
    "evidence": [
     {
      "quote": "Self-management approach that aims to maintain function by providing people with ways to alter work methods and movement patterns of affected joints to reduce pain, inflammation, and joint stress. Examples include changing the way of performing activities to avoid pain, resting, using alternative muscle groups.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Joint protection techniques [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Joint protection techniques (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1538,8 +1538,8 @@
    "evidence": [
     {
      "quote": "Devices to correct and support musculoskeletal function, improve joint alignment, or protect the joint. Examples include wrist and finger splints, foot or knee orthoses, compression gloves, taping.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Bracing and orthoses [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Bracing and orthoses (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1626,8 +1626,8 @@
     },
     {
      "quote": "Devices to assist with mobility. Examples include crutches, canes, walkers, wheelchairs, tricycles, scooters.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Assistive devices [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Assistive devices (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1635,8 +1635,8 @@
     },
     {
      "quote": "Devices to assist with activities of daily living. Examples include built up and/or long handled equipment, sock aide, button hook, reachers, pill cutters, cell phone holders.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Adaptive equipment [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Adaptive equipment (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1644,8 +1644,8 @@
     },
     {
      "quote": "Adapting environment to improve safety. Examples include adaptations for toileting (raised toilet seat, commode, toilet safety rail), showering (tub seat, handheld shower, walk in bath), grab bars, ramps, stair lifts, home modification.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Environmental adaptations [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Environmental adaptations (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1699,8 +1699,8 @@
    "evidence": [
     {
      "quote": "Balancing activity and rest to accomplish activities. Includes activity pacing, energy conservation, activity modification, fatigue management techniques.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Activity pacing [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Activity pacing (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1824,8 +1824,8 @@
     },
     {
      "quote": "Standardized program to guide self-management.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Self-management program [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Self-management program (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1879,8 +1879,8 @@
     },
     {
      "quote": "Training programs to overcome barriers preventing successful employment.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Vocational rehabilitation [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Vocational rehabilitation (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -1897,8 +1897,8 @@
     },
     {
      "quote": "Evaluating and adjusting work-site conditions and duties for safety and well-being.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Work site evaluation and modifications [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Work site evaluation and modifications (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -2007,8 +2007,8 @@
     },
     {
      "quote": "Diagnosis and manipulation of malaligned joints, particularly the spine.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Chiropractic [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Chiropractic (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -2141,7 +2141,7 @@
     "發作計畫"
    ],
    "def": "發作計畫是和醫療團隊討論後，依您的需要、偏好和生活情況擬定的「病情發作時怎麼辦」計畫。",
-   "example": "內容可包括聯絡誰、自我照護、疼痛與疲倦處理，以及醫療團隊說明的可能藥物調整",
+   "example": "內容可包括怎麼就醫、自我照護、疼痛與疲倦處理，以及醫療團隊說明的可能藥物調整",
    "note": "自我照護例如運動、伸展和關節保護；也包括如何處理發作對日常生活和工作的影響。",
    "label": "NICE 2017・建議內容",
    "scope": "card",
@@ -2158,7 +2158,7 @@
     {
      "quote": "Consider developing a flare management plan that is tailored to the person's individual needs, preferences and circumstances.",
      "location": "Recommendation 1.3.4 (nice.org.uk/guidance/ng65/chapter/Recommendations)",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "28350428",
      "doi": "",
      "pmcid": "",
@@ -2167,7 +2167,7 @@
     {
      "quote": "When discussing any flare management plan, provide information on:",
      "location": "Recommendation 1.3.5, lead-in",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "28350428",
      "doi": "",
      "pmcid": "",
@@ -2176,7 +2176,7 @@
     {
      "quote": "access to care during flares (including details of a named person to contact [for example, a specialist rheumatology nurse]); self-care (for example, exercises, stretching and joint protection); pain and fatigue management; potential changes to medicines; managing the impact on daily life and ability to work.",
      "location": "Recommendation 1.3.5, bullet list (joined with semicolons)",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "28350428",
      "doi": "",
      "pmcid": "",
@@ -2478,7 +2478,7 @@
     {
      "quote": "Explanation and pictorial depiction of standard serving sizes … a 12-ounce bottle or can of beer; a 5-ounce glass of wine; and 1 to 1.5 ounces of liquor",
      "location": "Methods – Ascertainment of risk factors",
-     "access": "PMC full text (the word 'i.e.' before 'a 12-ounce' is dropped by the PMC extractor; full sentence confirmed by WebFetch of the PMC page)",
+     "access": "PMC full text (the word 'i.e.' before 'a 12-ounce' is missing from the PMC text extraction; as on the PMC page)",
      "pmid": "24440541",
      "doi": "10.1016/j.amjmed.2013.12.019",
      "pmcid": "PMC3991555",
@@ -2578,7 +2578,7 @@
     {
      "quote": "Diet pattern that emphasizes intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish; and limits added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats.",
      "location": "Table 1 (definitions of interventions), Mediterranean-style diet",
-     "access": "WebFetch (author manuscript copy on CDC Stacks, cdc_151745_DS1.pdf)",
+     "access": "Author manuscript (CDC Stacks)",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -2620,7 +2620,7 @@
    ],
    "def": "生酮：大幅少吃醣類。無麩質：不吃小麥、黑麥、大麥等含麩質穀類。純素：不吃任何動物性食物，包括蛋和奶。間歇性斷食：反覆斷食，每次最長48小時。",
    "example": "",
-   "note": "指引的「不建議」只針對治療類風濕性關節炎；有些人可能因其他疾病而有使用的需要。",
+   "note": "指引的「不建議」只針對治療類風濕性關節炎；有些人可能因其他疾病、宗教或個人選擇而採用。",
    "label": "術語共識與回顧・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -2666,7 +2666,7 @@
     {
      "quote": "Specific formally defined diets evaluated in this guideline were: anti-inflammatory, Mediterranean-style, ketogenic, paleo, gluten-free, vegetarian, vegan, intermittent fasting, elemental, elimination, raw foods, whole food plant-based.",
      "location": "Table 1 (definitions of interventions), Formally defined diet",
-     "access": "WebFetch (author manuscript copy on CDC Stacks, cdc_151745_DS1.pdf)",
+     "access": "Author manuscript (CDC Stacks)",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -2688,7 +2688,7 @@
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
-     "supports": "note：指引只針對治療 RA；有人可能因其他疾病而有需要。"
+     "supports": "note：指引只針對治療 RA；有人可能因其他疾病、宗教或個人選擇而採用。"
     },
     {
      "quote": "Ketogenic diets are characterized by a reduction in carbohydrates (usually to less than 50 g/day) and a relative increase in the proportions of protein and fat.",
@@ -3045,7 +3045,7 @@
     {
      "quote": "Dietary and supplemented elemental calcium intake of up to 1,000 to 1,200 mg daily is recommended for adults (36) and between 1,000 and 1,300 mg daily based on age of the child.",
      "location": "Recommendations for initial treatment (Table 2 / text)",
-     "access": "WebFetch (ACR-hosted manuscript PDF giop-guideline-manuscript-2022.pdf, linked from rheumatology.org)",
+     "access": "Manuscript PDF hosted by ACR (rheumatology.org)",
      "pmid": "37845798",
      "doi": "10.1002/art.42646",
      "pmcid": "",
@@ -3112,7 +3112,7 @@
     {
      "quote": "600 to 800 IU daily or more is typically required.",
      "location": "Recommendations for initial treatment (Table 2 / text)",
-     "access": "WebFetch (ACR-hosted manuscript PDF giop-guideline-manuscript-2022.pdf, linked from rheumatology.org)",
+     "access": "Manuscript PDF hosted by ACR (rheumatology.org)",
      "pmid": "37845798",
      "doi": "10.1002/art.42646",
      "pmcid": "",
@@ -3743,7 +3743,7 @@
     "生物製劑"
    ],
    "def": "生物製劑是用活細胞製造、結構很複雜的藥物；在風濕科屬於抗風濕藥物（DMARDs）中的「生物型」一類。",
-   "example": "治療狼瘡的 belimumab、rituximab",
+   "example": "歐洲狼瘡指引列出的 belimumab、rituximab",
    "note": "研究顯示抽菸可能降低部分生物製劑（如 belimumab）的療效。",
    "label": "巴西風濕病學會 2026・定義",
    "scope": "card",
@@ -3791,7 +3791,7 @@
      "pmid": "37827694",
      "doi": "10.1136/ard-2023-224762",
      "pmcid": "",
-     "supports": "example: belimumab、rituximab (biologics in SLE)"
+     "supports": "example: belimumab、rituximab (biologics in SLE; 歐洲狼瘡指引列出的)"
     },
     {
      "quote": "the only licensed biologic therapy in 2017 was belimumab (B-cell activating factor inhibitor)",
@@ -4005,7 +4005,7 @@
    ],
    "def": "消炎止痛藥（NSAIDs，非類固醇消炎藥）是很常用的一大類藥物，有消炎、退燒和止痛的作用；阿斯匹靈也屬於這一類。",
    "example": "ibuprofen、diclofenac、阿斯匹靈",
-   "note": "醫師為預防血栓開的低劑量阿斯匹靈，不一定要停用；請勿自行停藥，先和醫師討論。",
+   "note": "醫師為預防血栓開的低劑量阿斯匹靈不一定要停用，請先和醫師討論、勿自行停藥；其他消炎止痛藥若曾讓蕁麻疹變嚴重，就避免使用。",
    "label": "EAACI 2022・共識",
    "scope": "card",
    "exclude_pages": [],
@@ -4098,6 +4098,15 @@
      "doi": "10.1111/all.70210",
      "pmcid": "PMC13466004",
      "supports": "note（低劑量阿斯匹靈不一定要停用）"
+    },
+    {
+     "quote": "Physicians should therefore ask patients about the intake of NSAIDs, including on‐demand use, and advise patients with a history to NSAID‐induced urticaria to avoid these drugs (NSAID challenges may be considered to avoid unnecessary restrictions when clinical history is not clear).",
+     "location": "Section 4.2.3 (medications that may aggravate CSU)",
+     "access": "PMC full text",
+     "pmid": "41649409",
+     "doi": "10.1111/all.70210",
+     "pmcid": "PMC13466004",
+     "supports": "note: 其他消炎止痛藥若曾讓蕁麻疹變嚴重，就避免使用 (site UR-1.2, urticaria C28)"
     }
    ],
    "aka": "non-steroidal anti-inflammatory drugs (NSAIDs)",
@@ -4192,7 +4201,7 @@
     "較不會嗜睡的抗組織胺",
     "抗組織胺"
    ],
-   "def": "抗組織胺是常用來治療蕁麻疹和過敏性鼻炎的抗過敏藥。舊的第一代容易讓人想睡；新的第二代很少或不會讓人想睡，是蕁麻疹的第一線用藥。",
+   "def": "抗組織胺是常用來治療蕁麻疹和過敏性鼻炎的抗過敏藥。舊的第一代容易讓人想睡；新的第二代較不會讓人想睡（少數人仍可能想睡），是蕁麻疹的第一線用藥。",
    "example": "第二代例如 cetirizine、desloratadine",
    "note": "全身性（口服）抗組織胺是研究列出可能造成口乾的藥物類別之一。",
    "label": "GALEN 2026・指引說明",
@@ -4256,7 +4265,7 @@
      "pmid": "41649409",
      "doi": "10.1111/all.70210",
      "pmcid": "PMC13466004",
-     "supports": "def: 新的第二代很少或不會讓人想睡"
+     "supports": "def: 新的第二代較不會讓人想睡（minimally sedating；少數人仍可能想睡）"
     },
     {
      "quote": "We recommend the use of a standard‐dosed modern 2nd generation H‐antihistamines as the first‐line symptomatic treatment for urticaria.",
@@ -4307,9 +4316,9 @@
    "aliases": [
     "降尿酸藥"
    ],
-   "def": "降尿酸藥是把血中尿酸降下來、減少痛風發作的藥，指引建議長期持續使用；醫師會依抽血的尿酸值調整劑量。",
+   "def": "降尿酸藥是把血中尿酸降下來、減少痛風發作的藥，指引建議長期持續使用，並由醫師依抽血的尿酸值調整劑量。",
    "example": "allopurinol、febuxostat",
-   "note": "剛開始吃可能誘發發作，指引強烈建議同時使用至少3到6個月的預防發作藥物。",
+   "note": "剛開始吃可能誘發發作，指引強烈建議同時使用至少3到6個月的預防發作藥物；吃藥期間起紅疹、嘴巴破、喉嚨痛或眼睛癢，請立即停藥並就醫。",
    "label": "ACR 2020・指引說明",
    "scope": "card",
    "exclude_pages": [
@@ -4331,7 +4340,7 @@
      "pmid": "32391934",
      "doi": "10.1002/acr.24180",
      "pmcid": "PMC10563586",
-     "supports": "def: 依抽血尿酸值調整劑量；example: allopurinol、febuxostat"
+     "supports": "def: 由醫師依抽血尿酸值調整劑量；example: allopurinol、febuxostat"
     },
     {
      "quote": "there was high certainty of evidence regarding the efficacy of ULT in reducing flare frequency",
@@ -4473,7 +4482,7 @@
    ],
    "def": "非活性疫苗是不含活病原的疫苗（相對於活性減毒疫苗）；風濕病患者即使正在使用類固醇或抗風濕藥物，也可以安全接種。",
    "example": "肺炎鏈球菌疫苗、B型肝炎疫苗、重組帶狀疱疹疫苗",
-   "note": "部分藥物會讓疫苗反應變弱（但通常不會完全沒效）；如果可以，最好在開始免疫抑制治療前接種。",
+   "note": "部分藥物會讓疫苗反應變弱（但通常不會完全沒效；rituximab 影響較大）；如果可以，最好在開始免疫抑制治療前接種。",
    "label": "EULAR 2019・指引說明",
    "scope": "card",
    "exclude_pages": [],
@@ -4538,7 +4547,7 @@
      "pmid": "36597813",
      "doi": "10.1002/acr.25045",
      "pmcid": "PMC10291822",
-     "supports": "note: 疫苗反應變弱但通常不會完全沒效"
+     "supports": "note: 疫苗反應變弱但通常不會完全沒效；rituximab 除外（影響較大）"
     },
     {
      "quote": "Immunogenicity may be reduced in patients receiving methotrexate, mycophenolate, corticosteroids, rituximab, and JAK inhibitors, although this does not appear to compromise clinical protection in most cases.",
@@ -5035,7 +5044,7 @@
     {
      "quote": "Ophthalmic ointments are thicker than AT and may be used to provide symptom control overnight; they are typically used before bedtime because they produce blurred vision and their use should be followed by morning lid hygiene to prevent blepharitis.",
      "location": "Recommendation on ocular dryness (first-line), explanatory text",
-     "access": "WebFetch (publisher page ard.bmj.com/content/79/1/3; 3 passes in the research phase + 2 passes on 2026-10-07, identical)",
+     "access": "Publisher page (ard.bmj.com/content/79/1/3)",
      "pmid": "31672775",
      "doi": "10.1136/annrheumdis-2019-216114",
      "pmcid": "",
@@ -5252,9 +5261,9 @@
    "aliases": [
     "DHEA"
    ],
-   "def": "DHEA（dehydroepiandrosterone）是腎上腺分泌的一種荷爾蒙，身體可把它轉變成男性和女性荷爾蒙；也有口服的 DHEA 補充劑。",
+   "def": "DHEA（dehydroepiandrosterone）是腎上腺分泌的一種荷爾蒙，身體可把它轉變成男性和女性荷爾蒙；也有口服的 DHEA 製劑。",
    "example": "",
-   "note": "研究回顧發現，DHEA 用於乾燥症的結果令人失望；副作用多為輕微的長痘痘和多毛。",
+   "note": "研究回顧發現，DHEA 用於乾燥症的結果令人失望；研究中的副作用主要是長痘痘和多毛。",
    "label": "系統性回顧 2023・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -5298,7 +5307,7 @@
      "pmid": "38621708",
      "doi": "10.1093/rheumatology/keae152",
      "pmcid": "PMC12013823",
-     "supports": "def: 口服 DHEA 補充劑"
+     "supports": "def: 口服 DHEA 製劑"
     },
     {
      "quote": "Most studies analysed in lupus demonstrated that DHEA use seems to have good effects on disease activity and BMD; results in RA, FM, and SS are disappointing.",
@@ -5316,7 +5325,7 @@
      "pmid": "37941864",
      "doi": "10.31138/mjr.20230825.dd",
      "pmcid": "PMC10628885",
-     "supports": "note: 副作用多為輕微的長痘痘和多毛"
+     "supports": "note: 研究中的副作用主要是長痘痘和多毛"
     },
     {
      "quote": "In SS, the five studies encompassed 240 individuals, all females, and showed modest results.",
@@ -6558,7 +6567,7 @@
    ],
    "def": "血管性水腫是皮膚深層或黏膜突然出現的明顯腫脹，可能會痛而不是癢，消退得比膨疹慢，可能要到72小時。",
    "example": "",
-   "note": "可和膨疹一起或單獨出現；只有腫脹時請醫師找原因。喉嚨腫脹可能危及生命。",
+   "note": "可和膨疹一起或單獨出現；只有腫脹時請醫師找原因。喉嚨腫脹可能危及生命，請立刻撥打 119。",
    "label": "WAO 2012、DANCE 2024・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -6682,7 +6691,7 @@
    ],
    "def": "嚴重過敏反應是最嚴重的一種全身性過敏反應，通常發作很快，可能危及呼吸或血液循環，甚至致命。",
    "example": "呼吸困難、咻咻聲、喘鳴、嘴唇或舌頭腫、頭暈或昏倒。",
-   "note": "這是急症，需立刻處理；不一定有皮膚症狀。寒冷性蕁麻疹病人游泳等全身受冷時也可能發生。",
+   "note": "這是急症，請立刻撥打 119；不一定有皮膚症狀。寒冷性蕁麻疹病人游泳等全身受冷時也可能發生。",
    "label": "WAO 2020・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -6732,7 +6741,7 @@
      "pmid": "33204386",
      "doi": "10.1016/j.waojou.2020.100472",
      "pmcid": "PMC7607509",
-     "supports": "note：急症，需立刻處理；症狀常同時影響多個器官"
+     "supports": "note：急症，需立刻處理（「請立刻撥打 119」為台灣的在地化說法）；症狀常同時影響多個器官"
     },
     {
      "quote": "how to recognize anaphylaxis symptoms (eg, tingling in the extremities, sense of heat, sense of dizziness/fainting, swollen lips-tongue-uvula, shortness of breath, wheeze, stridor, collapse)",
@@ -6982,7 +6991,7 @@
    ],
    "def": "葡萄膜炎是眼球內部的發炎。前葡萄膜炎是眼睛前段（虹膜等處）的發炎，虹彩炎（虹膜發炎）就屬於這一類；急性型會突然發作，常只有一眼，也可能兩眼輪流復發。",
    "example": "常見症狀：怕光、眼睛痛、眼睛紅、視力模糊。",
-   "note": "屬急症，要盡快看眼科；延誤治療，有些人可能出現青光眼或視力嚴重受損。",
+   "note": "屬急症，請當天就看眼科；延誤治療，有些人可能出現青光眼或視力嚴重受損。",
    "label": "SUN 2021・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -7116,7 +7125,7 @@
      "pmid": "31777200",
      "doi": "10.1111/1756-185X.13752",
      "pmcid": "PMC7004149",
-     "supports": "note：盡快看眼科；延誤治療少數人可能青光眼或嚴重視力受損"
+     "supports": "note：盡快看眼科（「當天」為編輯加註）；延誤治療少數人可能青光眼或嚴重視力受損"
     },
     {
      "quote": "Acute anterior uveitis is the most common EMM that can occur in up to a quarter of people with axSpA",
@@ -7422,7 +7431,7 @@
    ],
    "def": "紅斑性狼瘡侵犯腎臟所造成的腎臟發炎，是狼瘡最嚴重的器官表現之一。",
    "example": "",
-   "note": "每次回診都要驗尿，這是發現腎炎的必要檢查。",
+   "note": "英國指引指出，每次回診都驗尿，是發現腎炎的必要檢查。",
    "label": "回顧文章 2020・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -7472,7 +7481,7 @@
      "pmid": "42336388",
      "doi": "10.1093/rheumatology/keag223",
      "pmcid": "PMC13290301",
-     "supports": "note"
+     "supports": "note（英國 BSR 指引）"
     }
    ],
    "aka": "lupus nephritis (LN)",
@@ -7685,7 +7694,7 @@
     "病情活躍",
     "病情不活躍"
    ],
-   "def": "指疾病目前「活躍」的程度，主要反映發炎，會隨時間起伏。醫師會綜合症狀、身體檢查、抽血和影像來評估，常分成緩解或不活躍、低、中、高等程度。",
+   "def": "指疾病目前「活躍」的程度，主要反映發炎，會隨時間起伏。評估時通常綜合症狀、身體檢查、抽血和影像，常分成緩解或不活躍、低、中、高等程度。",
    "example": "",
    "note": "疾病活動度和已經造成、無法恢復的器官損傷不同。",
    "label": "ACR 2019・說明",
@@ -8310,7 +8319,7 @@
    "aliases": [
     "夜間盜汗"
    ],
-   "def": "睡覺時出汗；很多沒有特別疾病的人也會有。",
+   "def": "睡覺時出汗；可能和感染、更年期等有關，但很多沒有特別疾病的人也會有。",
    "example": "",
    "note": "乾燥症病人若持續夜間盜汗，或有發燒、3 個月內體重減輕 10% 以上，請盡早回診。",
    "label": "BSR 2025・指引說明",
@@ -8356,7 +8365,7 @@
      "pmid": "23136329",
      "doi": "10.3122/jabfm.2012.06.120033",
      "pmcid": "",
-     "supports": "def：睡覺時出汗；沒有相關疾病的人也常有"
+     "supports": "def：睡覺時出汗；可能和更年期、感染等有關，但沒有相關疾病的人也常有"
     },
     {
      "quote": "The symptom, night sweats, appears to be nonspecific.",
@@ -8770,7 +8779,7 @@
    "evidence": [
     {
      "quote": "A review that uses explicit, systematic methods to collate and synthesise findings of studies that address a clearly formulated question",
-     "location": "Box 1 Glossary of terms, entry \"Systematic review\" (the bold term label is dropped in the PMC extraction; label confirmed verbatim on bmj.com via WebFetch)",
+     "location": "Box 1 Glossary of terms, entry \"Systematic review\" (the bold term label is missing from the PMC text extraction; label as on bmj.com)",
      "access": "PMC full text",
      "pmid": "33782057",
      "doi": "10.1136/bmj.n71",
@@ -8858,7 +8867,7 @@
    "evidence": [
     {
      "quote": "The combination of quantitative results of two or more studies.",
-     "location": "Box 1 Glossary of terms, entry \"Statistical synthesis\" (label dropped in PMC text; confirmed on bmj.com via WebFetch)",
+     "location": "Box 1 Glossary of terms, entry \"Statistical synthesis\" (label missing from the PMC text; as on bmj.com)",
      "access": "PMC full text",
      "pmid": "33782057",
      "doi": "10.1136/bmj.n71",
@@ -8867,7 +8876,7 @@
     },
     {
      "quote": "A statistical technique used to synthesise results when study effect estimates and their variances are available, yielding a quantitative summary of results",
-     "location": "Box 1 Glossary of terms, entry \"Meta-analysis of effect estimates\" (label dropped in PMC text; confirmed on bmj.com via WebFetch)",
+     "location": "Box 1 Glossary of terms, entry \"Meta-analysis of effect estimates\" (label missing from the PMC text; as on bmj.com)",
      "access": "PMC full text",
      "pmid": "33782057",
      "doi": "10.1136/bmj.n71",
@@ -9826,7 +9835,7 @@
    ],
    "def": "認知行為治療是一種心理治療，幫助您找出並改變想法和行為的模式，以便更好地處理症狀。",
    "example": "",
-   "note": "常由心理師或心理治療師提供，也有一些上過相關課程的護理師提供。",
+   "note": "在台灣常由臨床心理師或諮商心理師提供；是否適合、到哪裡接受，可以和醫師討論。",
    "label": "ACR 2022・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -9871,8 +9880,8 @@
     },
     {
      "quote": "Psychological therapy to identify and change thought and behavior patterns.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Cognitive behavioral therapy [WebFetch of the PMC table page pmc.ncbi.nlm.nih.gov/articles/PMC10947582/table/T1/; the get_full_text_article output omits Table 1]",
-     "access": "WebFetch",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Cognitive behavioral therapy (PMC table page)",
+     "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
      "pmcid": "PMC10947582",
@@ -9885,7 +9894,7 @@
      "pmid": "33962964",
      "doi": "10.1136/annrheumdis-2021-220249",
      "pmcid": "PMC8458093",
-     "supports": "note"
+     "supports": "context: in Europe CBT is often delivered by psychologists/psychotherapists or trained nurses; the note now describes Taiwan (臨床心理師、諮商心理師, 心理師法 §5)"
     },
     {
      "quote": "Use of cognitive behavioral therapy and/or mind-body approaches is conditionally recommended over no cognitive behavioral therapy and/or mind-body approaches",
@@ -9957,7 +9966,7 @@
     {
      "quote": "psychological interventions in the form of cognitive behavioural therapy (CBT), group therapy and psychoeducational programmes",
      "location": "Text under the SLE-specific recommendation on psychosocial interventions (ard.bmj.com/content/83/6/720)",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "37433575",
      "doi": "10.1136/ard-2023-224416",
      "pmcid": "",
@@ -9966,7 +9975,7 @@
     {
      "quote": "Counselling, CBT and supported psychotherapy improved anxiety",
      "location": "Text under the SLE-specific recommendation on psychosocial interventions (ard.bmj.com/content/83/6/720)",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "37433575",
      "doi": "10.1136/ard-2023-224416",
      "pmcid": "",
@@ -10033,7 +10042,7 @@
     {
      "quote": "Inform adults with RA who wish to try complementary therapies that although some may provide short-term symptomatic benefit, there is little or no evidence for their long-term efficacy. [2009]",
      "location": "Recommendation 1.8.9 (nice.org.uk/guidance/ng100/chapter/Recommendations)",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "30102507",
      "doi": "",
      "pmcid": "",
@@ -10042,7 +10051,7 @@
     {
      "quote": "If an adult with RA decides to try complementary therapies, advise them: • these approaches should not replace conventional treatment",
      "location": "Recommendation 1.8.10 (first bullet)",
-     "access": "WebFetch",
+     "access": "Web page or PDF",
      "pmid": "30102507",
      "doi": "",
      "pmcid": "",
@@ -11370,7 +11379,7 @@
     },
     {
      "quote": "Studies examining the use of TENS have been of low quality with small size and variable controls, making comparisons across trials difficult. Studies have demonstrated a lack of benefit for knee OA.",
-     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), text under the TENS recommendation (the heading itself is not quoted because the PMC text drops 'against')",
+     "location": "Results (PMC text of the Arthritis Care & Research version), text under the TENS recommendation (the heading itself is not quoted because the PMC text drops 'against')",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11425,7 +11434,7 @@
    "evidence": [
     {
      "quote": "Paraffin, an additional method of heat therapy for the hands, is conditionally recommended for patients with hand OA.",
-     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), physical approaches (no dropped word in this heading)",
+     "location": "Results (PMC text of the Arthritis Care & Research version), physical approaches (no dropped word in this heading)",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11627,7 +11636,7 @@
     },
     {
      "quote": "The currently available literature does not demonstrate clear efficacy of lateral or medial wedged insoles.",
-     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), text under the wedged-insole recommendation (heading not quoted: the PMC text drops 'against')",
+     "location": "Results (PMC text of the Arthritis Care & Research version), text under the wedged-insole recommendation (heading not quoted: the PMC text drops 'against')",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11694,7 +11703,7 @@
     },
     {
      "quote": "Glucosamine can be found naturally in the body and is used by the body as one of the building blocks of cartilage.",
-     "location": "Plain language summary, 'What is osteoarthritis and glucosamine?' (PMC record; see reviewer_notes on version)",
+     "location": "Plain language summary, 'What is osteoarthritis and glucosamine?' (PMC record)",
      "access": "abstract",
      "pmid": "15846645",
      "doi": "10.1002/14651858.CD002946.pub2",
@@ -11712,7 +11721,7 @@
     },
     {
      "quote": "Nonetheless, glucosamine remains among the most commonly used dietary supplements in the US",
-     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), pharmacologic approaches, text under the glucosamine recommendation (citation brackets follow 'US')",
+     "location": "Results (PMC text of the Arthritis Care & Research version), pharmacologic approaches, text under the glucosamine recommendation (citation brackets follow 'US')",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11721,7 +11730,7 @@
     },
     {
      "quote": "The data that were deemed to have the lowest risk of bias fail to show any important benefits over placebo. … The weight of the evidence indicates a lack of efficacy and large placebo effects.",
-     "location": "Results (PMC text of the Arthritis Care & Research version, S2 in research/oa.md), text under the glucosamine recommendation (heading not quoted: the PMC text drops 'against')",
+     "location": "Results (PMC text of the Arthritis Care & Research version), text under the glucosamine recommendation (heading not quoted: the PMC text drops 'against')",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11804,7 +11813,7 @@
    "evidence": [
     {
      "quote": "1.1. We recommend balance and functional training ≥ twice weekly to reduce the risk of falls.",
-     "location": "Table 2, Recommendation 1.1 (strong recommendation per the site's evidence file)",
+     "location": "Table 2, Recommendation 1.1 (strong recommendation)",
      "access": "PMC full text",
      "pmid": "37816527",
      "doi": "10.1503/cmaj.221647",
@@ -12140,7 +12149,7 @@
    "aliases": [
     "骨折風險因子"
    ],
-   "def": "和骨質疏鬆骨折風險較高有關的因素。醫師會依這些因素評估骨折風險，幫助決定是否需要做骨密度檢查。",
+   "def": "和骨質疏鬆骨折風險較高有關的因素。指引建議依這些因素評估骨折風險，再決定是否需要做骨密度檢查。",
    "example": "父母曾髖部骨折、體重過輕、抽菸、喝酒過量、使用類固醇、類風濕性關節炎、曾跌倒",
    "note": "",
    "label": "BHOF 2022・定義",
@@ -12183,7 +12192,7 @@
      "pmid": "40921943",
      "doi": "10.1007/s11657-025-01588-3",
      "pmcid": "PMC12417299",
-     "supports": "def：有臨床風險因子時評估骨折風險，以決定是否測骨密度"
+     "supports": "def：指引建議有臨床風險因子時評估骨折風險，以決定是否測骨密度"
     },
     {
      "quote": "Conduct a clinical risk factor assessment in postmenopausal women and men over the age of 50 years with one or more major risk factors for minimal trauma fracture to guide bone mineral density (BMD) measurement and prompt timely referral and/or drug treatment.",
@@ -12501,7 +12510,7 @@
    ],
    "def": "一種治療骨質疏鬆的抗體藥物（藥名 denosumab），每半年皮下注射一次，能減少骨頭被分解、提高骨密度。",
    "example": "",
-   "note": "不要自行停藥或延後打針；需要停藥時，請醫師安排接續治療，以免脊椎骨折風險增加。",
+   "note": "不要自行停藥或延後打針；停藥前請和醫師討論接續治療，以免脊椎骨折風險增加。",
    "label": "BHOF 2022、NOGG 2024・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -12587,7 +12596,7 @@
      "pmid": "40921943",
      "doi": "10.1007/s11657-025-01588-3",
      "pmcid": "PMC12417299",
-     "supports": "note：停藥須考慮接續治療，否則脊椎骨折風險增加（OP-6.3）"
+     "supports": "note：停藥前要討論接續治療，否則脊椎骨折風險增加（OP-6.3）"
     },
     {
      "quote": "Do not stop denosumab treatment without a plan for subsequent anti-resorptive therapy, where renal function permits.",
@@ -12622,7 +12631,7 @@
    ],
    "def": "指正在或曾經使用雙磷酸鹽類骨鬆藥或骨鬆皮下注射針劑（denosumab）的人，顎骨露出來超過8週，經適當治療仍未癒合，且顎部沒做過放射線治療。",
    "example": "",
-   "note": "骨鬆治療引起的很少見；保持口腔清潔、定期看牙醫有助降低風險；洗牙、補牙、做假牙不必延後骨鬆治療。",
+   "note": "骨鬆治療引起的很少見；保持口腔清潔、定期看牙醫有助降低風險；洗牙、補牙、做假牙不必延後骨鬆治療，拔牙等侵入性治療請先和醫師、牙醫師討論。",
    "label": "亞太顎骨壞死共識 2026・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -13814,7 +13823,7 @@
    "aliases": [
     "潛伏結核"
    ],
-   "def": "潛伏結核是感染了結核菌、但還沒發病：沒有症狀，也還不會傳染。日後仍可能發病（再活化）成為結核病；接受治療可以預防發病。",
+   "def": "潛伏結核是感染了結核菌、但還沒發病：沒有症狀，也還不會傳染。日後仍可能發病（再活化）成為結核病；完整接受治療可以大幅降低發病機會。",
    "example": "",
    "note": "按時、完整做完治療，是能否預防發病的重要關鍵。",
    "label": "WHO 2015・定義",
@@ -13881,7 +13890,7 @@
      "pmid": "26405286",
      "doi": "10.1183/13993003.01245-2015",
      "pmcid": "PMC4664608",
-     "supports": "def: 接受治療可以預防發病"
+     "supports": "def: 完整接受治療可以大幅降低發病機會"
     },
     {
      "quote": "Adherence to the full course and completion of LTBI treatment are important determinants of clinical benefit to the individual as well as to the success of the programme.",
@@ -13917,7 +13926,7 @@
      "pmid": "32053584",
      "doi": "10.15585/mmwr.rr6901a1",
      "pmcid": "PMC7041302",
-     "supports": "def: 接受治療可以預防發病"
+     "supports": "def: 完整接受治療可以大幅降低發病機會"
     }
    ],
    "aka": "latent tuberculosis infection (LTBI); latent TB",
@@ -13935,7 +13944,7 @@
    ],
    "def": "IGRA（抽血）和皮膚測試（結核菌素皮膚測試）都是看身體對結核菌有沒有免疫反應，可幫助判斷是否感染過結核菌，但無法分辨是潛伏結核還是已經發病。",
    "example": "",
-   "note": "皮膚測試較易受類固醇等藥物影響；免疫力較低時兩者都可能偽陰性。是否發病，醫師會看症狀和胸部 X 光。",
+   "note": "皮膚測試較易受類固醇等藥物影響；免疫力較低時兩者都可能偽陰性。是否發病，通常要看症狀和胸部 X 光判斷。",
    "label": "ATS/IDSA/CDC 2017・指引說明",
    "scope": "card",
    "exclude_pages": [],
@@ -13994,7 +14003,7 @@
      "pmid": "28052967",
      "doi": "10.1093/cid/ciw778",
      "pmcid": "PMC5504475",
-     "supports": "note: 醫師會配合症狀和胸部 X 光判斷"
+     "supports": "note: 通常要配合症狀和胸部 X 光判斷"
     },
     {
      "quote": "They represent indirect markers of Mycobacterium tuberculosis exposure and indicate a cellular immune response to M. tuberculosis.",
@@ -14178,8 +14187,8 @@
     },
     {
      "quote": "Evidence suggests that HBV carriers (HBsAg-positive) would benefit from prophylactic treatment, and thus it is advised that",
-     "location": "Text under Recommendation 4 (sentence continues; WebFetch returns short segments only)",
-     "access": "WebFetch",
+     "location": "Text under Recommendation 4 (sentence continues)",
+     "access": "Web page or PDF",
      "pmid": "36328476",
      "doi": "10.1136/ard-2022-223335",
      "pmcid": "",
@@ -14552,7 +14561,7 @@
    ],
    "def": "腎上腺功能不足是腎上腺做不出足夠的皮質醇（身體自己的類固醇）；長期用類固醇會壓抑身體自己製造。腎上腺危象是它的急性發作，會危及生命，必須緊急治療。",
    "example": "可能誘因：漏吃藥、腸胃炎，或感染、外傷、手術等壓力",
-   "note": "使用類固醇期間或剛停藥，若嘔吐、腹瀉或吃不下藥，請盡快就醫。",
+   "note": "使用類固醇期間或最近停藥，若嘔吐或腹瀉，請盡快就醫；吃不下藥請立即就醫；快昏倒或意識不清，請撥打 119 或到急診。",
    "label": "ESE/ES 2024・指引說明",
    "scope": "card",
    "exclude_pages": [],
@@ -14590,7 +14599,7 @@
      "pmid": "38724043",
      "doi": "10.1210/clinem/dgae250",
      "pmcid": "PMC11180513",
-     "supports": "def: 腎上腺功能不足 = 腎上腺製造皮質醇不足 (also fits IF-4.3 「剛停用」)"
+     "supports": "def: 腎上腺功能不足 = 腎上腺製造皮質醇不足 (also fits IF-4.3 「最近停用」)"
     },
     {
      "quote": "Glucocorticoid-induced adrenal insufficiency necessitates careful education and management, and in the rare cases of adrenal crisis, prompt diagnosis and therapy ().",
@@ -14635,7 +14644,7 @@
      "pmid": "38724043",
      "doi": "10.1210/clinem/dgae250",
      "pmcid": "PMC11180513",
-     "supports": "note: 使用類固醇期間或剛停藥，嘔吐、腹瀉時請盡快就醫 (site IF-S2)"
+     "supports": "note: 使用類固醇期間或最近停藥，嘔吐、腹瀉時請盡快就醫 (site IF-S2)"
     },
     {
      "quote": "In patients with suspected reduced absorption (persistent vomiting or diarrhea), nil by mouth, or unable to take tablets, give stress-dose glucocorticoids I.V. or I.M.",
@@ -14775,8 +14784,8 @@
     },
     {
      "quote": "Prophylaxis against PCP should be considered in patients with AIIRD in whom high doses of glucocorticoids are used, especially in combination with immunosuppressants* and depending on the risk–benefit ratio.",
-     "location": "Table 1, Recommendation 8 (read as two WebFetch segments; consistent with evidence file C53)",
-     "access": "WebFetch",
+     "location": "Table 1, Recommendation 8",
+     "access": "Web page or PDF",
      "pmid": "36328476",
      "doi": "10.1136/ard-2022-223335",
      "pmcid": "",
@@ -14926,7 +14935,7 @@
    ],
    "def": "李斯特菌和沙門氏菌都是可能經由受污染的食物傳染的病菌。免疫力較低（例如使用類固醇等藥物）時，比較容易感染，也可能比較嚴重。",
    "example": "",
-   "note": "飲食與環境衛生建議可能減少這類感染（以專家意見為主），可請醫療團隊提供。",
+   "note": "飲食與環境衛生建議可能減少這類感染（以專家意見為主），可以和醫師討論。",
    "label": "研究綜論・定義",
    "scope": "card",
    "exclude_pages": [],
@@ -15052,8 +15061,8 @@
     },
     {
      "quote": "On the other hand, TF members agreed, as has been shown, that people living with AIIRD benefit when provided with general dietary and environmental advice to reduce their risk of infection from specific pathogens (eg, Listeria spp, Salmonella spp) while receiving treatment with bDMARDs, tsDMARDs, immunosuppressants and high-doses of glucocorticoids.",
-     "location": "Discussion (assembled from three WebFetch segments; the superscript reference number after 'shown,' is omitted; consistent with evidence file C67)",
-     "access": "WebFetch",
+     "location": "Discussion (the superscript reference number after 'shown,' is omitted)",
+     "access": "Web page or PDF",
      "pmid": "36328476",
      "doi": "10.1136/ard-2022-223335",
      "pmcid": "",
