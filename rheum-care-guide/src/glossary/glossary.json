@@ -2140,8 +2140,8 @@
    "aliases": [
     "發作計畫"
    ],
-   "def": "發作計畫是和醫療團隊討論後，依您的需要、偏好和生活情況擬定的「病情發作時怎麼辦」計畫。",
-   "example": "內容可包括怎麼就醫、自我照護、疼痛與疲倦處理，以及醫療團隊說明的可能藥物調整",
+   "def": "發作計畫是和醫師討論後，依您的需要、偏好和生活情況擬定的「病情發作時怎麼辦」計畫。",
+   "example": "內容可包括怎麼就醫、自我照護、疼痛與疲倦處理，以及醫師說明的可能藥物調整",
    "note": "自我照護例如運動、伸展和關節保護；也包括如何處理發作對日常生活和工作的影響。",
    "label": "NICE 2017・建議內容",
    "scope": "card",
@@ -2171,7 +2171,7 @@
      "pmid": "28350428",
      "doi": "",
      "pmcid": "",
-     "supports": "def: 和醫療團隊討論 (confirmed verbatim on a second pass; matches research/axspa.md C60)"
+     "supports": "def: 和醫師討論 (NICE: a plan discussed with the person; matches research/axspa.md C60)"
     },
     {
      "quote": "access to care during flares (including details of a named person to contact [for example, a specialist rheumatology nurse]); self-care (for example, exercises, stretching and joint protection); pain and fatigue management; potential changes to medicines; managing the impact on daily life and ability to work.",

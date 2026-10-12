@@ -168,11 +168,11 @@
   {
    "id": "sle-smoking",
    "title": "戒菸",
-   "summary": "抽菸可能降低部分藥物療效；戒菸可找醫療團隊幫忙。",
+   "summary": "抽菸可能降低部分藥物療效；戒菸可以和醫師討論。",
    "illustration": "A person snapping a plain cigarette in half while a friendly clinician sits beside them offering support; no text, no brands.",
    "points": [
     {
-     "text": "有抽菸的話，建議戒菸；可以請醫療團隊協助，找戒菸方法和在地資源。",
+     "text": "有抽菸的話，建議戒菸；可以和醫師討論戒菸方法，也可利用在地的戒菸資源。",
      "strength_label": "BSR 2026・強烈建議（1C）",
      "evidence": [
       {
@@ -265,7 +265,7 @@
    "illustration": "A person walking briskly outdoors on a cool day in a warm jacket and gloves, with a small inset of the same person talking with a doctor; no text, no brands.",
    "points": [
     {
-     "text": "依照目前的病情保持身體活動；需要時，請醫療團隊給您個人化的建議。",
+     "text": "依照目前的病情保持身體活動；需要時，可以和醫師討論適合自己的活動。",
      "strength_label": "BSR 2026・強烈建議（1B）",
      "evidence": [
       {
@@ -462,7 +462,7 @@
      "sid": "SL-4.3"
     },
     {
-     "text": "心情低落或焦慮時，可以請醫療團隊提供心理支持，或轉介心理健康服務。",
+     "text": "心情低落或焦慮時，可以告訴醫師，討論心理支持或轉介心理健康服務。",
      "strength_label": "BSR 2026・強烈建議（1C；轉介部分 1D）",
      "evidence": [
       {

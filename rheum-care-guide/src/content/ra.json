@@ -419,7 +419,7 @@
      "sid": "RA-3.4"
     },
     {
-     "text": "體重過重或肥胖時，和醫療團隊合作，靠健康飲食和多活動，有計畫、有控制地減重，可能對病情有幫助。",
+     "text": "體重過重或肥胖時，和醫療人員合作，靠健康飲食和多活動，有計畫、有控制地減重，可能對病情有幫助。",
      "strength_label": "EULAR 2021・建議強度 B",
      "evidence": [
       {
@@ -451,7 +451,7 @@
   {
    "id": "ra-smoking-alcohol",
    "title": "菸與酒",
-   "summary": "吸菸對病情和治療都不利；飲酒情形可和醫療團隊討論。",
+   "summary": "吸菸對病情和治療都不利；飲酒情形可和醫師討論。",
    "illustration": "Simple flat illustration in soft colours: a hand breaking a cigarette in half, and an adult talking with a doctor across a clinic desk. No text, no logos.",
    "points": [
     {
@@ -490,7 +490,7 @@
      "sid": "RA-4.2"
     },
     {
-     "text": "想戒菸時，可請醫療團隊協助，也可利用戒菸服務。",
+     "text": "想戒菸時，可以和醫師討論，也可利用戒菸服務。",
      "strength_label": "ACR 2022・指引說明",
      "evidence": [
       {
@@ -553,7 +553,7 @@
      "sid": "RA-4.5"
     },
     {
-     "text": "開始新的治療時，和醫療團隊討論自己的飲酒情形。",
+     "text": "開始新的治療時，和醫師討論自己的飲酒情形。",
      "strength_label": "EULAR 2021・建議強度 D",
      "evidence": [
       {
@@ -668,7 +668,7 @@
     }
    ],
    "tip": {
-    "text": "工作可能對健康有好處；工作上的困難，可以在回診時和醫療團隊討論。",
+    "text": "工作可能對健康有好處；工作上的困難，可以在回診時和醫師討論。",
     "strength_label": "EULAR 2021・建議強度 B",
     "evidence": [
      {
