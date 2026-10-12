@@ -39,6 +39,8 @@ small{font-size:.86em}
 .badge{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--ink-2);background:var(--bg)}
 .badge b{font-weight:600;color:var(--brand-ink);white-space:nowrap}
 .badge .dot{width:7px;height:7px;border-radius:50%;background:var(--brand)}
+.site-link{display:inline-flex;align-items:center;gap:6px;margin-top:10px;padding:5px 14px;border:1px solid var(--brand);border-radius:999px;background:var(--brand-tint);color:var(--brand-ink);font-size:13px;font-weight:600;text-decoration:none}
+.site-link:hover{background:var(--brand-soft)}
 .tabs{max-width:1280px;margin:0 auto;padding:0 12px;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .tabs::-webkit-scrollbar{display:none}
 .tab{appearance:none;background:none;border:0;border-bottom:3px solid transparent;padding:10px 12px;font-size:14px;color:var(--ink-2);white-space:nowrap;cursor:pointer;font-weight:500}
@@ -253,6 +255,7 @@ main{max-width:1280px;margin:0 auto;padding:16px 16px 96px}
   <div class="hdr-in">
     <h1>血脂治療決策工具 <span class="muted" style="font-weight:500;font-size:14px">Statin / Non-statin 用藥與健保給付判定</span></h1>
     <div class="sub">依《2025 台灣血脂管理臨床路徑共識》判定 ASCVD 風險分級與 LDL-C 目標，比對 115/9/1 修訂後健保降血脂藥物給付規定（表一）與 PCSK9 給付規定；所選 statin 品項若列於「不適用表一」清單，自動改依表二（原給付規定）判定；statin 強度分類採 2026 ACC/AHA 指引 Table 6。</div>
+    <a class="site-link" href="https://cheng1276.github.io/rheum-care-guide/">另見：風濕免疫生活照護圖解（病友與家屬衛教）→</a>
     <div class="src-badges">
       <span class="badge"><span class="dot"></span><b>共識</b> 2025 台灣血脂管理臨床路徑共識（內科學誌 2024;35:426-430）</span>
       <span class="badge"><span class="dot"></span><b>健保</b> 藥品給付規定 2.6.1–2.6.3 修訂（自 115/9/1 生效）</span>
