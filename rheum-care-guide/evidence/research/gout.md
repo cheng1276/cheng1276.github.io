@@ -53,6 +53,7 @@ Prepared under /home/claude/research/PROTOCOL.md. Session date: 2026-10-06. Ever
 | S35 | Liu et al. Calorie-Restricted DASH, Carbohydrate-Restricted, and Low-Purine Diets for Weight Loss and Urate Control in Men With Overweight or Obesity and Hyperuricemia: A Randomized Trial. Diabetes Care 2026 (ahead of print; no volume/pages in PubMed record) | — | RCT (n=102); Tier 3 | 42743064 | 10.2337/dc26-1241 | None listed | Abstract | Population: men with hyperuricemia (not all had gout). |
 | S36 | Koike R et al. Effect of Dietary Counseling on Patients with Asymptomatic Hyperuricemia. J Med Invest 2023;70(1.2):34-40 | — | Primary study describing Japanese guideline-based counselling; secondary source for the Japanese guideline | 37164741 | 10.2152/jmi.70.34 | None listed | Abstract | The Japanese guideline itself was not accessed. |
 | S37 | Kaneko K et al. Daily Amount of Purine in Commonly Recommended Well-Balanced Diets in Japan and Overseas. Nutrients 2024;16(23) | — | Food-analysis study; secondary source for the Japanese guideline | 39683460 | 10.3390/nu16234066 | PMC11643512 | Abstract | Used in Section E only. |
+| S38 | Ministry of Health and Welfare (衛生福利部), Taiwan. 使用Allopurinol(異嘌呤醇)藥品注意罕見嚴重皮膚不良反應風險. News release, 16 December 2014 | 衛生福利部 (Taiwan Ministry of Health and Welfare) | Government drug-safety notice (news release); Taiwan-specific | Not indexed | None | None | Full text (https://mohw.gov.tw/cp-16-21302-1.html), read 2026-10-12 | Names allopurinol only. Added in the legal and dispute-risk review (2026-10-12). |
 
 ---
 
@@ -421,3 +422,13 @@ Columns: C-ID | Topic | Claim (precise English) | Plain-language takeaway (Engli
 75. kjim.org/upload/kjim-2023-206.pdf (Korean 2023) → success; later confirmed via PMC full text.
 76. doi.org/10.1111/1756-185X.14266 (APLAR) → HTTP 403.
 77. mymahtas2.moh.gov.my …/e-CPG_Management_of_Gout_(Second_Edition)%20(3).pdf (Malaysia 2021) → success (3 queries, including segment verification).
+
+### B-LR. Quotes added after the legal and dispute-risk review (2026-10-12)
+
+These quotes were not in the original evidence file. They were read in the original publications during the legal and dispute-risk review, and the reviewing physician approved the wording that uses them on 2026-10-12.
+
+| C-ID | Topic | Claim | Plain-language takeaway | S-ID | Verbatim quote | Location | Strength / level as stated | Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| C110 | Red, swollen joint: consider other causes | NICE: assess the possibility of septic arthritis, calcium pyrophosphate crystal deposition and inflammatory arthritis in people presenting with a painful, red, swollen joint. | A red, hot, swollen joint is not always gout; a joint infection is one possibility. | S5 | "Assess the possibility of septic arthritis, calcium pyrophosphate crystal deposition and inflammatory arthritis in people presenting with a painful, red, swollen joint." | Rec 1.1.3 (1.1 Diagnosis and assessment; Symptoms and signs) | No formal grade | High | Supports GT-S1. Read 2026-10-12 in the NICE PDF and web page. |
+| C111 | Suspected septic arthritis | NICE: if septic arthritis is suspected, refer immediately according to the local care pathway. | If a joint infection is possible, see a doctor at once. | S5 | "If septic arthritis is suspected, refer immediately according to the local care pathway." | Rec 1.1.4 | No formal grade | High | Supports GT-S1; 「請立即就醫」 renders "refer immediately". 「發燒或全身不舒服」 on the site is an editorial example. |
+| C112 | Allopurinol skin reactions (Taiwan) | Taiwan MOHW: during allopurinol treatment, stop the drug at once and return to the prescriber if sore throat, mouth sores, itchy eyes or a skin rash appear. | Rash, mouth sores, sore throat or itchy eyes while taking allopurinol: stop it and see a doctor at once. | S38 | 「使用含該成分藥品，於治療期間如出現喉嚨痛、嘴巴破、眼睛癢、皮膚紅疹等徵兆，應立即停藥並回診原處方醫師」 | News release text | Government drug-safety notice; not a graded recommendation | High (official page) | Supports GT-4.4 and GT-S2. The notice names allopurinol only; the site applies it to all urate-lowering drugs as an editorial choice (marked 編輯加註). |

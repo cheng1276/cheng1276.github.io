@@ -52,7 +52,7 @@
        "c": "C11",
        "s": "S1",
        "quote": "For pregnancy planning, 6 months of stable inactive or low-level disease is most often suggested, but individual clinical factors may influence this decision.",
-       "strength": "Narrative (no grade); assisted-reproduction section, phrased about pregnancy planning generally; a second, independent read in the fact-check agrees",
+       "strength": "Narrative (no grade); assisted-reproduction section, phrased about pregnancy planning generally",
        "confidence": "High"
       }
      ],
@@ -87,7 +87,7 @@
        "c": "C108",
        "s": "S1",
        "quote": "We strongly recommend proceeding with ART if needed in women with uncomplicated RMD who are receiving pregnancy-compatible medications, whose disease is stable/quiescent, and who are negative for aPL.",
-       "strength": "Strong (full sentence read in the fact-check; it agrees with the fragments in C66)",
+       "strength": "Strong",
        "confidence": "High"
       },
       {
@@ -207,7 +207,7 @@
        "c": "C25",
        "s": "S1",
        "quote": "We strongly recommend progestin-only or IUD contraceptives over combined estrogen-progestin contraception … in SLE patients with moderate or severe disease activity, including nephritis.",
-       "strength": "Strong (a second, independent read in the fact-check agrees)",
+       "strength": "Strong",
        "confidence": "High"
       },
       {
@@ -327,7 +327,7 @@
        "c": "C13",
        "s": "S1",
        "quote": "…uncontrolled systemic inflammatory disease is itself associated with poor pregnancy outcomes…",
-       "strength": "Narrative (a second, independent read in the fact-check agrees)",
+       "strength": "Narrative",
        "confidence": "High"
       }
      ],
@@ -377,7 +377,7 @@
       "c": "EDITORIAL",
       "s": "",
       "quote": "",
-      "strength": "Editorial safety tip: no source read states this patient instruction in these words. It follows in substance from the BSR recommendation that pre-conception counselling cover drug therapy before, during and after pregnancy (1A), from BSR's statement that unnecessary withdrawal of treatment can worsen disease control in pregnancy, and from medicine-specific statements in two guidelines that some medicines are switched as soon as pregnancy is confirmed (not printed on this page). 「不要等到下次回診」 was added after the fact-check, because those medicine-specific statements say the change is made as soon as pregnancy is confirmed.",
+      "strength": "Editorial safety tip: no source read states this patient instruction in these words. It follows in substance from the BSR recommendation that pre-conception counselling cover drug therapy before, during and after pregnancy (1A), from BSR's statement that unnecessary withdrawal of treatment can worsen disease control in pregnancy, and from medicine-specific statements in two guidelines that some medicines are switched as soon as pregnancy is confirmed (not printed on this page). 「不要等到下次回診」 is editorial, because those medicine-specific statements say the change is made as soon as pregnancy is confirmed.",
       "confidence": "EDITORIAL"
      },
      {
@@ -568,7 +568,7 @@
        "c": "C75",
        "s": "S1",
        "quote": "In women with SLE who are considering pregnancy or are pregnant … we strongly recommend testing for LAC, aCL, and anti-β2GPI antibodies once before or early in pregnancy",
-       "strength": "Strong (one contiguous sentence; the first … replaces only a comma; a second, independent read in the fact-check agrees)",
+       "strength": "Strong (one contiguous sentence; the first … replaces only a comma)",
        "confidence": "High"
       },
       {
@@ -744,14 +744,14 @@
        "c": "C103",
        "s": "S28",
        "quote": "若無接種禁忌症的嬰幼兒，宜於出生滿5個月(建議接種時間為出生滿5-8個月)，至遲1歲前完成。",
-       "strength": "National schedule (parent leaflet; the fact-checker re-opened it and found the same 5–8-month window in the January 2025 national schedule)",
+       "strength": "National schedule (parent leaflet; the January 2025 national schedule gives the same 5–8-month window)",
        "confidence": "High"
       },
       {
        "c": "C103",
        "s": "S27",
        "quote": "105年1月1日起卡介苗接種年齡調整為出生滿5個月，建議接種年齡出生滿5-8個月",
-       "strength": "National schedule (news release title; the fact-checker re-opened it and found the same 5–8-month window in the January 2025 national schedule)",
+       "strength": "National schedule (news release title; the January 2025 national schedule gives the same 5–8-month window)",
        "confidence": "High"
       },
       {
@@ -848,7 +848,7 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "「用藥調整請和醫師討論，不要自行停藥。」 is the editorial safety phrase allowed by the drafting brief; the rest of this answer is sourced.",
+     "strength": "「用藥調整請和醫師討論，不要自行停藥。」 is an editorial safety phrase; the rest of this answer is sourced.",
      "confidence": "EDITORIAL"
     }
    ],

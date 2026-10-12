@@ -31,7 +31,7 @@
      "sid": "SJ-1.1"
     },
     {
-     "text": "睡前可塗潤滑眼藥膏，幫助夜間緩解乾眼；它會讓視線模糊，所以多在睡前使用。",
+     "text": "睡前可塗醫師或藥師建議的潤滑眼藥膏，幫助夜間緩解乾眼；它會讓視線模糊，所以多在睡前使用。",
      "strength_label": "EULAR 2020・指引說明",
      "evidence": [
       {
@@ -47,6 +47,13 @@
        "quote": "In general, most of us treating patients with SD associated dry eye would start with a sodium hyaluronate–containing drop during the day and an eye ointment at night",
        "strength": "Expert practice statement; not a graded recommendation",
        "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「醫師或藥師建議的」 (so that medicated ointments are not used as lubricants).",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "SJ-1.2"
@@ -137,7 +144,7 @@
    "illustration": "An adult brushing teeth at a bathroom sink, with a glass of water and a plain pack of chewing gum on the counter; flat, friendly style, no text, no brands.",
    "points": [
     {
-     "text": "有口乾的人，都應使用含氟產品來預防蛀牙。",
+     "text": "有口乾的人，都應使用含氟產品來預防蛀牙；種類和用法可請牙醫建議。",
      "strength_label": "Sjögren's Foundation 2016・強烈建議",
      "evidence": [
       {
@@ -146,6 +153,13 @@
        "quote": "Final recommendations for patients with Sjögren disease with dry mouth were as follows: topical fluoride should be used in all patients (strong)",
        "strength": "Strong",
        "confidence": "Medium"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「種類和用法可請牙醫建議」.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "SJ-2.1"
@@ -247,7 +261,7 @@
   {
    "id": "sjogren-medicines",
    "title": "可能讓口乾的藥",
-   "summary": "有些藥物可能造成口乾，或讓乾眼更嚴重。",
+   "summary": "有些藥物可能造成口乾或乾眼，請勿自行停藥。",
    "illustration": "A patient and a doctor sitting at a desk, looking over several plain, unlabeled medicine boxes together; flat, friendly style, no text, no brands.",
    "points": [
     {
@@ -314,7 +328,7 @@
      "sid": "SJ-3.3"
     },
     {
-     "text": "醫師有時可以換藥、減量或停用造成口乾的藥。",
+     "text": "有時可以和開藥的醫師討論，換藥、減量或停用造成口乾的藥。",
      "strength_label": "Wolff 2017・研究顯示",
      "evidence": [
       {
@@ -357,7 +371,7 @@
    "illustration": "An adult doing gentle exercise outdoors, and the same person resting on a bench with a simple weekly planner; flat, friendly style, no text, no brands.",
    "points": [
     {
-     "text": "疲倦時，可和醫療團隊一起檢視活動安排、睡眠品質與生活習慣。",
+     "text": "疲倦時，可和醫師討論活動安排、睡眠品質與生活習慣。",
      "strength_label": "BSR 2025・建議（2C）",
      "evidence": [
       {
@@ -385,7 +399,7 @@
      "sid": "SJ-4.2"
     },
     {
-     "text": "運動對乾燥症患者是安全的，也可能幫助減輕疲倦。",
+     "text": "運動對乾燥症患者是安全的，也可能幫助減輕疲倦；有心臟或肺部疾病時，開始運動前請先和醫師討論。",
      "strength_label": "BSR 2025・建議（2C）",
      "evidence": [
       {
@@ -408,6 +422,20 @@
        "quote": "Education about self care measures SHOULD include advice about exercise to reduce fatigue in Sjögren's.",
        "strength": "STRONG (S24)",
        "confidence": "Low"
+      },
+      {
+       "c": "common:C95",
+       "s": "common:S4",
+       "quote": "Physical activity is considered safe for adults living with the selected chronic conditions without contraindications, and the benefits generally outweigh the risks.",
+       "strength": "Narrative (guideline text): the safety statement holds for people without contraindications",
+       "confidence": "High"
+      },
+      {
+       "c": "EDITORIAL",
+       "s": "",
+       "quote": "",
+       "strength": "Editorial: 「有心臟或肺部疾病時，開始運動前請先和醫師討論」 is the same caution as the common page (CM-1.6); WHO 2020 calls activity safe for people without contraindications.",
+       "confidence": "EDITORIAL"
       }
      ],
      "sid": "SJ-4.3"
@@ -526,7 +554,7 @@
      "c": "M06",
      "s": "S20",
      "quote": "In SS, the five studies encompassed 240 individuals, all females, and showed modest results.(). Some improvement in dryness, fatigue, and quality of life was observed without differences compared to placebo. … General symptoms such as fatigue and feeling of well-being did not change in SS or FM patients. … results in RA, FM, and SS are disappointing.",
-     "strength": "Tier 2 systematic review (no meta-analysis); not graded. The row's 'STRONG (against)' belongs to S24.",
+     "strength": "Tier 2 systematic review (no meta-analysis); not graded.",
      "confidence": "Medium"
     },
     {
@@ -563,7 +591,7 @@
    "sid": "SJ-S1"
   },
   {
-   "text": "出現持續夜間盜汗、發燒，或 3 個月內體重減輕 10% 以上，請盡早回診。",
+   "text": "出現持續夜間盜汗、發燒，或不明原因的體重減輕（例如 3 個月內減輕 10% 以上），請盡早回診。",
    "strength_label": "BSR 2025・指引說明",
    "evidence": [
     {
@@ -579,6 +607,13 @@
      "quote": "In addition, clinical signs and symptoms associated with lymphoma should alert to the possible existence of early/microscopic NHL. These include B symptoms (persistent night sweats, fevers and weight loss of ≥10% over the preceding 3 months), clonal lymphocytosis in peripheral blood flow cytometry and splenomegaly.",
      "strength": "Narrative",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「不明原因的」 and 「例如」 (the 10% figure is an example, not a threshold).",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "SJ-S2"
@@ -736,6 +771,14 @@
    "pmid": "30086205",
    "doi": "10.1111/odi.12952",
    "url": null
+  },
+  {
+   "s": "common:S4",
+   "short": "WHO 2020 身體活動指引摘要論文",
+   "citation": "Bull FC et al. World Health Organization 2020 guidelines on physical activity and sedentary behaviour. Br J Sports Med 2020;54(24):1451–1462.",
+   "pmid": "33239350",
+   "doi": "10.1136/bjsports-2020-102955",
+   "url": ""
   }
  ]
 }

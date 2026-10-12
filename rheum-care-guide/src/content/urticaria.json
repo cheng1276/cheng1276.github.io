@@ -6,7 +6,7 @@
   {
    "id": "urticaria-triggers",
    "title": "找出加重因子",
-   "summary": "自發型：留意止痛藥、壓力和感染等加重因子",
+   "summary": "自發型：留意消炎止痛藥、壓力和感染等加重因子",
    "illustration": "A calm adult sitting at a table looking thoughtfully at an unlabeled pill box, with two soft thought bubbles: a small storm cloud (stress) and a tissue box (being ill). Flat, friendly style; no text, no brands.",
    "points": [
     {
@@ -59,7 +59,7 @@
      "sid": "UR-1.2"
     },
     {
-     "text": "若醫師為預防血栓開了低劑量阿斯匹靈，不一定要停用；請勿自行停藥，先和醫師討論。",
+     "text": "若醫師為預防血栓開了低劑量阿斯匹靈，不一定要停用；請勿自行停藥，盡快和醫師討論。",
      "strength_label": "GALEN 2026・指引說明",
      "evidence": [
       {
@@ -73,7 +73,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "EDITORIAL (not from a source): neutral safety phrase 「請先和醫師討論」; S1 describes a physician-led four-week switch, not self-management",
+       "strength": "EDITORIAL (not from a source): neutral safety phrase 「請勿自行停藥，盡快和醫師討論」; S1 describes a physician-led four-week switch, not self-management.",
        "confidence": ""
       }
      ],
@@ -147,7 +147,7 @@
   {
    "id": "urticaria-inducible",
    "title": "誘發型的生活調整",
-   "summary": "減少接觸誘發因子，同時照常運動和出門",
+   "summary": "減少接觸誘發因子，但不必完全不運動或不出門",
    "illustration": "Three small vignettes in a flat, friendly style: a person jogging in a park, a person walking outdoors on a windy day, and a person carrying a heavy shopping bag by a wide handle. No text, no brands.",
    "points": [
     {
@@ -207,7 +207,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "EDITORIAL (not from a source): 「先問醫師」 is a neutral safety phrase; the evidence file marks \"discuss with your doctor\" as editorial",
+       "strength": "EDITORIAL (not from a source): 「先問醫師」 is a neutral safety phrase",
        "confidence": ""
       }
      ],
@@ -243,7 +243,7 @@
     }
    ],
    "tip": {
-    "text": "日光性蕁麻疹：和醫師找出引發的光線波長，可能有助挑選防曬乳或有UV-A濾光的燈泡。",
+    "text": "日光性蕁麻疹：若能找出引發的光線波長，可能有助挑選防曬乳或有UV-A濾光的燈泡。",
     "strength_label": "GALEN 2026・指引說明",
     "evidence": [
      {
@@ -346,7 +346,7 @@
   {
    "id": "urticaria-antihistamines",
    "title": "規則用藥",
-   "summary": "自發型每天吃抗組織胺，不要等發作才吃",
+   "summary": "自發型：依醫師指示每天吃抗組織胺，不要等發作才吃",
    "illustration": "A weekly pill organizer with one compartment opened for today, next to a simple wall calendar with a tick on each day. Flat style; no text, no numbers, no brands.",
    "points": [
     {
@@ -413,7 +413,7 @@
      "sid": "UR-4.3"
     },
     {
-     "text": "治療目標是完全控制症狀，並兼顧安全和生活品質。",
+     "text": "指引建議的治療目標是完全控制症狀，並兼顧安全和生活品質。",
      "strength_label": "GALEN 2026・強烈建議",
      "evidence": [
       {
@@ -456,7 +456,7 @@
     }
    ],
    "tip": {
-    "text": "這類較不會嗜睡的抗組織胺，已有連續使用數年的安全資料。",
+    "text": "這類較不會嗜睡的抗組織胺，已有連續使用數年的安全資料；吃了仍會想睡時，避免開車並告訴醫師。",
     "strength_label": "GALEN 2026・指引說明",
     "evidence": [
      {
@@ -465,6 +465,13 @@
       "quote": "…safety data are available for several years of continuous use…",
       "strength": "Narrative text (\"should\")",
       "confidence": "High"
+     },
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "Editorial: 「吃了仍會想睡時，避免開車並告訴醫師」 (minimally sedating does not mean never sedating).",
+      "confidence": "EDITORIAL"
      }
     ],
     "sid": "UR-4.T"
@@ -526,13 +533,20 @@
      "sid": "UR-5.3"
     },
     {
-     "text": "蕁麻疹控制測試（UCT）有4題、回想過去4週，12分以上（滿分16）表示控制良好。",
+     "text": "蕁麻疹控制測試（UCT）有4題、回想過去4週，12分以上（滿分16）表示控制良好，治療目標是16分。",
      "strength_label": "GALEN 2026・指引說明",
      "evidence": [
       {
        "c": "C68",
        "s": "S1",
        "quote": "It is a simple four‐item tool … Its recall period is 4 weeks. … The UCT cutoff value for well‐controlled disease is 12 out of 16 possible points.",
+       "strength": "Narrative text",
+       "confidence": "High"
+      },
+      {
+       "c": "C68",
+       "s": "S1",
+       "quote": "The goal of treatment is to treat the disease until it is gone, as efficiently and as safely as possible, aiming at a continuous complete control (consistently UAS = 0/UCT = 16) and a normalization of quality of life…",
        "strength": "Narrative text",
        "confidence": "High"
       }
@@ -555,7 +569,7 @@
     }
    ],
    "tip": {
-    "text": "自發型會腫脹（血管性水腫）的人，也要記錄血管性水腫活動分數（AAS）。",
+    "text": "自發型會腫脹（血管性水腫）的人，指引建議也記錄血管性水腫活動分數（AAS），可問醫師怎麼記錄。",
     "strength_label": "GALEN 2026・指引說明",
     "evidence": [
      {
@@ -564,6 +578,13 @@
       "quote": "For CSU patients who develop angioedema, with or without wheals, the Angioedema Activity Score (AAS) should be used to assess disease activity … CSU patients who experience wheals and angioedema should use the UAS7 and the AAS in combination.",
       "strength": "Narrative text",
       "confidence": "High"
+     },
+     {
+      "c": "EDITORIAL",
+      "s": "",
+      "quote": "",
+      "strength": "Editorial: 「可問醫師怎麼記錄」 (the AAS questionnaire is copyrighted and not reproduced here).",
+      "confidence": "EDITORIAL"
      }
     ],
     "sid": "UR-5.T"
@@ -602,7 +623,7 @@
   },
   {
    "belief": "抗組織胺只要發作時吃就好。",
-   "fact": "國際指引指出，自發型蕁麻疹應每天規則吃較不會嗜睡的抗組織胺來預防，而非發作才吃。",
+   "fact": "國際指引指出，自發型蕁麻疹應每天規則吃較不會嗜睡的抗組織胺來預防，而非發作才吃；請依醫師指示。",
    "strength_label": "GALEN 2026・指引說明",
    "evidence": [
     {
@@ -618,13 +639,20 @@
      "quote": "Continuous daily therapy with DL … is a better regimen than PRN treatment to maintain or improve QoL in subjects with CIU.",
      "strength": "RCT (46 continuous vs 60 as-needed after randomization)",
      "confidence": "Medium"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「請依醫師指示」 (same as UR-4.1).",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "UR-M2"
   },
   {
-   "belief": "得了蕁麻疹就要長期忌口。",
-   "fact": "食物過敏很少是原因，不需要自行長期忌口（確定食物過敏者除外，很少見）；若醫師建議做飲食試驗，通常只做2到3週。",
+   "belief": "得了慢性蕁麻疹就要長期忌口。",
+   "fact": "食物過敏很少是慢性蕁麻疹的原因，不需要自行長期忌口（確定食物過敏者除外，很少見）；若醫師建議做飲食試驗，通常只做2到3週。",
    "strength_label": "GALEN 2026、AAAAI/ACAAI 2014・指引說明",
    "evidence": [
     {
@@ -676,7 +704,7 @@
  ],
  "seek_care": [
   {
-   "text": "膨疹或腫脹，同時出現呼吸困難、呼吸有咻咻聲、吸氣時有尖銳高音（喘鳴）、舌頭或喉嚨腫脹、頭暈、昏倒或嘔吐，可能是嚴重過敏反應，請立刻撥打 119。",
+   "text": "膨疹或腫脹，同時出現呼吸困難、呼吸有咻咻聲、吸氣時有尖銳高音（喘鳴）、舌頭或喉嚨腫脹、聲音沙啞、頭暈、昏倒或嘔吐，可能是嚴重過敏反應，請立刻撥打 119。",
    "strength_label": "WAO 2020・指引說明",
    "evidence": [
     {
@@ -704,14 +732,14 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "EDITORIAL (not from a source): 119 is Taiwan's emergency number, an editorial localisation; no source gives it",
+     "strength": "EDITORIAL (not from a source): 119 is Taiwan's emergency number, an editorial localisation; no source gives it. 「聲音沙啞」 is an editorial sign of throat (laryngeal) involvement.",
      "confidence": ""
     }
    ],
    "sid": "UR-S1"
   },
   {
-   "text": "運動時冒疹子，可能是膽鹼性蕁麻疹，也可能是運動誘發的嚴重過敏反應，請就醫讓醫師區分。",
+   "text": "運動時冒疹子，請先停止運動；可能是膽鹼性蕁麻疹，也可能是運動誘發的嚴重過敏反應，請就醫讓醫師區分。",
    "strength_label": "AAAAI/ACAAI 2014・指引說明",
    "evidence": [
     {
@@ -720,12 +748,19 @@
      "quote": "Urticaria provoked by exercise can occur in patients with 2 conditions: cholinergic urticaria or exercise-induced anaphylaxis (EIAn). … It is important to distinguish EIAn from cholinergic urticaria.",
      "strength": "Strength not found",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「請先停止運動」 (safety phrase; not from a source).",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "UR-S2"
   },
   {
-   "text": "只有反覆腫脹、沒有膨疹時，請就醫評估其他原因（例如某些降血壓藥）；用藥調整請和醫師討論。",
+   "text": "只有反覆腫脹、沒有膨疹時，請盡快就醫評估其他原因（例如某些降血壓藥或糖尿病藥）；用藥調整請和醫師討論。",
    "strength_label": "GALEN 2026・指引說明",
    "evidence": [
     {
@@ -746,14 +781,14 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "EDITORIAL (not from a source): 「用藥調整請和醫師討論」 neutral safety phrase (the brief's example)",
+     "strength": "EDITORIAL (not from a source): 「用藥調整請和醫師討論」 neutral safety phrase. 「盡快」 is editorial; the diabetes-medicine example follows C36 (gliptins).",
      "confidence": ""
     }
    ],
    "sid": "UR-S3"
   },
   {
-   "text": "睡不好、心情低落或焦慮時，請告訴醫師；這些在自發型蕁麻疹很常見。",
+   "text": "睡不好、心情低落或焦慮時，請告訴醫師；這些在自發型蕁麻疹很常見。有傷害自己的念頭時，請立即求助：撥打 1925 安心專線或 119。",
    "strength_label": "GALEN 2026・指引說明",
    "evidence": [
     {
@@ -762,6 +797,13 @@
      "quote": "Mental disorders, such as depression and anxiety, sexual dysfunction and sleep disturbance are also common consequences of CSU … evaluate sleep, mental health, sexual dysfunction, work, social performance",
      "strength": "Narrative text",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety line. Taiwan Ministry of Health and Welfare: 「民眾只要以市話或手機撥打「1925」，安心專線將持續提供全年無休、24小時免付費之心理諮詢服務。」 (https://mohw.gov.tw/cp-16-50587-1.html, 2019-12-19)",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "UR-S4"

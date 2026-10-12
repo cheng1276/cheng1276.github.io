@@ -195,7 +195,7 @@
    "illustration": "A side-view outline of an upright spine inside a soft protective shield, beside a crossed-out icon of hands forcefully twisting a person's neck and back; flat illustration, no text.",
    "points": [
     {
-     "text": "避免任何脊椎扳動手法、強力按摩（推拿）、頸椎牽引和容易碰撞的接觸性運動，因為脊椎常較脆弱，輕微外力就可能骨折。",
+     "text": "避免任何脊椎扳動手法、強力的按摩或推拿、頸椎牽引和容易碰撞的接觸性運動，因為脊椎常較脆弱，輕微外力就可能骨折。",
      "strength_label": "TRA 2020・指引說明",
      "evidence": [
       {
@@ -350,7 +350,7 @@
      "sid": "AS-4.3"
     },
     {
-     "text": "急性虹彩炎應由眼科醫師治療，以減輕發作的嚴重度、縮短時間或減少併發症。",
+     "text": "指引強烈建議由眼科醫師治療急性虹彩炎，以減輕發作的嚴重度、縮短時間或減少併發症。",
      "strength_label": "ACR 2015・強烈建議",
      "evidence": [
       {
@@ -401,7 +401,7 @@
      "sid": "AS-5.1"
     },
     {
-     "text": "可以和醫療團隊一起擬定發作計畫：發作時聯絡誰、怎麼自我照護（如運動、伸展），以及如何處理疼痛和疲倦。",
+     "text": "可以和醫療團隊一起擬定發作計畫：發作時怎麼就醫、怎麼自我照護（如運動、伸展），以及如何處理疼痛和疲倦。",
      "strength_label": "NICE 2017・建議",
      "evidence": [
       {
@@ -530,7 +530,7 @@
    "sid": "AS-S1"
   },
   {
-   "text": "跌倒或受傷後，請找醫療人員檢查，尤其是疼痛加劇時；若出現手腳麻木或無力，請立即就醫（急診）。",
+   "text": "跌倒或受傷後，請找醫療人員檢查；疼痛加劇時請盡快就醫；若出現手腳麻木或無力，請立即撥打 119 或到急診。",
    "strength_label": "NICE 2017・建議",
    "evidence": [
     {
@@ -544,7 +544,7 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial safety phrase 「若出現手腳麻木或無力，請立即就醫（急診）」; NICE gives no time frame",
+     "strength": "Editorial: 「疼痛加劇時請盡快就醫」 and 「若出現手腳麻木或無力，請立即撥打 119 或到急診」; NICE gives no time frame.",
      "confidence": "EDITORIAL"
     }
    ],

@@ -6,25 +6,25 @@
   {
    "id": "labs-ana",
    "title": "抗核抗體陽性",
-   "summary": "健康的人也可能陽性，數值越高越少見。",
+   "summary": "健康的人也可能陽性，數值越高越少見；有症狀請就醫。",
    "illustration": "A calm adult sitting at a kitchen table reading a printed health-check report shown only as blank lines and simple icons, with a cup of tea nearby; flat, friendly style, no text, no numbers, no brands.",
    "points": [
     {
-     "text": "健康的人也可能驗出抗核抗體（ANA）陽性：1:40以上約20%、最多可達35%，1:160以上約5%。",
+     "text": "國外研究顯示，健康的人也可能驗出抗核抗體（ANA）陽性：1:40以上約20%、最多可達35%，1:160以上約5%。",
      "strength_label": "CRA 2015・指引說明；ICAP 2019・專家共識",
      "evidence": [
       {
        "c": "C28",
        "s": "S8",
        "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
-       "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+       "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text",
        "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
       },
       {
        "c": "C20",
        "s": "S5",
        "quote": "Indeed, up to 35% of healthy controls may be positive if a screening dilution of 1/40 is used.",
-       "strength": "Consensus statement (citing EASI/IUIS, S6) | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "strength": "Consensus statement (citing EASI/IUIS, S6)",
        "confidence": "High"
       }
      ],
@@ -38,21 +38,21 @@
        "c": "C19",
        "s": "S5",
        "quote": "Indeed, higher antibody levels are better associated with SARD and have an increased likelihood to identify the autoantigen in follow-up testing.",
-       "strength": "Consensus statement | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "strength": "Consensus statement",
        "confidence": "High"
       },
       {
        "c": "C12",
        "s": "S4",
        "quote": "For ANA at titers of 1:40, 1:80, 1:160, and 1:320, meta-regression gave sensitivity values of … The corresponding specificities were 66.9% (95% CI 57.8-74.9%), 74.7% (95% CI 66.7-81.3%), 86.2% (95% CI 80.4-90.5%), and 96.6% (95% CI 93.9-98.1%), respectively.",
-       "strength": "SR/meta-regression (specificity estimated against comparison groups, not the general population) | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 28544593))",
+       "strength": "SR/meta-regression (specificity estimated against comparison groups, not the general population)",
        "confidence": "Medium"
       },
       {
        "c": "C28",
        "s": "S8",
        "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
-       "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+       "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text",
        "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
       }
      ],
@@ -66,14 +66,14 @@
        "c": "C22",
        "s": "S5",
        "quote": "Altogether, it is evident that, with the exception of the centromere pattern (AC-3), all patterns are to be confirmed by antigen-specific immunoassay for a solid association with the respective autoimmune diseases.",
-       "strength": "Consensus statement | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "strength": "Consensus statement",
        "confidence": "High"
       },
       {
        "c": "C25",
        "s": "S7",
        "quote": "1. Do not test antinuclear antibody (ANA) subserologies without a positive ANA and clinical suspicion of immune-mediated disease",
-       "strength": "Grade 1C item; cited here for the point that further antibody testing depends on the doctor's clinical suspicion | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "strength": "Grade 1C item; cited here for the point that further antibody testing depends on the doctor's clinical suspicion",
        "confidence": "High"
       }
      ],
@@ -87,14 +87,14 @@
        "c": "C24",
        "s": "S6",
        "quote": "These alternative platforms differ in their antigen profiles, sensitivity and specificity, raising uncertainties regarding standardisation and interpretation of incongruent results.",
-       "strength": "International consensus recommendations (abstract) | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 24126457))",
+       "strength": "International consensus recommendations (abstract)",
        "confidence": "Medium (abstract only)"
       },
       {
        "c": "C20",
        "s": "S5",
        "quote": "Therefore, in the EASI/IUIS recommendations, it is advocated that each laboratory verifies that the screening dilution is defined by a cut-off set at the 95th percentile.",
-       "strength": "Consensus statement (citing EASI/IUIS, S6) | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+       "strength": "Consensus statement (citing EASI/IUIS, S6)",
        "confidence": "High"
       }
      ],
@@ -109,7 +109,7 @@
       "c": "C21",
       "s": "S5",
       "quote": "the number of clinically unexpected positive results, that is, positive test results with no clinical evidence of an associated autoimmune disease, is ever increasing and may even equal the likelihood of a clinically true-positive result.",
-      "strength": "Consensus statement | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+      "strength": "Consensus statement",
       "confidence": "High"
      }
     ],
@@ -130,14 +130,14 @@
        "c": "C14",
        "s": "S3",
        "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; … They endorsed “positive ANA (≥1:80 by HEp-2 immunofluorescence)” as an entry criterion.",
-       "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "strength": "Classification criteria (EULAR/ACR)",
        "confidence": "High"
       },
       {
        "c": "C13",
        "s": "S4",
        "quote": "ANAs at a titer of 1:80 have sufficiently high sensitivity to be considered as an entry criterion for SLE classification criteria, i.e., formally test other classification criteria for SLE only if ANAs of at least 1:80 have been found.",
-       "strength": "SR/meta-regression | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 28544593))",
+       "strength": "SR/meta-regression",
        "confidence": "Medium"
       }
      ],
@@ -151,7 +151,7 @@
        "c": "C14",
        "s": "S3",
        "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; followed by additive weighted criteria grouped in 7 clinical (constitutional, hematologic, neuropsychiatric, mucocutaneous, serosal, musculoskeletal, renal) and 3 immunological (antiphospholipid antibodies, complement proteins, SLE-specific antibodies) domains, and weighted from 2 to 10. Patients accumulating ≥10 points are classified.",
-       "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "strength": "Classification criteria (EULAR/ACR)",
        "confidence": "High"
       }
      ],
@@ -165,21 +165,28 @@
        "c": "C15",
        "s": "S3",
        "quote": "The concept that all criteria are only to be counted if SLE is thought to be the most likely cause of the manifestation (i.e. no other more likely cause exists) is central to these new EULAR/ACR criteria, and is explicitly stated as an overarching principle.",
-       "strength": "Classification criteria (EULAR/ACR); overarching principle | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "strength": "Classification criteria (EULAR/ACR); overarching principle",
        "confidence": "High"
       }
      ],
      "sid": "LB-2.3"
     },
     {
-     "text": "分類標準不是設計來診斷或決定治療的；是否為紅斑性狼瘡，要由受過適當訓練的醫師評估個人狀況來判斷。",
+     "text": "分類標準不是設計來診斷或決定治療的；沒達到標準也不代表沒有這個病，是否為紅斑性狼瘡要由醫師評估判斷。",
      "strength_label": "EULAR/ACR 2019・指引說明",
      "evidence": [
       {
        "c": "C15",
        "s": "S3",
        "quote": "However, it is important to stress that classification criteria are not designed for diagnosis or treatment decisions (). … Diagnosis of SLE remains the purview of an appropriately trained physician evaluating an individual patient ().",
-       "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+       "strength": "Classification criteria (EULAR/ACR)",
+       "confidence": "High"
+      },
+      {
+       "c": "C15",
+       "s": "S3",
+       "quote": "However, it is important to stress that classification criteria are not designed for diagnosis or treatment decisions (). They should never be used to exclude patients who do not fully meet these criteria from receiving appropriate therapies.",
+       "strength": "Classification criteria (EULAR/ACR); narrative text",
        "confidence": "High"
       }
      ],
@@ -194,14 +201,14 @@
       "c": "C14",
       "s": "S3",
       "quote": "Such an approach was thought to reflect underlying SLE pathogenesis, and take into account ANA test characteristics of high sensitivity and limited specificity.",
-      "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+      "strength": "Classification criteria (EULAR/ACR)",
       "confidence": "High"
      },
      {
       "c": "C16",
       "s": "S3",
       "quote": "In the phase 1 early SLE cohort, 99.5% of the 389 SLE patients were ANA positive (). … Using ANA as entry criterion means the new criteria cannot classify SLE among patients who are persistently ANA negative.",
-      "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+      "strength": "Classification criteria (EULAR/ACR)",
       "confidence": "High"
      }
     ],
@@ -211,7 +218,7 @@
   {
    "id": "labs-rf-ccp",
    "title": "類風濕因子與抗CCP",
-   "summary": "陽性不等於類風濕性關節炎；分類標準要求關節腫脹。",
+   "summary": "陽性不等於類風濕性關節炎；分類標準要求經醫師確認的關節腫脹。",
    "illustration": "A doctor gently examining a patient's hand at a clinic desk, with a capped blood-test tube resting on the desk; flat, friendly style, no text, no brands.",
    "points": [
     {
@@ -222,21 +229,21 @@
        "c": "C35",
        "s": "S24",
        "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
-       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract",
        "confidence": "Medium"
       },
       {
        "c": "C31",
        "s": "S10",
        "quote": "RF may also be elevated in healthy individuals, as well as in scenarios such as infection and malignancy.",
-       "strength": "CRA Pediatric Committee Choosing Wisely (peer-reviewed); general background statement. POPULATION: children. This sentence came from a single WebFetch read | Fact-check 2026-10-10: verified in the original (jrheum.org First Release PDF via WebFetch (now two independent reads))",
-       "confidence": "High (item 4 read twice; other quotes single read)"
+       "strength": "CRA Pediatric Committee Choosing Wisely (peer-reviewed); general background statement. Population: children.",
+       "confidence": "High"
       },
       {
        "c": "C44",
        "s": "S31",
        "quote": "Autoantibody screening revealed rheumatoid factor (RF), antinuclear antibody (ANA), anti-Ro antibody, and anti-La antibody positivity in 20.8%, 23.4%, 13.0%, and 2.6% of the patients, respectively.",
-       "strength": "Cross-sectional (77 patients with hepatitis C infection, northern Taiwan); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 37055257))",
+       "strength": "Cross-sectional (77 patients with hepatitis C infection, northern Taiwan); abstract",
        "confidence": "Low (Tier 3)"
       }
      ],
@@ -250,14 +257,14 @@
        "c": "C35",
        "s": "S24",
        "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44). … Anti-CCP antibodies are more specific than RF for diagnosing rheumatoid arthritis",
-       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract",
        "confidence": "Medium"
       },
       {
        "c": "C36",
        "s": "S25",
        "quote": "Anti-CCP2 had greater specificity than rheumatoid factor (96% vs. 86%), with similar sensitivity.",
-       "strength": "SR (151 studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 20368651))",
+       "strength": "SR (151 studies); abstract",
        "confidence": "Medium"
       }
      ],
@@ -271,7 +278,7 @@
        "c": "C32",
        "s": "S23",
        "quote": "\"The classification criteria can be applied to any patient or otherwise healthy individual,\" \"as long as two mandatory requirements are met: first, there must be evidence of currently active clinical synovitis\" \"(ie, swelling) in at least one joint as determined by an expert assessor (table 3).\" … \"Second, the criteria may be applied only to those patients in whom the observed synovitis\" \"is not better explained by another diagnosis (table 3).\"",
-       "strength": "Classification criteria (ACR/EULAR). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; 'at least one joint' also in the PubMed abstract)",
+       "strength": "Classification criteria (ACR/EULAR)",
        "confidence": "High"
       }
      ],
@@ -285,21 +292,21 @@
        "c": "C35",
        "s": "S24",
        "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
-       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+       "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract",
        "confidence": "Medium"
       },
       {
        "c": "C36",
        "s": "S25",
        "quote": "In cohort studies that investigated second-generation anti-cyclic citrullinated peptide antibodies (anti-CCP2) in patients with early rheumatoid arthritis (<2 years), summary sensitivity and specificity were 57% (95% CI, 51% to 63%) and 96% (CI, 93% to 97%), respectively.",
-       "strength": "SR (151 studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 20368651))",
+       "strength": "SR (151 studies); abstract",
        "confidence": "Medium"
       },
       {
        "c": "C46",
        "s": "S29",
        "quote": "\"Refer urgently (even with a normal acute-phase response, negative anti-cyclic citrullinated peptide\" \"[CCP] antibodies or rheumatoid factor) if any of the following apply:\"",
-       "strength": "NICE recommendation 1.1.1 (directive wording; no grade). WebFetch | Fact-check 2026-10-10: verified in the original (nice.org.uk recommendation 1.1.1 via WebFetch)",
+       "strength": "NICE recommendation 1.1.1 (directive wording; no grade)",
        "confidence": "High"
       }
      ],
@@ -314,7 +321,7 @@
       "c": "C33",
       "s": "S23",
       "quote": "\"The working group has deliberately labelled these criteria as ‘classification criteria’\" \"as opposed to ‘diagnostic criteria’.\" … \"The aim is to provide a standardised approach for discriminating, from a population of individuals\" \"presenting with undifferentiated synovitis, the subgroup with the highest probability of persistent or erosive RA,\" \"who may be enrolled into clinical trials and other studies through the use of uniform criteria.\"",
-      "strength": "Classification criteria (ACR/EULAR). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; 'at least one joint' also in the PubMed abstract)",
+      "strength": "Classification criteria (ACR/EULAR)",
       "confidence": "High"
      }
     ],
@@ -335,7 +342,7 @@
        "c": "C28",
        "s": "S8",
        "quote": "\"Do not order antinuclear antibodies (ANA) as a screening test in patients without specific signs or\" \"symptoms of systemic lupus erythematosus (SLE) or another connective tissue disease (CTD)\"",
-       "strength": "CRA Choosing Wisely item 1 (peer-reviewed; ungraded 'Do not' item). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+       "strength": "CRA Choosing Wisely item 1 (peer-reviewed; ungraded 'Do not' item)",
        "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
       }
      ],
@@ -349,7 +356,7 @@
        "c": "C25",
        "s": "S7",
        "quote": "1. Do not test antinuclear antibody (ANA) subserologies without a positive ANA and clinical suspicion of immune-mediated disease … Grade 1C. … classifies recommendations as strong (grade 1) or weak (grade 2) … the quality of evidence as high (grade A), moderate (grade B), or low (grade C)",
-       "strength": "Grade 1C (strong recommendation; low-quality evidence, per the paper's modified GRADE). Adult list; 'meant to leave room for clinical judgment' | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "strength": "Grade 1C (strong recommendation; low-quality evidence, per the paper's modified GRADE). Adult list; 'meant to leave room for clinical judgment'",
        "confidence": "High"
       }
      ],
@@ -363,7 +370,7 @@
        "c": "C26",
        "s": "S7",
        "quote": "This suggestion follows from several principles regarding use of diagnostic tests, including that tests should not be performed if results will not change management or if the pretest probability of disease is low enough to raise the likelihood of a false-positive test higher than the likelihood of a true-positive result.",
-       "strength": "Supporting text for Grade 1C item (ACR text) | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "strength": "Supporting text for Grade 1C item (ACR text)",
        "confidence": "High (ACR text)"
       }
      ],
@@ -377,7 +384,7 @@
        "c": "C26",
        "s": "S7",
        "quote": "However, newer testing may complicate patient care if it results in undirected or very broad testing that increases false-positive results, leading to unnecessary followup tests and patient concern.",
-       "strength": "Supporting text for Grade 1C item (ACR text) | Fact-check 2026-10-10: verified in the original (PMC4106486 (ACR 2013 full text))",
+       "strength": "Supporting text for Grade 1C item (ACR text)",
        "confidence": "High (ACR text)"
       }
      ],
@@ -400,7 +407,7 @@
        "c": "C47",
        "s": "S32",
        "quote": "Recommendations in this guideline apply to patients with gout, except for a single recommendation regarding the use of ULT in individuals with asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi.",
-       "strength": "Definition (text says ≥6.8 mg/dl; S33 Table 1 says >6.8 mg/dl) | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+       "strength": "Definition (text says ≥6.8 mg/dl; S33 Table 1 says >6.8 mg/dl)",
        "confidence": "High"
       }
      ],
@@ -414,14 +421,14 @@
        "c": "C52",
        "s": "S34",
        "quote": "\"The diagnosis of gout should not be made on the presence of hyperuric a emia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
-       "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; Rec 4 also in the PubMed abstract)",
+       "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source)",
        "confidence": "High"
       },
       {
        "c": "C54",
        "s": "S36",
        "quote": "There was consensus agreement that the label ‘gout’ should be restricted to current or prior clinically evident disease caused by monosodium urate crystal deposition.",
-       "strength": "Consensus (≥80% agreement) | Fact-check 2026-10-10: verified in the original (PMC7288724 abstract)",
+       "strength": "Consensus (≥80% agreement)",
        "confidence": "High"
       }
      ],
@@ -435,28 +442,28 @@
        "c": "C49",
        "s": "S32",
        "quote": "From observational studies, among patients with asymptomatic hyperuricemia with SU concentrations of >9 mg/dl, only 20% went on to develop gout within 5 years ().",
-       "strength": "Supporting text for the asymptomatic-hyperuricaemia recommendation | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+       "strength": "Supporting text for the asymptomatic-hyperuricaemia recommendation",
        "confidence": "High"
       },
       {
        "c": "C52",
        "s": "S34",
        "quote": "\"For instance, only 22% of asymptomatic patients with SUA levels above 9 mg/dL developed incident gout over a 5-year period.\" … \"For instance, a recent study found that only half of patients with SUA levels above 10 mg/dL\" \"will develop gout over 15 years.\"",
-       "strength": "Text supporting Recommendation 4. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; Rec 4 also in the PubMed abstract)",
+       "strength": "Text supporting Recommendation 4",
        "confidence": "High"
       },
       {
        "c": "C57",
        "s": "S39",
        "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
-       "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only) | Fact-check 2026-10-10: the figure and the US population were checked against the PubMed abstract (PMID 3826098; US men); this exact sentence was not quoted by the fact-check (the evidence agent machine-checked it against the abstract)",
+       "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only)",
        "confidence": "Low (Tier 3)"
       },
       {
        "c": "C56",
        "s": "S38",
        "quote": "Nonetheless, only about half of those with serum urate concentrations ≥10mg/dL develop clinically evident gout over 15 years, implying a role for prolonged hyperuricaemia and additional factors in the pathogenesis of gout.",
-       "strength": "Individual participant data analysis of 4 US cohorts (ARIC, CARDIA, Framingham; n=18 889). Threshold ≥10 mg/dL. Cited only as a second citation showing that the data come from abroad | Fact-check 2026-10-10: the figure and the US population were checked against the PubMed abstract (PMID 29463518); this exact sentence was not quoted by the fact-check (the evidence agent machine-checked it against the abstract)",
+       "strength": "Individual participant data analysis of 4 US cohorts (ARIC, CARDIA, Framingham; n=18 889). Threshold ≥10 mg/dL. Cited only as a second citation showing that the data come from abroad",
        "confidence": "Low (Tier 3)"
       }
      ],
@@ -471,21 +478,21 @@
       "c": "C47",
       "s": "S32",
       "quote": "Recommendations in this guideline apply to patients with gout, except for a single recommendation regarding the use of ULT in individuals with asymptomatic hyperuricemia, which is defined as an SU concentration of ≥6.8 mg/dl with no prior gout flares or subcutaneous tophi.",
-      "strength": "Definition (text says ≥6.8 mg/dl; S33 Table 1 says >6.8 mg/dl) | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+      "strength": "Definition (text says ≥6.8 mg/dl; S33 Table 1 says >6.8 mg/dl)",
       "confidence": "High"
      },
      {
       "c": "C55",
       "s": "S37",
       "quote": "For ‘hyperuric(a)emia’, it was considered beyond the scope of this nomenclature project to include a specific threshold of blood urate concentration in its definition. … Therefore, the final accepted definition was modified to read ‘an elevated blood urate concentration over the saturation threshold’.",
-      "strength": "Consensus (≥80% agreement) | Fact-check 2026-10-10: verified in the original (PMC6252290 (full text))",
+      "strength": "Consensus (≥80% agreement)",
       "confidence": "High"
      },
      {
       "c": "C61",
       "s": "S42",
       "quote": "Hyperuricemia, defined by elevated concentration of serum urate (SU) exceeding the saturation threshold of 420 μmol/L (7 mg/dL), is a primary risk factor for the development of gout.",
-      "strength": "Text statement (Introduction) | Fact-check 2026-10-10: verified in the original (PMC12280528 (full text))",
+      "strength": "Text statement (Introduction)",
       "confidence": "High"
      }
     ],
@@ -506,22 +513,22 @@
        "c": "C48",
        "s": "S33",
        "quote": "Initiating ULT is conditionally recommended against in patients with asymptomatic hyperuricemia.",
-       "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction confirmed from the co-published version because the PMC text of S32 drops 'against'. WebFetch; two reads | Fact-check 2026-10-10: verified in the original (Deep Blue PDF art41247 via WebFetch, text and Table 1; direction also corroborated by S40, MDedge and the S32 rationale)",
+       "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction as in the co-published version; the PMC text of S32 drops 'against'.",
        "confidence": "High"
       },
       {
        "c": "C61",
        "s": "S42",
        "quote": "Patients with asymptomatic hyperuricemia and SU ≥ 9 mg/dL, or those with comorbidities such as cardiovascular, metabolic dysfunction, and kidney diseases, should initiate ULT as per the 2019 Guideline [].",
-       "strength": "Text statement referring to the 2019 guideline (no grade attached to this sentence) | Fact-check 2026-10-10: verified in the original (PMC12280528 (full text))",
+       "strength": "Text statement referring to the 2019 guideline (no grade attached to this sentence)",
        "confidence": "High"
       },
       {
        "c": "C58",
        "s": "S40",
        "quote": "\"Considering the use of ULA at SUA ≥9 mg/dL and target to SUA ≤6 mg/dL\" … \"In patients with a SUA ≥8 mg/dL who have complications such as CKD, hypertension, heart failure etc.,\" \"treatment with ULAs should be considered after life-style modifications.\"",
-       "strength": "As reported by a secondary source for the Japanese guideline (3rd ed.); no grade stated for these rows. WebFetch | Fact-check 2026-10-10: verified in the original (J-STAGE html via WebFetch)",
-       "confidence": "Low (secondary source; WebFetch)"
+       "strength": "As reported by a secondary source for the Japanese guideline (3rd ed.); no grade stated for these rows",
+       "confidence": "Low (secondary source)"
       }
      ],
      "sid": "LB-6.1"
@@ -534,8 +541,8 @@
        "c": "C72",
        "s": "S44",
        "quote": "Finally, lifestyle modification is a cornerstone in the management of hyperuricemia and gout, and relevant patient education regarding diet and exercise should be espoused when treating these patients.",
-       "strength": "Consensus document text (Discussion; not a numbered statement). This sentence is NOT in the evidence file: it is quoted from the independent fact-check (verify_labs.md, 2026-10-10), which read it verbatim in PMC10345000",
-       "confidence": "High (verified in PMC full text by the fact-check)"
+       "strength": "Consensus document text (Discussion; not a numbered statement; PMC10345000)",
+       "confidence": "High (PMC full text)"
       }
      ],
      "sid": "LB-6.2"
@@ -548,7 +555,7 @@
        "c": "C64",
        "s": "S44",
        "quote": "In most cases, gout and hyperuricemia can be managed in the primary care setting. Patients who are refractory to standard care may require specialist management and should be referred as and when necessary.",
-       "strength": "Consensus document text (Discussion; not a numbered statement) | Fact-check 2026-10-10: verified in the original (PMC10345000 (full text))",
+       "strength": "Consensus document text (Discussion; not a numbered statement)",
        "confidence": "High"
       }
      ],
@@ -556,14 +563,21 @@
     }
    ],
    "tip": {
-    "text": "要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人，不要自行停藥。",
-    "strength_label": "編輯加註・安全提醒",
+    "text": "要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人不要自行停藥，但起紅疹、嘴巴破、喉嚨痛或眼睛癢時，請立即停藥並就醫。",
+    "strength_label": "編輯加註・安全提醒；衛福部 2014・指引說明",
     "evidence": [
+     {
+      "c": "C73",
+      "s": "S51",
+      "quote": "使用含該成分藥品，於治療期間如出現喉嚨痛、嘴巴破、眼睛癢、皮膚紅疹等徵兆，應立即停藥並回診原處方醫師",
+      "strength": "Government drug-safety notice on allopurinol; not a graded recommendation",
+      "confidence": "High (official page)"
+     },
      {
       "c": "EDITORIAL",
       "s": "",
       "quote": "",
-      "strength": "Editorial safety phrase (「要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人，不要自行停藥」, added because the page says not everyone needs medicine; first clause added after the fact-check); not from a source",
+      "strength": "Editorial safety phrase (「要不要用藥，請和醫師討論個人狀況；已經在吃降尿酸藥的人不要自行停藥」, added because the page says not everyone needs medicine); not from a source. Editorial: the exception (rash, mouth sores, sore throat or itchy eyes: stop the drug and see a doctor at once) follows the Taiwan Ministry of Health and Welfare allopurinol notice; applying it to all urate-lowering drugs is an editorial choice.",
       "confidence": "EDITORIAL"
      }
     ],
@@ -581,28 +595,28 @@
      "c": "C28",
      "s": "S8",
      "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
-     "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (jrheum.org via WebFetch (matches the evidence agent's two reads))",
+     "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text",
      "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
     },
     {
      "c": "C20",
      "s": "S5",
      "quote": "Indeed, up to 35% of healthy controls may be positive if a screening dilution of 1/40 is used.",
-     "strength": "Consensus statement (citing EASI/IUIS, S6) | Fact-check 2026-10-10: verified in the original (PMC6585284 (ICAP full text))",
+     "strength": "Consensus statement (citing EASI/IUIS, S6)",
      "confidence": "High"
     },
     {
      "c": "C14",
      "s": "S3",
      "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; … They endorsed “positive ANA (≥1:80 by HEp-2 immunofluorescence)” as an entry criterion.",
-     "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+     "strength": "Classification criteria (EULAR/ACR)",
      "confidence": "High"
     },
     {
      "c": "C15",
      "s": "S3",
      "quote": "Diagnosis of SLE remains the purview of an appropriately trained physician evaluating an individual patient ().",
-     "strength": "Classification criteria (EULAR/ACR) | Fact-check 2026-10-10: verified in the original (PMC6827566 (Aringer 2019 full text))",
+     "strength": "Classification criteria (EULAR/ACR)",
      "confidence": "High"
     }
    ],
@@ -610,29 +624,29 @@
   },
   {
    "belief": "類風濕因子陽性，就是得了類風濕性關節炎。",
-   "fact": "不一定。沒有這個病的人也可能陽性；國際分類標準規定，至少要有1個關節腫脹才能套用，單靠抽血不行。",
+   "fact": "不一定。沒有這個病的人也可能陽性；國際分類標準規定，至少要有1個經醫師確認的關節腫脹才能套用，單靠抽血不行。",
    "strength_label": "ACR/EULAR 2010・指引說明；Nishimura 2007・研究顯示",
    "evidence": [
     {
      "c": "C32",
      "s": "S23",
      "quote": "\"The classification criteria can be applied to any patient or otherwise healthy individual,\" \"as long as two mandatory requirements are met: first, there must be evidence of currently active clinical synovitis\" \"(ie, swelling) in at least one joint as determined by an expert assessor (table 3).\" … \"Second, the criteria may be applied only to those patients in whom the observed synovitis\" \"is not better explained by another diagnosis (table 3).\"",
-     "strength": "Classification criteria (ACR/EULAR). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; 'at least one joint' also in the PubMed abstract)",
+     "strength": "Classification criteria (ACR/EULAR)",
      "confidence": "High"
     },
     {
      "c": "C35",
      "s": "S24",
      "quote": "The pooled sensitivity, specificity, and positive and negative likelihood ratios for anti-CCP antibody were 67% (95% CI, 62% to 72%), 95% (CI, 94% to 97%), 12.46 (CI, 9.72 to 15.98), and 0.36 (CI, 0.31 to 0.42), respectively. For IgM RF, the values were 69% (CI, 65% to 73%), 85% (CI, 82% to 88%), 4.86 (CI, 3.95 to 5.97), and 0.38 (CI, 0.33 to 0.44).",
-     "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract | Fact-check 2026-10-10: verified in the original (PubMed abstract (PMID 17548411))",
+     "strength": "Meta-analysis (37 anti-CCP and 50 RF studies); abstract",
      "confidence": "Medium"
     },
     {
      "c": "C31",
      "s": "S10",
      "quote": "RF may also be elevated in healthy individuals, as well as in scenarios such as infection and malignancy.",
-     "strength": "CRA Pediatric Committee Choosing Wisely (peer-reviewed); general background statement. POPULATION: children. This sentence came from a single WebFetch read | Fact-check 2026-10-10: verified in the original (jrheum.org First Release PDF via WebFetch (now two independent reads))",
-     "confidence": "High (item 4 read twice; other quotes single read)"
+     "strength": "CRA Pediatric Committee Choosing Wisely (peer-reviewed); general background statement. Population: children.",
+     "confidence": "High"
     }
    ],
    "sid": "LB-M2"
@@ -646,28 +660,28 @@
      "c": "C52",
      "s": "S34",
      "quote": "\"The diagnosis of gout should not be made on the presence of hyperuric a emia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
-     "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source). WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch; Rec 4 also in the PubMed abstract)",
+     "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source)",
      "confidence": "High"
     },
     {
      "c": "C49",
      "s": "S32",
      "quote": "From observational studies, among patients with asymptomatic hyperuricemia with SU concentrations of >9 mg/dl, only 20% went on to develop gout within 5 years ().",
-     "strength": "Supporting text for the asymptomatic-hyperuricaemia recommendation | Fact-check 2026-10-10: verified in the original (PMC10563586 (machine-checked))",
+     "strength": "Supporting text for the asymptomatic-hyperuricaemia recommendation",
      "confidence": "High"
     },
     {
      "c": "C54",
      "s": "S36",
      "quote": "There was consensus agreement that the label ‘gout’ should be restricted to current or prior clinically evident disease caused by monosodium urate crystal deposition.",
-     "strength": "Consensus (≥80% agreement) | Fact-check 2026-10-10: verified in the original (PMC7288724 abstract)",
+     "strength": "Consensus (≥80% agreement)",
      "confidence": "High"
     },
     {
      "c": "C57",
      "s": "S39",
      "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
-     "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only) | Fact-check 2026-10-10: the figure and the US population were checked against the PubMed abstract (PMID 3826098; US men); this exact sentence was not quoted by the fact-check (the evidence agent machine-checked it against the abstract)",
+     "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only)",
      "confidence": "Low (Tier 3)"
     }
    ],
@@ -675,35 +689,42 @@
   },
   {
    "belief": "尿酸高，就一定要吃降尿酸藥。",
-   "fact": "不一定。沒有痛風的高尿酸要不要用藥，各國指引看法不同，並不是每個人都需要；已在用藥的人請先和醫師討論，不要自行停藥。",
-   "strength_label": "ACR 2020・不建議；中國指引 2024・指引說明",
+   "fact": "不一定。沒有痛風的高尿酸要不要用藥，各國指引看法不同，並不是每個人都需要；已在用藥的人不要自行停藥，但起紅疹等過敏症狀時，請立即停藥並就醫。",
+   "strength_label": "ACR 2020・不建議；中國指引 2024・指引說明；衛福部 2014・指引說明",
    "evidence": [
     {
      "c": "C48",
      "s": "S33",
      "quote": "Initiating ULT is conditionally recommended against in patients with asymptomatic hyperuricemia.",
-     "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction confirmed from the co-published version because the PMC text of S32 drops 'against'. WebFetch; two reads | Fact-check 2026-10-10: verified in the original (Deep Blue PDF art41247 via WebFetch, text and Table 1; direction also corroborated by S40, MDedge and the S32 rationale)",
+     "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction as in the co-published version; the PMC text of S32 drops 'against'.",
      "confidence": "High"
     },
     {
      "c": "C61",
      "s": "S42",
      "quote": "Patients with asymptomatic hyperuricemia and SU ≥ 9 mg/dL, or those with comorbidities such as cardiovascular, metabolic dysfunction, and kidney diseases, should initiate ULT as per the 2019 Guideline [].",
-     "strength": "Text statement referring to the 2019 guideline (no grade attached to this sentence) | Fact-check 2026-10-10: verified in the original (PMC12280528 (full text))",
+     "strength": "Text statement referring to the 2019 guideline (no grade attached to this sentence)",
      "confidence": "High"
     },
     {
      "c": "C58",
      "s": "S40",
      "quote": "\"Considering the use of ULA at SUA ≥9 mg/dL and target to SUA ≤6 mg/dL\" … \"In patients with a SUA ≥8 mg/dL who have complications such as CKD, hypertension, heart failure etc.,\" \"treatment with ULAs should be considered after life-style modifications.\"",
-     "strength": "As reported by a secondary source for the Japanese guideline (3rd ed.); no grade stated for these rows. WebFetch | Fact-check 2026-10-10: verified in the original (J-STAGE html via WebFetch)",
-     "confidence": "Low (secondary source; WebFetch)"
+     "strength": "As reported by a secondary source for the Japanese guideline (3rd ed.); no grade stated for these rows",
+     "confidence": "Low (secondary source)"
+    },
+    {
+     "c": "C73",
+     "s": "S51",
+     "quote": "使用含該成分藥品，於治療期間如出現喉嚨痛、嘴巴破、眼睛癢、皮膚紅疹等徵兆，應立即停藥並回診原處方醫師",
+     "strength": "Government drug-safety notice on allopurinol; not a graded recommendation",
+     "confidence": "High (official page)"
     },
     {
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial safety phrase (「已在用藥的人請先和醫師討論，不要自行停藥」); not from a source",
+     "strength": "Editorial safety phrase 「已在用藥的人不要自行停藥」; not from a source. Editorial: the exception (a rash or other signs of an allergic reaction: stop the drug and see a doctor at once) follows the Taiwan Ministry of Health and Welfare allopurinol notice, which names sore throat, mouth sores, itchy eyes and skin rash; applying it to all urate-lowering drugs is an editorial choice.",
      "confidence": "EDITORIAL"
     }
    ],
@@ -712,15 +733,22 @@
  ],
  "seek_care": [
   {
-   "text": "關節腫脹，而且會痛或僵硬時，建議在症狀開始後6週內看風濕科醫師。",
+   "text": "關節腫脹，而且會痛或僵硬時，請盡快就醫；指引建議最晚在症狀開始後6週內看風濕科醫師。",
    "strength_label": "EULAR 2016・建議強度 B",
    "evidence": [
     {
      "c": "C45",
      "s": "S28",
      "quote": "\"Patients presenting with arthritis (any joint swelling, associated with pain or stiffness)\" \"should be referred to, and seen by, a rheumatologist, within 6 weeks after the onset of symptoms.\" … \"The strength of this recommendation was considered 'good' (category B) (table 1).\"",
-     "strength": "Recommendation 1; strength of recommendation B ('good'); level of evidence not found in accessible text. WebFetch; read twice | Fact-check 2026-10-10: verified in the original (ard.bmj.com via WebFetch (matches the evidence agent's two reads))",
+     "strength": "Recommendation 1; strength of recommendation B ('good'); level of evidence not found in accessible text",
      "confidence": "High"
+    },
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial: 「請盡快就醫」; EULAR's six weeks is the latest time to be seen, not a time to wait.",
+     "confidence": "EDITORIAL"
     }
    ],
    "sid": "LB-S1"
@@ -733,25 +761,39 @@
      "c": "C46",
      "s": "S29",
      "quote": "\"Refer for specialist opinion any adult with suspected persistent synovitis of undetermined cause.\" … \"Refer urgently (even with a normal acute-phase response, negative anti-cyclic citrullinated peptide\" \"[CCP] antibodies or rheumatoid factor) if any of the following apply:\" … \"the small joints of the hands or feet are affected\" … \"more than one joint is affected\" … \"there has been a delay of 3 months or longer between onset of symptoms and seeking medical advice.\"",
-     "strength": "NICE recommendation 1.1.1 (directive wording; no grade). WebFetch | Fact-check 2026-10-10: verified in the original (nice.org.uk recommendation 1.1.1 via WebFetch)",
+     "strength": "NICE recommendation 1.1.1 (directive wording; no grade)",
      "confidence": "High"
     }
    ],
    "sid": "LB-S2"
   },
   {
-   "text": "對報告有疑問，可以帶著報告和醫師討論。",
+   "text": "抗核抗體陽性又有不明原因發燒、紅疹、口腔潰瘍、關節腫痛，或同一份報告有尿蛋白、血球異常時，請帶著報告就醫；其他疑問也可和醫師討論。",
    "strength_label": "編輯加註・安全提醒",
    "evidence": [
     {
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial safety phrase (「對報告有疑問，可以帶著報告和醫師討論」, proposed by the writer and supported by the fact-check; no source states when to see a doctor for an abnormal result without symptoms); not from a source",
+     "strength": "Editorial safety line: the symptom examples follow the clinical domains of the EULAR/ACR 2019 SLE classification criteria (C14); no source sets a time frame.",
      "confidence": "EDITORIAL"
     }
    ],
    "sid": "LB-S3"
+  },
+  {
+   "text": "關節突然又紅又熱又腫，或合併發燒時，請立即就醫。",
+   "strength_label": "編輯加註・安全提醒",
+   "evidence": [
+    {
+     "c": "EDITORIAL",
+     "s": "",
+     "quote": "",
+     "strength": "Editorial safety line: a hot, swollen joint can be a gout flare or joint infection (see the gout and osteoarthritis pages).",
+     "confidence": "EDITORIAL"
+    }
+   ],
+   "sid": "LB-S4"
   }
  ],
  "sources": [
@@ -938,6 +980,14 @@
    "pmid": "37014501",
    "doi": "10.1007/s10067-023-06578-9",
    "url": null
+  },
+  {
+   "s": "S51",
+   "short": "衛福部 2014 allopurinol 皮膚不良反應提醒",
+   "citation": "Ministry of Health and Welfare (衛生福利部), Taiwan. 使用Allopurinol(異嘌呤醇)藥品注意罕見嚴重皮膚不良反應風險. News release, 16 December 2014.",
+   "pmid": "",
+   "doi": "",
+   "url": "https://mohw.gov.tw/cp-16-21302-1.html"
   }
  ]
 }

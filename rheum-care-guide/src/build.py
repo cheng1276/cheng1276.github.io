@@ -11,6 +11,7 @@ Usage:
 Content lives in src/content/<slug>.json: every sentence carries the guideline quotes it rests on.
 """
 import json
+import os
 import pathlib
 import re
 import sys
@@ -31,15 +32,26 @@ TABS = {'common': '共通照護', 'gout': '痛風', 'urticaria': '慢性蕁麻�
         'oa': '退化性關節炎', 'osteoporosis': '骨質疏鬆症', 'labs': '健檢報告異常', 'infection': '治療期間防感染',
         'pregnancy': '懷孕、哺乳與避孕'}
 
-# Items the physician still has to decide (shown only in the review copy).
-NOTES = {}  # notes for the reviewing physician are kept privately
+# Notes for the reviewing physician (shown only in a review build). They are kept in a private repository,
+# not in this public one: set RHEUM_NOTES_DIR, or keep a copy of that repository next to this one as
+# ../rheum-care-guide-notes. Without it, review builds simply show no notes.
+NOTES_DIR = pathlib.Path(os.environ.get('RHEUM_NOTES_DIR') or ROOT.parent.parent / 'rheum-care-guide-notes')
+
+
+def _private_notes(name):
+    p = NOTES_DIR / name
+    return json.load(open(p, encoding='utf-8')) if p.exists() else {}
+
+
+NOTES = _private_notes('build_notes.json')
+GLOSSARY_NOTES = _private_notes('glossary_reviewer_notes.json')
 
 URL_FIX = {
     ('gout', 'S12'): 'https://mymahtas2.moh.gov.my/files/e-CPG_Management_of_Gout_(Second_Edition)%20(3).pdf',
 }
 
 DESCRIPTION = ('痛風、類風濕性關節炎、紅斑性狼瘡、退化性關節炎、骨質疏鬆症等風濕免疫科常見疾病的生活照護，'
-               '以及看懂健檢報告、治療期間防感染；每則都附臨床指引出處與建議強度。')
+               '以及看懂健檢報告、治療期間防感染；每則建議都附出處與建議強度，少數安全提醒標為編輯加註。')
 
 FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E"
            "%3Crect width='64' height='64' rx='14' fill='%230c6a5e'/%3E"
@@ -79,7 +91,7 @@ def glossary_data(review):
              'ev': [{'q': v['quote'], 'loc': v.get('location', ''), 'acc': v.get('access', ''), 'pmid': v.get('pmid', '')}
                     for v in e['evidence']]}
         if review:
-            x['rn'] = e.get('reviewer_notes', '')
+            x['rn'] = GLOSSARY_NOTES.get(e['id'], '')
         entries.append(x)
     n_quotes = sum(len(e['evidence']) for e in g['entries'])
     return {'cats': g['categories'], 'stop': g.get('stop', []), 'entries': entries, 'srcs': srcs,
@@ -120,10 +132,11 @@ def build_data(review, drafts=None):
         data['diseases'][slug] = {'name': d['name'], 'tab': TABS[slug], 'intro': d['intro'], 'cards': cards,
                                   'myths': myths, 'seek': seek, 'sources': sources,
                                   'notes': NOTES.get(slug, []) if review else []}
-    # Quotes checked by the independent verification reports (evidence/verification/verify_*.md):
+    # Quotes checked by the independent verification (reports kept privately since 2026-10-12):
     # 95 common+gout, 98 RA+axSpA, 74 SLE, 81 urticaria+Sjogren (first seven pages) = 348;
-    # 75 OA, 88 osteoporosis, 43 labs, 57 infection (pages added 2026-10-11) = 263.
-    data['meta'] = {'statements': n_stmt, 'quotes': 348 + 263}
+    # 75 OA, 88 osteoporosis, 43 labs, 57 infection (pages added 2026-10-11) = 263;
+    # 14 quotes newly attached in the legal and dispute-risk revision, checked on 2026-10-12.
+    data['meta'] = {'statements': n_stmt, 'quotes': 348 + 263 + 14}
     data['glossary'] = glossary_data(review)
     return data, n_stmt
 
