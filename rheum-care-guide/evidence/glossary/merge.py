@@ -1,6 +1,7 @@
 """Merge the research files into the site glossary, applying the editorial review decisions (EDITS)
-the fixes from the independent verification (postfix.py, postfix_2026_10.py) and the wording
-approved after the legal and dispute-risk review (postfix_2026_10_12.py).
+the fixes from the independent verification (postfix.py, postfix_2026_10.py), the wording
+approved after the legal and dispute-risk review (postfix_2026_10_12.py) and the evidence-location wording
+of 2026-10-14 (postfix_2026_10_14.py).
 
 Run from the rheum-care-guide folder:
   python3 evidence/glossary/merge.py      # writes src/glossary/glossary.json
@@ -13,6 +14,7 @@ import re
 import postfix
 import postfix_2026_10
 import postfix_2026_10_12
+import postfix_2026_10_14
 
 HERE = pathlib.Path(__file__).resolve().parent
 RESEARCH = HERE / 'research'
@@ -217,6 +219,7 @@ def main():
         postfix.apply(entry, src_lookup)
         postfix_2026_10.apply(entry, src_lookup)
         postfix_2026_10_12.apply(entry)
+        postfix_2026_10_14.apply(entry)
         entry['example'] = clean_example(entry['example'])
         assert entry['def'], tid
         assert entry['cat'] in dict(CATS), (tid, entry['cat'])
@@ -230,7 +233,7 @@ def main():
         for a in e['aliases']:
             assert a not in seen, (a, seen.get(a), e['id'])
             seen[a] = e['id']
-    data = {'version': '2026-10-12', 'categories': [{'id': c, 'name': n} for c, n in CATS], 'stop': STOP,
+    data = {'version': '2026-10-14', 'categories': [{'id': c, 'name': n} for c, n in CATS], 'stop': STOP,
             'entries': out}
     # Reviewer notes are not part of the public glossary. Since 2026-10-12 they are kept, with the research and
     # verification notes, in a private repository (see src/build.py, NOTES_DIR).

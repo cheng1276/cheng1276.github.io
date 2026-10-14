@@ -18,7 +18,7 @@
        "s": "S8",
        "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
        "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text",
-       "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+       "confidence": "High for the item; Low for the cited PPV figures (the page text does not give them)"
       },
       {
        "c": "C20",
@@ -53,7 +53,7 @@
        "s": "S8",
        "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
        "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text",
-       "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+       "confidence": "High for the item; Low for the cited PPV figures (the page text does not give them)"
       }
      ],
      "sid": "LB-1.2"
@@ -244,7 +244,7 @@
        "s": "S31",
        "quote": "Autoantibody screening revealed rheumatoid factor (RF), antinuclear antibody (ANA), anti-Ro antibody, and anti-La antibody positivity in 20.8%, 23.4%, 13.0%, and 2.6% of the patients, respectively.",
        "strength": "Cross-sectional (77 patients with hepatitis C infection, northern Taiwan); abstract",
-       "confidence": "Low (Tier 3)"
+       "confidence": "Low"
       }
      ],
      "sid": "LB-3.1"
@@ -343,7 +343,7 @@
        "s": "S8",
        "quote": "\"Do not order antinuclear antibodies (ANA) as a screening test in patients without specific signs or\" \"symptoms of systemic lupus erythematosus (SLE) or another connective tissue disease (CTD)\"",
        "strength": "CRA Choosing Wisely item 1 (peer-reviewed; ungraded 'Do not' item)",
-       "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+       "confidence": "High for the item; Low for the cited PPV figures (the page text does not give them)"
       }
      ],
      "sid": "LB-4.1"
@@ -457,14 +457,14 @@
        "s": "S39",
        "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
        "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only)",
-       "confidence": "Low (Tier 3)"
+       "confidence": "Low"
       },
       {
        "c": "C56",
        "s": "S38",
        "quote": "Nonetheless, only about half of those with serum urate concentrations ≥10mg/dL develop clinically evident gout over 15 years, implying a role for prolonged hyperuricaemia and additional factors in the pathogenesis of gout.",
        "strength": "Individual participant data analysis of 4 US cohorts (ARIC, CARDIA, Framingham; n=18 889). Threshold ≥10 mg/dL. Cited only as a second citation showing that the data come from abroad",
-       "confidence": "Low (Tier 3)"
+       "confidence": "Low"
       }
      ],
      "sid": "LB-5.3"
@@ -596,7 +596,7 @@
      "s": "S8",
      "quote": "\"With the HEp-2 substrate, about 20% of normal people have an ANA titer of 1:40 or higher, while\" \"5% of normal people have an ANA titer of 1:160 or higher.\"",
      "strength": "CRA Choosing Wisely item (peer-reviewed); supporting text",
-     "confidence": "High for the item; Low for the cited PPV figures (PPV figures not used here)"
+     "confidence": "High for the item; Low for the cited PPV figures (the page text does not give them)"
     },
     {
      "c": "C20",
@@ -682,7 +682,7 @@
      "s": "S39",
      "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
      "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only)",
-     "confidence": "Low (Tier 3)"
+     "confidence": "Low"
     }
    ],
    "sid": "LB-M3"

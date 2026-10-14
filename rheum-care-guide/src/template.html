@@ -197,8 +197,10 @@ h1{font-size:var(--t-h1)}
 #myth-h,#seek-h{scroll-margin-top:5rem}
 .panel{scroll-margin-top:3.5rem}
 .refs{display:grid;gap:.625rem}
-.refs ol{margin:0;padding-left:1.4em;display:grid;gap:.5rem;font-size:var(--t-sm);color:var(--ink-2)}
+.refs ul{margin:0;padding:0;list-style:none;display:grid;gap:.5rem;font-size:var(--t-sm);color:var(--ink-2)}
 .refs li{overflow-wrap:anywhere}
+.refs .r-note{margin:0;font-size:var(--t-xs);color:var(--ink-3)}
+.refs .r-id{font-family:var(--f-latin);font-weight:600;color:var(--ink-2);margin-right:.5em;white-space:nowrap}
 .refs .r-short{color:var(--ink);font-weight:600}
 .refs .r-links{display:inline-flex;gap:.75rem;margin-left:.25rem;font-family:var(--f-latin);font-size:var(--t-xs)}
 
@@ -631,7 +633,8 @@ h1{font-size:var(--t-h1)}
     const refs = `
       <section class="refs" aria-labelledby="ref-h">
         <h3 class="sec-h" id="ref-h">本頁參考文獻</h3>
-        <ol>${d.sources.map((x) => `<li><span class="r-short">${esc(x.short)}</span>　${esc(x.citation)}<span class="r-links">${linksFor(x)}</span></li>`).join('')}</ol>
+        <p class="r-note">編號與「英文原文依據」中的出處編號相同。</p>
+        <ul>${d.sources.map((x) => `<li><span class="r-id">${esc(x.s)}</span><span class="r-short">${esc(x.short)}</span>　${esc(x.citation)}<span class="r-links">${linksFor(x)}</span></li>`).join('')}</ul>
       </section>`;
     panel.innerHTML = `
       <div class="p-head">

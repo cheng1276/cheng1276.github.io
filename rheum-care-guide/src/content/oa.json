@@ -101,7 +101,7 @@
        "c": "C64",
        "s": "S6",
        "quote": "If pharmacological treatments are needed to manage osteoarthritis, use them: • alongside non-pharmacological treatments and to support therapeutic exercise …",
-       "strength": "No formal grade; Recommendation 1.4.1 (medication-adjacent)",
+       "strength": "No formal grade; Recommendation 1.4.1",
        "confidence": "High"
       },
       {
@@ -214,7 +214,7 @@
        "c": "C15",
        "s": "S15",
        "quote": "We did not find any differences in effects between different types of exercise, …",
-       "strength": "Tier 2 (Cochrane systematic review; abstract)",
+       "strength": "Cochrane systematic review; abstract",
        "confidence": "Medium"
       },
       {
@@ -560,7 +560,7 @@
        "c": "C29",
        "s": "S18",
        "quote": "For non-pharmacological interventions, there was low-certainty evidence for a small long-term effect of hand exercises …",
-       "strength": "Tier 2 (systematic review; GRADE as quoted)",
+       "strength": "Systematic review; GRADE as quoted",
        "confidence": "Medium"
       }
      ],
@@ -581,7 +581,7 @@
        "c": "C29",
        "s": "S18",
        "quote": "… moderate-certainty evidence that assistive devices had a moderate long-term effect on function.",
-       "strength": "Tier 2 (systematic review; GRADE as quoted)",
+       "strength": "Systematic review; GRADE as quoted",
        "confidence": "Medium"
       }
      ],
@@ -602,7 +602,7 @@
        "c": "C29",
        "s": "S18",
        "quote": "… a moderate long-term effect of thumb orthoses for pain …",
-       "strength": "Tier 2 (systematic review; GRADE as quoted)",
+       "strength": "Systematic review; GRADE as quoted",
        "confidence": "Medium"
       }
      ],
@@ -623,7 +623,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial safety phrase 「使用時注意溫度，避免燙傷」; not from a source; same caution as OA-6.2",
+       "strength": "Editorial safety phrase 「使用時注意溫度，避免燙傷」; not from a source; same caution as on the 「輔具與其他療法」 card",
        "confidence": "EDITORIAL"
       }
      ],
@@ -681,7 +681,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial safety phrase 「使用時注意溫度，避免燙傷或凍傷」; not from a source; no source read gives heat or cold safety advice or says when to choose heat versus cold. 「感覺較遲鈍（如糖尿病）的人更要小心」 is editorial.",
+       "strength": "Editorial safety phrase 「使用時注意溫度，避免燙傷或凍傷」; not from a source; none of the cited sources gives heat or cold safety advice or says when to choose heat versus cold. 「感覺較遲鈍（如糖尿病）的人更要小心」 is editorial.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -798,7 +798,7 @@
      "c": "C68",
      "s": "S28",
      "quote": "Industry independent trials showed smaller effects than commercially funded trials (P=0.02 for interaction). … Compared with placebo, glucosamine, chondroitin, and their combination do not reduce joint pain or have an impact on narrowing of joint space.",
-     "strength": "Tier 2 (network meta-analysis of large trials; hip or knee OA). Sentence order as in the PubMed abstract",
+     "strength": "Network meta-analysis of large trials (hip or knee OA). Sentence order as in the PubMed abstract",
      "confidence": "Medium"
     }
    ],
@@ -820,14 +820,14 @@
      "c": "C37",
      "s": "S20",
      "quote": "Knee joint loading exercise seems to not be harmful for articular cartilage in people at increased risk of, or with, knee OA. However, the quality of evidence was low, including some interventions studying activities considered outside the therapeutic loading spectrum to promote cartilage health.",
-     "strength": "Tier 2 (systematic review of RCTs; low quality)",
+     "strength": "Systematic review of RCTs; low quality",
      "confidence": "Medium"
     },
     {
      "c": "C37",
      "s": "S21",
      "quote": "Exercise therapy is not harmful, because it does not increase the concentration of molecular biomarkers related to cartilage turnover and inflammation, implicated in osteoarthritis progression. The overall quality of evidence was downgraded to low because of the limited number of RCTs available.",
-     "strength": "Tier 2 (systematic review and meta-analysis; low quality)",
+     "strength": "Systematic review and meta-analysis; low quality",
      "confidence": "Medium"
     },
     {
@@ -885,21 +885,21 @@
      "c": "C74",
      "s": "S22",
      "quote": "The overall prevalence of hip and knee OA was 13.3% (95% CI: 11.6%, 15.2%) in competitive runners, 3.5% (95% CI: 3.4%, 3.6%) in recreational runners, and 10.2% (95% CI: 9.9%, 10.6%) in controls. … Recreational runners had a lower occurrence of OA compared with competitive runners and controls. These results indicated that a more sedentary lifestyle or long exposure to high-volume and/or high-intensity running are both associated with hip and/or knee OA. However, it was not possible to determine whether these associations were causative or confounded by other risk factors, such as previous injury.",
-     "strength": "Tier 2 (systematic review and meta-analysis of observational studies; controls were sedentary non-runners). Conclusion sentences as in the PubMed abstract",
+     "strength": "Systematic review and meta-analysis of observational studies (controls were sedentary non-runners). Conclusion sentences as in the PubMed abstract",
      "confidence": "Medium"
     },
     {
      "c": "C74",
      "s": "S23",
      "quote": "Most of the included studies were rated as having a very high (n = 2) or high (n = 3) risk of bias on the Newcastle Ottawa Scale. There was no difference in knee osteoarthritis prevalence between runners and controls (OR = 0.97, 95% CI = 0.56 to 1.68).",
-     "strength": "Tier 2 (systematic review and meta-analysis of case-control studies; controls ran <8 km per week). Sentence order as in the PubMed abstract (adjacent sentences)",
+     "strength": "Systematic review and meta-analysis of case-control studies (controls ran <8 km per week). Sentence order as in the PubMed abstract (adjacent sentences)",
      "confidence": "Medium"
     },
     {
      "c": "C74",
      "s": "S24",
      "quote": "In the short term, running is not associated with worsening PROs or radiological signs of knee OA and may be protective against generalized knee pain.",
-     "strength": "Tier 2 (systematic review without meta-analysis; level of evidence 4)",
+     "strength": "Systematic review without meta-analysis; level of evidence 4",
      "confidence": "Medium"
     }
    ],

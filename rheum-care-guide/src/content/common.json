@@ -525,7 +525,7 @@
        "c": "cardio:C51",
        "s": "cardio:S8",
        "quote": "… to control hypertension (target level below 130/80 mm Hg).[ref]",
-       "strength": "Supporting text under rec 13 (nephroprotection in lupus nephritis). Cut to leave out the drug class",
+       "strength": "Supporting text under rec 13 (nephroprotection in lupus nephritis); '…' replaces the opening words, which name a drug class",
        "confidence": "Medium"
       },
       {
@@ -630,7 +630,7 @@
        "c": "cardio:C83",
        "s": "cardio:S5",
        "quote": "Considering the detrimental effects of nonsteroidal anti-inflammatory drugs (NSAIDs) and corticosteroids on CVD risks, we recommend using the lowest possible dose of corticosteroids and prescribing NSAIDs cautiously.",
-       "strength": "Abstract; supports statement 4 (SoR A (GRADE strong); QoE B; agreement 100%) (Taiwan; RA; statement 4 applies 'if in low disease activity', so it is not used for the label)",
+       "strength": "Abstract; supports statement 4 (SoR A (GRADE strong); QoE B; agreement 100%) (Taiwan; RA). Statement 4 applies 'if in low disease activity'; the strength label above gives the EULAR grades",
        "confidence": "High"
       },
       {
@@ -666,7 +666,7 @@
       "c": "cardio:C74",
       "s": "cardio:S5",
       "quote": "4. Adequate control of RA activity is recommended for all patients; if in low disease activity, use the lowest possible dose of corticosteroids and prescribe NSAIDs with caution.",
-      "strength": "Statement 4: SoR A (GRADE strong); QoE B; agreement 100% (Taiwan; RA). Applies to patients in low disease activity, so it is not used in the label",
+      "strength": "Statement 4: SoR A (GRADE strong); QoE B; agreement 100% (Taiwan; RA). Applies to patients in low disease activity; the strength label above gives the EULAR grade",
       "confidence": "High"
      },
      {
@@ -687,7 +687,7 @@
       "c": "EDITORIAL",
       "s": "",
       "quote": "",
-      "strength": "「請先和醫師討論」 is a neutral safety phrase. The sources address prescribers; S3 asks for an individual clinical evaluation in AS with established CVD (C87). The wording avoids implying that NSAIDs are banned (they are first-line in AS) or freely allowed (the urticaria page says NSAIDs can worsen urticaria, UR-1.1 and UR-1.2). 「醫師為預防血栓開的藥，請不要自行停用」 is editorial: people with heart disease often take prescribed low-dose aspirin, which the glossary lists among NSAIDs; same advice as UR-1.3.",
+      "strength": "「請先和醫師討論」 is a neutral safety phrase. The sources address prescribers; cardio:S3 asks for an individual clinical evaluation in AS with established CVD (cardio:C87). The wording avoids implying that NSAIDs are banned (they are first-line in AS) or freely allowed (the 慢性蕁麻疹 page's 「找出加重因子」 card says NSAIDs can worsen urticaria). 「醫師為預防血栓開的藥，請不要自行停用」 is editorial: people with heart disease often take prescribed low-dose aspirin, which the glossary lists among NSAIDs; that urticaria card gives the same advice.",
       "confidence": "EDITORIAL"
      }
     ],
@@ -863,7 +863,7 @@
        "c": "steroid:C44",
        "s": "steroid:S1",
        "quote": "During treatment, patients should be monitored for body weight, blood pressure, peripheral oedema, cardiac insufficiency, serum lipids, blood and/or urine glucose and ocular pressure depending on individual patient’s risk, glucocorticoid dose and duration. … There is no direct evidence from appropriately designed studies to support this proposition (category IV).",
-       "strength": "Rec 5; SoR 89 (81 to 97); evidence category IV (SoR scale definition not visible in the abbreviated article). Old (2007)",
+       "strength": "Rec 5; SoR 89 (81 to 97); evidence category IV (the abbreviated published version does not show how the SoR scale is defined)",
        "confidence": "High"
       },
       {
@@ -877,7 +877,7 @@
        "c": "steroid:C39",
        "s": "steroid:S2",
        "quote": "Standard care monitoring needs NOT be extended for patients on low-dose GC therapy, except for osteoporosis (follow national guidelines), and baseline assessments of ankle edema, fasting blood glucose and risk factors for glaucoma.",
-       "strength": "Abstract; consensus (\"Most recommendations had to be based on consensus.\"). Population: low dose as defined in S2; fewer extra checks at low dose",
+       "strength": "Abstract; consensus (\"Most recommendations had to be based on consensus.\"). Population: low dose as defined in steroid:S2; fewer extra checks at low dose",
        "confidence": "High"
       },
       {
@@ -926,7 +926,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial: 「盡快」; JBDS 2023 notes the potential for acute complications of hyperglycaemia (C25).",
+       "strength": "Editorial: 「盡快」; JBDS 2023 notes the potential for acute complications of hyperglycaemia (steroid:C25).",
        "confidence": "EDITORIAL"
       }
      ],
@@ -955,7 +955,7 @@
        "s": "steroid:S3",
        "quote": "Assess the risk factors for glaucoma (family history, presence of high myopia or diabetes) and refer to an ophthalmologist in case these factors are present.",
        "strength": "Box 2, restating the EULAR 2010 daily-practice recommendations (low dose)",
-       "confidence": "High (the risk factors and the eye evaluation are also in S2 Table 2, steroid:C91)"
+       "confidence": "High (the risk factors and the eye evaluation are also in steroid:S2 Table 2, steroid:C91)"
       },
       {
        "c": "steroid:C91",
@@ -996,7 +996,7 @@
        "c": "steroid:C67",
        "s": "steroid:S6",
        "quote": "R 2.2—Glucocorticoid taper for patients on long-term glucocorticoid therapy should only be attempted if the underlying disease for which glucocorticoids were prescribed is controlled, and glucocorticoids are no longer required. … When prescribing clinicians decide that glucocorticoid therapy is no longer required, they should educate their patient on methods to taper the dose, symptoms of adrenal insufficiency and appropriate responses, and proceed to wean the dose ().",
-       "strength": "R 2.2, Good clinical practice; the second sentence is from the rationale under R 1.1 (basis for 「何時停藥」). Cut to leave out R 2.2's dose example",
+       "strength": "R 2.2, Good clinical practice (its dose example is omitted); the sentence after '…' is from the rationale under R 1.1 (basis for 「何時停藥」)",
        "confidence": "High"
       },
       {
@@ -1073,7 +1073,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "「請盡早回診」 is the patient action inferred from S6 (patients should be told the three possible causes and should avoid reactive dose increases); 「盡早」 is an editorial timing word, because the symptoms overlap with adrenal insufficiency. 「加量要依醫師交代」 rests on C73 and leaves room for sick-day rules the doctor has given. 「快昏倒請撥打 119 或到急診」 is an editorial emergency line (same wording as the page footer); the Table 5 footnote says symptoms can reach life-threatening adrenal crisis (C76). Vomiting or diarrhoea is covered by IF-S2.",
+       "strength": "「請盡早回診」 is the patient action inferred from steroid:S6 (patients should be told the three possible causes and should avoid reactive dose increases); 「盡早」 is an editorial timing word, because the symptoms overlap with adrenal insufficiency. 「加量要依醫師交代」 rests on steroid:C73 and leaves room for sick-day rules the doctor has given. 「快昏倒請撥打 119 或到急診」 is an editorial emergency line (same wording as the page footer); the Table 5 footnote says symptoms can reach life-threatening adrenal crisis (steroid:C76). Vomiting or diarrhoea is covered on the 治療期間防感染 page, under 「這些情況請盡快就醫」.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -1123,7 +1123,7 @@
       "c": "EDITORIAL",
       "s": "",
       "quote": "",
-      "strength": "The cross-reference 「生病時的其他注意事項，請見「治療期間防感染」頁」 points to IF-4.2, IF-4.3 and IF-S2; it adds no facts.",
+      "strength": "The cross-reference 「生病時的其他注意事項，請見「治療期間防感染」頁」 points to that page's 「使用類固醇時」 card (second and third points) and its 「這些情況請盡快就醫」 list; it adds no facts.",
       "confidence": "EDITORIAL"
      }
     ],
@@ -1151,7 +1151,7 @@
        "c": "C65",
        "s": "S9",
        "quote": "Vaccines should be preferably administered prior to planned immunosuppression, in particular B cell depleting therapy",
-       "strength": "S9: not found. S10: text statement.",
+       "strength": "Strength not found",
        "confidence": "High"
       }
      ],
@@ -1243,7 +1243,7 @@
       "c": "C62",
       "s": "S9",
       "quote": "The vaccination status and indications for further vaccination in patients with AIIRD should be assessed yearly by the rheumatology team … The former address the need for an annual vaccination status assessment, shared decision-making and timing of vaccination",
-      "strength": "Strength not found in accessible text (Table 1 not rendered)",
+      "strength": "Strength not found in accessible text (Table 1 not included)",
       "confidence": "High"
      },
      {

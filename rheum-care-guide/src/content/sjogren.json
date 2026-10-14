@@ -355,9 +355,9 @@
     "evidence": [
      {
       "c": "EDITORIAL",
-      "s": "EDITORIAL",
+      "s": "",
       "quote": "",
-      "strength": "EDITORIAL",
+      "strength": "Editorial safety phrase 「用藥調整請和醫師討論，不要自行停藥」; not from a source.",
       "confidence": "EDITORIAL"
      }
     ],
@@ -434,7 +434,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial: 「有心臟或肺部疾病時，開始運動前請先和醫師討論」 is the same caution as the common page (CM-1.6); WHO 2020 calls activity safe for people without contraindications.",
+       "strength": "Editorial: 「有心臟或肺部疾病時，開始運動前請先和醫師討論」 is the same caution as on the 共通照護 page's 「規律活動」 card; WHO 2020 calls activity safe for people without contraindications.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -554,7 +554,7 @@
      "c": "M06",
      "s": "S20",
      "quote": "In SS, the five studies encompassed 240 individuals, all females, and showed modest results.(). Some improvement in dryness, fatigue, and quality of life was observed without differences compared to placebo. … General symptoms such as fatigue and feeling of well-being did not change in SS or FM patients. … results in RA, FM, and SS are disappointing.",
-     "strength": "Tier 2 systematic review (no meta-analysis); not graded.",
+     "strength": "Systematic review (no meta-analysis); not graded.",
      "confidence": "Medium"
     },
     {

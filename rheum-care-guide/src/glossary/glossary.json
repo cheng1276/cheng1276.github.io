@@ -1,5 +1,5 @@
 {
- "version": "2026-10-12",
+ "version": "2026-10-14",
  "categories": [
   {
    "id": "condition",
@@ -12555,7 +12555,7 @@
     },
     {
      "quote": "Denosumab is given as a subcutaneous injection of 60 mg once every 6 months.",
-     "location": "Section \"Anti-resorptive drugs: denosumab\" (non-breaking spaces as in source; the dose is not used in the Chinese text)",
+     "location": "Section \"Anti-resorptive drugs: denosumab\" (non-breaking spaces as in source; the explanation gives no dose)",
      "access": "PMC full text",
      "pmid": "40921943",
      "doi": "10.1007/s11657-025-01588-3",
@@ -14648,7 +14648,7 @@
     },
     {
      "quote": "In patients with suspected reduced absorption (persistent vomiting or diarrhea), nil by mouth, or unable to take tablets, give stress-dose glucocorticoids I.V. or I.M.",
-     "location": "Table 8 (stress dosing), one cell; in the PMC extraction the cell boundaries run into the neighbouring cells, but the quoted words are intact (doses in the table are not used)",
+     "location": "Table 8 (stress dosing), one cell; in the PMC extraction the cell boundaries run into the neighbouring cells, but the quoted words are intact (the explanation gives none of the table's doses)",
      "access": "PMC full text",
      "pmid": "38724043",
      "doi": "10.1210/clinem/dgae250",
@@ -14748,7 +14748,7 @@
     },
     {
      "quote": "However, prophylaxis in patients with various AIIRD receiving prednisolone more than 15–30 mg/day for more than 2–4 weeks, has been found to reduce episodes of PCP and associated mortality().",
-     "location": "Results, 'Pneumocystis jirovecii' ('()' = stripped citation; doses are not printed)",
+     "location": "Results, 'Pneumocystis jirovecii' ('()' = stripped citation; the explanation gives no doses)",
      "access": "PMC full text",
      "pmid": "36323488",
      "doi": "10.1136/rmdopen-2022-002726",
