@@ -8,167 +8,195 @@
 <body>
 <title>神秘處方書</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style id="rx-css">
-/* Layout: phone-first single column. A paper prescription slip (max 560px) sits on a pine-green ground;
-   the slip is the only "object" on the page, everything else is flat on the ground. Single committed look. */
+/* Layout: a pharmacy counter (cool grey-blue ground) under one white header band; content sits in a single
+   520px column. Each prescription is a printed medicine bag: one spot colour, a ruled field table, a red stamp.
+   Single committed light look (paper bag), so no dark palette. */
 :root{
-  --ground:#13392c;
-  --ground-deep:#0c2a20;
-  --paper:#fbfaf5;
-  --paper-2:#f1eee4;
-  --ink:#1e2521;
-  --ink-2:#626b65;
-  --rule:#d3d5cc;
-  --rule-strong:#9ba39c;
-  --red:#b5312b;
-  --red-deep:#8f241f;
-  --red-soft:#f8e6e3;
-  --green:#2f7a4f;
-  --gold:#d8a845;
-  --on-ground:#f3efe3;
-  --on-ground-2:#b9c7bf;
-  --fd:"LXGW WenKai TC","Noto Serif TC","PingFang TC","Microsoft JhengHei",serif;
+  --counter:#E9EEF4;
+  --paper:#FFFFFF;
+  --paper-2:#F3F6FA;
+  --ink:#18233A;
+  --ink-2:#56627A;
+  --ink-3:#7B879B;
+  --rule:#D5DDE8;
+  --rule-2:#C3CEDC;
+  --field:#B8C3D3;
+  --spot:#1F5FAF;
+  --spot-tint:#EEF3FA;
+  --spot-tint-2:#F5F8FC;
+  --stamp:#C8372D;
+  --ok:#1C6B3D;
+  --ok-bg:#E5F3EA;
+  --bad:#B42318;
   --fb:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
-  --fm:ui-monospace,"SF Mono",Menlo,Consolas,"Noto Sans TC",monospace;
-  --radius:6px;
+  --fm:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --col:520px;
   color-scheme:light;
 }
-*{box-sizing:border-box}
-html{height:100%;background:var(--ground-deep)}
-body{
-  margin:0;min-height:100%;
-  background:var(--ground) linear-gradient(180deg, #1c4a39 0%, var(--ground) 420px, var(--ground-deep) 100%) no-repeat;
-  background-size:100% 100%;
-  color:var(--ink);
-  font-family:var(--fb);font-size:15px;line-height:1.65;
-  padding-left:max(16px, env(safe-area-inset-left, 0px));
-  padding-right:max(16px, env(safe-area-inset-right, 0px));
-  padding-block:18px 40px;
-  -webkit-font-smoothing:antialiased;
+@supports (background: color-mix(in srgb, red 50%, white)){
+  :root{--spot-tint:color-mix(in srgb, var(--spot) 7%, #FFFFFF);--spot-tint-2:color-mix(in srgb, var(--spot) 4%, #FFFFFF)}
 }
-#app{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
-a{color:var(--red)}
-button{font:inherit}
+*{box-sizing:border-box}
+html{background:var(--counter)}
+body{margin:0;background:var(--counter);color:var(--ink);font-family:var(--fb);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--spot)}
+button{font:inherit;color:inherit}
 h1,h2,h3{margin:0;text-wrap:balance}
+p{margin:0}
+.mono{font-family:var(--fm)}
+:focus-visible{outline:2px solid var(--spot);outline-offset:2px}
+.wrap{max-width:calc(var(--col) + 32px);margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
 
-/* page header on the ground */
-.top{color:var(--on-ground);text-align:left;padding-block:4px 2px;display:flex;flex-direction:column;gap:2px}
-.eyebrow{font-size:12px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
-.top h1{font-family:var(--fd);font-weight:700;font-size:34px;line-height:1.15;letter-spacing:.04em}
-.top .sub{font-size:13px;color:var(--on-ground-2)}
-.prog{display:flex;align-items:center;gap:10px;margin-top:8px;font-size:13px;color:var(--on-ground-2)}
-.prog b{color:var(--on-ground);font-size:16px;font-variant-numeric:tabular-nums}
-.dots{display:inline-flex;gap:6px}
-.dots i{width:11px;height:11px;border-radius:50%;border:1.5px solid var(--gold);display:inline-block}
-.dots i.on{background:var(--gold)}
-.sample{font-size:12px;color:var(--ground-deep);background:var(--gold);border-radius:4px;padding:6px 10px;display:inline-block;width:fit-content;max-width:100%}
+/* header band */
+.band{background:var(--paper);border-bottom:1px solid var(--rule)}
+.head{padding-block:20px 18px;display:flex;flex-direction:column;gap:6px}
+.head-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.lib{font-size:12px;font-weight:500;letter-spacing:.08em;color:var(--ink-2)}
+.tag{flex:none;font-size:12px;font-weight:700;letter-spacing:.12em;color:#FFFFFF;background:var(--spot);padding:4px 10px;border-radius:999px}
+.head h1{margin-top:6px;font-size:34px;line-height:1.15;font-weight:900;letter-spacing:.04em}
+.head .sub{font-size:14px;color:var(--ink-2)}
+.sample{margin-top:8px;font-size:13px;color:#6E4700;background:#FFF4D6;border:1px solid #EFD39A;border-radius:8px;padding:8px 12px}
 
-/* paper */
-.card{background:var(--paper);border-radius:var(--radius);box-shadow:0 14px 34px rgba(0,0,0,.35);padding:18px 18px 16px;min-width:0}
-.card h2{font-family:var(--fd);font-size:20px;color:var(--ink);letter-spacing:.04em}
-.lead{margin:6px 0 0;color:var(--ink-2);font-size:14px}
-.lbl{font-size:11.5px;letter-spacing:.12em;color:var(--ink-2);text-transform:uppercase}
+.main{display:flex;flex-direction:column;gap:14px;padding-block:16px 0}
 
-/* waiting room list */
-.rows{display:flex;flex-direction:column;margin-top:12px;border-top:1px solid var(--rule)}
-.row{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;width:100%;text-align:left;
-  background:none;border:0;border-bottom:1px solid var(--rule);padding:12px 2px;cursor:pointer;color:var(--ink);min-width:0}
-.row:hover{background:var(--paper-2)}
-.row:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--red);outline-offset:2px}
-.row .no{font-family:var(--fm);font-size:12px;color:var(--ink-2);min-width:3.6em}
-.row .sym{font-family:var(--fd);font-size:17px;line-height:1.35;min-width:0}
-.pill{font-size:11.5px;letter-spacing:.06em;padding:3px 9px;border-radius:999px;border:1px solid var(--rule-strong);color:var(--ink-2);white-space:nowrap}
-.pill.done{background:var(--red);border-color:var(--red);color:#fff}
-.note{margin:12px 0 0;font-size:13px;color:var(--ink-2)}
-.foot{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12.5px;color:var(--on-ground-2);justify-content:center}
-.foot a,.foot button{color:var(--on-ground-2);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+/* progress */
+.progress{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;display:flex;align-items:center;gap:14px}
+.progress .txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.progress .k{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--ink-2)}
+.progress .n{font-family:var(--fm);font-size:30px;font-weight:600;line-height:1.15;font-variant-numeric:tabular-nums}
+.progress .n small{font-size:18px;color:var(--ink-3)}
+.progress .s{font-size:13px;color:var(--ink-2)}
+.caps{flex:none;display:flex;align-items:center;gap:2px}
+.caps.many{flex-wrap:wrap;justify-content:flex-end;max-width:150px}
+.cap{display:block;transform:rotate(-35deg)}
+.cap .half{fill:var(--spot)}
+.cap .half2{fill:var(--spot-tint)}
+.cap .shell{fill:none;stroke:var(--spot);stroke-width:2}
+.cap .mid{stroke:var(--spot);stroke-width:2}
+.cap.off .shell,.cap.off .mid{stroke:var(--field)}
 
-/* the slip */
-.slip{position:relative;background:var(--paper);border-radius:var(--radius);box-shadow:0 14px 34px rgba(0,0,0,.35);overflow:hidden;min-width:0}
-.slip-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:16px 18px 10px;border-bottom:2px solid var(--red)}
-.slip-head .t{font-family:var(--fd);font-size:28px;font-weight:700;color:var(--red);letter-spacing:.12em;line-height:1}
-.slip-head .t small{display:block;font-family:var(--fb);font-size:10px;letter-spacing:.22em;color:var(--red);margin-top:4px}
-.slip-head .no{font-family:var(--fm);font-size:13px;color:var(--ink-2);text-align:right;line-height:1.4}
-.slip-head .no b{display:block;font-size:17px;color:var(--ink)}
-.holly{width:54px;height:34px;flex:none;align-self:flex-start}
-.slip-body{padding:12px 18px 18px;display:flex;flex-direction:column;gap:10px}
-.f{display:grid;grid-template-columns:5.2em 1fr;gap:4px 10px;align-items:baseline;min-width:0}
-.f .k{font-size:12px;color:var(--ink-2);letter-spacing:.08em;padding-top:3px}
-.f .v{font-family:var(--fd);font-size:17.5px;line-height:1.45;min-width:0;overflow-wrap:anywhere}
-.f .v.strong{font-size:20px;font-weight:700}
-.f .v .hid{display:inline-block;background:repeating-linear-gradient(45deg,var(--paper-2) 0 4px,#e3dfd2 4px 8px);color:var(--ink-2);font-family:var(--fb);font-size:13px;padding:1px 8px;border-radius:3px;vertical-align:middle}
-.rp{display:flex;align-items:center;gap:10px;margin-top:4px}
-.rp .rx{font-family:var(--fd);font-size:24px;font-weight:700;color:var(--red);font-style:italic}
-.rp hr{flex:1;border:0;border-top:1px dashed var(--rule-strong);margin:0}
-.sign{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--ink-2);border-top:1px dashed var(--rule-strong);padding-top:10px;margin-top:4px;flex-wrap:wrap}
-.sign b{font-family:var(--fd);font-weight:400;color:var(--ink);font-size:15px}
+/* waiting room: queue tickets */
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:8px}
+.sec-head h2{font-size:18px;font-weight:700}
+.sec-head span{font-family:var(--fm);font-size:12px;font-weight:500;color:var(--ink-2)}
+.lead{font-size:14px;line-height:1.7;color:var(--ink-2)}
+.tickets{display:flex;flex-direction:column;gap:10px}
+.ticket{display:grid;grid-template-columns:62px minmax(0,1fr) 78px;align-items:stretch;min-height:76px;width:100%;padding:0;margin:0;text-align:left;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden;cursor:pointer;color:var(--ink)}
+.ticket:hover{border-color:var(--rule-2);box-shadow:0 4px 14px rgba(24,35,58,.08)}
+.tno{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border-right:1.5px dashed var(--rule-2);background:var(--spot-tint);color:var(--spot);font-family:var(--fm)}
+.tno small{font-size:10px;font-weight:500;letter-spacing:.16em}
+.tno b{font-size:22px;font-weight:600;line-height:1.1}
+.ticket .sym{align-self:center;padding:12px 6px 12px 14px;font-size:15px;line-height:1.5;font-weight:500;min-width:0;overflow-wrap:anywhere}
+.ticket .st{display:flex;align-items:center;justify-content:center;padding-right:8px}
+.go{display:inline-flex;align-items:center;gap:1px;padding:5px 7px 5px 11px;border:1.5px solid var(--spot);border-radius:999px;color:var(--spot);font-size:13px;font-weight:700;white-space:nowrap}
+.mini-stamp{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;border:2px solid var(--stamp);color:var(--stamp);transform:rotate(-12deg);font-size:12px;font-weight:900;line-height:1.15}
+.mini-stamp small{font-family:var(--fm);font-size:9px;font-weight:600}
+.note{font-size:13px;line-height:1.7;color:var(--ink-2)}
+.foot{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;padding-block:26px 32px;font-size:13px}
+.foot a,.foot button{color:var(--ink-2);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 
-/* pickup / challenge */
-.pickup{background:var(--paper-2);border-radius:4px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
-.pickup p{margin:0;font-size:14px}
-.meta{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--ink-2)}
-.meta b{font-family:var(--fm);color:var(--ink);font-weight:500}
-.inrow{display:flex;gap:8px;min-width:0}
-.inrow input{flex:1;min-width:0}
-input,select,textarea{width:100%;font:inherit;font-size:15px;color:var(--ink);background:#fff;border:1px solid var(--rule-strong);border-radius:4px;padding:9px 11px}
-input.code{font-family:var(--fm);letter-spacing:.12em;text-transform:uppercase}
-textarea{min-height:66px;resize:vertical;line-height:1.5}
-label{display:block;font-size:12.5px;color:var(--ink-2);margin-bottom:4px}
-.btn{border:1px solid var(--rule-strong);background:#fff;color:var(--ink);border-radius:4px;padding:9px 14px;cursor:pointer;white-space:nowrap;line-height:1.3}
-.btn:hover{background:var(--paper-2)}
-.btn.primary{background:var(--red);border-color:var(--red);color:#fff;font-weight:500}
-.btn.primary:hover{background:var(--red-deep)}
-.btn.ghost{background:none;border-color:transparent;color:var(--ink-2);text-decoration:underline;text-underline-offset:3px;padding-inline:4px}
-.btn:disabled{opacity:.55;cursor:default}
+/* prescription: the medicine bag */
+.topnav{display:flex;justify-content:space-between;align-items:center;padding-block:8px 4px}
+.back{display:inline-flex;align-items:center;gap:2px;min-height:44px;padding:0;background:none;border:0;font-size:14px;font-weight:700;color:var(--ink);cursor:pointer}
+.topnav .mono{font-size:13px;font-weight:600;letter-spacing:.08em;color:var(--ink-2)}
+.rxmain{gap:0;padding-top:4px}
+.okbar{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding:10px 14px;border-radius:10px;background:var(--ok-bg);color:var(--ok);font-size:14px;font-weight:700}
+.bag{position:relative;background:var(--paper);border-radius:4px 4px 14px 14px;box-shadow:0 1px 0 #CDD6E2,0 12px 28px rgba(24,35,58,.10);overflow:hidden}
+.fold{height:14px;background:var(--paper-2);border-bottom:1.5px dashed var(--rule-2)}
+.bag-band{background:var(--spot);color:#FFFFFF;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.bag-band .who{min-width:0;display:flex;flex-direction:column;gap:2px}
+.bag-band .who span{font-size:12px;font-weight:500;letter-spacing:.08em}
+.bag-band .who b{font-size:21px;font-weight:900;letter-spacing:.14em}
+.use{flex:none;border:2px solid #FFFFFF;border-radius:6px;padding:4px 10px;font-size:18px;font-weight:900;letter-spacing:.12em}
+.bag-info{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-bottom:1px solid var(--rule)}
+.bag-info div{padding:10px 16px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.bag-info div+div{border-left:1px solid var(--rule)}
+.bag-info .k{font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--ink-2)}
+.bag-info .v{font-size:14px;font-weight:600;line-height:1.5}
+.bag-info .v.mono{font-size:18px}
+.fields{margin:0}
+.fields .r{position:relative;display:grid;grid-template-columns:76px minmax(0,1fr);border-bottom:1px solid var(--rule)}
+.fields dt{padding:12px 8px 12px 16px;background:var(--spot-tint);color:var(--spot);font-size:12px;font-weight:700;letter-spacing:.06em;line-height:1.7}
+.fields dd{margin:0;padding:10px 16px 10px 14px;font-size:15px;line-height:1.6;min-width:0;overflow-wrap:anywhere}
+.fields .r.main dd{padding-block:12px;font-size:17px;font-weight:700;line-height:1.55}
+.fields dd.drug{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding-block:12px}
+.fields dd.drug b{font-size:16px;font-weight:700}
+.hatch{padding:3px 8px;border-radius:4px;background:repeating-linear-gradient(45deg,#EEF2F7 0 5px,#E1E7EF 5px 10px);font-size:12px;font-weight:500;color:var(--ink-2)}
+.fields dd.got{display:flex;flex-direction:column;gap:2px;padding:12px 122px 14px 14px}
+.fields dd.got b{font-size:22px;font-weight:900;line-height:1.35;letter-spacing:.02em}
+.fields dd.got span.au{font-size:13px;color:var(--ink-2)}
+.stamp{position:absolute;right:14px;top:50%;width:104px;height:104px;margin-top:-52px;border-radius:50%;border:3px double var(--stamp);color:var(--stamp);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;transform:rotate(-14deg);opacity:.9;font-size:19px;font-weight:900;letter-spacing:.1em;line-height:1.2;pointer-events:none;animation:stamp .45s cubic-bezier(.2,1.4,.4,1) both}
+.stamp small{font-family:var(--fm);font-size:11px;font-weight:600;letter-spacing:.02em}
+@keyframes stamp{from{transform:rotate(-14deg) scale(1.6);opacity:0}to{transform:rotate(-14deg) scale(1);opacity:.9}}
+.pickup{margin:16px;padding:14px;border:1.5px solid var(--spot);border-radius:10px;background:var(--spot-tint-2);display:flex;flex-direction:column;gap:10px}
+.pickup .k,.pickinfo .k{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--spot)}
+.pickup p{font-size:14px;line-height:1.7}
+.pickup form{display:flex;flex-direction:column;gap:8px}
+.pickup label{font-size:13px;font-weight:500;color:var(--ink-2)}
+.btn-out{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1.5px solid var(--spot);border-radius:8px;background:#FFFFFF;color:var(--spot);font-size:14px;font-weight:700;text-decoration:none}
+.inrow{display:flex;gap:8px}
+.inrow input{flex:1;min-width:0;height:48px;padding:0 12px;border:1.5px solid var(--field);border-radius:8px;background:#FFFFFF;font:inherit;font-size:16px;color:var(--ink)}
+.inrow input.code{font-family:var(--fm);letter-spacing:.12em;text-transform:uppercase}
+.btn-go{flex:none;min-width:88px;height:48px;border:0;border-radius:8px;background:var(--spot);color:#FFFFFF;font-size:16px;font-weight:700;letter-spacing:.12em;cursor:pointer}
 .msg{font-size:13.5px;min-height:1.2em}
-.msg.bad{color:var(--red)}
-.msg.good{color:var(--green)}
-.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:4px}
-
-/* revealed */
-.reveal{position:relative;border:1.5px solid var(--red);border-radius:4px;padding:14px 112px 14px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
-.reveal .bt{font-family:var(--fd);font-size:22px;font-weight:700;line-height:1.3;overflow-wrap:anywhere}
-.reveal .au{font-size:14px;color:var(--ink-2)}
-.reveal .guide{font-size:14px;margin-top:4px}
-.stamp{position:absolute;right:12px;top:50%;width:92px;height:92px;margin-top:-46px;border:3px double var(--red);border-radius:50%;color:var(--red);
-  display:grid;place-content:center;text-align:center;font-family:var(--fd);font-size:19px;font-weight:700;line-height:1.1;letter-spacing:.06em;
-  transform:rotate(-14deg);opacity:.88;mix-blend-mode:multiply;animation:stamp .5s cubic-bezier(.2,1.4,.4,1) both}
-.stamp small{display:block;font-family:var(--fm);font-size:11px;font-weight:400;letter-spacing:.04em;margin-top:2px}
-@keyframes stamp{from{transform:rotate(-14deg) scale(1.7);opacity:0}to{transform:rotate(-14deg) scale(1);opacity:.88}}
-@media (max-width:380px){.reveal{padding-right:14px;padding-bottom:70px}.stamp{top:auto;bottom:-10px;margin-top:0;width:80px;height:80px;font-size:17px}}
+.msg.bad{color:var(--bad)}
+.msg.good{color:var(--ok)}
+.pickinfo{margin:16px;padding:14px;border-radius:10px;background:var(--spot-tint);display:flex;flex-direction:column;gap:10px}
+.pickinfo dl{margin:0;display:grid;grid-template-columns:60px minmax(0,1fr);row-gap:4px;font-size:14px;line-height:1.7}
+.pickinfo dt{color:var(--ink-2)}
+.pickinfo dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.pickinfo dd.mono{font-weight:600}
+.pickinfo .note2{font-size:13px;line-height:1.7;color:var(--ink-2)}
+.btn-main{display:flex;align-items:center;justify-content:center;gap:6px;min-height:48px;border-radius:8px;background:var(--spot);color:#FFFFFF;font-size:15px;font-weight:700;text-decoration:none}
+.btn-main:hover{color:#FFFFFF;filter:brightness(.94)}
+.bag-foot{padding:12px 16px 16px;border-top:1.5px dashed var(--rule-2);display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--ink-2)}
+.after{margin-top:14px;font-size:12px;text-align:center;color:var(--ink-2)}
+.pill-btn{align-self:center;margin-top:16px;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;font-size:14px;font-weight:700;color:var(--ink);border:1.5px solid var(--field);border-radius:999px;background:#FFFFFF;cursor:pointer}
 
 /* certificate */
-.cert{background:var(--paper);border-radius:var(--radius);box-shadow:0 14px 34px rgba(0,0,0,.35);padding:18px;border:6px double var(--gold);position:relative}
-.cert .lbl{color:var(--red)}
-.cert h2{font-family:var(--fd);font-size:26px;letter-spacing:.14em;color:var(--ink);margin-top:2px}
-.cert p{margin:8px 0 0;font-size:14px}
-.cert ul{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px;font-size:14px}
-.cert li{display:grid;grid-template-columns:auto 1fr auto;gap:10px;font-variant-numeric:tabular-nums}
-.cert li .no{font-family:var(--fm);font-size:12px;color:var(--ink-2)}
-.cert li .d{font-family:var(--fm);font-size:12px;color:var(--ink-2)}
-.cert .reward{font-family:var(--fd);font-size:17px;color:var(--red);margin-top:12px}
+.cert{position:relative;background:var(--paper);border:1px solid var(--rule);border-radius:12px;overflow:hidden;box-shadow:0 12px 28px rgba(24,35,58,.10)}
+.cert-band{background:var(--spot);color:#FFFFFF;padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.cert-band span{font-size:12px;letter-spacing:.08em}
+.cert-band b{font-size:22px;font-weight:900;letter-spacing:.16em}
+.cert-body{padding:14px 16px 18px;display:flex;flex-direction:column;gap:10px}
+.cert-body > p{font-size:14px}
+.cert-list{margin:0;padding:0;list-style:none;border-top:1px solid var(--rule)}
+.cert-list li{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--rule);font-size:14px;line-height:1.5}
+.cert-list .mono{font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.cert .reward{padding-right:104px;font-size:16px;font-weight:700;color:var(--spot)}
+.cert .small{padding-right:104px;font-size:12.5px;color:var(--ink-2)}
+.cert .stamp{top:auto;bottom:16px;margin-top:0;width:96px;height:96px;font-size:16px}
 
-/* admin */
+/* librarian mode */
+.panel{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:18px 16px}
 .admin{display:flex;flex-direction:column;gap:14px}
 .admin-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
-.admin h3{font-family:var(--fd);font-size:18px;letter-spacing:.04em;margin-top:6px}
+.admin h2{font-size:22px;font-weight:900}
+.admin h3{margin-top:6px;font-size:16px;font-weight:700;color:var(--spot)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .grid .full{grid-column:1 / -1}
 @media (max-width:480px){.grid{grid-template-columns:1fr}}
-details.rxed{border:1px solid var(--rule);border-radius:4px;background:#fff}
+.admin label{display:block;margin-bottom:4px;font-size:12.5px;color:var(--ink-2)}
+.admin input,.admin select,.admin textarea{width:100%;padding:9px 11px;border:1px solid var(--field);border-radius:8px;background:#FFFFFF;font:inherit;font-size:15px;color:var(--ink)}
+.admin textarea{min-height:66px;resize:vertical;line-height:1.5}
+.admin label.check{display:flex;align-items:center;gap:8px;margin:0;font-size:14px;color:var(--ink)}
+.admin label.check input{width:18px;height:18px;margin:0}
+details.rxed{border:1px solid var(--rule);border-radius:10px;background:#FFFFFF;overflow:hidden}
 details.rxed summary{cursor:pointer;padding:10px 12px;display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline;list-style:none}
 details.rxed summary::-webkit-details-marker{display:none}
-details.rxed summary .no{font-family:var(--fm);font-size:12px;color:var(--ink-2)}
-details.rxed summary .sym{font-family:var(--fd);font-size:16px}
-details.rxed[open] summary{border-bottom:1px solid var(--rule)}
-details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;background:var(--paper)}
+details.rxed summary .no{font-family:var(--fm);font-size:12px;font-weight:600;color:var(--spot)}
+details.rxed summary .sym{font-size:15px;font-weight:500}
+details.rxed[open] summary{border-bottom:1px solid var(--rule);background:var(--spot-tint-2)}
+details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
 .tools{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-.bar{position:sticky;bottom:0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--paper);padding:12px 0 0;border-top:1px solid var(--rule)}
-.codes{width:100%;font-family:var(--fm);font-size:12.5px;min-height:120px;white-space:pre}
-.check{display:flex;align-items:center;gap:8px;font-size:14px}
-.check input{width:18px;height:18px;margin:0}
+.btn{border:1px solid var(--field);background:#FFFFFF;color:var(--ink);border-radius:8px;padding:9px 14px;cursor:pointer;white-space:nowrap;line-height:1.3;font-size:14px}
+.btn:hover{background:var(--paper-2)}
+.btn.primary{background:var(--spot);border-color:var(--spot);color:#FFFFFF;font-weight:700}
+.btn:disabled{opacity:.5;cursor:default}
+.bar{position:sticky;bottom:0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--paper);padding:12px 0 calc(4px + env(safe-area-inset-bottom, 0px));border-top:1px solid var(--rule)}
+.admin textarea.codes{min-height:150px;font-family:var(--fm);font-size:12.5px;white-space:pre}
 @media (prefers-reduced-motion:reduce){.stamp{animation:none}}
 </style>
 <script id="rx-data" type="application/json">
@@ -180,6 +208,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
   "period": "2026 年 12 月 1 日至 24 日",
   "intro": "選一個最像你現在狀況的症狀，圖書館藥局會開一張處方。書名先保密，照處方上的線索到館藏查詢系統把書找出來，就能領藥。",
   "goal": 3,
+  "accent": "#1F5FAF",
   "reward": "憑完成證明到櫃台，借期延長 14 天，並可多借 2 冊。",
   "catalog": "https://library.show.org.tw/index?domain=5",
   "pickupCode": "到館內的「處方書架」找到貼著 {id} 標籤、用牛皮紙包起來的書。包裝裡夾著一張領藥碼卡，輸入卡上的代碼就能領藥。",
@@ -437,22 +466,36 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
 (function(){
   'use strict';
   var KEY = 'rx-book-progress-v1';
-  var FONT_LINKS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">\n<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap">';
+  var FONT_LINKS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">';
   var RESET_FALLBACK = ':root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}';
+  var DEFAULT_ACCENT = '#1F5FAF';
+  var ACCENTS = [['#1F5FAF', '藥袋藍'], ['#0F7B6C', '藥局綠'], ['#6B3FA0', '紫'], ['#B03A2E', '紅']];
   var app = document.getElementById('app');
 
   var DATA = JSON.parse(document.getElementById('rx-data').textContent);
   var draft = null;                 // admin working copy
-  var view = { screen: 'home', rxId: null, admin: false, open: {}, msg: {} };
+  var view = { screen: 'home', rxId: null, admin: false, open: {}, msg: {}, justDone: null };
   var caps = { artifact: null, canEdit: false };
   var progress = loadProgress();
+
+  var ICON = {
+    back: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>',
+    next: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>',
+    ext: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
+    check: '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>'
+  };
 
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
   function loadProgress(){ try { var s = localStorage.getItem(KEY); var p = s ? JSON.parse(s) : null; return (p && p.done) ? p : { done: {} }; } catch(e){ return { done: {} }; } }
   function saveProgress(){ try { localStorage.setItem(KEY, JSON.stringify(progress)); } catch(e){} }
   function data(){ return view.admin && draft ? draft : DATA; }
   function clone(o){ return JSON.parse(JSON.stringify(o)); }
-  function fmtDate(iso){ var d = iso ? new Date(iso) : new Date(); if (isNaN(d)) d = new Date(); return (d.getMonth()+1) + '/' + d.getDate(); }
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+  function toDate(iso){ var d = iso ? new Date(iso) : new Date(); return isNaN(d) ? new Date() : d; }
+  function fmtShort(iso){ var d = toDate(iso); return pad(d.getMonth() + 1) + '.' + pad(d.getDate()); }
+  function fmtLong(iso){ var d = toDate(iso); return d.getFullYear() + '.' + pad(d.getMonth() + 1) + '.' + pad(d.getDate()); }
+  function fmtSlash(iso){ var d = toDate(iso); return d.getFullYear() + '/' + pad(d.getMonth() + 1) + '/' + pad(d.getDate()); }
+  function fmtTime(iso){ var d = toDate(iso); return pad(d.getHours()) + ':' + pad(d.getMinutes()); }
   function norm(s){
     return String(s || '')
       .replace(/[！-～]/g, function(ch){ return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0); })
@@ -460,49 +503,65 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
       .replace(/[《》「」『』:：\-–—.!?！？,，、。]/g, '')
       .toLowerCase();
   }
-  function doneCount(){ var d = data(); var n = 0; d.rx.forEach(function(r){ if (progress.done[r.id]) n++; }); return n; }
-  function holly(){
-    return '<svg class="holly" viewBox="0 0 64 40" aria-hidden="true">' +
-      '<path d="M8 23 C13 9 26 9 30 19 C23 21 15 26 8 23 Z" fill="var(--green)"/>' +
-      '<path d="M56 23 C51 9 38 9 34 19 C41 21 49 26 56 23 Z" fill="var(--green)"/>' +
-      '<circle cx="32" cy="24" r="4.4" fill="var(--red)"/><circle cx="25.5" cy="30" r="3.8" fill="var(--red)"/><circle cx="38.5" cy="30" r="3.8" fill="var(--red)"/></svg>';
+  function goalN(){ return Math.max(1, parseInt(data().event.goal, 10) || 1); }
+  function doneCount(){ var n = 0; data().rx.forEach(function(r){ if (progress.done[r.id]) n++; }); return n; }
+  function rxNum(id){ var m = String(id).match(/(\d+)\s*$/); return m ? m[1] : String(id); }
+  function accentOf(d){ var a = d && d.event && d.event.accent; return /^#[0-9a-f]{6}$/i.test(a || '') ? a : DEFAULT_ACCENT; }
+  function applyAccent(){ try { document.documentElement.style.setProperty('--spot', accentOf(data())); } catch(e){} }
+  function capsule(on){
+    return '<svg class="cap' + (on ? '' : ' off') + '" width="46" height="20" viewBox="0 0 46 20" aria-hidden="true">' +
+      (on ? '<path class="half" d="M11 1h12v18H11a9 9 0 0 1 0-18z"/><path class="half2" d="M23 1h12a9 9 0 0 1 0 18H23z"/>' : '') +
+      '<rect class="shell" x="1" y="1" width="44" height="18" rx="9"/><path class="mid" d="M23 1v18"/></svg>';
   }
 
   /* ---------- reader screens ---------- */
-  function renderHeader(){
-    var d = data(), n = doneCount(), goal = Math.max(1, parseInt(d.event.goal, 10) || 1), dots = '';
-    for (var i = 0; i < goal; i++) dots += '<i class="' + (i < n ? 'on' : '') + '"></i>';
-    return '<header class="top">' +
-      '<div class="eyebrow">' + esc(d.lib) + '</div>' +
+  function renderBand(){
+    var d = data();
+    return '<header class="band"><div class="wrap head">' +
+      '<div class="head-top"><span class="lib">' + esc(d.lib) + '</span><span class="tag">閱讀藥局</span></div>' +
       '<h1>' + esc(d.event.name) + '</h1>' +
-      '<div class="sub">' + esc(d.event.period) + '</div>' +
-      '<div class="prog">已領藥 <b>' + n + '</b> / ' + goal + ' <span class="dots">' + dots + '</span></div>' +
-      (d.sample ? '<div class="sample" style="margin-top:10px">目前是範例書單。請館員到「館員模式」換成本館館藏後發布。</div>' : '') +
-    '</header>';
+      '<p class="sub">' + esc(d.event.period) + '</p>' +
+      (d.sample ? '<p class="sample">目前是範例書單。請館員到「館員模式」換成本館館藏後發布。</p>' : '') +
+    '</div></header>';
+  }
+
+  function renderProgress(){
+    var n = doneCount(), goal = goalN(), left = Math.max(0, goal - n), pills = '';
+    for (var i = 0; i < goal; i++) pills += capsule(i < n);
+    return '<section class="progress" aria-label="我的領藥進度">' +
+      '<div class="txt"><span class="k">我的領藥進度</span>' +
+      '<span class="n">' + n + '<small> / ' + goal + ' 帖</small></span>' +
+      '<span class="s">' + (left ? '再領 ' + left + ' 帖，就能換療程完成證明' : '療程完成，完成證明在上方。') + '</span></div>' +
+      '<div class="caps' + (goal > 4 ? ' many' : '') + '">' + pills + '</div>' +
+    '</section>';
   }
 
   function renderHome(){
-    var d = data(), n = doneCount(), goal = Math.max(1, parseInt(d.event.goal, 10) || 1);
-    var html = renderHeader();
-    if (n >= goal) html += renderCert();
-    html += '<section class="card"><div class="lbl">候診區</div><h2>請選擇最接近的症狀</h2>' +
-      '<p class="lead">' + esc(d.event.intro) + '</p><div class="rows">';
+    var d = data(), goal = goalN();
+    var html = renderBand() + '<main class="wrap main">';
+    if (doneCount() >= goal) html += renderCert();
+    html += renderProgress();
+    html += '<div class="sec-head"><h2>請選擇最接近的症狀</h2><span>' + d.rx.length + ' 帖</span></div>';
+    if (d.event.intro) html += '<p class="lead">' + esc(d.event.intro) + '</p>';
+    html += '<div class="tickets">';
     d.rx.forEach(function(r){
-      var done = !!progress.done[r.id];
-      html += '<button class="row" type="button" data-act="open" data-id="' + esc(r.id) + '">' +
-        '<span class="no">' + esc(r.id) + '</span>' +
+      var when = progress.done[r.id];
+      html += '<button class="ticket" type="button" data-act="open" data-id="' + esc(r.id) + '">' +
+        '<span class="tno"><small>RX</small><b>' + esc(rxNum(r.id)) + '</b></span>' +
         '<span class="sym">' + esc(r.symptom) + '</span>' +
-        '<span class="pill ' + (done ? 'done' : '') + '">' + (done ? '已領藥' : '看診') + '</span></button>';
+        '<span class="st">' + (when ? '<span class="mini-stamp">已領藥<small>' + esc(fmtShort(when)) + '</small></span>' : '<span class="go">看診' + ICON.next + '</span>') + '</span>' +
+      '</button>';
     });
-    html += '</div><p class="note">集滿 ' + goal + ' 張處方並完成領藥，就會出現「療程完成證明」。' + esc(d.event.reward) + '</p></section>';
-    html += renderFoot();
+    html += '</div>';
+    html += '<p class="note">集滿 ' + goal + ' 帖並完成領藥，就會出現「療程完成證明」。' + esc(d.event.reward) + '</p>';
+    html += '</main>' + renderFoot();
     return html;
   }
 
   function renderFoot(){
     var d = data();
     var showAdmin = caps.canEdit || location.hash === '#admin';
-    return '<footer class="foot">' +
+    return '<footer class="wrap foot">' +
       '<a href="' + esc(d.event.catalog) + '" target="_blank" rel="noopener">館藏查詢系統</a>' +
       (view.screen === 'home' ? '<button type="button" data-act="reset">重設我的進度</button>' : '') +
       (showAdmin ? '<button type="button" data-act="admin">館員模式</button>' : '') +
@@ -516,57 +575,68 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     return String(t || '').replace(/\{id\}/g, r.id);
   }
 
+  function fieldRow(label, valueHtml, cls){
+    return '<div class="r' + (cls ? ' ' + cls : '') + '"><dt>' + label + '</dt><dd>' + valueHtml + '</dd></div>';
+  }
+
   function renderRx(r){
-    var d = data();
-    var done = progress.done[r.id];
-    var html = renderHeader();
-    html += '<article class="slip">' +
-      '<div class="slip-head">' +
-        '<div class="t">處方箋<small>PRESCRIPTION</small></div>' +
-        holly() +
-        '<div class="no">No.<b>' + esc(r.id) + '</b></div>' +
+    var d = data(), when = progress.done[r.id];
+    var html = '<nav class="wrap topnav" aria-label="處方"><button class="back" type="button" data-act="home">' + ICON.back + '候診區</button><span class="mono">' + esc(r.id) + '</span></nav>';
+    html += '<main class="wrap main rxmain">';
+    if (when && view.justDone === r.id) html += '<div class="okbar" role="status">' + ICON.check + '領藥成功，已領 ' + doneCount() + ' / ' + goalN() + ' 帖</div>';
+    html += '<article class="bag">' +
+      '<div class="fold" aria-hidden="true"></div>' +
+      '<div class="bag-band"><div class="who"><span>' + esc(d.lib) + '</span><b>閱讀藥局　藥袋</b></div><span class="use">閱讀用</span></div>' +
+      '<div class="bag-info">' +
+        '<div><span class="k">領藥號</span><span class="v mono">' + esc(r.id) + '</span></div>' +
+        (when
+          ? '<div><span class="k">調劑日期</span><span class="v mono">' + esc(fmtSlash(when)) + '</span></div>'
+          : '<div><span class="k">處方期間</span><span class="v">' + esc(d.event.period) + '</span></div>') +
       '</div>' +
-      '<div class="slip-body">' +
-        '<div class="f"><span class="k">主訴</span><span class="v strong">' + esc(r.symptom) + '</span></div>' +
-        '<div class="rp"><span class="rx">Rp.</span><hr></div>' +
-        '<div class="f"><span class="k">藥品</span><span class="v">' + (done ? esc(r.book.title) : '神秘書 ' + esc(r.id) + ' <span class="hid">書名領藥後揭曉</span>') + '</span></div>' +
-        '<div class="f"><span class="k">用法用量</span><span class="v">' + esc(r.dose) + '</span></div>' +
-        '<div class="f"><span class="k">療程</span><span class="v">' + esc(r.course) + '</span></div>' +
-        (r.teaser ? '<div class="f"><span class="k">藥理作用</span><span class="v">' + esc(r.teaser) + '</span></div>' : '') +
-        (r.caution ? '<div class="f"><span class="k">注意事項</span><span class="v">' + esc(r.caution) + '</span></div>' : '') +
-        (done ? renderReveal(r, done) : renderPickup(r)) +
-        '<div class="sign"><span>開方 <b>圖書館藥局</b></span><span>調劑 <b>館員</b></span><span>效期 <b>' + esc(d.event.period) + '</b></span></div>' +
-        '<div class="actions"><button class="btn" type="button" data-act="home">回候診區</button>' +
-        (done ? '<a class="btn" href="' + esc(r.book.link || d.event.catalog) + '" target="_blank" rel="noopener">在館藏查詢系統找這本書</a>' : '') +
-        '</div>' +
-      '</div></article>';
-    html += renderFoot();
+      '<dl class="fields">' +
+        fieldRow('適應症', esc(r.symptom), 'main') +
+        (when
+          ? '<div class="r"><dt>藥名</dt><dd class="got"><b>' + esc(r.book.title) + '</b>' + (r.book.author ? '<span class="au">' + esc(r.book.author) + '</span>' : '') +
+            '<span class="stamp" aria-hidden="true">已領藥<small>' + esc(fmtLong(when)) + '</small></span></dd></div>'
+          : '<div class="r"><dt>藥名</dt><dd class="drug"><b>神秘書 ' + esc(r.id) + '</b><span class="hatch">領藥後揭曉</span></dd></div>') +
+        fieldRow('用法用量', esc(r.dose)) +
+        fieldRow('療程', esc(r.course)) +
+        (r.teaser ? fieldRow('藥理作用', esc(r.teaser)) : '') +
+        (r.caution ? fieldRow('注意事項', esc(r.caution)) : '') +
+      '</dl>' +
+      (when ? renderPickInfo(r) : renderPickup(r)) +
+      '<footer class="bag-foot"><span>調劑：圖書館員</span><span>核對：你自己</span></footer>' +
+    '</article>';
+    html += when
+      ? '<button class="pill-btn" type="button" data-act="home">回候診區，再領一帖</button>'
+      : '<p class="after">本活動的書都可以外借，請到櫃台辦理。</p>';
+    html += '</main>' + renderFoot();
     return html;
   }
 
   function renderPickup(r){
-    var isCode = r.challenge.type !== 'quiz';
-    var m = view.msg[r.id] || null;
-    return '<div class="pickup"><div class="lbl">領藥方式</div>' +
-      '<p>' + esc(pickupText(r)) + '</p>' +
-      (!isCode && data().event.catalog ? '<div><a class="btn" href="' + esc(data().event.catalog) + '" target="_blank" rel="noopener">開啟館藏查詢系統</a></div>' : '') +
+    var d = data(), isCode = r.challenge.type !== 'quiz', m = view.msg[r.id] || null, text = pickupText(r);
+    return '<section class="pickup"><span class="k">領藥方式</span>' +
+      '<p>' + esc(text) + '</p>' +
+      (!isCode && d.event.catalog ? '<a class="btn-out" href="' + esc(d.event.catalog) + '" target="_blank" rel="noopener">開啟館藏查詢系統' + ICON.ext + '</a>' : '') +
       '<form data-act="verify" data-id="' + esc(r.id) + '" autocomplete="off">' +
-        '<label for="ans-' + esc(r.id) + '">' + (isCode ? '輸入領藥碼' : '輸入答案') + '</label>' +
-        '<div class="inrow"><input id="ans-' + esc(r.id) + '" name="answer" ' + (isCode ? 'class="code" autocapitalize="characters"' : '') + ' placeholder="' + (isCode ? '例如 AB12' : '') + '" required>' +
-        '<button class="btn primary" type="submit">領藥</button></div>' +
+        '<label for="ans-' + esc(r.id) + '">' + (isCode ? '輸入領藥碼' : (/書名/.test(text) ? '輸入書名' : '輸入答案')) + '</label>' +
+        '<div class="inrow"><input id="ans-' + esc(r.id) + '" name="answer"' + (isCode ? ' class="code" autocapitalize="characters" placeholder="例如 AB12"' : ' placeholder="' + (/書名/.test(text) ? '完整書名' : '') + '"') + ' required>' +
+        '<button class="btn-go" type="submit">領藥</button></div>' +
         '<div class="msg ' + (m ? m.kind : '') + '" aria-live="polite">' + (m ? esc(m.text) : '') + '</div>' +
-      '</form></div>';
+      '</form></section>';
   }
 
-  function renderReveal(r, when){
-    return '<div class="reveal"><div class="lbl">藥品揭曉</div>' +
-      '<div class="bt">' + esc(r.book.title) + '</div>' +
-      (r.book.author ? '<div class="au">' + esc(r.book.author) + '</div>' : '') +
-      ((r.book.call || r.book.shelf) ? '<div class="meta">' + (r.book.call ? '<span>索書號 <b>' + esc(r.book.call) + '</b></span>' : '') + (r.book.shelf ? '<span>位置 <b>' + esc(r.book.shelf) + '</b></span>' : '') + '</div>' : '') +
-      (r.book.note ? '<div class="guide">' + esc(r.book.note) + '</div>' : '') +
-      '<div class="guide">請依用法用量服用。借閱請洽櫃台。</div>' +
-      '<div class="stamp">已領藥<small>' + esc(fmtDate(when)) + '</small></div>' +
-    '</div>';
+  function renderPickInfo(r){
+    var d = data();
+    return '<section class="pickinfo"><span class="k">取書資訊</span>' +
+      ((r.book.call || r.book.shelf) ? '<dl>' +
+        (r.book.call ? '<dt>索書號</dt><dd class="mono">' + esc(r.book.call) + '</dd>' : '') +
+        (r.book.shelf ? '<dt>位置</dt><dd>' + esc(r.book.shelf) + '</dd>' : '') +
+      '</dl>' : '') +
+      (r.book.note ? '<p class="note2">' + esc(r.book.note) + '</p>' : '') +
+      '<a class="btn-main" href="' + esc(r.book.link || d.event.catalog) + '" target="_blank" rel="noopener">在館藏系統查看這本書' + ICON.ext + '</a>' +
+    '</section>';
   }
 
   function renderCert(){
@@ -574,12 +644,17 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     d.rx.forEach(function(r){
       var w = progress.done[r.id]; if (!w) return;
       if (!last || w > last) last = w;
-      items += '<li><span class="no">' + esc(r.id) + '</span><span>' + esc(r.book.title) + '</span><span class="d">' + esc(fmtDate(w)) + '</span></li>';
+      items += '<li><span class="mono">' + esc(r.id) + '</span><span>' + esc(r.book.title) + '</span><span class="mono">' + esc(fmtShort(w)) + '</span></li>';
     });
-    return '<section class="cert"><div class="lbl">Certificate</div><h2>療程完成證明</h2>' +
-      '<p>持有人已於本活動期間完成以下處方的領藥。</p><ul>' + items + '</ul>' +
-      '<p class="reward">' + esc(d.event.reward) + '</p>' +
-      '<p style="font-size:12.5px;color:var(--ink-2)">完成時間 ' + esc(last ? new Date(last).toLocaleString('zh-TW', {hour12: false}) : '') + '。請將這個畫面出示給櫃台館員。</p></section>';
+    return '<section class="cert" aria-label="療程完成證明">' +
+      '<div class="cert-band"><span>' + esc(d.lib) + '　閱讀藥局</span><b>療程完成證明</b></div>' +
+      '<div class="cert-body">' +
+        '<p>持有人已於本活動期間，完成以下處方的領藥：</p>' +
+        '<ol class="cert-list">' + items + '</ol>' +
+        '<p class="reward">' + esc(d.event.reward) + '</p>' +
+        '<p class="small">完成時間 ' + esc(last ? fmtSlash(last) + ' ' + fmtTime(last) : '') + '。請把這個畫面出示給櫃台館員。</p>' +
+        '<span class="stamp" aria-hidden="true">療程完成<small>' + esc(fmtLong(last)) + '</small></span>' +
+      '</div></section>';
   }
 
   /* ---------- admin ---------- */
@@ -595,7 +670,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
 
   function renderAdmin(){
     var d = draft;
-    var html = '<section class="card admin">' +
+    var html = '<main class="wrap main"><section class="panel admin">' +
       '<div class="admin-head"><h2>館員模式</h2><button class="btn" type="button" data-act="admin-close">離開</button></div>' +
       '<p class="lead">' + (hosted() ? '在這裡改活動設定、書單和挑戰。按「發布」後，所有讀者打開的頁面都會換成新版。只有建立這個頁面的帳號登入時才能發布。' : '在這裡改活動設定、書單和挑戰。改完按「下載 index.html」，再到 GitHub 用這個檔案取代原本的 index.html，幾分鐘後讀者就會看到新版。') + '</p>' +
       '<label class="check"><input type="checkbox" id="f-sample" data-field="sample"' + (d.sample ? ' checked' : '') + '> 這是範例書單（讀者會看到提醒；換成真實館藏後請取消勾選）</label>' +
@@ -604,6 +679,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
         field('活動名稱', 'event.name', d.event.name) +
         field('活動期間（顯示用）', 'event.period', d.event.period) +
         field('目標本數', 'event.goal', d.event.goal, {type: 'number'}) +
+        field('主色', 'event.accent', accentOf(d), {type: 'select', options: ACCENTS}) +
         field('候診區說明', 'event.intro', d.event.intro, {type: 'textarea', full: true}) +
         field('完成獎勵', 'event.reward', d.event.reward, {type: 'textarea', full: true}) +
         field('館藏查詢網址', 'event.catalog', d.event.catalog, {full: true}) +
@@ -613,12 +689,12 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
       '<h3>處方清單</h3>';
     d.rx.forEach(function(r, i){ html += renderAdminRx(r, i, d.rx.length); });
     html += '<div><button class="btn" type="button" data-act="add">新增處方</button></div>';
-    html += '<h3>領藥碼與答案一覽</h3><p class="lead">抄到紙卡、夾進包好的書裡。問答題的答案也列在這裡，方便櫃台查核。</p>' +
+    html += '<h3>領藥碼與答案一覽</h3><p class="lead">領藥碼可以抄到紙卡、夾進包好的書裡；問答題的答案也列在這裡，方便櫃台查核。</p>' +
       '<textarea class="codes" id="codes" readonly>' + esc(codesText()) + '</textarea>' +
       '<div class="tools"><button class="btn" type="button" data-act="copy-codes">複製清單</button><button class="btn" type="button" data-act="copy-json">複製全部設定</button></div>' +
       '<div class="bar">' + (hosted() ? '<button class="btn primary" type="button" data-act="publish">發布</button>' : '<button class="btn primary" type="button" data-act="download">下載 index.html</button>') + '<button class="btn" type="button" data-act="preview">先看看讀者畫面</button>' +
       '<div class="msg ' + (view.msg.pub ? view.msg.pub.kind : '') + '" id="pubmsg" aria-live="polite">' + (view.msg.pub ? esc(view.msg.pub.text) : '') + '</div></div>' +
-    '</section>';
+    '</section></main>';
     return html;
   }
 
@@ -728,6 +804,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
   /* ---------- render & events ---------- */
   function render(){
     var html;
+    applyAccent();
     if (view.admin) html = renderAdmin();
     else if (view.screen === 'rx') {
       var r = null; data().rx.forEach(function(x){ if (x.id === view.rxId) r = x; });
@@ -743,8 +820,8 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     var el = e.target.closest('[data-act]'); if (!el) return;
     var act = el.getAttribute('data-act'); if (act === 'verify') return;
     e.preventDefault();
-    if (act === 'open') { view.screen = 'rx'; view.rxId = el.getAttribute('data-id'); render(); window.scrollTo(0, 0); }
-    else if (act === 'home') { view.screen = 'home'; view.rxId = null; render(); window.scrollTo(0, 0); }
+    if (act === 'open') { view.screen = 'rx'; view.rxId = el.getAttribute('data-id'); view.justDone = null; render(); window.scrollTo(0, 0); }
+    else if (act === 'home') { view.screen = 'home'; view.rxId = null; view.justDone = null; render(); window.scrollTo(0, 0); }
     else if (act === 'reset') { progress = { done: {} }; saveProgress(); render(); }
     else if (act === 'admin') { draft = clone(DATA); view.admin = true; view.msg.pub = null; render(); window.scrollTo(0, 0); }
     else if (act === 'admin-close') { view.admin = false; draft = null; view.screen = 'home'; render(); window.scrollTo(0, 0); }
@@ -754,7 +831,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     }
     else if (act === 'add') {
       var id = nextId();
-      draft.rx.push({ id: id, symptom: '', dose: '', course: '', caution: '', teaser: '', book: { title: '', author: '', call: '', shelf: '', note: '', link: '' }, challenge: { type: 'code', hint: '', answers: [] } });
+      draft.rx.push({ id: id, symptom: '', dose: '', course: '', caution: '', teaser: '', book: { title: '', author: '', call: '', shelf: '', note: '', link: '' }, challenge: { type: 'quiz', hint: '', answers: [] } });
       view.open[id] = true; render();
     }
     else if (act === 'del') { var i = +el.getAttribute('data-i'); draft.rx.splice(i, 1); render(); }
@@ -778,7 +855,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     var ni = norm(input && input.value);
     var ok = r.challenge.answers.some(function(a){ var na = norm(a); return na && (ni === na || (na.length >= 3 && ni.indexOf(na) >= 0)); });
     if (ok) {
-      progress.done[r.id] = new Date().toISOString(); saveProgress(); view.msg[r.id] = null; render(); window.scrollTo(0, 0);
+      progress.done[r.id] = new Date().toISOString(); saveProgress(); view.msg[r.id] = null; view.justDone = r.id; render(); window.scrollTo(0, 0);
     } else {
       setMsg(r.id, 'bad', r.challenge.type === 'quiz' ? '答案不對，再找找看。提示就在上面的「領藥方式」。' : '領藥碼不對。請確認卡片上的代碼，大小寫不限。');
       render();
@@ -796,6 +873,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     else if (/challenge\.answers$/.test(path)) v = el.value.split(/[,，、\n]/).map(function(s){ return s.trim(); }).filter(Boolean);
     else v = el.value;
     setPath(draft, path, v);
+    if (path === 'event.accent') applyAccent();
     if (e.type === 'change' && (/challenge\./.test(path) || /book\.title$/.test(path))) { var ta = document.getElementById('codes'); if (ta) ta.value = codesText(); }
     if (e.type === 'input' && /symptom$/.test(path)) { var det = el.closest('details.rxed'); var sym = det && det.querySelector('summary .sym'); if (sym) sym.textContent = el.value || '（尚未填寫症狀）'; }
   }
