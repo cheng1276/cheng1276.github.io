@@ -8,10 +8,13 @@
 <body>
 <title>神秘處方書</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=IBM+Plex+Mono:wght@500;600&display=swap">
 <style id="rx-css">
 /* Layout: a pharmacy counter (cool grey-blue ground) under one white header band; content sits in a single
    520px column. Each prescription is a printed medicine bag: one spot colour, a ruled field table, a red stamp.
+   Type: a rounded face (jf open 粉圓 / Huninn) like the pre-printed text on Taiwanese pharmacy bags, with mono
+   for the "printer-filled" fields (numbers, dates, call numbers). Huninn has one weight and bold is synthesised, which clogs dense
+   characters at small sizes, so bold is kept to 15px and up; smaller labels stay regular.
    Single committed light look (paper bag), so no dark palette. */
 :root{
   --counter:#E9EEF4;
@@ -30,8 +33,8 @@
   --ok:#1C6B3D;
   --ok-bg:#E5F3EA;
   --bad:#B42318;
-  --fb:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
-  --fm:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --fb:"Huninn","jf-openhuninn-2.1","jf-openhuninn-2.0","PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
+  --fm:"IBM Plex Mono","Huninn",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
   --col:520px;
   color-scheme:light;
 }
@@ -54,7 +57,7 @@ p{margin:0}
 .head{padding-block:20px 18px;display:flex;flex-direction:column;gap:6px}
 .head-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
 .lib{font-size:12px;font-weight:500;letter-spacing:.08em;color:var(--ink-2)}
-.tag{flex:none;font-size:12px;font-weight:700;letter-spacing:.12em;color:#FFFFFF;background:var(--spot);padding:4px 10px;border-radius:999px}
+.tag{flex:none;font-size:12px;font-weight:400;letter-spacing:.12em;color:#FFFFFF;background:var(--spot);padding:4px 10px;border-radius:999px}
 .head h1{margin-top:6px;font-size:34px;line-height:1.15;font-weight:900;letter-spacing:.04em}
 .head .sub{font-size:14px;color:var(--ink-2)}
 .sample{margin-top:8px;font-size:13px;color:#6E4700;background:#FFF4D6;border:1px solid #EFD39A;border-radius:8px;padding:8px 12px}
@@ -64,7 +67,7 @@ p{margin:0}
 /* progress */
 .progress{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;display:flex;align-items:center;gap:14px}
 .progress .txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
-.progress .k{font-size:12px;font-weight:700;letter-spacing:.08em;color:var(--ink-2)}
+.progress .k{font-size:12px;font-weight:400;letter-spacing:.08em;color:var(--ink-2)}
 .progress .n{font-family:var(--fm);font-size:30px;font-weight:600;line-height:1.15;font-variant-numeric:tabular-nums}
 .progress .n small{font-size:18px;color:var(--ink-3)}
 .progress .s{font-size:13px;color:var(--ink-2)}
@@ -90,13 +93,13 @@ p{margin:0}
 .tno b{font-size:22px;font-weight:600;line-height:1.1}
 .ticket .sym{align-self:center;padding:12px 6px 12px 14px;font-size:15px;line-height:1.5;font-weight:500;min-width:0;overflow-wrap:anywhere}
 .ticket .st{display:flex;align-items:center;justify-content:center;padding-right:8px}
-.go{display:inline-flex;align-items:center;gap:1px;padding:5px 7px 5px 11px;border:1.5px solid var(--spot);border-radius:999px;color:var(--spot);font-size:13px;font-weight:700;white-space:nowrap}
+.go{display:inline-flex;align-items:center;gap:1px;padding:5px 7px 5px 11px;border:1.5px solid var(--spot);border-radius:999px;color:var(--spot);font-size:13px;font-weight:400;white-space:nowrap}
 .mini-stamp{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;width:54px;height:54px;border-radius:50%;border:2px solid var(--stamp);color:var(--stamp);transform:rotate(-12deg);font-size:12px;font-weight:900;line-height:1.15}
 .mini-stamp small{font-family:var(--fm);font-size:9px;font-weight:600}
 .note{font-size:13px;line-height:1.7;color:var(--ink-2)}
 .foot{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;padding-block:26px 32px;font-size:13px}
 .foot a,.foot button{color:var(--ink-2);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
-.foot .reset-q{color:var(--ink);font-weight:700}
+.foot .reset-q{color:var(--ink);font-weight:400}
 
 /* first visit: registration slip */
 .reg{background:var(--paper);border:1.5px solid var(--spot);border-radius:12px;overflow:hidden}
@@ -104,7 +107,7 @@ p{margin:0}
 .reg-band b{font-size:19px;font-weight:900;letter-spacing:.14em}
 .reg-band span{font-size:12px;letter-spacing:.06em}
 .reg-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px}
-.reg-body label{font-size:13px;font-weight:700;color:var(--ink-2)}
+.reg-body label{font-size:13px;font-weight:400;color:var(--ink-2)}
 .reg-help{font-size:13px;line-height:1.7;color:var(--ink-2)}
 .reg-confirm{font-size:15px}
 .reg-confirm b{font-size:24px;font-weight:900;letter-spacing:.04em;overflow-wrap:anywhere}
@@ -114,10 +117,10 @@ p{margin:0}
 
 /* prescription: the medicine bag */
 .topnav{display:flex;justify-content:space-between;align-items:center;padding-block:8px 4px}
-.back{display:inline-flex;align-items:center;gap:2px;min-height:44px;padding:0;background:none;border:0;font-size:14px;font-weight:700;color:var(--ink);cursor:pointer}
+.back{display:inline-flex;align-items:center;gap:2px;min-height:44px;padding:0;background:none;border:0;font-size:15px;font-weight:400;color:var(--ink);cursor:pointer}
 .topnav .mono{font-size:13px;font-weight:600;letter-spacing:.08em;color:var(--ink-2)}
 .rxmain{gap:0;padding-top:4px}
-.okbar{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding:10px 14px;border-radius:10px;background:var(--ok-bg);color:var(--ok);font-size:14px;font-weight:700}
+.okbar{display:flex;align-items:center;gap:8px;margin-bottom:12px;padding:10px 14px;border-radius:10px;background:var(--ok-bg);color:var(--ok);font-size:14px;font-weight:400}
 .bag{position:relative;background:var(--paper);border-radius:4px 4px 14px 14px;box-shadow:0 1px 0 #CDD6E2,0 12px 28px rgba(24,35,58,.10);overflow:hidden}
 .fold{height:14px;background:var(--paper-2);border-bottom:1.5px dashed var(--rule-2)}
 .bag-band{background:var(--spot);color:#FFFFFF;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px}
@@ -128,14 +131,14 @@ p{margin:0}
 .bag-info{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-bottom:1px solid var(--rule)}
 .bag-info div{padding:10px 16px;display:flex;flex-direction:column;gap:2px;min-width:0}
 .bag-info div+div{border-left:1px solid var(--rule)}
-.bag-info .k{font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--ink-2)}
-.bag-info .v{font-size:14px;font-weight:600;line-height:1.5}
-.bag-info .v.mono{font-size:18px}
+.bag-info .k{font-size:12px;font-weight:400;letter-spacing:.1em;color:var(--ink-2)}
+.bag-info .v{font-size:14px;font-weight:400;line-height:1.5}
+.bag-info .v.mono{font-size:18px;font-weight:600}
 .bag-info .v.name{font-size:18px;font-weight:700;overflow-wrap:anywhere}
 .bag-info div.wide{grid-column:1 / -1;border-left:0;border-top:1px solid var(--rule)}
 .fields{margin:0}
 .fields .r{position:relative;display:grid;grid-template-columns:76px minmax(0,1fr);border-bottom:1px solid var(--rule)}
-.fields dt{padding:12px 8px 12px 16px;background:var(--spot-tint);color:var(--spot);font-size:12px;font-weight:700;letter-spacing:.06em;line-height:1.7}
+.fields dt{padding:12px 8px 12px 16px;background:var(--spot-tint);color:var(--spot);font-size:12px;font-weight:400;letter-spacing:.06em;line-height:1.7}
 .fields dd{margin:0;padding:10px 16px 10px 14px;font-size:15px;line-height:1.6;min-width:0;overflow-wrap:anywhere}
 .fields .r.main dd{padding-block:12px;font-size:17px;font-weight:700;line-height:1.55}
 .fields dd.drug{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding-block:12px}
@@ -148,11 +151,11 @@ p{margin:0}
 .stamp small{font-family:var(--fm);font-size:11px;font-weight:600;letter-spacing:.02em}
 @keyframes stamp{from{transform:rotate(-14deg) scale(1.6);opacity:0}to{transform:rotate(-14deg) scale(1);opacity:.9}}
 .pickup{margin:16px;padding:14px;border:1.5px solid var(--spot);border-radius:10px;background:var(--spot-tint-2);display:flex;flex-direction:column;gap:10px}
-.pickup .k,.pickinfo .k{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--spot)}
+.pickup .k,.pickinfo .k{font-size:12px;font-weight:400;letter-spacing:.1em;color:var(--spot)}
 .pickup p{font-size:14px;line-height:1.7}
 .pickup form{display:flex;flex-direction:column;gap:8px}
 .pickup label{font-size:13px;font-weight:500;color:var(--ink-2)}
-.btn-out{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1.5px solid var(--spot);border-radius:8px;background:#FFFFFF;color:var(--spot);font-size:14px;font-weight:700;text-decoration:none}
+.btn-out{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border:1.5px solid var(--spot);border-radius:8px;background:#FFFFFF;color:var(--spot);font-size:15px;font-weight:400;text-decoration:none}
 .inrow{display:flex;gap:8px}
 .inrow input{flex:1;min-width:0;height:48px;padding:0 12px;border:1.5px solid var(--field);border-radius:8px;background:#FFFFFF;font:inherit;font-size:16px;color:var(--ink)}
 .inrow input.code{font-family:var(--fm);letter-spacing:.12em;text-transform:uppercase}
@@ -170,7 +173,7 @@ p{margin:0}
 .btn-main:hover{color:#FFFFFF;filter:brightness(.94)}
 .bag-foot{padding:12px 16px 16px;border-top:1.5px dashed var(--rule-2);display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--ink-2)}
 .after{margin-top:14px;font-size:12px;text-align:center;color:var(--ink-2)}
-.pill-btn{align-self:center;margin-top:16px;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;font-size:14px;font-weight:700;color:var(--ink);border:1.5px solid var(--field);border-radius:999px;background:#FFFFFF;cursor:pointer}
+.pill-btn{align-self:center;margin-top:16px;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;font-size:15px;font-weight:400;color:var(--ink);border:1.5px solid var(--field);border-radius:999px;background:#FFFFFF;cursor:pointer}
 
 /* certificate */
 .cert{position:relative;background:var(--paper);border:1px solid var(--rule);border-radius:12px;overflow:hidden;box-shadow:0 12px 28px rgba(24,35,58,.10)}
@@ -180,7 +183,7 @@ p{margin:0}
 .cert-body{position:relative;padding:14px 16px 18px;display:flex;flex-direction:column;gap:10px}
 .cert-body > p{font-size:14px}
 .cert-name{display:flex;flex-direction:column;gap:2px;min-height:96px;padding-right:112px}
-.cert-name .k{font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--ink-2)}
+.cert-name .k{font-size:12px;font-weight:400;letter-spacing:.12em;color:var(--ink-2)}
 .cert-name b{font-size:28px;font-weight:900;line-height:1.25;letter-spacing:.06em;overflow-wrap:anywhere}
 .cert-name span.when{font-size:12.5px;color:var(--ink-2)}
 .live{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:8px 12px;border-radius:8px;background:var(--spot-tint);font-size:13px;color:var(--ink-2)}
@@ -197,14 +200,14 @@ p{margin:0}
 .redeemed{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px 12px;padding:10px 16px;background:var(--ink);color:#FFFFFF}
 .redeemed b{font-size:20px;font-weight:900;letter-spacing:.24em}
 .redeemed span{font-family:var(--fm);font-size:13px;font-weight:500;font-variant-numeric:tabular-nums}
-.warn-strip{display:flex;flex-direction:column;gap:2px;padding:10px 16px;background:#FDECEA;border-bottom:1px solid #F4C7C2;color:var(--bad);font-size:13.5px;line-height:1.6}
-.warn-strip b{font-weight:700}
+.warn-strip{display:flex;flex-direction:column;gap:2px;padding:10px 16px;background:#FDECEA;border-bottom:1px solid #F4C7C2;color:var(--bad);font-size:14px;line-height:1.6}
+.warn-strip b{font-weight:400}
 .warn-strip span{overflow-wrap:anywhere}
 .cert .reward.used{color:var(--ink-3);text-decoration:line-through;text-decoration-thickness:2px}
 .btn-redeem{display:flex;align-items:center;justify-content:center;width:100%;min-height:48px;padding:0 14px;border:1.5px dashed var(--ink-3);border-radius:8px;background:var(--paper-2);color:var(--ink);font-size:15px;font-weight:700;cursor:pointer}
 .btn-redeem small{margin-left:6px;font-size:13px;font-weight:500;color:var(--ink-2)}
 .redeem{display:flex;flex-direction:column;gap:8px;padding:14px;border:1.5px dashed var(--ink-3);border-radius:10px;background:var(--paper-2)}
-.redeem .k{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--ink)}
+.redeem .k{font-size:12px;font-weight:400;letter-spacing:.1em;color:var(--ink)}
 .redeem p{font-size:13px;line-height:1.7;color:var(--ink-2)}
 .redeem label{font-size:13px;font-weight:500;color:var(--ink-2)}
 .redeem input.pin{font-family:var(--fm);font-size:20px;letter-spacing:.3em;-webkit-text-security:disc}
@@ -235,7 +238,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
 .tools{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
 .btn{border:1px solid var(--field);background:#FFFFFF;color:var(--ink);border-radius:8px;padding:9px 14px;cursor:pointer;white-space:nowrap;line-height:1.3;font-size:14px}
 .btn:hover{background:var(--paper-2)}
-.btn.primary{background:var(--spot);border-color:var(--spot);color:#FFFFFF;font-weight:700}
+.btn.primary{background:var(--spot);border-color:var(--spot);color:#FFFFFF;font-weight:400}
 .btn:disabled{opacity:.5;cursor:default}
 .bar{position:sticky;bottom:0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--paper);padding:12px 0 calc(4px + env(safe-area-inset-bottom, 0px));border-top:1px solid var(--rule)}
 .admin textarea.codes{min-height:150px;font-family:var(--fm);font-size:12.5px;white-space:pre}
@@ -511,7 +514,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
 (function(){
   'use strict';
   var KEY = 'rx-book-progress-v1';
-  var FONT_LINKS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">';
+  var FONT_LINKS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=IBM+Plex+Mono:wght@500;600&display=swap">';
   var RESET_FALLBACK = ':root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}';
   var DEFAULT_ACCENT = '#1F5FAF';
   var ACCENTS = [['#1F5FAF', '藥袋藍'], ['#0F7B6C', '藥局綠'], ['#6B3FA0', '紫'], ['#B03A2E', '紅']];
