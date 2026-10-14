@@ -96,6 +96,21 @@ p{margin:0}
 .note{font-size:13px;line-height:1.7;color:var(--ink-2)}
 .foot{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;padding-block:26px 32px;font-size:13px}
 .foot a,.foot button{color:var(--ink-2);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.foot .reset-q{color:var(--ink);font-weight:700}
+
+/* first visit: registration slip */
+.reg{background:var(--paper);border:1.5px solid var(--spot);border-radius:12px;overflow:hidden}
+.reg-band{background:var(--spot);color:#FFFFFF;padding:12px 16px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.reg-band b{font-size:19px;font-weight:900;letter-spacing:.14em}
+.reg-band span{font-size:12px;letter-spacing:.06em}
+.reg-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px}
+.reg-body label{font-size:13px;font-weight:700;color:var(--ink-2)}
+.reg-help{font-size:13px;line-height:1.7;color:var(--ink-2)}
+.reg-confirm{font-size:15px}
+.reg-confirm b{font-size:24px;font-weight:900;letter-spacing:.04em;overflow-wrap:anywhere}
+.reg-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.reg-actions .btn-go{padding:0 18px}
+.reg-actions .btn-out{align-self:auto;cursor:pointer}
 
 /* prescription: the medicine bag */
 .topnav{display:flex;justify-content:space-between;align-items:center;padding-block:8px 4px}
@@ -116,6 +131,8 @@ p{margin:0}
 .bag-info .k{font-size:11px;font-weight:700;letter-spacing:.1em;color:var(--ink-2)}
 .bag-info .v{font-size:14px;font-weight:600;line-height:1.5}
 .bag-info .v.mono{font-size:18px}
+.bag-info .v.name{font-size:18px;font-weight:700;overflow-wrap:anywhere}
+.bag-info div.wide{grid-column:1 / -1;border-left:0;border-top:1px solid var(--rule)}
 .fields{margin:0}
 .fields .r{position:relative;display:grid;grid-template-columns:76px minmax(0,1fr);border-bottom:1px solid var(--rule)}
 .fields dt{padding:12px 8px 12px 16px;background:var(--spot-tint);color:var(--spot);font-size:12px;font-weight:700;letter-spacing:.06em;line-height:1.7}
@@ -160,14 +177,22 @@ p{margin:0}
 .cert-band{background:var(--spot);color:#FFFFFF;padding:14px 16px;display:flex;flex-direction:column;gap:2px}
 .cert-band span{font-size:12px;letter-spacing:.08em}
 .cert-band b{font-size:22px;font-weight:900;letter-spacing:.16em}
-.cert-body{padding:14px 16px 18px;display:flex;flex-direction:column;gap:10px}
+.cert-body{position:relative;padding:14px 16px 18px;display:flex;flex-direction:column;gap:10px}
 .cert-body > p{font-size:14px}
+.cert-name{display:flex;flex-direction:column;gap:2px;min-height:96px;padding-right:112px}
+.cert-name .k{font-size:12px;font-weight:700;letter-spacing:.12em;color:var(--ink-2)}
+.cert-name b{font-size:28px;font-weight:900;line-height:1.25;letter-spacing:.06em;overflow-wrap:anywhere}
+.cert-name span.when{font-size:12.5px;color:var(--ink-2)}
+.live{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:8px 12px;border-radius:8px;background:var(--spot-tint);font-size:13px;color:var(--ink-2)}
+.live b{font-family:var(--fm);font-size:15px;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.live .dot{width:8px;height:8px;border-radius:50%;background:var(--ok);animation:pulse 1.2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.2}}
 .cert-list{margin:0;padding:0;list-style:none;border-top:1px solid var(--rule)}
 .cert-list li{display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--rule);font-size:14px;line-height:1.5}
 .cert-list .mono{font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
-.cert .reward{padding-right:104px;font-size:16px;font-weight:700;color:var(--spot)}
-.cert .small{padding-right:104px;font-size:12.5px;color:var(--ink-2)}
-.cert .stamp{top:auto;bottom:16px;margin-top:0;width:96px;height:96px;font-size:16px}
+.cert .reward{font-size:16px;font-weight:700;color:var(--spot)}
+.cert .small{font-size:12.5px;line-height:1.7;color:var(--ink-2)}
+.cert .stamp{top:14px;right:14px;margin-top:0;width:96px;height:96px;font-size:16px}
 
 /* librarian mode */
 .panel{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:18px 16px}
@@ -197,7 +222,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
 .btn:disabled{opacity:.5;cursor:default}
 .bar{position:sticky;bottom:0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--paper);padding:12px 0 calc(4px + env(safe-area-inset-bottom, 0px));border-top:1px solid var(--rule)}
 .admin textarea.codes{min-height:150px;font-family:var(--fm);font-size:12.5px;white-space:pre}
-@media (prefers-reduced-motion:reduce){.stamp{animation:none}}
+@media (prefers-reduced-motion:reduce){.stamp,.live .dot{animation:none}}
 </style>
 <script id="rx-data" type="application/json">
 {
@@ -503,6 +528,8 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
       .replace(/[《》「」『』:：\-–—.!?！？,，、。]/g, '')
       .toLowerCase();
   }
+  function hasName(){ return !!(progress.name && String(progress.name).trim()); }
+  function nowText(){ var d = new Date(); return fmtSlash(d) + ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes()) + ':' + pad(d.getSeconds()); }
   function goalN(){ return Math.max(1, parseInt(data().event.goal, 10) || 1); }
   function doneCount(){ var n = 0; data().rx.forEach(function(r){ if (progress.done[r.id]) n++; }); return n; }
   function rxNum(id){ var m = String(id).match(/(\d+)\s*$/); return m ? m[1] : String(id); }
@@ -529,7 +556,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
     var n = doneCount(), goal = goalN(), left = Math.max(0, goal - n), pills = '';
     for (var i = 0; i < goal; i++) pills += capsule(i < n);
     return '<section class="progress" aria-label="我的領藥進度">' +
-      '<div class="txt"><span class="k">我的領藥進度</span>' +
+      '<div class="txt"><span class="k">' + (hasName() ? esc(progress.name) + ' 的領藥進度' : '我的領藥進度') + '</span>' +
       '<span class="n">' + n + '<small> / ' + goal + ' 帖</small></span>' +
       '<span class="s">' + (left ? '再領 ' + left + ' 帖，就能換療程完成證明' : '療程完成，完成證明在上方。') + '</span></div>' +
       '<div class="caps' + (goal > 4 ? ' many' : '') + '">' + pills + '</div>' +
@@ -539,8 +566,11 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
   function renderHome(){
     var d = data(), goal = goalN();
     var html = renderBand() + '<main class="wrap main">';
-    if (doneCount() >= goal) html += renderCert();
-    html += renderProgress();
+    if (!hasName()) html += renderRegister();
+    else {
+      if (doneCount() >= goal) html += renderCert();
+      html += renderProgress();
+    }
     html += '<div class="sec-head"><h2>請選擇最接近的症狀</h2><span>' + d.rx.length + ' 帖</span></div>';
     if (d.event.intro) html += '<p class="lead">' + esc(d.event.intro) + '</p>';
     html += '<div class="tickets">';
@@ -558,12 +588,40 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
     return html;
   }
 
+  function renderRegister(){
+    var m = view.msg.reg || null;
+    if (view.pendingName) {
+      return '<section class="reg" aria-labelledby="reg-title">' +
+        '<div class="reg-band"><b id="reg-title">初診掛號</b><span>請確認姓名</span></div>' +
+        '<div class="reg-body">' +
+          '<p class="reg-confirm">掛號姓名<br><b>' + esc(view.pendingName) + '</b></p>' +
+          '<p class="reg-help">掛號後就不能修改。這個名字會印在「療程完成證明」上，兌換獎勵時要和你的員工證或證件核對。</p>' +
+          '<div class="reg-actions"><button class="btn-go" type="button" data-act="reg-confirm">確認掛號</button><button class="btn-out" type="button" data-act="reg-edit">修改</button></div>' +
+        '</div></section>';
+    }
+    return '<section class="reg" aria-labelledby="reg-title">' +
+      '<div class="reg-band"><b id="reg-title">初診掛號</b><span>第一次使用請先填寫</span></div>' +
+      '<form class="reg-body" data-act="register" autocomplete="off">' +
+        '<label for="reg-name">姓名</label>' +
+        '<div class="inrow"><input id="reg-name" name="name" maxlength="20" autocomplete="name" placeholder="請填寫真實姓名" value="' + esc(view.nameDraft || '') + '" required>' +
+        '<button class="btn-go" type="submit">掛號</button></div>' +
+        '<div class="msg ' + (m ? m.kind : '') + '" aria-live="polite">' + (m ? esc(m.text) : '') + '</div>' +
+        '<p class="reg-help">名字會印在「療程完成證明」上，兌換獎勵時要和你的員工證或證件核對。名字只存在你這支手機的瀏覽器裡，不會傳到任何地方。</p>' +
+      '</form></section>';
+  }
+
   function renderFoot(){
     var d = data();
     var showAdmin = caps.canEdit || location.hash === '#admin';
+    var reset = '';
+    if (view.screen === 'home' && (hasName() || doneCount())) {
+      reset = view.confirmReset
+        ? '<span class="reset-q">清除進度和掛號姓名？</span><button type="button" data-act="reset-yes">確定清除</button><button type="button" data-act="reset-no">取消</button>'
+        : '<button type="button" data-act="reset">重設我的進度</button>';
+    }
     return '<footer class="wrap foot">' +
       '<a href="' + esc(d.event.catalog) + '" target="_blank" rel="noopener">館藏查詢系統</a>' +
-      (view.screen === 'home' ? '<button type="button" data-act="reset">重設我的進度</button>' : '') +
+      reset +
       (showAdmin ? '<button type="button" data-act="admin">館員模式</button>' : '') +
     '</footer>';
   }
@@ -588,10 +646,11 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
       '<div class="fold" aria-hidden="true"></div>' +
       '<div class="bag-band"><div class="who"><span>' + esc(d.lib) + '</span><b>閱讀藥局　藥袋</b></div><span class="use">閱讀用</span></div>' +
       '<div class="bag-info">' +
+        '<div><span class="k">姓名</span><span class="v name">' + esc(progress.name || '') + '</span></div>' +
         '<div><span class="k">領藥號</span><span class="v mono">' + esc(r.id) + '</span></div>' +
         (when
-          ? '<div><span class="k">調劑日期</span><span class="v mono">' + esc(fmtSlash(when)) + '</span></div>'
-          : '<div><span class="k">處方期間</span><span class="v">' + esc(d.event.period) + '</span></div>') +
+          ? '<div class="wide"><span class="k">調劑日期</span><span class="v mono">' + esc(fmtSlash(when)) + '</span></div>'
+          : '<div class="wide"><span class="k">處方期間</span><span class="v">' + esc(d.event.period) + '</span></div>') +
       '</div>' +
       '<dl class="fields">' +
         fieldRow('適應症', esc(r.symptom), 'main') +
@@ -649,10 +708,13 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
     return '<section class="cert" aria-label="療程完成證明">' +
       '<div class="cert-band"><span>' + esc(d.lib) + '　閱讀藥局</span><b>療程完成證明</b></div>' +
       '<div class="cert-body">' +
-        '<p>持有人已於本活動期間，完成以下處方的領藥：</p>' +
+        '<div class="cert-name"><span class="k">姓名</span><b>' + esc(progress.name || '') + '</b>' +
+          '<span class="when">完成時間 ' + esc(last ? fmtSlash(last) + ' ' + fmtTime(last) : '') + '</span></div>' +
+        '<p>已於本活動期間，完成以下處方的領藥：</p>' +
         '<ol class="cert-list">' + items + '</ol>' +
         '<p class="reward">' + esc(d.event.reward) + '</p>' +
-        '<p class="small">完成時間 ' + esc(last ? fmtSlash(last) + ' ' + fmtTime(last) : '') + '。請把這個畫面出示給櫃台館員。</p>' +
+        '<div class="live"><span class="dot" aria-hidden="true"></span><span>現在時間</span><b id="live-clock">' + esc(nowText()) + '</b></div>' +
+        '<p class="small">兌換時請直接在手機上出示這個畫面，並出示員工證或證件核對姓名。時間會一直跳動，截圖不能使用。</p>' +
         '<span class="stamp" aria-hidden="true">療程完成<small>' + esc(fmtLong(last)) + '</small></span>' +
       '</div></section>';
   }
@@ -818,11 +880,31 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
 
   app.addEventListener('click', function(e){
     var el = e.target.closest('[data-act]'); if (!el) return;
-    var act = el.getAttribute('data-act'); if (act === 'verify') return;
+    var act = el.getAttribute('data-act'); if (act === 'verify' || act === 'register') return;
     e.preventDefault();
-    if (act === 'open') { view.screen = 'rx'; view.rxId = el.getAttribute('data-id'); view.justDone = null; render(); window.scrollTo(0, 0); }
+    if (act === 'open') {
+      if (!hasName()) {
+        view.pendingName = null;
+        setMsg('reg', 'bad', '請先填寫姓名完成掛號，就能看診。');
+        render();
+        var nameBox = document.getElementById('reg-name');
+        if (nameBox) { nameBox.scrollIntoView({ block: 'center' }); nameBox.focus(); }
+        return;
+      }
+      view.screen = 'rx'; view.rxId = el.getAttribute('data-id'); view.justDone = null; render(); window.scrollTo(0, 0);
+    }
     else if (act === 'home') { view.screen = 'home'; view.rxId = null; view.justDone = null; render(); window.scrollTo(0, 0); }
-    else if (act === 'reset') { progress = { done: {} }; saveProgress(); render(); }
+    else if (act === 'reg-confirm') {
+      if (view.pendingName) { progress.name = view.pendingName; progress.registeredAt = new Date().toISOString(); saveProgress(); }
+      view.pendingName = null; view.nameDraft = ''; view.msg.reg = null; render(); window.scrollTo(0, 0);
+    }
+    else if (act === 'reg-edit') {
+      view.pendingName = null; render();
+      var nb = document.getElementById('reg-name'); if (nb) nb.focus();
+    }
+    else if (act === 'reset') { view.confirmReset = true; render(); }
+    else if (act === 'reset-no') { view.confirmReset = false; render(); }
+    else if (act === 'reset-yes') { progress = { done: {} }; saveProgress(); view.confirmReset = false; view.pendingName = null; view.nameDraft = ''; render(); window.scrollTo(0, 0); }
     else if (act === 'admin') { draft = clone(DATA); view.admin = true; view.msg.pub = null; render(); window.scrollTo(0, 0); }
     else if (act === 'admin-close') { view.admin = false; draft = null; view.screen = 'home'; render(); window.scrollTo(0, 0); }
     else if (act === 'preview') {
@@ -847,6 +929,17 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
   });
 
   app.addEventListener('submit', function(e){
+    var regForm = e.target.closest('form[data-act="register"]');
+    if (regForm) {
+      e.preventDefault();
+      var box = regForm.querySelector('input[name="name"]');
+      var name = String(box && box.value || '').replace(/\s+/g, ' ').trim();
+      view.nameDraft = name;
+      if (!name) { setMsg('reg', 'bad', '請填寫姓名。'); render(); var b1 = document.getElementById('reg-name'); if (b1) b1.focus(); return; }
+      if (name.length > 20) { setMsg('reg', 'bad', '姓名最多 20 個字。'); render(); var b2 = document.getElementById('reg-name'); if (b2) b2.focus(); return; }
+      view.pendingName = name; view.msg.reg = null; render();
+      return;
+    }
     var form = e.target.closest('form[data-act="verify"]'); if (!form) return;
     e.preventDefault();
     var id = form.getAttribute('data-id'), r = null; data().rx.forEach(function(x){ if (x.id === id) r = x; });
@@ -880,6 +973,8 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
 
   /* ---------- boot ---------- */
   render();
+  /* the certificate's clock keeps ticking, so a screenshot is easy to tell apart from the live page */
+  setInterval(function(){ var c = document.getElementById('live-clock'); if (c) c.textContent = nowText(); }, 1000);
   window.addEventListener('hashchange', function(){ if (!view.admin) render(); });
   try { if (sessionStorage.getItem('rx-book-admin-return')) { sessionStorage.removeItem('rx-book-admin-return'); view.pendingAdminNote = true; } } catch(e){}
 
