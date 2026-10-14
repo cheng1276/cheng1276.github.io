@@ -121,7 +121,7 @@
     },
     {
      "quote": "Exercise intended to improve cardiorespiratory fitness and muscular endurance. Examples include walking, biking or cycling, running, hiking, aerobics, rowing, swimming, using an elliptical.",
-     "location": "Table 1 (definitions of the interventions), row \"Aerobic exercise\" (PMC table page)",
+     "location": "Table 1 (definitions of the interventions), row \"Aerobic exercise\"",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -476,7 +476,7 @@
     },
     {
      "quote": "Exercise intended to increase muscular strength. Examples include free weights, weight machines, resistance bands, Pilates.",
-     "location": "Table 1 (definitions of the interventions), row \"Resistance exercise\" (PMC table page)",
+     "location": "Table 1 (definitions of the interventions), row \"Resistance exercise\"",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -793,7 +793,7 @@
    "evidence": [
     {
      "quote": "Exercise that combines movement, mental focus, and controlled breathing. Examples include yoga, Tai Chi, Qigong.",
-     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); PMC page and CDC Stacks author manuscript p.19",
+     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline')",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -802,7 +802,7 @@
     },
     {
      "quote": "Practices engaging both mind and body functions. Examples include biofeedback, goal setting, meditation, mindfulness, breathing exercises, progressive muscle relaxation, guided imagery.",
-     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); PMC page and CDC Stacks author manuscript p.19",
+     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline')",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -878,7 +878,7 @@
    "evidence": [
     {
      "quote": "Exercise performed in water, containing elements of both aerobic and resistance exercise. Examples include swimming, water aerobics, water walking or jogging.",
-     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline'); PMC page and CDC Stacks author manuscript p.19",
+     "location": "Table 1 ('Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline')",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -946,7 +946,7 @@
    "evidence": [
     {
      "quote": "Third, flexibility refers to an individual’s range of motion around a joint, or group of joints.",
-     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC text extraction reads \"Third,refers to an individual’s range of motion around a joint, or group of joints.\" (italic word dropped); \"flexibility\" restored as on the PMC page",
+     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1",
      "access": "Web page or PDF",
      "pmid": "32686505",
      "doi": "10.1161/CIR.0000000000000866",
@@ -1078,7 +1078,7 @@
     },
     {
      "quote": "CRF, also known as cardiorespiratory endurance, cardiovascular fitness, aerobic capacity, and aerobic fitness among others, refers to the capacity of the body’s circulatory and respiratory systems to supply oxygen to skeletal muscle mitochondria for energy production during physical activity.",
-     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1. The PMC text extraction drops the italic subject \"CRF\" (\"components., also known as …\"); restored as on the PMC page",
+     "location": "Section \"Health-Related Fitness And Associated Physiological Changes\", paragraph 1",
      "access": "Web page or PDF",
      "pmid": "32686505",
      "doi": "10.1161/CIR.0000000000000866",
@@ -1267,7 +1267,7 @@
     },
     {
      "quote": "Evaluation and treatment by a physical therapist. Components of PT services will vary and should include exercise.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1276,7 +1276,7 @@
     },
     {
      "quote": "May also include functional training and physical activity, energy conservation, workplace accommodations, mobility and gait training, manual therapy, self-management education, electrotherapy, application of orthoses, instruction in assistive devices, pain-management including thermal therapy.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive physical therapy",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1345,7 +1345,7 @@
     },
     {
      "quote": "People with rheumatoid arthritis can find it difficult to do daily chores such as dressing, cooking, cleaning and working. Occupational therapists can give advice on how to do every day activities with less pain or advice on how to use splints and assistive devices.",
-     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "location": "Plain language summary (Cochrane review)",
      "access": "PMC full text",
      "pmid": "14974005",
      "doi": "10.1002/14651858.CD003114.pub2",
@@ -1372,7 +1372,7 @@
     },
     {
      "quote": "Evaluation and treatment by Occupational Therapist with the goal of increasing physical function and participation.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1381,7 +1381,7 @@
     },
     {
      "quote": "Components of OT services vary and may include arthritis education, ADL evaluation and training, joint protection, activity pacing, work simplification and fatigue management, exercise (particularly for the hand and arm), splinting/orthotics, provision of assistive/adaptive devices, environmental adaptations, work and leisure counselling/rehabilitation, work-site assessment, sexual advice, relaxation, and pain and stress management training.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Comprehensive occupational therapy",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1483,7 +1483,7 @@
    "evidence": [
     {
      "quote": "Self-management approach that aims to maintain function by providing people with ways to alter work methods and movement patterns of affected joints to reduce pain, inflammation, and joint stress. Examples include changing the way of performing activities to avoid pain, resting, using alternative muscle groups.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Joint protection techniques (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Joint protection techniques",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1538,7 +1538,7 @@
    "evidence": [
     {
      "quote": "Devices to correct and support musculoskeletal function, improve joint alignment, or protect the joint. Examples include wrist and finger splints, foot or knee orthoses, compression gloves, taping.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Bracing and orthoses (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Bracing and orthoses",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1617,7 +1617,7 @@
    "evidence": [
     {
      "quote": "Assistive technology is any item used to increase or maintain functional ability in individuals with disabilities. It includes a wide range of products, from low‐technology devices to technologically complex equipment.",
-     "location": "Abstract, Background (text as displayed in the PMC record, which uses the hyphen character U+2010 in low‐technology)",
+     "location": "Abstract, Background",
      "access": "abstract",
      "pmid": "19821383",
      "doi": "10.1002/14651858.CD006729.pub2",
@@ -1626,7 +1626,7 @@
     },
     {
      "quote": "Devices to assist with mobility. Examples include crutches, canes, walkers, wheelchairs, tricycles, scooters.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Assistive devices (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Assistive devices",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1635,7 +1635,7 @@
     },
     {
      "quote": "Devices to assist with activities of daily living. Examples include built up and/or long handled equipment, sock aide, button hook, reachers, pill cutters, cell phone holders.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Adaptive equipment (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Adaptive equipment",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1644,7 +1644,7 @@
     },
     {
      "quote": "Adapting environment to improve safety. Examples include adaptations for toileting (raised toilet seat, commode, toilet safety rail), showering (tub seat, handheld shower, walk in bath), grab bars, ramps, stair lifts, home modification.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Environmental adaptations (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Environmental adaptations",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1699,7 +1699,7 @@
    "evidence": [
     {
      "quote": "Balancing activity and rest to accomplish activities. Includes activity pacing, energy conservation, activity modification, fatigue management techniques.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Activity pacing (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Activity pacing",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1824,7 +1824,7 @@
     },
     {
      "quote": "Standardized program to guide self-management.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Self-management program (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Self-management program",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1879,7 +1879,7 @@
     },
     {
      "quote": "Training programs to overcome barriers preventing successful employment.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Vocational rehabilitation (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Vocational rehabilitation",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -1897,7 +1897,7 @@
     },
     {
      "quote": "Evaluating and adjusting work-site conditions and duties for safety and well-being.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Work site evaluation and modifications (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Work site evaluation and modifications",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -2007,7 +2007,7 @@
     },
     {
      "quote": "Diagnosis and manipulation of malaligned joints, particularly the spine.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Chiropractic (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Chiropractic",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -2059,7 +2059,7 @@
    "evidence": [
     {
      "quote": "Mechanical traction 'stretches' the neck. With the patient lying on their back, a head halter is placed under the back of the head and possibly the jaw and attached to a machine. The machine is set for a certain time period and specific weight for the pulling action to occur.",
-     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "location": "Plain language summary (Cochrane review)",
      "access": "PMC full text",
      "pmid": "18646151",
      "doi": "10.1002/14651858.CD006408.pub2",
@@ -2478,7 +2478,7 @@
     {
      "quote": "Explanation and pictorial depiction of standard serving sizes … a 12-ounce bottle or can of beer; a 5-ounce glass of wine; and 1 to 1.5 ounces of liquor",
      "location": "Methods – Ascertainment of risk factors",
-     "access": "PMC full text (the word 'i.e.' before 'a 12-ounce' is missing from the PMC text extraction; as on the PMC page)",
+     "access": "PMC full text",
      "pmid": "24440541",
      "doi": "10.1016/j.amjmed.2013.12.019",
      "pmcid": "PMC3991555",
@@ -2866,7 +2866,7 @@
     {
      "quote": "We wanted to find out the effects on health of cutting down on saturated fat in our food (replacing animal fats and hard vegetable fats with plant oils, unsaturated spreads or starchy foods).",
      "location": "Plain language summary – Review question",
-     "access": "PMC full text (plain language summary in the PMC record)",
+     "access": "PMC full text (plain language summary)",
      "pmid": "32428300",
      "doi": "10.1002/14651858.CD011737.pub2",
      "pmcid": "PMC7388853",
@@ -2875,7 +2875,7 @@
     {
      "quote": "Health guidance suggests that reducing the amount of saturated fat we eat, by cutting down on animal fats, is good for our health.",
      "location": "Plain language summary – Background",
-     "access": "PMC full text (plain language summary in the PMC record)",
+     "access": "PMC full text (plain language summary)",
      "pmid": "32428300",
      "doi": "10.1002/14651858.CD011737.pub2",
      "pmcid": "PMC7388853",
@@ -3223,7 +3223,7 @@
     },
     {
      "quote": "In clinical practice, the body fatness is usually estimated by BMI. BMI is calculated as measured body weight (kg) divided by measured height squared",
-     "location": "Definition of obesity (PMC full text)",
+     "location": "Definition of obesity",
      "access": "PMC full text",
      "pmid": "26641646",
      "doi": "10.1159/000442721",
@@ -3232,7 +3232,7 @@
     },
     {
      "quote": "overweight (also termed pre-obesity) by a BMI between 25 and 29.9",
-     "location": "Definition of obesity (PMC full text)",
+     "location": "Definition of obesity",
      "access": "PMC full text",
      "pmid": "26641646",
      "doi": "10.1159/000442721",
@@ -3241,7 +3241,7 @@
     },
     {
      "quote": "According to WHO, an adult with a BMI of 30 … or higher is considered to have obesity.",
-     "location": "PMC full text (\"kg/m²\" glued in the PMC extraction, replaced by …)",
+     "location": "Full text ('…' replaces the unit kg/m²)",
      "access": "PMC full text",
      "pmid": "39824205",
      "doi": "10.1016/S2213-8587(24)00316-4",
@@ -3312,7 +3312,7 @@
     {
      "quote": "This review has been produced to assess whether or not xylitol, a natural sweetener used in products such as sweets, candy, chewing gum and toothpaste, can help prevent tooth decay in children and adults.",
      "location": "Plain language summary – Review question",
-     "access": "PMC full text (plain language summary in the PMC record)",
+     "access": "PMC full text (plain language summary)",
      "pmid": "25809586",
      "doi": "10.1002/14651858.CD010743.pub2",
      "pmcid": "PMC9345289",
@@ -3321,7 +3321,7 @@
     {
      "quote": "Xylitol is a natural sweetener, which is equally as sweet as normal sugar (sucrose).",
      "location": "Plain language summary – Background",
-     "access": "PMC full text (plain language summary in the PMC record)",
+     "access": "PMC full text (plain language summary)",
      "pmid": "25809586",
      "doi": "10.1002/14651858.CD010743.pub2",
      "pmcid": "PMC9345289",
@@ -3330,7 +3330,7 @@
     {
      "quote": "The products tested were the kind that are held in the mouth and sucked (lozenges, sucking tablets and sweets) or slowly released through a dummy/pacifier, as well as toothpastes, syrups, and wipes.",
      "location": "Plain language summary – Study characteristics",
-     "access": "PMC full text (plain language summary in the PMC record)",
+     "access": "PMC full text (plain language summary)",
      "pmid": "25809586",
      "doi": "10.1002/14651858.CD010743.pub2",
      "pmcid": "PMC9345289",
@@ -3339,7 +3339,7 @@
     {
      "quote": "In humans, xylitol is known to cause possible side effects such as bloating, wind and diarrhoea.",
      "location": "Plain language summary – Background",
-     "access": "PMC full text (plain language summary in the PMC record)",
+     "access": "PMC full text (plain language summary)",
      "pmid": "25809586",
      "doi": "10.1002/14651858.CD010743.pub2",
      "pmcid": "PMC9345289",
@@ -3722,7 +3722,7 @@
     },
     {
      "quote": "The AAP Red Book () and the Infectious Diseases Society of America () define low-level immunosuppression as methotrexate ≤0.4 mg/kg/week, azathioprine ≤3 mg/kg/day, prednisone <20 mg/day (or <2 mg/kg/day for patients weighing <10 kg), or alternate-day glucocorticoid therapy ().",
-     "location": "Live attenuated vaccines section (\"()\" = stripped citation markers)",
+     "location": "Live attenuated vaccines section ('()' marks omitted citations)",
      "access": "PMC full text",
      "pmid": "36597813",
      "doi": "10.1002/acr.25045",
@@ -3813,7 +3813,7 @@
     },
     {
      "quote": "Biological medicines (or immunobiologics) are large, structurally complex molecules produced by living cells [,].",
-     "location": "Introduction, first sentence (\"[,]\" = stripped citation markers)",
+     "location": "Introduction, first sentence ('[,]' marks omitted citations)",
      "access": "PMC full text",
      "pmid": "41618370",
      "doi": "10.1186/s42358-026-00523-5",
@@ -4688,7 +4688,7 @@
     },
     {
      "quote": "In addition, studies were included that reported on the live-attenuated vaccines against Measles, Mumps and Rubella (MMR, …), Varicella Zoster Virus (VZV, 5 studies) (–), one study which included 1 patient with oral polio vaccine () and one case report on the Bacillus Calmette-Guérin (BCG) vaccine ().",
-     "location": "Results (\"()\" = stripped citation markers)",
+     "location": "Results ('()' marks omitted citations)",
      "access": "PMC full text",
      "pmid": "35874582",
      "doi": "10.3389/fped.2022.910026",
@@ -4846,8 +4846,8 @@
    ],
    "evidence": [
     {
-     "quote": "(pneumococcus) is a common bacterial cause of respiratory tract infections, bacteremia, and meningitis.",
-     "location": "Introduction (first sentence; italic species name dropped by extraction)",
+     "quote": "… (pneumococcus) is a common bacterial cause of respiratory tract infections, bacteremia, and meningitis.",
+     "location": "Introduction (first sentence; '…' replaces the species name)",
      "access": "PMC full text",
      "pmid": "39773952",
      "doi": "10.15585/mmwr.mm7401a1",
@@ -5128,7 +5128,7 @@
     },
     {
      "quote": "A Cochrane review [] of topical treatments for dry mouth of any cause (including SD) found no strong evidence supporting one topical therapy over another.",
-     "location": "Key question 7 (Cochrane review; \"[]\" = stripped citation number)",
+     "location": "Key question 7 (Cochrane review; '[]' marks an omitted citation number)",
      "access": "PMC full text",
      "pmid": "38621708",
      "doi": "10.1093/rheumatology/keae152",
@@ -5955,7 +5955,7 @@
     },
     {
      "quote": "Spontaneous appearance of wheals, angioedema or both for > 6 weeks",
-     "location": "Table 6 (CSU column); quoted only up to '> 6 weeks' because the next word is glued in the PMC extraction",
+     "location": "Table 6 (CSU column); quoted up to '> 6 weeks'",
      "access": "PMC full text",
      "pmid": "41649409",
      "doi": "10.1111/all.70210",
@@ -8009,8 +8009,8 @@
      "supports": "def"
     },
     {
-     "quote": "The definition and classification of chronic kidney disease (CKD) have evolved over time, but current international guidelines define this condition as decreased kidney function shown by glomerular filtration rate (GFR) of less than 60 mL/min per 1·73 m, or markers of kidney damage, or both, of at least 3 months duration, regardless of the underlying cause.",
-     "location": "Abstract (superscript \"2\" after \"m\" lost in the PubMed text)",
+     "quote": "The definition and classification of chronic kidney disease (CKD) have evolved over time, but current international guidelines define this condition as decreased kidney function shown by glomerular filtration rate (GFR) of less than 60 mL/min per 1·73 m², or markers of kidney damage, or both, of at least 3 months duration, regardless of the underlying cause.",
+     "location": "Abstract",
      "access": "abstract",
      "pmid": "27887750",
      "doi": "10.1016/S0140-6736(16)32064-5",
@@ -8156,7 +8156,7 @@
    "evidence": [
     {
      "quote": "One of the main causes of dry eye is known as 'meibomian gland dysfunction' (MGD), which causes problems in the meibomian glands (glands located in the eyelids). These glands produce an oily substance (known as meibum). Meibum is important for keeping the tears and surface of the eye healthy. In MGD, the meibomian glands become blocked and the meibum is abnormal.",
-     "location": "Plain language summary (in the PMC record)",
+     "location": "Plain language summary",
      "access": "PMC full text",
      "pmid": "32182637",
      "doi": "10.1002/14651858.CD013559",
@@ -8174,7 +8174,7 @@
     },
     {
      "quote": "In addition to the formal literature review it was felt important to highlight that SD is associated with complex eye disease [] with aqueous tear deficiency, meibomian gland dysfunction [,] and surface inflammation contributing to the symptom load.",
-     "location": "Section on ocular management (empty brackets are stripped citation markers)",
+     "location": "Section on ocular management (empty brackets mark omitted citations)",
      "access": "PMC full text",
      "pmid": "38621708",
      "doi": "10.1093/rheumatology/keae152",
@@ -8192,7 +8192,7 @@
     },
     {
      "quote": "SD is associated with complex eye disease [] with aqueous tear deficiency, meibomian gland dysfunction [,] and surface inflammation contributing to the symptom load.",
-     "location": "Eye section (\"[]\" = stripped citation markers)",
+     "location": "Eye section ('[]' marks omitted citations)",
      "access": "PMC full text",
      "pmid": "38621708",
      "doi": "10.1093/rheumatology/keae152",
@@ -8779,7 +8779,7 @@
    "evidence": [
     {
      "quote": "A review that uses explicit, systematic methods to collate and synthesise findings of studies that address a clearly formulated question",
-     "location": "Box 1 Glossary of terms, entry \"Systematic review\" (the bold term label is missing from the PMC text extraction; label as on bmj.com)",
+     "location": "Box 1 Glossary of terms, entry \"Systematic review\"",
      "access": "PMC full text",
      "pmid": "33782057",
      "doi": "10.1136/bmj.n71",
@@ -8867,7 +8867,7 @@
    "evidence": [
     {
      "quote": "The combination of quantitative results of two or more studies.",
-     "location": "Box 1 Glossary of terms, entry \"Statistical synthesis\" (label missing from the PMC text; as on bmj.com)",
+     "location": "Box 1 Glossary of terms, entry \"Statistical synthesis\"",
      "access": "PMC full text",
      "pmid": "33782057",
      "doi": "10.1136/bmj.n71",
@@ -8876,7 +8876,7 @@
     },
     {
      "quote": "A statistical technique used to synthesise results when study effect estimates and their variances are available, yielding a quantitative summary of results",
-     "location": "Box 1 Glossary of terms, entry \"Meta-analysis of effect estimates\" (label missing from the PMC text; as on bmj.com)",
+     "location": "Box 1 Glossary of terms, entry \"Meta-analysis of effect estimates\"",
      "access": "PMC full text",
      "pmid": "33782057",
      "doi": "10.1136/bmj.n71",
@@ -9541,7 +9541,7 @@
     },
     {
      "quote": "GRADE defines low quality evidence as evidence where further research is very likely to have an important influence on our confidence in the estimates, or is likely to change the estimate.",
-     "location": "Methods (PMC full text)",
+     "location": "Methods",
      "access": "PMC full text",
      "pmid": "35654458",
      "doi": "10.1136/rmdopen-2021-002167",
@@ -9599,7 +9599,7 @@
     },
     {
      "quote": "The MID provides a measure of the smallest change in an outcome measure that patients perceive as an important improvement or deterioration",
-     "location": "Introduction (sentence continues after an extraction-glued comma; not quoted further)",
+     "location": "Introduction (quoted in part; the sentence continues)",
      "access": "PMC full text",
      "pmid": "32499297",
      "doi": "10.1136/bmj.m1714",
@@ -9862,7 +9862,7 @@
    "evidence": [
     {
      "quote": "CBT focuses on changing the way someone thinks and behaves, to help them manage their symptoms better.",
-     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "location": "Plain language summary (Cochrane review)",
      "access": "PMC full text",
      "pmid": "32794606",
      "doi": "10.1002/14651858.CD007407.pub4",
@@ -9871,7 +9871,7 @@
     },
     {
      "quote": "Psychological treatments (talking and behaviour therapies) aim to help people change the way they manage pain, to minimise disability and distress.",
-     "location": "Plain language summary (PMC record of the Cochrane review)",
+     "location": "Plain language summary (Cochrane review)",
      "access": "PMC full text",
      "pmid": "32794606",
      "doi": "10.1002/14651858.CD007407.pub4",
@@ -9880,7 +9880,7 @@
     },
     {
      "quote": "Psychological therapy to identify and change thought and behavior patterns.",
-     "location": "Table 1 (Descriptions and examples of interventions), row: Cognitive behavioral therapy (PMC table page)",
+     "location": "Table 1 (Descriptions and examples of interventions), row: Cognitive behavioral therapy",
      "access": "Web page or PDF",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -10108,7 +10108,7 @@
    "evidence": [
     {
      "quote": "2020 American College of Rheumatology Guideline for the Management of Gout.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "32391934",
      "doi": "10.1002/acr.24180",
@@ -10117,7 +10117,7 @@
     },
     {
      "quote": "2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "37227071",
      "doi": "10.1002/art.42507",
@@ -10126,7 +10126,7 @@
     },
     {
      "quote": "2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "37845798",
      "doi": "10.1002/art.42646",
@@ -10323,7 +10323,7 @@
    "evidence": [
     {
      "quote": "The British Society for Rheumatology Guideline for the Management of Gout.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "28549177",
      "doi": "10.1093/rheumatology/kex156",
@@ -10332,7 +10332,7 @@
     },
     {
      "quote": "British Society for Rheumatology guideline on management of adult and juvenile onset Sjögren disease.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "38621708",
      "doi": "10.1093/rheumatology/keae152",
@@ -10341,7 +10341,7 @@
     },
     {
      "quote": "The 2026 British Society for Rheumatology guideline for the management of children, young people and adults with systemic lupus erythematosus.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "42336388",
      "doi": "10.1093/rheumatology/keag223",
@@ -10350,7 +10350,7 @@
     },
     {
      "quote": "The 2025 British Society for Rheumatology guideline for the treatment of axial spondyloarthritis with biologic and targeted synthetic DMARDs.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "40199504",
      "doi": "10.1093/rheumatology/keaf089",
@@ -10420,7 +10420,7 @@
     },
     {
      "quote": "Diagnosis and management of spondyloarthritis in the over-16s: NICE guideline.",
-     "location": "Title (PubMed record; no abstract)",
+     "location": "Title (the article has no abstract)",
      "access": "abstract",
      "pmid": "29954812",
      "doi": "10.3399/bjgp18X697865",
@@ -10503,7 +10503,7 @@
    "evidence": [
     {
      "quote": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "33239350",
      "doi": "10.1136/bjsports-2020-102955",
@@ -10658,7 +10658,7 @@
     },
     {
      "quote": "World allergy organization anaphylaxis guidance 2020.",
-     "location": "Title (PubMed record; capitalisation as indexed)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "33204386",
      "doi": "10.1016/j.waojou.2020.100472",
@@ -10762,7 +10762,7 @@
    "evidence": [
     {
      "quote": "Taiwan Rheumatology Association consensus recommendations for the management of axial spondyloarthritis.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "31777200",
      "doi": "10.1111/1756-185X.13752",
@@ -10780,7 +10780,7 @@
     },
     {
      "quote": "The Taiwan College of Rheumatology Consensus for the Management of Systemic Lupus Erythematosus.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "41546150",
      "doi": "10.1111/1756-185x.70530",
@@ -10869,7 +10869,7 @@
     },
     {
      "quote": "BSACI guideline for the management of chronic urticaria and angioedema.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "25711134",
      "doi": "10.1111/cea.12494",
@@ -10915,7 +10915,7 @@
    "evidence": [
     {
      "quote": "Prevention and treatment of glucocorticoid-induced osteoporosis in adults: recommendations from the European Calcified Tissue Society.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "39556468",
      "doi": "10.1093/ejendo/lvae146",
@@ -10991,7 +10991,7 @@
     },
     {
      "quote": "Syndrome Foundation, 6707 Democracy Boulevard, Suite 325, Bethesda, MD 20817, USA.",
-     "location": "Author affiliation (PubMed record)",
+     "location": "Author affiliation",
      "access": "abstract",
      "pmid": "27431353",
      "doi": "10.1016/j.rdc.2016.03.010",
@@ -11097,7 +11097,7 @@
     },
     {
      "quote": "expanding sarcopenia diagnosis to middle-aged adults (50‒64 years) with validated diagnostic thresholds",
-     "location": "Abstract (first of three key refinements; the dash in '50‒64' is printed as U+2012)",
+     "location": "Abstract (first of three key refinements)",
      "access": "abstract",
      "pmid": "41188603",
      "doi": "10.1038/s43587-025-01004-y",
@@ -11106,7 +11106,7 @@
     },
     {
      "quote": "sarcopenia is a muscle disease (muscle failure) rooted in adverse muscle changes that accrue across a lifetime; sarcopenia is common among adults of older age but can also occur earlier in life.",
-     "location": "Abstract (Recommendations); the PMC 'Summary and call-to-action' section has a reworded version (\"Sarcopenia, i.e. muscle failure, is a muscle disease rooted in adverse muscle changes that accrue across a lifetime; …\")",
+     "location": "Abstract (Recommendations); the 'Summary and call-to-action' section has a reworded version (\"Sarcopenia, i.e. muscle failure, is a muscle disease rooted in adverse muscle changes that accrue across a lifetime; …\")",
      "access": "abstract",
      "pmid": "30312372",
      "doi": "10.1093/ageing/afy169",
@@ -11352,7 +11352,7 @@
     },
     {
      "quote": "Transcutaneous electrostimulation, such as TENS, is a kind of pain relief typically using electrical currents applied to the skin. Transcutaneous electrostimulation machines are typically small, battery‐operated machines with 2 electrodes attached.",
-     "location": "Plain language summary, 'What is osteoarthritis and what is transcutaneous electrostimulation?' (PMC record; 'battery‐operated' is printed with U+2010)",
+     "location": "Plain language summary, 'What is osteoarthritis and what is transcutaneous electrostimulation?'",
      "access": "abstract",
      "pmid": "19821296",
      "doi": "10.1002/14651858.CD002823.pub2",
@@ -11361,7 +11361,7 @@
     },
     {
      "quote": "Usually, you connect two electrodes from the machine to your skin on the painful area.",
-     "location": "Plain language summary (PMC record)",
+     "location": "Plain language summary",
      "access": "abstract",
      "pmid": "19821296",
      "doi": "10.1002/14651858.CD002823.pub2",
@@ -11379,7 +11379,7 @@
     },
     {
      "quote": "Studies examining the use of TENS have been of low quality with small size and variable controls, making comparisons across trials difficult. Studies have demonstrated a lack of benefit for knee OA.",
-     "location": "Results (PMC text of the Arthritis Care & Research version), text under the TENS recommendation (the heading itself is not quoted because the PMC text drops 'against')",
+     "location": "Results (Arthritis Care & Research version), text under the TENS recommendation",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11434,7 +11434,7 @@
    "evidence": [
     {
      "quote": "Paraffin, an additional method of heat therapy for the hands, is conditionally recommended for patients with hand OA.",
-     "location": "Results (PMC text of the Arthritis Care & Research version), physical approaches (no dropped word in this heading)",
+     "location": "Results (Arthritis Care & Research version), physical approaches",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11452,7 +11452,7 @@
     },
     {
      "quote": "Patients in the paraffin therapy group were treated with the dip-and-wrap method of paraffin bath therapy in the hospital twice per week for 8 weeks.",
-     "location": "Methods, 'Paraffin therapy' (non-breaking space in '8 weeks' written as an ordinary space)",
+     "location": "Methods, 'Paraffin therapy'",
      "access": "PMC full text",
      "pmid": "25428566",
      "doi": "10.1186/1471-2474-15-399",
@@ -11470,7 +11470,7 @@
     },
     {
      "quote": "Patients dipped their affected hands into the paraffin wax. Next, they waited for the paraffin wax to harden and then dipped their hands again into the paraffin wax. This step was repeated 5 times. When the last paraffin layer hardened, it was covered with plastic wrap and a towel. After 20 minutes of heating, the paraffin was removed",
-     "location": "Methods, 'Paraffin therapy' (non-breaking space in '20 minutes' written as an ordinary space; citation brackets follow 'removed' in the source)",
+     "location": "Methods, 'Paraffin therapy'",
      "access": "PMC full text",
      "pmid": "25428566",
      "doi": "10.1186/1471-2474-15-399",
@@ -11564,7 +11564,7 @@
    "evidence": [
     {
      "quote": "Braces and orthoses are devices that you wear to support your knee joint. Orthoses are insoles that fit comfortably inside your shoes.",
-     "location": "Plain language summary, 'Background: What is osteoarthritis and what are braces and orthoses?' (PMC record)",
+     "location": "Plain language summary, 'Background: What is osteoarthritis and what are braces and orthoses?'",
      "access": "abstract",
      "pmid": "25773267",
      "doi": "10.1002/14651858.CD004020.pub3",
@@ -11600,7 +11600,7 @@
     },
     {
      "quote": "Rodrigues and colleagues compared a medial-wedge insole with a neutral insole among patients with lateral knee OA. … The biomechanical goal of the intervention was to shift loading to the medial knee compartment.",
-     "location": "Commentary text (consecutive sentences; the PMC text prints 'OA.The' because a citation was removed between them)",
+     "location": "Commentary text (consecutive sentences; '…' replaces a citation)",
      "access": "PMC full text",
      "pmid": "18852715",
      "doi": "10.1038/ncprheum0926",
@@ -11618,7 +11618,7 @@
     },
     {
      "quote": "Moderate‐quality evidence shows lack of an effect on improvement in pain, stiffness and function between patients treated with a laterally wedged insole and those treated with a neutral insole.",
-     "location": "Abstract (Authors' conclusions; PMC record prints 'Moderate‐quality' with U+2010)",
+     "location": "Abstract (Authors' conclusions)",
      "access": "abstract",
      "pmid": "25773267",
      "doi": "10.1002/14651858.CD004020.pub3",
@@ -11636,7 +11636,7 @@
     },
     {
      "quote": "The currently available literature does not demonstrate clear efficacy of lateral or medial wedged insoles.",
-     "location": "Results (PMC text of the Arthritis Care & Research version), text under the wedged-insole recommendation (heading not quoted: the PMC text drops 'against')",
+     "location": "Results (Arthritis Care & Research version), text under the wedged-insole recommendation",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11703,7 +11703,7 @@
     },
     {
      "quote": "Glucosamine can be found naturally in the body and is used by the body as one of the building blocks of cartilage.",
-     "location": "Plain language summary, 'What is osteoarthritis and glucosamine?' (PMC record)",
+     "location": "Plain language summary, 'What is osteoarthritis and glucosamine?'",
      "access": "abstract",
      "pmid": "15846645",
      "doi": "10.1002/14651858.CD002946.pub2",
@@ -11712,7 +11712,7 @@
     },
     {
      "quote": "Glucosamine can also be taken as a pill as a supplement to the diet, or sometimes as an injection.",
-     "location": "Plain language summary (PMC record)",
+     "location": "Plain language summary",
      "access": "abstract",
      "pmid": "15846645",
      "doi": "10.1002/14651858.CD002946.pub2",
@@ -11721,7 +11721,7 @@
     },
     {
      "quote": "Nonetheless, glucosamine remains among the most commonly used dietary supplements in the US",
-     "location": "Results (PMC text of the Arthritis Care & Research version), pharmacologic approaches, text under the glucosamine recommendation (citation brackets follow 'US')",
+     "location": "Results (Arthritis Care & Research version), pharmacologic approaches, text under the glucosamine recommendation",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11730,7 +11730,7 @@
     },
     {
      "quote": "The data that were deemed to have the lowest risk of bias fail to show any important benefits over placebo. … The weight of the evidence indicates a lack of efficacy and large placebo effects.",
-     "location": "Results (PMC text of the Arthritis Care & Research version), text under the glucosamine recommendation (heading not quoted: the PMC text drops 'against')",
+     "location": "Results (Arthritis Care & Research version), text under the glucosamine recommendation",
      "access": "PMC full text",
      "pmid": "31908149",
      "doi": "10.1002/acr.24131",
@@ -11822,7 +11822,7 @@
     },
     {
      "quote": "Balance exercises challenge aspects of balance",
-     "location": "Table 2, Recommendation 1.1, remark (the PMC text drops the list of examples that follows 'such as:')",
+     "location": "Table 2, Recommendation 1.1, remark (quoted in part)",
      "access": "PMC full text",
      "pmid": "37816527",
      "doi": "10.1503/cmaj.221647",
@@ -11953,7 +11953,7 @@
    "evidence": [
     {
      "quote": "Areal BMD by DXA is expressed in absolute terms of grams of mineral per square centimeter scanned",
-     "location": "Section \"Bone mineral density (BMD) measurement and classification\" (sentence continues with \"(g/cm)\", whose superscript was lost in extraction; quote stops before it)",
+     "location": "Section \"Bone mineral density (BMD) measurement and classification\" (quoted in part; the sentence continues with the unit)",
      "access": "PMC full text",
      "pmid": "35478046",
      "doi": "10.1007/s00198-021-05900-y",
@@ -11962,7 +11962,7 @@
     },
     {
      "quote": "By DXA, BMD is expressed as the amount of mineralized tissue in the area scanned",
-     "location": "Glossary, entry on bone mineral density (term labels are not present in the PMC extraction; entry identified by its content)",
+     "location": "Glossary, entry on bone mineral density",
      "access": "PMC full text",
      "pmid": "35478046",
      "doi": "10.1007/s00198-021-05900-y",
@@ -12093,7 +12093,7 @@
    "evidence": [
     {
      "quote": "In adults, approximately one in two women and one in five men will sustain one or more fragility fractures (a low trauma fracture sustained from a fall from standing height or less) in their lifetime",
-     "location": "Section \"Background\" (followed by a stripped citation \"[]\")",
+     "location": "Section \"Background\"",
      "access": "PMC full text",
      "pmid": "40921943",
      "doi": "10.1007/s11657-025-01588-3",
@@ -12178,7 +12178,7 @@
    "evidence": [
     {
      "quote": "For osteoporotic fractures, risk factors include low BMD, parental history of hip fracture, low body weight, previous fracture, smoking, excess alcohol intake, glucocorticoid use, secondary causes of osteoporosis (e.g., rheumatoid arthritis), and history of falls. These readily accessible and commonplace factors are associated with the risk of hip fracture and, in most cases, with that of vertebral and other types of fracture as well.",
-     "location": "Glossary, entry on risk factors (term labels are not present in the PMC extraction; entry identified by its content)",
+     "location": "Glossary, entry on risk factors",
      "access": "PMC full text",
      "pmid": "35478046",
      "doi": "10.1007/s00198-021-05900-y",
@@ -12266,7 +12266,7 @@
    "evidence": [
     {
      "quote": "Breakage of a bone, either complete or incomplete whether from trauma, repetitive stress, or bone insufficiency.",
-     "location": "Glossary, entry on fracture (term labels are not present in the PMC extraction; entry identified by its content)",
+     "location": "Glossary, entry on fracture",
      "access": "PMC full text",
      "pmid": "35478046",
      "doi": "10.1007/s00198-021-05900-y",
@@ -12329,7 +12329,7 @@
     },
     {
      "quote": "Vertebral fractures can cause acute and chronic pain, height loss, spinal deformity and altered body shape, functional impairment, and reduced health-related quality of life",
-     "location": "Section \"Management of symptomatic osteoporotic vertebral fractures\" (followed by a stripped citation and \"(Evidence level Ia)\")",
+     "location": "Section \"Management of symptomatic osteoporotic vertebral fractures\" (in the source, the sentence is followed by \"(Evidence level Ia)\")",
      "access": "PMC full text",
      "pmid": "40921943",
      "doi": "10.1007/s11657-025-01588-3",
@@ -12442,7 +12442,7 @@
     },
     {
      "quote": "Also called bone turnover, remodeling is the process by which the skeleton repairs damage and maintains serum calcium levels through the ongoing lifelong dual processes of bone resorption (breakdown) and formation.",
-     "location": "Glossary, entry on remodeling (term labels are not present in the PMC extraction; the sentence names its own term)",
+     "location": "Glossary, entry on remodeling",
      "access": "PMC full text",
      "pmid": "35478046",
      "doi": "10.1007/s00198-021-05900-y",
@@ -12555,7 +12555,7 @@
     },
     {
      "quote": "Denosumab is given as a subcutaneous injection of 60 mg once every 6 months.",
-     "location": "Section \"Anti-resorptive drugs: denosumab\" (non-breaking spaces as in source; the explanation gives no dose)",
+     "location": "Section \"Anti-resorptive drugs: denosumab\" (the explanation gives no dose)",
      "access": "PMC full text",
      "pmid": "40921943",
      "doi": "10.1007/s11657-025-01588-3",
@@ -12609,7 +12609,7 @@
     },
     {
      "quote": "Although the advent of denosumab has been a major advance in the treatment of osteoporosis, its discontinuation, or even delaying the injection by more than four months can be associated with rebound bone resorption and vertebral fractures",
-     "location": "Section \"Transition of bone protective agents\" (followed by stripped citations \".,\")",
+     "location": "Section \"Transition of bone protective agents\"",
      "access": "PMC full text",
      "pmid": "40134107",
      "doi": "10.5694/mja2.52637",
@@ -12837,7 +12837,7 @@
     },
     {
      "quote": "The indirect immunofluorescence assay (IIFA) on HEp-2 cells is widely used for detection of antinuclear antibodies (ANA).",
-     "location": "Abstract, first sentence (identical in PubMed abstract and PMC text)",
+     "location": "Abstract, first sentence",
      "access": "abstract",
      "pmid": "30862649",
      "doi": "10.1136/annrheumdis-2018-214436",
@@ -13225,7 +13225,7 @@
     },
     {
      "quote": "Anti-CCP antibodies are more specific than RF for diagnosing rheumatoid arthritis",
-     "location": "Abstract (Conclusion; quoted up to the point before the glued word 'erosivedisease')",
+     "location": "Abstract (Conclusion; quoted in part)",
      "access": "abstract",
      "pmid": "17548411",
      "doi": "10.7326/0003-4819-146-11-200706050-00008",
@@ -13534,7 +13534,7 @@
     },
     {
      "quote": "The 2019 EULAR/ACR classification criteria for SLE include positive ANA at least once as obligatory entry criterion; followed by additive weighted criteria grouped in 7 clinical (constitutional, hematologic, neuropsychiatric, mucocutaneous, serosal, musculoskeletal, renal) and 3 immunological (antiphospholipid antibodies, complement proteins, SLE-specific antibodies) domains, and weighted from 2 to 10. Patients accumulating ≥10 points are classified.",
-     "location": "Abstract (Results; PMC author-manuscript version)",
+     "location": "Abstract (Results; author manuscript)",
      "access": "PMC full text",
      "pmid": "31385462",
      "doi": "10.1002/art.40930",
@@ -13776,7 +13776,7 @@
     },
     {
      "quote": "There was consensus agreement that the label 'gout' should be restricted to current or prior clinically evident disease caused by monosodium urate crystal deposition (gout flare, chronic gouty arthritis or subcutaneous tophus).",
-     "location": "Abstract (Results; PubMed version)",
+     "location": "Abstract (Results)",
      "access": "abstract",
      "pmid": "31501138",
      "doi": "10.1136/annrheumdis-2019-215933",
@@ -13858,7 +13858,7 @@
    "evidence": [
     {
      "quote": "Latent tuberculosis infection (LTBI) is characterised by the presence of immune responses to previously acquired Mycobacterium tuberculosis infection without clinical evidence of active tuberculosis (TB).",
-     "location": "Abstract (PubMed; the PMC copy drops the italic organism name)",
+     "location": "Abstract",
      "access": "abstract",
      "pmid": "26405286",
      "doi": "10.1183/13993003.01245-2015",
@@ -13867,7 +13867,7 @@
     },
     {
      "quote": "The vast majority of infected persons have no signs or symptoms of TB disease and are not infectious, but they are at risk for developing active TB disease and becoming infectious [].",
-     "location": "Introduction, first paragraph ('[]' = stripped citation)",
+     "location": "Introduction, first paragraph ('[]' marks an omitted citation)",
      "access": "PMC full text",
      "pmid": "26405286",
      "doi": "10.1183/13993003.01245-2015",
@@ -13903,7 +13903,7 @@
     },
     {
      "quote": "Individuals infected with Mycobacterium tuberculosis (Mtb) may develop symptoms and signs of disease (tuberculosis disease) or may have no clinical evidence of disease (latent tuberculosis infection [LTBI]).",
-     "location": "Abstract (background); the same sentence opens the PMC executive summary, where the organism name is dropped",
+     "location": "Abstract (background); the same sentence opens the executive summary",
      "access": "abstract",
      "pmid": "28052967",
      "doi": "10.1093/cid/ciw778",
@@ -13921,7 +13921,7 @@
     },
     {
      "quote": "Treatment of LTBI is effective in preventing progression to TB disease ().",
-     "location": "Introduction ('()' = stripped citation)",
+     "location": "Introduction ('()' marks an omitted citation)",
      "access": "PMC full text",
      "pmid": "32053584",
      "doi": "10.15585/mmwr.rr6901a1",
@@ -14007,7 +14007,7 @@
     },
     {
      "quote": "They represent indirect markers of Mycobacterium tuberculosis exposure and indicate a cellular immune response to M. tuberculosis.",
-     "location": "Abstract (PubMed; 'They' = the TST and the IGRA; the PMC copy drops the italic organism names)",
+     "location": "Abstract ('They' = the TST and the IGRA)",
      "access": "abstract",
      "pmid": "24396134",
      "doi": "10.1128/CMR.00034-13",
@@ -14016,7 +14016,7 @@
     },
     {
      "quote": "Neither test can accurately differentiate between LTBI and active TB, distinguish reactivation from reinfection, or resolve the various stages within the spectrum of M. tuberculosis infection.",
-     "location": "Abstract (PubMed)",
+     "location": "Abstract",
      "access": "abstract",
      "pmid": "24396134",
      "doi": "10.1128/CMR.00034-13",
@@ -14025,7 +14025,7 @@
     },
     {
      "quote": "Both TST and IGRA have reduced sensitivity in immunocompromised patients and have low predictive value for progression to active TB.",
-     "location": "Abstract (PubMed)",
+     "location": "Abstract",
      "access": "abstract",
      "pmid": "24396134",
      "doi": "10.1128/CMR.00034-13",
@@ -14061,7 +14061,7 @@
     },
     {
      "quote": "Interferon gamma release assay should be preferred over tuberculin skin test, where available.",
-     "location": "Abstract (PubMed)",
+     "location": "Abstract",
      "access": "abstract",
      "pmid": "36328476",
      "doi": "10.1136/ard-2022-223335",
@@ -14160,7 +14160,7 @@
     },
     {
      "quote": "The three main serologic markers used to determine HBV infection status are hepatitis B surface antigen (HBsAg), antibody to hepatitis B surface antigen (anti-HBs), and antibody to hepatitis B core antigen (anti-HBc) ().",
-     "location": "'Interpretation of Screening Tests' ('()' = stripped citation)",
+     "location": "'Interpretation of Screening Tests' ('()' marks an omitted citation)",
      "access": "PMC full text",
      "pmid": "36893044",
      "doi": "10.15585/mmwr.rr7201a1",
@@ -14223,7 +14223,7 @@
     },
     {
      "quote": "Resolved infection / Negative / Positive / Positive / Negative / Counsel about HBV infection reactivation risk",
-     "location": "Table 1 'Interpretation of screening test results for hepatitis B virus infection and recommended actions'; columns: Clinical state / HBsAg / Anti-HBs / Total anti-HBc / IgM anti-HBc / Action ('/' marks cell breaks in the extracted table)",
+     "location": "Table 1 'Interpretation of screening test results for hepatitis B virus infection and recommended actions'; columns: Clinical state / HBsAg / Anti-HBs / Total anti-HBc / IgM anti-HBc / Action ('/' marks cell breaks)",
      "access": "PMC full text",
      "pmid": "36893044",
      "doi": "10.15585/mmwr.rr7201a1",
@@ -14277,7 +14277,7 @@
     },
     {
      "quote": "The presence of anti-HBs does not prevent HBV reactivation, but anti-HBs may be useful for detecting prior infection in HBsAg negative, anti-HBc positive patients, and in surveillance as the loss of anti-HBs may be a predictor of HBV reactivation (–).",
-     "location": "Section 6D.2 'Screening Recommendations in the Setting of Immunosuppressive or Cytotoxic Drugs' ('(–)' = stripped citations)",
+     "location": "Section 6D.2 'Screening Recommendations in the Setting of Immunosuppressive or Cytotoxic Drugs' ('(–)' marks omitted citations)",
      "access": "PMC full text",
      "pmid": "29405329",
      "doi": "10.1002/hep.29800",
@@ -14374,7 +14374,7 @@
     },
     {
      "quote": "The criteria for HBV reactivation (–) include the following: (i) a rise in HBV DNA compared to baseline (or an absolute level of HBV DNA when a baseline is unavailable) and (ii) reverse seroconversion (seroreversion) from HBsAg negative to HBsAg positive for HBsAg-negative and anti-HBc–positive patients.",
-     "location": "Section 6D.1 ('(–)' = stripped citations)",
+     "location": "Section 6D.1 ('(–)' marks omitted citations)",
      "access": "PMC full text",
      "pmid": "29405329",
      "doi": "10.1002/hep.29800",
@@ -14419,7 +14419,7 @@
     },
     {
      "quote": "The immune response to the markedly enhanced hepatic expression of HBV antigen leads to liver injury, manifested as hepatitis, icteric hepatitis and fulminant acute-on-chronic hepatic failure",
-     "location": "'Immunopathogenesis of hepatitis due to HBV reactivation' (sentence ends with a figure reference whose number was dropped in extraction; quoted up to 'failure')",
+     "location": "'Immunopathogenesis of hepatitis due to HBV reactivation' (quoted up to 'failure'; the sentence ends with a figure reference)",
      "access": "PMC full text",
      "pmid": "34427860",
      "doi": "10.1007/s12072-021-10239-x",
@@ -14594,7 +14594,7 @@
     },
     {
      "quote": "Prior studies have shown that adrenal insufficiency may last even up to 2-4 years after glucocorticoid cessation, owing to slow recovery of adrenal cortisol production (,,).",
-     "location": "Rationale for R 2.11 ('(,,)' = stripped citations)",
+     "location": "Rationale for R 2.11 ('(,,)' marks omitted citations)",
      "access": "PMC full text",
      "pmid": "38724043",
      "doi": "10.1210/clinem/dgae250",
@@ -14648,7 +14648,7 @@
     },
     {
      "quote": "In patients with suspected reduced absorption (persistent vomiting or diarrhea), nil by mouth, or unable to take tablets, give stress-dose glucocorticoids I.V. or I.M.",
-     "location": "Table 8 (stress dosing), one cell; in the PMC extraction the cell boundaries run into the neighbouring cells, but the quoted words are intact (the explanation gives none of the table's doses)",
+     "location": "Table 8 (stress dosing), one cell (the explanation gives none of the table's doses)",
      "access": "PMC full text",
      "pmid": "38724043",
      "doi": "10.1210/clinem/dgae250",
@@ -14748,7 +14748,7 @@
     },
     {
      "quote": "However, prophylaxis in patients with various AIIRD receiving prednisolone more than 15–30 mg/day for more than 2–4 weeks, has been found to reduce episodes of PCP and associated mortality().",
-     "location": "Results, 'Pneumocystis jirovecii' ('()' = stripped citation; the explanation gives no doses)",
+     "location": "Results, 'Pneumocystis jirovecii' ('()' marks an omitted citation; the explanation gives no doses)",
      "access": "PMC full text",
      "pmid": "36323488",
      "doi": "10.1136/rmdopen-2022-002726",
@@ -14980,7 +14980,7 @@
    "evidence": [
     {
      "quote": "Listeria monocytogenes is a Gram-positive facultative intracellular pathogen that can cause severe invasive infections upon ingestion with contaminated food.",
-     "location": "Abstract (PubMed; the PMC copy drops the italic organism name)",
+     "location": "Abstract",
      "access": "abstract",
      "pmid": "36475874",
      "doi": "10.1128/cmr.00060-19",
@@ -15043,7 +15043,7 @@
     },
     {
      "quote": "Host factors that lead to increased susceptibility to foodborne infection and increased severity of illness. / Treatment with corticosteroids / Treatment with inhibitors of tumour necrosis factor e.g. for rheumatoid arthritis, Crohn’s disease",
-     "location": "Table 4 (title, then two of its rows under 'Secondary immune deficiencies'; '/' marks line breaks in the extracted table)",
+     "location": "Table 4 (title, then two of its rows under 'Secondary immune deficiencies'; '/' marks line breaks)",
      "access": "PMC full text",
      "pmid": "26308030",
      "doi": "10.3390/ijerph120810117",
@@ -15125,7 +15125,7 @@
     },
     {
      "quote": "The 2024 UK clinical guideline for the prevention and treatment of osteoporosis.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "40921943",
      "doi": "10.1007/s11657-025-01588-3",
@@ -15195,7 +15195,7 @@
     },
     {
      "quote": "In October 2021, the National Osteoporosis Foundation (NOF) changed its name to the Bone Health and Osteoporosis Foundation (BHOF) to reflect the Foundation’s dual focus on preventing osteoporosis and fracture in addition to osteoporosis diagnosis and treatment across the lifespan.",
-     "location": "Glossary of terms (the entry heading is missing from the PMC extraction)",
+     "location": "Glossary of terms",
      "access": "PMC full text",
      "pmid": "35478046",
      "doi": "10.1007/s00198-021-05900-y",
@@ -15204,7 +15204,7 @@
     },
     {
      "quote": "Bone Health & Osteoporosis Foundation, 251 18th Street S, Suite 630, Arlington, VA, 22202, USA.",
-     "location": "Author affiliation (PubMed record)",
+     "location": "Author affiliation",
      "access": "abstract",
      "pmid": "40498227",
      "doi": "10.1007/s11657-025-01557-w",
@@ -15247,7 +15247,7 @@
    "evidence": [
     {
      "quote": "a consensus paper from The European Society for Clinical and Economic Aspects of Osteoporosis, Osteoarthritis and Musculoskeletal Diseases (ESCEO), International Osteoporosis Foundation (IOF)",
-     "location": "Title (PubMed record; consensus paper from ESCEO, IOF and IFCC)",
+     "location": "Title (consensus paper from ESCEO, IOF and IFCC)",
      "access": "abstract",
      "pmid": "40152990",
      "doi": "10.1007/s00198-025-07422-3",
@@ -15265,7 +15265,7 @@
     },
     {
      "quote": "European guidance for the diagnosis and management of osteoporosis in postmenopausal women.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "30324412",
      "doi": "10.1007/s00198-018-4704-5",
@@ -15329,7 +15329,7 @@
    "evidence": [
     {
      "quote": "Choosing wisely: the Canadian Rheumatology Association's list of 5 items physicians and patients should question.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "25641889",
      "doi": "10.3899/jrheum.141140",
@@ -15483,7 +15483,7 @@
     },
     {
      "quote": "Clinical relevance of HEp-2 indirect immunofluorescent patterns: the International Consensus on ANA patterns (ICAP) perspective.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "30862649",
      "doi": "10.1136/annrheumdis-2018-214436",
@@ -15553,7 +15553,7 @@
     },
     {
      "quote": "International recommendations for the assessment of autoantibodies to cellular antigens referred to as anti-nuclear antibodies.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "24126457",
      "doi": "10.1136/annrheumdis-2013-203863",
@@ -15562,7 +15562,7 @@
     },
     {
      "quote": "Accreditation in autoimmune diagnostic laboratories. A position paper of the European Autoimmunity Standardisation Initiative (EASI).",
-     "location": "Title (PubMed record; EASI position paper)",
+     "location": "Title (EASI position paper)",
      "access": "abstract",
      "pmid": "27666814",
      "doi": "10.1016/j.autrev.2016.09.021",
@@ -15632,7 +15632,7 @@
    "evidence": [
     {
      "quote": "The Gout, Hyperuricemia and Crystal-Associated Disease Network (G-CAN) is an international, multidisciplinary network for collaborative research, committed to advancing all aspects of the crystal deposition-associated disorders.",
-     "location": "Introduction (PMC version)",
+     "location": "Introduction",
      "access": "PMC full text",
      "pmid": "31501138",
      "doi": "10.1136/annrheumdis-2019-215933",
@@ -15641,7 +15641,7 @@
     },
     {
      "quote": "Gout, Hyperuricaemia and Crystal-Associated Disease Network (G-CAN) consensus statement regarding labels and definitions of disease states of gout.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "31501138",
      "doi": "10.1136/annrheumdis-2019-215933",
@@ -15650,7 +15650,7 @@
     },
     {
      "quote": "Gout, Hyperuricemia, and Crystal-Associated Disease Network Consensus Statement Regarding Labels and Definitions for Disease Elements in Gout.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "29799677",
      "doi": "10.1002/acr.23607",
@@ -15717,7 +15717,7 @@
    "evidence": [
     {
      "quote": "Acute-on-chronic liver failure: consensus recommendations of the Asian Pacific Association for the Study of the Liver (APASL) 2014.",
-     "location": "Title (PubMed record; APASL consensus)",
+     "location": "Title (APASL consensus)",
      "access": "abstract",
      "pmid": "26202751",
      "doi": "10.1007/s12072-014-9580-2",
@@ -15735,7 +15735,7 @@
     },
     {
      "quote": "APASL clinical practice guideline on hepatitis B reactivation related to the use of immunosuppressive therapy.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "34427860",
      "doi": "10.1007/s12072-021-10239-x",
@@ -15811,7 +15811,7 @@
     },
     {
      "quote": "Executive summary of the 2022 Practice Guidance on Wilson disease from the American Association for the Study of Liver Diseases.",
-     "location": "Title (PubMed record; AASLD practice guidance)",
+     "location": "Title (AASLD practice guidance)",
      "access": "abstract",
      "pmid": "36152019",
      "doi": "10.1002/hep.32805",
@@ -15820,7 +15820,7 @@
     },
     {
      "quote": "Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance.",
-     "location": "Title (PubMed record; no abstract)",
+     "location": "Title (the article has no abstract)",
      "access": "abstract",
      "pmid": "29405329",
      "doi": "10.1002/hep.29800",
@@ -15896,7 +15896,7 @@
    "evidence": [
     {
      "quote": "European Society of Endocrinology and Endocrine Society Joint Clinical Guideline: Diagnosis and Therapy of Glucocorticoid-induced Adrenal Insufficiency.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "38724043",
      "doi": "10.1210/clinem/dgae250",
@@ -15923,7 +15923,7 @@
     },
     {
      "quote": "Endocrine Society, Washington, DC 20036, USA.",
-     "location": "Author affiliation (PubMed record of an Endocrine Society guideline communication)",
+     "location": "Author affiliation (Endocrine Society guideline communication)",
      "access": "abstract",
      "pmid": "38828961",
      "doi": "10.1210/clinem/dgae322",
@@ -15932,7 +15932,7 @@
     },
     {
      "quote": "European Society of Endocrinology, Bristol BS32 4QW, UK.",
-     "location": "Author affiliation (PubMed record)",
+     "location": "Author affiliation",
      "access": "abstract",
      "pmid": "38724043",
      "doi": "10.1210/clinem/dgae250",
@@ -15978,7 +15978,7 @@
     },
     {
      "quote": "Recommendations and guidance for herpes zoster vaccination for adults in Taiwan.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "38987064",
      "doi": "10.1016/j.jmii.2024.06.001",
@@ -16033,7 +16033,7 @@
     },
     {
      "quote": "Evidence to Practice Division, Agency for Care Effectiveness, Ministry of Health, Singapore.",
-     "location": "Author affiliation (PubMed record)",
+     "location": "Author affiliation",
      "access": "abstract",
      "pmid": "42054041",
      "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
@@ -16042,7 +16042,7 @@
     },
     {
      "quote": "Evidence-to-Recommendation Framework for 2026 ACE Clinical Guideline on the management of knee osteoarthritis - a joint effort with patients.",
-     "location": "Title (PubMed record)",
+     "location": "Title",
      "access": "abstract",
      "pmid": "42054041",
      "doi": "10.4103/SINGAPOREMEDJ.SMJ-2026-139",
@@ -16284,7 +16284,7 @@
     },
     {
      "quote": "PA: Protection Grade of UVA; UVA: ultraviolet A PA Grade Level of UVA Protection PA+ Some UVA protection PA++ Moderate UVA protection PA+++ High UVA protection PA++++ Very high UVA protection",
-     "location": "Table 1 (PA Rating System for UVA Protection); table cells read in order, whitespace normalised",
+     "location": "Table 1 (PA Rating System for UVA Protection); cells in reading order",
      "access": "PMC full text",
      "pmid": "41869094",
      "doi": "10.7759/cureus.103757",

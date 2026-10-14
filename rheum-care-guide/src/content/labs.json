@@ -88,7 +88,7 @@
        "s": "S6",
        "quote": "These alternative platforms differ in their antigen profiles, sensitivity and specificity, raising uncertainties regarding standardisation and interpretation of incongruent results.",
        "strength": "International consensus recommendations (abstract)",
-       "confidence": "Medium (abstract only)"
+       "confidence": "Medium (quoted from the abstract)"
       },
       {
        "c": "C20",
@@ -420,8 +420,8 @@
       {
        "c": "C52",
        "s": "S34",
-       "quote": "\"The diagnosis of gout should not be made on the presence of hyperuric a emia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
-       "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source)",
+       "quote": "\"The diagnosis of gout should not be made on the presence of hyperuricaemia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
+       "strength": "Recommendation 4 (LoE, GoR and LoA are given in Table 1 of the source)",
        "confidence": "High"
       },
       {
@@ -513,7 +513,7 @@
        "c": "C48",
        "s": "S33",
        "quote": "Initiating ULT is conditionally recommended against in patients with asymptomatic hyperuricemia.",
-       "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction as in the co-published version; the PMC text of S32 drops 'against'.",
+       "strength": "Conditional (against); certainty of evidence High (S33 Table 1).",
        "confidence": "High"
       },
       {
@@ -541,8 +541,8 @@
        "c": "C72",
        "s": "S44",
        "quote": "Finally, lifestyle modification is a cornerstone in the management of hyperuricemia and gout, and relevant patient education regarding diet and exercise should be espoused when treating these patients.",
-       "strength": "Consensus document text (Discussion; not a numbered statement; PMC10345000)",
-       "confidence": "High (PMC full text)"
+       "strength": "Consensus document text (Discussion; not a numbered statement)",
+       "confidence": "High"
       }
      ],
      "sid": "LB-6.2"
@@ -659,8 +659,8 @@
     {
      "c": "C52",
      "s": "S34",
-     "quote": "\"The diagnosis of gout should not be made on the presence of hyperuric a emia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
-     "strength": "Recommendation 4; LoE/SoR/LoA not found in accessible text (spacing 'hyperuric a emia' as in the source)",
+     "quote": "\"The diagnosis of gout should not be made on the presence of hyperuricaemia alone.\" … \"Therefore, hyperuricaemia alone should be considered solely as a strong risk factor for incident gout\" \"and not as a surrogate marker for its diagnosis.\"",
+     "strength": "Recommendation 4 (LoE, GoR and LoA are given in Table 1 of the source)",
      "confidence": "High"
     },
     {
@@ -696,7 +696,7 @@
      "c": "C48",
      "s": "S33",
      "quote": "Initiating ULT is conditionally recommended against in patients with asymptomatic hyperuricemia.",
-     "strength": "Conditional (against); certainty of evidence High (S33 Table 1). Direction as in the co-published version; the PMC text of S32 drops 'against'.",
+     "strength": "Conditional (against); certainty of evidence High (S33 Table 1).",
      "confidence": "High"
     },
     {
@@ -740,7 +740,7 @@
      "c": "C45",
      "s": "S28",
      "quote": "\"Patients presenting with arthritis (any joint swelling, associated with pain or stiffness)\" \"should be referred to, and seen by, a rheumatologist, within 6 weeks after the onset of symptoms.\" … \"The strength of this recommendation was considered 'good' (category B) (table 1).\"",
-     "strength": "Recommendation 1; strength of recommendation B ('good'); level of evidence not found in accessible text",
+     "strength": "Recommendation 1; strength of recommendation B ('good'); Table 1 of the source also gives the level of evidence",
      "confidence": "High"
     },
     {

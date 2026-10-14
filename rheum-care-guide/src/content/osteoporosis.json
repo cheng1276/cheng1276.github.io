@@ -138,7 +138,7 @@
        "c": "C9",
        "s": "S3",
        "quote": "Recommend a diet with adequate total calcium intake (1000 mg/day for men aged 50–70 years; 1200 mg/day for women ≥ 51 years and men ≥ 71 years), incorporating calcium supplements if intake is insufficient.",
-       "strength": "Synopsis; not graded in accessible text",
+       "strength": "Synopsis (the guide does not grade its recommendations)",
        "confidence": "High"
       },
       {
@@ -222,7 +222,7 @@
        "c": "C22",
        "s": "S8",
        "quote": "For nonpregnant people older than 50 years for whom vitamin D is indicated, the panel suggests supplementation via daily administration of vitamin D, rather than intermittent use of high doses.",
-       "strength": "\"suggests\" (conditional, GRADE); abstract only",
+       "strength": "\"suggests\" (conditional, GRADE); quoted from the abstract",
        "confidence": "Medium"
       },
       {
@@ -335,7 +335,7 @@
        "c": "C45",
        "s": "S21",
        "quote": "Activities that involved spinal flexion (certain yoga moves and sit-ups) were associated with a greater risk of vertebral fractures but these events were rare.",
-       "strength": "Systematic review, abstract only; source of the sit-up example",
+       "strength": "Systematic review (quoted from the abstract); source of the sit-up example",
        "confidence": "Medium"
       }
      ],
@@ -413,7 +413,7 @@
        "c": "C45",
        "s": "S21",
        "quote": "Activities that involved spinal flexion (certain yoga moves and sit-ups) were associated with a greater risk of vertebral fractures but these events were rare.",
-       "strength": "Systematic review, abstract only; source of the examples",
+       "strength": "Systematic review (quoted from the abstract); source of the examples",
        "confidence": "Medium"
       }
      ],
@@ -555,7 +555,7 @@
        "c": "C60",
        "s": "S11",
        "quote": "Evidence from randomised controlled trials and prospective studies indicates cataract surgery for the first eye, [] and both eyes [] and achieving optimal safe functional vision by active older adults avoiding the wearing of multifocal glasses when outside [] are effective fall prevention strategies.",
-       "strength": "Narrative; the recommendation \"Management of impaired vision should be considered as part of the multifactorial approach\" has no grade in the accessible text",
+       "strength": "Narrative supporting the recommendation \"Management of impaired vision should be considered as part of the multifactorial approach\"",
        "confidence": "High"
       },
       {
@@ -942,7 +942,7 @@
      "c": "M5",
      "s": "S21",
      "quote": "Patients with osteoporosis/osteopenia can safely participate in structured exercise programmes, whether at home or in supervised facilities.",
-     "strength": "Systematic review, abstract only",
+     "strength": "Systematic review (quoted from the abstract)",
      "confidence": "Medium"
     },
     {
@@ -971,8 +971,8 @@
     {
      "c": "C83",
      "s": "S1",
-     "quote": "Vertebral fracture assessment (VFA) is indicated in postmenopausal women and men age ≥ 50 years if there is a history of ≥ 4 cm height loss, kyphosis, recent or current long-term oral glucocorticoid therapy, a BMD-score ≤  − 2.5 at either the spine or hip, or in cases of acute onset back pain with risk factors for osteoporosis (Strong recommendation).",
-     "strength": "Strong. \"BMD-score\" is as in the PMC text, where the letter T of \"T-score\" is missing throughout",
+     "quote": "Vertebral fracture assessment (VFA) is indicated in postmenopausal women and men age ≥ 50 years if there is a history of ≥ 4 cm height loss, kyphosis, recent or current long-term oral glucocorticoid therapy, a BMD T-score ≤  − 2.5 at either the spine or hip, or in cases of acute onset back pain with risk factors for osteoporosis (Strong recommendation).",
+     "strength": "Strong",
      "confidence": "High"
     }
    ],

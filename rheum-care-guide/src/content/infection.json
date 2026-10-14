@@ -293,7 +293,7 @@
        "c": "C31",
        "s": "S8",
        "quote": "All patients planned to receive immunosuppressive therapy should be screened. … Screening should include HBsAg, anti-HBs and anti-HBc.",
-       "strength": "GRADE grade not in accessible text",
+       "strength": "Recommendations 2 and 3.1 (APASL grades its recommendations with GRADE; the grades are not reproduced here)",
        "confidence": "High"
       },
       {
@@ -321,7 +321,7 @@
        "c": "C72",
        "s": "S8",
        "quote": "Steroid (high dose) ≥ 20 mg/day for ≥ 4 weeks … Steroid (median dose): 10–20 mg/day for ≥ 4 weeks … Steroid (low dose < 10 mg/day) … Steroid (high dose) ≥ 20 mg/day",
-       "strength": "APASL Table 4, 'Risk stratification of HBV reactivation among HBsAg-positive patients and HBsAg-negative/anti-HBc-positive patients' (risk table; GRADE grade not shown; PMC8382940). In order: High (>10%), HBsAg(+) column; Moderate (1–10%), HBsAg(+); Low (<1%), HBsAg(+); Low (<1%), HBsAg(−)/anti-HBc(+) column. The table is flattened in the PMC text; in the anti-HBc(+) column each item is the HBsAg(+) entry one risk level higher. The quote includes doses; the page text gives none.",
+       "strength": "APASL Table 4, 'Risk stratification of HBV reactivation among HBsAg-positive patients and HBsAg-negative/anti-HBc-positive patients' (risk table; GRADE grade not shown). In order: High (>10%), HBsAg(+) column; Moderate (1–10%), HBsAg(+); Low (<1%), HBsAg(+); Low (<1%), HBsAg(−)/anti-HBc(+) column. The quote includes doses; the page text gives none.",
        "confidence": "High (HBsAg-positive rows); Medium (anti-HBc-positive column inferred)"
       },
       {
@@ -349,7 +349,7 @@
        "c": "C39",
        "s": "S3",
        "quote": "Prophylactic antiviral therapy is strongly recommended over frequent monitoring alone for patients initiating any bDMARD or tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen positive",
-       "strength": "Strong (certainty of evidence not in accessible text)",
+       "strength": "Strong (certainty of evidence is given in Table 6 of the source)",
        "confidence": "High"
       },
       {
@@ -377,7 +377,7 @@
        "c": "C39",
        "s": "S3",
        "quote": "Frequent monitoring alone of viral load and liver enzymes is conditionally recommended over prophylactic antiviral therapy for patients initiating a bDMARD other than rituximab or a tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen negative",
-       "strength": "Conditional (certainty of evidence not in accessible text)",
+       "strength": "Conditional (certainty of evidence is given in Table 6 of the source)",
        "confidence": "High"
       }
      ],
@@ -398,7 +398,7 @@
        "c": "C42",
        "s": "S8",
        "quote": "… under the guidance of a hepatologist, termination of NUCs would be considered 6 months after the completion of IST …",
-       "strength": "Grade not shown",
+       "strength": "APASL text (APASL grades its recommendations with GRADE; no grade is reproduced here)",
        "confidence": "High"
       },
       {
@@ -427,14 +427,14 @@
       "c": "C34",
       "s": "S18",
       "quote": "Hepatitis A and hepatitis B vaccines should be administered to AIIRD patients at risk … Patients at risk include HBV-seronegative patients that travel to or are residents in endemic countries … patients at increased risk of exposure to HBV (eg, medical personnel, household contacts or sexual partners of known persons with chronic HBV infection, intravenous drug users, men who have sex with men).",
-      "strength": "Strength not found in accessible text",
+      "strength": "Recommendation 4 (SoR is given in Table 2 of the source)",
       "confidence": "Medium"
      },
      {
       "c": "C73",
       "s": "S12",
-      "quote": "The endemic presence of tuberculosisand hepatitis Bin Taiwan is a critical issue.",
-      "strength": "Narrative (PMC7004149). The glued words 'tuberculosisand' and 'hepatitis Bin' are stripped citation markers in the PMC text, not dropped words.",
+      "quote": "The endemic presence of tuberculosis and hepatitis B in Taiwan is a critical issue.",
+      "strength": "Narrative; citation numbers omitted",
       "confidence": "High"
      },
      {
@@ -511,14 +511,14 @@
        "c": "C74",
        "s": "S17",
        "quote": "… short-term glucocorticoid therapy of <3-4 weeks … low concern for HPA axis suppression",
-       "strength": "R 2.1, part (PMC11180513); basis for 「長期」.",
+       "strength": "R 2.1, part; basis for 「長期」.",
        "confidence": "High"
       },
       {
        "c": "C75",
        "s": "S17",
        "quote": "If the patient is already taking hydrocortisone ≥40 mg daily … there is typically no need to increase the dose unless there are signs of hemodynamic instability",
-       "strength": "Table 8, minor stress (PMC11180513); shortened with an ellipsis. Basis for 「可能需要」; the page text gives no dose.",
+       "strength": "Table 8, minor stress; shortened with an ellipsis. Basis for 「可能需要」; the page text gives no dose.",
        "confidence": "High"
       },
       {
@@ -576,7 +576,7 @@
        "c": "common:C77",
        "s": "common:S10",
        "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression.",
-       "strength": "Conditional; \"Very low\" (Table 7). The 共通照護 page's 「疫苗接種」 card quotes the same ACR passage (plus a sentence on inactivated alternatives) and also says 「延後」; the direction ('deferring') is as in the ACR-hosted manuscript and the Discussion.",
+       "strength": "Conditional; \"Very low\" (Table 7). The 共通照護 page's 「疫苗接種」 card quotes the same ACR passage (plus a sentence on inactivated alternatives) and also says 「延後」; the word 'deferring' is quoted from the manuscript hosted by ACR, and the text after the recommendation gives the same direction.",
        "confidence": "High"
       },
       {
@@ -604,7 +604,7 @@
        "c": "C77",
        "s": "S4",
        "quote": "Serious infections (similar to biological disease-modifying antirheumatic drugs), opportunistic infections including TB, herpes zoster (increased rates compared with biological disease-modifying antirheumatic drugs) may occur …",
-       "strength": "LoE/SoR 2b/B; final vote 100%; LoA 9.7 ± 0.7. Table 1 item VI.1 (publisher PDF, UNIGE repository).",
+       "strength": "LoE/SoR 2b/B; final vote 100%; LoA 9.7 ± 0.7. Table 1 item VI.1.",
        "confidence": "High"
       }
      ],
@@ -824,7 +824,7 @@
      "c": "C42",
      "s": "S8",
      "quote": "… under the guidance of a hepatologist, termination of NUCs would be considered 6 months after the completion of IST …",
-     "strength": "Grade not shown",
+     "strength": "APASL text (APASL grades its recommendations with GRADE; no grade is reproduced here)",
      "confidence": "High"
     },
     {
@@ -854,7 +854,7 @@
      "c": "C77",
      "s": "S4",
      "quote": "Serious infections (similar to biological disease-modifying antirheumatic drugs), opportunistic infections including TB, herpes zoster (increased rates compared with biological disease-modifying antirheumatic drugs) may occur …",
-     "strength": "LoE/SoR 2b/B; final vote 100%; LoA 9.7 ± 0.7. Table 1 item VI.1 (publisher PDF); shows why JAK-inhibitor users are named.",
+     "strength": "LoE/SoR 2b/B; final vote 100%; LoA 9.7 ± 0.7. Table 1 item VI.1; shows why JAK-inhibitor users are named.",
      "confidence": "High"
     },
     {
@@ -875,21 +875,21 @@
      "c": "C78",
      "s": "S17",
      "quote": "We suggest that in patients with current or recent glucocorticoid use who did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency and present with hemodynamic instability, vomiting, or diarrhea, the diagnosis of adrenal crisis should be considered irrespective of the glucocorticoid type, mode of administration, and dose; patients with suspected adrenal crisis should be treated with parenteral glucocorticoids and fluid resuscitation. (Good clinical practice)",
-     "strength": "R 3.2, good clinical practice (PMC11180513). Covers current or recent use 'irrespective of the glucocorticoid type, mode of administration, and dose'.",
+     "strength": "R 3.2, good clinical practice. Covers current or recent use 'irrespective of the glucocorticoid type, mode of administration, and dose'.",
      "confidence": "High"
     },
     {
      "c": "C79",
      "s": "S17",
      "quote": "In patients with suspected reduced absorption (persistent vomiting or diarrhea), nil by mouth, or unable to take tablets, give stress-dose glucocorticoids I.V. or I.M.",
-     "strength": "Table 8 (PMC11180513).",
+     "strength": "Table 8.",
      "confidence": "High"
     },
     {
      "c": "C80",
      "s": "S17",
      "quote": "… or when there are signs of hemodynamic instability or prolonged vomiting or diarrhea.",
-     "strength": "R 3.1B, part (PMC11180513).",
+     "strength": "R 3.1B, part.",
      "confidence": "High"
     },
     {

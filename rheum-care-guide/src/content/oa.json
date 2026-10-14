@@ -52,7 +52,7 @@
        "c": "C07",
        "s": "S5",
        "quote": "Core Treatments for Knee OA included arthritis education and structured land-based exercise programs with or without dietary weight management. Core Treatments for Hip and Polyarticular OA included arthritis education and structured land-based exercise programs.",
-       "strength": "\"Core Treatment\"; strength label not found in accessible text (abstract only)",
+       "strength": "\"Core Treatment\"; abstract (OARSI assigns recommendation levels (1A–5) only to non-core treatments)",
        "confidence": "Medium"
       }
      ],
@@ -454,7 +454,7 @@
        "c": "C40",
        "s": "S6",
        "quote": "For people with osteoarthritis who are living with overweight or obesity: … • support them to choose a weight loss goal • explain that any amount of weight loss is likely to be beneficial, but losing 10% of their body weight is likely to be better than 5%.",
-       "strength": "No formal grade (NICE \"advise/support/explain\"); Recommendation 1.3.5. Bullet markers as printed on the NICE recommendations page",
+       "strength": "No formal grade (NICE \"advise/support/explain\"); Recommendation 1.3.5. Bullet markers as in the NICE recommendations",
        "confidence": "High"
       },
       {
@@ -503,7 +503,7 @@
        "c": "C43",
        "s": "S13",
        "quote": "The EG agreed to a strong recommendation, although not all patients with OA may need all these strategies (e.g. patients who are bedbound or underweight).",
-       "strength": "Recommendation 2 (strong); PMC full text (PMC13405452)",
+       "strength": "Recommendation 2 (strong)",
        "confidence": "High"
       },
       {
@@ -574,7 +574,7 @@
        "c": "C54",
        "s": "S9",
        "quote": "Education and training in ergonomic principles, pacing of activity and use of assistive devices should be offered to every patient. … The use of assistive devices is an important and commonly used strategy to improve patient’s self-management",
-       "strength": "LoE 1b; GoR A; LoA 9.3 (1.1); second sentence as on the publisher page",
+       "strength": "LoE 1b; GoR A; LoA 9.3 (1.1); the second sentence is from the text after Recommendation 1",
        "confidence": "High"
       },
       {
@@ -595,7 +595,7 @@
        "c": "C49",
        "s": "S9",
        "quote": "Orthoses should be considered for symptom relief in patients with thumb base OA. Long-term use is advocated … These trials provide evidence for beneficial effects of a thumb base orthosis, especially on pain and to a lesser extent on function, but not on grip strength, when used for a prolonged period (at least 3 months).",
-       "strength": "LoE 1b; GoR A; LoA 9.3 (1.0). The 'These trials…' sentence is from the text after Recommendation 3 (publisher page)",
+       "strength": "LoE 1b; GoR A; LoA 9.3 (1.0). The 'These trials…' sentence is from the text after Recommendation 3",
        "confidence": "High"
       },
       {
@@ -716,7 +716,7 @@
        "c": "C53",
        "s": "S2",
        "quote": "Lateral and medial wedged insoles are conditionally recommended against in patients with knee and/or hip OA. The currently available literature does not demonstrate clear efficacy of lateral or medial wedged insoles.",
-       "strength": "Conditional against (2019). Heading wording ('recommended against') as in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+       "strength": "Conditional against (2019). The heading ('recommended against') is quoted from the co-published version (Arthritis Rheumatol 2020;72(2):220-233); the other sentences are from S2.",
        "confidence": "High"
       },
       {
@@ -744,7 +744,7 @@
        "c": "C56",
        "s": "S2",
        "quote": "Transcutaneous electrical stimulation (TENS) is strongly recommended against in patients with knee and/or hip OA. … Studies have demonstrated a lack of benefit for knee OA.",
-       "strength": "Strong against (2019). Heading wording ('recommended against') as in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+       "strength": "Strong against (2019). The heading ('recommended against') is quoted from the co-published version (Arthritis Rheumatol 2020;72(2):220-233); the other sentences are from S2.",
        "confidence": "High"
       }
      ],
@@ -784,7 +784,7 @@
      "c": "C66",
      "s": "S2",
      "quote": "Glucosamine is strongly recommended against in patients with knee, hip, and/or hand OA. … The data that were deemed to have the lowest risk of bias fail to show any important benefits over placebo. These recommendations represent a change from the prior conditional recommendation against the use of glucosamine. The weight of the evidence indicates a lack of efficacy and large placebo effects.",
-     "strength": "Strong against (2019). Heading wording ('recommended against') as in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+     "strength": "Strong against (2019). The heading ('recommended against') is quoted from the co-published version (Arthritis Rheumatol 2020;72(2):220-233); the other sentences are from S2.",
      "confidence": "High"
     },
     {
@@ -798,7 +798,7 @@
      "c": "C68",
      "s": "S28",
      "quote": "Industry independent trials showed smaller effects than commercially funded trials (P=0.02 for interaction). … Compared with placebo, glucosamine, chondroitin, and their combination do not reduce joint pain or have an impact on narrowing of joint space.",
-     "strength": "Network meta-analysis of large trials (hip or knee OA). Sentence order as in the PubMed abstract",
+     "strength": "Network meta-analysis of large trials (hip or knee OA); quoted from the abstract",
      "confidence": "Medium"
     }
    ],
@@ -856,14 +856,14 @@
      "c": "C70",
      "s": "S2",
      "quote": "Fish oil is conditionally recommended against in patients with knee, hip, and/or hand OA. … Despite its popularity, only 1 published trial has addressed its potential role in OA. This study failed to show efficacy of a higher dose of fish oil over a lower dose.",
-     "strength": "Conditional against (2019). Heading wording ('recommended against') as in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+     "strength": "Conditional against (2019). The heading ('recommended against') is quoted from the co-published version (Arthritis Rheumatol 2020;72(2):220-233); the other sentences are from S2.",
      "confidence": "High"
     },
     {
      "c": "C71",
      "s": "S2",
      "quote": "Vitamin D is conditionally recommended against in patients with knee, hip, and/or hand OA. A number of trials in OA demonstrated small effect sizes with vitamin D treatment, while others have shown no benefit and pooling data across studies yielded null results.",
-     "strength": "Conditional against (2019). Heading wording ('recommended against') as in the typeset co-published version (Arthritis Rheumatol 2020;72(2):220-233); the PMC text drops 'against'. The other sentences match the PMC text of S2.",
+     "strength": "Conditional against (2019). The heading ('recommended against') is quoted from the co-published version (Arthritis Rheumatol 2020;72(2):220-233); the other sentences are from S2.",
      "confidence": "High"
     },
     {
@@ -885,14 +885,14 @@
      "c": "C74",
      "s": "S22",
      "quote": "The overall prevalence of hip and knee OA was 13.3% (95% CI: 11.6%, 15.2%) in competitive runners, 3.5% (95% CI: 3.4%, 3.6%) in recreational runners, and 10.2% (95% CI: 9.9%, 10.6%) in controls. … Recreational runners had a lower occurrence of OA compared with competitive runners and controls. These results indicated that a more sedentary lifestyle or long exposure to high-volume and/or high-intensity running are both associated with hip and/or knee OA. However, it was not possible to determine whether these associations were causative or confounded by other risk factors, such as previous injury.",
-     "strength": "Systematic review and meta-analysis of observational studies (controls were sedentary non-runners). Conclusion sentences as in the PubMed abstract",
+     "strength": "Systematic review and meta-analysis of observational studies (controls were sedentary non-runners); abstract (results and conclusions)",
      "confidence": "Medium"
     },
     {
      "c": "C74",
      "s": "S23",
      "quote": "Most of the included studies were rated as having a very high (n = 2) or high (n = 3) risk of bias on the Newcastle Ottawa Scale. There was no difference in knee osteoarthritis prevalence between runners and controls (OR = 0.97, 95% CI = 0.56 to 1.68).",
-     "strength": "Systematic review and meta-analysis of case-control studies (controls ran <8 km per week). Sentence order as in the PubMed abstract (adjacent sentences)",
+     "strength": "Systematic review and meta-analysis of case-control studies (controls ran <8 km per week); adjacent sentences of the abstract",
      "confidence": "Medium"
     },
     {

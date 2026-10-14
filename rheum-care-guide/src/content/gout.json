@@ -31,7 +31,7 @@
        "c": "C21",
        "s": "S12",
        "quote": "…limit intake of all types of alcohol (beer, wine and liquor)",
-       "strength": "Grade not found in accessible text",
+       "strength": "Recommendation 5 (no grade label in the recommendation box)",
        "confidence": "High"
       },
       {
@@ -66,7 +66,7 @@
        "c": "C44",
        "s": "S3",
        "quote": "…avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks…",
-       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
+       "strength": "Overarching principle B; the task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       },
       {
@@ -101,7 +101,7 @@
        "c": "C30",
        "s": "S12",
        "quote": "…limit intake of high-fructose corn syrup",
-       "strength": "Grade not found in accessible text",
+       "strength": "Recommendation 5 (no grade label in the recommendation box)",
        "confidence": "High"
       },
       {
@@ -122,7 +122,7 @@
        "c": "C44",
        "s": "S3",
        "quote": "Importantly, other modifiable risk factors have been identified since 2006, specifically sugar-sweetened drinks, foods rich in fructose and orange or apple juice.",
-       "strength": "Discussion of overarching principle B (principle B: LoA not found in accessible text; the task force states that it \"was mainly based on expert opinion\")",
+       "strength": "Discussion of overarching principle B (the task force states that this principle \"was mainly based on expert opinion\")",
        "confidence": "High"
       }
      ],
@@ -200,7 +200,7 @@
        "c": "C16",
        "s": "S3",
        "quote": "…avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks, heavy meals and excessive intake of meat and seafood.",
-       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
+       "strength": "Overarching principle B; the task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       },
       {
@@ -228,7 +228,7 @@
        "c": "C08",
        "s": "S5",
        "quote": "…Advise them to follow a healthy, balanced diet.",
-       "strength": "No formal grade in accessible text",
+       "strength": "Recommendation 1.4.1 (NICE gives no formal grades; wording \"Explain\" and \"Advise\")",
        "confidence": "High"
       }
      ],
@@ -249,7 +249,7 @@
        "c": "C49",
        "s": "S3",
        "quote": "Low-fat dairy products should be encouraged.",
-       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
+       "strength": "Overarching principle B; the task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       }
      ],
@@ -335,7 +335,7 @@
        "c": "C77",
        "s": "S3",
        "quote": "Regular exercise should be advised.",
-       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
+       "strength": "Overarching principle B; the task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       },
       {
@@ -434,7 +434,7 @@
        "c": "C93",
        "s": "S3",
        "quote": "Acute flares of gout should be treated as early as possible. Fully informed patients should be educated to self-medicate at the first warning symptoms.",
-       "strength": "LoE/SoR/LoA not found in accessible text",
+       "strength": "Recommendation 1 (LoE, SoR and LoA are given in Table 2 of the source)",
        "confidence": "High"
       },
       {
@@ -512,7 +512,7 @@
        "c": "C105",
        "s": "S8",
        "quote": "Moreover, gout or hyperuricemia is clearly associated with a variety of comorbidities, including cardiovascular diseases, chronic kidney disease, urolithiasis, metabolic syndrome, diabetes mellitus, thyroid dysfunction, and psoriasis.",
-       "strength": "Consensus (abstract only)",
+       "strength": "Consensus (quoted from the abstract)",
        "confidence": "Medium"
       }
      ],
@@ -533,7 +533,7 @@
        "c": "C99",
        "s": "S3",
        "quote": "Every person with gout should be systematically screened for associated comorbidities and cardiovascular risk factors, including renal impairment, coronary heart disease, heart failure, stroke, peripheral arterial disease, obesity, hyperlipidaemia, hypertension, diabetes and smoking, which should be addressed as an integral part of the management of gout.",
-       "strength": "Overarching principle C; LoA not found in accessible text",
+       "strength": "Overarching principle C",
        "confidence": "High"
       }
      ],
@@ -594,7 +594,7 @@
      "c": "C03",
      "s": "S5",
      "quote": "any risk factors for gout they have, including genetics, excess body weight or obesity, medicines they are taking, and comorbidities such as chronic kidney disease (CKD) or hypertension",
-     "strength": "No formal grade in accessible text",
+     "strength": "Recommendation 1.2.1, bullet (NICE gives no formal grades)",
      "confidence": "High"
     },
     {
@@ -616,7 +616,7 @@
      "c": "C16",
      "s": "S3",
      "quote": "Every person with gout should receive advice regarding lifestyle: weight loss if appropriate and avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks, heavy meals and excessive intake of meat and seafood.",
-     "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
+     "strength": "Overarching principle B; the task force states that this principle \"was mainly based on expert opinion\"",
      "confidence": "High"
     },
     {
