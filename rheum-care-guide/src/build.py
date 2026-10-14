@@ -134,8 +134,9 @@ def build_data(review, drafts=None):
     # Quotes checked by the independent verification (reports kept privately since 2026-10-12):
     # 95 common+gout, 98 RA+axSpA, 74 SLE, 81 urticaria+Sjogren (first seven pages) = 348;
     # 75 OA, 88 osteoporosis, 43 labs, 57 infection (pages added 2026-10-11) = 263;
-    # 14 quotes newly attached in the legal and dispute-risk revision, checked on 2026-10-12.
-    data['meta'] = {'statements': n_stmt, 'quotes': 348 + 263 + 14}
+    # 14 quotes newly attached in the legal and dispute-risk revision, checked on 2026-10-12;
+    # 32 heart-card + 29 steroid-card quotes (common page, live from 2026-10-14) = 61.
+    data['meta'] = {'statements': n_stmt, 'quotes': 348 + 263 + 14 + 61}
     data['glossary'] = glossary_data(review)
     return data, n_stmt
 

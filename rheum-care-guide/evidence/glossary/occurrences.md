@@ -224,11 +224,17 @@
 - [repeat] UR-3.4 (text) 「飲食試驗」: 飲食試驗只限醫師評估過的部分病人，通常只做2到3週，不應延誤有效治療。
 - [LINK] UR-M3 (fact) 「飲食試驗」: 食物過敏很少是慢性蕁麻疹的原因，不需要自行長期忌口（確定食物過敏者除外，很少見）；若醫師建議做飲食試驗，通常只做2到3週。
 
-## oral-glucocorticoid — 口服類固醇  (aliases: 口服類固醇 / 類固醇; scope: card; links: 11; occurrences: 24)
+## oral-glucocorticoid — 口服類固醇  (aliases: 口服類固醇 / 類固醇; scope: card; links: 13; occurrences: 30)
+- [LINK] CM-8.6 (text) 「類固醇」: 類固醇能控制發炎，但劑量越高、用得越久，心血管風險可能越高；指引建議用最低有效劑量，請依醫師指示，不要自行減量或停藥。
 - [LINK] common-bone (title) 「類固醇」: 類固醇與骨骼保健
 - [repeat] common-bone (summary) 「口服類固醇」: 長期口服類固醇，要補足鈣與維生素D、調整生活習慣。
 - [repeat] CM-4.1 (text) 「口服類固醇」: 開始或持續長期口服類固醇（超過3個月）的成人，建議從飲食和醫師指示的補充品補足鈣和維生素D，並調整生活習慣。
 - [repeat] CM-4.T (text) 「口服類固醇」: 口服類固醇3個月以上的人，也要盡量降低跌倒的風險。
+- [LINK] common-steroid (title) 「類固醇」: 類固醇的其他提醒
+- [repeat] CM-7.1 (text) 「類固醇」: 長期使用類固醇，除了骨骼和感染方面的影響，也可能讓血糖、血壓升高、體重增加，並影響眼睛、皮膚、肌肉和情緒。
+- [repeat] CM-7.3 (text) 「類固醇」: 血糖可能高到出現口渴、尿多、疲倦，劑量較高、用得較久時較常見，出現時請盡快就醫；已有糖尿病的人，開始用類固醇後要更仔細監測血糖。
+- [repeat] CM-7.4 (text) 「類固醇」: 類固醇可能讓眼壓升高，通常沒有症狀；已有青光眼，或有青光眼家族史、高度近視、糖尿病的人，請和醫師討論安排眼科檢查。
+- [repeat] CM-7.T (text) 「類固醇」: 開刀或生病就醫時，請主動告訴醫師您正在使用或最近停用類固醇；生病時的其他注意事項，請見「治療期間防感染」頁。
 - [LINK] CM-5.1 (text) 「類固醇」: 自體免疫風濕病患者在使用類固醇或抗風濕藥物期間，仍可接種非活性疫苗；如果可以，最好在開始免疫抑制治療前接種。
 - [LINK] SL-5.5 (text) 「類固醇」: 狼瘡本身和類固醇等治療可能增加骨質疏鬆風險；每年請醫師評估骨骼健康，包括飲食、運動、生活習慣和用藥。
 - [LINK] osteoporosis-intro (intro) 「類固醇」: 這頁整理停經後女性與50歲以上男性的骨骼保健：認識警訊、飲食、運動、防跌倒與治療。長期用類固醇，或想看活動量與菸酒建議，請見共通照護頁。
@@ -292,7 +298,9 @@
 - [LINK] RA-4.4 (text) 「methotrexate」: 有肝病，或正在使用 methotrexate、leflunomide 等藥物的人，能不能喝酒，請先和醫師討論。
 - [repeat] RA-4.4 (text) 「leflunomide」: 有肝病，或正在使用 methotrexate、leflunomide 等藥物的人，能不能喝酒，請先和醫師討論。
 
-## nsaid — 消炎止痛藥（NSAIDs）  (aliases: 消炎止痛藥 / NSAIDs; scope: card; links: 2; occurrences: 5)
+## nsaid — 消炎止痛藥（NSAIDs）  (aliases: 消炎止痛藥 / NSAIDs; scope: card; links: 3; occurrences: 7)
+- [LINK] CM-8.T (text) 「消炎止痛藥」: 已有心血管疾病或危險因子的人，使用消炎止痛藥（NSAIDs）要特別小心，請先和醫師討論；醫師為預防血栓開的藥，請不要自行停用。
+- [repeat] CM-8.T (text) 「NSAIDs」: 已有心血管疾病或危險因子的人，使用消炎止痛藥（NSAIDs）要特別小心，請先和醫師討論；醫師為預防血栓開的藥，請不要自行停用。
 - [LINK] urticaria-triggers (summary) 「消炎止痛藥」: 自發型：留意消炎止痛藥、壓力和感染等加重因子
 - [repeat] UR-1.1 (text) 「消炎止痛藥」: 消炎止痛藥（NSAIDs）可能讓部分病人的蕁麻疹變嚴重。
 - [repeat] UR-1.1 (text) 「NSAIDs」: 消炎止痛藥（NSAIDs）可能讓部分病人的蕁麻疹變嚴重。
@@ -480,8 +488,9 @@
 ## neonatal-lupus — 新生兒狼瘡  (aliases: 新生兒狼瘡; scope: card; links: 1; occurrences: 1)
 - [LINK] SL-6.5 (text) 「新生兒狼瘡」: 計畫懷孕前要做孕前諮詢，並重新檢查與新生兒狼瘡有關的抗體。
 
-## disease-activity — 疾病活動度  (aliases: 疾病活動度 / 病情活動 / 疾病活性 / 病情活躍 / 病情不活躍; scope: page; links: 4; occurrences: 10)
+## disease-activity — 疾病活動度  (aliases: 疾病活動度 / 病情活動 / 疾病活性 / 病情活躍 / 病情不活躍; scope: page; links: 4; occurrences: 11)
 - [LINK] CM-2.2 (text) 「病情活動」: 抽菸對風濕病的症狀、身體功能、病情活動和病情進展都不利，也會讓其他疾病更容易出現。
+- [repeat] CM-8.5 (text) 「病情活動」: 發炎和病情活動也可能和心血管風險有關；按照治療計畫把病情控制穩定，也是保護心血管的一環。
 - [excluded] UR-4.2 (text) 「病情活躍」: 誘發型：病情活躍或控制不好時，通常建議每天吃；有些人可在接觸誘發因子前才吃。怎麼吃，依誘發因子能否預期，和醫師一起決定。
 - [LINK] RA-3.4 (text) 「疾病活動度」: 維持健康體重；在類風濕性關節炎，肥胖與疾病活動度較高、身體功能較差和治療反應較差有關。
 - [repeat] RA-4.1 (text) 「疾病活動度」: 戒菸：吸菸對症狀、身體功能、疾病活動度和病程進展都不利，也會增加其他疾病的發生。
@@ -495,7 +504,9 @@
 ## comorbidity — 共病  (aliases: 共病; scope: card; links: 1; occurrences: 1)
 - [LINK] gout-checkup (title) 「共病」: 共病與定期檢查
 
-## cvd — 心血管疾病  (aliases: 心血管疾病; scope: card; links: 2; occurrences: 4)
+## cvd — 心血管疾病  (aliases: 心血管疾病; scope: card; links: 3; occurrences: 6)
+- [LINK] CM-8.1 (text) 「心血管疾病」: 類風濕性關節炎、紅斑性狼瘡、痛風、乾燥症等發炎性風濕病，心血管疾病風險比一般人高；僵直性脊椎炎和乾癬性關節炎也可能較高。
+- [repeat] CM-8.T (text) 「心血管疾病」: 已有心血管疾病或危險因子的人，使用消炎止痛藥（NSAIDs）要特別小心，請先和醫師討論；醫師為預防血栓開的藥，請不要自行停用。
 - [LINK] GT-5.1 (text) 「心血管疾病」: 痛風或高尿酸血症，和心血管疾病、慢性腎臟病、尿路結石、糖尿病等多種疾病有關。
 - [repeat] GT-5.T (text) 「心血管疾病」: 痛風患者常合併心血管疾病，因此調整生活習慣也是預防心血管疾病的一環。
 - [repeat] GT-5.T (text) 「心血管疾病」: 痛風患者常合併心血管疾病，因此調整生活習慣也是預防心血管疾病的一環。
@@ -529,8 +540,12 @@
 ## aas — 血管性水腫活動分數（AAS）  (aliases: AAS; scope: card; links: 1; occurrences: 1)
 - [LINK] UR-5.T (text) 「AAS」: 自發型會腫脹（血管性水腫）的人，指引建議也記錄血管性水腫活動分數（AAS），可問醫師怎麼記錄。
 
-## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 10; occurrences: 51)
-- [LINK] CM-M1 (fact) 「指引」: WHO 2020年指引已取消「至少連續10分鐘」的規定；任何長度的活動都與健康改善有關。
+## guideline — 臨床指引  (aliases: 臨床指引 / 國際指引 / 指引; scope: page; links: 10; occurrences: 55)
+- [LINK] CM-8.2 (text) 「指引」: 指引建議確診後先評估一次心血管風險，之後定期評估；頻率依疾病和風險而定，例如類風濕性關節炎至少每5年、紅斑性狼瘡至少每年一次。
+- [repeat] CM-8.3 (text) 「指引」: 血壓、血脂、血糖偏高時，要和醫師配合，依治療指引控制好；也建議戒菸、健康飲食和規律活動（見本頁其他卡片）。
+- [repeat] CM-8.6 (text) 「指引」: 類固醇能控制發炎，但劑量越高、用得越久，心血管風險可能越高；指引建議用最低有效劑量，請依醫師指示，不要自行減量或停藥。
+- [repeat] CM-7.2 (text) 「指引」: 指引建議依劑量、使用時間和個人風險，追蹤體重、血壓、水腫、心臟功能、血脂、血糖和眼壓；需要哪些，可以請醫師說明。
+- [repeat] CM-M1 (fact) 「指引」: WHO 2020年指引已取消「至少連續10分鐘」的規定；任何長度的活動都與健康改善有關。
 - [LINK] gout-intro (intro) 「指引」: 這頁整理國內外指引中，痛風患者在飲料、飲食、體重與運動、發作照護和定期檢查上可以做的事。生活習慣能輔助治療，但不能取代治療。
 - [repeat] GT-1.5 (text) 「指引」: 果汁也要留意：指引把柳橙汁、蘋果汁列為危險因子。
 - [repeat] GT-3.2 (text) 「指引」: 體重過重或肥胖的人，建議參加減重計畫（指引沒有指定哪一種），以逐步減重為原則。
@@ -616,7 +631,8 @@
 - [LINK] GT-M3 (fact) 「臨床意義」: ACR 指引不建議為痛風額外補充維生素C；小型試驗中，痛風患者服用後尿酸變化沒有臨床意義。
 - [LINK] RA-M3 (fact) 「臨床意義」: 吃特定食物不太可能大幅改善病情；證據較可靠的魚油、益生菌研究，不是沒有效果，就是效果可能不具臨床意義。
 
-## expert-consensus — 專家共識  (aliases: 專家共識; scope: card; links: 11; occurrences: 19)
+## expert-consensus — 專家共識  (aliases: 專家共識; scope: card; links: 12; occurrences: 20)
+- [LINK] CM-8.2 (label) 「專家共識」: EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）
 - [LINK] GT-5.1 (label) 「專家共識」: 台灣共識 2018・專家共識
 - [LINK] SL-M2 (label) 「專家共識」: 國際共識 2024・專家共識
 - [LINK] OP-4.1 (label) 「專家共識」: NOGG 2024・指引說明；英國骨鬆運動共識 2022・專家共識
@@ -741,7 +757,7 @@
 - [repeat] IF-4.1 (label) 「ACR」: ACR 2021・指引說明
 - [repeat] IF-5.1 (label) 「ACR」: IDST 2024・指引說明；ACR 2022・建議
 
-## org-eular — EULAR  (aliases: EULAR; scope: page; links: 9; occurrences: 103)
+## org-eular — EULAR  (aliases: EULAR; scope: page; links: 9; occurrences: 120)
 - [LINK] CM-1.5 (label) 「EULAR」: EULAR 2021・建議強度 A
 - [repeat] CM-2.1 (label) 「EULAR」: EULAR 2021・建議強度 B
 - [repeat] CM-2.2 (label) 「EULAR」: EULAR 2021・建議強度 B
@@ -752,6 +768,23 @@
 - [repeat] CM-3.4 (label) 「EULAR」: EULAR 2021・建議強度 B
 - [repeat] CM-3.5 (label) 「EULAR」: EULAR 2021・建議強度 D
 - [repeat] CM-3.T (label) 「EULAR」: EULAR 2021・建議強度 B
+- [repeat] CM-8.1 (label) 「EULAR」: EULAR 2016・基本原則；EULAR 2022・基本原則
+- [repeat] CM-8.1 (label) 「EULAR」: EULAR 2016・基本原則；EULAR 2022・基本原則
+- [repeat] CM-8.2 (label) 「EULAR」: EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）
+- [repeat] CM-8.3 (label) 「EULAR」: EULAR 2022・建議強度 D；EULAR 2016・建議強度 C
+- [repeat] CM-8.3 (label) 「EULAR」: EULAR 2022・建議強度 D；EULAR 2016・建議強度 C
+- [repeat] CM-8.4 (label) 「EULAR」: EULAR 2022・建議強度 C
+- [repeat] CM-8.5 (label) 「EULAR」: EULAR 2016・建議強度 B；EULAR 2022・建議強度 B
+- [repeat] CM-8.5 (label) 「EULAR」: EULAR 2016・建議強度 B；EULAR 2022・建議強度 B
+- [repeat] CM-8.6 (label) 「EULAR」: EULAR 2016・建議強度 C；EULAR 2022・建議強度 C
+- [repeat] CM-8.6 (label) 「EULAR」: EULAR 2016・建議強度 C；EULAR 2022・建議強度 C
+- [repeat] CM-8.T (label) 「EULAR」: EULAR 2016・建議強度 C
+- [repeat] CM-7.1 (label) 「EULAR」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.2 (label) 「EULAR」: EULAR 2007・建議
+- [repeat] CM-7.3 (label) 「EULAR」: JBDS 2023・指引說明；EULAR 2010・建議
+- [repeat] CM-7.4 (label) 「EULAR」: EULAR 2010・建議；英國驗光師學會 2026・指引說明
+- [repeat] CM-7.5 (label) 「EULAR」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.T (label) 「EULAR」: EULAR 2007/2013・建議
 - [repeat] CM-5.1 (label) 「EULAR」: EULAR 2019・基本原則
 - [repeat] CM-5.3 (label) 「EULAR」: EULAR 2019・建議
 - [repeat] CM-5.T (label) 「EULAR」: EULAR 2019・基本原則
@@ -846,7 +879,8 @@
 - [repeat] IF-M3 (label) 「EULAR」: EULAR 2022・指引說明；疾管署・指引說明
 - [repeat] IF-S3 (label) 「EULAR」: EULAR 2022・指引說明
 
-## org-bsr — BSR  (aliases: BSR; scope: page; links: 5; occurrences: 45)
+## org-bsr — BSR  (aliases: BSR; scope: page; links: 6; occurrences: 46)
+- [LINK] CM-8.2 (label) 「BSR」: EULAR 2022・基本原則；台灣專家共識 2022・強烈建議；BSR 2026・強烈建議（1B）
 - [LINK] GT-2.3 (label) 「BSR」: BSR 2017・建議
 - [repeat] GT-2.4 (label) 「BSR」: BSR 2017・建議
 - [repeat] GT-3.3 (label) 「BSR」: BSR 2017・建議
@@ -1165,7 +1199,8 @@
 - [LINK] IF-6.3 (text) 「口服標靶藥物」: 用生物製劑、口服標靶藥物、免疫抑制劑或高劑量類固醇時，可以和醫師討論飲食與環境衛生，減少李斯特菌、沙門氏菌等感染。
 - [LINK] IF-S1 (text) 「JAK 抑制劑」: 使用生物製劑期間出現帶狀疱疹（皮蛇），請盡快就醫，治療方式和一般人相同；使用 JAK 抑制劑等其他免疫抑制藥物時出現皮蛇，也請盡快就醫。
 
-## adrenal — 腎上腺功能不足與腎上腺危象  (aliases: 腎上腺功能不足 / 腎上腺危象; scope: card; links: 1; occurrences: 2)
+## adrenal — 腎上腺功能不足與腎上腺危象  (aliases: 腎上腺功能不足 / 腎上腺危象; scope: card; links: 2; occurrences: 3)
+- [LINK] CM-7.6 (text) 「腎上腺功能不足」: 減量時疲倦、全身不適或肌肉關節痠痛，可能是減藥反應、腎上腺功能不足或病情復發；請盡早回診，加量要依醫師交代；快昏倒請撥打 119 或到急診。
 - [LINK] IF-4.2 (text) 「腎上腺危象」: 不要漏吃或自行突然停用類固醇；口服劑量高於身體自然分泌量時，藥量突然不足可能引起需緊急處理的腎上腺危象。
 - [repeat] IF-4.3 (text) 「腎上腺功能不足」: 長期用或最近停用類固醇的人，發燒或感染需用抗生素時，可能需要暫時補充類固醇，以免腎上腺功能不足（不是治療感染）；請事先問醫師，感染也要就醫。
 
@@ -1258,7 +1293,10 @@
 - [LINK] IF-3.5 (label) 「AASLD」: AASLD 2018・專家共識；APASL 2021・指引說明
 - [repeat] IF-M4 (label) 「AASLD」: AASLD 2018・專家共識；APASL 2021・指引說明
 
-## org-ese-es — ESE／ES  (aliases: ESE/ES; scope: page; links: 1; occurrences: 3)
+## org-ese-es — ESE／ES  (aliases: ESE/ES; scope: page; links: 2; occurrences: 6)
+- [LINK] CM-7.1 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.5 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.6 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
 - [LINK] IF-4.2 (label) 「ESE/ES」: ESE/ES 2024・指引說明
 - [repeat] IF-4.3 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
 - [repeat] IF-S2 (label) 「ESE/ES」: ESE/ES 2024・良好實務建議
@@ -1270,8 +1308,11 @@
 - [LINK] OA-3.T (label) 「ACE」: EULAR 2025・指引說明；新加坡 ACE 2026・指引說明
 - [repeat] OA-4.5 (label) 「ACE」: 新加坡 ACE 2026・指引說明
 
-## good-practice — 良好實務建議  (aliases: 良好實務建議; scope: card; links: 4; occurrences: 4)
+## good-practice — 良好實務建議  (aliases: 良好實務建議; scope: card; links: 5; occurrences: 7)
 - [LINK] CM-1.T (label) 「良好實務建議」: WHO 2020・良好實務建議
+- [LINK] CM-7.1 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.5 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議；EULAR 2013・建議
+- [repeat] CM-7.6 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議
 - [LINK] OP-6.4 (label) 「良好實務建議」: NOGG 2024・強烈建議；加拿大骨鬆指引 2023・良好實務建議
 - [LINK] IF-4.3 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議
 - [LINK] IF-S2 (label) 「良好實務建議」: ESE/ES 2024・良好實務建議

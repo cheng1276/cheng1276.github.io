@@ -371,7 +371,7 @@ h1{font-size:var(--t-h1)}
       </ul>
     </section>
     <label class="switch" for="reviewToggle"><input type="checkbox" id="reviewToggle"> 審閱模式：顯示每則建議與名詞解釋的英文原文依據</label>
-    <p class="meta" id="metaLine">審閱醫師：台南市立醫院 免疫風濕科 鄭傑夫醫師・審閱完成：2026 年 10 月 8 日（新增四頁：10 月 11 日）・最後更新：2026 年 10 月 12 日・試用版，歡迎對網站內容提供意見</p>
+    <p class="meta" id="metaLine">審閱醫師：台南市立醫院 免疫風濕科 鄭傑夫醫師・審閱完成：2026 年 10 月 8 日（新增四頁：10 月 11 日；共通照護新增兩張卡：10 月 14 日）・最後更新：2026 年 10 月 14 日・試用版，歡迎對網站內容提供意見</p>
   </footer>
 </div>
 
@@ -480,7 +480,9 @@ h1{font-size:var(--t-h1)}
     'infection-hbv': '<path class="ts" d="M8 40 c4 -14 30 -20 52 -16 c14 3 26 8 26 16 c0 10 -16 14 -28 22 c-12 8 -24 18 -34 14 c-12 -5 -20 -22 -16 -36z"/><path class="a" d="M70 50 q13 16 13 24 a13 13 0 0 1 -26 0 q0 -8 13 -24z"/><path class="kw" d="M64 74 a6 6 0 0 0 6 6"/>',
     'infection-steroid': '<rect class="w" x="6" y="40" width="56" height="44" rx="6"/>' + [[19, 53], [34, 53], [49, 53], [19, 71], [34, 71], [49, 71]].map(([x, y]) => `<circle class="a" cx="${x}" cy="${y}" r="5"/>`).join('') + '<circle class="w" cx="72" cy="24" r="16"/><path class="k" d="M72 15 V24 L79 28"/>',
     'infection-zoster': '<path class="w" d="M6 56 q42 -22 84 0 v20 q-42 -22 -84 0z"/>' + [[20, 60], [31, 56], [42, 54], [53, 54], [64, 56], [75, 60]].map(([x, y]) => `<circle class="ts" cx="${x}" cy="${y + 4}" r="4"/>`).join('') + '<path class="a" d="M72 6 l15 5 v9 c0 9 -7 14 -15 18 c-8 -4 -15 -9 -15 -18 v-9 z"/><path class="kw" d="M66 21 l4 4 l8 -8"/>',
-    'infection-sick': '<path class="w" d="M18 16 a8 8 0 0 1 16 0 v42 a13 13 0 1 1 -16 0z"/><path class="a" d="M22.5 34 h7 v28 a8.5 8.5 0 1 1 -7 0z"/><rect class="w" x="54" y="22" width="32" height="60" rx="6"/><rect class="t" x="58.5" y="30" width="23" height="40" rx="2"/><circle class="a" cx="70" cy="76" r="2.8"/>'
+    'infection-sick': '<path class="w" d="M18 16 a8 8 0 0 1 16 0 v42 a13 13 0 1 1 -16 0z"/><path class="a" d="M22.5 34 h7 v28 a8.5 8.5 0 1 1 -7 0z"/><rect class="w" x="54" y="22" width="32" height="60" rx="6"/><rect class="t" x="58.5" y="30" width="23" height="40" rx="2"/><circle class="a" cx="70" cy="76" r="2.8"/>',
+    'common-heart': '<path class="ts" d="M48 86 L17 55 C3 41 12 13 33 16 C40 17 45 22 48 28 C51 22 56 17 63 16 C84 13 93 41 79 55 Z"/><path class="k" d="M8 50 H31 l5 -11 l8 23 l7 -18 l4 6 H88"/>',
+    'common-steroid': '<rect class="w" x="6" y="44" width="52" height="40" rx="6"/>' + [[19, 57], [32, 57], [45, 57], [19, 72], [32, 72], [45, 72]].map(([x, y]) => `<circle class="a" cx="${x}" cy="${y}" r="4.5"/>`).join('') + '<rect class="w" x="56" y="8" width="34" height="44" rx="5"/><path class="k" d="M62 21 l3 3 l5 -6 M75 21 H84 M62 37 l3 3 l5 -6 M75 37 H84"/>'
   };
   const pic = (id) => `<div class="pic" aria-hidden="true"><svg viewBox="0 0 96 96" focusable="false">${ICONS[id] || ''}</svg></div>`;
 
