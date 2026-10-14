@@ -644,7 +644,7 @@
        "c": "steroid:C60",
        "s": "steroid:S4",
        "quote": "… GC therapy should not be stopped without tapering.",
-       "strength": "Rec 4 text (SoR and LoE are given in Table 2 of the source)",
+       "strength": "Text under Rec 4 (Rec 4: SoR VAS 84 (95% CI 67 to 101) on a 0–100 scale; 92% rated it A or B; LoE IV)",
        "confidence": "High"
       }
      ],
@@ -835,7 +835,7 @@
        "c": "steroid:C12",
        "s": "steroid:S4",
        "quote": "All patients should have appropriate monitoring for clinically significant AEs. The treating physician should be aware of the possible occurrence of diabetes, hypertension, weight gain, infections, osteoporotic fractures, osteonecrosis, myopathy, eye problems, skin problems and neuropsychological AEs",
-       "strength": "Rec 10 (SoR and LoE are given in Table 2 of the source); the text says \"based on expert opinion only\". Population: medium/high dose",
+       "strength": "Rec 10: SoR VAS 85 (95% CI 79 to 92) on a 0–100 scale; 75% rated it A or B; LoE IV; the text says \"based on expert opinion only\". Population: medium/high dose",
        "confidence": "High"
       },
       {
@@ -919,7 +919,7 @@
        "c": "steroid:C14",
        "s": "steroid:S4",
        "quote": "Before starting medium/high-dose GC treatment, consider comorbidities predisposing to AEs. These include diabetes, glucose intolerance, … In case comorbidities are present, tight control (ie, more intensive monitoring and adjusting medication, if needed) is recommended.",
-       "strength": "Rec 6 and its text (SoR and LoE are given in Table 2 of the source). Population: medium/high dose",
+       "strength": "Rec 6 and the text under it (Rec 6: SoR VAS 85 (95% CI 76 to 94) on a 0–100 scale; 83% rated it A or B; LoE IV). Population: medium/high dose",
        "confidence": "High"
       },
       {
@@ -975,7 +975,7 @@
        "c": "steroid:C14",
        "s": "steroid:S4",
        "quote": "Before starting medium/high-dose GC treatment, consider comorbidities predisposing to AEs. These include … (risk factors of) glaucoma and osteoporosis.",
-       "strength": "Rec 6 (SoR and LoE are given in Table 2 of the source). Population: medium/high dose",
+       "strength": "Rec 6: SoR VAS 85 (95% CI 76 to 94) on a 0–100 scale; 83% rated it A or B; LoE IV. Population: medium/high dose",
        "confidence": "High"
       },
       {
@@ -1010,7 +1010,7 @@
        "c": "steroid:C66",
        "s": "steroid:S4",
        "quote": "Keep the requirement for continuing GC treatment under constant review, and titrate the dose against therapeutic response, risk of undertreatment and development of AEs",
-       "strength": "Rec 8 (SoR and LoE are given in Table 2 of the source)",
+       "strength": "Rec 8: SoR VAS 82 (95% CI 72 to 94) on a 0–100 scale; 92% rated it A or B; LoE IV",
        "confidence": "High"
       },
       {
@@ -1031,7 +1031,7 @@
        "c": "steroid:C60",
        "s": "steroid:S4",
        "quote": "Risk of adrenal insufficiency is considered to be present if GC therapy is stopped suddenly in chronic users, and in acute situations such as acute illnesses and surgical interventions. … GC therapy should not be stopped without tapering.",
-       "strength": "Rec 4 and its text (SoR and LoE are given in Table 2 of the source). Population: chronic medium/high-dose users",
+       "strength": "Text under Rec 4 (Rec 4: SoR VAS 84 (95% CI 67 to 101) on a 0–100 scale; 92% rated it A or B; LoE IV). Population: chronic medium/high-dose users",
        "confidence": "High"
       }
      ],
@@ -1102,7 +1102,7 @@
       "c": "steroid:C60",
       "s": "steroid:S4",
       "quote": "Risk of adrenal insufficiency is considered to be present if GC therapy is stopped suddenly in chronic users, and in acute situations such as acute illnesses and surgical interventions. … Patients and their treatment teams, including the general practitioner, should be informed on the risk of adrenal insufficiency, and should know how to prevent it.",
-      "strength": "Rec 4 text (SoR and LoE are given in Table 2 of the source)",
+      "strength": "Text under Rec 4 (Rec 4: SoR VAS 84 (95% CI 67 to 101) on a 0–100 scale; 92% rated it A or B; LoE IV)",
       "confidence": "High"
      },
      {
@@ -1193,7 +1193,7 @@
        "c": "C68",
        "s": "S9",
        "quote": "Influenza vaccination should be strongly considered for the majority of patients with AIIRD … Pneumococcal vaccination should be strongly considered for the majority of patients with AIIRD",
-       "strength": "Recommendations 1 and 2 (SoR is given in Table 2 of the source); wording \"strongly considered\"",
+       "strength": "Recommendations 1 and 2 (Table 2): influenza SoR B, LoA 9.4; pneumococcal SoR C, LoA 8.7; both worded \"strongly considered\"",
        "confidence": "High"
       }
      ],
@@ -1355,7 +1355,7 @@
        "c": "C89",
        "s": "S17",
        "quote": "In people with SLE, photoprotection should be advised for the prevention of flares (LoE: 4) … Photoprotection and psychosocial interventions are important for SLE patients",
-       "strength": "LoE 4; LoA 9.6",
+       "strength": "Recommendation 2 for SLE (Table 1): LoE 4, SoR C, LoA 9.2 (SD 1.0)",
        "confidence": "Medium"
       },
       {
