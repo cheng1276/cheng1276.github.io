@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>神秘處方書</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<style id="rx-css">
+/* Layout: phone-first single column. A paper prescription slip (max 560px) sits on a pine-green ground;
+   the slip is the only "object" on the page, everything else is flat on the ground. Single committed look. */
+:root{
+  --ground:#13392c;
+  --ground-deep:#0c2a20;
+  --paper:#fbfaf5;
+  --paper-2:#f1eee4;
+  --ink:#1e2521;
+  --ink-2:#626b65;
+  --rule:#d3d5cc;
+  --rule-strong:#9ba39c;
+  --red:#b5312b;
+  --red-deep:#8f241f;
+  --red-soft:#f8e6e3;
+  --green:#2f7a4f;
+  --gold:#d8a845;
+  --on-ground:#f3efe3;
+  --on-ground-2:#b9c7bf;
+  --fd:"LXGW WenKai TC","Noto Serif TC","PingFang TC","Microsoft JhengHei",serif;
+  --fb:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --fm:ui-monospace,"SF Mono",Menlo,Consolas,"Noto Sans TC",monospace;
+  --radius:6px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{height:100%;background:var(--ground-deep)}
+body{
+  margin:0;min-height:100%;
+  background:var(--ground) linear-gradient(180deg, #1c4a39 0%, var(--ground) 420px, var(--ground-deep) 100%) no-repeat;
+  background-size:100% 100%;
+  color:var(--ink);
+  font-family:var(--fb);font-size:15px;line-height:1.65;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px));
+  padding-block:18px 40px;
+  -webkit-font-smoothing:antialiased;
+}
+#app{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+a{color:var(--red)}
+button{font:inherit}
+h1,h2,h3{margin:0;text-wrap:balance}
+
+/* page header on the ground */
+.top{color:var(--on-ground);text-align:left;padding-block:4px 2px;display:flex;flex-direction:column;gap:2px}
+.eyebrow{font-size:12px;letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
+.top h1{font-family:var(--fd);font-weight:700;font-size:34px;line-height:1.15;letter-spacing:.04em}
+.top .sub{font-size:13px;color:var(--on-ground-2)}
+.prog{display:flex;align-items:center;gap:10px;margin-top:8px;font-size:13px;color:var(--on-ground-2)}
+.prog b{color:var(--on-ground);font-size:16px;font-variant-numeric:tabular-nums}
+.dots{display:inline-flex;gap:6px}
+.dots i{width:11px;height:11px;border-radius:50%;border:1.5px solid var(--gold);display:inline-block}
+.dots i.on{background:var(--gold)}
+.sample{font-size:12px;color:var(--ground-deep);background:var(--gold);border-radius:4px;padding:6px 10px;display:inline-block;width:fit-content;max-width:100%}
+
+/* paper */
+.card{background:var(--paper);border-radius:var(--radius);box-shadow:0 14px 34px rgba(0,0,0,.35);padding:18px 18px 16px;min-width:0}
+.card h2{font-family:var(--fd);font-size:20px;color:var(--ink);letter-spacing:.04em}
+.lead{margin:6px 0 0;color:var(--ink-2);font-size:14px}
+.lbl{font-size:11.5px;letter-spacing:.12em;color:var(--ink-2);text-transform:uppercase}
+
+/* waiting room list */
+.rows{display:flex;flex-direction:column;margin-top:12px;border-top:1px solid var(--rule)}
+.row{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;width:100%;text-align:left;
+  background:none;border:0;border-bottom:1px solid var(--rule);padding:12px 2px;cursor:pointer;color:var(--ink);min-width:0}
+.row:hover{background:var(--paper-2)}
+.row:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.row .no{font-family:var(--fm);font-size:12px;color:var(--ink-2);min-width:3.6em}
+.row .sym{font-family:var(--fd);font-size:17px;line-height:1.35;min-width:0}
+.pill{font-size:11.5px;letter-spacing:.06em;padding:3px 9px;border-radius:999px;border:1px solid var(--rule-strong);color:var(--ink-2);white-space:nowrap}
+.pill.done{background:var(--red);border-color:var(--red);color:#fff}
+.note{margin:12px 0 0;font-size:13px;color:var(--ink-2)}
+.foot{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12.5px;color:var(--on-ground-2);justify-content:center}
+.foot a,.foot button{color:var(--on-ground-2);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+
+/* the slip */
+.slip{position:relative;background:var(--paper);border-radius:var(--radius);box-shadow:0 14px 34px rgba(0,0,0,.35);overflow:hidden;min-width:0}
+.slip-head{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:16px 18px 10px;border-bottom:2px solid var(--red)}
+.slip-head .t{font-family:var(--fd);font-size:28px;font-weight:700;color:var(--red);letter-spacing:.12em;line-height:1}
+.slip-head .t small{display:block;font-family:var(--fb);font-size:10px;letter-spacing:.22em;color:var(--red);margin-top:4px}
+.slip-head .no{font-family:var(--fm);font-size:13px;color:var(--ink-2);text-align:right;line-height:1.4}
+.slip-head .no b{display:block;font-size:17px;color:var(--ink)}
+.holly{width:54px;height:34px;flex:none;align-self:flex-start}
+.slip-body{padding:12px 18px 18px;display:flex;flex-direction:column;gap:10px}
+.f{display:grid;grid-template-columns:5.2em 1fr;gap:4px 10px;align-items:baseline;min-width:0}
+.f .k{font-size:12px;color:var(--ink-2);letter-spacing:.08em;padding-top:3px}
+.f .v{font-family:var(--fd);font-size:17.5px;line-height:1.45;min-width:0;overflow-wrap:anywhere}
+.f .v.strong{font-size:20px;font-weight:700}
+.f .v .hid{display:inline-block;background:repeating-linear-gradient(45deg,var(--paper-2) 0 4px,#e3dfd2 4px 8px);color:var(--ink-2);font-family:var(--fb);font-size:13px;padding:1px 8px;border-radius:3px;vertical-align:middle}
+.rp{display:flex;align-items:center;gap:10px;margin-top:4px}
+.rp .rx{font-family:var(--fd);font-size:24px;font-weight:700;color:var(--red);font-style:italic}
+.rp hr{flex:1;border:0;border-top:1px dashed var(--rule-strong);margin:0}
+.sign{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--ink-2);border-top:1px dashed var(--rule-strong);padding-top:10px;margin-top:4px;flex-wrap:wrap}
+.sign b{font-family:var(--fd);font-weight:400;color:var(--ink);font-size:15px}
+
+/* pickup / challenge */
+.pickup{background:var(--paper-2);border-radius:4px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:8px}
+.pickup p{margin:0;font-size:14px}
+.meta{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--ink-2)}
+.meta b{font-family:var(--fm);color:var(--ink);font-weight:500}
+.inrow{display:flex;gap:8px;min-width:0}
+.inrow input{flex:1;min-width:0}
+input,select,textarea{width:100%;font:inherit;font-size:15px;color:var(--ink);background:#fff;border:1px solid var(--rule-strong);border-radius:4px;padding:9px 11px}
+input.code{font-family:var(--fm);letter-spacing:.12em;text-transform:uppercase}
+textarea{min-height:66px;resize:vertical;line-height:1.5}
+label{display:block;font-size:12.5px;color:var(--ink-2);margin-bottom:4px}
+.btn{border:1px solid var(--rule-strong);background:#fff;color:var(--ink);border-radius:4px;padding:9px 14px;cursor:pointer;white-space:nowrap;line-height:1.3}
+.btn:hover{background:var(--paper-2)}
+.btn.primary{background:var(--red);border-color:var(--red);color:#fff;font-weight:500}
+.btn.primary:hover{background:var(--red-deep)}
+.btn.ghost{background:none;border-color:transparent;color:var(--ink-2);text-decoration:underline;text-underline-offset:3px;padding-inline:4px}
+.btn:disabled{opacity:.55;cursor:default}
+.msg{font-size:13.5px;min-height:1.2em}
+.msg.bad{color:var(--red)}
+.msg.good{color:var(--green)}
+.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:4px}
+
+/* revealed */
+.reveal{position:relative;border:1.5px solid var(--red);border-radius:4px;padding:14px 112px 14px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.reveal .bt{font-family:var(--fd);font-size:22px;font-weight:700;line-height:1.3;overflow-wrap:anywhere}
+.reveal .au{font-size:14px;color:var(--ink-2)}
+.reveal .guide{font-size:14px;margin-top:4px}
+.stamp{position:absolute;right:12px;top:50%;width:92px;height:92px;margin-top:-46px;border:3px double var(--red);border-radius:50%;color:var(--red);
+  display:grid;place-content:center;text-align:center;font-family:var(--fd);font-size:19px;font-weight:700;line-height:1.1;letter-spacing:.06em;
+  transform:rotate(-14deg);opacity:.88;mix-blend-mode:multiply;animation:stamp .5s cubic-bezier(.2,1.4,.4,1) both}
+.stamp small{display:block;font-family:var(--fm);font-size:11px;font-weight:400;letter-spacing:.04em;margin-top:2px}
+@keyframes stamp{from{transform:rotate(-14deg) scale(1.7);opacity:0}to{transform:rotate(-14deg) scale(1);opacity:.88}}
+@media (max-width:380px){.reveal{padding-right:14px;padding-bottom:70px}.stamp{top:auto;bottom:-10px;margin-top:0;width:80px;height:80px;font-size:17px}}
+
+/* certificate */
+.cert{background:var(--paper);border-radius:var(--radius);box-shadow:0 14px 34px rgba(0,0,0,.35);padding:18px;border:6px double var(--gold);position:relative}
+.cert .lbl{color:var(--red)}
+.cert h2{font-family:var(--fd);font-size:26px;letter-spacing:.14em;color:var(--ink);margin-top:2px}
+.cert p{margin:8px 0 0;font-size:14px}
+.cert ul{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px;font-size:14px}
+.cert li{display:grid;grid-template-columns:auto 1fr auto;gap:10px;font-variant-numeric:tabular-nums}
+.cert li .no{font-family:var(--fm);font-size:12px;color:var(--ink-2)}
+.cert li .d{font-family:var(--fm);font-size:12px;color:var(--ink-2)}
+.cert .reward{font-family:var(--fd);font-size:17px;color:var(--red);margin-top:12px}
+
+/* admin */
+.admin{display:flex;flex-direction:column;gap:14px}
+.admin-head{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.admin h3{font-family:var(--fd);font-size:18px;letter-spacing:.04em;margin-top:6px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid .full{grid-column:1 / -1}
+@media (max-width:480px){.grid{grid-template-columns:1fr}}
+details.rxed{border:1px solid var(--rule);border-radius:4px;background:#fff}
+details.rxed summary{cursor:pointer;padding:10px 12px;display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline;list-style:none}
+details.rxed summary::-webkit-details-marker{display:none}
+details.rxed summary .no{font-family:var(--fm);font-size:12px;color:var(--ink-2)}
+details.rxed summary .sym{font-family:var(--fd);font-size:16px}
+details.rxed[open] summary{border-bottom:1px solid var(--rule)}
+details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;background:var(--paper)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.bar{position:sticky;bottom:0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:var(--paper);padding:12px 0 0;border-top:1px solid var(--rule)}
+.codes{width:100%;font-family:var(--fm);font-size:12.5px;min-height:120px;white-space:pre}
+.check{display:flex;align-items:center;gap:8px;font-size:14px}
+.check input{width:18px;height:18px;margin:0}
+@media (prefers-reduced-motion:reduce){.stamp{animation:none}}
+</style>
+<script id="rx-data" type="application/json">
+{
+ "lib": "臺南市立醫院 醫學圖書館",
+ "sample": true,
+ "event": {
+  "name": "神秘處方書",
+  "period": "2026 年 12 月 1 日至 24 日",
+  "intro": "選一個最像你現在狀況的症狀，圖書館藥局會開一張處方。書名先保密，完成領藥挑戰才揭曉。",
+  "goal": 3,
+  "reward": "憑完成證明到櫃台，借期延長 14 天，並可多借 2 冊。",
+  "catalog": "https://library.show.org.tw/holdings?domain=5",
+  "pickupCode": "到館內的「處方書架」找到貼著 {id} 標籤、用牛皮紙包起來的書。包裝裡夾著一張領藥碼卡，輸入卡上的代碼就能領藥。",
+  "pickupQuiz": "到館藏查詢系統找出這本書，再回來輸入答案。"
+ },
+ "rx": [
+  {
+   "id": "RX-01",
+   "symptom": "值完夜班，躺下卻睡不著",
+   "dose": "睡前 10 頁，手機放在另一個房間",
+   "course": "連續 7 晚",
+   "caution": "服用後可能對排班表產生新的看法。",
+   "teaser": "一位睡眠科學家把二十年的研究寫成一本書，說明少睡一小時，身體會在你看不到的地方記帳。",
+   "book": {"title": "為什麼要睡覺？", "author": "Matthew Walker（沃克）", "call": "", "shelf": "", "link": ""},
+   "challenge": {"type": "code", "hint": "", "answers": ["SLP07"]}
+  },
+  {
+   "id": "RX-02",
+   "symptom": "送走一位病人之後，心裡一直放不下",
+   "dose": "每天一章，配一杯熱的",
+   "course": "兩週",
+   "caution": "讀到第六章附近請準備衛生紙。",
+   "teaser": "一位外科醫師寫下醫學在人生終點做得到和做不到的事，以及為什麼「盡力救治」有時不是最好的答案。",
+   "book": {"title": "凝視死亡", "author": "Atul Gawande（葛文德）", "call": "", "shelf": "", "link": ""},
+   "challenge": {"type": "code", "hint": "", "answers": ["MRT12"]}
+  },
+  {
+   "id": "RX-03",
+   "symptom": "想不起來當初為什麼選這一行",
+   "dose": "找一個安靜的下午，一次讀完",
+   "course": "單次療程",
+   "caution": "可能產生想打電話給老朋友的副作用。",
+   "teaser": "一位年輕的神經外科醫師，在站到手術台另一側之後，用剩下的時間寫下這本書。",
+   "book": {"title": "當呼吸化為空氣", "author": "Paul Kalanithi（卡拉尼提）", "call": "", "shelf": "", "link": ""},
+   "challenge": {"type": "quiz", "hint": "作者是一位 36 歲確診肺癌的神經外科住院醫師。到館藏查詢系統找出這本書，輸入它的中文書名。", "answers": ["當呼吸化為空氣", "當呼吸化為", "When Breath Becomes Air"]}
+  },
+  {
+   "id": "RX-04",
+   "symptom": "年底報告寫不出來，手一直滑向手機",
+   "dose": "每次 20 分鐘，計時器響了才能停",
+   "course": "連續 5 天",
+   "caution": "請勿與社群媒體併用。",
+   "teaser": "一位心理學家花了一輩子研究「忘我投入」是怎麼發生的，以及怎麼把它請回來。",
+   "book": {"title": "心流", "author": "Mihaly Csikszentmihalyi（契克森米哈伊）", "call": "", "shelf": "", "link": ""},
+   "challenge": {"type": "code", "hint": "", "answers": ["FLW20"]}
+  },
+  {
+   "id": "RX-05",
+   "symptom": "新年新希望，年年都是同一條",
+   "dose": "每天 1 章，從 1% 開始",
+   "course": "30 天",
+   "caution": "效果在第三週才會出現，請勿提前停藥。",
+   "teaser": "這本書的主張很簡單：不要想一次變成另一個人，先讓今天比昨天好 1%。",
+   "book": {"title": "原子習慣", "author": "James Clear（克利爾）", "call": "", "shelf": "", "link": ""},
+   "challenge": {"type": "code", "hint": "", "answers": ["ATM01"]}
+  },
+  {
+   "id": "RX-06",
+   "symptom": "覺得每天都在跑同一套流程",
+   "dose": "每週二晚上讀一堂",
+   "course": "14 週，趕時間的話一個週末也行",
+   "caution": "服用期間可能想起某一位老師。",
+   "teaser": "一位老教授在生命最後的幾個月，每週二和學生上一堂課。沒有考試，只有作業。",
+   "book": {"title": "最後14堂星期二的課", "author": "Mitch Albom（艾爾邦）", "call": "", "shelf": "", "link": ""},
+   "challenge": {"type": "quiz", "hint": "這位老教授和他的學生每週固定一天上課，一共上了幾堂？到館藏查詢系統找出這本書，輸入書名裡的數字。", "answers": ["14", "十四"]}
+  }
+ ]
+}
+</script>
+<div id="app"></div>
+<script id="rx-js">
+(function(){
+  'use strict';
+  var KEY = 'rx-book-progress-v1';
+  var FONT_LINKS = '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap">\n<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap">';
+  var RESET_FALLBACK = ':root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}';
+  var app = document.getElementById('app');
+
+  var DATA = JSON.parse(document.getElementById('rx-data').textContent);
+  var draft = null;                 // admin working copy
+  var view = { screen: 'home', rxId: null, admin: false, open: {}, msg: {} };
+  var caps = { artifact: null, canEdit: false };
+  var progress = loadProgress();
+
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function loadProgress(){ try { var s = localStorage.getItem(KEY); var p = s ? JSON.parse(s) : null; return (p && p.done) ? p : { done: {} }; } catch(e){ return { done: {} }; } }
+  function saveProgress(){ try { localStorage.setItem(KEY, JSON.stringify(progress)); } catch(e){} }
+  function data(){ return view.admin && draft ? draft : DATA; }
+  function clone(o){ return JSON.parse(JSON.stringify(o)); }
+  function fmtDate(iso){ var d = iso ? new Date(iso) : new Date(); if (isNaN(d)) d = new Date(); return (d.getMonth()+1) + '/' + d.getDate(); }
+  function norm(s){
+    return String(s || '')
+      .replace(/[！-～]/g, function(ch){ return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0); })
+      .replace(/[\s　]/g, '')
+      .replace(/[《》「」『』:：\-–—.!?！？,，、。]/g, '')
+      .toLowerCase();
+  }
+  function doneCount(){ var d = data(); var n = 0; d.rx.forEach(function(r){ if (progress.done[r.id]) n++; }); return n; }
+  function holly(){
+    return '<svg class="holly" viewBox="0 0 64 40" aria-hidden="true">' +
+      '<path d="M8 23 C13 9 26 9 30 19 C23 21 15 26 8 23 Z" fill="var(--green)"/>' +
+      '<path d="M56 23 C51 9 38 9 34 19 C41 21 49 26 56 23 Z" fill="var(--green)"/>' +
+      '<circle cx="32" cy="24" r="4.4" fill="var(--red)"/><circle cx="25.5" cy="30" r="3.8" fill="var(--red)"/><circle cx="38.5" cy="30" r="3.8" fill="var(--red)"/></svg>';
+  }
+
+  /* ---------- reader screens ---------- */
+  function renderHeader(){
+    var d = data(), n = doneCount(), goal = Math.max(1, parseInt(d.event.goal, 10) || 1), dots = '';
+    for (var i = 0; i < goal; i++) dots += '<i class="' + (i < n ? 'on' : '') + '"></i>';
+    return '<header class="top">' +
+      '<div class="eyebrow">' + esc(d.lib) + '</div>' +
+      '<h1>' + esc(d.event.name) + '</h1>' +
+      '<div class="sub">' + esc(d.event.period) + '</div>' +
+      '<div class="prog">已領藥 <b>' + n + '</b> / ' + goal + ' <span class="dots">' + dots + '</span></div>' +
+      (d.sample ? '<div class="sample" style="margin-top:10px">目前是範例書單。請館員到「館員模式」換成本館館藏後發布。</div>' : '') +
+    '</header>';
+  }
+
+  function renderHome(){
+    var d = data(), n = doneCount(), goal = Math.max(1, parseInt(d.event.goal, 10) || 1);
+    var html = renderHeader();
+    if (n >= goal) html += renderCert();
+    html += '<section class="card"><div class="lbl">候診區</div><h2>請選擇最接近的症狀</h2>' +
+      '<p class="lead">' + esc(d.event.intro) + '</p><div class="rows">';
+    d.rx.forEach(function(r){
+      var done = !!progress.done[r.id];
+      html += '<button class="row" type="button" data-act="open" data-id="' + esc(r.id) + '">' +
+        '<span class="no">' + esc(r.id) + '</span>' +
+        '<span class="sym">' + esc(r.symptom) + '</span>' +
+        '<span class="pill ' + (done ? 'done' : '') + '">' + (done ? '已領藥' : '看診') + '</span></button>';
+    });
+    html += '</div><p class="note">集滿 ' + goal + ' 張處方並完成領藥，就會出現「療程完成證明」。' + esc(d.event.reward) + '</p></section>';
+    html += renderFoot();
+    return html;
+  }
+
+  function renderFoot(){
+    var d = data();
+    var showAdmin = caps.canEdit || location.hash === '#admin';
+    return '<footer class="foot">' +
+      '<a href="' + esc(d.event.catalog) + '" target="_blank" rel="noopener">館藏查詢系統</a>' +
+      (view.screen === 'home' ? '<button type="button" data-act="reset">重設我的進度</button>' : '') +
+      (showAdmin ? '<button type="button" data-act="admin">館員模式</button>' : '') +
+    '</footer>';
+  }
+
+  function pickupText(r){
+    var d = data();
+    if (r.challenge.hint) return r.challenge.hint;
+    var t = r.challenge.type === 'quiz' ? d.event.pickupQuiz : d.event.pickupCode;
+    return String(t || '').replace(/\{id\}/g, r.id);
+  }
+
+  function renderRx(r){
+    var d = data();
+    var done = progress.done[r.id];
+    var html = renderHeader();
+    html += '<article class="slip">' +
+      '<div class="slip-head">' +
+        '<div class="t">處方箋<small>PRESCRIPTION</small></div>' +
+        holly() +
+        '<div class="no">No.<b>' + esc(r.id) + '</b></div>' +
+      '</div>' +
+      '<div class="slip-body">' +
+        '<div class="f"><span class="k">主訴</span><span class="v strong">' + esc(r.symptom) + '</span></div>' +
+        '<div class="rp"><span class="rx">Rp.</span><hr></div>' +
+        '<div class="f"><span class="k">藥品</span><span class="v">' + (done ? esc(r.book.title) : '神秘書 ' + esc(r.id) + ' <span class="hid">書名領藥後揭曉</span>') + '</span></div>' +
+        '<div class="f"><span class="k">用法用量</span><span class="v">' + esc(r.dose) + '</span></div>' +
+        '<div class="f"><span class="k">療程</span><span class="v">' + esc(r.course) + '</span></div>' +
+        (r.teaser ? '<div class="f"><span class="k">藥理作用</span><span class="v">' + esc(r.teaser) + '</span></div>' : '') +
+        (r.caution ? '<div class="f"><span class="k">注意事項</span><span class="v">' + esc(r.caution) + '</span></div>' : '') +
+        (done ? renderReveal(r, done) : renderPickup(r)) +
+        '<div class="sign"><span>開方 <b>圖書館藥局</b></span><span>調劑 <b>館員</b></span><span>效期 <b>' + esc(d.event.period) + '</b></span></div>' +
+        '<div class="actions"><button class="btn" type="button" data-act="home">回候診區</button>' +
+        (done ? '<a class="btn" href="' + esc(r.book.link || d.event.catalog) + '" target="_blank" rel="noopener">在館藏查詢系統找這本書</a>' : '') +
+        '</div>' +
+      '</div></article>';
+    html += renderFoot();
+    return html;
+  }
+
+  function renderPickup(r){
+    var isCode = r.challenge.type !== 'quiz';
+    var m = view.msg[r.id] || null;
+    return '<div class="pickup"><div class="lbl">領藥方式</div>' +
+      '<p>' + esc(pickupText(r)) + '</p>' +
+      ((r.book.call || r.book.shelf) ? '<div class="meta">' + (r.book.call ? '<span>索書號 <b>' + esc(r.book.call) + '</b></span>' : '') + (r.book.shelf ? '<span>位置 <b>' + esc(r.book.shelf) + '</b></span>' : '') + '</div>' : '') +
+      '<form data-act="verify" data-id="' + esc(r.id) + '" autocomplete="off">' +
+        '<label for="ans-' + esc(r.id) + '">' + (isCode ? '輸入領藥碼' : '輸入答案') + '</label>' +
+        '<div class="inrow"><input id="ans-' + esc(r.id) + '" name="answer" ' + (isCode ? 'class="code" autocapitalize="characters"' : '') + ' placeholder="' + (isCode ? '例如 AB12' : '') + '" required>' +
+        '<button class="btn primary" type="submit">領藥</button></div>' +
+        '<div class="msg ' + (m ? m.kind : '') + '" aria-live="polite">' + (m ? esc(m.text) : '') + '</div>' +
+      '</form></div>';
+  }
+
+  function renderReveal(r, when){
+    return '<div class="reveal"><div class="lbl">藥品揭曉</div>' +
+      '<div class="bt">' + esc(r.book.title) + '</div>' +
+      (r.book.author ? '<div class="au">' + esc(r.book.author) + '</div>' : '') +
+      ((r.book.call || r.book.shelf) ? '<div class="meta">' + (r.book.call ? '<span>索書號 <b>' + esc(r.book.call) + '</b></span>' : '') + (r.book.shelf ? '<span>位置 <b>' + esc(r.book.shelf) + '</b></span>' : '') + '</div>' : '') +
+      '<div class="guide">請依用法用量服用。借閱請洽櫃台。</div>' +
+      '<div class="stamp">已領藥<small>' + esc(fmtDate(when)) + '</small></div>' +
+    '</div>';
+  }
+
+  function renderCert(){
+    var d = data(), last = null, items = '';
+    d.rx.forEach(function(r){
+      var w = progress.done[r.id]; if (!w) return;
+      if (!last || w > last) last = w;
+      items += '<li><span class="no">' + esc(r.id) + '</span><span>' + esc(r.book.title) + '</span><span class="d">' + esc(fmtDate(w)) + '</span></li>';
+    });
+    return '<section class="cert"><div class="lbl">Certificate</div><h2>療程完成證明</h2>' +
+      '<p>持有人已於本活動期間完成以下處方的領藥。</p><ul>' + items + '</ul>' +
+      '<p class="reward">' + esc(d.event.reward) + '</p>' +
+      '<p style="font-size:12.5px;color:var(--ink-2)">完成時間 ' + esc(last ? new Date(last).toLocaleString('zh-TW', {hour12: false}) : '') + '。請將這個畫面出示給櫃台館員。</p></section>';
+  }
+
+  /* ---------- admin ---------- */
+  function field(label, path, value, opts){
+    opts = opts || {};
+    var id = 'f-' + path.replace(/[^a-z0-9]/gi, '-');
+    var inner;
+    if (opts.type === 'textarea') inner = '<textarea id="' + id + '" data-field="' + esc(path) + '">' + esc(value) + '</textarea>';
+    else if (opts.type === 'select') inner = '<select id="' + id + '" data-field="' + esc(path) + '">' + opts.options.map(function(o){ return '<option value="' + esc(o[0]) + '"' + (o[0] === value ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('') + '</select>';
+    else inner = '<input id="' + id + '" type="' + (opts.type || 'text') + '" data-field="' + esc(path) + '" value="' + esc(value) + '"' + (opts.placeholder ? ' placeholder="' + esc(opts.placeholder) + '"' : '') + '>';
+    return '<div class="' + (opts.full ? 'full' : '') + '"><label for="' + id + '">' + esc(label) + '</label>' + inner + '</div>';
+  }
+
+  function renderAdmin(){
+    var d = draft;
+    var html = '<section class="card admin">' +
+      '<div class="admin-head"><h2>館員模式</h2><button class="btn" type="button" data-act="admin-close">離開</button></div>' +
+      '<p class="lead">' + (hosted() ? '在這裡改活動設定、書單和挑戰。按「發布」後，所有讀者打開的頁面都會換成新版。只有建立這個頁面的帳號登入時才能發布。' : '在這裡改活動設定、書單和挑戰。改完按「下載 index.html」，再到 GitHub 用這個檔案取代原本的 index.html，幾分鐘後讀者就會看到新版。') + '</p>' +
+      '<label class="check"><input type="checkbox" id="f-sample" data-field="sample"' + (d.sample ? ' checked' : '') + '> 這是範例書單（讀者會看到提醒；換成真實館藏後請取消勾選）</label>' +
+      '<h3>活動設定</h3><div class="grid">' +
+        field('圖書館名稱', 'lib', d.lib) +
+        field('活動名稱', 'event.name', d.event.name) +
+        field('活動期間（顯示用）', 'event.period', d.event.period) +
+        field('目標本數', 'event.goal', d.event.goal, {type: 'number'}) +
+        field('候診區說明', 'event.intro', d.event.intro, {type: 'textarea', full: true}) +
+        field('完成獎勵', 'event.reward', d.event.reward, {type: 'textarea', full: true}) +
+        field('館藏查詢網址', 'event.catalog', d.event.catalog, {full: true}) +
+        field('「領藥碼」挑戰的預設說明（{id} 會換成處方編號）', 'event.pickupCode', d.event.pickupCode, {type: 'textarea', full: true}) +
+        field('「問答」挑戰的預設說明', 'event.pickupQuiz', d.event.pickupQuiz, {type: 'textarea', full: true}) +
+      '</div>' +
+      '<h3>處方清單</h3>';
+    d.rx.forEach(function(r, i){ html += renderAdminRx(r, i, d.rx.length); });
+    html += '<div><button class="btn" type="button" data-act="add">新增處方</button></div>';
+    html += '<h3>領藥碼與答案一覽</h3><p class="lead">抄到紙卡、夾進包好的書裡。問答題的答案也列在這裡，方便櫃台查核。</p>' +
+      '<textarea class="codes" id="codes" readonly>' + esc(codesText()) + '</textarea>' +
+      '<div class="tools"><button class="btn" type="button" data-act="copy-codes">複製清單</button><button class="btn" type="button" data-act="copy-json">複製全部設定</button></div>' +
+      '<div class="bar">' + (hosted() ? '<button class="btn primary" type="button" data-act="publish">發布</button>' : '<button class="btn primary" type="button" data-act="download">下載 index.html</button>') + '<button class="btn" type="button" data-act="preview">先看看讀者畫面</button>' +
+      '<div class="msg ' + (view.msg.pub ? view.msg.pub.kind : '') + '" id="pubmsg" aria-live="polite">' + (view.msg.pub ? esc(view.msg.pub.text) : '') + '</div></div>' +
+    '</section>';
+    return html;
+  }
+
+  function renderAdminRx(r, i, total){
+    var p = 'rx.' + i + '.';
+    return '<details class="rxed" data-id="' + esc(r.id) + '"' + (view.open[r.id] ? ' open' : '') + '>' +
+      '<summary><span class="no">' + esc(r.id) + '</span><span class="sym">' + esc(r.symptom || '（尚未填寫症狀）') + '</span></summary>' +
+      '<div class="body"><div class="grid">' +
+        field('症狀（主訴）', p + 'symptom', r.symptom, {full: true}) +
+        field('用法用量', p + 'dose', r.dose) +
+        field('療程', p + 'course', r.course) +
+        field('藥理作用（為什麼開這本，不要洩漏書名）', p + 'teaser', r.teaser, {type: 'textarea', full: true}) +
+        field('注意事項', p + 'caution', r.caution, {full: true}) +
+        field('書名', p + 'book.title', r.book.title) +
+        field('作者', p + 'book.author', r.book.author) +
+        field('索書號（可留空）', p + 'book.call', r.book.call) +
+        field('位置（可留空）', p + 'book.shelf', r.book.shelf) +
+        field('這本書在館藏系統的網址（可留空，會改連到館藏查詢首頁）', p + 'book.link', r.book.link, {full: true}) +
+        field('挑戰類型', p + 'challenge.type', r.challenge.type, {type: 'select', options: [['code', '書中領藥碼'], ['quiz', '問答（例如到館藏查詢找書名）']]}) +
+        field('領藥碼或答案（多個用逗號分隔）', p + 'challenge.answers', r.challenge.answers.join(', '), {placeholder: '例如 AB12'}) +
+        field('挑戰說明（留空就用上面的預設說明）', p + 'challenge.hint', r.challenge.hint, {type: 'textarea', full: true}) +
+      '</div><div class="tools">' +
+        '<button class="btn" type="button" data-act="up" data-i="' + i + '"' + (i === 0 ? ' disabled' : '') + '>上移</button>' +
+        '<button class="btn" type="button" data-act="down" data-i="' + i + '"' + (i === total - 1 ? ' disabled' : '') + '>下移</button>' +
+        '<button class="btn" type="button" data-act="del" data-i="' + i + '">刪除</button>' +
+      '</div></div></details>';
+  }
+
+  function codesText(){
+    return draft.rx.map(function(r){ return r.id + '\t' + (r.challenge.type === 'quiz' ? '問答' : '領藥碼') + '\t' + r.challenge.answers.join(' / ') + '\t' + r.book.title; }).join('\n');
+  }
+
+  function setPath(obj, path, value){
+    var parts = path.split('.'), o = obj;
+    for (var i = 0; i < parts.length - 1; i++) { var k = parts[i]; if (o[k] == null) o[k] = /^\d+$/.test(parts[i + 1]) ? [] : {}; o = o[k]; }
+    o[parts[parts.length - 1]] = value;
+  }
+
+  function nextId(){
+    var used = {}; draft.rx.forEach(function(r){ used[r.id] = 1; });
+    for (var n = 1; n < 1000; n++) { var id = 'RX-' + (n < 10 ? '0' + n : n); if (!used[id]) return id; }
+    return 'RX-' + Date.now();
+  }
+
+  function buildDocument(state){
+    var css = document.getElementById('rx-css').textContent;
+    var js = document.getElementById('rx-js').textContent;
+    var json = JSON.stringify(state, null, 1).replace(/</g, '\\u003c');
+    var reset = RESET_FALLBACK;
+    try { var s = document.head && document.head.querySelector('style'); if (s && /\[hidden\]/.test(s.textContent)) reset = s.textContent; } catch(e){}
+    var content = '<title>神秘處方書</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n' + FONT_LINKS +
+      '\n<style id="rx-css">' + css + '</style>\n' +
+      '<script id="rx-data" type="application/json">\n' + json + '\n<\/script>\n' +
+      '<div id="app"></div>\n' +
+      '<script id="rx-js">' + js + '<\/script>';
+    return '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>' + reset + '</style></head><body>' + content + '</body></html>';
+  }
+
+  function setMsg(key, kind, text){ view.msg[key] = { kind: kind, text: text }; }
+  function hosted(){ return !!(window.claude && typeof window.claude.use === 'function'); }
+
+  function download(){
+    /* self-hosted copy (GitHub Pages etc.): hand the librarian a complete index.html with the new settings */
+    try {
+      var blob = new Blob([buildDocument(draft)], { type: 'text/html' });
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a'); a.href = url; a.download = 'index.html';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function(){ URL.revokeObjectURL(url); }, 3000);
+      setMsg('pub', 'good', '已下載 index.html。到 GitHub 把舊的 index.html 換成這個檔案，幾分鐘後讀者就會看到新版。');
+    } catch(e){
+      setMsg('pub', 'bad', '這個瀏覽器無法下載。請按「複製全部設定」，把內容貼到 index.html 的 rx-data 區塊。');
+    }
+    render();
+  }
+
+  function publish(){
+    setMsg('pub', '', '發布中…'); render();
+    if (!caps.artifact) {
+      setMsg('pub', 'bad', '這個瀏覽器沒有以頁面擁有者的帳號登入，無法發布。請用建立此頁面的帳號登入後再試；或按「複製全部設定」把內容貼給 Claude 請它更新。');
+      render(); return;
+    }
+    try { sessionStorage.setItem('rx-book-admin-return', '1'); } catch(e){}
+    caps.artifact.publish(buildDocument(draft)).then(function(){
+      setMsg('pub', 'good', '已發布，頁面即將重新載入。'); render();
+    }).catch(function(e){
+      var code = e && e.code;
+      try { sessionStorage.removeItem('rx-book-admin-return'); } catch(err){}
+      if (code === 'conflict') setMsg('pub', '', '另一個人剛剛發布了新版本，頁面會重新載入成最新版。');
+      else if (code === 'not_writer' || code === 'not_granted') { caps.artifact = null; setMsg('pub', 'bad', '你目前的帳號只能看、不能改這個頁面。請用建立此頁面的帳號登入。'); }
+      else if (code === 'too_large') setMsg('pub', 'bad', '內容太大，請刪掉一些文字再試。');
+      else if (code === 'rate_limited') setMsg('pub', 'bad', '發布太頻繁，請等一下再試。');
+      else setMsg('pub', 'bad', '發布失敗（' + (code || '未知原因') + '），請再試一次。');
+      render();
+    });
+  }
+
+  function copyText(text, key){
+    var ok = function(){ setMsg(key, 'good', '已複製。'); render(); };
+    var fail = function(){ var ta = document.getElementById('codes'); if (ta) { ta.focus(); ta.select(); } setMsg(key, '', '無法自動複製，請長按文字框手動複製。'); render(); };
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(ok, fail); else fail();
+    } catch(e){ fail(); }
+  }
+
+  /* ---------- render & events ---------- */
+  function render(){
+    var html;
+    if (view.admin) html = renderAdmin();
+    else if (view.screen === 'rx') {
+      var r = null; data().rx.forEach(function(x){ if (x.id === view.rxId) r = x; });
+      html = r ? renderRx(r) : renderHome();
+    } else html = renderHome();
+    app.innerHTML = html;
+    var dets = app.querySelectorAll('details.rxed');
+    for (var i = 0; i < dets.length; i++) dets[i].addEventListener('toggle', function(e){ view.open[e.target.getAttribute('data-id')] = e.target.open; });
+    if (view.admin) { var pm = document.getElementById('codes'); if (pm) pm.value = codesText(); }
+  }
+
+  app.addEventListener('click', function(e){
+    var el = e.target.closest('[data-act]'); if (!el) return;
+    var act = el.getAttribute('data-act'); if (act === 'verify') return;
+    e.preventDefault();
+    if (act === 'open') { view.screen = 'rx'; view.rxId = el.getAttribute('data-id'); render(); window.scrollTo(0, 0); }
+    else if (act === 'home') { view.screen = 'home'; view.rxId = null; render(); window.scrollTo(0, 0); }
+    else if (act === 'reset') { progress = { done: {} }; saveProgress(); render(); }
+    else if (act === 'admin') { draft = clone(DATA); view.admin = true; view.msg.pub = null; render(); window.scrollTo(0, 0); }
+    else if (act === 'admin-close') { view.admin = false; draft = null; view.screen = 'home'; render(); window.scrollTo(0, 0); }
+    else if (act === 'preview') {
+      /* apply the draft locally so the librarian sees the reader view; publish is still needed for readers */
+      DATA = clone(draft); view.admin = false; view.screen = 'home'; view.msg.pub = null; render(); window.scrollTo(0, 0);
+    }
+    else if (act === 'add') {
+      var id = nextId();
+      draft.rx.push({ id: id, symptom: '', dose: '', course: '', caution: '', teaser: '', book: { title: '', author: '', call: '', shelf: '', link: '' }, challenge: { type: 'code', hint: '', answers: [] } });
+      view.open[id] = true; render();
+    }
+    else if (act === 'del') { var i = +el.getAttribute('data-i'); draft.rx.splice(i, 1); render(); }
+    else if (act === 'up' || act === 'down') {
+      var k = +el.getAttribute('data-i'), j = act === 'up' ? k - 1 : k + 1;
+      if (j < 0 || j >= draft.rx.length) return;
+      var t = draft.rx[k]; draft.rx[k] = draft.rx[j]; draft.rx[j] = t; render();
+    }
+    else if (act === 'publish') publish();
+    else if (act === 'download') download();
+    else if (act === 'copy-codes') copyText(codesText(), 'pub');
+    else if (act === 'copy-json') copyText(JSON.stringify(draft, null, 1), 'pub');
+  });
+
+  app.addEventListener('submit', function(e){
+    var form = e.target.closest('form[data-act="verify"]'); if (!form) return;
+    e.preventDefault();
+    var id = form.getAttribute('data-id'), r = null; data().rx.forEach(function(x){ if (x.id === id) r = x; });
+    if (!r) return;
+    var input = form.querySelector('input[name="answer"]');
+    var ni = norm(input && input.value);
+    var ok = r.challenge.answers.some(function(a){ var na = norm(a); return na && (ni === na || (na.length >= 3 && ni.indexOf(na) >= 0)); });
+    if (ok) {
+      progress.done[r.id] = new Date().toISOString(); saveProgress(); view.msg[r.id] = null; render(); window.scrollTo(0, 0);
+    } else {
+      setMsg(r.id, 'bad', r.challenge.type === 'quiz' ? '答案不對，再找找看。提示就在上面的「領藥方式」。' : '領藥碼不對。請確認卡片上的代碼，大小寫不限。');
+      render();
+      var again = document.getElementById('ans-' + r.id); if (again) { again.value = input ? input.value : ''; again.focus(); }
+    }
+  });
+
+  app.addEventListener('input', onField);
+  app.addEventListener('change', onField);
+  function onField(e){
+    var el = e.target; var path = el.getAttribute && el.getAttribute('data-field'); if (!path || !draft) return;
+    var v;
+    if (el.type === 'checkbox') v = el.checked;
+    else if (el.type === 'number') v = parseInt(el.value, 10) || 1;
+    else if (/challenge\.answers$/.test(path)) v = el.value.split(/[,，、\n]/).map(function(s){ return s.trim(); }).filter(Boolean);
+    else v = el.value;
+    setPath(draft, path, v);
+    if (e.type === 'change' && (/challenge\./.test(path) || /book\.title$/.test(path))) { var ta = document.getElementById('codes'); if (ta) ta.value = codesText(); }
+    if (e.type === 'input' && /symptom$/.test(path)) { var det = el.closest('details.rxed'); var sym = det && det.querySelector('summary .sym'); if (sym) sym.textContent = el.value || '（尚未填寫症狀）'; }
+  }
+
+  /* ---------- boot ---------- */
+  render();
+  window.addEventListener('hashchange', function(){ if (!view.admin) render(); });
+  try { if (sessionStorage.getItem('rx-book-admin-return')) { sessionStorage.removeItem('rx-book-admin-return'); view.pendingAdminNote = true; } } catch(e){}
+
+  (function lightUp(){
+    if (!(window.claude && typeof window.claude.use === 'function')) return;
+    window.claude.use('user').then(function(user){
+      if (!user) return false; return user.canEdit();
+    }).then(function(can){
+      caps.canEdit = !!can;
+      return window.claude.use('artifact');
+    }).then(function(art){
+      caps.artifact = art || null;
+      if (view.pendingAdminNote && caps.canEdit) { draft = clone(DATA); view.admin = true; setMsg('pub', 'good', '已發布最新版本。'); view.pendingAdminNote = false; }
+      render();
+    }).catch(function(){ render(); });
+  })();
+})();
+</script>
+
+</body>
+</html>
