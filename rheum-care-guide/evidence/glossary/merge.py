@@ -227,6 +227,7 @@ def main():
         for x in entry['evidence']:
             assert not x.get('pmid') or str(x['pmid']) in pm_src, (tid, 'evidence PMID without source', x.get('pmid'))
         out.append(entry)
+    postfix_2026_10_14.check_all_used(out)
     # alias collisions
     seen = {}
     for e in out:

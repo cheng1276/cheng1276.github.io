@@ -52,7 +52,7 @@
        "c": "C34",
        "s": "S6",
        "quote": "Certain drugs can cause or aggravate chronic urticaria and/or angioedema, and hence, a detailed drug history is mandatory.",
-       "strength": "Not graded in the accessible text",
+       "strength": "Executive summary and recommendations (no grade given for this bullet)",
        "confidence": "High"
       }
      ],
@@ -115,7 +115,7 @@
        "c": "C21",
        "s": "S6",
        "quote": "Common triggers/aggravating factors/associations for exacerbations of chronic urticaria are intercurrent viral infections",
-       "strength": "Not graded in the accessible text",
+       "strength": "Aetiology section (narrative text)",
        "confidence": "High"
       }
      ],
@@ -130,14 +130,14 @@
       "c": "C24",
       "s": "S2",
       "quote": "Nonsteroidal anti-inflammatory drugs, heat, and tight clothing might exacerbate CU in some patients, and avoidance of these factors might be beneficial.",
-      "strength": "Strength not found in accessible text (the numbered Summary Statements are online-only)",
+      "strength": "Executive summary text; the strength grades are given with the numbered Summary Statements, published online only",
       "confidence": "High"
      },
      {
       "c": "C23",
       "s": "S6",
       "quote": "Alcohol can aggravate CU by its effect of vasodilation",
-      "strength": "Not graded in the accessible text",
+      "strength": "Avoidance strategies section (narrative text)",
       "confidence": "High"
      }
     ],
@@ -200,7 +200,7 @@
        "c": "C51",
        "s": "S2",
        "quote": "…with cold urticaria might have systemic reactions associated with systemic cold exposure (eg, aquatic activities).",
-       "strength": "Strength not found",
+       "strength": "Executive summary text; the strength grades are given with the numbered Summary Statements, published online only",
        "confidence": "High"
       },
       {
@@ -673,7 +673,7 @@
      "c": "C58",
      "s": "S2",
      "quote": "Avoidance of pseudoallergens in the diet is not recommended.",
-     "strength": "Strength not found in accessible text",
+     "strength": "Executive summary text; the strength grades are given with the numbered Summary Statements, published online only",
      "confidence": "High"
     }
    ],
@@ -725,7 +725,7 @@
      "c": "C82",
      "s": "S2",
      "quote": "Urticaria/angioedema associated with signs and symptoms in organs other than the skin, such as the pulmonary tract (wheezing and cough), gastrointestinal system (vomiting and diarrhea), nervous system (dizziness and loss of consciousness), or cardiac system (changes in blood pressure or heart rate), can occur in patients with anaphylaxis.",
-     "strength": "Strength not found",
+     "strength": "Executive summary text; the strength grades are given with the numbered Summary Statements, published online only",
      "confidence": "High"
     },
     {
@@ -746,7 +746,7 @@
      "c": "C46",
      "s": "S2",
      "quote": "Urticaria provoked by exercise can occur in patients with 2 conditions: cholinergic urticaria or exercise-induced anaphylaxis (EIAn). … It is important to distinguish EIAn from cholinergic urticaria.",
-     "strength": "Strength not found",
+     "strength": "Executive summary text; the strength grades are given with the numbered Summary Statements, published online only",
      "confidence": "High"
     },
     {
@@ -774,7 +774,7 @@
      "c": "C37",
      "s": "S2",
      "quote": "Patients with recurrent angioedema in the absence of coexisting urticaria should be evaluated for hereditary angioedema, acquired C1 inhibitor deficiency, or angiotensin-converting enzyme inhibitor–associated angioedema before a diagnosis of idiopathic angioedema is made.",
-     "strength": "Strength not found",
+     "strength": "Executive summary text; the strength grades are given with the numbered Summary Statements, published online only",
      "confidence": "High"
     },
     {

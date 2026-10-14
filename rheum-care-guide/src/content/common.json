@@ -371,7 +371,7 @@
        "c": "cardio:C4",
        "s": "cardio:S3",
        "quote": "Clinicians should be aware of the higher risk for CVD in patients with RA compared with the general population. This may also apply to AS and PsA",
-       "strength": "First overarching principle (Table 1, publisher PDF; no LoE/SoR/LoA for principles)",
+       "strength": "First overarching principle (Table 1; no LoE/SoR/LoA for principles)",
        "confidence": "High"
       },
       {
@@ -420,7 +420,7 @@
        "c": "cardio:C31",
        "s": "cardio:S3",
        "quote": "CVD risk assessment is recommended for all patients with RA, AS or PsA at least once every 5 years and should be reconsidered following major changes in antirheumatic therapy (changed, LOA 8.8 (1.1)). … However, if the risk is intermediate rescreening may be done sooner, especially if disease progression is more rapid.",
-       "strength": "Rec 2: LoE 3–4, SoR C, LoA 8.8 (1.1) (Table 1, publisher PDF). Second sentence: supporting text",
+       "strength": "Rec 2: LoE 3–4, SoR C, LoA 8.8 (1.1) (Table 1). Second sentence: supporting text",
        "confidence": "High"
       },
       {
@@ -469,7 +469,7 @@
        "c": "cardio:C53",
        "s": "cardio:S3",
        "quote": "For the management of hypertension and hyperlipidaemia, there is no evidence that treatment thresholds should differ in patients with IJD compared with the general population.",
-       "strength": "Text under rec 8 (rec 8: LoE 3–4, SoR C–D, LoA 9.2 (1.3)); full sentence as in the publisher PDF",
+       "strength": "Text under rec 8 (rec 8: LoE 3–4, SoR C–D, LoA 9.2 (1.3))",
        "confidence": "High"
       },
       {
@@ -490,7 +490,7 @@
        "c": "cardio:C55",
        "s": "cardio:S3",
        "quote": "Lifestyle recommendations should emphasise the benefits of a healthy diet, regular exercise and smoking cessation (changed, LOA 9.8 (0.3)).",
-       "strength": "Rec 7: LoE 3, SoR C, LoA 9.8 (0.3) (RA, AS, PsA; Table 1, publisher PDF)",
+       "strength": "Rec 7: LoE 3, SoR C, LoA 9.8 (0.3) (RA, AS, PsA; Table 1)",
        "confidence": "High"
       },
       {
@@ -553,7 +553,7 @@
        "c": "cardio:C69",
        "s": "cardio:S3",
        "quote": "Disease activity should be controlled optimally in order to lower CVD risk in all patients with RA, AS or PsA (unchanged, LOA 9.1 (1.3)).",
-       "strength": "Rec 1: LoE 2b-3, SoR B, LoA 9.1 (1.3) (Table 1, publisher PDF)",
+       "strength": "Rec 1: LoE 2b-3, SoR B, LoA 9.1 (1.3) (Table 1)",
        "confidence": "High"
       },
       {
@@ -609,14 +609,14 @@
        "c": "cardio:C77",
        "s": "cardio:S3",
        "quote": "Corticosteroids rapidly and effectively reduce inflammation in RA, but they have also been associated with an increased CVD risk, although the literature shows conflicting results. … Since the 2009 recommendations, new studies have found a dose-dependent and duration-dependent increase in CVD risk associated with corticosteroid use in RA. … In other words, steroids may help to abrogate the harmful effect of inflammation on the cardiovascular system, but they will still carry their own adverse effects on CVD risk. … Altogether, from a CVD prevention point of view, the lowest effective dose of corticosteroids should be prescribed for the shortest possible duration in the treatment of active IJD.",
-       "strength": "Text supporting rec 10; all four sentences, including 'In other words…', as in the publisher PDF",
+       "strength": "Text supporting rec 10",
        "confidence": "High"
       },
       {
        "c": "cardio:C76",
        "s": "cardio:S3",
        "quote": "Corticosteroids: for prolonged treatment, the glucocorticoid dosage should be kept to a minimum, and a glucocorticoid taper should be attempted in case of remission or low disease activity; the reasons to continue glucocorticoid therapy should be regularly checked (unchanged, LOA 9.5 (0.7)).",
-       "strength": "Rec 10: LoE 3–4, SoR C, LoA 9.5 (0.7) (Table 1, publisher PDF)",
+       "strength": "Rec 10: LoE 3–4, SoR C, LoA 9.5 (0.7) (Table 1)",
        "confidence": "High"
       },
       {
@@ -644,7 +644,7 @@
        "c": "steroid:C60",
        "s": "steroid:S4",
        "quote": "… GC therapy should not be stopped without tapering.",
-       "strength": "Rec 4 text; strength not found in accessible text",
+       "strength": "Rec 4 text (SoR and LoE are given in Table 2 of the source)",
        "confidence": "High"
       }
      ],
@@ -659,7 +659,7 @@
       "c": "cardio:C85",
       "s": "cardio:S3",
       "quote": "Prescription of NSAIDs in RA and PsA should be given with caution, especially for patients with documented CVD or in the presence of CVD risk factors (changed, LOA 8.9 (2.1)).",
-      "strength": "Rec 9: LoE 2a-3, SoR C, LoA 8.9 (2.1) (Table 1, publisher PDF)",
+      "strength": "Rec 9: LoE 2a-3, SoR C, LoA 8.9 (2.1) (Table 1)",
       "confidence": "High"
      },
      {
@@ -680,7 +680,7 @@
       "c": "cardio:C87",
       "s": "cardio:S3",
       "quote": "For patients with AS, NSAIDs are recommended as first-line drug treatment by the ASAS/EULAR group in the recommendations for the management of pain and stiffness in patients with AS, and an individual clinical evaluation regarding NSAIDs use in patients with AS with established CVD is therefore needed.",
-      "strength": "Text under rec 9; full sentence as in the publisher PDF",
+      "strength": "Text under rec 9",
       "confidence": "High"
      },
      {
@@ -807,7 +807,7 @@
       "c": "C59",
       "s": "S8",
       "quote": "General measures are recommended for all patients who are being prescribed GCs for ≥3 months, ie, … and the risk of falls be minimized.",
-      "strength": "Strength not found in accessible text",
+      "strength": "Quoted from the abstract, which gives no strength of recommendation",
       "confidence": "Medium"
      }
     ],
@@ -835,7 +835,7 @@
        "c": "steroid:C12",
        "s": "steroid:S4",
        "quote": "All patients should have appropriate monitoring for clinically significant AEs. The treating physician should be aware of the possible occurrence of diabetes, hypertension, weight gain, infections, osteoporotic fractures, osteonecrosis, myopathy, eye problems, skin problems and neuropsychological AEs",
-       "strength": "Rec 9; strength not found in accessible text; text says \"based on expert opinion only\". Population: medium/high dose",
+       "strength": "Rec 10 (SoR and LoE are given in Table 2 of the source); the text says \"based on expert opinion only\". Population: medium/high dose",
        "confidence": "High"
       },
       {
@@ -870,7 +870,7 @@
        "c": "steroid:C1",
        "s": "steroid:S4",
        "quote": "For several AEs it has been proven that the occurrence depends on dose and duration of GC treatment … so these factors should dictate what to monitor and how often.",
-       "strength": "Narrative under Rec 9 (strength not found in accessible text)",
+       "strength": "Narrative under Rec 10",
        "confidence": "High"
       },
       {
@@ -919,7 +919,7 @@
        "c": "steroid:C14",
        "s": "steroid:S4",
        "quote": "Before starting medium/high-dose GC treatment, consider comorbidities predisposing to AEs. These include diabetes, glucose intolerance, … In case comorbidities are present, tight control (ie, more intensive monitoring and adjusting medication, if needed) is recommended.",
-       "strength": "Rec 6 and its text; strength not found in accessible text. Population: medium/high dose",
+       "strength": "Rec 6 and its text (SoR and LoE are given in Table 2 of the source). Population: medium/high dose",
        "confidence": "High"
       },
       {
@@ -975,7 +975,7 @@
        "c": "steroid:C14",
        "s": "steroid:S4",
        "quote": "Before starting medium/high-dose GC treatment, consider comorbidities predisposing to AEs. These include … (risk factors of) glaucoma and osteoporosis.",
-       "strength": "Rec 6; strength not found in accessible text. Population: medium/high dose",
+       "strength": "Rec 6 (SoR and LoE are given in Table 2 of the source). Population: medium/high dose",
        "confidence": "High"
       },
       {
@@ -1010,7 +1010,7 @@
        "c": "steroid:C66",
        "s": "steroid:S4",
        "quote": "Keep the requirement for continuing GC treatment under constant review, and titrate the dose against therapeutic response, risk of undertreatment and development of AEs",
-       "strength": "Rec 8; strength not found in accessible text",
+       "strength": "Rec 8 (SoR and LoE are given in Table 2 of the source)",
        "confidence": "High"
       },
       {
@@ -1031,7 +1031,7 @@
        "c": "steroid:C60",
        "s": "steroid:S4",
        "quote": "Risk of adrenal insufficiency is considered to be present if GC therapy is stopped suddenly in chronic users, and in acute situations such as acute illnesses and surgical interventions. … GC therapy should not be stopped without tapering.",
-       "strength": "Rec 4 and its text; strength not found in accessible text. Population: chronic medium/high-dose users",
+       "strength": "Rec 4 and its text (SoR and LoE are given in Table 2 of the source). Population: chronic medium/high-dose users",
        "confidence": "High"
       }
      ],
@@ -1045,7 +1045,7 @@
        "c": "steroid:C73",
        "s": "steroid:S6",
        "quote": "Patients should be informed that glucocorticoid withdrawal symptoms are expected to occur during the glucocorticoid dose reduction and what the differences are between glucocorticoid withdrawal syndrome, adrenal insufficiency, and underlying disease flare. … Patients should be educated on symptoms of glucocorticoid withdrawal to avoid anxiety related to unexpected symptoms or reactive, unnecessary, or excessive increase in glucocorticoids.",
-       "strength": "Narrative under R 2.3 (Good clinical practice); PMC copy and JCEM publisher PDF; basis for 「加量要依醫師交代」",
+       "strength": "Narrative under R 2.3 (Good clinical practice); basis for 「加量要依醫師交代」",
        "confidence": "High"
       },
       {
@@ -1059,14 +1059,14 @@
        "c": "steroid:C74",
        "s": "steroid:S6",
        "quote": "General malaise, fatigue, nausea, muscle and joint pain, sleep disturbances, mood change … General malaise, fatigue, nausea, muscle and joint pain … Depending on condition (eg, joint pain in rheumatoid arthritis). Common overlapping symptoms (general malaise, fatigue)",
-       "strength": "Table 5, symptoms row: withdrawal syndrome / adrenal insufficiency / underlying condition (PMC copy and JCEM publisher PDF)",
+       "strength": "Table 5, symptoms row: withdrawal syndrome / adrenal insufficiency / underlying condition",
        "confidence": "High"
       },
       {
        "c": "steroid:C76",
        "s": "steroid:S6",
        "quote": "Patients with glucocorticoid-induced adrenal insufficiency may be asymptomatic at baseline conditions but can develop symptoms—from mild to life-threatening adrenal crisis—when exposed to potential triggers … When present, symptoms of adrenal insufficiency are often non-specific and can overlap with those of the disease for which glucocorticoids are prescribed. Recurrence of underlying autoimmune diseases can occur during tapering of exogenous glucocorticoids.",
-       "strength": "Table 5 footnote (general remarks); PMC copy and JCEM publisher PDF; symptoms range from mild to life-threatening adrenal crisis",
+       "strength": "Table 5 footnote (general remarks); symptoms range from mild to life-threatening adrenal crisis",
        "confidence": "High"
       },
       {
@@ -1102,7 +1102,7 @@
       "c": "steroid:C60",
       "s": "steroid:S4",
       "quote": "Risk of adrenal insufficiency is considered to be present if GC therapy is stopped suddenly in chronic users, and in acute situations such as acute illnesses and surgical interventions. … Patients and their treatment teams, including the general practitioner, should be informed on the risk of adrenal insufficiency, and should know how to prevent it.",
-      "strength": "Rec 4 text; strength not found in accessible text",
+      "strength": "Rec 4 text (SoR and LoE are given in Table 2 of the source)",
       "confidence": "High"
      },
      {
@@ -1144,14 +1144,14 @@
        "c": "C66",
        "s": "S9",
        "quote": "Non-live vaccines can be administered to patients with AIIRD during the use of glucocorticoids and DMARDs",
-       "strength": "Strength not found",
+       "strength": "Overarching principle 5 (principles carry no strength of recommendation)",
        "confidence": "High"
       },
       {
        "c": "C65",
        "s": "S9",
        "quote": "Vaccines should be preferably administered prior to planned immunosuppression, in particular B cell depleting therapy",
-       "strength": "Strength not found",
+       "strength": "Overarching principle 4 (principles carry no strength of recommendation)",
        "confidence": "High"
       }
      ],
@@ -1172,7 +1172,7 @@
        "c": "C67",
        "s": "S9",
        "quote": "Live-attenuated vaccines may be considered with caution in patients with AIIRD",
-       "strength": "Strength not found",
+       "strength": "Overarching principle 6 (principles carry no strength of recommendation)",
        "confidence": "High"
       },
       {
@@ -1193,7 +1193,7 @@
        "c": "C68",
        "s": "S9",
        "quote": "Influenza vaccination should be strongly considered for the majority of patients with AIIRD … Pneumococcal vaccination should be strongly considered for the majority of patients with AIIRD",
-       "strength": "Strength not found (wording \"strongly considered\")",
+       "strength": "Recommendations 1 and 2 (SoR is given in Table 2 of the source); wording \"strongly considered\"",
        "confidence": "High"
       }
      ],
@@ -1243,14 +1243,14 @@
       "c": "C62",
       "s": "S9",
       "quote": "The vaccination status and indications for further vaccination in patients with AIIRD should be assessed yearly by the rheumatology team … The former address the need for an annual vaccination status assessment, shared decision-making and timing of vaccination",
-      "strength": "Strength not found in accessible text (Table 1 not included)",
+      "strength": "Overarching principle 1 (principles carry no strength of recommendation)",
       "confidence": "High"
      },
      {
       "c": "C63",
       "s": "S9",
       "quote": "The individualised vaccination programme should be explained to the patient by the rheumatology team, providing a basis for shared decision-making, and be jointly implemented by the primary care physician, the rheumatology team and the patient",
-      "strength": "Strength not found",
+      "strength": "Overarching principle 2 (principles carry no strength of recommendation)",
       "confidence": "High"
      },
      {
@@ -1355,7 +1355,7 @@
        "c": "C89",
        "s": "S17",
        "quote": "In people with SLE, photoprotection should be advised for the prevention of flares (LoE: 4) … Photoprotection and psychosocial interventions are important for SLE patients",
-       "strength": "LoE 4; LoA 9.6; SoR not found",
+       "strength": "LoE 4; LoA 9.6",
        "confidence": "Medium"
       },
       {
