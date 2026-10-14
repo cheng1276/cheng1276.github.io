@@ -576,7 +576,7 @@
        "c": "common:C77",
        "s": "common:S10",
        "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression.",
-       "strength": "Conditional; \"Very low\" (Table 7). Same quote as on the 共通照護 page's 「疫苗接種」 card, which also says 「延後」; the direction ('deferring') is as in the ACR-hosted manuscript and the Discussion.",
+       "strength": "Conditional; \"Very low\" (Table 7). The 共通照護 page's 「疫苗接種」 card quotes the same ACR passage (plus a sentence on inactivated alternatives) and also says 「延後」; the direction ('deferring') is as in the ACR-hosted manuscript and the Discussion.",
        "confidence": "High"
       },
       {
@@ -712,7 +712,7 @@
       "c": "EDITORIAL",
       "s": "",
       "quote": "",
-      "strength": "Editorial safety tip: see a doctor promptly; the doctor decides whether to pause or adjust medicines; only glucocorticoids carry an absolute 'do not stop'. No source gives patients a rule for pausing drugs during a non-serious infection.",
+      "strength": "Editorial safety tip: see a doctor promptly; the doctor decides whether to pause or adjust medicines; the tip gives an absolute 'do not stop' only for glucocorticoids, whose sudden withdrawal can bring on adrenal crisis (C65). No source gives patients a rule for pausing drugs during a non-serious infection.",
       "confidence": "EDITORIAL"
      },
      {

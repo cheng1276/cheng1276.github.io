@@ -173,7 +173,7 @@
        "c": "C15",
        "s": "S29",
        "quote": "我國每日飲食指南建議每人每日應攝取1.5-2杯低脂乳品，每杯240 c.c.的低脂乳品約含240 mg的鈣質。",
-       "strength": "National agency statement (HPA press release 2014-01-23). Used only for the cup volume (240 c.c. = 240 毫升); its 「低脂」 wording was dropped by the 2018 guide",
+       "strength": "National agency statement (HPA press release 2014-01-23). Basis only for the cup volume (240 c.c. = 240 毫升); its 「低脂」 wording was dropped by the 2018 guide",
        "confidence": "Medium"
       },
       {
@@ -258,7 +258,7 @@
       "c": "C27",
       "s": "S1",
       "quote": "Protein is an important constituent of bone and muscle tissue, and good dietary intake is necessary to maintain the health of the musculoskeletal system.",
-      "strength": "Narrative statement (the evidence levels in this row attach to the later sentences)",
+      "strength": "Narrative statement, not graded (in this NOGG paragraph, evidence levels are given only for the later sentences)",
       "confidence": "High"
      }
     ],
@@ -328,7 +328,7 @@
        "c": "C44",
        "s": "S1",
        "quote": "In people with osteoporosis, repetitive forced spinal forward flexion exercises should be undertaken with care as this specific movement may be associated with an increased risk of new vertebral fractures []; (Evidence level Ia).",
-       "strength": "Narrative; Evidence level Ia (basis for 「仰臥起坐這類反覆彎腰的動作要小心」; also cited on the 「保護脊椎」 card)",
+       "strength": "Narrative; Evidence level Ia (basis for 「反覆彎腰的動作要小心」; the sit-up example is from S21; also cited on the 「保護脊椎」 card)",
        "confidence": "High"
       },
       {
@@ -555,7 +555,7 @@
        "c": "C60",
        "s": "S11",
        "quote": "Evidence from randomised controlled trials and prospective studies indicates cataract surgery for the first eye, [] and both eyes [] and achieving optimal safe functional vision by active older adults avoiding the wearing of multifocal glasses when outside [] are effective fall prevention strategies.",
-       "strength": "Narrative; the recommendation \"Management of impaired vision should be considered as part of the multifactorial approach\" has no grade in the text read",
+       "strength": "Narrative; the recommendation \"Management of impaired vision should be considered as part of the multifactorial approach\" has no grade in the accessible text",
        "confidence": "High"
       },
       {
@@ -906,7 +906,7 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial: 「醫師指示的鈣片或維生素D，請照醫囑使用」 (same protective phrase as in the 退化性關節炎 page's 常見迷思 and the 類風濕性關節炎 page's 「飲食與體重」 card).",
+     "strength": "Editorial: 「醫師指示的鈣片或維生素D，請照醫囑使用」 (same protective phrase as in the 退化性關節炎 page's 「常見迷思」 and the 類風濕性關節炎 page's 「飲食與體重」 card).",
      "confidence": "EDITORIAL"
     }
    ],

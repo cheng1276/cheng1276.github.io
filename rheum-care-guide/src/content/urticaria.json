@@ -52,7 +52,7 @@
        "c": "C34",
        "s": "S6",
        "quote": "Certain drugs can cause or aggravate chronic urticaria and/or angioedema, and hence, a detailed drug history is mandatory.",
-       "strength": "Not graded (as retrieved)",
+       "strength": "Not graded in the accessible text",
        "confidence": "High"
       }
      ],
@@ -115,7 +115,7 @@
        "c": "C21",
        "s": "S6",
        "quote": "Common triggers/aggravating factors/associations for exacerbations of chronic urticaria are intercurrent viral infections",
-       "strength": "Not graded (as retrieved)",
+       "strength": "Not graded in the accessible text",
        "confidence": "High"
       }
      ],
@@ -137,7 +137,7 @@
       "c": "C23",
       "s": "S6",
       "quote": "Alcohol can aggravate CU by its effect of vasodilation",
-      "strength": "Not graded (as retrieved)",
+      "strength": "Not graded in the accessible text",
       "confidence": "High"
      }
     ],
