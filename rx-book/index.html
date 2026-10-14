@@ -193,6 +193,23 @@ p{margin:0}
 .cert .reward{font-size:16px;font-weight:700;color:var(--spot)}
 .cert .small{font-size:12.5px;line-height:1.7;color:var(--ink-2)}
 .cert .stamp{top:14px;right:14px;margin-top:0;width:96px;height:96px;font-size:16px}
+/* counter redemption: staff-only controls are ink, not the reader's spot colour */
+.redeemed{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:4px 12px;padding:10px 16px;background:var(--ink);color:#FFFFFF}
+.redeemed b{font-size:20px;font-weight:900;letter-spacing:.24em}
+.redeemed span{font-family:var(--fm);font-size:13px;font-weight:500;font-variant-numeric:tabular-nums}
+.warn-strip{display:flex;flex-direction:column;gap:2px;padding:10px 16px;background:#FDECEA;border-bottom:1px solid #F4C7C2;color:var(--bad);font-size:13.5px;line-height:1.6}
+.warn-strip b{font-weight:700}
+.warn-strip span{overflow-wrap:anywhere}
+.cert .reward.used{color:var(--ink-3);text-decoration:line-through;text-decoration-thickness:2px}
+.btn-redeem{display:flex;align-items:center;justify-content:center;width:100%;min-height:48px;padding:0 14px;border:1.5px dashed var(--ink-3);border-radius:8px;background:var(--paper-2);color:var(--ink);font-size:15px;font-weight:700;cursor:pointer}
+.btn-redeem small{margin-left:6px;font-size:13px;font-weight:500;color:var(--ink-2)}
+.redeem{display:flex;flex-direction:column;gap:8px;padding:14px;border:1.5px dashed var(--ink-3);border-radius:10px;background:var(--paper-2)}
+.redeem .k{font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--ink)}
+.redeem p{font-size:13px;line-height:1.7;color:var(--ink-2)}
+.redeem label{font-size:13px;font-weight:500;color:var(--ink-2)}
+.redeem input.pin{font-family:var(--fm);font-size:20px;letter-spacing:.3em;-webkit-text-security:disc}
+.redeem .btn-go{background:var(--ink)}
+.btn-link{align-self:flex-start;min-height:44px;padding:0;border:0;background:none;color:var(--ink-2);font-size:14px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 
 /* librarian mode */
 .panel{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:18px 16px}
@@ -237,7 +254,10 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
   "reward": "憑完成證明到櫃台，借期延長 14 天，並可多借 2 冊。",
   "catalog": "https://library.show.org.tw/index?domain=5",
   "pickupCode": "到館內的「處方書架」找到貼著 {id} 標籤、用牛皮紙包起來的書。包裝裡夾著一張領藥碼卡，輸入卡上的代碼就能領藥。",
-  "pickupQuiz": "照處方上的線索，到館藏查詢系統找出這本書，再回來輸入書名。"
+  "pickupQuiz": "照處方上的線索，到館藏查詢系統找出這本書，再回來輸入書名。",
+  "redeemSalt": "5d830eadae8a27fe",
+  "redeemHash": "3d571c093f258077ef581af5717323d2fb112f41a18f42389d3328a2b48be2e8",
+  "redeemNumeric": true
  },
  "rx": [
   {
@@ -541,6 +561,52 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
       '<rect class="shell" x="1" y="1" width="44" height="18" rx="9"/><path class="mid" d="M23 1v18"/></svg>';
   }
 
+  /* ---------- counter redemption ----------
+     The page only carries a salted SHA-256 of the staff code, never the code itself. Without a server this
+     cannot stop someone who clears the browser, but it marks this phone's certificate as used. */
+  function sha256hex(str){
+    var K = [0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+      0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+      0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+      0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];
+    var H = [0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];
+    var bytes, i;
+    if (typeof TextEncoder === 'function') bytes = new TextEncoder().encode(String(str));
+    else { var bin = unescape(encodeURIComponent(String(str))); bytes = new Uint8Array(bin.length); for (i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i); }
+    var len = bytes.length, total = ((len + 9 + 63) >> 6) << 6;
+    var m = new Uint8Array(total); m.set(bytes); m[len] = 0x80;
+    var dv = new DataView(m.buffer);
+    dv.setUint32(total - 8, Math.floor(len / 0x20000000)); dv.setUint32(total - 4, (len * 8) >>> 0);
+    var w = new Uint32Array(64);
+    function ror(x, n){ return (x >>> n) | (x << (32 - n)); }
+    for (var off = 0; off < total; off += 64) {
+      for (i = 0; i < 16; i++) w[i] = dv.getUint32(off + i * 4);
+      for (i = 16; i < 64; i++) {
+        var x = w[i - 15], y = w[i - 2];
+        w[i] = (w[i - 16] + (ror(x, 7) ^ ror(x, 18) ^ (x >>> 3)) + w[i - 7] + (ror(y, 17) ^ ror(y, 19) ^ (y >>> 10))) | 0;
+      }
+      var a = H[0], b = H[1], c = H[2], d = H[3], e = H[4], f = H[5], g = H[6], h = H[7];
+      for (i = 0; i < 64; i++) {
+        var t1 = (h + (ror(e, 6) ^ ror(e, 11) ^ ror(e, 25)) + ((e & f) ^ (~e & g)) + K[i] + w[i]) | 0;
+        var t2 = ((ror(a, 2) ^ ror(a, 13) ^ ror(a, 22)) + ((a & b) ^ (a & c) ^ (b & c))) | 0;
+        h = g; g = f; f = e; e = (d + t1) | 0; d = c; c = b; b = a; a = (t1 + t2) | 0;
+      }
+      H[0] = (H[0] + a) | 0; H[1] = (H[1] + b) | 0; H[2] = (H[2] + c) | 0; H[3] = (H[3] + d) | 0;
+      H[4] = (H[4] + e) | 0; H[5] = (H[5] + f) | 0; H[6] = (H[6] + g) | 0; H[7] = (H[7] + h) | 0;
+    }
+    return H.map(function(v){ return ('0000000' + (v >>> 0).toString(16)).slice(-8); }).join('');
+  }
+  function randHex(n){
+    var a = new Uint8Array(n), s = '', i;
+    try { crypto.getRandomValues(a); } catch(e){ for (i = 0; i < n; i++) a[i] = Math.floor(Math.random() * 256); }
+    for (i = 0; i < n; i++) s += (a[i] < 16 ? '0' : '') + a[i].toString(16);
+    return s;
+  }
+  function pinNorm(s){ return String(s || '').replace(/[！-～]/g, function(ch){ return String.fromCharCode(ch.charCodeAt(0) - 0xFEE0); }).replace(/[\s　]/g, '').toLowerCase(); }
+  function pinOk(ev, pin){ return !!pin && sha256hex((ev.redeemSalt || '') + ':' + pin) === String(ev.redeemHash || '').toLowerCase(); }
+  function redeemLog(){ return Array.isArray(progress.history) ? progress.history : []; }
+  function whenText(iso){ return fmtSlash(iso) + ' ' + fmtTime(iso); }
+
   /* ---------- reader screens ---------- */
   function renderBand(){
     var d = data();
@@ -558,7 +624,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
     return '<section class="progress" aria-label="我的領藥進度">' +
       '<div class="txt"><span class="k">' + (hasName() ? esc(progress.name) + ' 的領藥進度' : '我的領藥進度') + '</span>' +
       '<span class="n">' + n + '<small> / ' + goal + ' 帖</small></span>' +
-      '<span class="s">' + (left ? '再領 ' + left + ' 帖，就能換療程完成證明' : '療程完成，完成證明在上方。') + '</span></div>' +
+      '<span class="s">' + (left ? '再領 ' + left + ' 帖，就能換療程完成證明' : (progress.redeemedAt ? '療程完成，獎勵已在 ' + esc(fmtShort(progress.redeemedAt)) + ' 兌換。' : '療程完成，完成證明在上方。')) + '</span></div>' +
       '<div class="caps' + (goal > 4 ? ' many' : '') + '">' + pills + '</div>' +
     '</section>';
   }
@@ -616,7 +682,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
     var reset = '';
     if (view.screen === 'home' && (hasName() || doneCount())) {
       reset = view.confirmReset
-        ? '<span class="reset-q">清除進度和掛號姓名？</span><button type="button" data-act="reset-yes">確定清除</button><button type="button" data-act="reset-no">取消</button>'
+        ? '<span class="reset-q">清除進度和掛號姓名？' + ((progress.redeemedAt || redeemLog().length) ? '（兌換紀錄會保留）' : '') + '</span><button type="button" data-act="reset-yes">確定清除</button><button type="button" data-act="reset-no">取消</button>'
         : '<button type="button" data-act="reset">重設我的進度</button>';
     }
     return '<footer class="wrap foot">' +
@@ -705,18 +771,44 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
       if (!last || w > last) last = w;
       items += '<li><span class="mono">' + esc(r.id) + '</span><span>' + esc(r.book.title) + '</span><span class="mono">' + esc(fmtShort(w)) + '</span></li>';
     });
+    var used = progress.redeemedAt, log = redeemLog(), warn = '';
+    if (log.length) {
+      warn = '<div class="warn-strip" role="note"><b>注意：這支手機之前兌換過獎勵</b>';
+      log.slice(-5).forEach(function(h){ warn += '<span>' + esc(h.name || '（未填姓名）') + '　' + esc(whenText(h.at)) + '</span>'; });
+      warn += '</div>';
+    }
     return '<section class="cert" aria-label="療程完成證明">' +
       '<div class="cert-band"><span>' + esc(d.lib) + '　閱讀藥局</span><b>療程完成證明</b></div>' +
+      (used ? '<div class="redeemed" role="status"><b>已兌換</b><span>' + esc(whenText(used)) + ' 櫃台核銷</span></div>' : '') +
+      warn +
       '<div class="cert-body">' +
         '<div class="cert-name"><span class="k">姓名</span><b>' + esc(progress.name || '') + '</b>' +
           '<span class="when">完成時間 ' + esc(last ? fmtSlash(last) + ' ' + fmtTime(last) : '') + '</span></div>' +
         '<p>已於本活動期間，完成以下處方的領藥：</p>' +
         '<ol class="cert-list">' + items + '</ol>' +
-        '<p class="reward">' + esc(d.event.reward) + '</p>' +
+        '<p class="reward' + (used ? ' used' : '') + '">' + esc(d.event.reward) + '</p>' +
         '<div class="live"><span class="dot" aria-hidden="true"></span><span>現在時間</span><b id="live-clock">' + esc(nowText()) + '</b></div>' +
-        '<p class="small">兌換時請直接在手機上出示這個畫面，並出示員工證或證件核對姓名。時間會一直跳動，截圖不能使用。</p>' +
+        (used
+          ? '<p class="small">這張證明已在櫃台兌換，不能再使用。</p>'
+          : '<p class="small">兌換時請直接在手機上出示這個畫面，並出示員工證或證件核對姓名。時間會一直跳動，截圖不能使用。</p>' + renderRedeem(d)) +
         '<span class="stamp" aria-hidden="true">療程完成<small>' + esc(fmtLong(last)) + '</small></span>' +
       '</div></section>';
+  }
+
+  function renderRedeem(d){
+    if (!view.redeemOpen) return '<button class="btn-redeem" type="button" data-act="redeem-open">櫃台核銷<small>（館員操作）</small></button>';
+    var needPin = !!d.event.redeemHash, m = view.msg.redeem || null;
+    return '<form class="redeem" data-act="redeem" autocomplete="off">' +
+      '<span class="k">櫃台核銷</span>' +
+      '<p>請把手機交給館員。館員核對姓名和證件後' + (needPin ? '輸入核銷碼' : '按「核銷」') + '，這張證明就會標示「已兌換」，不能再使用。</p>' +
+      (needPin
+        ? '<label for="redeem-pin">館員核銷碼</label>' +
+          '<div class="inrow"><input id="redeem-pin" class="pin" name="pin" type="text"' + (d.event.redeemNumeric ? ' inputmode="numeric"' : '') +
+            ' autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="32" required><button class="btn-go" type="submit">核銷</button></div>'
+        : '<div class="inrow"><button class="btn-go" type="submit">核銷</button></div>') +
+      '<div class="msg ' + (m ? m.kind : '') + '" aria-live="polite">' + (m ? esc(m.text) : '') + '</div>' +
+      '<button class="btn-link" type="button" data-act="redeem-cancel">取消</button>' +
+    '</form>';
   }
 
   /* ---------- admin ---------- */
@@ -726,7 +818,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
     var inner;
     if (opts.type === 'textarea') inner = '<textarea id="' + id + '" data-field="' + esc(path) + '">' + esc(value) + '</textarea>';
     else if (opts.type === 'select') inner = '<select id="' + id + '" data-field="' + esc(path) + '">' + opts.options.map(function(o){ return '<option value="' + esc(o[0]) + '"' + (o[0] === value ? ' selected' : '') + '>' + esc(o[1]) + '</option>'; }).join('') + '</select>';
-    else inner = '<input id="' + id + '" type="' + (opts.type || 'text') + '" data-field="' + esc(path) + '" value="' + esc(value) + '"' + (opts.placeholder ? ' placeholder="' + esc(opts.placeholder) + '"' : '') + '>';
+    else inner = '<input id="' + id + '" type="' + (opts.type || 'text') + '" data-field="' + esc(path) + '" value="' + esc(value) + '"' + (opts.placeholder ? ' placeholder="' + esc(opts.placeholder) + '"' : '') + (opts.attrs || '') + '>';
     return '<div class="' + (opts.full ? 'full' : '') + '"><label for="' + id + '">' + esc(label) + '</label>' + inner + '</div>';
   }
 
@@ -744,6 +836,8 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
         field('主色', 'event.accent', accentOf(d), {type: 'select', options: ACCENTS}) +
         field('候診區說明', 'event.intro', d.event.intro, {type: 'textarea', full: true}) +
         field('完成獎勵', 'event.reward', d.event.reward, {type: 'textarea', full: true}) +
+        field('櫃台核銷碼（要換才填，建議 6 位數字；留空就沿用目前的碼）', 'pin', view.pinDraft || '',
+          {full: true, placeholder: d.event.redeemHash ? '已設定，頁面裡不會存原本的號碼' : '尚未設定', attrs: ' autocomplete="off" spellcheck="false" maxlength="32"'}) +
         field('館藏查詢網址', 'event.catalog', d.event.catalog, {full: true}) +
         field('「領藥碼」挑戰的預設說明（{id} 會換成處方編號）', 'event.pickupCode', d.event.pickupCode, {type: 'textarea', full: true}) +
         field('「問答」挑戰的預設說明', 'event.pickupQuiz', d.event.pickupQuiz, {type: 'textarea', full: true}) +
@@ -880,7 +974,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
 
   app.addEventListener('click', function(e){
     var el = e.target.closest('[data-act]'); if (!el) return;
-    var act = el.getAttribute('data-act'); if (act === 'verify' || act === 'register') return;
+    var act = el.getAttribute('data-act'); if (act === 'verify' || act === 'register' || act === 'redeem') return;
     e.preventDefault();
     if (act === 'open') {
       if (!hasName()) {
@@ -904,8 +998,19 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
     }
     else if (act === 'reset') { view.confirmReset = true; render(); }
     else if (act === 'reset-no') { view.confirmReset = false; render(); }
-    else if (act === 'reset-yes') { progress = { done: {} }; saveProgress(); view.confirmReset = false; view.pendingName = null; view.nameDraft = ''; render(); window.scrollTo(0, 0); }
-    else if (act === 'admin') { draft = clone(DATA); view.admin = true; view.msg.pub = null; render(); window.scrollTo(0, 0); }
+    else if (act === 'reset-yes') {
+      /* a redemption stays on this phone even after a reset, so the counter can see it on the next certificate */
+      var log = redeemLog().slice(-19);
+      if (progress.redeemedAt) log.push({ name: progress.name || '', at: progress.redeemedAt });
+      progress = log.length ? { done: {}, history: log } : { done: {} };
+      saveProgress(); view.confirmReset = false; view.pendingName = null; view.nameDraft = ''; view.redeemOpen = false; view.msg.redeem = null; render(); window.scrollTo(0, 0);
+    }
+    else if (act === 'redeem-open') {
+      view.redeemOpen = true; view.msg.redeem = null; render();
+      var pinBox = document.getElementById('redeem-pin'); if (pinBox) pinBox.focus();
+    }
+    else if (act === 'redeem-cancel') { view.redeemOpen = false; view.msg.redeem = null; render(); }
+    else if (act === 'admin') { draft = clone(DATA); view.admin = true; view.pinDraft = ''; view.msg.pub = null; render(); window.scrollTo(0, 0); }
     else if (act === 'admin-close') { view.admin = false; draft = null; view.screen = 'home'; render(); window.scrollTo(0, 0); }
     else if (act === 'preview') {
       /* apply the draft locally so the librarian sees the reader view; publish is still needed for readers */
@@ -940,6 +1045,23 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
       view.pendingName = name; view.msg.reg = null; render();
       return;
     }
+    var redForm = e.target.closest('form[data-act="redeem"]');
+    if (redForm) {
+      e.preventDefault();
+      var ev = data().event;
+      if (ev.redeemHash) {
+        var pinIn = redForm.querySelector('input[name="pin"]');
+        if (!pinOk(ev, pinNorm(pinIn && pinIn.value))) {
+          setMsg('redeem', 'bad', '核銷碼不對，請再輸入一次。'); render();
+          var pb = document.getElementById('redeem-pin'); if (pb) pb.focus();
+          return;
+        }
+      }
+      progress.redeemedAt = new Date().toISOString(); saveProgress();
+      view.redeemOpen = false; view.msg.redeem = null; render();
+      var certEl = app.querySelector('.cert'); if (certEl && certEl.scrollIntoView) certEl.scrollIntoView({ block: 'start' });
+      return;
+    }
     var form = e.target.closest('form[data-act="verify"]'); if (!form) return;
     e.preventDefault();
     var id = form.getAttribute('data-id'), r = null; data().rx.forEach(function(x){ if (x.id === id) r = x; });
@@ -960,6 +1082,13 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px}
   app.addEventListener('change', onField);
   function onField(e){
     var el = e.target; var path = el.getAttribute && el.getAttribute('data-field'); if (!path || !draft) return;
+    if (path === 'pin') {
+      /* only the salted hash goes into the settings; the typed code itself is never stored */
+      var pin = pinNorm(el.value); view.pinDraft = el.value;
+      if (pin) { draft.event.redeemSalt = randHex(8); draft.event.redeemHash = sha256hex(draft.event.redeemSalt + ':' + pin); draft.event.redeemNumeric = /^\d+$/.test(pin); }
+      else { draft.event.redeemSalt = DATA.event.redeemSalt; draft.event.redeemHash = DATA.event.redeemHash; draft.event.redeemNumeric = DATA.event.redeemNumeric; }
+      return;
+    }
     var v;
     if (el.type === 'checkbox') v = el.checked;
     else if (el.type === 'number') v = parseInt(el.value, 10) || 1;
