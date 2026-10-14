@@ -173,78 +173,257 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
 </style>
 <script id="rx-data" type="application/json">
 {
- "lib": "臺南市立醫院 醫學圖書館",
- "sample": true,
+ "lib": "台南市立醫院圖書館",
+ "sample": false,
  "event": {
   "name": "神秘處方書",
   "period": "2026 年 12 月 1 日至 24 日",
   "intro": "選一個最像你現在狀況的症狀，圖書館藥局會開一張處方。書名先保密，完成領藥挑戰才揭曉。",
   "goal": 3,
   "reward": "憑完成證明到櫃台，借期延長 14 天，並可多借 2 冊。",
-  "catalog": "https://library.show.org.tw/holdings?domain=5",
+  "catalog": "https://library.show.org.tw/index?domain=5",
   "pickupCode": "到館內的「處方書架」找到貼著 {id} 標籤、用牛皮紙包起來的書。包裝裡夾著一張領藥碼卡，輸入卡上的代碼就能領藥。",
   "pickupQuiz": "到館藏查詢系統找出這本書，再回來輸入答案。"
  },
  "rx": [
   {
    "id": "RX-01",
-   "symptom": "值完夜班，躺下卻睡不著",
-   "dose": "睡前 10 頁，手機放在另一個房間",
-   "course": "連續 7 晚",
-   "caution": "服用後可能對排班表產生新的看法。",
-   "teaser": "一位睡眠科學家把二十年的研究寫成一本書，說明少睡一小時，身體會在你看不到的地方記帳。",
-   "book": {"title": "為什麼要睡覺？", "author": "Matthew Walker（沃克）", "call": "", "shelf": "", "link": ""},
-   "challenge": {"type": "code", "hint": "", "answers": ["SLP07"]}
+   "symptom": "大夜班凌晨三點，覺得全世界只剩自己醒著",
+   "dose": "休息時讀幾頁就好，一頁只有一兩句話",
+   "course": "從現在到天亮",
+   "caution": "中英對照，服用後英文可能順便進步。",
+   "teaser": "一隻大貓熊和一隻小龍結伴走過四季。牠們的對話都很短，讀起來像有人在旁邊幫你泡了一杯茶。作者是一位走過憂鬱低谷的英國插畫家。",
+   "book": {
+    "title": "在黑暗的日子裡，陪伴是最溫暖的曙光",
+    "author": "詹姆斯．諾柏瑞（James Norbury）",
+    "call": "176.5 8345 2022",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/40044?domain=5"
+   },
+   "challenge": {
+    "type": "code",
+    "hint": "",
+    "answers": [
+     "STAR7"
+    ]
+   }
   },
   {
    "id": "RX-02",
    "symptom": "送走一位病人之後，心裡一直放不下",
-   "dose": "每天一章，配一杯熱的",
-   "course": "兩週",
-   "caution": "讀到第六章附近請準備衛生紙。",
-   "teaser": "一位外科醫師寫下醫學在人生終點做得到和做不到的事，以及為什麼「盡力救治」有時不是最好的答案。",
-   "book": {"title": "凝視死亡", "author": "Atul Gawande（葛文德）", "call": "", "shelf": "", "link": ""},
-   "challenge": {"type": "code", "hint": "", "answers": ["MRT12"]}
+   "dose": "一天讀一個故事，讀完把書闔上，深呼吸三次",
+   "course": "不必趕，讀到心裡比較平靜為止",
+   "caution": "讀到某些段落，可能會想起某一位病人。那很正常，想哭就哭。",
+   "teaser": "一位做了四十年安寧療護的英國醫師，寫下陪伴臨終病人的真實故事，讓人看清生命最後一段路通常是什麼樣子。",
+   "book": {
+    "title": "看穿生死，好好告別：國際安寧醫療專家的30個臨終紀實",
+    "author": "凱瑟琳．曼尼克斯（Kathryn Mannix）",
+    "call": "197 M284 2025",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/43577?domain=5"
+   },
+   "challenge": {
+    "type": "code",
+    "hint": "",
+    "answers": [
+     "COCOA"
+    ]
+   }
   },
   {
    "id": "RX-03",
-   "symptom": "想不起來當初為什麼選這一行",
-   "dose": "找一個安靜的下午，一次讀完",
-   "course": "單次療程",
-   "caution": "可能產生想打電話給老朋友的副作用。",
-   "teaser": "一位年輕的神經外科醫師，在站到手術台另一側之後，用剩下的時間寫下這本書。",
-   "book": {"title": "當呼吸化為空氣", "author": "Paul Kalanithi（卡拉尼提）", "call": "", "shelf": "", "link": ""},
-   "challenge": {"type": "quiz", "hint": "作者是一位 36 歲確診肺癌的神經外科住院醫師。到館藏查詢系統找出這本書，輸入它的中文書名。", "answers": ["當呼吸化為空氣", "當呼吸化為", "When Breath Becomes Air"]}
+   "symptom": "值完班只想笑一下，不想再看任何嚴肅的東西",
+   "dose": "隨手翻開任何一頁",
+   "course": "笑出聲為止",
+   "caution": "在護理站服用，可能引起同事圍觀。",
+   "teaser": "一位台大醫學系畢業的年輕醫師，把看診、巡房、半夜被叫醒的日常寫成一本書。書裡的笑點，都是真的。",
+   "book": {
+    "title": "醫生好忙！看診、巡房、開刀之外，詼諧又真實的醫界人生",
+    "author": "蓋瑞醫師",
+    "call": "410.7 8554 2019",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/33535?domain=5"
+   },
+   "challenge": {
+    "type": "code",
+    "hint": "",
+    "answers": [
+     "SNOW5"
+    ]
+   }
   },
   {
    "id": "RX-04",
    "symptom": "年底報告寫不出來，手一直滑向手機",
-   "dose": "每次 20 分鐘，計時器響了才能停",
+   "dose": "每次讀 20 分鐘，讀的時候手機放在另一個房間",
    "course": "連續 5 天",
    "caution": "請勿與社群媒體併用。",
-   "teaser": "一位心理學家花了一輩子研究「忘我投入」是怎麼發生的，以及怎麼把它請回來。",
-   "book": {"title": "心流", "author": "Mihaly Csikszentmihalyi（契克森米哈伊）", "call": "", "shelf": "", "link": ""},
-   "challenge": {"type": "code", "hint": "", "answers": ["FLW20"]}
+   "teaser": "一位瑞典精神科醫師從大腦的演化講起，解釋為什麼你明明想專心，手卻自己伸向手機，以及怎麼把注意力拿回來。",
+   "book": {
+    "title": "拯救手機腦：每天5分鐘，終結數位焦慮，找回快樂與專注力",
+    "author": "安德斯．韓森（Anders Hansen）",
+    "call": "176.5 857 2022",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/39494?domain=5"
+   },
+   "challenge": {
+    "type": "code",
+    "hint": "",
+    "answers": [
+     "PINE8"
+    ]
+   }
   },
   {
    "id": "RX-05",
-   "symptom": "新年新希望，年年都是同一條",
-   "dose": "每天 1 章，從 1% 開始",
-   "course": "30 天",
-   "caution": "效果在第三週才會出現，請勿提前停藥。",
-   "teaser": "這本書的主張很簡單：不要想一次變成另一個人，先讓今天比昨天好 1%。",
-   "book": {"title": "原子習慣", "author": "James Clear（克利爾）", "call": "", "shelf": "", "link": ""},
-   "challenge": {"type": "code", "hint": "", "answers": ["ATM01"]}
+   "symptom": "整年都在說「等忙完這陣子」，結果一年又過完了",
+   "dose": "一天讀一章，讀不完也沒關係",
+   "course": "跨年連假",
+   "caution": "服用後可能開始婉拒某些會議。",
+   "teaser": "一位長年寫自我成長專欄、自認是效率狂的英國記者，最後得出的結論是：事情永遠做不完，而這反而是好消息。",
+   "book": {
+    "title": "人生4千個禮拜",
+    "author": "奧利佛．柏克曼（Oliver Burkeman）",
+    "call": "191.9 8458 2022",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/40078?domain=5"
+   },
+   "challenge": {
+    "type": "quiz",
+    "hint": "到館藏查詢系統搜尋作者「柏克曼」，就會找到這本書。輸入書名即可領藥。",
+    "answers": [
+     "人生4千個禮拜",
+     "人生四千個禮拜",
+     "4千個禮拜",
+     "四千個禮拜",
+     "Four Thousand Weeks"
+    ]
+   }
   },
   {
    "id": "RX-06",
-   "symptom": "覺得每天都在跑同一套流程",
-   "dose": "每週二晚上讀一堂",
-   "course": "14 週，趕時間的話一個週末也行",
-   "caution": "服用期間可能想起某一位老師。",
-   "teaser": "一位老教授在生命最後的幾個月，每週二和學生上一堂課。沒有考試，只有作業。",
-   "book": {"title": "最後14堂星期二的課", "author": "Mitch Albom（艾爾邦）", "call": "", "shelf": "", "link": ""},
-   "challenge": {"type": "quiz", "hint": "這位老教授和他的學生每週固定一天上課，一共上了幾堂？到館藏查詢系統找出這本書，輸入書名裡的數字。", "answers": ["14", "十四"]}
+   "symptom": "年底一直在想：如果當初選了另一條路……",
+   "dose": "一晚讀一百頁",
+   "course": "三個晚上",
+   "caution": "故事從主角最低潮的一夜開始。如果你最近也很低潮，請一邊讀、一邊找信任的人聊聊。",
+   "teaser": "一個覺得自己把人生搞砸的女人，來到一座介於生與死之間的圖書館。架上每一本書，都是她當初沒選的另一種人生。",
+   "book": {
+    "title": "午夜圖書館",
+    "author": "麥特．海格（Matt Haig）",
+    "call": "873.57 824 2021",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/40087?domain=5"
+   },
+   "challenge": {
+    "type": "quiz",
+    "hint": "作者是英國作家麥特．海格。到館藏查詢系統搜尋「Matt Haig」，找到這本 2021 年出版的小說，輸入書名。",
+    "answers": [
+     "午夜圖書館",
+     "The Midnight Library",
+     "Midnight Library"
+    ]
+   }
+  },
+  {
+   "id": "RX-07",
+   "symptom": "下班還要照顧家人，覺得自己快被掏空",
+   "dose": "睡前讀幾頁，讀累了就睡",
+   "course": "一週，之後視情況續藥",
+   "caution": "本藥的副作用是：你可能會想先照顧一下自己。",
+   "teaser": "一位圖文作家陪父母走完最後一段路，用可愛的角色畫下照顧的疲憊、家人之間分工的難，還有說不出口的悲傷。",
+   "book": {
+    "title": "我是照顧者［上冊］成為照顧者篇",
+    "author": "米奧",
+    "call": "544.85 869 V.1 2022",
+    "shelf": "台南院區 圖書館",
+    "note": "下冊《與摯愛親人告別篇》放在醫學人文區，索書號 544.85 869 2023。",
+    "link": "https://library.show.org.tw/bookDetail/39580?domain=5"
+   },
+   "challenge": {
+    "type": "code",
+    "hint": "",
+    "answers": [
+     "GIFT4"
+    ]
+   }
+  },
+  {
+   "id": "RX-08",
+   "symptom": "新年新希望又是「要開始運動」，已經第八年",
+   "dose": "一週三次，每次先讀一節，再起來動一動",
+   "course": "至少 12 週",
+   "caution": "如果有心血管疾病、骨質疏鬆或關節問題，開始訓練前請先和你的醫師討論。",
+   "teaser": "一位醫師和一位肌力教練，合寫給四十歲以後的人：年紀越大，越需要把肌力練回來。書裡附了可以照表操課的訓練計畫。",
+   "book": {
+    "title": "槓鈴處方：抗老化肌力訓練",
+    "author": "強納森．蘇利文（Jonathon M. Sullivan）、安迪．貝克（Andy Baker）",
+    "call": "411.71 8876 2021",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/38107?domain=5"
+   },
+   "challenge": {
+    "type": "code",
+    "hint": "",
+    "answers": [
+     "BELL3"
+    ]
+   }
+  },
+  {
+   "id": "RX-09",
+   "symptom": "聖誕節快到了，卻一點過節的感覺都沒有",
+   "dose": "睡前讀給家裡的小朋友聽；沒有小朋友，就讀給自己聽",
+   "course": "12 月 24 日前讀完",
+   "caution": "讀完可能會去翻出小時候的玩偶。",
+   "teaser": "一個男孩在聖誕夜弄丟了最心愛的玩偶，於是跟著一隻新來的玩偶，闖進所有遺失的東西都會去的地方。",
+   "book": {
+    "title": "聖誕小豬",
+    "author": "J.K.羅琳（J.K. Rowling）著，吉姆．菲爾德（Jim Field）繪",
+    "call": "873.596 857 2021",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/39746?domain=5"
+   },
+   "challenge": {
+    "type": "quiz",
+    "hint": "作者就是寫《哈利波特》的那一位。到館藏查詢系統搜尋「羅琳」，在十幾筆結果裡找出她 2021 年出版、和聖誕節有關的那一本，輸入書名。",
+    "answers": [
+     "聖誕小豬",
+     "The Christmas Pig",
+     "Christmas Pig"
+    ]
+   }
+  },
+  {
+   "id": "RX-10",
+   "symptom": "開始懷疑：我們開的藥、排的檢查，真的是病人需要的嗎？",
+   "dose": "每天清晨讀一篇，在大家還沒醒來的時候",
+   "course": "一個月",
+   "caution": "藥名揭曉時請勿驚慌。",
+   "teaser": "一位在澳洲公立醫院工作的醫師，趁清晨電車還沒開、大家都還沒醒的時候寫下的短文。寫她遇見的病人、她身處的醫療體制，也寫她自己。",
+   "book": {
+    "title": "處方箋：一位醫者的思索筆記",
+    "author": "凱倫．希區考克（Karen Hitchcock）",
+    "call": "410 8754 2021",
+    "shelf": "台南院區 圖書館",
+    "note": "",
+    "link": "https://library.show.org.tw/bookDetail/40091?domain=5"
+   },
+   "challenge": {
+    "type": "quiz",
+    "hint": "最後一帖要靠館藏查詢系統領藥：搜尋「Karen Hitchcock」，輸入她這本 2021 年出版的書的書名。",
+    "answers": [
+     "處方箋",
+     "The medicine"
+    ]
+   }
   }
  ]
 }
@@ -366,7 +545,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     var m = view.msg[r.id] || null;
     return '<div class="pickup"><div class="lbl">領藥方式</div>' +
       '<p>' + esc(pickupText(r)) + '</p>' +
-      ((r.book.call || r.book.shelf) ? '<div class="meta">' + (r.book.call ? '<span>索書號 <b>' + esc(r.book.call) + '</b></span>' : '') + (r.book.shelf ? '<span>位置 <b>' + esc(r.book.shelf) + '</b></span>' : '') + '</div>' : '') +
+      (!isCode && data().event.catalog ? '<div><a class="btn" href="' + esc(data().event.catalog) + '" target="_blank" rel="noopener">開啟館藏查詢系統</a></div>' : '') +
       '<form data-act="verify" data-id="' + esc(r.id) + '" autocomplete="off">' +
         '<label for="ans-' + esc(r.id) + '">' + (isCode ? '輸入領藥碼' : '輸入答案') + '</label>' +
         '<div class="inrow"><input id="ans-' + esc(r.id) + '" name="answer" ' + (isCode ? 'class="code" autocapitalize="characters"' : '') + ' placeholder="' + (isCode ? '例如 AB12' : '') + '" required>' +
@@ -380,6 +559,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
       '<div class="bt">' + esc(r.book.title) + '</div>' +
       (r.book.author ? '<div class="au">' + esc(r.book.author) + '</div>' : '') +
       ((r.book.call || r.book.shelf) ? '<div class="meta">' + (r.book.call ? '<span>索書號 <b>' + esc(r.book.call) + '</b></span>' : '') + (r.book.shelf ? '<span>位置 <b>' + esc(r.book.shelf) + '</b></span>' : '') + '</div>' : '') +
+      (r.book.note ? '<div class="guide">' + esc(r.book.note) + '</div>' : '') +
       '<div class="guide">請依用法用量服用。借閱請洽櫃台。</div>' +
       '<div class="stamp">已領藥<small>' + esc(fmtDate(when)) + '</small></div>' +
     '</div>';
@@ -450,8 +630,9 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
         field('注意事項', p + 'caution', r.caution, {full: true}) +
         field('書名', p + 'book.title', r.book.title) +
         field('作者', p + 'book.author', r.book.author) +
-        field('索書號（可留空）', p + 'book.call', r.book.call) +
-        field('位置（可留空）', p + 'book.shelf', r.book.shelf) +
+        field('索書號（揭曉後顯示，可留空）', p + 'book.call', r.book.call) +
+        field('館藏位置（揭曉後顯示，可留空）', p + 'book.shelf', r.book.shelf) +
+        field('揭曉後的補充說明（可留空）', p + 'book.note', r.book.note || '', {full: true}) +
         field('這本書在館藏系統的網址（可留空，會改連到館藏查詢首頁）', p + 'book.link', r.book.link, {full: true}) +
         field('挑戰類型', p + 'challenge.type', r.challenge.type, {type: 'select', options: [['code', '書中領藥碼'], ['quiz', '問答（例如到館藏查詢找書名）']]}) +
         field('領藥碼或答案（多個用逗號分隔）', p + 'challenge.answers', r.challenge.answers.join(', '), {placeholder: '例如 AB12'}) +
@@ -569,7 +750,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     }
     else if (act === 'add') {
       var id = nextId();
-      draft.rx.push({ id: id, symptom: '', dose: '', course: '', caution: '', teaser: '', book: { title: '', author: '', call: '', shelf: '', link: '' }, challenge: { type: 'code', hint: '', answers: [] } });
+      draft.rx.push({ id: id, symptom: '', dose: '', course: '', caution: '', teaser: '', book: { title: '', author: '', call: '', shelf: '', note: '', link: '' }, challenge: { type: 'code', hint: '', answers: [] } });
       view.open[id] = true; render();
     }
     else if (act === 'del') { var i = +el.getAttribute('data-i'); draft.rx.splice(i, 1); render(); }
