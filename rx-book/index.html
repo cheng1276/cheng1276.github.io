@@ -178,12 +178,12 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
  "event": {
   "name": "神秘處方書",
   "period": "2026 年 12 月 1 日至 24 日",
-  "intro": "選一個最像你現在狀況的症狀，圖書館藥局會開一張處方。書名先保密，完成領藥挑戰才揭曉。",
+  "intro": "選一個最像你現在狀況的症狀，圖書館藥局會開一張處方。書名先保密，照處方上的線索到館藏查詢系統把書找出來，就能領藥。",
   "goal": 3,
   "reward": "憑完成證明到櫃台，借期延長 14 天，並可多借 2 冊。",
   "catalog": "https://library.show.org.tw/index?domain=5",
   "pickupCode": "到館內的「處方書架」找到貼著 {id} 標籤、用牛皮紙包起來的書。包裝裡夾著一張領藥碼卡，輸入卡上的代碼就能領藥。",
-  "pickupQuiz": "到館藏查詢系統找出這本書，再回來輸入答案。"
+  "pickupQuiz": "照處方上的線索，到館藏查詢系統找出這本書，再回來輸入書名。"
  },
  "rx": [
   {
@@ -202,10 +202,12 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     "link": "https://library.show.org.tw/bookDetail/40044?domain=5"
    },
    "challenge": {
-    "type": "code",
-    "hint": "",
+    "type": "quiz",
+    "hint": "到館藏查詢系統搜尋作者「諾柏瑞」，找到這本書，輸入書名。",
     "answers": [
-     "STAR7"
+     "在黑暗的日子裡",
+     "陪伴是最溫暖的曙光",
+     "Big Panda and Tiny Dragon"
     ]
    }
   },
@@ -225,10 +227,12 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     "link": "https://library.show.org.tw/bookDetail/43577?domain=5"
    },
    "challenge": {
-    "type": "code",
-    "hint": "",
+    "type": "quiz",
+    "hint": "到館藏查詢系統搜尋作者「曼尼克斯」，找到這本 2025 年出版的書，輸入書名。",
     "answers": [
-     "COCOA"
+     "看穿生死",
+     "好好告別",
+     "With the end in mind"
     ]
    }
   },
@@ -248,10 +252,10 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     "link": "https://library.show.org.tw/bookDetail/33535?domain=5"
    },
    "challenge": {
-    "type": "code",
-    "hint": "",
+    "type": "quiz",
+    "hint": "到館藏查詢系統搜尋作者「蓋瑞醫師」，會找到兩本書。輸入 2019 年出版的那一本的書名。",
     "answers": [
-     "SNOW5"
+     "醫生好忙"
     ]
    }
   },
@@ -271,10 +275,10 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     "link": "https://library.show.org.tw/bookDetail/39494?domain=5"
    },
    "challenge": {
-    "type": "code",
-    "hint": "",
+    "type": "quiz",
+    "hint": "到館藏查詢系統搜尋作者「韓森」，會跑出三筆。找出 2022 年出版、作者是瑞典精神科醫師的那一本，輸入書名。",
     "answers": [
-     "PINE8"
+     "拯救手機腦"
     ]
    }
   },
@@ -295,7 +299,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
    },
    "challenge": {
     "type": "quiz",
-    "hint": "到館藏查詢系統搜尋作者「柏克曼」，就會找到這本書。輸入書名即可領藥。",
+    "hint": "到館藏查詢系統搜尋作者「柏克曼」，找到這本書，輸入書名。",
     "answers": [
      "人生4千個禮拜",
      "人生四千個禮拜",
@@ -322,7 +326,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
    },
    "challenge": {
     "type": "quiz",
-    "hint": "作者是英國作家麥特．海格。到館藏查詢系統搜尋「Matt Haig」，找到這本 2021 年出版的小說，輸入書名。",
+    "hint": "到館藏查詢系統搜尋作者「Matt Haig」，找到這本 2021 年出版的小說，輸入書名。",
     "answers": [
      "午夜圖書館",
      "The Midnight Library",
@@ -346,10 +350,10 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     "link": "https://library.show.org.tw/bookDetail/39580?domain=5"
    },
    "challenge": {
-    "type": "code",
-    "hint": "",
+    "type": "quiz",
+    "hint": "到館藏查詢系統搜尋作者「米奧」，會跑出四筆，其中兩本是食譜，不是它。另外兩本是上下冊，輸入上冊的書名。",
     "answers": [
-     "GIFT4"
+     "我是照顧者"
     ]
    }
   },
@@ -369,10 +373,10 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
     "link": "https://library.show.org.tw/bookDetail/38107?domain=5"
    },
    "challenge": {
-    "type": "code",
-    "hint": "",
+    "type": "quiz",
+    "hint": "這本書的書名裡也有「處方」兩個字。到館藏查詢系統搜尋「處方」，會跑出一百多筆，書名有「處方」的排在最前面。找出 2021 年出版、教人練肌力的那一本，輸入書名。",
     "answers": [
-     "BELL3"
+     "槓鈴處方"
     ]
    }
   },
@@ -393,7 +397,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
    },
    "challenge": {
     "type": "quiz",
-    "hint": "作者就是寫《哈利波特》的那一位。到館藏查詢系統搜尋「羅琳」，在十幾筆結果裡找出她 2021 年出版、和聖誕節有關的那一本，輸入書名。",
+    "hint": "作者就是寫《哈利波特》的那一位。到館藏查詢系統搜尋「羅琳」，會跑出十幾筆，找出她 2021 年出版、和聖誕節有關的那一本，輸入書名。",
     "answers": [
      "聖誕小豬",
      "The Christmas Pig",
@@ -418,7 +422,7 @@ details.rxed .body{padding:12px;display:flex;flex-direction:column;gap:10px;back
    },
    "challenge": {
     "type": "quiz",
-    "hint": "最後一帖要靠館藏查詢系統領藥：搜尋「Karen Hitchcock」，輸入她這本 2021 年出版的書的書名。",
+    "hint": "到館藏查詢系統搜尋「Karen Hitchcock」，找到她 2021 年出版的書，輸入書名。",
     "answers": [
      "處方箋",
      "The medicine"
