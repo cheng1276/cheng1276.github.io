@@ -165,7 +165,7 @@
        "c": "C21",
        "s": "S3",
        "quote": "…Effective contraceptive measures should be discussed with the patient by weighing the individual risk factors, including general (hypertension, obesity, tobacco use, family history of hormonal-dependent cancers)and disease-related risk factors, particularly disease activity and thrombotic risk (emphasis on antiphospholipid antibodies (aPLs)).",
-       "strength": "Table 1 item 2, LoA 9.9 (0.4); LoE/GoR not accessible",
+       "strength": "Table 1 item 2, LoA 9.9 (0.4); Table 1 also gives the item's LoE and GoR",
        "confidence": "High"
       }
      ],
@@ -186,7 +186,7 @@
        "c": "C30",
        "s": "S3",
        "quote": "In women with positive aPL (with or without definite APS), contraception with combined hormones (oral pill, vaginal ring, transdermal patch) should be discouraged.",
-       "strength": "Table 1 item 2 (LoE/GoR not accessible)",
+       "strength": "Table 1 item 2 (Table 1 also gives the item's LoE and GoR)",
        "confidence": "High"
       }
      ],
@@ -214,14 +214,14 @@
        "c": "C30",
        "s": "S3",
        "quote": "The intrauterine device (IUD) can be offered to all patients unless there is a gynaecological contraindication. Copper IUD can be used in any patient, while … IUD should be considered only if the benefits of the released hormone … outweigh the risk of thrombosis.",
-       "strength": "Table 1 item 2 (LoE/GoR not accessible); the two '…' replace the hormone name and its example benefit",
+       "strength": "Table 1 item 2 (Table 1 also gives the item's LoE and GoR); the two '…' replace the hormone name and its example benefit",
        "confidence": "High"
       },
       {
        "c": "C21",
        "s": "S3",
        "quote": "…Effective contraceptive measures should be discussed with the patient by weighing the individual risk factors, including general (hypertension, obesity, tobacco use, family history of hormonal-dependent cancers)and disease-related risk factors, particularly disease activity and thrombotic risk (emphasis on antiphospholipid antibodies (aPLs)).",
-       "strength": "Table 1 item 2, LoA 9.9 (0.4); LoE/GoR not accessible",
+       "strength": "Table 1 item 2, LoA 9.9 (0.4); Table 1 also gives the item's LoE and GoR",
        "confidence": "High"
       },
       {
@@ -489,7 +489,7 @@
        "c": "C20",
        "s": "S5",
        "quote": "Da eine hohe Krankheitsaktivität die männliche Fertilität beeinträchtigen kann, wird eine Krankheitskontrolle mit kompatiblen Medikamenten empfohlen.",
-       "strength": "Not visible (German-language summary of the EULAR 2024 update by two task-force members; supporting citation only)",
+       "strength": "German-language summary of the EULAR 2024 update by two task-force members (supporting citation only)",
        "confidence": "Low"
       }
      ],
@@ -540,7 +540,7 @@
        "c": "C72",
        "s": "S3",
        "quote": "Pregnant women with SLE and/or APS should follow the local protocols applied to pregnancies at high risk for hypertensive disorders and/or placental insufficiency, adjusting the frequency and modality of fetal surveillance according to the maternal and/or fetal status …",
-       "strength": "Table 1 item 7, LoA 9.7 (0.5); LoE/GoR not accessible",
+       "strength": "Table 1 item 7, LoA 9.7 (0.5); Table 1 also gives the item's LoE and GoR",
        "confidence": "High"
       }
      ],
@@ -798,7 +798,7 @@
      "c": "C1",
      "s": "S3",
      "quote": "…Most women can have successful pregnancies and measures can be taken to reduce the risks of adverse maternal or fetal outcomes.",
-     "strength": "Table 1 item 1, LoA 10 (0.2); LoE/GoR not accessible",
+     "strength": "Table 1 item 1, LoA 10 (0.2); Table 1 also gives the item's LoE and GoR",
      "confidence": "High"
     },
     {
@@ -877,7 +877,7 @@
      "c": "C84",
      "s": "S5",
      "quote": "Neu ist Punkt D, der die Vorteile des Stillens unterstreicht. Demnach sollen Patientinnen über die positive Wirkung des Stillens bei der Einnahme von verträglichen Medikamenten informiert werden.",
-     "strength": "Not visible (German-language summary of the EULAR 2024 update by two task-force members; supporting citation only)",
+     "strength": "German-language summary of the EULAR 2024 update by two task-force members (supporting citation only)",
      "confidence": "Low"
     }
    ],
