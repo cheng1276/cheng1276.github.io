@@ -456,14 +456,14 @@
        "c": "C57",
        "s": "S39",
        "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
-       "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only)",
+       "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Supporting citation only, showing that the data come from abroad (men only)",
        "confidence": "Low"
       },
       {
        "c": "C56",
        "s": "S38",
        "quote": "Nonetheless, only about half of those with serum urate concentrations ≥10mg/dL develop clinically evident gout over 15 years, implying a role for prolonged hyperuricaemia and additional factors in the pathogenesis of gout.",
-       "strength": "Individual participant data analysis of 4 US cohorts (ARIC, CARDIA, Framingham; n=18 889). Threshold ≥10 mg/dL. Cited only as a second citation showing that the data come from abroad",
+       "strength": "Individual participant data analysis of 4 US cohorts (ARIC, CARDIA, Framingham; n=18 889). Threshold ≥10 mg/dL. Supporting citation only, showing that the data come from abroad",
        "confidence": "Low"
       }
      ],
@@ -681,7 +681,7 @@
      "c": "C57",
      "s": "S39",
      "quote": "With urate levels of 9 mg/dl or higher, cumulative incidence of gouty arthritis reached 22 percent after five years.",
-     "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Cited only as a second citation showing that the data come from abroad (men only)",
+     "strength": "Prospective cohort: 2046 initially healthy men, Normative Aging Study (US), 1987. Threshold '9 mg/dl or higher'. Supporting citation only, showing that the data come from abroad (men only)",
      "confidence": "Low"
     }
    ],
@@ -789,7 +789,7 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial safety line: a hot, swollen joint can be a gout flare or joint infection (see the gout and osteoarthritis pages).",
+     "strength": "Editorial safety line: a hot, swollen joint can be a gout flare or joint infection (see the 痛風 and 退化性關節炎 pages).",
      "confidence": "EDITORIAL"
     }
    ],
