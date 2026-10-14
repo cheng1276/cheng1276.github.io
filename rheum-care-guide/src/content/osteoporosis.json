@@ -328,14 +328,14 @@
        "c": "C44",
        "s": "S1",
        "quote": "In people with osteoporosis, repetitive forced spinal forward flexion exercises should be undertaken with care as this specific movement may be associated with an increased risk of new vertebral fractures []; (Evidence level Ia).",
-       "strength": "Narrative; Evidence level Ia (source of the added caution, as in OP-4.1)",
+       "strength": "Narrative; Evidence level Ia (basis for 「仰臥起坐這類反覆彎腰的動作要小心」; also cited on the 「保護脊椎」 card)",
        "confidence": "High"
       },
       {
        "c": "C45",
        "s": "S21",
        "quote": "Activities that involved spinal flexion (certain yoga moves and sit-ups) were associated with a greater risk of vertebral fractures but these events were rare.",
-       "strength": "Systematic review (Tier 2), abstract only; source of the sit-up example",
+       "strength": "Systematic review, abstract only; source of the sit-up example",
        "confidence": "Medium"
       }
      ],
@@ -413,7 +413,7 @@
        "c": "C45",
        "s": "S21",
        "quote": "Activities that involved spinal flexion (certain yoga moves and sit-ups) were associated with a greater risk of vertebral fractures but these events were rare.",
-       "strength": "Systematic review (Tier 2), abstract only; source of the examples",
+       "strength": "Systematic review, abstract only; source of the examples",
        "confidence": "Medium"
       }
      ],
@@ -682,7 +682,7 @@
        "c": "C91",
        "s": "S1",
        "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
-       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …)",
+       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 ('…' replaces the dose)",
        "confidence": "High"
       },
       {
@@ -724,7 +724,7 @@
        "c": "C91",
        "s": "S1",
        "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
-       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …)",
+       "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 ('…' replaces the dose)",
        "confidence": "High"
       }
      ],
@@ -759,14 +759,14 @@
        "c": "C94",
        "s": "S5",
        "quote": "Invasive dental procedures in patients on denosumab should be performed just before the next six‐monthly injection",
-       "strength": "Rec 45 (Grade C); shows that extraction timing is planned (sources differ on the timing, so no timing is printed)",
+       "strength": "Rec 45 (Grade C); shows that extraction timing is planned (sources differ on the timing, so the page text gives none)",
        "confidence": "High"
       },
       {
        "c": "C95",
        "s": "S18",
        "quote": "should ideally be performed 3–4 months after the last injection",
-       "strength": "Regional consensus (AFOS), denosumab extraction timing; differs from RACGP, so no timing is printed",
+       "strength": "Regional consensus (AFOS), denosumab extraction timing; differs from RACGP, so the page text gives no timing",
        "confidence": "High"
       },
       {
@@ -906,7 +906,7 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "Editorial: 「醫師指示的鈣片或維生素D，請照醫囑使用」 (same protective phrase as OA-M3 and RA-3.3).",
+     "strength": "Editorial: 「醫師指示的鈣片或維生素D，請照醫囑使用」 (same protective phrase as in the 退化性關節炎 page's 常見迷思 and the 類風濕性關節炎 page's 「飲食與體重」 card).",
      "confidence": "EDITORIAL"
     }
    ],
@@ -942,7 +942,7 @@
      "c": "M5",
      "s": "S21",
      "quote": "Patients with osteoporosis/osteopenia can safely participate in structured exercise programmes, whether at home or in supervised facilities.",
-     "strength": "Systematic review (Tier 2), abstract only",
+     "strength": "Systematic review, abstract only",
      "confidence": "Medium"
     },
     {
@@ -972,7 +972,7 @@
      "c": "C83",
      "s": "S1",
      "quote": "Vertebral fracture assessment (VFA) is indicated in postmenopausal women and men age ≥ 50 years if there is a history of ≥ 4 cm height loss, kyphosis, recent or current long-term oral glucocorticoid therapy, a BMD-score ≤  − 2.5 at either the spine or hip, or in cases of acute onset back pain with risk factors for osteoporosis (Strong recommendation).",
-     "strength": "Strong (\"BMD-score\" as extracted; the T was dropped)",
+     "strength": "Strong. \"BMD-score\" is as in the PMC text, where the letter T of \"T-score\" is missing throughout",
      "confidence": "High"
     }
    ],
@@ -1000,7 +1000,7 @@
      "c": "C91",
      "s": "S1",
      "quote": "Denosumab is given as a subcutaneous injection of … once every 6 months.",
-     "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 (the dose is cut out with …)",
+     "strength": "Narrative; source of the descriptor 「每半年打一次的…皮下注射針劑」 ('…' replaces the dose)",
      "confidence": "High"
     },
     {

@@ -321,7 +321,7 @@
        "c": "C72",
        "s": "S8",
        "quote": "Steroid (high dose) ≥ 20 mg/day for ≥ 4 weeks … Steroid (median dose): 10–20 mg/day for ≥ 4 weeks … Steroid (low dose < 10 mg/day) … Steroid (high dose) ≥ 20 mg/day",
-       "strength": "APASL Table 4, 'Risk stratification of HBV reactivation among HBsAg-positive patients and HBsAg-negative/anti-HBc-positive patients' (risk table; GRADE grade not shown; PMC8382940). In order: High (>10%), HBsAg(+) column; Moderate (1–10%), HBsAg(+); Low (<1%), HBsAg(+); Low (<1%), HBsAg(−)/anti-HBc(+) column. The table is flattened in the PMC text; in the anti-HBc(+) column each item is the HBsAg(+) entry one risk level higher. Doses are kept in the quote only; the page prints none.",
+       "strength": "APASL Table 4, 'Risk stratification of HBV reactivation among HBsAg-positive patients and HBsAg-negative/anti-HBc-positive patients' (risk table; GRADE grade not shown; PMC8382940). In order: High (>10%), HBsAg(+) column; Moderate (1–10%), HBsAg(+); Low (<1%), HBsAg(+); Low (<1%), HBsAg(−)/anti-HBc(+) column. The table is flattened in the PMC text; in the anti-HBc(+) column each item is the HBsAg(+) entry one risk level higher. The quote includes doses; the page text gives none.",
        "confidence": "High (HBsAg-positive rows); Medium (anti-HBc-positive column inferred)"
       },
       {
@@ -412,7 +412,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "「請不要自行停用」 is EDITORIAL. No source states this patient instruction; the sources support it in substance: every source continues antivirals after immunosuppression ends (AASLD 'should continue … for at least 6 months'; APASL: stop 'under the guidance of a hepatologist'; EULAR 'reasonable' 6–12 months). 「通常」 is not used because no source supports stopping antivirals when immunosuppression stops.",
+       "strength": "「請不要自行停用」 is EDITORIAL. No source states this patient instruction; the sources support it in substance: every source continues antivirals after immunosuppression ends (AASLD 'should continue … for at least 6 months'; APASL: stop 'under the guidance of a hepatologist'; EULAR 'reasonable' 6–12 months).",
        "confidence": "EDITORIAL"
       }
      ],
@@ -518,7 +518,7 @@
        "c": "C75",
        "s": "S17",
        "quote": "If the patient is already taking hydrocortisone ≥40 mg daily … there is typically no need to increase the dose unless there are signs of hemodynamic instability",
-       "strength": "Table 8, minor stress (PMC11180513); shortened with an ellipsis. Basis for 「可能需要」; no dose is printed on the page.",
+       "strength": "Table 8, minor stress (PMC11180513); shortened with an ellipsis. Basis for 「可能需要」; the page text gives no dose.",
        "confidence": "High"
       },
       {
@@ -532,7 +532,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "「（不是治療感染）」 and 「感染也要就醫」 are editorial clarifiers, so readers do not take extra steroid as treatment for the infection. 'Did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency' (R 3.1) is not spelled out; 「可能需要」 and 「請事先問醫師」 cover it.",
+       "strength": "「（不是治療感染）」 and 「感染也要就醫」 are editorial clarifiers, so readers do not take extra steroid as treatment for the infection. R 3.1 applies to patients who 'did not undergo biochemical testing to rule out glucocorticoid-induced adrenal insufficiency'; the text conveys this with 「可能需要」 and 「請事先問醫師」.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -576,14 +576,14 @@
        "c": "common:C77",
        "s": "common:S10",
        "quote": "For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended. … the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression.",
-       "strength": "Conditional; \"Very low\" (Table 7). Same quote and wording (「延後」) as the common page (CM-5.2); the direction ('deferring') is as in the ACR-hosted manuscript and the Discussion.",
+       "strength": "Conditional; \"Very low\" (Table 7). Same quote as on the 共通照護 page's 「疫苗接種」 card, which also says 「延後」; the direction ('deferring') is as in the ACR-hosted manuscript and the Discussion.",
        "confidence": "High"
       },
       {
        "c": "C76",
        "s": "S5",
        "quote": "Live attenuated vaccines, such as the herpes zoster vaccine, oral polio or rabies vaccine, should be avoided (grade 2C, SOA 99%).",
-       "strength": "2C, SOA 99% (patients receiving biologic therapy; executive summary); supporting only, the page follows ACR's 「延後」.",
+       "strength": "2C, SOA 99% (patients receiving biologic therapy; executive summary); supporting only: BSR says 'avoided', and the text follows ACR's 「延後」 ('deferring').",
        "confidence": "High"
       },
       {
@@ -683,7 +683,7 @@
        "c": "C66",
        "s": "S2",
        "quote": "Furthermore, treatment of AIIRD may need to be put on hold when infections occur.",
-       "strength": "Tier 2 narrative",
+       "strength": "Systematic literature review (narrative text)",
        "confidence": "Medium"
       }
      ],
@@ -712,7 +712,7 @@
       "c": "EDITORIAL",
       "s": "",
       "quote": "",
-      "strength": "Editorial safety tip: prompt contact first; drug changes decided by the doctor; the absolute 'do not stop' kept only for glucocorticoids. No source gives patients a rule for pausing drugs during a non-serious infection.",
+      "strength": "Editorial safety tip: see a doctor promptly; the doctor decides whether to pause or adjust medicines; only glucocorticoids carry an absolute 'do not stop'. No source gives patients a rule for pausing drugs during a non-serious infection.",
       "confidence": "EDITORIAL"
      },
      {
@@ -861,7 +861,7 @@
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "「盡快」 and the JAK-inhibitor / other-immunosuppressant clause are EDITORIAL. BSR's 'treated conventionally' (2C) is stated only for patients on biologics, so 「治療方式和一般人相同」 stays in the biologic clause.",
+     "strength": "「盡快」 and the JAK-inhibitor / other-immunosuppressant clause are EDITORIAL. BSR's 'treated conventionally' (2C) is stated only for patients on biologics, so 「治療方式和一般人相同」 is said only of people on biologics.",
      "confidence": "EDITORIAL"
     }
    ],
@@ -931,14 +931,14 @@
      "c": "C60",
      "s": "S5",
      "quote": "Patients should have direct access to their specialist centre [e.g. via an advice line (Helpline)] for advice within one working day (grade 1C, SOA 98%).",
-     "strength": "1C; SOA 98% (executive summary, 'Generic recommendations' (iv); a UK service standard). The one-working-day figure is not printed.",
+     "strength": "1C; SOA 98% (executive summary, 'Generic recommendations' (iv); a UK service standard). The page text does not give the one-working-day figure.",
      "confidence": "High"
     },
     {
      "c": "EDITORIAL",
      "s": "",
      "quote": "",
-     "strength": "「發燒」 is an editorial example: no accessible source lists infection symptoms for patients. 「呼吸困難、意識不清或快昏倒，請撥打 119 或到急診」 is an editorial emergency line (same wording as the page footer).",
+     "strength": "「發燒」 is an editorial example: none of the cited sources lists infection symptoms for patients. 「呼吸困難、意識不清或快昏倒，請撥打 119 或到急診」 is an editorial emergency line (same wording as the page footer).",
      "confidence": "EDITORIAL"
     }
    ],

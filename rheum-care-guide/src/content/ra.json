@@ -108,7 +108,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial: 「有心臟或肺部疾病時，開始運動前請先和醫師討論」 is the same caution as the common page (CM-1.6); WHO 2020 calls activity safe for people without contraindications.",
+       "strength": "Editorial: 「有心臟或肺部疾病時，開始運動前請先和醫師討論」 is the same caution as on the 共通照護 page's 「規律活動」 card; WHO 2020 calls activity safe for people without contraindications.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -381,10 +381,10 @@
        "confidence": "High"
       },
       {
-       "c": "RA-C67 (notes)",
+       "c": "RA-C67",
        "s": "S1",
        "quote": "Recommendations on folic acid supplementation in the setting of treatment with methotrexate are included in the pharmacologic treatment guidelines",
-       "strength": "Medication-adjacent narrative",
+       "strength": "Narrative",
        "confidence": "High"
       },
       {
@@ -611,7 +611,7 @@
        "c": "RA-C34",
        "s": "S20",
        "quote": "Our mapping synthesis indicates that physical activity and exercises in RA are effective non-pharmacological interventions for some outcomes, such as hand function, muscle strength and fatigue, without any deterioration of pain, disease activity and radiological involvement.",
-       "strength": "Tier 2",
+       "strength": "Overview of Cochrane systematic reviews",
        "confidence": "Medium"
       }
      ],
@@ -736,14 +736,14 @@
      "c": "RA-C34",
      "s": "S20",
      "quote": "Our mapping synthesis indicates that physical activity and exercises in RA are effective non-pharmacological interventions for some outcomes, such as hand function, muscle strength and fatigue, without any deterioration of pain, disease activity and radiological involvement.",
-     "strength": "Tier 2",
+     "strength": "Overview of Cochrane systematic reviews",
      "confidence": "Medium"
     },
     {
      "c": "RA-C32",
      "s": "S11",
      "quote": "Physical activity did not affect disease activity",
-     "strength": "Tier 2 (authors' GRADE-based rating)",
+     "strength": "Systematic review and meta-analysis (authors' GRADE-based rating)",
      "confidence": "Medium"
     },
     {
@@ -786,7 +786,7 @@
      "c": "RA-C71",
      "s": "S10",
      "quote": "The dietary exposures with moderate quality evidence (probiotics, vitamin D, fish oil/omega-3) showed either no effect or effect sizes that are probably not clinically significant.",
-     "strength": "Tier 2",
+     "strength": "Systematic review and meta-analysis",
      "confidence": "Medium"
     }
    ],

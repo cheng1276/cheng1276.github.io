@@ -66,7 +66,7 @@
        "c": "C44",
        "s": "S3",
        "quote": "…avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks…",
-       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       },
       {
@@ -122,7 +122,7 @@
        "c": "C44",
        "s": "S3",
        "quote": "Importantly, other modifiable risk factors have been identified since 2006, specifically sugar-sweetened drinks, foods rich in fructose and orange or apple juice.",
-       "strength": "As C16 (LoA not found in accessible text. Mainly expert opinion (C07)); location: discussion of principle B",
+       "strength": "Discussion of overarching principle B (principle B: LoA not found in accessible text; the task force states that it \"was mainly based on expert opinion\")",
        "confidence": "High"
       }
      ],
@@ -200,7 +200,7 @@
        "c": "C16",
        "s": "S3",
        "quote": "…avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks, heavy meals and excessive intake of meat and seafood.",
-       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       },
       {
@@ -249,7 +249,7 @@
        "c": "C49",
        "s": "S3",
        "quote": "Low-fat dairy products should be encouraged.",
-       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       }
      ],
@@ -335,7 +335,7 @@
        "c": "C77",
        "s": "S3",
        "quote": "Regular exercise should be advised.",
-       "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+       "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
        "confidence": "High"
       },
       {
@@ -349,7 +349,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "Editorial: 「有心臟或肺部疾病的人，開始運動前請先和醫師討論」 is the same caution as the common page (CM-1.6); WHO 2020 calls activity safe for people without contraindications.",
+       "strength": "Editorial: 「有心臟或肺部疾病的人，開始運動前請先和醫師討論」 is the same caution as on the 共通照護 page's 「規律活動」 card; WHO 2020 calls activity safe for people without contraindications.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -616,7 +616,7 @@
      "c": "C16",
      "s": "S3",
      "quote": "Every person with gout should receive advice regarding lifestyle: weight loss if appropriate and avoidance of alcohol (especially beer and spirits) and sugar-sweetened drinks, heavy meals and excessive intake of meat and seafood.",
-     "strength": "Overarching principle B; LoA not found in accessible text. Mainly expert opinion (C07)",
+     "strength": "Overarching principle B; LoA not found in accessible text. The task force states that this principle \"was mainly based on expert opinion\"",
      "confidence": "High"
     },
     {

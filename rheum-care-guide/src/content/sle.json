@@ -221,7 +221,7 @@
        "c": "C54",
        "s": "S18",
        "quote": "Tobacco smoking significantly reduced the therapeutic effectiveness of hydroxychloroquine in cutaneous lesions (pooled OR 0.53; 95%CI: 0.305-0.927)",
-       "strength": "Tier 2 SR/MA",
+       "strength": "Systematic review and meta-analysis",
        "confidence": "Medium"
       }
      ],
@@ -235,21 +235,21 @@
        "c": "C55",
        "s": "S19",
        "quote": "Smoking is associated with a 2-fold decrease in the proportion of patients with CLE achieving cutaneous improvement with antimalarials.",
-       "strength": "Tier 2 MA of observational studies",
+       "strength": "Meta-analysis of observational studies",
        "confidence": "Medium"
       },
       {
        "c": "C55",
        "s": "S19",
        "quote": "The pooled odds ratio for the response to antimalarials in smoker patients with CLE (n = 797) was 0.53 (95% confidence interval 0.29-0.98) compared with nonsmokers (n = 601).",
-       "strength": "Tier 2 MA of observational studies",
+       "strength": "Meta-analysis of observational studies",
        "confidence": "Medium"
       },
       {
        "c": "C54",
        "s": "S18",
        "quote": "Tobacco smoking significantly reduced the therapeutic effectiveness of hydroxychloroquine in cutaneous lesions (pooled OR 0.53; 95%CI: 0.305-0.927)…",
-       "strength": "Tier 2 SR/MA",
+       "strength": "Systematic review and meta-analysis",
        "confidence": "Medium"
       }
      ],
@@ -792,7 +792,7 @@
      "c": "C85",
      "s": "S11",
      "quote": "…with no significant change in disease activity (g=0.18, 95% CI -0.16 to 0.51, p=0.30).",
-     "strength": "Tier 2",
+     "strength": "Systematic review and meta-analysis",
      "confidence": "Medium"
     },
     {
