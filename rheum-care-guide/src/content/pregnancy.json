@@ -66,7 +66,7 @@
        "c": "C105",
        "s": "S10",
        "quote": "Established moderate-to-severe pulmonary hypertension (PHT) remains a contraindication to pregnancy. … (GRADE 1C, SOA 99.5).",
-       "strength": "GRADE 1C, SOA 99.5 (the grade covers the whole statement; its second sentence, about medicines, is not printed here)",
+       "strength": "GRADE 1C, SOA 99.5 (the grade covers the whole statement; its second sentence, about medicines, is omitted at '…')",
        "confidence": "High"
       }
      ],
@@ -214,7 +214,7 @@
        "c": "C30",
        "s": "S3",
        "quote": "The intrauterine device (IUD) can be offered to all patients unless there is a gynaecological contraindication. Copper IUD can be used in any patient, while … IUD should be considered only if the benefits of the released hormone … outweigh the risk of thrombosis.",
-       "strength": "Table 1 item 2 (LoE/GoR not accessible); the cuts leave out the hormone name and its example benefit, and keep the caveat on the hormone-releasing IUD",
+       "strength": "Table 1 item 2 (LoE/GoR not accessible); the two '…' replace the hormone name and its example benefit",
        "confidence": "High"
       },
       {
@@ -228,7 +228,7 @@
        "c": "EDITORIAL",
        "s": "",
        "quote": "",
-       "strength": "「（台灣目前沒有）」 is an editorial note on availability, added at the reviewing physician's request (2026-10-12): no progestin-only pill is marketed in Taiwan. The guidelines do not address availability; re-check if such a pill is licensed in Taiwan.",
+       "strength": "「（台灣目前沒有）」 is an editorial note on availability: no progestin-only pill was marketed in Taiwan as of October 2026. The guidelines do not address availability.",
        "confidence": "EDITORIAL"
       }
      ],
@@ -377,7 +377,7 @@
       "c": "EDITORIAL",
       "s": "",
       "quote": "",
-      "strength": "Editorial safety tip: no source read states this patient instruction in these words. It follows in substance from the BSR recommendation that pre-conception counselling cover drug therapy before, during and after pregnancy (1A), from BSR's statement that unnecessary withdrawal of treatment can worsen disease control in pregnancy, and from medicine-specific statements in two guidelines that some medicines are switched as soon as pregnancy is confirmed (not printed on this page). 「不要等到下次回診」 is editorial, because those medicine-specific statements say the change is made as soon as pregnancy is confirmed.",
+      "strength": "Editorial safety tip: none of the cited sources states this patient instruction in these words. It follows in substance from the BSR recommendation that pre-conception counselling cover drug therapy before, during and after pregnancy (1A), from BSR's statement that unnecessary withdrawal of treatment can worsen disease control in pregnancy, and from medicine-specific statements in two guidelines that some medicines are switched as soon as pregnancy is confirmed (the page does not name these medicines). 「不要等到下次回診」 is editorial, because those medicine-specific statements say the change is made as soon as pregnancy is confirmed.",
       "confidence": "EDITORIAL"
      },
      {
@@ -426,7 +426,7 @@
        "c": "C60",
        "s": "S1",
        "quote": "We strongly recommend against use of … in men prior to attempting conception.",
-       "strength": "Strong, against (two named medicines; the names are cut with … under this page's no-drug-name rule)",
+       "strength": "Strong, against (two named medicines; '…' replaces their names)",
        "confidence": "High"
       },
       {
@@ -596,7 +596,7 @@
        "c": "C81",
        "s": "S12",
        "quote": "… should be used in high-risk situations such as surgery, prolonged immobilisation and the puerperium.",
-       "strength": "Overarching principle (the start of the sentence names a medicine and is not printed on this page)",
+       "strength": "Overarching principle ('…' replaces the start of the sentence, which names a medicine)",
        "confidence": "High"
       },
       {
@@ -625,7 +625,7 @@
       "c": "C77",
       "s": "S3",
       "quote": "CHB associated with anti-Ro/SSA and/or anti-La/SSB has 16% recurrence rate in women with a previously affected child; …",
-      "strength": "Pregnancy-monitoring text (narrative); the cut leaves out the fetal-monitoring schedule",
+      "strength": "Pregnancy-monitoring text (narrative); '…' replaces the fetal-monitoring schedule",
       "confidence": "High"
      },
      {
@@ -695,7 +695,7 @@
        "c": "C89",
        "s": "S11",
        "quote": "After giving birth, most RMD patients turn to their general pediatrician rather than to their adult rheumatology provider for infant vaccination recommendations, and pediatricians may not be aware of the impact of in utero medication exposure on vaccine safety and immunogenicity. … Specifically, the pregnant patient should be educated as to the fact that medications that cross the placenta may affect vaccination schedules for their infants. A copy of the current vaccine guideline summary … may serve as a useful resource for the pregnant RMD patient to share with their pediatrician in advance of delivery.",
-       "strength": "Statement (ungraded); a cut sentence names specific medicines",
+       "strength": "Statement (ungraded); an omitted sentence names specific medicines",
        "confidence": "High"
       },
       {
@@ -805,7 +805,7 @@
      "c": "C105",
      "s": "S10",
      "quote": "Established moderate-to-severe pulmonary hypertension (PHT) remains a contraindication to pregnancy. … (GRADE 1C, SOA 99.5).",
-     "strength": "GRADE 1C, SOA 99.5 (the grade covers the whole statement; its second sentence, about medicines, is not printed here)",
+     "strength": "GRADE 1C, SOA 99.5 (the grade covers the whole statement; its second sentence, about medicines, is omitted at '…')",
      "confidence": "High"
     }
    ],
