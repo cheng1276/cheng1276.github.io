@@ -646,7 +646,7 @@
        "c": "C140",
        "s": "S06",
        "quote": "Family planning should be discussed as early as possible after diagnosis. Most women can have successful pregnancies and measures can be taken to reduce the risks of adverse maternal or fetal outcomes.",
-       "strength": "Table 1 item 1 (preconception counselling and risk stratification), LoA 10 (0.2); Table 1 also gives the item's LoE and GoR",
+       "strength": "Abstract; relates to Table 1 item 1 (preconception counselling and risk stratification; LoA 10 (0.2)). The item's LoE/GoR grades attach to individual risk factors and measures, not to these sentences",
        "confidence": "High"
       },
       {
@@ -702,7 +702,7 @@
        "c": "C145",
        "s": "S06",
        "quote": "Women with SLE and/or APS should be counselled about contraception, especially for the prevention of unwanted pregnancies during high disease activity periods and intake of teratogenic drugs.",
-       "strength": "Table 1 item 2, LoA 9.9 (0.4); Table 1 also gives the item's LoE and GoR",
+       "strength": "Text under 'Contraceptive measures'; relates to Table 1 statement 2.1, which carries no LoE/GoR (item 2 LoA 9.9 (0.4))",
        "confidence": "High"
       },
       {
@@ -943,7 +943,7 @@
      "c": "C145",
      "s": "S06",
      "quote": "Women with SLE and/or APS should be counselled about contraception, especially for the prevention of unwanted pregnancies during high disease activity periods and intake of teratogenic drugs.",
-     "strength": "Table 1 item 2, LoA 9.9 (0.4); Table 1 also gives the item's LoE and GoR",
+     "strength": "Text under 'Contraceptive measures'; relates to Table 1 statement 2.1, which carries no LoE/GoR (item 2 LoA 9.9 (0.4))",
      "confidence": "High"
     },
     {

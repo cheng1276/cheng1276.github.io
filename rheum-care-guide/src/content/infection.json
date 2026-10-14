@@ -293,7 +293,7 @@
        "c": "C31",
        "s": "S8",
        "quote": "All patients planned to receive immunosuppressive therapy should be screened. … Screening should include HBsAg, anti-HBs and anti-HBc.",
-       "strength": "Recommendations 2 and 3.1 (APASL grades its recommendations with GRADE; the grades are not reproduced here)",
+       "strength": "Recommendations 2 and 3.1",
        "confidence": "High"
       },
       {
@@ -349,7 +349,7 @@
        "c": "C39",
        "s": "S3",
        "quote": "Prophylactic antiviral therapy is strongly recommended over frequent monitoring alone for patients initiating any bDMARD or tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen positive",
-       "strength": "Strong (certainty of evidence is given in Table 6 of the source)",
+       "strength": "Strong; certainty of evidence very low (Table 6)",
        "confidence": "High"
       },
       {
@@ -377,7 +377,7 @@
        "c": "C39",
        "s": "S3",
        "quote": "Frequent monitoring alone of viral load and liver enzymes is conditionally recommended over prophylactic antiviral therapy for patients initiating a bDMARD other than rituximab or a tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen negative",
-       "strength": "Conditional (certainty of evidence is given in Table 6 of the source)",
+       "strength": "Conditional; certainty of evidence very low (Table 6)",
        "confidence": "High"
       }
      ],
@@ -398,7 +398,7 @@
        "c": "C42",
        "s": "S8",
        "quote": "… under the guidance of a hepatologist, termination of NUCs would be considered 6 months after the completion of IST …",
-       "strength": "APASL text (APASL grades its recommendations with GRADE; no grade is reproduced here)",
+       "strength": "Narrative text under 'Assessment by hepatologists for termination of NUC treatment' (not a numbered recommendation)",
        "confidence": "High"
       },
       {
@@ -427,7 +427,7 @@
       "c": "C34",
       "s": "S18",
       "quote": "Hepatitis A and hepatitis B vaccines should be administered to AIIRD patients at risk … Patients at risk include HBV-seronegative patients that travel to or are residents in endemic countries … patients at increased risk of exposure to HBV (eg, medical personnel, household contacts or sexual partners of known persons with chronic HBV infection, intravenous drug users, men who have sex with men).",
-      "strength": "Recommendation 4 (SoR is given in Table 2 of the source)",
+      "strength": "Text under Recommendation 4 (Table 2: SoR printed as B and C; LoA 9.6)",
       "confidence": "Medium"
      },
      {
@@ -824,7 +824,7 @@
      "c": "C42",
      "s": "S8",
      "quote": "… under the guidance of a hepatologist, termination of NUCs would be considered 6 months after the completion of IST …",
-     "strength": "APASL text (APASL grades its recommendations with GRADE; no grade is reproduced here)",
+     "strength": "Narrative text under 'Assessment by hepatologists for termination of NUC treatment' (not a numbered recommendation)",
      "confidence": "High"
     },
     {
