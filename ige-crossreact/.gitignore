@@ -1,0 +1,4 @@
+# 網頁需要密碼才能開啟：明文的原始檔與建置結果不進公開儲存庫。
+# 原始檔以加密的 source.enc 保存，用 node tools/protect.js unpack 還原。
+src/
+build/
