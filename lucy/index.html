@@ -172,7 +172,10 @@ p{margin:0}
   'use strict';
   var DATA = JSON.parse(document.getElementById('lucy-data').textContent);
   var MAX = 3;
-  var state = { moods: [], thoughts: [], energy: 0, round: 0, shown: [], example: true };
+  // salt: a fresh random draw for every visit and every press of the button, so the same feelings do not always
+  // bring the same three books; matching still decides which books are in the running
+  function freshSalt(){ try { var a = new Uint32Array(2); crypto.getRandomValues(a); return a[0].toString(36) + a[1].toString(36); } catch (e) { return Math.random().toString(36).slice(2); } }
+  var state = { moods: [], thoughts: [], energy: 0, round: 0, shown: [], example: true, salt: freshSalt() };
   var LABEL = {};
   (DATA.moods || []).forEach(function(m){ LABEL[m.id] = m.label; });
   (DATA.thoughts || []).forEach(function(t){ LABEL[t.id] = t.label; });
@@ -245,7 +248,7 @@ p{margin:0}
 
   /* ---------- Lucy's note ---------- */
   function composeNote(sel){
-    var L = DATA.lines, seed = key(sel), parts = [];
+    var L = DATA.lines, seed = key(sel) + '#' + state.salt, parts = [];
     if (sel.moods.length) parts.push(pick(L.mood[sel.moods[0]], seed + 'm'));
     sel.thoughts.slice(0, 2).forEach(function(t, i){ parts.push(pick(L.thought[t], seed + 't' + i)); });
     parts.push(pick(L.energy[String(sel.energy || 0)], seed + 'e'));
@@ -280,7 +283,7 @@ p{margin:0}
   function current(){ return state.example ? DATA.example : { moods: state.moods.slice(), thoughts: state.thoughts.slice(), energy: state.energy }; }
   function renderResult(animate, notice){
     var sel = current();
-    var ranked = scoreAll(sel, state.round);
+    var ranked = scoreAll(sel, state.salt + ':' + state.round);
     var picked = choose(ranked, state.shown);
     if (picked.length < 3 && state.shown.length) { state.shown = []; notice = DATA.lines.loop; picked = choose(ranked, []); }
     picked.forEach(function(r){ state.shown.push(r.b.id); });
@@ -303,7 +306,7 @@ p{margin:0}
     if (el.id === 'go') {
       if (!state.moods.length && !state.thoughts.length) { $('go-msg').textContent = DATA.lines.empty; return; }
       $('go-msg').textContent = '';
-      state.example = false; state.round = 0; state.shown = [];
+      state.example = false; state.round = 0; state.shown = []; state.salt = freshSalt();
       renderResult(true);
       $('result').scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
       var h = $('rx-title'); if (h) h.focus({ preventScroll: true });
