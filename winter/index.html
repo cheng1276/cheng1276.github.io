@@ -109,7 +109,7 @@ p{margin:0}
 .q{display:flex;flex-direction:column;gap:10px}
 .ask{font-size:18px;line-height:1.5}
 .ask b{font-weight:400;font-size:12px;letter-spacing:.14em;color:var(--lamp);margin-right:8px;vertical-align:2px}
-.ask small{margin-left:8px;font-size:12.5px;color:var(--text-2)}
+.ask small{margin-left:8px;font-size:12.5px;color:var(--text-2);white-space:nowrap;display:inline-block}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{display:inline-flex;align-items:center;min-height:40px;padding:5px 14px;border:1.5px solid var(--chip-line);border-radius:999px;background:var(--counter-2);font-size:15px;line-height:1.3}
 .chip.on-pick{background:var(--lamp);border-color:var(--lamp);color:var(--lamp-ink)}
@@ -174,7 +174,7 @@ p{margin:0}
 <main>
   <section class="wrap lead">
     <h1>天冷了，<br>來小攤坐一下</h1>
-    <p>天冷了，班照樣排。累的時候，挑書這件事就交給 Lucy。這個冬天，圖書館開了一間線上小攤：說說你現在的<strong>心情</strong>、<strong>腦子裡在想的事</strong>，還有今天剩<strong>多少力氣讀書</strong>，Lucy 會從台南院區圖書館近千本館藏裡，替你挑三本書。</p>
+    <p>天冷了，班照樣排。挑書這種費電的事，就交給 Lucy。這個冬天，圖書館開了一間線上小攤：說說<strong>今天的你</strong>、<strong>腦子裡在想的事</strong>，還有<strong>今天想讀多少</strong>，Lucy 會從台南院區圖書館近九百本館藏裡，替你挑三本書。不用掛號，也不用排隊。</p>
   </section>
 
   <section class="wrap door" aria-label="進入小攤">
@@ -199,15 +199,15 @@ p{margin:0}
     <section class="wrap sec" aria-labelledby="how">
       <h2 id="how">三個問題，換三本書<small>小攤裡的樣子，選好之後按「請 Lucy 開書單」</small></h2>
       <div class="q">
-        <p class="ask"><b>LUCY</b>先說說，你現在的心情是？<small>最多選 3 個</small></p>
-        <div class="chips"><span class="chip on-pick">累到不想說話</span><span class="chip">焦慮、靜不下來</span><span class="chip">想笑一下</span><span class="chip">還不錯，想充電</span><span class="chip more">還有 7 種</span></div>
+        <p class="ask"><b>LUCY</b>先說說，今天的你是哪一種？<small>最多選 3 個</small></p>
+        <div class="chips"><span class="chip on-pick">電力只剩 5%</span><span class="chip">腦袋開了太多分頁</span><span class="chip">想笑一下</span><span class="chip">心情晴朗，想學點新的</span><span class="chip more">還有 7 種</span></div>
       </div>
       <div class="q">
         <p class="ask"><b>LUCY</b>腦子裡在想些什麼？<small>可不選・最多 3 個</small></p>
-        <div class="chips"><span class="chip on-pick">工作多到做不完</span><span class="chip">睡不著，腦子停不下來</span><span class="chip">想沉浸在故事裡</span><span class="chip more">還有 11 種</span></div>
+        <div class="chips"><span class="chip on-pick">待辦清單比我還高</span><span class="chip">數羊數到第一千隻</span><span class="chip">想沉浸在故事裡</span><span class="chip more">還有 11 種</span></div>
       </div>
       <div class="q">
-        <p class="ask"><b>LUCY</b>現在有多少力氣讀書？<small>可不選</small></p>
+        <p class="ask"><b>LUCY</b>今天想讀多少？<small>可不選</small></p>
         <div class="energy"><span class="chip on-pick">只想翻幾頁<small>繪本、圖文、短文</small></span><span class="chip">可以讀一小段<small>散文、短篇、一章</small></span><span class="chip">想好好讀一本<small>小說、知識書</small></span></div>
       </div>
       <p class="then">按下<b>「請 Lucy 開書單」</b>，三張書卡就出來了：書名、作者、索書號，還有 Lucy 寫給你的話。想看別的，就按<b>「再換三本」</b>。</p>
@@ -218,9 +218,9 @@ p{margin:0}
   <section class="wrap sec" aria-labelledby="moments">
     <h2 id="moments">冬天的三種用法</h2>
     <ul class="moments">
-      <li><span class="when">交班之後</span><span class="what">選<q>累到不想說話</q>和<q>只想翻幾頁</q>，帶一本繪本或圖文書回家。</span></li>
+      <li><span class="when">交班之後</span><span class="what">選<q>電力只剩 5%</q>和<q>只想翻幾頁</q>，帶一本繪本或圖文書回家。</span></li>
       <li><span class="when">下班的公車上</span><span class="what">選<q>想沉浸在故事裡</q>，讓一個故事陪你坐到站。</span></li>
-      <li><span class="when">睡不著的冬夜</span><span class="what">選<q>睡不著，腦子停不下來</q>，把手機換成一本紙本書。</span></li>
+      <li><span class="when">睡不著的冬夜</span><span class="what">選<q>數羊數到第一千隻</q>，把手機換成一本紙本書。</span></li>
     </ul>
   </section>
 
@@ -247,7 +247,7 @@ p{margin:0}
 
 <footer class="wrap foot">
   <div class="care">
-    <h3>如果你現在很不好</h3>
+    <h3>如果今天特別難熬</h3>
     <p>想找人說說話的時候，可以打這支電話，24 小時都有人接，不用付費。也可以找身心科或信任的同事聊聊。</p>
     <p class="num"><a href="tel:1925">1925</a> <span>安心專線（24 小時・免付費）</span></p>
     <p class="more">其他專線：生命線 1995・張老師 1980</p>
