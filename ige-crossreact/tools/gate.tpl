@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex">
 <title>IgE 交叉反應判讀器</title>
-<meta name="description" content="輸入 BioIC 等多重過敏原報告，依陽性組合判斷 CCD、profilin、tropomyosin 等共同結構造成的交叉反應。此頁面需要密碼才能開啟。">
+<meta name="description" content="輸入 BioIC 等多重過敏原報告，依陽性組合推測哪些可能來自 CCD、profilin、tropomyosin 等共同結構的交叉反應。此頁面需要密碼才能開啟。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="IgE 交叉反應判讀器">
 <meta property="og:description" content="多重過敏原檢測的交叉反應判讀工具。此頁面需要密碼才能開啟。">
