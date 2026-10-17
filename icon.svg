@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="64" height="64">
+<defs><filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE6BF" stop-opacity=".34"/>
+<stop offset="1" stop-color="#FFE6BF" stop-opacity="0"/></linearGradient>
+<radialGradient id="bgGlow" cx=".5" cy=".28" r=".75"><stop offset="0" stop-color="#22404B"/><stop offset="1" stop-color="#0E1C24"/></radialGradient></defs>
+<rect width="120" height="120" rx="24" fill="url(#bgGlow)"/>
+<g transform="translate(0.00 0.00) scale(1.0)">
+<polygon points="45,45 75,45 99,88 21,88" fill="url(#c)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#g)">
+<g stroke="#FFE6BF" stroke-width="3"><path d="M60 8V22"/><path d="M39 43C39 30 48 22 60 22S81 30 81 43Z"/><path d="M53 43A7 7 0 0 0 67 43"/></g>
+<g stroke="#F3B562" stroke-width="3"><rect x="27" y="96" width="66" height="12" rx="3.2"/><rect x="34" y="83" width="54" height="12" rx="3.2"/>
+<rect x="30" y="69" width="60" height="12" rx="3.2" transform="rotate(-5 60 75)"/>
+<path d="M37 96v12M80 83v12M38 70v11" stroke-width="2.4" transform="translate(0 0)"/></g></g></g></svg>

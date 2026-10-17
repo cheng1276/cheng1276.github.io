@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="天冷了，來小攤坐一下。說說你的心情，Lucy 從台南院區圖書館的館藏裡替你挑三本書。台南市立醫院圖書館冬令企劃。">
+<meta name="theme-color" content="#0E1C24">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:site_name" content="台南市立醫院圖書館">
+<meta property="og:title" content="冬令企劃｜Lucy 的閱讀小攤">
+<meta property="og:description" content="天冷了，來小攤坐一下。說說你的心情，Lucy 從台南院區圖書館的館藏裡替你挑三本書。台南市立醫院圖書館冬令企劃。">
+<meta property="og:url" content="https://lucy-reading-booth.pages.dev/winter/">
+<meta property="og:image" content="https://lucy-reading-booth.pages.dev/winter/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Lucy’s Reading Booth 霓虹招牌在雪中亮著，旁邊寫著：天冷了，來小攤坐一下">
+<meta name="twitter:card" content="summary_large_image">
+<style>:root{color-scheme:dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Lucy 的閱讀小攤冬令企劃</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&display=swap">
+<style id="winter-css">
+:root{
+  /* Layout: a winter night outside the booth. One 560px column: the lit sign glows through falling snow, the way in
+     is one of the booth's own cream catalog cards, then the three questions as they look at the counter, three winter
+     moments, the house rules, and Lucy's note. Same night look as the booth, so one committed dark palette. */
+  --night:#0E1C24;
+  --counter:#14262F;
+  --counter-2:#1A303B;
+  --line:#2C4754;
+  --chip-line:#52798C;
+  --text:#E5ECE9;
+  --text-2:#9EB1B3;
+  --lamp:#F3B562;
+  --lamp-soft:rgba(243,181,98,.16);
+  --lamp-ink:#2B1B06;
+  --tube:#FFE6BF;
+  --paper:#F4EFE4;
+  --paper-2:#EAE3D2;
+  --ink:#1F2A30;
+  --ink-2:#4F5D63;
+  --pen:#284C6A;
+  --rule:#BC4A3E;
+  --snow:#E5ECE9;
+  /* one rounded face for everything, as in the booth */
+  --f-ui:"Huninn","PingFang TC","Microsoft JhengHei","Noto Sans TC",ui-rounded,system-ui,sans-serif;
+  --col:560px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--night)}
+body{margin:0;background-color:var(--night);background-image:radial-gradient(120% 50% at 50% -10%, rgba(243,181,98,.14), transparent 62%);background-repeat:no-repeat;color:var(--text);font-family:var(--f-ui);font-size:15.5px;line-height:1.75;-webkit-font-smoothing:antialiased}
+a{color:var(--lamp)}
+h1,h2,h3{margin:0;font-weight:400;text-wrap:balance}
+p{margin:0}
+:focus-visible{outline:2px solid var(--lamp);outline-offset:3px}
+.wrap{position:relative;z-index:1;max-width:calc(var(--col) + 32px);margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
+#snow{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+
+/* the sign */
+.sign{padding-block:26px 6px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.lib{font-size:12px;letter-spacing:.16em;color:var(--text-2)}
+.lib b{font-weight:400;color:var(--lamp)}
+.tube{padding:14px 22px 16px;border:2px solid var(--lamp);border-radius:22px;box-shadow:0 0 0 1px rgba(243,181,98,.25),0 0 18px rgba(243,181,98,.35),inset 0 0 14px rgba(243,181,98,.22);background:rgba(14,28,36,.55)}
+.neon{font-size:clamp(38px, 11.5vw, 60px);line-height:1.02;letter-spacing:.01em;color:var(--tube);text-shadow:0 0 2px #fff4e0,0 0 8px rgba(243,181,98,.9),0 0 22px rgba(243,181,98,.55),0 0 44px rgba(243,181,98,.3)}
+.neon span{display:block}
+.on .tube,.on .neon{animation:flicker 1.4s ease-out 1 both}
+@keyframes flicker{0%{opacity:.15}8%{opacity:.9}11%{opacity:.25}17%{opacity:1}22%{opacity:.4}30%,100%{opacity:1}}
+.zh-name{font-size:17px;letter-spacing:.3em}
+.hours{font-size:13px;letter-spacing:.2em;color:var(--lamp)}
+
+/* the headline */
+.lead{padding-block:22px 26px;display:flex;flex-direction:column;gap:12px}
+.lead h1{font-size:clamp(27px, 7.4vw, 36px);line-height:1.35;letter-spacing:.04em;color:var(--text)}
+.lead p{color:var(--text-2)}
+.lead p strong{font-weight:400;color:var(--text)}
+
+/* the way in: one of the booth's catalog cards */
+.door{padding-block:4px 34px}
+.ticket{position:relative;display:grid;grid-template-columns:62px minmax(0,1fr);gap:0 14px;padding:18px 18px 34px;background:var(--paper);color:var(--ink);border-radius:3px;text-decoration:none;box-shadow:0 1px 0 #d6ccb8,0 14px 30px rgba(0,0,0,.38),0 0 40px rgba(243,181,98,.10);transform:rotate(-.5deg);transition:transform .18s ease,box-shadow .18s ease}
+.ticket:hover{transform:rotate(-.5deg) translateY(-3px);box-shadow:0 1px 0 #d6ccb8,0 20px 36px rgba(0,0,0,.42),0 0 46px rgba(243,181,98,.18)}
+.ticket:focus-visible{outline-offset:5px}
+.on .ticket{animation:pull .6s .35s cubic-bezier(.2,.9,.3,1) both}
+@keyframes pull{from{transform:rotate(-.5deg) translateY(18px);opacity:.35}to{transform:rotate(-.5deg);opacity:1}}
+.t-call{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding-top:4px;font-size:13px;line-height:1.4;color:var(--ink)}
+.t-call svg{display:block}
+.t-entry{min-width:0;display:flex;flex-direction:column;gap:2px}
+.t-au{font-size:13px;color:var(--ink-2)}
+.t-title{font-size:22px;line-height:1.4;font-weight:700;letter-spacing:.02em}
+.t-pub{font-size:13px;color:var(--ink-2)}
+.t-rule{grid-column:1 / -1;border-top:1.5px solid var(--rule);margin:12px 0 10px}
+.t-note{grid-column:1 / -1;font-size:17px;line-height:1.7;color:var(--pen)}
+.t-go{grid-column:1 / -1;justify-self:start;margin-top:14px;display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 22px;border-radius:12px;background:var(--ink);color:var(--paper);font-size:17px;letter-spacing:.12em}
+.t-go i{font-style:normal;transition:transform .18s ease}
+.ticket:hover .t-go i{transform:translateX(4px)}
+.hole{position:absolute;left:50%;bottom:11px;width:11px;height:11px;margin-left:-5.5px;border-radius:50%;background:var(--night);box-shadow:inset 0 1px 2px rgba(0,0,0,.55),0 0 0 1px rgba(31,42,48,.12)}
+
+/* section headings */
+.sec{padding-block:28px;display:flex;flex-direction:column;gap:16px}
+.sec h2{font-size:21px;letter-spacing:.08em;color:var(--text)}
+.sec h2 small{display:block;margin-top:2px;font-size:13px;letter-spacing:.06em;color:var(--text-2)}
+
+/* the three questions, as they look at the counter */
+.counter{position:relative;z-index:1;background:var(--counter);border-block:1px solid var(--line)}
+.counter .sec{padding-block:26px 28px}
+.q{display:flex;flex-direction:column;gap:10px}
+.ask{font-size:18px;line-height:1.5}
+.ask b{font-weight:400;font-size:12px;letter-spacing:.14em;color:var(--lamp);margin-right:8px;vertical-align:2px}
+.ask small{margin-left:8px;font-size:12.5px;color:var(--text-2)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;min-height:40px;padding:5px 14px;border:1.5px solid var(--chip-line);border-radius:999px;background:var(--counter-2);font-size:15px;line-height:1.3}
+.chip.on-pick{background:var(--lamp);border-color:var(--lamp);color:var(--lamp-ink)}
+.chip.more{border-style:dashed;color:var(--text-2)}
+.energy{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.energy .chip{border-radius:14px;padding:9px 10px;flex-direction:column;align-items:flex-start;gap:2px}
+.energy .chip small{font-size:12px;color:var(--text-2)}
+.energy .chip.on-pick small{color:var(--lamp-ink)}
+@media (max-width:420px){.energy{grid-template-columns:1fr}.energy .chip{flex-direction:row;align-items:baseline;gap:10px}}
+.then{padding:14px 16px;border:1.5px dashed var(--line);border-radius:14px;color:var(--text-2)}
+.then b{font-weight:400;color:var(--lamp)}
+.sample{font-size:12.5px;color:var(--text-2)}
+
+/* winter moments */
+.moments{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.moments li{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:4px 14px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.moments li:last-child{border-bottom:0;padding-bottom:0}
+.moments .when{font-size:14px;letter-spacing:.08em;color:var(--lamp);padding-top:2px}
+.moments .what{min-width:0}
+.moments q{quotes:"「" "」";color:var(--text)}
+@media (max-width:420px){.moments li{grid-template-columns:1fr}}
+
+/* house rules */
+.rules{margin:0;display:flex;flex-direction:column;gap:16px}
+.rules div{display:flex;flex-direction:column;gap:4px}
+.rules dt{font-size:16px;color:var(--text)}
+.rules dd{margin:0;color:var(--text-2)}
+
+/* Lucy's note and the second way in */
+.closing{padding-block:8px 34px;display:flex;flex-direction:column;align-items:center;gap:24px}
+.slip{align-self:center;max-width:100%;padding:14px 20px 16px;background:var(--paper-2);color:var(--pen);border-radius:3px;transform:rotate(.8deg);box-shadow:0 10px 24px rgba(0,0,0,.35);display:flex;flex-direction:column;gap:6px}
+.slip-k{font-size:12px;letter-spacing:.12em;color:var(--ink-2)}
+.slip-note{font-size:18px;line-height:1.75}
+.sig{align-self:flex-end;font-size:17px}
+.go{align-self:stretch;display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;border-radius:14px;background:var(--lamp);color:var(--lamp-ink);font-size:18px;font-weight:700;letter-spacing:.1em;text-decoration:none;box-shadow:0 0 22px rgba(243,181,98,.28)}
+.go:hover{filter:brightness(1.05)}
+
+/* care note and footer */
+.foot{padding-block:8px 44px;display:flex;flex-direction:column;gap:16px}
+.care{padding:14px 16px;border:1.5px solid var(--lamp);border-radius:14px;background:var(--lamp-soft);display:flex;flex-direction:column;gap:6px}
+.care h3{font-size:16px;color:var(--lamp)}
+.care p{font-size:14.5px;line-height:1.7}
+.care .num{font-weight:700;font-size:22px;letter-spacing:.06em;color:var(--tube)}
+.care .num a{color:inherit;text-decoration:none}
+.care .num span{font-weight:400;font-size:14px;letter-spacing:0}
+.care .more{font-size:13px;color:var(--text-2)}
+.fine{font-size:13px;line-height:1.8;color:var(--text-2)}
+.links{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13.5px}
+@media (prefers-reduced-motion:reduce){.on .tube,.on .neon,.on .ticket{animation:none}.ticket,.t-go i{transition:none}}
+</style>
+</head>
+<body>
+<canvas id="snow" aria-hidden="true"></canvas>
+
+<header class="wrap sign">
+  <p class="lib">台南市立醫院圖書館・<b>冬令企劃</b></p>
+  <div class="tube"><p class="neon" aria-label="Lucy’s Reading Booth"><span>Lucy’s</span><span>Reading</span><span>Booth</span></p></div>
+  <p class="zh-name">Lucy 的閱讀小攤</p>
+  <p class="hours">冬天也全天候營業・不收費</p>
+</header>
+
+<main>
+  <section class="wrap lead">
+    <h1>天冷了，<br>來小攤坐一下</h1>
+    <p>天冷了，班照樣排，累的時候連挑一本書的力氣都沒有。這個冬天，圖書館開了一間線上小攤：說說你現在的<strong>心情</strong>、<strong>腦子裡在想的事</strong>，還有今天剩<strong>多少力氣讀書</strong>，Lucy 會從台南院區圖書館近千本館藏裡，替你挑三本書。</p>
+  </section>
+
+  <section class="wrap door" aria-label="進入小攤">
+    <a class="ticket" id="enter" href="../">
+      <span class="t-call" aria-hidden="true">
+        <svg viewBox="0 0 30 26" width="40" height="35" focusable="false"><g fill="none" stroke="#284C6A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="18.5" width="24" height="5.5" rx="1.6"/><rect x="6" y="12.5" width="19" height="5.5" rx="1.6"/><rect x="4.5" y="6" width="21" height="5.5" rx="1.6" transform="rotate(-6 15 8.75)"/><path d="M7 18.5v5.5M21.5 12.5v5.5M9 6.3v5.2"/></g></svg>
+        <span>冬令<br>企劃</span>
+      </span>
+      <span class="t-entry">
+        <span class="t-au">台南市立醫院圖書館</span>
+        <span class="t-title">Lucy 的閱讀小攤</span>
+        <span class="t-pub">全天候營業・不收費</span>
+      </span>
+      <span class="t-rule" aria-hidden="true"></span>
+      <span class="t-note">三個問題，換三本書，還附上 Lucy 寫給你的一段話。</span>
+      <span class="t-go">走進小攤 <i aria-hidden="true">→</i></span>
+      <span class="hole" aria-hidden="true"></span>
+    </a>
+  </section>
+
+  <div class="counter">
+    <section class="wrap sec" aria-labelledby="how">
+      <h2 id="how">三個問題，換三本書<small>小攤裡的樣子，選好之後按「請 Lucy 開書單」</small></h2>
+      <div class="q">
+        <p class="ask"><b>LUCY</b>先說說，你現在的心情是？<small>最多選 3 個</small></p>
+        <div class="chips"><span class="chip on-pick">累到不想說話</span><span class="chip">焦慮停不下來</span><span class="chip">想笑一下</span><span class="chip">還不錯，想充電</span><span class="chip more">還有 7 種</span></div>
+      </div>
+      <div class="q">
+        <p class="ask"><b>LUCY</b>腦子裡在想些什麼？<small>可不選・最多 3 個</small></p>
+        <div class="chips"><span class="chip on-pick">工作永遠做不完</span><span class="chip">睡不著，腦子停不下來</span><span class="chip">想逃到別的世界</span><span class="chip more">還有 11 種</span></div>
+      </div>
+      <div class="q">
+        <p class="ask"><b>LUCY</b>現在有多少力氣讀書？<small>可不選</small></p>
+        <div class="energy"><span class="chip on-pick">只想翻幾頁<small>繪本、圖文、短文</small></span><span class="chip">可以讀一小段<small>散文、短篇、一章</small></span><span class="chip">想好好讀一本<small>小說、知識書</small></span></div>
+      </div>
+      <p class="then">按下<b>「請 Lucy 開書單」</b>，三張書卡就出來了：書名、作者、索書號，還有 Lucy 寫給你的話。想看別的，就按<b>「再換三本」</b>。</p>
+      <p class="sample">亮起來的是選法範例。</p>
+    </section>
+  </div>
+
+  <section class="wrap sec" aria-labelledby="moments">
+    <h2 id="moments">冬天的三種用法</h2>
+    <ul class="moments">
+      <li><span class="when">交班之後</span><span class="what">選<q>累到不想說話</q>和<q>只想翻幾頁</q>，帶一本繪本或圖文書回家。</span></li>
+      <li><span class="when">下班的公車上</span><span class="what">選<q>想逃到別的世界</q>，讓一個故事帶你離開一下。</span></li>
+      <li><span class="when">睡不著的冬夜</span><span class="what">選<q>睡不著，腦子停不下來</q>，把手機換成一本紙本書。</span></li>
+    </ul>
+  </section>
+
+  <section class="wrap sec" aria-labelledby="rules">
+    <h2 id="rules">小攤的規矩</h2>
+    <dl class="rules">
+      <div><dt>書在哪裡？</dt><dd>都在台南院區圖書館。每張書卡都有索書號，照著號碼就能在書架上找到；也可以先點「在館藏系統看是否在架」，確認書在不在。</dd></div>
+      <div><dt>每次都一樣嗎？</dt><dd>不會。同樣的選擇，下次來可能遇到別的書。</dd></div>
+      <div><dt>會記下我選了什麼嗎？</dt><dd>不會。你點選的心情和想法只在你的手機上計算，不會傳到任何地方。</dd></div>
+      <div><dt>推薦語是誰寫的？</dt><dd>AI 事先讀過每本書的簡介，替它寫下推薦的話。如果覺得哪裡寫得不對，歡迎告訴圖書館櫃台。</dd></div>
+      <div><dt>可以分享嗎？</dt><dd>可以。按「分享書單」，傳給朋友或存到備忘錄；分享出去的只有書名和索書號，不會帶上你選的心情。</dd></div>
+    </dl>
+  </section>
+
+  <section class="wrap closing" aria-label="Lucy 的話">
+    <div class="slip">
+      <p class="slip-k">LUCY 留言</p>
+      <p class="slip-note">冬天的夜比較長，挑一本書，陪你走一段。</p>
+      <p class="sig">— Lucy</p>
+    </div>
+    <a class="go" href="../">走進 Lucy 的閱讀小攤 <span aria-hidden="true">→</span></a>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <div class="care">
+    <h3>如果你現在很不好</h3>
+    <p>身邊沒有人可以說的時候，可以打這支電話，24 小時都有人接，不用付費。也可以找身心科或信任的同事聊聊。</p>
+    <p class="num"><a href="tel:1925">1925</a> <span>安心專線（24 小時・免付費）</span></p>
+    <p class="more">其他專線：生命線 1995・張老師 1980</p>
+  </div>
+  <p class="fine">這裡推薦的是書，不是診斷或治療。Lucy 的閱讀小攤由台南市立醫院圖書館製作，書都來自台南院區的館藏。</p>
+  <div class="links"><a href="https://library.show.org.tw/index?domain=5" target="_blank" rel="noopener">館藏查詢系統</a></div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+  requestAnimationFrame(function(){ document.body.classList.add('on'); });
+
+  /* falling snow, drawn on one canvas behind the page; still when the reader prefers less motion */
+  var cv = document.getElementById('snow');
+  var ctx = cv.getContext && cv.getContext('2d');
+  if (!ctx) return;
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var color = getComputedStyle(document.documentElement).getPropertyValue('--snow').trim() || '#E5ECE9';
+  var flakes = [], w = 0, h = 0, dpr = 1, running = false, last = 0;
+  function rnd(a, b){ return a + Math.random() * (b - a); }
+  function size(){
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = window.innerWidth; h = window.innerHeight;
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = Math.round(Math.min(110, Math.max(40, w * h / 11000)));
+    while (flakes.length < n) flakes.push(make(true));
+    flakes.length = n;
+  }
+  function make(anywhere){
+    var r = rnd(0.7, 2.3);
+    return { x: rnd(0, w), y: anywhere ? rnd(0, h) : rnd(-20, -4), r: r, vy: 12 + r * 14, sway: rnd(0.4, 1.2), ph: rnd(0, 6.28), a: rnd(0.25, 0.75) };
+  }
+  function draw(dt){
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = color;
+    for (var i = 0; i < flakes.length; i++) {
+      var f = flakes[i];
+      if (dt) {
+        f.y += f.vy * dt; f.ph += dt * f.sway; f.x += Math.sin(f.ph) * 0.35;
+        if (f.y > h + 6) { flakes[i] = f = make(false); }
+      }
+      ctx.globalAlpha = f.a;
+      ctx.beginPath(); ctx.arc(f.x, f.y, f.r, 0, 6.2832); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+  function tick(t){
+    if (!running) return;
+    var dt = last ? Math.min((t - last) / 1000, 0.05) : 0; last = t;
+    draw(dt);
+    requestAnimationFrame(tick);
+  }
+  function start(){ if (running || still) return; running = true; last = 0; requestAnimationFrame(tick); }
+  function stop(){ running = false; }
+  size(); draw(0);
+  window.addEventListener('resize', function(){ size(); draw(0); });
+  document.addEventListener('visibilitychange', function(){ if (document.hidden) stop(); else start(); });
+  start();
+})();
+</script>
+
+</body>
+</html>
