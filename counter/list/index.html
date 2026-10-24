@@ -13,8 +13,9 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&display=swap">
 <style>
 /* Layout: the counter's second tool, built like the lookup page. One column: where the list is kept, the card-number
-   box, then the answer in big type (not yet: register and hand over a ticket / already has one), the day's count and
-   the list itself folded away. Light for the desk PC; the dark palette borrows the booth's night counter. */
+   box, then the answer in big type (not yet: note the ticket number and hand it over / already has ticket no. N), the
+   day's count, the list folded away, and a ticket-number check for prize day. Light for the desk PC; the dark palette
+   borrows the booth's night counter. */
 :root{
   --bg:#FBF8F2; --panel:#F4EFE4; --line:#E2D8C3; --field:#FFFFFF;
   --ink:#1F2A30; --ink-2:#56626A; --pen:#284C6A;
@@ -46,6 +47,7 @@ body{margin:0;color:var(--ink);font-family:var(--f);font-size:16px;line-height:1
 .lib{margin:0;font-size:14px;letter-spacing:.16em;color:var(--ink-2)}
 .lib b{font-weight:400;color:var(--amber-text)}
 h1{margin:0;font-size:30px;font-weight:400;letter-spacing:.04em;line-height:1.3;text-wrap:balance}
+h2{margin:0;font-size:18px;font-weight:400;color:var(--ink)}
 .lead{margin:0;color:var(--ink-2);max-width:40em}
 button{font:inherit;cursor:pointer}
 button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--lamp);outline-offset:2px}
@@ -63,12 +65,12 @@ button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{o
 .store b{font-weight:700;overflow-wrap:anywhere}
 .search{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 10px;align-items:end}
 .search label{grid-column:1 / -1;font-size:15px;color:var(--ink-2)}
-#q{min-width:0;min-height:58px;padding:10px 16px;border:2px solid var(--pen);border-radius:12px;background:var(--field);color:var(--ink);font:inherit;font-size:24px;letter-spacing:.04em}
-#q::placeholder{color:var(--ink-2);opacity:.8;font-size:17px;letter-spacing:0}
-#go{min-width:84px;min-height:58px}
+#q,#tq{min-width:0;min-height:58px;padding:10px 16px;border:2px solid var(--pen);border-radius:12px;background:var(--field);color:var(--ink);font:inherit;font-size:24px;letter-spacing:.04em}
+#q::placeholder,#tq::placeholder{color:var(--ink-2);opacity:.8;font-size:17px;letter-spacing:0}
+#go,#tgo{min-width:84px;min-height:58px}
 .answer{min-height:64px;display:flex;align-items:flex-start;gap:14px;padding:16px 18px;border-radius:12px;font-size:21px;line-height:1.4}
 .answer > svg{flex:none;width:30px;height:30px;margin-top:1px}
-.answer .txt{min-width:0;display:flex;flex-direction:column;gap:4px}
+.answer .txt{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px}
 .answer small{display:block;font-size:15.5px;line-height:1.55}
 .answer .acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
 .answer.go{background:var(--lamp);color:var(--lamp-ink)}
@@ -79,6 +81,14 @@ button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{o
 .answer.stop .link{color:var(--no)}
 .answer.info{background:var(--panel);color:var(--ink);box-shadow:inset 0 0 0 2px var(--warn-line)}
 .answer.idle{display:block;background:var(--panel);color:var(--ink-2);font-size:16px}
+.tnum{font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:.06em}
+.nw{white-space:nowrap}
+.big{font-size:1.25em}
+.tform{display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px}
+.tform label{width:100%;font-size:15px}
+#tno{width:150px;min-height:52px;padding:6px 14px;border:2px solid var(--lamp-ink);border-radius:10px;background:#FFF8EC;color:var(--lamp-ink);font:inherit;font-size:28px;letter-spacing:.08em;font-variant-numeric:tabular-nums}
+.tnoerr{width:100%;margin:0;font-size:15.5px;line-height:1.5}
+.tnoerr:empty{display:none}
 .legend{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
 .legend li{display:grid;grid-template-columns:26px minmax(0,1fr);gap:10px;align-items:start}
 .legend svg{width:22px;height:22px;margin-top:2px}
@@ -88,20 +98,29 @@ button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{o
 .stats b{font-weight:400;color:var(--ink);font-variant-numeric:tabular-nums}
 details{border-radius:12px;box-shadow:0 0 0 1px var(--line)}
 summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
-.list{list-style:none;margin:0;padding:0 18px 14px;display:grid;gap:2px;max-height:360px;overflow:auto}
-.list li{display:flex;justify-content:space-between;gap:16px;padding:6px 0;border-top:1px solid var(--line);font-variant-numeric:tabular-nums}
+.list{list-style:none;margin:0;padding:0 18px 14px;max-height:360px;overflow:auto}
+.list li{display:grid;grid-template-columns:5.5em minmax(0,1fr) auto;gap:16px;padding:6px 0;border-top:1px solid var(--line);font-variant-numeric:tabular-nums}
+.list li span{overflow-wrap:anywhere}
+.list li span:first-child{color:var(--amber-text)}
 .list li span:last-child{color:var(--ink-2)}
+.claim{padding:16px 18px;border-radius:12px;box-shadow:0 0 0 1px var(--line);display:flex;flex-direction:column;gap:10px}
+.claim p{margin:0}
+.claimres{font-size:18px;line-height:1.5}
+.claimres:empty{display:none}
+.claimres.hit{color:var(--ink)}
+.claimres.miss,.claimres.warn{color:var(--no)}
+.claimres b{font-weight:700}
 .foot{margin:6px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2);display:grid;gap:4px}
 .foot p{margin:0}
 .foot a{color:var(--pen)}
-@media (max-width:520px){#q{font-size:21px}}
+@media (max-width:520px){#q,#tq{font-size:21px}}
 </style>
 </head>
 <body>
 <main class="wrap">
   <p class="lib">台南市立醫院圖書館・<b>櫃台用</b></p>
   <h1>抽獎券已領名單</h1>
-  <p class="lead">發抽獎券前，先刷借書證或輸入號碼。還沒領過的人登記一次、發一張；領過的人不再發。</p>
+  <p class="lead">發抽獎券前，先刷借書證或輸入號碼。還沒領過的人，登記時一起記下抽獎券號碼，再發一張；領過的人不再發。</p>
 
   <section class="store" id="store" aria-live="polite"></section>
 
@@ -115,8 +134,18 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
   <p class="stats" id="stats"></p>
   <details id="listbox"><summary id="listsum">查看名單</summary><ol class="list" id="list"></ol></details>
 
+  <section class="claim" aria-labelledby="claimh">
+    <h2 id="claimh">領獎時核對</h2>
+    <form class="search" id="claimform" autocomplete="off">
+      <label for="tq">得獎的抽獎券號碼</label>
+      <input id="tq" type="text" inputmode="numeric" enterkeyhint="search" autocomplete="off" spellcheck="false" placeholder="例如 0007">
+      <button id="tgo" class="btn" type="submit">查詢</button>
+    </form>
+    <p class="claimres" id="claimres" role="status" aria-live="polite"></p>
+  </section>
+
   <div class="foot">
-    <p>名單只存在這台電腦，或你選的名單檔裡，不會上傳到任何地方。只記借書證號和登記時間，不記姓名和書名。</p>
+    <p>名單只存在這台電腦，或你選的名單檔裡，不會上傳到任何地方。只記借書證號、抽獎券號碼和登記時間，不記姓名和書名。</p>
     <p>請用借書證號或員工編號，不要用身分證字號。</p>
     <p>櫃台有兩台電腦的話，把名單檔放在兩台都開得到的共用資料夾，兩台都開同一個檔，名單就會一致。</p>
     <p>活動結束、領完獎以後，請刪除名單檔。查書請用 <a href="https://lucy-reading-booth.pages.dev/counter/">Lucy 推薦書查詢</a>。</p>
@@ -132,10 +161,11 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
   var MODE_KEY = 'lucy-ticket-list-mode', LS_KEY = 'lucy-ticket-list-v1', FILE_NAME = 'Lucy抽獎券已領名單.csv';
   var $ = function(id){ return document.getElementById(id); };
   var q = $('q'), answer = $('answer'), store = $('store'), stats = $('stats'), list = $('list'), listsum = $('listsum');
+  var tq = $('tq'), claimres = $('claimres');
 
   var mode = null;        // 'file' | 'browser' | null (not chosen yet)
   var handle = null;      // the list file, in file mode
-  var entries = [];       // [{id, at}] oldest first
+  var entries = [];       // [{id, no, at}] oldest first; no = the ticket number handed over
   var savedAt = null, lastAdded = null, pending = null, storeErr = '';
 
   var ICON = {
@@ -145,12 +175,21 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
   };
 
   function esc(s){ return String(s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-  function norm(s){
+  function half(s){
     s = String(s == null ? '' : s).replace(/[！-～]/g, function(c){ return String.fromCharCode(c.charCodeAt(0) - 0xFEE0); });
     try { s = s.normalize('NFKC'); } catch (e) {}
-    return s.toUpperCase().replace(/[\s\-_.\/]/g, '');
+    return s;
   }
+  function norm(s){ return half(s).toUpperCase().replace(/[\s\-_.\/]/g, ''); }
   function looksLikeNationalId(id){ return /^[A-Z][1289]\d{8}$/.test(id); }
+  // a ticket number: 1 to 4 digits as printed (0007), with or without the zeros, "No." or "#"
+  function parseNo(s){
+    s = half(s).trim().replace(/^(NO\.?|#)\s*/i, '');
+    if (!/^\d{1,4}$/.test(s)) return null;
+    var n = parseInt(s, 10);
+    return n >= 1 ? n : null;
+  }
+  function pad(n){ var s = String(n); while (s.length < 4) s = '0' + s; return s; }
   function when(iso){
     var d = new Date(iso);
     if (isNaN(d)) return String(iso || '');
@@ -159,15 +198,25 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
   }
   function sameDay(iso){ var d = new Date(iso), n = new Date(); return d.getFullYear() === n.getFullYear() && d.getMonth() === n.getMonth() && d.getDate() === n.getDate(); }
   function find(id){ for (var i = 0; i < entries.length; i++) if (entries[i].id === id) return entries[i]; return null; }
+  function byNo(n){ for (var i = 0; i < entries.length; i++) if (entries[i].no === n) return entries[i]; return null; }
+  function topNo(){ var m = 0; entries.forEach(function(e){ if (e.no && e.no > m) m = e.no; }); return m; }
+  function clean(r){ return {id: r.id, no: typeof r.no === 'number' && r.no >= 1 ? r.no : null, at: r.at || ''}; }
 
   /* ---- the list as text: a CSV that Excel opens too ---- */
-  function toCSV(rows){ return '﻿借書證號,登記時間\r\n' + rows.map(function(r){ return r.id + ',' + r.at; }).join('\r\n') + (rows.length ? '\r\n' : ''); }
+  function toCSV(rows){
+    return '﻿借書證號,抽獎券號碼,登記時間\r\n' +
+      rows.map(function(r){ return r.id + ',' + (r.no ? pad(r.no) : '') + ',' + r.at; }).join('\r\n') + (rows.length ? '\r\n' : '');
+  }
   function fromCSV(text){
     var seen = {}, rows = [];
     String(text || '').replace(/^﻿/, '').split(/\r?\n/).forEach(function(line){
-      var cut = line.indexOf(','), id = norm(cut < 0 ? line : line.slice(0, cut)), at = cut < 0 ? '' : line.slice(cut + 1).trim().replace(/^"|"$/g, '');
-      if (!id || id === norm('借書證號') || !/^[A-Z0-9]{2,24}$/.test(id) || seen[id]) return;
-      seen[id] = 1; rows.push({id: id, at: at});
+      var parts = line.split(',').map(function(p){ return p.trim().replace(/^"|"$/g, ''); });
+      var id = norm(parts[0]);
+      if (!id || !/^[A-Z0-9]{2,24}$/.test(id) || seen[id]) return;            // the header row fails the pattern
+      var no = null, at = '';
+      if (parts.length >= 3) { no = parseNo(parts[1]); at = parts.slice(2).join(','); }
+      else if (parts.length === 2) at = parts[1];                               // a list saved before ticket numbers
+      seen[id] = 1; rows.push({id: id, no: no, at: at});
     });
     return rows;
   }
@@ -191,7 +240,7 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
     if (mode === 'browser') {
       var raw = lsGet(LS_KEY), rows = [];
       try { rows = raw ? JSON.parse(raw) : []; } catch (e) { rows = []; }
-      entries = Array.isArray(rows) ? rows.filter(function(r){ return r && typeof r.id === 'string'; }) : [];
+      entries = Array.isArray(rows) ? rows.filter(function(r){ return r && typeof r.id === 'string'; }).map(clean) : [];
       return Promise.resolve(true);
     }
     if (mode === 'file' && handle) {
@@ -271,10 +320,12 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
   }
 
   function refresh(){
-    var today = entries.filter(function(e){ return sameDay(e.at); }).length;
-    stats.innerHTML = mode ? '已登記 <b>' + entries.length + '</b> 人，今天 <b>' + today + '</b> 人' : '';
+    var today = entries.filter(function(e){ return sameDay(e.at); }).length, top = topNo();
+    stats.innerHTML = mode ? '已登記 <b>' + entries.length + '</b> 人，今天 <b>' + today + '</b> 人' + (top ? '・最大號碼 <b>' + pad(top) + '</b>' : '') : '';
     listsum.textContent = '查看名單（' + entries.length + ' 人）';
-    list.innerHTML = entries.slice().reverse().slice(0, 500).map(function(e){ return '<li><span>' + esc(e.id) + '</span><span>' + esc(when(e.at)) + '</span></li>'; }).join('');
+    list.innerHTML = entries.slice().reverse().slice(0, 500).map(function(e){
+      return '<li><span>' + (e.no ? pad(e.no) + ' 號' : '—') + '</span><span>' + esc(e.id) + '</span><span>' + esc(when(e.at)) + '</span></li>';
+    }).join('');
   }
 
   function say(kind, head, small, acts){
@@ -285,8 +336,8 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
   function idle(){
     answer.className = 'answer idle';
     answer.innerHTML = '刷借書證或輸入號碼，按 Enter 查詢：<ul class="legend">' +
-      '<li><span class="i-go">' + ICON.go + '</span><span><b>還沒領過</b>：再按一次 Enter 登記，然後發一張抽獎券。</span></li>' +
-      '<li><span class="i-stop">' + ICON.stop + '</span><span><b>已經領過了</b>：會顯示登記時間，這次不再發。</span></li></ul>';
+      '<li><span class="i-go">' + ICON.go + '</span><span><b>還沒領過</b>：確認手上這張抽獎券的號碼，按 Enter 登記，再發這張。</span></li>' +
+      '<li><span class="i-stop">' + ICON.stop + '</span><span><b>已經領過了</b>：會顯示領了幾號、什麼時候領的，這次不再發。</span></li></ul>';
   }
 
   function check(){
@@ -301,24 +352,31 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
       refresh();
       var hit = find(id);
       if (hit) {
-        say('stop', '已經領過了', esc(id) + ' 在 ' + esc(when(hit.at)) + ' 登記過，這次不再發抽獎券。',
+        say('stop', '已經領過了', esc(id) + ' 在 ' + esc(when(hit.at)) + (hit.no ? ' 領了 <span class="nw"><b class="tnum">' + pad(hit.no) + '</b> 號</span>' : ' 登記過') + '，這次不再發抽獎券。',
           '<button class="link" type="button" data-act="del" data-id="' + esc(id) + '">刪除這筆登記（登記錯了才用）</button>');
         q.select();
       } else {
         pending = id;
-        say('go', '還沒領過', esc(id) + '：按 Enter 或「登記並發券」，再發一張抽獎券。',
-          '<button class="btn main" type="button" data-act="add" id="addbtn">登記並發券</button><button class="btn" type="button" data-act="cancel">先不要</button>');
-        var b = $('addbtn'); if (b) b.focus();
+        say('go', '還沒領過', esc(id) + '：確認手上這張抽獎券的號碼，按 Enter 登記，再把這張發出去。',
+          '<form class="tform" id="tform" autocomplete="off"><label for="tno">抽獎券號碼</label>' +
+          '<input id="tno" type="text" inputmode="numeric" enterkeyhint="done" maxlength="24" spellcheck="false" value="' + pad(topNo() + 1) + '">' +
+          '<button class="btn main" type="submit" id="addbtn">登記並發券</button><button class="btn" type="button" data-act="cancel">先不要</button>' +
+          '<p class="tnoerr" id="tnoerr" role="alert"></p></form>');
+        var t = $('tno'); if (t) { t.focus(); t.select(); }
       }
     });
   }
-  function add(){
+  function tnoError(msg){ var er = $('tnoerr'), t = $('tno'); if (er) er.textContent = msg; if (t) { t.focus(); t.select(); } }
+  function add(n){
     var id = pending; if (!id) return;
     sync().then(function(ok){
       if (!ok) { renderStore('error'); say('stop', '讀不到名單，先不要發券', esc(storeErr)); return; }
       var hit = find(id);
       if (hit) { pending = null; say('stop', '已經領過了', esc(id) + ' 剛剛在 ' + esc(when(hit.at)) + ' 登記過（可能是另一台電腦），這次不再發。'); refresh(); q.select(); return; }
-      entries.push({id: id, at: new Date().toISOString()});
+      var taken = byNo(n);
+      if (taken) { tnoError(pad(n) + ' 號已經發給 ' + taken.id + ' 了，請看一下手上這張的號碼。'); return; }
+      var at = new Date().toISOString();
+      entries.push({id: id, no: n, at: at});
       return save().then(function(saved){
         if (!saved) {
           entries = entries.filter(function(e){ return e.id !== id; });
@@ -327,7 +385,7 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
         pending = null; lastAdded = id;
         if (store.dataset.state === 'file') renderStore('file');
         refresh();
-        say('go', '已登記，請發一張抽獎券', esc(id) + '・' + esc(when(new Date().toISOString())),
+        say('go', '已登記，請發 <b class="tnum big">' + pad(n) + '</b> 號抽獎券', esc(id) + '・' + esc(when(at)),
           '<button class="link" type="button" data-act="undo" data-id="' + esc(id) + '">登記錯了，取消這筆</button>');
         q.value = ''; q.focus();
       });
@@ -347,10 +405,24 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
       });
     });
   }
+  function claim(){
+    var n = parseNo(tq.value);
+    claimres.className = 'claimres';
+    if (n == null) { claimres.className = 'claimres warn'; claimres.textContent = '請輸入抽獎券上的號碼，1 到 4 位數字。'; tq.select(); return; }
+    if (!mode) { claimres.className = 'claimres warn'; claimres.textContent = '先在上面選名單要存在哪裡。'; return; }
+    sync().then(function(ok){
+      if (!ok) { claimres.className = 'claimres warn'; claimres.textContent = '讀不到名單：' + storeErr; return; }
+      refresh();
+      var hit = byNo(n);
+      if (hit) { claimres.className = 'claimres hit'; claimres.innerHTML = '<span class="nw"><b class="tnum">' + pad(n) + '</b> 號</span>發給 <b>' + esc(hit.id) + '</b>（' + esc(when(hit.at)) + ' 登記）。請核對領獎人的借書證。'; }
+      else { claimres.className = 'claimres miss'; claimres.innerHTML = '<span class="nw"><b class="tnum">' + pad(n) + '</b> 號</span>沒有登記在名單上。'; }
+      tq.select();
+    });
+  }
   function download(){
-    var blob = new Blob([toCSV(entries)], {type: 'text/csv;charset=utf-8'}), a = document.createElement('a');
-    var d = new Date(), stamp = d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0') + String(d.getDate()).padStart(2, '0');
-    a.href = URL.createObjectURL(blob); a.download = 'Lucy抽獎券已領名單_' + stamp + '.csv';
+    var blob = new Blob([toCSV(entries)], {type: 'text/csv;charset=utf-8'}), a = document.createElement('a'), d = new Date();
+    a.href = URL.createObjectURL(blob);
+    a.download = 'Lucy抽獎券已領名單_' + d.getFullYear() + pad(d.getMonth() + 1).slice(2) + pad(d.getDate()).slice(2) + '.csv';
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(function(){ URL.revokeObjectURL(a.href); }, 4000);
   }
@@ -374,10 +446,22 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
     else if (act === 'export') download();
     else if (act === 'import') $('importer').click();
     else if (act === 'wipe') twoStep(b, '確定刪除整份名單？再按一次', function(){ entries = []; save().then(function(){ refresh(); say('info', '已刪除這個瀏覽器裡的名單'); }); });
-    else if (act === 'add') add();
     else if (act === 'cancel') { pending = null; idle(); q.select(); }
     else if (act === 'undo') remove(id);
     else if (act === 'del') twoStep(b, '確定刪除 ' + id + ' 的登記？再按一次', function(){ remove(id); });
+  });
+  document.addEventListener('submit', function(e){
+    var f = e.target;
+    if (f.id === 'form') { e.preventDefault(); check(); }
+    else if (f.id === 'claimform') { e.preventDefault(); claim(); }
+    else if (f.id === 'tform') {
+      e.preventDefault();
+      var v = $('tno').value, n = parseNo(v), card = norm(v);
+      // a card scanned into the number box by mistake: look that card up instead
+      if (n == null && /^[A-Z0-9]{2,24}$/.test(card) && (/[A-Z]/.test(card) || card.length > 4)) { q.value = v; check(); return; }
+      if (n == null) { tnoError('抽獎券號碼是 1 到 4 位數字，例如 0007。'); return; }
+      add(n);
+    }
   });
   $('importer').addEventListener('change', function(){
     var f = this.files && this.files[0]; this.value = '';
@@ -385,25 +469,33 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
     f.text().then(function(t){
       var rows = fromCSV(t);
       return sync().then(function(){
-        var added = 0;
-        rows.forEach(function(r){ if (!find(r.id)) { entries.push(r); added++; } });
-        return save().then(function(){ refresh(); say('info', '已匯入 ' + added + ' 筆', '名單裡原本有的號碼不會重複。'); });
+        var added = 0, clash = 0;
+        rows.forEach(function(r){
+          if (find(r.id)) return;
+          if (r.no && byNo(r.no)) { r.no = null; clash++; }
+          entries.push(r); added++;
+        });
+        return save().then(function(){
+          refresh();
+          say('info', '已匯入 ' + added + ' 筆', '名單裡原本有的借書證號不會重複。' + (clash ? '其中 ' + clash + ' 筆的抽獎券號碼和名單上別人重複，先清空了號碼，請再核對。' : ''));
+        });
       });
     });
   });
-  $('form').addEventListener('submit', function(e){ e.preventDefault(); check(); });
   // typing or scanning while a button has focus starts a new lookup in the box
   document.addEventListener('keydown', function(e){
-    if (e.key === 'Escape' || e.key === 'Esc') { pending = null; q.value = ''; idle(); q.focus(); return; }
     var t = document.activeElement;
-    if (e.key && e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey && t !== q && !(t && /INPUT|TEXTAREA|SELECT/.test(t.tagName))) {
+    if (e.key === 'Escape' || e.key === 'Esc') {
+      if (t === tq) { tq.value = ''; claimres.textContent = ''; return; }
+      pending = null; q.value = ''; idle(); q.focus(); return;
+    }
+    if (e.key && e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey && !(t && /INPUT|TEXTAREA|SELECT/.test(t.tagName))) {
       pending = null; q.value = ''; q.focus();
     }
   });
 
-  // start: reopen what this PC used last time
+  // start: without file access (Firefox, Safari) the browser is the only place; otherwise reopen the last list file
   idle(); refresh();
-  // without file access (Firefox, Safari) the browser is the only place; otherwise reopen the last list file
   if (!FS || lsGet(MODE_KEY) === 'browser') useBrowser();
   else kv('get', 'handle').then(function(h){
     if (h && typeof h.getFile === 'function') {
