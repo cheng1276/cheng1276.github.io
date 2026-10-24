@@ -6,3 +6,5 @@
   Cache-Control: public, max-age=604800
 /icon.svg
   Cache-Control: public, max-age=604800
+/counter/*
+  X-Robots-Tag: noindex, nofollow
