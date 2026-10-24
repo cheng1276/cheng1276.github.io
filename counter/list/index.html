@@ -310,10 +310,11 @@ summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
       var left = unbacked(), last = lsGet(EXP_KEY);
       h = '<p>名單存在這個瀏覽器裡。</p>' + (left ?
           '<p class="warn"><b>有 ' + left + ' 筆登記還沒匯出備份。</b>清除瀏覽紀錄、電腦重開機還原或換一台電腦，名單就會不見。</p>' :
-          '<p class="note">' + (last ? '都已在 ' + when(last) + ' 匯出備份。' : '') + '改用名單檔，就會自動存檔，不用再匯出。</p>') +
+          ((last || FS) ? '<p class="note">' + (last ? '都已在 ' + when(last) + ' 匯出備份。' : '') + (FS ? '改用名單檔，就會自動存檔，不用再匯出。' : '') + '</p>' : '')) +
           '<div class="row"><button class="btn' + (left ? ' main' : ' small') + '" type="button" data-act="export">匯出備份</button><button class="btn small" type="button" data-act="import">匯入名單</button>' +
-          (FS ? '<button class="btn small" type="button" data-act="tofile">改用名單檔</button>' : '') +
-          '<button class="link" type="button" data-act="wipe">刪除這個瀏覽器裡的名單</button></div>';
+          (FS ? '<button class="btn small" type="button" data-act="tofile">改用名單檔（自動存檔）</button>' : '') +
+          '<button class="link" type="button" data-act="wipe">刪除這個瀏覽器裡的名單</button></div>' +
+          (FS ? '' : '<p class="note">這個瀏覽器不能用「名單檔」自動存檔。要自動存檔，請用電腦上的 Chrome 或 Edge 打開這個網頁；Safari、Firefox 和手機都只能存在瀏覽器裡。</p>');
     } else if (state === 'error') {
       h = '<p class="warn">讀不到名單：' + esc(storeErr) + '。名單恢復以前，先不要發抽獎券。</p><div class="row">' +
           (FS ? '<button class="btn main" type="button" data-act="open">重新開啟名單檔</button><button class="btn" type="button" data-act="new">建立新名單檔</button>' : '') +
