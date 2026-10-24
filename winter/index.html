@@ -40,7 +40,7 @@
   --line:#2C4754;
   --chip-line:#52798C;
   --text:#E5ECE9;
-  --text-2:#9EB1B3;
+  --text-2:#AFC0C1;   /* a little brighter for small text on the dark */
   --lamp:#F3B562;
   --lamp-soft:rgba(243,181,98,.16);
   --lamp-ink:#2B1B06;
@@ -69,7 +69,7 @@ p{margin:0}
 
 /* the sign */
 .sign{padding-block:26px 6px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
-.lib{font-size:12px;letter-spacing:.16em;color:var(--text-2)}
+.lib{font-size:13.5px;letter-spacing:.16em;color:var(--text-2)}
 .lib b{font-weight:400;color:var(--lamp)}
 .tube{padding:14px 22px 16px;border:2px solid var(--lamp);border-radius:22px;box-shadow:0 0 0 1px rgba(243,181,98,.25),0 0 18px rgba(243,181,98,.35),inset 0 0 14px rgba(243,181,98,.22);background:rgba(14,28,36,.55)}
 .neon{font-size:clamp(38px, 11.5vw, 60px);line-height:1.02;letter-spacing:.01em;color:var(--tube);text-shadow:0 0 2px #fff4e0,0 0 8px rgba(243,181,98,.9),0 0 22px rgba(243,181,98,.55),0 0 44px rgba(243,181,98,.3)}
@@ -77,7 +77,7 @@ p{margin:0}
 .on .tube,.on .neon{animation:flicker 1.4s ease-out 1 both}
 @keyframes flicker{0%{opacity:.15}8%{opacity:.9}11%{opacity:.25}17%{opacity:1}22%{opacity:.4}30%,100%{opacity:1}}
 .zh-name{font-size:17px;letter-spacing:.3em}
-.hours{font-size:13px;letter-spacing:.2em;color:var(--lamp)}
+.hours{font-size:14px;letter-spacing:.2em;color:var(--lamp)}
 
 /* the headline */
 .lead{padding-block:22px 26px;display:flex;flex-direction:column;gap:12px}
@@ -108,7 +108,7 @@ p{margin:0}
 /* section headings */
 .sec{padding-block:28px;display:flex;flex-direction:column;gap:16px}
 .sec h2{font-size:21px;letter-spacing:.08em;color:var(--text)}
-.sec h2 small{display:block;margin-top:2px;font-size:13px;letter-spacing:.06em;color:var(--text-2)}
+.sec h2 small{display:block;margin-top:2px;font-size:14px;letter-spacing:.06em;color:var(--text-2)}
 
 /* the three questions, as they look at the counter */
 .counter{position:relative;z-index:1;background:var(--counter);border-block:1px solid var(--line)}
@@ -116,25 +116,25 @@ p{margin:0}
 .q{display:flex;flex-direction:column;gap:10px}
 .ask{font-size:18px;line-height:1.5}
 .ask b{font-weight:400;font-size:12px;letter-spacing:.14em;color:var(--lamp);margin-right:8px;vertical-align:2px}
-.ask small{margin-left:8px;font-size:12.5px;color:var(--text-2);white-space:nowrap;display:inline-block}
+.ask small{margin-left:8px;font-size:13.5px;color:var(--text-2);white-space:nowrap;display:inline-block}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{display:inline-flex;align-items:center;min-height:40px;padding:5px 14px;border:1.5px solid var(--chip-line);border-radius:999px;background:var(--counter-2);font-size:15px;line-height:1.3}
 .chip.on-pick{background:var(--lamp);border-color:var(--lamp);color:var(--lamp-ink)}
 .chip.more{border-style:dashed;color:var(--text-2)}
 .energy{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .energy .chip{border-radius:14px;padding:9px 10px;flex-direction:column;align-items:flex-start;gap:2px}
-.energy .chip small{font-size:12px;color:var(--text-2)}
+.energy .chip small{font-size:13px;color:var(--text-2)}
 .energy .chip.on-pick small{color:var(--lamp-ink)}
 @media (max-width:420px){.energy{grid-template-columns:1fr}.energy .chip{flex-direction:row;align-items:baseline;gap:10px}}
 .then{padding:14px 16px;border:1.5px dashed var(--line);border-radius:14px;color:var(--text-2)}
 .then b{font-weight:400;color:var(--lamp)}
-.sample{font-size:12.5px;color:var(--text-2)}
+.sample{font-size:14px;color:var(--text-2)}
 
 /* winter moments */
 .moments{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
 .moments li{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:4px 14px;padding-bottom:14px;border-bottom:1px solid var(--line)}
 .moments li:last-child{border-bottom:0;padding-bottom:0}
-.moments .when{font-size:14px;letter-spacing:.08em;color:var(--lamp);padding-top:2px}
+.moments .when{font-size:15px;letter-spacing:.08em;color:var(--lamp);padding-top:2px}
 .moments .what{min-width:0}
 .moments q{quotes:"「" "」";color:var(--text)}
 @media (max-width:420px){.moments li{grid-template-columns:1fr}}
@@ -147,7 +147,9 @@ p{margin:0}
 
 /* Lucy's note and the second way in */
 .closing{padding-block:8px 34px;display:flex;flex-direction:column;align-items:center;gap:24px}
-.slip{align-self:center;max-width:100%;padding:14px 20px 16px;background:var(--paper-2);color:var(--pen);border-radius:3px;transform:rotate(.8deg);box-shadow:0 10px 24px rgba(0,0,0,.35);display:flex;flex-direction:column;gap:6px}
+.slip{position:relative;align-self:center;max-width:100%;padding:14px 20px 16px;background:var(--paper-2);color:var(--pen);border-radius:3px;transform:rotate(.8deg);box-shadow:0 10px 24px rgba(0,0,0,.35);display:flex;flex-direction:column;gap:6px}
+/* a strip of paper tape: Lucy left the note on the counter for you */
+.slip::before{content:"";position:absolute;top:-11px;left:50%;width:78px;height:22px;margin-left:-39px;transform:rotate(-3deg);background:repeating-linear-gradient(90deg,rgba(255,255,255,.08) 0 6px,transparent 6px 12px),rgba(236,221,186,.82);box-shadow:0 1px 2px rgba(0,0,0,.25);pointer-events:none}
 .slip-k{font-size:12px;letter-spacing:.12em;color:var(--ink-2)}
 .slip-note{font-size:18px;line-height:1.75}
 .sig{align-self:flex-end;font-family:"LucySign",var(--f-ui);font-size:24px;line-height:1.2}
@@ -158,13 +160,13 @@ p{margin:0}
 .foot{padding-block:8px 44px;display:flex;flex-direction:column;gap:16px}
 .care{padding:14px 16px;border:1.5px solid var(--lamp);border-radius:14px;background:var(--lamp-soft);display:flex;flex-direction:column;gap:6px}
 .care h3{font-size:16px;color:var(--lamp)}
-.care p{font-size:14.5px;line-height:1.7}
+.care p{font-size:15px;line-height:1.7}
 .care .num{font-weight:700;font-size:22px;letter-spacing:.06em;color:var(--tube)}
 .care .num a{color:inherit;text-decoration:none}
-.care .num span{font-weight:400;font-size:14px;letter-spacing:0}
-.care .more{font-size:13px;color:var(--text-2)}
-.fine{font-size:13px;line-height:1.8;color:var(--text-2)}
-.links{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13.5px}
+.care .num span{font-weight:400;font-size:15px;letter-spacing:0}
+.care .more{font-size:14px;color:var(--text-2)}
+.fine{font-size:15px;line-height:1.8;color:var(--text-2)}
+.links{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:15px}
 @media (prefers-reduced-motion:reduce){.on .tube,.on .neon,.on .ticket{animation:none}.ticket,.t-go i{transition:none}}
 </style>
 </head>

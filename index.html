@@ -45,7 +45,7 @@
   --line:#2C4754;
   --chip-line:#52798C;   /* 3.3:1 against the counter, so every tappable chip shows its edge */
   --text:#E5ECE9;
-  --text-2:#9EB1B3;
+  --text-2:#AFC0C1;   /* a little brighter for small text on the dark */
   --lamp:#F3B562;
   --lamp-soft:rgba(243,181,98,.16);
   --lamp-ink:#2B1B06;
@@ -77,14 +77,14 @@ p{margin:0}
 
 /* the sign */
 .sign{padding-block:28px 22px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
-.lib{font-size:12px;letter-spacing:.16em;color:var(--text-2)}
+.lib{font-size:13.5px;letter-spacing:.16em;color:var(--text-2)}
 .tube{padding:14px 22px 16px;border:2px solid var(--lamp);border-radius:22px;box-shadow:0 0 0 1px rgba(243,181,98,.25),0 0 18px rgba(243,181,98,.35),inset 0 0 14px rgba(243,181,98,.22)}
 .neon{font-family:var(--f-sign);font-weight:400;font-size:clamp(38px, 11.5vw, 60px);line-height:1.02;letter-spacing:.01em;color:#FFE6BF;text-shadow:0 0 2px #fff4e0,0 0 8px rgba(243,181,98,.9),0 0 22px rgba(243,181,98,.55),0 0 44px rgba(243,181,98,.3)}
 .neon span{display:block}
 .on .tube,.on .neon{animation:flicker 1.4s ease-out 1 both}
 @keyframes flicker{0%{opacity:.15}8%{opacity:.9}11%{opacity:.25}17%{opacity:1}22%{opacity:.4}30%,100%{opacity:1}}
 .zh-name{font-size:17px;letter-spacing:.3em;color:var(--text)}
-.hours{font-size:13px;letter-spacing:.24em;color:var(--lamp)}
+.hours{font-size:14px;letter-spacing:.24em;color:var(--lamp)}
 .intro{max-width:30em;font-size:15px;color:var(--text-2)}
 
 /* intake: three questions on the counter */
@@ -93,7 +93,7 @@ p{margin:0}
 .q{display:flex;flex-direction:column;gap:10px}
 .ask{font-family:var(--f-hand);font-size:19px;line-height:1.5;color:var(--text)}
 .ask b{font-family:var(--f-type);font-weight:400;font-size:12px;letter-spacing:.14em;color:var(--lamp);margin-right:8px;vertical-align:2px}
-.ask small{margin-left:8px;font-family:var(--f-ui);font-size:12.5px;color:var(--text-2);white-space:nowrap;display:inline-block}
+.ask small{margin-left:8px;font-family:var(--f-ui);font-size:13.5px;color:var(--text-2);white-space:nowrap;display:inline-block}
 .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip{min-height:44px;padding:6px 14px;border:1.5px solid var(--chip-line);border-radius:999px;background:var(--counter-2);color:var(--text);font-size:15px;line-height:1.3;cursor:pointer;transition:background-color .15s,border-color .15s,color .15s}
 .chip:hover{border-color:var(--lamp)}
@@ -101,20 +101,20 @@ p{margin:0}
 .chip.dim{opacity:.45}
 .energy{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .energy .chip{border-radius:14px;padding:10px 10px;display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left}
-.energy .chip small{font-size:12px;color:var(--text-2)}
+.energy .chip small{font-size:13px;color:var(--text-2)}
 .energy .chip[aria-pressed="true"] small{color:var(--lamp-ink)}
 @media (max-width:420px){.energy{grid-template-columns:1fr}.energy .chip{flex-direction:row;align-items:baseline;gap:10px}}
 .go{align-self:stretch;min-height:54px;border:0;border-radius:14px;background:var(--lamp);color:var(--lamp-ink);font-size:18px;font-weight:700;letter-spacing:.1em;cursor:pointer;box-shadow:0 0 22px rgba(243,181,98,.28)}
 .go:hover{filter:brightness(1.05)}
-.hint{min-height:1.3em;font-size:13.5px;color:var(--lamp);text-align:center}
+.hint{min-height:1.3em;font-size:15px;color:var(--lamp);text-align:center}
 
 /* care note */
 .care{padding:14px 16px;border:1.5px solid var(--lamp);border-radius:14px;background:var(--lamp-soft);display:flex;flex-direction:column;gap:6px}
 .care h3{font-size:16px;color:var(--lamp)}
-.care p{font-size:14.5px;line-height:1.7}
+.care p{font-size:15px;line-height:1.7}
 .care .num{font-family:var(--f-type);font-weight:700;font-size:22px;letter-spacing:.06em;color:#FFE6BF}
 .care .num a{color:inherit;text-decoration:none}
-.care .more{font-size:13px;color:var(--text-2)}
+.care .more{font-size:14px;color:var(--text-2)}
 
 /* the prescription */
 .result{padding-block:26px 8px;display:flex;flex-direction:column;gap:16px;scroll-margin-top:12px}
@@ -122,8 +122,10 @@ p{margin:0}
 .result-head h2{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:400;letter-spacing:.06em}
 .result-head .books{flex:none;filter:drop-shadow(0 0 4px rgba(243,181,98,.55))}
 .badge{flex:none;font-family:var(--f-type);font-size:12px;font-weight:400;letter-spacing:.14em;color:var(--lamp);border:1px solid var(--lamp);border-radius:4px;padding:1px 7px}
-.example-note{font-size:13.5px;color:var(--text-2)}
-.slip{align-self:flex-start;max-width:100%;padding:14px 18px 16px;background:var(--paper-2);color:var(--pen);border-radius:3px;transform:rotate(-.6deg);box-shadow:0 10px 24px rgba(0,0,0,.35);display:flex;flex-direction:column;gap:8px}
+.example-note{font-size:15px;color:var(--text-2)}
+.slip{position:relative;align-self:flex-start;max-width:100%;padding:14px 18px 16px;background:var(--paper-2);color:var(--pen);border-radius:3px;transform:rotate(-.6deg);box-shadow:0 10px 24px rgba(0,0,0,.35);display:flex;flex-direction:column;gap:8px}
+/* a strip of paper tape: Lucy left the note on the counter for you */
+.slip::before{content:"";position:absolute;top:-11px;left:50%;width:78px;height:22px;margin-left:-39px;transform:rotate(-3deg);background:repeating-linear-gradient(90deg,rgba(255,255,255,.08) 0 6px,transparent 6px 12px),rgba(236,221,186,.82);box-shadow:0 1px 2px rgba(0,0,0,.25);pointer-events:none}
 .slip-k{font-family:var(--f-type);font-size:12px;font-weight:400;letter-spacing:.12em;color:var(--ink-2);overflow-wrap:anywhere}
 .slip-note{font-family:var(--f-hand);font-size:18px;line-height:1.75}
 .sig{align-self:flex-end;font-family:"LucySign",var(--f-hand);font-size:24px;line-height:1.2}
@@ -148,7 +150,7 @@ p{margin:0}
 .card a:hover{background:var(--paper-2)}
 .hole{position:absolute;left:50%;bottom:9px;width:11px;height:11px;margin-left:-5.5px;border-radius:50%;background:var(--counter);box-shadow:inset 0 1px 2px rgba(0,0,0,.55),0 0 0 1px rgba(31,42,48,.12)}
 .actions{display:flex;flex-wrap:wrap;gap:10px}
-.borrow-hint{margin:12px 2px 0;font-size:13.5px;line-height:1.6;color:var(--text-2)}
+.borrow-hint{margin:12px 2px 0;font-size:15px;line-height:1.6;color:var(--text-2)}
 .btn{min-height:46px;padding:0 18px;border:1.5px solid var(--lamp);border-radius:12px;background:transparent;color:var(--lamp);font-size:15px;cursor:pointer}
 .btn:hover{background:var(--lamp-soft)}
 .btn.quiet{border-color:var(--line);color:var(--text-2)}
@@ -158,13 +160,13 @@ p{margin:0}
 @keyframes dockIn{from{transform:translateY(100%);opacity:0}to{transform:none;opacity:1}}
 .share-box{display:flex;flex-direction:column;gap:8px}
 .share-box[hidden]{display:none}
-.share-msg{font-size:14px;color:var(--lamp)}
+.share-msg{font-size:15px;color:var(--lamp)}
 .share-box textarea{width:100%;min-height:15em;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--counter);color:var(--text);font:14px/1.6 var(--f-ui);resize:vertical}
 
 /* footer */
 .foot{padding-block:28px 40px;display:flex;flex-direction:column;gap:16px}
-.about{font-size:13px;line-height:1.8;color:var(--text-2)}
-.links{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:13.5px}
+.about{font-size:15px;line-height:1.8;color:var(--text-2)}
+.links{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:15px}
 @media (prefers-reduced-motion:reduce){.on .tube,.on .neon,.show .card,.dock{animation:none}.chip{transition:none}}
 </style>
 <script id="lucy-data" type="application/json">
