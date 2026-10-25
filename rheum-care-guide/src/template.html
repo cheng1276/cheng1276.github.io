@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&display=swap">
 <style>
 :root{
-  /* Layout: a clinic handout binder. Seven colour-coded index tabs stay pinned at the top;
+  /* Layout: a clinic handout binder. Colour-coded index tabs stay pinned at the top (all shown, in rows, on wider screens);
      each disease is a single column of care cards: drawn pictogram tile, plain steps,
      and a small citation line under every step. */
   --paper:#f3f5f4;
@@ -140,6 +140,19 @@ h1{font-size:var(--t-h1)}
 }
 .tab::before{content:"";width:.7rem;height:.7rem;border-radius:50%;background:var(--hue)}
 .tab[aria-selected="true"]{background:var(--hue-wash);border-color:var(--hue);color:var(--hue-ink)}
+/* Tablets and computers: every tab is visible, wrapped onto two or three rows (no sideways scrolling).
+   Phones: one row that scrolls sideways; the edge fades where more tabs are hidden. */
+@media (min-width:40rem){
+  .tablist{flex-wrap:wrap;overflow-x:visible;padding-bottom:0}
+}
+@media (min-width:64rem){
+  .tablist{max-width:64rem;justify-content:center}
+}
+@media (max-width:39.99rem){
+  .tablist[data-more="right"]{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent)}
+  .tablist[data-more="left"]{-webkit-mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent)}
+  .tablist[data-more="both"]{-webkit-mask-image:linear-gradient(to right,transparent,#000 3rem,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,transparent,#000 3rem,#000 calc(100% - 3rem),transparent)}
+}
 
 /* ---------- disease panel ---------- */
 .panel{padding-block:1.75rem 0;display:grid;gap:1.5rem}
@@ -780,11 +793,26 @@ h1{font-size:var(--t-h1)}
       t.tabIndex = on ? 0 : -1;
     }
   }
+  function updateMore() {
+    const tl = $('tablist');
+    if (!tl) return;
+    const l = tl.scrollLeft > 2, r = tl.scrollLeft + tl.clientWidth < tl.scrollWidth - 2;
+    tl.dataset.more = l && r ? 'both' : (l ? 'left' : (r ? 'right' : ''));
+  }
+  function revealTab(slug) {
+    const tl = $('tablist'), t = $('tab-' + slug);
+    if (tl && t && tl.scrollWidth > tl.clientWidth) {
+      const tr = t.getBoundingClientRect(), lr = tl.getBoundingClientRect();
+      tl.scrollLeft += (tr.left + tr.width / 2) - (lr.left + lr.width / 2);
+    }
+    updateMore();
+  }
   function select(slug, opts) {
     if (!valid(slug)) slug = 'common';
     current = slug;
     if (slug === 'glossary') renderGlossary(); else render(slug);
     markTabs(slug);
+    revealTab(slug);
     saveState();
     try { history.replaceState(null, '', '#' + slug); } catch (e) { /* sandboxed */ }
     if (opts && opts.scroll) {
@@ -805,6 +833,9 @@ h1{font-size:var(--t-h1)}
     const tl = $('tablist');
     tl.innerHTML = TABS.map((s) => `<button type="button" class="tab" role="tab" data-d="${s}" data-slug="${s}" id="tab-${s}" aria-controls="panel" aria-selected="false">${esc(s === 'glossary' ? '名詞小辭典' : D[s].tab)}</button>`).join('');
     tl.addEventListener('click', (e) => { const b = e.target.closest('.tab'); if (b) select(b.dataset.slug, { scroll: true }); });
+    tl.addEventListener('scroll', updateMore, { passive: true });
+    window.addEventListener('resize', () => revealTab(current));
+    try { document.fonts.ready.then(() => revealTab(current)); } catch (e) { /* no font loading API */ }
     tl.addEventListener('keydown', (e) => {
       if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
       const i = TABS.indexOf(current) + (e.key === 'ArrowRight' ? 1 : -1);
