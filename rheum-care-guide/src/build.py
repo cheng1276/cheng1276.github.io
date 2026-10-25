@@ -52,10 +52,7 @@ URL_FIX = {
 DESCRIPTION = ('痛風、類風濕性關節炎、紅斑性狼瘡、退化性關節炎、骨質疏鬆症等風濕免疫科常見疾病的生活照護，'
                '以及看懂健檢報告、治療期間防感染；每則建議都附出處與建議強度，少數安全提醒標為編輯加註。')
 
-FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E"
-           "%3Crect width='64' height='64' rx='14' fill='%230c6a5e'/%3E"
-           "%3Crect x='16' y='13' width='32' height='38' rx='5' fill='white'/%3E"
-           "%3Cpath d='M22 25h20M22 32h20M22 39h12' stroke='%230c6a5e' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E")
+OG_VERSION = '20261025'  # change when og.png changes, so link previews fetch the new image
 
 BASE_RESET = ('<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);'
               'padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}'
@@ -167,12 +164,18 @@ def main(argv):
             '<meta property="og:title" content="風濕免疫生活照護圖解">',
             f'<meta property="og:description" content="{DESCRIPTION}">',
             f'<meta property="og:url" content="{SITE_URL}">',
-            f'<meta property="og:image" content="{SITE_URL}og.png">',
+            f'<meta property="og:image" content="{SITE_URL}og.png?v={OG_VERSION}">',
             '<meta property="og:image:width" content="1200">',
             '<meta property="og:image:height" content="630">',
+            '<meta property="og:image:alt" content="風濕免疫科衛教・生活照護圖解：每則建議都附上出處與建議強度">',
+            '<meta property="og:site_name" content="風濕免疫生活照護圖解">',
             '<meta name="twitter:card" content="summary_large_image">',
             '<meta name="theme-color" content="#0c6a5e">',
-            f'<link rel="icon" href="{FAVICON}">',
+            '<meta name="apple-mobile-web-app-title" content="生活照護圖解">',
+            '<link rel="icon" href="favicon.ico" sizes="32x32">',
+            '<link rel="icon" href="icon.svg" type="image/svg+xml">',
+            '<link rel="apple-touch-icon" href="apple-touch-icon.png">',
+            '<link rel="manifest" href="site.webmanifest">',
         ])
         page = f'<!doctype html>\n<html lang="zh-Hant">\n<head>\n{meta}\n</head>\n<body>\n{body}\n</body>\n</html>\n'
     out.write_text(page, encoding='utf-8')
