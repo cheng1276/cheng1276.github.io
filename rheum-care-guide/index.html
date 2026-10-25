@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&display=swap">
 <style>
 :root{
-  /* Layout: a clinic handout binder. Colour-coded index tabs stay pinned at the top (all shown, in rows, on wider screens);
+  /* Layout: a clinic handout binder. Colour-coded index tabs stay pinned at the top (all shown, in rows, on computers);
      each disease is a single column of care cards: drawn pictogram tile, plain steps,
      and a small citation line under every step. */
   --paper:#f3f5f4;
@@ -146,19 +146,18 @@ h1{font-size:var(--t-h1)}
 }
 .tab::before{content:"";width:.7rem;height:.7rem;border-radius:50%;background:var(--hue)}
 .tab[aria-selected="true"]{background:var(--hue-wash);border-color:var(--hue);color:var(--hue-ink)}
-/* Tablets and computers: every tab is visible, wrapped onto two or three rows (no sideways scrolling).
-   Phones: one row that scrolls sideways; the edge fades where more tabs are hidden. */
-@media (min-width:40rem){
+/* Computers (mouse or trackpad, 40rem and wider): every tab is visible, wrapped onto rows, because sideways
+   scrolling is awkward with a mouse. Phones and tablets (touch): one row that scrolls sideways; the edge fades
+   where more tabs are hidden (data-more is set by the script only when the row overflows). */
+@media (hover:hover) and (pointer:fine) and (min-width:40rem){
   .tablist{flex-wrap:wrap;overflow-x:visible;padding-bottom:0}
 }
-@media (min-width:64rem){
+@media (hover:hover) and (pointer:fine) and (min-width:64rem){
   .tablist{max-width:64rem;justify-content:center}
 }
-@media (max-width:39.99rem){
-  .tablist[data-more="right"]{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent)}
-  .tablist[data-more="left"]{-webkit-mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent)}
-  .tablist[data-more="both"]{-webkit-mask-image:linear-gradient(to right,transparent,#000 3rem,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,transparent,#000 3rem,#000 calc(100% - 3rem),transparent)}
-}
+.tablist[data-more="right"]{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent)}
+.tablist[data-more="left"]{-webkit-mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent)}
+.tablist[data-more="both"]{-webkit-mask-image:linear-gradient(to right,transparent,#000 3rem,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,transparent,#000 3rem,#000 calc(100% - 3rem),transparent)}
 
 /* ---------- disease panel ---------- */
 .panel{padding-block:1.75rem 0;display:grid;gap:1.5rem}
