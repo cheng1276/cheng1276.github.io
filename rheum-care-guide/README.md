@@ -2,6 +2,8 @@
 
 網址：https://rheum-care-guide.pages.dev/（Cloudflare Pages）；原本的 https://cheng1276.github.io/rheum-care-guide/ 也可使用，內容相同。
 
+發佈方式：推上這個儲存庫的 main 分支後，GitHub Pages 與 Cloudflare Pages 會自動更新。Cloudflare Pages 專案 rheum-care-guide 的設定為 Build command 留空、Build output directory 為 `rheum-care-guide`、Build watch paths 為 `rheum-care-guide/*`（只有這個資料夾有變動時才重新部署），預覽分支不部署。
+
 給病友與家屬的生活照護衛教網站。內容涵蓋痛風、慢性蕁麻疹、類風濕性關節炎、僵直性脊椎炎、紅斑性狼瘡、乾燥症、退化性關節炎、骨質疏鬆症的生活照護，各疾病都可參考的共通照護，以及健檢報告異常、治療期間防感染兩個主題。每一則建議下方都標出它來自哪一份臨床指引或研究，以及建議強度。
 
 內文中有虛線底線的專有名詞（例如「有氧運動」「UVA」「類固醇」），點一下就會跳出白話解釋；全部 167 個名詞也收在「名詞小辭典」分頁，可以搜尋、依類別瀏覽，並看到每個詞出現在哪些頁面。每個解釋都附上 PubMed 收錄的指引或文獻出處。
