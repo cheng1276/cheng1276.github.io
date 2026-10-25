@@ -21,7 +21,7 @@ ROOT = HERE.parent
 CONTENT = HERE / 'content'
 GLOSSARY = HERE / 'glossary' / 'glossary.json'
 TEMPLATE = HERE / 'template.html'
-SITE_URL = 'https://cheng1276.github.io/rheum-care-guide/'
+SITE_URL = 'https://rheum-care-guide.pages.dev/'  # main address (Cloudflare Pages); https://cheng1276.github.io/rheum-care-guide/ serves the same files
 
 ORDER = ['common', 'gout', 'urticaria', 'ra', 'axspa', 'sle', 'sjogren',
          'oa', 'osteoporosis', 'labs', 'infection']  # the last four went live on 2026-10-11
@@ -163,6 +163,7 @@ def main(argv):
             '<meta property="og:locale" content="zh_TW">',
             '<meta property="og:title" content="風濕免疫生活照護圖解">',
             f'<meta property="og:description" content="{DESCRIPTION}">',
+            f'<link rel="canonical" href="{SITE_URL}">',
             f'<meta property="og:url" content="{SITE_URL}">',
             f'<meta property="og:image" content="{SITE_URL}og.png?v={OG_VERSION}">',
             '<meta property="og:image:width" content="1200">',
