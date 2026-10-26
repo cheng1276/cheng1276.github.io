@@ -223,7 +223,13 @@ p{margin:0}
   (DATA.thoughts || []).forEach(function(t){ LABEL[t.id] = t.label; });
   function $(id){ return document.getElementById(id); }
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-  function hash(str){ var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967296; }
+  // FNV-1a and then a final mix (murmur3's finaliser), so keys that differ only in their last character (book ids
+  // 37123 and 37124, or the first and second pick) still get unrelated numbers
+  function hash(str){
+    var h = 2166136261; for (var i = 0; i < str.length; i++) { h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+    h ^= h >>> 16; h = Math.imul(h, 0x85ebca6b); h ^= h >>> 13; h = Math.imul(h, 0xc2b2ae35); h ^= h >>> 16;
+    return (h >>> 0) / 4294967296;
+  }
   function key(sel){ return sel.moods.join(',') + '|' + sel.thoughts.join(',') + '|' + sel.energy; }
   function pick(list, seed){ if (!list || !list.length) return ''; return list[Math.floor(hash(seed) * list.length) % list.length]; }
 
@@ -248,6 +254,11 @@ p{margin:0}
   }
 
   /* ---------- matching ---------- */
+  // 先分組，再抽籤. The books that fit best form a group: the same moods and thoughts matched and a reading effort that
+  // fits as well. Each book is then drawn from that group by lot; a stronger book (w) has better odds but none is
+  // certain, so readers who pick the same feelings get different books. The next group is reached only when the best
+  // one runs out.
+  var ODDS = { 1: 1, 2: 2, 3: 3 };   // w 3 (excellent, widely loved) has three times the chance of w 1 (acceptable, niche)
   function scoreAll(sel, seedSalt){
     var moods = sel.moods, seed = key(sel) + '#' + seedSalt;
     var wantsLaugh = sel.moods.indexOf('laugh') >= 0 && sel.moods.indexOf('grief') < 0;
@@ -255,17 +266,18 @@ p{margin:0}
     var heavy = sel.moods.some(function(m){ return HEAVY.indexOf(m) >= 0; });
     var books = heavy ? DATA.books.filter(function(b){ return !b.x; }) : DATA.books;
     return books.map(function(b){
-      var s = 0, hits = [];
+      var s = 0, hits = [], odds = ODDS[b.w] || 2;
       moods.forEach(function(m){ if (b.m.indexOf(m) >= 0) { s += 3; if (LABEL[m] && hits.indexOf(LABEL[m]) < 0) hits.push(LABEL[m]); } });
       sel.thoughts.forEach(function(t){ if (b.h.indexOf(t) >= 0) { s += 4; hits.push(LABEL[t]); } });
       if (sel.energy) { var d = Math.abs(b.e - sel.energy); s += d === 0 ? 2 : (d === 1 ? 0.5 : -1.5); }
       // someone who only wants a laugh gets the purely funny books before the funny-but-sad ones
       if (wantsLaugh && b.m.indexOf('grief') >= 0) s -= 2;
-      // warm first: bittersweet books (real sadness, but comforting) step back, a funny one steps forward on a heavy day
-      if (b.d) s -= heavy ? 1.0 : 0.3;
-      if (heavy && b.m.indexOf('laugh') >= 0) s += 0.3;
-      s += (b.w || 2) * 0.4 + hash(seed + ':' + b.id) * 0.9;
-      return { b: b, s: s, hits: hits };
+      // warm first: on a heavy day a bittersweet book (real sadness, but comforting) is held back to a later group and a
+      // funny one has better odds; on other days a bittersweet book only has slightly lower odds
+      var held = false;
+      if (b.d) { if (heavy) { s -= 1.0; held = true; } else odds *= 0.75; }
+      if (heavy && b.m.indexOf('laugh') >= 0) odds *= 1.3;
+      return { b: b, s: s, odds: odds, held: held, seed: seed + ':' + b.id, hits: hits };
     }).sort(function(x, y){ return y.s - x.s; });
   }
   function choose(ranked, exclude){
@@ -274,13 +286,41 @@ p{margin:0}
     var src = matched.length >= 3 ? matched : matched.concat(pool.filter(function(r){ return !r.hits.length; }));
     var picked = [], fmtCount = {};
     while (picked.length < 3 && src.length) {
-      var best = -1, bestScore = -Infinity;
-      for (var i = 0; i < src.length; i++) {
-        var eff = src[i].s - 1.6 * (fmtCount[src[i].b.f] || 0);
-        if (eff > bestScore) { bestScore = eff; best = i; }
+      // the group: every book within 0.9 of the best fit still left (a tag not matched, a reading effort one step off,
+      // or a bittersweet book on a heavy day each puts a book in a later group)
+      var top = -Infinity;
+      src.forEach(function(r){ if (r.s > top) top = r.s; });
+      var group = src.filter(function(r){ return r.s >= top - 0.9; });
+      // warm first, but not down to a handful: while fewer than 12 warm books fit this well, the held-back bittersweet
+      // books that fit just as well join the draw and share the rest of the chances ((12 - n) / 12). Someone who misses
+      // a person who died would otherwise meet the same few books, since most books about loss are bittersweet.
+      var fill = 0;
+      if (group.length < 12 && !group.some(function(r){ return r.held; })) {
+        var heldBack = src.filter(function(r){ return r.held && r.s < top - 0.9 && r.s + 1.0 >= top - 0.9; });
+        if (heldBack.length) {
+          var w0 = 0, w1 = 0;
+          group.forEach(function(r){ w0 += r.odds; });
+          heldBack.forEach(function(r){ w1 += r.odds; });
+          fill = (12 - group.length) / group.length * w0 / w1;
+          group = group.concat(heldBack);
+        }
       }
-      var r = src.splice(best, 1)[0];
-      picked.push(r); fmtCount[r.b.f] = (fmtCount[r.b.f] || 0) + 1;
+      // three different kinds of book when the group can offer it: only while at least five books of a kind not yet
+      // picked are left, so a lone book of an unusual kind does not become a fixture for everyone
+      if (picked.length) {
+        var fresh = group.filter(function(r){ return !fmtCount[r.b.f]; });
+        if (fresh.length >= 5) group = fresh;
+      }
+      // the lot: a weighted draw (largest u^(1/odds) wins, with a fresh u for every book at every pick); a kind of
+      // book already in the list keeps about a third of its odds
+      var best = null, bestKey = -Infinity, n = picked.length;
+      group.forEach(function(r){
+        var odds = r.odds * (fill && r.held ? fill : 1) * Math.pow(0.35, fmtCount[r.b.f] || 0);
+        var k = Math.log(Math.max(hash(r.seed + '/' + n), 1e-12)) / odds;
+        if (k > bestKey) { bestKey = k; best = r; }
+      });
+      src.splice(src.indexOf(best), 1);
+      picked.push(best); fmtCount[best.b.f] = (fmtCount[best.b.f] || 0) + 1;
     }
     return picked;
   }
