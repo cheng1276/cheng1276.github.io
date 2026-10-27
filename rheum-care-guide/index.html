@@ -146,14 +146,13 @@ h1{font-size:var(--t-h1)}
 }
 .tab::before{content:"";width:.7rem;height:.7rem;border-radius:50%;background:var(--hue)}
 .tab[aria-selected="true"]{background:var(--hue-wash);border-color:var(--hue);color:var(--hue-ink)}
-/* Computers (mouse or trackpad, 40rem and wider): every tab is visible, wrapped onto rows, because sideways
-   scrolling is awkward with a mouse. Phones and tablets (touch): one row that scrolls sideways; the edge fades
-   where more tabs are hidden (data-more is set by the script only when the row overflows). */
-@media (hover:hover) and (pointer:fine) and (min-width:40rem){
-  .tablist{flex-wrap:wrap;overflow-x:visible;padding-bottom:0}
-}
-@media (hover:hover) and (pointer:fine) and (min-width:64rem){
-  .tablist{max-width:64rem;justify-content:center}
+/* Computers (mouse or trackpad, 48rem and wider): every tab is visible in a four-column grid that lines up with
+   the content column, because sideways scrolling is awkward with a mouse. Phones and tablets (touch): one row that
+   scrolls sideways; the edge fades where more tabs are hidden (data-more is set by the script only when the row
+   overflows). */
+@media (hover:hover) and (pointer:fine) and (min-width:48rem){
+  .tablist{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));overflow-x:visible;padding-bottom:0}
+  .tab{min-height:2.5rem}
 }
 .tablist[data-more="right"]{-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent)}
 .tablist[data-more="left"]{-webkit-mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to left,#000 calc(100% - 3rem),transparent)}
