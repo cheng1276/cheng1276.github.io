@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FBF8F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1C24" media="(prefers-color-scheme: dark)">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>抽獎券已領名單</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&display=swap">
+<style>
+/* Layout: the counter's second tool, built like the lookup page. One column: where the list is kept, the card-number
+   box, then the answer in big type (not yet: note the ticket number and hand it over / already has ticket no. N), the
+   day's count, the list folded away, and a ticket-number check for prize day. Light for the desk PC; the dark palette
+   borrows the booth's night counter. */
+:root{
+  --bg:#FBF8F2; --panel:#F4EFE4; --line:#E2D8C3; --field:#FFFFFF;
+  --ink:#1F2A30; --ink-2:#56626A; --pen:#284C6A;
+  --lamp:#F3B562; --lamp-ink:#2B1B06; --amber-text:#8A5410;
+  --no-bg:#F8E9E6; --no:#9A3B32; --warn-line:#C98A2E;
+  --f:"Huninn","PingFang TC","Microsoft JhengHei","Noto Sans TC",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1C24; --panel:#14262F; --line:#2C4754; --field:#1A303B;
+    --ink:#E5ECE9; --ink-2:#AFC0C1; --pen:#9CC3E0;
+    --lamp:#F3B562; --lamp-ink:#2B1B06; --amber-text:#F3B562;
+    --no-bg:#3A2321; --no:#F4B2A8; --warn-line:#F3B562;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1C24; --panel:#14262F; --line:#2C4754; --field:#1A303B;
+  --ink:#E5ECE9; --ink-2:#AFC0C1; --pen:#9CC3E0;
+  --lamp:#F3B562; --lamp-ink:#2B1B06; --amber-text:#F3B562;
+  --no-bg:#3A2321; --no:#F4B2A8; --warn-line:#F3B562;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--ink);font-family:var(--f);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));display:flex;flex-direction:column;gap:18px}
+.lib{margin:0;font-size:14px;letter-spacing:.16em;color:var(--ink-2)}
+.lib b{font-weight:400;color:var(--amber-text)}
+h1{margin:0;font-size:30px;font-weight:400;letter-spacing:.04em;line-height:1.3;text-wrap:balance}
+h2{margin:0;font-size:18px;font-weight:400;color:var(--ink)}
+.lead{margin:0;color:var(--ink-2);max-width:40em}
+button{font:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--lamp);outline-offset:2px}
+.btn{min-height:46px;padding:0 18px;border:1.5px solid var(--pen);border-radius:12px;background:var(--field);color:var(--ink);font-size:16px}
+.btn:hover{border-color:var(--amber-text)}
+.btn.main{border-color:var(--lamp);background:var(--lamp);color:var(--lamp-ink)}
+.btn.main:hover{filter:brightness(1.04)}
+.btn.small{min-height:40px;padding:0 14px;font-size:15px}
+.link{min-height:40px;padding:0;border:0;background:none;color:var(--pen);font-size:15px;text-decoration:underline;text-underline-offset:3px}
+.store{padding:14px 18px;border-radius:12px;background:var(--panel);box-shadow:0 0 0 1px var(--line);display:flex;flex-direction:column;gap:10px}
+.store p{margin:0}
+.store .row{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.store .note{font-size:14.5px;color:var(--ink-2)}
+.store .warn{font-size:14.5px;color:var(--no)}
+.store b{font-weight:700;overflow-wrap:anywhere}
+.search{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 10px;align-items:end}
+.search label{grid-column:1 / -1;font-size:15px;color:var(--ink-2)}
+#q,#tq{min-width:0;min-height:58px;padding:10px 16px;border:2px solid var(--pen);border-radius:12px;background:var(--field);color:var(--ink);font:inherit;font-size:24px;letter-spacing:.04em}
+#q::placeholder,#tq::placeholder{color:var(--ink-2);opacity:.8;font-size:17px;letter-spacing:0}
+#go,#tgo{min-width:84px;min-height:58px}
+.answer{min-height:64px;display:flex;align-items:flex-start;gap:14px;padding:16px 18px;border-radius:12px;font-size:21px;line-height:1.4}
+.answer > svg{flex:none;width:30px;height:30px;margin-top:1px}
+.answer .txt{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px}
+.answer small{display:block;font-size:15.5px;line-height:1.55}
+.answer .acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.answer.go{background:var(--lamp);color:var(--lamp-ink)}
+.answer.go .btn{border-color:var(--lamp-ink);background:#FFF8EC;color:var(--lamp-ink)}
+.answer.go .btn.main{background:var(--lamp-ink);border-color:var(--lamp-ink);color:#FFE6BF}
+.answer.go .link{color:var(--lamp-ink)}
+.answer.stop{background:var(--no-bg);color:var(--no)}
+.answer.stop .link{color:var(--no)}
+.answer.info{background:var(--panel);color:var(--ink);box-shadow:inset 0 0 0 2px var(--warn-line)}
+.answer.idle{display:block;background:var(--panel);color:var(--ink-2);font-size:16px}
+.tnum{font-weight:400;font-variant-numeric:tabular-nums;letter-spacing:.06em}
+.nw{white-space:nowrap}
+.big{font-size:1.25em}
+.tform{display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px}
+.tform label{width:100%;font-size:15px}
+#tno{width:150px;min-height:52px;padding:6px 14px;border:2px solid var(--lamp-ink);border-radius:10px;background:#FFF8EC;color:var(--lamp-ink);font:inherit;font-size:28px;letter-spacing:.08em;font-variant-numeric:tabular-nums}
+.tnoerr{width:100%;margin:0;font-size:15.5px;line-height:1.5}
+.tnoerr:empty{display:none}
+.legend{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.legend li{display:grid;grid-template-columns:26px minmax(0,1fr);gap:10px;align-items:start}
+.legend svg{width:22px;height:22px;margin-top:2px}
+.legend b{font-weight:400;color:var(--ink)}
+.i-go{color:var(--amber-text)} .i-stop{color:var(--no)}
+.stats{margin:0;font-size:16px;color:var(--ink-2)}
+.stats b{font-weight:400;color:var(--ink);font-variant-numeric:tabular-nums}
+details{border-radius:12px;box-shadow:0 0 0 1px var(--line)}
+summary{min-height:46px;padding:10px 18px;cursor:pointer;color:var(--pen)}
+.list{list-style:none;margin:0;padding:0 18px 14px;max-height:360px;overflow:auto}
+.list li{display:grid;grid-template-columns:5.5em minmax(0,1fr) auto;gap:16px;padding:6px 0;border-top:1px solid var(--line);font-variant-numeric:tabular-nums}
+.list li span{overflow-wrap:anywhere}
+.list li span:first-child{color:var(--amber-text)}
+.list li span:last-child{color:var(--ink-2)}
+.claim{padding:16px 18px;border-radius:12px;box-shadow:0 0 0 1px var(--line);display:flex;flex-direction:column;gap:10px}
+.claim p{margin:0}
+.claimres{font-size:18px;line-height:1.5}
+.claimres:empty{display:none}
+.claimres.hit{color:var(--ink)}
+.claimres.miss,.claimres.warn{color:var(--no)}
+.claimres b{font-weight:700}
+.foot{margin:6px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2);display:grid;gap:4px}
+.foot p{margin:0}
+.foot a{color:var(--pen)}
+@media (max-width:520px){#q,#tq{font-size:21px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <p class="lib">台南市立醫院圖書館・<b>櫃台用</b></p>
+  <h1>抽獎券已領名單</h1>
+  <p class="lead">發抽獎券前，先刷借書證或輸入號碼。還沒領過的人，登記時一起記下抽獎券號碼，再發一張；領過的人不再發。</p>
+
+  <section class="store" id="store" aria-live="polite"></section>
+
+  <form class="search" id="form" autocomplete="off">
+    <label for="q">借書證號或員工編號</label>
+    <input id="q" type="text" enterkeyhint="go" autocomplete="off" autocapitalize="characters" spellcheck="false" autofocus placeholder="刷借書證，或輸入號碼">
+    <button id="go" class="btn" type="submit">查詢</button>
+  </form>
+  <div class="answer idle" id="answer" role="status" aria-live="polite"></div>
+
+  <p class="stats" id="stats"></p>
+  <details id="listbox"><summary id="listsum">查看名單</summary><ol class="list" id="list"></ol></details>
+
+  <section class="claim" aria-labelledby="claimh">
+    <h2 id="claimh">領獎時核對</h2>
+    <form class="search" id="claimform" autocomplete="off">
+      <label for="tq">得獎的抽獎券號碼</label>
+      <input id="tq" type="text" inputmode="numeric" enterkeyhint="search" autocomplete="off" spellcheck="false" placeholder="例如 0007">
+      <button id="tgo" class="btn" type="submit">查詢</button>
+    </form>
+    <p class="claimres" id="claimres" role="status" aria-live="polite"></p>
+  </section>
+
+  <div class="foot">
+    <p>名單只存在這台電腦，或你選的名單檔裡，不會上傳到任何地方。只記借書證號、抽獎券號碼和登記時間，不記姓名和書名。</p>
+    <p>請用借書證號或員工編號，不要用身分證字號。</p>
+    <p>櫃台有兩台電腦的話，把名單檔放在兩台都開得到的共用資料夾，兩台都開同一個檔，名單就會一致。</p>
+    <p>活動結束、領完獎以後，請刪除名單檔。查書請用 <a href="https://lucy-reading-booth.pages.dev/counter/">Lucy 推薦書查詢</a>。</p>
+  </div>
+</main>
+
+<input id="importer" type="file" accept=".csv,text/csv,text/plain" hidden>
+
+<script>
+(function(){
+  'use strict';
+  var FS = typeof window.showSaveFilePicker === 'function' && typeof window.showOpenFilePicker === 'function';
+  var MODE_KEY = 'lucy-ticket-list-mode', LS_KEY = 'lucy-ticket-list-v1', EXP_KEY = 'lucy-ticket-list-exported', FILE_NAME = 'Lucy抽獎券已領名單.csv';
+  var $ = function(id){ return document.getElementById(id); };
+  var q = $('q'), answer = $('answer'), store = $('store'), stats = $('stats'), list = $('list'), listsum = $('listsum');
+  var tq = $('tq'), claimres = $('claimres');
+
+  var mode = null;        // 'file' | 'browser' | null (not chosen yet)
+  var handle = null;      // the list file, in file mode
+  var entries = [];       // [{id, no, at}] oldest first; no = the ticket number handed over
+  var savedAt = null, lastAdded = null, pending = null, storeErr = '';
+
+  var ICON = {
+    go: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 12.5l5 5 10-11"/></svg>',
+    stop: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M5.5 18.5l13-13"/></svg>',
+    info: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v6"/><path d="M12 7.4v.1"/></svg>'
+  };
+
+  function esc(s){ return String(s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function half(s){
+    s = String(s == null ? '' : s).replace(/[！-～]/g, function(c){ return String.fromCharCode(c.charCodeAt(0) - 0xFEE0); });
+    try { s = s.normalize('NFKC'); } catch (e) {}
+    return s;
+  }
+  function norm(s){ return half(s).toUpperCase().replace(/[\s\-_.\/]/g, ''); }
+  function looksLikeNationalId(id){ return /^[A-Z][1289]\d{8}$/.test(id); }
+  // a ticket number: 1 to 4 digits as printed (0007), with or without the zeros, "No." or "#"
+  function parseNo(s){
+    s = half(s).trim().replace(/^(NO\.?|#)\s*/i, '');
+    if (!/^\d{1,4}$/.test(s)) return null;
+    var n = parseInt(s, 10);
+    return n >= 1 ? n : null;
+  }
+  function pad(n){ var s = String(n); while (s.length < 4) s = '0' + s; return s; }
+  function when(iso){
+    var d = new Date(iso);
+    if (isNaN(d)) return String(iso || '');
+    function p(n){ return (n < 10 ? '0' : '') + n; }
+    return (d.getMonth() + 1) + '/' + d.getDate() + ' ' + p(d.getHours()) + ':' + p(d.getMinutes());
+  }
+  function sameDay(iso){ var d = new Date(iso), n = new Date(); return d.getFullYear() === n.getFullYear() && d.getMonth() === n.getMonth() && d.getDate() === n.getDate(); }
+  function find(id){ for (var i = 0; i < entries.length; i++) if (entries[i].id === id) return entries[i]; return null; }
+  function byNo(n){ for (var i = 0; i < entries.length; i++) if (entries[i].no === n) return entries[i]; return null; }
+  function topNo(){ var m = 0; entries.forEach(function(e){ if (e.no && e.no > m) m = e.no; }); return m; }
+  function clean(r){ return {id: r.id, no: typeof r.no === 'number' && r.no >= 1 ? r.no : null, at: r.at || ''}; }
+
+  /* ---- the list as text: a CSV that Excel opens too ---- */
+  function toCSV(rows){
+    return '﻿借書證號,抽獎券號碼,登記時間\r\n' +
+      rows.map(function(r){ return r.id + ',' + (r.no ? pad(r.no) : '') + ',' + r.at; }).join('\r\n') + (rows.length ? '\r\n' : '');
+  }
+  function fromCSV(text){
+    var seen = {}, rows = [];
+    String(text || '').replace(/^﻿/, '').split(/\r?\n/).forEach(function(line){
+      var parts = line.split(',').map(function(p){ return p.trim().replace(/^"|"$/g, ''); });
+      var id = norm(parts[0]);
+      if (!id || !/^[A-Z0-9]{2,24}$/.test(id) || seen[id]) return;            // the header row fails the pattern
+      var no = null, at = '';
+      if (parts.length >= 3) { no = parseNo(parts[1]); at = parts.slice(2).join(','); }
+      else if (parts.length === 2) at = parts[1];                               // a list saved before ticket numbers
+      seen[id] = 1; rows.push({id: id, no: no, at: at});
+    });
+    return rows;
+  }
+
+  /* ---- where the list lives ---- */
+  function lsGet(k){ try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function lsSet(k, v){ try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
+  function idb(){ return new Promise(function(res, rej){ var r = indexedDB.open('lucy-ticket-list', 1); r.onupgradeneeded = function(){ r.result.createObjectStore('kv'); }; r.onsuccess = function(){ res(r.result); }; r.onerror = function(){ rej(r.error); }; }); }
+  function kv(op, key, val){
+    return idb().then(function(db){ return new Promise(function(res){
+      try {
+        var st = db.transaction('kv', op === 'get' ? 'readonly' : 'readwrite').objectStore('kv');
+        var r = op === 'get' ? st.get(key) : op === 'del' ? st.delete(key) : st.put(val, key);
+        r.onsuccess = function(){ res(r.result); }; r.onerror = function(){ res(undefined); };
+      } catch (e) { res(undefined); }
+    }); }).catch(function(){ return undefined; });
+  }
+
+  // read the newest list before every answer, so a second counter PC on the same file is never missed
+  function sync(){
+    if (mode === 'browser') {
+      var raw = lsGet(LS_KEY), rows = [];
+      try { rows = raw ? JSON.parse(raw) : []; } catch (e) { rows = []; }
+      entries = Array.isArray(rows) ? rows.filter(function(r){ return r && typeof r.id === 'string'; }).map(clean) : [];
+      return Promise.resolve(true);
+    }
+    if (mode === 'file' && handle) {
+      return handle.getFile().then(function(f){ return f.text(); }).then(function(t){ entries = fromCSV(t); storeErr = ''; return true; })
+        .catch(function(e){ storeErr = (e && e.message) || String(e); return false; });
+    }
+    return Promise.resolve(false);
+  }
+  function save(){
+    if (mode === 'browser') {
+      if (!lsSet(LS_KEY, JSON.stringify(entries))) return Promise.resolve(false);
+      savedAt = new Date().toISOString(); return Promise.resolve(true);
+    }
+    if (mode === 'file' && handle) {
+      var text = toCSV(entries);
+      return handle.createWritable().then(function(w){ return w.write(text).then(function(){ return w.close(); }); })
+        .then(function(){ savedAt = new Date().toISOString(); storeErr = ''; return true; })
+        .catch(function(e){ storeErr = (e && e.message) || String(e); return false; });
+    }
+    return Promise.resolve(false);
+  }
+  function permit(h, ask){
+    if (!h || typeof h.queryPermission !== 'function') return Promise.resolve(!!h);
+    return h.queryPermission({mode: 'readwrite'}).then(function(p){
+      if (p === 'granted') return true;
+      return ask && typeof h.requestPermission === 'function' ? h.requestPermission({mode: 'readwrite'}).then(function(r){ return r === 'granted'; }) : false;
+    }).catch(function(){ return false; });
+  }
+  function useFile(h, isNew){
+    return permit(h, true).then(function(ok){
+      if (!ok) { storeErr = '沒有得到這個檔案的讀寫權限'; renderStore('error'); return; }
+      handle = h; mode = 'file'; lsSet(MODE_KEY, 'file'); kv('put', 'handle', h);
+      var first = isNew ? save() : sync();
+      return first.then(function(ok2){ renderStore(ok2 ? 'file' : 'error'); refresh(); q.focus(); });
+    });
+  }
+  // carry: moving from the browser to a file keeps everyone already registered
+  function pickNew(carry){
+    window.showSaveFilePicker({suggestedName: FILE_NAME, types: [{description: 'CSV', accept: {'text/csv': ['.csv']}}]})
+      .then(function(h){ if (!carry) entries = []; return useFile(h, true); }).catch(function(){});
+  }
+  function pickOpen(){
+    window.showOpenFilePicker({multiple: false, types: [{description: 'CSV', accept: {'text/csv': ['.csv']}}]})
+      .then(function(hs){ return useFile(hs[0], false); }).catch(function(){});
+  }
+  function useBrowser(){
+    mode = 'browser'; handle = null; lsSet(MODE_KEY, 'browser');
+    if (!lsSet(LS_KEY + '-probe', '1')) { storeErr = '這個瀏覽器不能存資料'; mode = null; renderStore('error'); return; }
+    try { localStorage.removeItem(LS_KEY + '-probe'); } catch (e) {}
+    sync().then(function(){ renderStore('browser'); refresh(); q.focus(); });
+  }
+
+  function renderStore(state){
+    var h = '';
+    if (state === 'choose') {
+      h = '<p>先選名單要存在哪裡：</p><div class="row"><button class="btn main" type="button" data-act="new">建立新名單檔</button>' +
+          '<button class="btn" type="button" data-act="open">開啟名單檔</button><button class="link" type="button" data-act="browser">不用檔案，存在這個瀏覽器</button></div>' +
+          '<p class="note">選名單檔的話，每登記一個人就自動存進檔案，不用匯出。檔案可以放在 D 槽或共用資料夾，瀏覽器清除紀錄、電腦重開機都不會不見。</p>';
+    } else if (state === 'resume') {
+      h = '<p>上次用的名單檔：<b>' + esc(handle.name) + '</b></p><div class="row"><button class="btn main" type="button" data-act="resume">繼續使用這個檔</button>' +
+          '<button class="btn" type="button" data-act="open">開啟別的名單檔</button><button class="btn" type="button" data-act="new">建立新名單檔</button></div>' +
+          '<p class="note">也可以直接刷借書證：第一次查詢時，瀏覽器會問要不要允許開啟這個檔，按「允許」就好。</p>';
+    } else if (state === 'file') {
+      h = '<p>名單檔：<b>' + esc(handle.name) + '</b>' + (savedAt ? '・' + when(savedAt) + ' 已自動存檔' : '') + '</p><p class="note">每登記一個人就自動存檔，不用匯出。</p>' +
+          '<div class="row"><button class="btn small" type="button" data-act="import">匯入名單</button><button class="link" type="button" data-act="open">換一個名單檔</button></div>';
+    } else if (state === 'browser') {
+      var left = unbacked(), last = lsGet(EXP_KEY);
+      h = '<p>名單存在這個瀏覽器裡。</p>' + (left ?
+          '<p class="warn"><b>有 ' + left + ' 筆登記還沒匯出備份。</b>清除瀏覽紀錄、電腦重開機還原或換一台電腦，名單就會不見。</p>' :
+          ((last || FS) ? '<p class="note">' + (last ? '都已在 ' + when(last) + ' 匯出備份。' : '') + (FS ? '改用名單檔，就會自動存檔，不用再匯出。' : '') + '</p>' : '')) +
+          '<div class="row"><button class="btn' + (left ? ' main' : ' small') + '" type="button" data-act="export">匯出備份</button><button class="btn small" type="button" data-act="import">匯入名單</button>' +
+          (FS ? '<button class="btn small" type="button" data-act="tofile">改用名單檔（自動存檔）</button>' : '') +
+          '<button class="link" type="button" data-act="wipe">刪除這個瀏覽器裡的名單</button></div>' +
+          (FS ? '' : '<p class="note">這個瀏覽器不能用「名單檔」自動存檔。要自動存檔，請用電腦上的 Chrome 或 Edge 打開這個網頁；Safari、Firefox 和手機都只能存在瀏覽器裡。</p>');
+    } else if (state === 'error') {
+      h = '<p class="warn">讀不到名單：' + esc(storeErr) + '。名單恢復以前，先不要發抽獎券。</p><div class="row">' +
+          (FS ? '<button class="btn main" type="button" data-act="open">重新開啟名單檔</button><button class="btn" type="button" data-act="new">建立新名單檔</button>' : '') +
+          '<button class="link" type="button" data-act="browser">存在這個瀏覽器</button></div>';
+    }
+    store.innerHTML = h;
+    store.dataset.state = state;
+  }
+
+  function unbacked(){ var t = lsGet(EXP_KEY) || ''; return entries.filter(function(e){ return !t || String(e.at) > t; }).length; }
+  function refresh(){
+    if (mode === 'browser') renderStore('browser');
+    var today = entries.filter(function(e){ return sameDay(e.at); }).length, top = topNo();
+    stats.innerHTML = mode ? '已登記 <b>' + entries.length + '</b> 人，今天 <b>' + today + '</b> 人' + (top ? '・最大號碼 <b>' + pad(top) + '</b>' : '') : '';
+    listsum.textContent = '查看名單（' + entries.length + ' 人）';
+    list.innerHTML = entries.slice().reverse().slice(0, 500).map(function(e){
+      return '<li><span>' + (e.no ? pad(e.no) + ' 號' : '—') + '</span><span>' + esc(e.id) + '</span><span>' + esc(when(e.at)) + '</span></li>';
+    }).join('');
+  }
+
+  function say(kind, head, small, acts){
+    answer.className = 'answer ' + kind;
+    answer.innerHTML = (ICON[kind] || ICON.info) + '<div class="txt"><span>' + head + '</span>' + (small ? '<small>' + small + '</small>' : '') +
+      (acts ? '<div class="acts">' + acts + '</div>' : '') + '</div>';
+  }
+  function idle(){
+    answer.className = 'answer idle';
+    answer.innerHTML = '刷借書證或輸入號碼，按 Enter 查詢：<ul class="legend">' +
+      '<li><span class="i-go">' + ICON.go + '</span><span><b>還沒領過</b>：確認手上這張抽獎券的號碼，按 Enter 登記，再發這張。</span></li>' +
+      '<li><span class="i-stop">' + ICON.stop + '</span><span><b>已經領過了</b>：會顯示領了幾號、什麼時候領的，這次不再發。</span></li></ul>';
+  }
+
+  function check(){
+    var raw = q.value, id = norm(raw);
+    pending = null;
+    if (!id) { idle(); return; }
+    if (!/^[A-Z0-9]{2,24}$/.test(id)) { say('info', '號碼看不懂', '請輸入借書證號或員工編號，只用英文字母和數字。'); q.select(); return; }
+    if (looksLikeNationalId(id)) { say('stop', '這看起來像身分證字號', '名單請改用借書證號或員工編號，不要存身分證字號。'); q.select(); return; }
+    if (!mode && handle && store.dataset.state === 'resume') { useFile(handle, false).then(function(){ if (mode) check(); }); return; }
+    if (!mode) { say('info', '先選名單要存在哪裡', '在上面選「建立新名單檔」、「開啟名單檔」或「存在這個瀏覽器」，才能查詢和登記。'); return; }
+    sync().then(function(ok){
+      if (!ok) { renderStore('error'); say('stop', '讀不到名單，先不要發券', esc(storeErr)); return; }
+      refresh();
+      var hit = find(id);
+      if (hit) {
+        say('stop', '已經領過了', esc(id) + ' 在 ' + esc(when(hit.at)) + (hit.no ? ' 領了 <span class="nw"><b class="tnum">' + pad(hit.no) + '</b> 號</span>' : ' 登記過') + '，這次不再發抽獎券。',
+          '<button class="link" type="button" data-act="del" data-id="' + esc(id) + '">刪除這筆登記（登記錯了才用）</button>');
+        q.select();
+      } else {
+        pending = id;
+        say('go', '還沒領過', esc(id) + '：確認手上這張抽獎券的號碼，按 Enter 登記，再把這張發出去。',
+          '<form class="tform" id="tform" autocomplete="off"><label for="tno">抽獎券號碼</label>' +
+          '<input id="tno" type="text" inputmode="numeric" enterkeyhint="done" maxlength="24" spellcheck="false" value="' + pad(topNo() + 1) + '">' +
+          '<button class="btn main" type="submit" id="addbtn">登記並發券</button><button class="btn" type="button" data-act="cancel">先不要</button>' +
+          '<p class="tnoerr" id="tnoerr" role="alert"></p></form>');
+        var t = $('tno'); if (t) { t.focus(); t.select(); }
+      }
+    });
+  }
+  function tnoError(msg){ var er = $('tnoerr'), t = $('tno'); if (er) er.textContent = msg; if (t) { t.focus(); t.select(); } }
+  function add(n){
+    var id = pending; if (!id) return;
+    sync().then(function(ok){
+      if (!ok) { renderStore('error'); say('stop', '讀不到名單，先不要發券', esc(storeErr)); return; }
+      var hit = find(id);
+      if (hit) { pending = null; say('stop', '已經領過了', esc(id) + ' 剛剛在 ' + esc(when(hit.at)) + ' 登記過（可能是另一台電腦），這次不再發。'); refresh(); q.select(); return; }
+      var taken = byNo(n);
+      if (taken) { tnoError(pad(n) + ' 號已經發給 ' + taken.id + ' 了，請看一下手上這張的號碼。'); return; }
+      var at = new Date().toISOString();
+      entries.push({id: id, no: n, at: at});
+      return save().then(function(saved){
+        if (!saved) {
+          entries = entries.filter(function(e){ return e.id !== id; });
+          renderStore('error'); say('stop', '沒有存進名單，先不要發券', esc(storeErr || '存檔失敗')); return;
+        }
+        pending = null; lastAdded = id;
+        if (store.dataset.state === 'file') renderStore('file');
+        refresh();
+        say('go', '已登記，請發 <b class="tnum big">' + pad(n) + '</b> 號抽獎券', esc(id) + '・' + esc(when(at)),
+          '<button class="link" type="button" data-act="undo" data-id="' + esc(id) + '">登記錯了，取消這筆</button>');
+        q.value = ''; q.focus();
+      });
+    });
+  }
+  function remove(id){
+    sync().then(function(ok){
+      if (!ok) { renderStore('error'); say('stop', '讀不到名單', esc(storeErr)); return; }
+      var before = entries.length;
+      entries = entries.filter(function(e){ return e.id !== id; });
+      if (entries.length === before) { say('info', '名單裡已經沒有 ' + esc(id)); refresh(); return; }
+      return save().then(function(saved){
+        if (!saved) { renderStore('error'); say('stop', '刪除沒有存進名單', esc(storeErr)); return; }
+        if (lastAdded === id) lastAdded = null;
+        if (store.dataset.state === 'file') renderStore('file');
+        refresh(); say('info', '已刪除 ' + esc(id) + ' 的登記'); q.focus();
+      });
+    });
+  }
+  function claim(){
+    var n = parseNo(tq.value);
+    claimres.className = 'claimres';
+    if (n == null) { claimres.className = 'claimres warn'; claimres.textContent = '請輸入抽獎券上的號碼，1 到 4 位數字。'; tq.select(); return; }
+    if (!mode && handle && store.dataset.state === 'resume') { useFile(handle, false).then(function(){ if (mode) claim(); }); return; }
+    if (!mode) { claimres.className = 'claimres warn'; claimres.textContent = '先在上面選名單要存在哪裡。'; return; }
+    sync().then(function(ok){
+      if (!ok) { claimres.className = 'claimres warn'; claimres.textContent = '讀不到名單：' + storeErr; return; }
+      refresh();
+      var hit = byNo(n);
+      if (hit) { claimres.className = 'claimres hit'; claimres.innerHTML = '<span class="nw"><b class="tnum">' + pad(n) + '</b> 號</span>發給 <b>' + esc(hit.id) + '</b>（' + esc(when(hit.at)) + ' 登記）。請核對領獎人的借書證。'; }
+      else { claimres.className = 'claimres miss'; claimres.innerHTML = '<span class="nw"><b class="tnum">' + pad(n) + '</b> 號</span>沒有登記在名單上。'; }
+      tq.select();
+    });
+  }
+  function download(){
+    var blob = new Blob([toCSV(entries)], {type: 'text/csv;charset=utf-8'}), a = document.createElement('a'), d = new Date();
+    a.href = URL.createObjectURL(blob);
+    a.download = 'Lucy抽獎券已領名單_' + d.getFullYear() + pad(d.getMonth() + 1).slice(2) + pad(d.getDate()).slice(2) + '.csv';
+    document.body.appendChild(a); a.click(); a.remove();
+    lsSet(EXP_KEY, new Date().toISOString()); refresh();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); }, 4000);
+  }
+
+  // two-step buttons: the first press asks, the second does it
+  var armed = null;
+  function twoStep(btn, label, run){
+    if (armed === btn) { armed = null; run(); return; }
+    armed = btn; var old = btn.textContent; btn.textContent = label;
+    setTimeout(function(){ if (armed === btn) { armed = null; btn.textContent = old; } }, 4000);
+  }
+
+  document.addEventListener('click', function(e){
+    var b = e.target.closest ? e.target.closest('[data-act]') : null; if (!b) return;
+    var act = b.getAttribute('data-act'), id = b.getAttribute('data-id');
+    if (act === 'new') pickNew(false);
+    else if (act === 'open') pickOpen();
+    else if (act === 'browser') useBrowser();
+    else if (act === 'resume') useFile(handle, false);
+    else if (act === 'tofile') pickNew(true);
+    else if (act === 'export') download();
+    else if (act === 'import') $('importer').click();
+    else if (act === 'wipe') twoStep(b, '確定刪除整份名單？再按一次', function(){ entries = []; save().then(function(){ refresh(); say('info', '已刪除這個瀏覽器裡的名單'); }); });
+    else if (act === 'cancel') { pending = null; idle(); q.select(); }
+    else if (act === 'undo') remove(id);
+    else if (act === 'del') twoStep(b, '確定刪除 ' + id + ' 的登記？再按一次', function(){ remove(id); });
+  });
+  document.addEventListener('submit', function(e){
+    var f = e.target;
+    if (f.id === 'form') { e.preventDefault(); check(); }
+    else if (f.id === 'claimform') { e.preventDefault(); claim(); }
+    else if (f.id === 'tform') {
+      e.preventDefault();
+      var v = $('tno').value, n = parseNo(v), card = norm(v);
+      // a card scanned into the number box by mistake: look that card up instead
+      if (n == null && /^[A-Z0-9]{2,24}$/.test(card) && (/[A-Z]/.test(card) || card.length > 4)) { q.value = v; check(); return; }
+      if (n == null) { tnoError('抽獎券號碼是 1 到 4 位數字，例如 0007。'); return; }
+      add(n);
+    }
+  });
+  $('importer').addEventListener('change', function(){
+    var f = this.files && this.files[0]; this.value = '';
+    if (!f) return;
+    f.text().then(function(t){
+      var rows = fromCSV(t);
+      return sync().then(function(){
+        var added = 0, clash = 0;
+        rows.forEach(function(r){
+          if (find(r.id)) return;
+          if (r.no && byNo(r.no)) { r.no = null; clash++; }
+          entries.push(r); added++;
+        });
+        return save().then(function(){
+          refresh();
+          say('info', '已匯入 ' + added + ' 筆', '名單裡原本有的借書證號不會重複。' + (clash ? '其中 ' + clash + ' 筆的抽獎券號碼和名單上別人重複，先清空了號碼，請再核對。' : ''));
+        });
+      });
+    });
+  });
+  // typing or scanning while a button has focus starts a new lookup in the box
+  document.addEventListener('keydown', function(e){
+    var t = document.activeElement;
+    if (e.key === 'Escape' || e.key === 'Esc') {
+      if (t === tq) { tq.value = ''; claimres.textContent = ''; return; }
+      pending = null; q.value = ''; idle(); q.focus(); return;
+    }
+    if (e.key && e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey && !(t && /INPUT|TEXTAREA|SELECT/.test(t.tagName))) {
+      pending = null; q.value = ''; q.focus();
+    }
+  });
+
+  // start: without file access (Firefox, Safari) the browser is the only place; otherwise reopen the last list file
+  idle(); refresh();
+  if (!FS || lsGet(MODE_KEY) === 'browser') useBrowser();
+  else kv('get', 'handle').then(function(h){
+    if (h && typeof h.getFile === 'function') {
+      handle = h;
+      permit(h, false).then(function(ok){ if (ok) useFile(h, false); else renderStore('resume'); });
+    } else renderStore('choose');
+  });
+})();
+</script>
+
+</body>
+</html>

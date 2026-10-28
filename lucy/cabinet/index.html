@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0E1C24">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="icon" href="../favicon-32.png" sizes="32x32" type="image/png">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Lucy 小攤檔案櫃</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&display=swap">
+<style>
+:root{
+  /* Layout: the booth's back office. The same night counter and lamp light as the booth, one 760px column of
+     labelled drawers: live pages, posters, the teaser, the spreadsheets, the counter files and the printables.
+     One committed night look, like the booth itself, so there is no light palette. */
+  --night:#0E1C24;
+  --counter:#14262F;
+  --counter-2:#1A303B;
+  --line:#2C4754;
+  --text:#E5ECE9;
+  --text-2:#AFC0C1;
+  --lamp:#F3B562;
+  --lamp-soft:rgba(243,181,98,.14);
+  --lamp-ink:#2B1B06;
+  --paper:#F4EFE4;
+  --ink:#1F2A30;
+  --pen:#9FC3E0;
+  --f:"Huninn","PingFang TC","Microsoft JhengHei","Noto Sans TC",ui-rounded,system-ui,sans-serif;
+  --col:760px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--night);color:var(--text);font-family:var(--f);font-size:16px;line-height:1.7;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:var(--col);margin:0 auto;padding-block:36px 56px;display:flex;flex-direction:column;gap:44px}
+a{color:var(--lamp);text-underline-offset:3px}
+a:hover{color:#FFE6BF}
+:focus-visible{outline:2px solid var(--lamp);outline-offset:2px;border-radius:6px}
+h1,h2,h3{font-weight:400;margin:0;text-wrap:balance}
+
+/* header */
+.top{display:flex;flex-direction:column;gap:10px}
+.sign{align-self:flex-start;padding:4px 14px 6px;border:2px solid var(--lamp);border-radius:12px;color:#FFE6BF;
+  font-size:15px;letter-spacing:.06em;text-shadow:0 0 8px rgba(243,181,98,.7);box-shadow:0 0 14px rgba(243,181,98,.25)}
+.top h1{font-size:34px;line-height:1.25;letter-spacing:.04em}
+.lede{margin:0;color:var(--text-2);max-width:40em}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0;padding:0;list-style:none}
+.facts li{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:var(--counter);font-size:14.5px;
+  font-variant-numeric:tabular-nums}
+.facts b{color:var(--lamp);font-weight:400}
+.note{margin:0;font-size:14.5px;color:var(--text-2)}
+
+/* a drawer: a labelled section */
+section{display:flex;flex-direction:column;gap:14px}
+.drawer{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.drawer h2{font-size:22px;letter-spacing:.04em}
+.drawer p{margin:0;font-size:14.5px;color:var(--text-2)}
+
+/* rows: one per page or file */
+.rows{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px;align-items:center;padding:14px 16px;
+  background:var(--counter);border:1px solid var(--line);border-radius:14px}
+.row .what{min-width:0;display:flex;flex-direction:column;gap:2px}
+.row h3{font-size:17.5px;line-height:1.45}
+.row p{margin:0;font-size:14.5px;line-height:1.6;color:var(--text-2)}
+.row .url{font-size:14px;overflow-wrap:anywhere;color:var(--pen)}
+.meta{font-size:13.5px;color:var(--text-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tag{display:inline-block;margin-left:8px;padding:0 8px;border-radius:999px;font-size:12.5px;line-height:1.7;vertical-align:2px;
+  border:1px solid var(--line);color:var(--text-2)}
+.tag.staff{border-color:var(--lamp);color:var(--lamp)}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+
+/* buttons */
+.btn{font:inherit;font-size:14.5px;line-height:1.3;padding:8px 14px;border-radius:10px;border:1px solid var(--lamp);
+  background:var(--lamp-soft);color:#FFE6BF;cursor:pointer;white-space:nowrap;min-height:40px}
+.btn:hover{background:rgba(243,181,98,.24)}
+.btn:disabled{opacity:.6;cursor:default}
+.btn.solid{background:var(--lamp);color:var(--lamp-ink);border-color:var(--lamp)}
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+.dl[hidden]{display:none!important}
+
+/* posters: four A4 sheets */
+.posters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.poster{display:flex;flex-direction:column;gap:10px;margin:0}
+.poster img{display:block;width:100%;max-width:100%;aspect-ratio:794/1123;object-fit:cover;border-radius:6px;
+  border:1px solid var(--line);background:var(--counter)}
+.poster figcaption{display:flex;flex-direction:column;gap:6px;font-size:15px}
+.poster figcaption small{font-size:13.5px;color:var(--text-2)}
+
+/* the teaser */
+.player{display:flex;flex-direction:column;gap:12px}
+video{display:block;width:100%;max-width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;border:1px solid var(--line)}
+.versions{display:flex;flex-wrap:wrap;gap:8px}
+.ver{font:inherit;font-size:14.5px;padding:7px 14px;min-height:40px;border-radius:999px;border:1px solid var(--line);
+  background:var(--counter);color:var(--text);cursor:pointer}
+.ver[aria-pressed="true"]{background:var(--lamp);border-color:var(--lamp);color:var(--lamp-ink)}
+
+
+.toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);
+  max-width:calc(100% - 32px);padding:10px 16px;border-radius:12px;background:var(--paper);color:var(--ink);font-size:14.5px;
+  box-shadow:0 8px 24px rgba(0,0,0,.45)}
+footer{font-size:13.5px;color:var(--text-2)}
+
+@media (max-width:560px){
+  .top h1{font-size:28px}
+  .row{grid-template-columns:minmax(0,1fr)}
+  .side{align-items:flex-start;flex-direction:row;flex-wrap:wrap;gap:8px}
+  .posters{gap:12px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+a.btn{display:inline-flex;align-items:center;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <span class="sign">Lucy’s Reading Booth</span>
+    <h1>Lucy 小攤檔案櫃</h1>
+    <p class="lede">閱讀小攤目前所有最新版的頁面和檔案，2026 年 10 月 28 日整理。</p>
+    <ul class="facts" aria-label="小攤現況">
+      <li>書單 <b>1,354</b> 本</li>
+    </ul>
+  </header>
+
+  <section aria-labelledby="h-live">
+    <div class="drawer"><h2 id="h-live">線上頁面</h2><p>點開就是現在大家看到的版本</p></div>
+    <ul class="rows">
+      <li class="row"><div class="what"><h3>閱讀小攤<span class="tag">讀者</span></h3>
+        <p>選心情、想法和想讀多少，Lucy 挑三本書。頁尾註明 Lucy 是 Claude。</p>
+        <a class="url" href="https://lucy-reading-booth.pages.dev/" target="_blank" rel="noopener">lucy-reading-booth.pages.dev</a></div></li>
+      <li class="row"><div class="what"><h3>冬令企劃<span class="tag">讀者</span></h3>
+        <p>冬令活動頁和常見問答，冬令海報的 QR code 連到這裡。</p>
+        <a class="url" href="https://lucy-reading-booth.pages.dev/winter/" target="_blank" rel="noopener">lucy-reading-booth.pages.dev/winter/</a></div></li>
+      <li class="row"><div class="what"><h3>小攤預告<span class="tag">讀者</span></h3>
+        <p>約 22 秒的預告動畫，可以暫停或關掉聲音。</p>
+        <a class="url" href="https://lucy-reading-booth.pages.dev/teaser/" target="_blank" rel="noopener">lucy-reading-booth.pages.dev/teaser/</a></div></li>
+      <li class="row"><div class="what"><h3>推薦書查詢<span class="tag staff">櫃台・員工用</span></h3>
+        <p>刷條碼或打書名、索書號，就知道是不是 Lucy 推薦書。不對外公開連結。</p>
+        <a class="url" href="https://lucy-reading-booth.pages.dev/counter/" target="_blank" rel="noopener">lucy-reading-booth.pages.dev/counter/</a></div></li>
+      <li class="row"><div class="what"><h3>抽獎券已領名單<span class="tag staff">櫃台・員工用</span></h3>
+        <p>登記誰已經領過抽獎券。名單只存在櫃台電腦，不會上傳。</p>
+        <a class="url" href="https://lucy-reading-booth.pages.dev/counter/list/" target="_blank" rel="noopener">lucy-reading-booth.pages.dev/counter/list/</a></div></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-posters">
+    <div class="drawer"><h2 id="h-posters">海報</h2><p>A4，可直接列印</p></div>
+    <div class="posters">
+      <figure class="poster"><img src="files/poster-winter-dark.png" alt="冬令海報深色版：天冷了，來小攤坐一下，附 QR code" loading="lazy">
+        <figcaption>冬令海報・深色<small>QR code 連到冬令企劃頁</small>
+          <span class="btns"><a class="btn" href="files/poster-winter-dark.pdf" download="冬令海報_深色.pdf">下載 PDF</a><a class="btn" href="files/poster-winter-dark.png" download="冬令海報_深色.png">下載圖片</a></span></figcaption></figure>
+      <figure class="poster"><img src="files/poster-winter-light.png" alt="冬令海報淺色版：天冷了，來小攤坐一下，附 QR code" loading="lazy">
+        <figcaption>冬令海報・淺色<small>QR code 連到冬令企劃頁</small>
+          <span class="btns"><a class="btn" href="files/poster-winter-light.pdf" download="冬令海報_淺色.pdf">下載 PDF</a><a class="btn" href="files/poster-winter-light.png" download="冬令海報_淺色.png">下載圖片</a></span></figcaption></figure>
+      <figure class="poster"><img src="files/poster-lottery-dark.png" alt="借書抽獎海報深色版：挑書交給 Lucy，借書就能抽獎，附 QR code" loading="lazy">
+        <figcaption>借書抽獎海報・深色<small>QR code 連到閱讀小攤；「小攤裡的 1,354 本書都算」</small>
+          <span class="btns"><a class="btn" href="files/poster-lottery-dark.pdf" download="借書抽獎海報_深色.pdf">下載 PDF</a><a class="btn" href="files/poster-lottery-dark.png" download="借書抽獎海報_深色.png">下載圖片</a></span></figcaption></figure>
+      <figure class="poster"><img src="files/poster-lottery-light.png" alt="借書抽獎海報淺色版：挑書交給 Lucy，借書就能抽獎，附 QR code" loading="lazy">
+        <figcaption>借書抽獎海報・淺色<small>QR code 連到閱讀小攤；「小攤裡的 1,354 本書都算」</small>
+          <span class="btns"><a class="btn" href="files/poster-lottery-light.pdf" download="借書抽獎海報_淺色.pdf">下載 PDF</a><a class="btn" href="files/poster-lottery-light.png" download="借書抽獎海報_淺色.png">下載圖片</a></span></figcaption></figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-teaser">
+    <div class="drawer"><h2 id="h-teaser">預告影片</h2><p>三個版本，內容相同</p></div>
+    <div class="player">
+      <video id="teaser" controls playsinline preload="metadata" src="files/teaser.mp4"></video>
+      <div class="versions" role="group" aria-label="影片版本">
+        <button class="ver" type="button" aria-pressed="true" data-src="teaser.mp4" data-name="Lucy小攤預告.mp4">有配樂</button>
+        <button class="ver" type="button" aria-pressed="false" data-src="teaser-sfx.mp4" data-name="Lucy小攤預告_無配樂有音效.mp4">無配樂、有音效</button>
+        <button class="ver" type="button" aria-pressed="false" data-src="teaser-silent.mp4" data-name="Lucy小攤預告_無聲.mp4">無聲</button>
+      </div>
+      <div class="btns"><a class="btn" id="dl-video" href="files/teaser.mp4" download="Lucy小攤預告.mp4">下載這個版本</a></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-counter">
+    <div class="drawer"><h2 id="h-counter">櫃台離線版</h2><p>放在櫃台電腦，雙擊就能開，不必連網</p></div>
+    <ul class="rows">
+      <li class="row"><div class="what"><h3>Lucy推薦書查詢_櫃台離線版.html<span class="tag staff">已更新</span></h3>
+        <p>和線上的推薦書查詢相同，1,354 本、每一冊的條碼都在裡面。</p></div>
+        <div class="side"><span class="meta">10/28・0.2 MB</span><a class="btn" href="files/counter-offline.html" download="Lucy推薦書查詢_櫃台離線版.html">下載</a></div></li>
+      <li class="row"><div class="what"><h3>Lucy抽獎券已領名單_櫃台離線版.html</h3>
+        <p>登記誰已經領過抽獎券；名單只存在這台電腦。</p></div>
+        <div class="side"><span class="meta">10/28・0.03 MB</span><a class="btn" href="files/ticket-list-offline.html" download="Lucy抽獎券已領名單_櫃台離線版.html">下載</a></div></li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="h-print">
+    <div class="drawer"><h2 id="h-print">印刷品</h2><p>PDF，海報在上面</p></div>
+    <ul class="rows">
+      <li class="row"><div class="what"><h3>Lucy抽獎券_0001-0300.pdf</h3><p>抽獎券 300 張，編號 0001 到 0300，一聯投箱、一聯自留。</p></div>
+        <div class="side"><span class="meta">10/24・2.1 MB</span><a class="btn" href="files/tickets.pdf" download="Lucy抽獎券_0001-0300.pdf">下載</a></div></li>
+    </ul>
+  </section>
+
+  <footer>台南市立醫院圖書館・Lucy 的閱讀小攤</footer>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  // the teaser: three versions of the same film; the download link follows the version shown
+  var video = document.getElementById('teaser'), dl = document.getElementById('dl-video');
+  Array.prototype.forEach.call(document.querySelectorAll('.ver'), function(b){
+    b.addEventListener('click', function(){
+      Array.prototype.forEach.call(document.querySelectorAll('.ver'), function(x){ x.setAttribute('aria-pressed', String(x === b)); });
+      video.src = 'files/' + b.getAttribute('data-src');
+      dl.setAttribute('href', 'files/' + b.getAttribute('data-src'));
+      dl.setAttribute('download', b.getAttribute('data-name'));
+    });
+  });
+})();
+</script>
+</body>
+</html>
